@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kevinhksouth",
+			"Simon Shek"
+		]
+	},
+	"citoid-desc": "這是一個示例擴展",
+	"citoid-i18n-welcome": "歡迎使用 Citoid 擴充套件的本地語系檔案。"
+}

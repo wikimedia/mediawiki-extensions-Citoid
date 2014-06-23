@@ -1,0 +1,7 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"citoid-desc": "This a companion extension to the Citoid service",
+	"citoid-i18n-welcome": "Welcome to the localization file of the Citoid extension."
+}

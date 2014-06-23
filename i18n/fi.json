@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nedergard",
+			"Nike",
+			"VezonThunder"
+		]
+	},
+	"citoid-desc": "Tämä on esimerkkilaajennus",
+	"citoid-i18n-welcome": "Tervetuloa Citoid-laajennuksen lokalisointitiedostoon."
+}

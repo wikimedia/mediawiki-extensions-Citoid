@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Base"
+		]
+	},
+	"citoid-desc": "Це приклад розширення",
+	"citoid-i18n-welcome": "Ласкаво просимо до файлу локалізації  розширення Citoid extension."
+}

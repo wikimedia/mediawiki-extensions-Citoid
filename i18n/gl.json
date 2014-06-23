@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"citoid-desc": "Esta é unha extensión de exemplo",
+	"citoid-i18n-welcome": "Dámoslle a benvida ao ficheiro de localización da extensión Citoid."
+}

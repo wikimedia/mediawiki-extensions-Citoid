@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"AvatarTeam",
+			"SPQRobin"
+		]
+	},
+	"citoid-desc": "Dit is een voorbeeld van de uitbreiding",
+	"citoid-i18n-welcome": "Welkom bij het lokalisatiebestand van de Citoid-uitbreiding."
+}

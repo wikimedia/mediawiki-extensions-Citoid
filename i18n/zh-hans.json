@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hydra",
+			"Hudafu"
+		]
+	},
+	"citoid-desc": "这是一个示例扩展程序",
+	"citoid-i18n-welcome": "欢迎来到Citoid扩展程序的本地化文件。"
+}
