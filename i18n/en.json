@@ -2,6 +2,11 @@
 	"@metadata": {
 		"authors": []
 	},
-	"citoid-desc": "This a companion extension to the Citoid service",
-	"citoid-i18n-welcome": "Welcome to the localization file of the Citoid extension."
+	"citoid-desc": "TODO",
+	"citoid-citeFromURLDialog-search-placeholder": "Enter URL here (i.e. http://mediawiki.org)",
+	"citoid-citeFromURLDialog-search-label": "URL: ",
+	"citoid-citeFromURLDialog-search": "Search",
+	"citoid-citeFromURLDialog-search-progress": "Searching, please wait...",
+	"citoid-citeFromURLTool-title": "Cite by URL",
+	"citoid-citeFromURLDialog-title": "Autofill citations by URL with citoid"
 }
