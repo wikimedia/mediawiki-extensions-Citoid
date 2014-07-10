@@ -11,79 +11,12 @@ mw.loader.using( 'ext.visualEditor.mwtransclusion', function () {
 
 	/* Static Properties */
 	ve.ui.CiteFromURLDialog.static.name = 'citefromurl';
-	ve.ui.CiteFromURLDialog.static.title = ve.msg( 'citoid-citeFromURLDialog-title' );
+	ve.ui.CiteFromURLDialog.static.title = mw.msg( 'citoid-citeFromURLDialog-title' );
 
-	ve.ui.CiteFromURLDialog.prototype.initialize = function () {
-		ve.ui.CiteFromURLDialog.super.prototype.initialize.call( this );
-		//this.bookletLayout.clearPages();
-
-		this.searchInput = new OO.ui.TextInputWidget( {
-			'$': this.$,
-			'multiline': false,
-			'placeholder': ve.msg( 'citoid-citeFromURLDialog-search-placeholder' )
-		} );
-
-		this.searchInput.on( 'change', function () {
-			this.applyButton.setDisabled( this.searchInput.getValue().length === 0 );
-		}, [], this );
-
-		//temp hack for autofill case :(
-		this.searchInput.on( 'click', function () {
-			this.applyButton.setDisabled( this.searchInput.getValue().length === 0 );
-		}, [], this );
-
-		var panel = new OO.ui.PanelLayout( { '$': this.$, 'scrollable': true, 'padded': true, 'autocomplete': false } ),
-			inputsFieldset = new OO.ui.FieldsetLayout( {
-				'$': this.$
-			} ),
-
-			searchField = new OO.ui.FieldLayout( this.searchInput, {
-				'$': this.$,
-				'label': ve.msg( 'citoid-citeFromURLDialog-search-label' )
-			} );
-
-		inputsFieldset.$element.append(
-			searchField.$element
-		);
-		panel.$element.append( inputsFieldset.$element );
-		this.$body.append( panel.$element );
-	};
-
-	//ve.ui.CiteFromURLDialog.prototype.getPageFromPart = function () {
-	//	return new ve.ui.CiteFromURLDialogPage( { '$': this.$ } );
-	//};
-
-	ve.ui.CiteFromURLDialog.prototype.getApplyButtonLabel = function () {
-		return ve.msg( 'citoid-citeFromURLDialog-search' );
-	};
-
-	ve.ui.CiteFromURLDialog.prototype.applyChanges = function () {
-		var deferred = $.Deferred();
-		//var dialog = this
-		$.ajax( {
-			beforeSend: function (request) {
-				request.setRequestHeader( 'Content-Type', 'application/json' );
-			},
-			url: 'http://citoid.wmflabs.org/url',
-			type: 'POST',
-			data: JSON.stringify( { url: this.searchInput.getValue() } ),
-			dataType: 'json',
-			success: ve.bind( function ( result ) {
-				deferred.resolve( result );
-			}, this ),
-			failure: function () {
-				deferred.reject( ['ow', 'owagain'] );
-			}
-		} );
-
-		return deferred.promise();
-	};
-
-	ve.ui.CiteFromURLDialog.prototype.onApplyChangesDone = function ( searchResults ) {
-		ve.ui.CiteFromURLDialog.super.prototype.onApplyChangesDone.call( this );
+	ve.ui.CiteFromURLDialog.prototype.getPlainObject = function ( searchResults ) {
 
 		var content, plainObject,
-			citation = $.parseJSON( JSON.stringify( searchResults ) )[0], //uses the first citation result for the time being
+			citation = jQuery.parseJSON( JSON.stringify( searchResults ) )[0], //uses the first citation result for the time being
 
 			//Parameter map for Template:Citation on en-wiki
 			//In the format citation-template-field:citoid-field
@@ -143,6 +76,61 @@ mw.loader.using( 'ext.visualEditor.mwtransclusion', function () {
 		];
 
 		this.getFragment().insertContent( content );
+	};
+
+	ve.ui.CiteFromURLDialog.prototype.initialize = function () {
+		ve.ui.CiteFromURLDialog.super.prototype.initialize.call( this );
+		this.searchInput = new OO.ui.TextInputWidget( {
+			'$': this.$,
+			'multiline': false,
+			'placeholder': mw.msg( 'citoid-citeFromURLDialog-search-placeholder' )
+		} );
+		var panel = new OO.ui.PanelLayout( { '$': this.$, 'scrollable': true, 'padded': true } ),
+			inputsFieldset = new OO.ui.FieldsetLayout( {
+				'$': this.$
+			} ),
+			//input search
+
+			searchField = new OO.ui.FieldLayout( this.searchInput, {
+				'$': this.$,
+				'label': mw.msg( 'citoid-citeFromURLDialog-search-label' )
+			} ),
+
+			// execution buttons
+			citeFromURLSearchButton = new OO.ui.ButtonWidget({
+				'label': mw.msg('citoid-citeFromURLDialog-search'),
+				'flags': ['constructive']
+			} ).connect( this, { 'click': this.citeFromURLSearchButtonClick } );
+
+		inputsFieldset.$element.append(
+			searchField.$element
+		);
+		panel.$element.append( inputsFieldset.$element );
+		this.$body.append( panel.$element );
+		this.$foot.append( citeFromURLSearchButton.$element );
+
+	};
+
+	ve.ui.CiteFromURLDialog.prototype.citeFromURLSearchButtonClick = function () {
+		this.pushPending();
+		//var dialog = this;
+		$.ajax( {
+			beforeSend: function (request) {
+				request.setRequestHeader('Content-Type', 'application/json');
+			},
+			url: 'http://citoid.wmflabs.org/url',
+			type: 'POST',
+			data: JSON.stringify( { url: this.searchInput.getValue() } ),
+			dataType: 'json',
+			success: ve.bind( function ( result ) {
+				this.getPlainObject( result );
+				this.close();
+			}, this ),
+			failure: function () {
+				window.alert( 'something terrible has happened' );
+			},
+			always: ve.bind( this.popPending, this )
+		} );
 	};
 
 	ve.ui.windowFactory.register( ve.ui.CiteFromURLDialog );
