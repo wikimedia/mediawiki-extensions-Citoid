@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": []
 	},
-	"citoid-desc": "TODO",
-	"citoid-citeFromURLDialog-search-placeholder": "Enter URL here (i.e. http://mediawiki.org)",
-	"citoid-citeFromURLDialog-search-label": "URL: ",
+	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
+	"citoid-citeFromURLDialog-search-placeholder": "Enter URL to cite (i.e. http://www.example.com)",
+	"citoid-citeFromURLDialog-search-label": "Cite URL: ",
 	"citoid-citeFromURLDialog-search": "Search",
 	"citoid-citeFromURLDialog-search-progress": "Searching, please wait...",
 	"citoid-citeFromURLTool-title": "Cite by URL",

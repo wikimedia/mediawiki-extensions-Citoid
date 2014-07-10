@@ -1,9 +1,12 @@
 {
 	"@metadata": {
-		"authors": [
-			"Shirayuki"
-		]
+		"authors": []
 	},
-	"citoid-desc": "{{desc|name=Boilerplate|url=http://www.mediawiki.org/wiki/Extension:Boilerplate}}",
-	"citoid-i18n-welcome": "Used to greet the user when reading the .i18n.php file."
+	"citoid-desc": "{{desc|name=Citoid|url=http://www.mediawiki.org/wiki/Citoid}}",
+	"citoid-citeFromURLDialog-search-placeholder": "Placeholder for the URL search field.",
+	"citoid-citeFromURLDialog-search-label": "Label for the URL search field.",
+	"citoid-citeFromURLDialog-search": "Text for the search button.",
+	"citoid-citeFromURLDialog-search-progress": "Message for when the search is in progress",
+	"citoid-citeFromURLTool-title": "What the dialog is called in the menu",
+	"citoid-citeFromURLDialog-title": "The title displayed on the dialog"
 }
