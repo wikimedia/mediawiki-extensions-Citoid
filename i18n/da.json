@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Hylle"
-		]
-	},
-	"citoid-desc": "Dette er et eksempel på en udvidelse",
-	"citoid-i18n-welcome": "Velkommen til lokaliseringsdelen af Citoid udvidelsen."
-}

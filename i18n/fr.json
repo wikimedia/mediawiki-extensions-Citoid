@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Gomoko"
-		]
-	},
-	"citoid-desc": "Voici un exemple d'extension",
-	"citoid-i18n-welcome": "Bienvenue dans le fichier de localisation de l'extension citoid."
-}

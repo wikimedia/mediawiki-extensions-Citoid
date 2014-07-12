@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"DCamer"
-		]
-	},
-	"citoid-desc": "Это пример расширения",
-	"citoid-i18n-welcome": "Добро пожаловать в файл локализации расширения Citoid."
-}
