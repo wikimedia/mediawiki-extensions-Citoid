@@ -1,5 +1,9 @@
-mw.loader.using( 'ext.visualEditor.mwtransclusion', function () {
+mw.loader.using( 'ext.visualEditor.mwreference', function () {
 
+	/**
+	 * [CiteFromURLDialog description]
+	 * @param {[type]} config [description]
+	 */
 	ve.ui.CiteFromURLDialog = function VeUiCiteFromURLDialog( config ) {
 		// Parent constructor
 		config = ve.extendObject( { 'size': 'medium' }, config );
@@ -7,15 +11,20 @@ mw.loader.using( 'ext.visualEditor.mwtransclusion', function () {
 	};
 
 	/* Inheritance */
-	OO.inheritClass( ve.ui.CiteFromURLDialog, ve.ui.MWTemplateDialog );
+	OO.inheritClass( ve.ui.CiteFromURLDialog, ve.ui.MWCitationDialog );
 
 	/* Static Properties */
 	ve.ui.CiteFromURLDialog.static.name = 'citefromurl';
 	ve.ui.CiteFromURLDialog.static.title = mw.msg( 'citoid-citeFromURLDialog-title' );
 
+	/**
+	 * [getPlainObject description]
+	 * @param  {[type]} searchResults [description]
+	 * @return {[type]}               [description]
+	 */
 	ve.ui.CiteFromURLDialog.prototype.getPlainObject = function ( searchResults ) {
 
-		var content, plainObject,
+		var content, plainObject, d,
 			citation = jQuery.parseJSON( JSON.stringify( searchResults ) )[0], //uses the first citation result for the time being
 
 			//Parameter map for Template:Citation on en-wiki
@@ -52,6 +61,9 @@ mw.loader.using( 'ext.visualEditor.mwtransclusion', function () {
 			paramObj[key] = { 'wt': objString };
 		} );
 
+		d = new Date();
+		paramObj.accessdate = { 'wt': d.toDateString() };
+
 		plainObject = { //before paren put get plain object
 			'parts': [ {
 
@@ -75,11 +87,16 @@ mw.loader.using( 'ext.visualEditor.mwtransclusion', function () {
 			{ 'type': '/mwTransclusionInline' }
 		];
 
-		this.getFragment().insertContent( content );
+		//this.getFragment().insertContent( content );
+		return content;
 	};
 
+	/**
+	 * [initialize description]
+	 * @return {[type]} [description]
+	 */
 	ve.ui.CiteFromURLDialog.prototype.initialize = function () {
-		ve.ui.CiteFromURLDialog.super.prototype.initialize.call( this );
+		ve.ui.CiteFromURLDialog.super.super.prototype.initialize.call( this );
 		this.searchInput = new OO.ui.TextInputWidget( {
 			'$': this.$,
 			'multiline': false,
@@ -111,9 +128,15 @@ mw.loader.using( 'ext.visualEditor.mwtransclusion', function () {
 
 	};
 
+	/**
+	 * [citeFromURLSearchButtonClick description]
+	 * @return {[type]} [description]
+	 */
 	ve.ui.CiteFromURLDialog.prototype.citeFromURLSearchButtonClick = function () {
+
 		this.pushPending();
-		//var dialog = this;
+		var that = this;
+
 		$.ajax( {
 			beforeSend: function (request) {
 				request.setRequestHeader('Content-Type', 'application/json');
@@ -122,14 +145,49 @@ mw.loader.using( 'ext.visualEditor.mwtransclusion', function () {
 			type: 'POST',
 			data: JSON.stringify( { url: this.searchInput.getValue() } ),
 			dataType: 'json',
-			success: ve.bind( function ( result ) {
-				this.getPlainObject( result );
-				this.close();
-			}, this ),
-			failure: function () {
-				window.alert( 'something terrible has happened' );
+			success: function ( result ) {
+				that.close();
+
+				var item,
+					surfaceModel = that.getFragment().getSurface(),
+					doc = surfaceModel.getDocument(),
+					internalList = doc.getInternalList();
+
+				//sets up referencemodel with blank stuff
+				if ( !that.referenceModel ) {
+					// Collapse returns a new fragment, so update this.fragment
+					that.fragment = that.getFragment().collapseRangeToEnd();
+					that.referenceModel = new ve.dm.MWReferenceModel();
+					that.referenceModel.insertInternalItem( surfaceModel );
+					that.referenceModel.insertReferenceNode( that.getFragment() );
+				}
+				//gets bank stuff again
+				item = that.referenceModel.findInternalItem( surfaceModel );
+				if ( item ) {
+					//actually inserts full transclusion model here!
+					that.getFragment().clone( item.getChildren()[0].getRange()).insertContent(that.getPlainObject( result ) );
+				}
+
+				// HACK: Scorch the earth - this is only needed because without it, the reference list won't
+				// re-render properly, and can be removed once someone fixes that
+				that.referenceModel.setDocument(
+					doc.cloneFromRange(
+						internalList.getItemNode( that.referenceModel.getListIndex() ).getRange()
+					)
+				);
+
+				that.referenceModel.updateInternalItem( surfaceModel );
+
+				//hack- doesn't seem to be working in always
+				that.popPending();
 			},
-			always: ve.bind( this.popPending, this )
+			error: function ( XMLHttpRequest, textStatus, errorThrown) {
+				that.popPending();
+				mw.notify( 'Status:'  + textStatus +  'Error: ' + errorThrown );
+			},
+			always: function () {
+				that.popPending();
+			}
 		} );
 	};
 
