@@ -4,10 +4,10 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 	 * [CiteFromURLDialog description]
 	 * @param {[type]} config [description]
 	 */
-	ve.ui.CiteFromURLDialog = function VeUiCiteFromURLDialog( config ) {
+	ve.ui.CiteFromURLDialog = function VeUiCiteFromURLDialog( manager, config ) {
 		// Parent constructor
 		config = ve.extendObject( { 'size': 'medium' }, config );
-		ve.ui.CiteFromURLDialog.super.call( this, config );
+		ve.ui.CiteFromURLDialog.super.call( this, manager, config );
 	};
 
 	/* Inheritance */
