@@ -24,12 +24,48 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 	 */
 	ve.ui.CiteFromURLDialog.prototype.getPlainObject = function ( searchResults ) {
 
-		var content, plainObject, d,
+		var content, plainObject, d, templateHref, templateName,
 			citation = jQuery.parseJSON( JSON.stringify( searchResults ) )[0], //uses the first citation result for the time being
+
+			templateTypeMap = {
+				book: 'Cite book',
+				bookSection: 'Cite book',
+				journalArticle: 'Cite journal',
+				magazineArticle: 'Cite news',
+				newspaperArticle: 'Cite news',
+				thesis: 'Cite journal',
+				letter: 'Citation',
+				manuscript: 'Cite book',
+				interview: 'Citation',
+				film: 'Citation',
+				artwork: 'Citation',
+				webpage: 'Cite web',
+				report: 'Cite journal',
+				bill: 'Citation',
+				hearing: 'Citation',
+				patent: 'Citation',
+				statute: 'Citation',
+				email: 'Cite web',
+				map: 'Citation',
+				blogPost: 'Cite web',
+				instantMessage: 'Citation',
+				forumPost: 'Cite web',
+				audioRecording: 'Citation',
+				presentation: 'Cite journal',
+				videoRecording: 'Citation',
+				tvBroadcast: 'Citation',
+				radioBroadcast: 'Citation',
+				podcast: 'Citation',
+				computerProgram: 'Citation',
+				conferencePaper: 'Cite journal',
+				'document': 'Citation',
+				encyclopediaArticle: 'Cite journal',
+				dictionaryEntry: 'Cite journal'
+			},
 
 			//Parameter map for Template:Citation on en-wiki
 			//In the format citation-template-field:citoid-field
-			paramMap = {
+			citationParams = {
 				'first1': 'author1-first',
 				'last1': 'author1-last',
 				'first2': 'author2-first',
@@ -38,25 +74,136 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 				'last3': 'author3-last',
 				'first4': 'author4-first',
 				'last4': 'author4-last',
+			//	'accessdate': 'accessDate',
 				'title': 'title',
 				'url': 'url',
 				'publisher': 'publisher',
-			//	'accessdate': 'accessDate',
+				//a large number of Zotero types have the field publicationTitle
+				//however, in setting journal to publicationTitle, the citation
+				//will be formatted as a journal article, which may not always be
+				//desirable.
+				'journal': 'publicationTitle',
 			//	'newspaper': 'publicationTitle',
 				'date': 'date',
 				'location': 'place',
 				'issn': 'ISSN',
 				'isbn': 'ISBN',
 				'pages': 'pages',
-				'journal': 'publicationTitle',
 				'volume': 'volume',
 				'series': 'series',
 				'issue': 'issue',
 				'doi': 'DOI'
 			},
+
+			webParams = {
+				'first1': 'author1-first',
+				'last1': 'author1-last',
+				'first2': 'author2-first',
+				'last2': 'author2-last',
+				'first3': 'author3-first',
+				'last3': 'author3-last',
+				'first4': 'author4-first',
+				'last4': 'author4-last',
+			//	'accessdate': 'accessDate',
+				'title': 'title',
+				'url': 'url',
+				'date': 'date',
+				'publisher': 'publisher',
+				'website': 'publicationTitle'
+			},
+
+			newsParams = {
+				'first1': 'author1-first',
+				'last1': 'author1-last',
+				'first2': 'author2-first',
+				'last2': 'author2-last',
+				'first3': 'author3-first',
+				'last3': 'author3-last',
+				'first4': 'author4-first',
+				'last4': 'author4-last',
+			//	'accessdate': 'accessDate',
+				'title': 'title',
+				'url': 'url',
+				'publisher': 'publisher',
+				'newspaper': 'publicationTitle',
+				'date': 'date',
+				'location': 'place',
+				'issn': 'ISSN',
+				'isbn': 'ISBN',
+				'pages': 'pages',
+				'volume': 'volume',
+				'series': 'series',
+				'issue': 'issue',
+				'doi': 'DOI'
+			},
+
+			bookParams = {
+				'first1': 'author1-first',
+				'last1': 'author1-last',
+				'first2': 'author2-first',
+				'last2': 'author2-last',
+				'first3': 'author3-first',
+				'last3': 'author3-last',
+				'first4': 'author4-first',
+				'last4': 'author4-last',
+			//	'accessdate': 'accessDate',
+				'title': 'title',
+				'url': 'url',
+				'publisher': 'publisher',
+				'journal': 'publicationTitle',
+				'date': 'date',
+				'location': 'place',
+				'issn': 'ISSN',
+				'isbn': 'ISBN',
+				'pages': 'pages',
+				'volume': 'volume',
+				'series': 'series',
+				'issue': 'issue',
+				'doi': 'DOI'
+			},
+
+			journalParams = {
+				'first1': 'author1-first',
+				'last1': 'author1-last',
+				'first2': 'author2-first',
+				'last2': 'author2-last',
+				'first3': 'author3-first',
+				'last3': 'author3-last',
+				'first4': 'author4-first',
+				'last4': 'author4-last',
+			//	'accessdate': 'accessDate',
+				'title': 'title',
+				'url': 'url',
+				'publisher': 'publisher',
+				'journal': 'publicationTitle',
+				'date': 'date',
+				'location': 'place',
+				'issn': 'ISSN',
+				'isbn': 'ISBN',
+				'pages': 'pages',
+				'volume': 'volume',
+				'series': 'series',
+				'issue': 'issue',
+				'doi': 'DOI'
+			},
+
+			//format 'template name':parameter obj name
+			templateParamMap = {
+				'Citation': citationParams,
+				'Cite web': webParams,
+				'Cite news': newsParams,
+				'Cite journal': journalParams,
+				'Cite book': bookParams
+			},
+
+			//This will contain the correct template with the fields filled out
 			paramObj = {};
 
-		$.each( paramMap, function ( key, value ) {
+		templateName = templateTypeMap[citation.itemType];
+
+		templateHref = 'Template:' + templateName;
+
+		$.each( templateParamMap[templateName], function ( key, value ) {
 			var objString = citation[value] !== undefined ? citation[value] : '';
 			paramObj[key] = { 'wt': objString };
 		} );
@@ -69,8 +216,8 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 
 				'template': {
 					'target': {
-						'href': 'Template:Citation',
-						'wt': 'citation'
+						'href': templateHref,
+						'wt': templateName.toLowerCase()
 					},
 					'params': paramObj
 				}
@@ -96,7 +243,16 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 	 * @return {[type]} [description]
 	 */
 	ve.ui.CiteFromURLDialog.prototype.initialize = function () {
-		ve.ui.CiteFromURLDialog.super.super.prototype.initialize.call( this );
+		ve.ui.CiteFromURLDialog.super.super.super.prototype.initialize.call( this );
+
+		//not actually using this//hack for inheriting from mwtemplatedialog
+		this.bookletLayout = new OO.ui.BookletLayout(
+			ve.extendObject(
+				{ '$': this.$ },
+				this.constructor.static.bookletLayoutConfig
+			)
+		);
+
 		this.searchInput = new OO.ui.TextInputWidget( {
 			'$': this.$,
 			'multiline': false,
