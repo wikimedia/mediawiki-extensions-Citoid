@@ -18,9 +18,9 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 	ve.ui.CiteFromURLDialog.static.title = mw.msg( 'citoid-citeFromURLDialog-title' );
 
 	/**
-	 * [getPlainObject description]
-	 * @param  {[type]} searchResults [description]
-	 * @return {[type]}               [description]
+	 * Returns full template given search results
+	 * @param  {Object} searchResults json response object
+	 * @return {Object}               filled in template
 	 */
 	ve.ui.CiteFromURLDialog.prototype.getPlainObject = function ( searchResults ) {
 
@@ -267,84 +267,97 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 			searchField = new OO.ui.FieldLayout( this.searchInput, {
 				'$': this.$,
 				'label': mw.msg( 'citoid-citeFromURLDialog-search-label' )
-			} ),
-
-			// execution buttons
-			citeFromURLSearchButton = new OO.ui.ButtonWidget({
-				'label': mw.msg('citoid-citeFromURLDialog-search'),
-				'flags': ['constructive']
-			} ).connect( this, { 'click': this.citeFromURLSearchButtonClick } );
+			} );
 
 		inputsFieldset.$element.append(
 			searchField.$element
 		);
 		panel.$element.append( inputsFieldset.$element );
 		this.$body.append( panel.$element );
-		this.$foot.append( citeFromURLSearchButton.$element );
 
 	};
 
 	/**
-	 * [citeFromURLSearchButtonClick description]
+	 * Action for insert citation button
+	 * @param  {[type]} action [description]
+	 * @return {[type]}        [description]
+	 */
+	ve.ui.CiteFromURLDialog.prototype.getActionProcess = function ( action ) {
+		if ( action === 'apply' || action === 'insert' ) {
+			return new OO.ui.Process( function () {
+
+				this.pushPending();
+				var that = this;
+
+				$.ajax( {
+					beforeSend: function (request) {
+						request.setRequestHeader('Content-Type', 'application/json');
+					},
+					url: 'https://citoid.wmflabs.org/url',
+					type: 'POST',
+					data: JSON.stringify( { url: this.searchInput.getValue() } ),
+					dataType: 'json',
+					success: function ( result ) {
+						that.close();
+
+						var item,
+							surfaceModel = that.getFragment().getSurface(),
+							doc = surfaceModel.getDocument(),
+							internalList = doc.getInternalList();
+
+						//sets up referencemodel with blank stuff
+						if ( !that.referenceModel ) {
+							// Collapse returns a new fragment, so update this.fragment
+							that.fragment = that.getFragment().collapseRangeToEnd();
+							that.referenceModel = new ve.dm.MWReferenceModel();
+							that.referenceModel.insertInternalItem( surfaceModel );
+							that.referenceModel.insertReferenceNode( that.getFragment() );
+						}
+						//gets bank stuff again
+						item = that.referenceModel.findInternalItem( surfaceModel );
+						if ( item ) {
+							//actually inserts full transclusion model here!
+							that.getFragment().clone( item.getChildren()[0].getRange()).insertContent(that.getPlainObject( result ) );
+						}
+
+						// HACK: Scorch the earth - this is only needed because without it, the reference list won't
+						// re-render properly, and can be removed once someone fixes that
+						that.referenceModel.setDocument(
+							doc.cloneFromRange(
+								internalList.getItemNode( that.referenceModel.getListIndex() ).getRange()
+							)
+						);
+
+						that.referenceModel.updateInternalItem( surfaceModel );
+
+						//hack- doesn't seem to be working in always
+						that.popPending();
+					},
+					error: function ( XMLHttpRequest, textStatus, errorThrown) {
+						that.popPending();
+						mw.notify( 'Status:'  + textStatus +  'Error: ' + errorThrown );
+						that.popPending();
+					},
+					always: function () {
+						that.popPending();
+					}
+				} );
+			}, this );
+		}
+
+		// Parent method
+		return ve.ui.CiteFromURLDialog.super.super.prototype.getActionProcess.call( this, action );
+	};
+
+	/**
+	 * [onTransclusionReady description]
 	 * @return {[type]} [description]
 	 */
-	ve.ui.CiteFromURLDialog.prototype.citeFromURLSearchButtonClick = function () {
-
-		this.pushPending();
-		var that = this;
-
-		$.ajax( {
-			beforeSend: function (request) {
-				request.setRequestHeader('Content-Type', 'application/json');
-			},
-			url: 'http://citoid.wmflabs.org/url',
-			type: 'POST',
-			data: JSON.stringify( { url: this.searchInput.getValue() } ),
-			dataType: 'json',
-			success: function ( result ) {
-				that.close();
-
-				var item,
-					surfaceModel = that.getFragment().getSurface(),
-					doc = surfaceModel.getDocument(),
-					internalList = doc.getInternalList();
-
-				//sets up referencemodel with blank stuff
-				if ( !that.referenceModel ) {
-					// Collapse returns a new fragment, so update this.fragment
-					that.fragment = that.getFragment().collapseRangeToEnd();
-					that.referenceModel = new ve.dm.MWReferenceModel();
-					that.referenceModel.insertInternalItem( surfaceModel );
-					that.referenceModel.insertReferenceNode( that.getFragment() );
-				}
-				//gets bank stuff again
-				item = that.referenceModel.findInternalItem( surfaceModel );
-				if ( item ) {
-					//actually inserts full transclusion model here!
-					that.getFragment().clone( item.getChildren()[0].getRange()).insertContent(that.getPlainObject( result ) );
-				}
-
-				// HACK: Scorch the earth - this is only needed because without it, the reference list won't
-				// re-render properly, and can be removed once someone fixes that
-				that.referenceModel.setDocument(
-					doc.cloneFromRange(
-						internalList.getItemNode( that.referenceModel.getListIndex() ).getRange()
-					)
-				);
-
-				that.referenceModel.updateInternalItem( surfaceModel );
-
-				//hack- doesn't seem to be working in always
-				that.popPending();
-			},
-			error: function ( XMLHttpRequest, textStatus, errorThrown) {
-				that.popPending();
-				mw.notify( 'Status:'  + textStatus +  'Error: ' + errorThrown );
-			},
-			always: function () {
-				that.popPending();
-			}
-		} );
+	ve.ui.CiteFromURLDialog.prototype.onTransclusionReady = function () {
+		// Parent method
+		ve.ui.CiteFromURLDialog.super.prototype.onTransclusionReady.call( this );
+		//hack- always enabled for now
+		this.actions.setAbilities( { 'apply': true, 'insert': true } );
 	};
 
 	ve.ui.windowFactory.register( ve.ui.CiteFromURLDialog );
