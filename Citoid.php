@@ -24,24 +24,17 @@ $wgExtensionCredits['other'][] = array(
 /* Setup */
 
 // Register files
-$wgAutoloadClasses['CitoidHooks'] = __DIR__ . '/C.hooks.php';
-//$wgAutoloadClasses['SpecialHelloWorld'] = __DIR__ . '/specials/SpecialHelloWorld.php';
+$wgAutoloadClasses['CitoidHooks'] = __DIR__ . '/Citoid.hooks.php';
 $wgMessagesDirs['Citoid'] = __DIR__ . '/i18n';
-//$wgExtensionMessagesFiles['CitoidAlias'] = __DIR__ . '/Citoid.i18n.alias.php';
 
 // Register hooks
-#$wgHooks['NameOfHook'][] = 'CitoidHooks::onNameOfHook';
-
-// Register special pages
-//$wgSpecialPages['HelloWorld'] = 'SpecialHelloWorld';
-//$wgSpecialPageGroups['HelloWorld'] = 'other';
+$wgHooks['ResourceLoaderGetConfigVars'][] = 'CitoidHooks::onResourceLoaderGetConfigVars';
 
 // Register modules
 $wgResourceModules['ext.Citoid.visualEditor'] = array(
 	'scripts' => array(
 		'modules/ve.ui.CiteFromURLDialogTool.js',
-		'modules/ve.ui.CiteFromURLDialog.js',
-	//	'modules/ve.ui.CiteFromURLDialogPage.js',
+		'modules/ve.ui.CiteFromURLDialog.js'
 	),
 	'styles' => array(
 	),
@@ -62,6 +55,7 @@ $wgVisualEditorPluginModules[] = 'ext.Citoid.visualEditor';
 
 /* Configuration */
 
-// Set Citoid service URL
-// Not currently used
-$wgCitoidServiceURL = 'http://citoid.wmflabs.org/';
+// Requires https protocol to work in FireFox, but
+// Service doesn't need a security cert
+$wgCitoidServiceUrl = 'https://localhost:1970';
+

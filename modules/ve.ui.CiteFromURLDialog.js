@@ -27,41 +27,41 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 		var content, plainObject, d, templateHref, templateName,
 			citation = jQuery.parseJSON( JSON.stringify( searchResults ) )[0], //uses the first citation result for the time being
 
-			templateTypeMap = {
-				book: 'Cite book',
-				bookSection: 'Cite book',
-				journalArticle: 'Cite journal',
-				magazineArticle: 'Cite news',
-				newspaperArticle: 'Cite news',
-				thesis: 'Cite journal',
-				letter: 'Citation',
-				manuscript: 'Cite book',
-				interview: 'Citation',
-				film: 'Citation',
-				artwork: 'Citation',
-				webpage: 'Cite web',
-				report: 'Cite journal',
-				bill: 'Citation',
-				hearing: 'Citation',
-				patent: 'Citation',
-				statute: 'Citation',
-				email: 'Cite web',
-				map: 'Citation',
-				blogPost: 'Cite web',
-				instantMessage: 'Citation',
-				forumPost: 'Cite web',
-				audioRecording: 'Citation',
-				presentation: 'Cite journal',
-				videoRecording: 'Citation',
-				tvBroadcast: 'Citation',
-				radioBroadcast: 'Citation',
-				podcast: 'Citation',
-				computerProgram: 'Citation',
-				conferencePaper: 'Cite journal',
-				'document': 'Citation',
-				encyclopediaArticle: 'Cite journal',
-				dictionaryEntry: 'Cite journal'
-			},
+		templateTypeMap = {
+			book: 'Cite book',
+			bookSection: 'Cite book',
+			journalArticle: 'Cite journal',
+			magazineArticle: 'Cite news',
+			newspaperArticle: 'Cite news',
+			thesis: 'Cite journal',
+			letter: 'Citation',
+			manuscript: 'Cite book',
+			interview: 'Citation',
+			film: 'Citation',
+			artwork: 'Citation',
+			webpage: 'Cite web',
+			report: 'Cite journal',
+			bill: 'Citation',
+			hearing: 'Citation',
+			patent: 'Citation',
+			statute: 'Citation',
+			email: 'Cite web',
+			map: 'Citation',
+			blogPost: 'Cite web',
+			instantMessage: 'Citation',
+			forumPost: 'Cite web',
+			audioRecording: 'Citation',
+			presentation: 'Cite journal',
+			videoRecording: 'Citation',
+			tvBroadcast: 'Citation',
+			radioBroadcast: 'Citation',
+			podcast: 'Citation',
+			computerProgram: 'Citation',
+			conferencePaper: 'Cite journal',
+			'document': 'Citation',
+			encyclopediaArticle: 'Cite journal',
+			dictionaryEntry: 'Cite journal'
+		},
 
 			//Parameter map for Template:Citation on en-wiki
 			//In the format citation-template-field:citoid-field
@@ -287,13 +287,17 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 			return new OO.ui.Process( function () {
 
 				this.pushPending();
-				var that = this;
+				var citoidService, citoidConfig,
+					that = this;
+
+				citoidConfig = mw.config.get('wgCitoidConfig');
+				citoidService = citoidConfig.citoidServiceUrl;
 
 				$.ajax( {
 					beforeSend: function (request) {
 						request.setRequestHeader('Content-Type', 'application/json');
 					},
-					url: 'https://citoid.wmflabs.org/url',
+					url: citoidService,
 					type: 'POST',
 					data: JSON.stringify( { url: this.searchInput.getValue() } ),
 					dataType: 'json',
