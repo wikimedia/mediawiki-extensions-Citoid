@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": []
 	},
+	"citoid-520-error": "Error message for when citoid service returns a 520 error",
 	"citoid-desc": "{{desc|name=Citoid|url=http://www.mediawiki.org/wiki/Citoid}}",
-	"citoid-citeFromURLDialog-search-placeholder": "Placeholder for the URL search field.",
-	"citoid-citeFromURLDialog-search-label": "Label for the URL search field.",
-	"citoid-citeFromURLDialog-search": "Text for the search button.",
-	"citoid-citeFromURLDialog-search-progress": "Message for when the search is in progress",
-	"citoid-citeFromURLTool-title": "What the dialog is called in the menu",
-	"citoid-citeFromURLDialog-title": "The title displayed on the dialog"
+	"citoid-citeFromIDDialog-search": "Text for the search button.",
+	"citoid-citeFromIDDialog-search-label": "Label for the URL/DOI search field.",
+	"citoid-citeFromIDDialog-search-placeholder": "Placeholder for the URL/DOI search field.",
+	"citoid-citeFromIDDialog-search-progress": "Message for when the search is in progress",
+	"citoid-citeFromIDDialog-title": "The title displayed on the dialog",
+	"citoid-citeFromIDTool-title": "What the dialog is called in the menu",
+	"citoid-typeMap-config-error": "Error message indicating Mediawiki:citoid-template-type-map.json either doesn't exist or contains errors."
 }

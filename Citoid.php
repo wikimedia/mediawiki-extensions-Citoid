@@ -33,18 +33,21 @@ $wgHooks['ResourceLoaderGetConfigVars'][] = 'CitoidHooks::onResourceLoaderGetCon
 // Register modules
 $wgResourceModules['ext.Citoid.visualEditor'] = array(
 	'scripts' => array(
-		'modules/ve.ui.CiteFromURLDialogTool.js',
-		'modules/ve.ui.CiteFromURLDialog.js'
+		'modules/ve.ui.CiteFromIDDialogTool.js',
+		'modules/ve.ui.CiteFromIDDialog.js'
 	),
 	'styles' => array(
 	),
 	'messages' => array(
-		'citoid-citeFromURLDialog-search-placeholder',
-		'citoid-citeFromURLDialog-search-label',
-		'citoid-citeFromURLDialog-search',
-		'citoid-citeFromURLDialog-search-progress',
-		'citoid-citeFromURLTool-title',
-		'citoid-citeFromURLDialog-title'
+		'citoid-520-error',
+		'citoid-citeFromIDDialog-search',
+		'citoid-citeFromIDDialog-search-label',
+		'citoid-citeFromIDDialog-search-placeholder',
+		'citoid-citeFromIDDialog-search-progress',
+		'citoid-citeFromIDDialog-title',
+		'citoid-citeFromIDTool-title',
+		'citoid-typeMap-config-error',
+		'citoid-template-type-map.json'
 	),
 	'targets' => array( 'desktop'), //mwreferences doesn't work in mobile currently
 	'localBasePath' => __DIR__,
@@ -57,5 +60,5 @@ $wgVisualEditorPluginModules[] = 'ext.Citoid.visualEditor';
 
 // Requires https protocol to work in FireFox, but
 // Service doesn't need a security cert
-$wgCitoidServiceUrl = 'https://localhost:1970';
+$wgCitoidServiceUrl = 'https://localhost:1970/api';
 
