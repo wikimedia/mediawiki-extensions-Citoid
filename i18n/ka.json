@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"MIKHEIL"
+		]
+	},
+	"citoid-citeFromIDDialog-search": "ძიება",
+	"citoid-citeFromIDDialog-search-placeholder": "მაგ. http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "მიმდინარეობს ძიება, გთხოვთ, მოიცადოთ..."
+}

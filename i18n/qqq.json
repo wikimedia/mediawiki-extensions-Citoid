@@ -1,7 +1,5 @@
 {
-	"@metadata": {
-		"authors": []
-	},
+	"@metadata": [],
 	"citoid-520-error": "Error message for when citoid service returns a 520 error",
 	"citoid-desc": "{{desc|name=Citoid|url=http://www.mediawiki.org/wiki/Citoid}}",
 	"citoid-citeFromIDDialog-search": "Text for the search button.",

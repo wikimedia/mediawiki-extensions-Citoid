@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"citoid-520-error": "Не можев да ги добијам информациите од укажаната назнака.",
+	"citoid-desc": "Овозможува поврзаност помеѓу службата Citoid и МедијаВики",
+	"citoid-citeFromIDDialog-search": "Пребарај",
+	"citoid-citeFromIDDialog-search-label": "URL или DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "на пр. http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Пребарувам. Почекајте...",
+	"citoid-citeFromIDDialog-title": "Автодополнувај ги наводите од URL или DOI",
+	"citoid-citeFromIDTool-title": "Автодополни од URL",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json е неправилно поставен."
+}
