@@ -1,8 +1,12 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
 	"citoid-520-error": "Error message for when citoid service returns a 520 error",
 	"citoid-desc": "{{desc|name=Citoid|url=http://www.mediawiki.org/wiki/Citoid}}",
-	"citoid-citeFromIDDialog-search": "Text for the search button.",
+	"citoid-citeFromIDDialog-search": "Text for the search button.\n{{Identical|Search}}",
 	"citoid-citeFromIDDialog-search-label": "Label for the URL/DOI search field.",
 	"citoid-citeFromIDDialog-search-placeholder": "Placeholder for the URL/DOI search field.",
 	"citoid-citeFromIDDialog-search-progress": "Message for when the search is in progress",

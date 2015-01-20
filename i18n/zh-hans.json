@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yfdyh000"
+		]
+	},
+	"citoid-520-error": "无法从提供的标识符检索信息。",
+	"citoid-desc": "在citoid服务和MediaWiki之间提供接入点",
+	"citoid-citeFromIDDialog-search": "搜索",
+	"citoid-citeFromIDDialog-search-label": "URL或DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "例如http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "搜索中，请稍候…",
+	"citoid-citeFromIDDialog-title": "从URL或DOI自动填写引用",
+	"citoid-citeFromIDTool-title": "从URL自动填写",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json 配置不当。"
+}
