@@ -38,6 +38,9 @@ $wgResourceModules['ext.Citoid.visualEditor'] = array(
 	),
 	'styles' => array(
 	),
+	'dependencies ' => array(
+		'json'
+	),
 	'messages' => array(
 		'citoid-520-error',
 		'citoid-citeFromIDDialog-search',
