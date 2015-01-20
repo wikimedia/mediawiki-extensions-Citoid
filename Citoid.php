@@ -29,6 +29,7 @@ $wgMessagesDirs['Citoid'] = __DIR__ . '/i18n';
 
 // Register hooks
 $wgHooks['ResourceLoaderGetConfigVars'][] = 'CitoidHooks::onResourceLoaderGetConfigVars';
+$wgHooks['ContentHandlerDefaultModelFor'][] = 'CitoidHooks::onContentHandlerDefaultModelFor';
 
 // Register modules
 $wgResourceModules['ext.Citoid.visualEditor'] = array(
