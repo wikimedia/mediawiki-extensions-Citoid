@@ -2,14 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Nokostya",
-			"Imperadeiro90"
+			"Imperadeiro90",
+			"Vitorvicentevalente"
 		]
 	},
-	"citoid-520-error": "impossivel de recuperar informações do identificador fornecido.",
+	"citoid-520-error": "Não é possível recuperar informações do identificador fornecido.",
+	"citoid-desc": "Fornece pontos de acesso entre o serviço citoid e a MediaWiki",
 	"citoid-citeFromIDDialog-search": "Pesquisar",
 	"citoid-citeFromIDDialog-search-label": "URL ou DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "ex: http://www.exemplo.com",
-	"citoid-citeFromIDDialog-search-progress": "Pesquisando, por favor aguarde...",
+	"citoid-citeFromIDDialog-search-progress": "A pesquisar, por favor aguarde...",
 	"citoid-citeFromIDDialog-title": "Preenchimento automático de citações por URL ou DOI",
 	"citoid-citeFromIDTool-title": "Preenchimento automático a partir do URL",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json está configurado incorretamente."
