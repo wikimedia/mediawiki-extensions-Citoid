@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"citoid-520-error": "No s’ha pogut recuperar informació sobre l’identificador proporcionat.",
+	"citoid-desc": "Proporciona punts d’accés entre el servei Citoid i MediaWiki",
+	"citoid-citeFromIDDialog-search": "Cerca",
+	"citoid-citeFromIDDialog-search-label": "URL o DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "p. ex., http://www.exemple.com",
+	"citoid-citeFromIDDialog-search-progress": "S’està cercant, espereu-vos…"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin0van0der0vliet"
+		]
+	},
+	"citoid-citeFromIDDialog-search": "Zoeken",
+	"citoid-citeFromIDDialog-search-label": "URL of DOI"
+}
