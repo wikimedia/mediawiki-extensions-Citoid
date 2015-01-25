@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benjozork",
+			"Orikrin1998"
+		]
+	},
+	"citoid-520-error": "Impossible de récupérer les informations à partir de son identifiant.",
+	"citoid-desc": "Offre des points d'accès entre le ervices citoid et MediaWiki",
+	"citoid-citeFromIDDialog-search": "Chercher",
+	"citoid-citeFromIDDialog-search-label": "URL ou DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "par exemple, http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Recherche en cours, veuillez patienter...",
+	"citoid-citeFromIDDialog-title": "Remplissage automatique des citations par URL ou DOI",
+	"citoid-citeFromIDTool-title": "Remplir depuis l'URL",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json n'est pas correctement configuré."
+}
