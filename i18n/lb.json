@@ -4,5 +4,7 @@
 			"Robby"
 		]
 	},
-	"citoid-citeFromIDDialog-search": "Sichen"
+	"citoid-citeFromIDDialog-search": "Sichen",
+	"citoid-citeFromIDDialog-search-placeholder": "z. B. http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Sichen, gedëllegt Iech w.e.g. ..."
 }
