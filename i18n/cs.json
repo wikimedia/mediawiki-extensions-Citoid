@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aktron"
+		]
+	},
+	"citoid-citeFromIDDialog-search": "Hledat",
+	"citoid-citeFromIDDialog-search-progress": "Vyhledávání, prosím vyčkejte...",
+	"citoid-citeFromIDTool-title": "Automatické vyplňování z URL"
+}
