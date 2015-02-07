@@ -206,11 +206,12 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 						search: encodeURI( dialog.searchInput.getValue() ),
 						format: ve.ui.CiteFromIDDialog.static.citoidFormat
 					},
-					dataType: 'json',
-					success: function ( result ) {
+					dataType: 'json'
+				} )
+					.done( function ( result ) {
 						dialog.insertTemplate( result );
-					},
-					error: function ( response, textStatus, errorThrown ) {
+					} )
+					.fail( function ( response, textStatus, errorThrown ) {
 						// 520 status from citoid means there was no response at the
 						// URL provided, but it returns a citation regardless. We're
 						// choosing to insert that citation here but to notify the user.
@@ -220,11 +221,10 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 						} else {
 							mw.notify( 'Status: '  + textStatus +  'Error: ' + errorThrown );
 						}
-					},
-					always: function () {
+					} )
+					.always( function () {
 						dialog.popPending();
-					}
-				} );
+					} );
 			}, this );
 		}
 
