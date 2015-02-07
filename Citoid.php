@@ -53,7 +53,7 @@ $wgResourceModules['ext.Citoid.visualEditor'] = array(
 		'citoid-typeMap-config-error',
 		'citoid-template-type-map.json'
 	),
-	'targets' => array( 'desktop' ), //mwreferences doesn't work in mobile currently
+	'targets' => array( 'desktop', 'mobile' ),
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'Citoid',
 );
