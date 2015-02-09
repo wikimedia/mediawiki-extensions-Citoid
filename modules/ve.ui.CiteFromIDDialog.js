@@ -117,7 +117,7 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 			// if TemplateName is undefined, this means that items of this citoid
 			// type does not have a Template defined within the message.
 			if ( !templateName ) {
-				mw.notify( mw.msg( 'citoid-typeMap-config-error') );
+				mw.notify( mw.msg( 'citoid-typeMap-config-error' ) );
 				dialog.popPending();
 				return;
 			}
@@ -169,15 +169,15 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 				// Case: Citoid parameter equivalent to 1 or 2D Array of TD parameters
 				for ( i = 0; i < citation[citoidField].length; i++ ) {
 					// Iterate through first dimension of array
-					if ( typeof citation[citoidField][i] === 'string' && templateField[i] !== undefined) {
+					if ( typeof citation[citoidField][i] === 'string' && templateField[i] !== undefined ) {
 						// Case: Citoid parameter equivalent to 1D Array of TD parameters
 						template.addParameter( new ve.dm.MWParameterModel( template, templateField[i], citation[citoidField][i] ) );
 					} else if ( Array.isArray( citation[citoidField][i] ) ) {
 						// Case: Citoid parameter equivalent to 2D Array of TD parameters
 						for ( j = 0; j < citation[citoidField][i].length; j++ ) {
 							// Iterate through 2nd dimension of Array
-							if (typeof citation[citoidField][i][j] === 'string' && templateField[i][j] !== undefined) {
-								template.addParameter( new ve.dm.MWParameterModel( template, templateField[i][j], citation[citoidField][i][j]) );
+							if ( typeof citation[citoidField][i][j] === 'string' && templateField[i][j] !== undefined ) {
+								template.addParameter( new ve.dm.MWParameterModel( template, templateField[i][j], citation[citoidField][i][j] ) );
 							}
 						}
 					}
@@ -217,7 +217,7 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 						// choosing to insert that citation here but to notify the user.
 						if ( response.status === 520 ) {
 							dialog.insertTemplate( response.responseJSON );
-							mw.notify( mw.message ('citoid-520-error') );
+							mw.notify( mw.message( 'citoid-520-error' ) );
 						} else {
 							mw.notify( 'Status: '  + textStatus +  'Error: ' + errorThrown );
 						}
@@ -267,7 +267,7 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 		return ve.ui.CiteFromIDDialog.super.prototype.getTeardownProcess.call( this, data )
 			.first( function () {
 				// Clear search input box
-				this.searchInput.setValue('');
+				this.searchInput.setValue( '' );
 			}, this );
 	};
 

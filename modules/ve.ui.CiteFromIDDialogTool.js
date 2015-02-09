@@ -39,4 +39,4 @@ mw.loader.using( 'ext.visualEditor.mwreference', function () {
 
 	ve.ui.toolFactory.register( ve.ui.CiteFromIDDialogTool );
 
-});
+} );
