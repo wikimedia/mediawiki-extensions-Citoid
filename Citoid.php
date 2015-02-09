@@ -6,19 +6,20 @@
  *
  * @file
  * @ingroup Extensions
- * @author mvolz, 2014
- * @license GNU General Public Licence 2.0 or later
+ * @author 2014-2015 Marielle Volz and others
+ * @license The MIT License (MIT); see LICENSE.txt
  */
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Citoid',
 	'author' => array(
-		'mvolz',
+		'Marielle Volz',
 	),
-	'version'  => '0.0.0',
+	'version'  => '0.1.0',
 	'url' => 'https://www.mediawiki.org/wiki/Citoid',
 	'descriptionmsg' => 'citoid-desc',
+	'license-name' => 'MIT',
 );
 
 /* Setup */
