@@ -1,4 +1,4 @@
-mw.loader.using( 'ext.visualEditor.mwreference', function () {
+mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 
 	/**
 	 * MediaWiki UserInterface cite from ID dialog tool.

@@ -1,4 +1,4 @@
-mw.loader.using( 'ext.visualEditor.mwreference', function () {
+mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 
 	/**
 	 * Dialog to insert filled references using citoid service

@@ -33,7 +33,7 @@ $wgHooks['ResourceLoaderGetConfigVars'][] = 'CitoidHooks::onResourceLoaderGetCon
 $wgHooks['ContentHandlerDefaultModelFor'][] = 'CitoidHooks::onContentHandlerDefaultModelFor';
 
 // Register modules
-$wgResourceModules['ext.Citoid.visualEditor'] = array(
+$wgResourceModules['ext.citoid.visualEditor'] = array(
 	'scripts' => array(
 		'modules/ve.ui.CiteFromIDDialogTool.js',
 		'modules/ve.ui.CiteFromIDDialog.js'
@@ -41,6 +41,7 @@ $wgResourceModules['ext.Citoid.visualEditor'] = array(
 	'styles' => array(
 	),
 	'dependencies ' => array(
+		'ext.visualEditor.mwreference',
 		'json'
 	),
 	'messages' => array(
@@ -59,7 +60,7 @@ $wgResourceModules['ext.Citoid.visualEditor'] = array(
 	'remoteExtPath' => 'Citoid',
 );
 
-$wgVisualEditorPluginModules[] = 'ext.Citoid.visualEditor';
+$wgVisualEditorPluginModules[] = 'ext.citoid.visualEditor';
 
 /* Configuration */
 
