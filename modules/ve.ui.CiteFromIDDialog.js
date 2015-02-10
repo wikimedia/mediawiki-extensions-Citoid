@@ -91,7 +91,6 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 			templateTypeMap = JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
 		} catch ( e ) {
 			mw.notify( mw.msg( 'citoid-typeMap-config-error' ) );
-			dialog.popPending();
 			return;
 		}
 
@@ -118,7 +117,6 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 			// type does not have a Template defined within the message.
 			if ( !templateName ) {
 				mw.notify( mw.msg( 'citoid-typeMap-config-error' ) );
-				dialog.popPending();
 				return;
 			}
 
@@ -141,8 +139,6 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 				);
 
 				dialog.referenceModel.updateInternalItem( surfaceModel );
-				// hack- doesn't seem to be working in always
-				dialog.popPending();
 				dialog.close();
 			} );
 		}
@@ -219,7 +215,7 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 							dialog.insertTemplate( response.responseJSON );
 							mw.notify( mw.message( 'citoid-520-error' ) );
 						} else {
-							mw.notify( 'Status: '  + textStatus +  'Error: ' + errorThrown );
+							mw.notify( 'Status: '  + textStatus +  ' Error: ' + errorThrown );
 						}
 					} )
 					.always( function () {
