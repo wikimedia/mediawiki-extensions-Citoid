@@ -229,6 +229,16 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 	};
 
 	/**
+	 * @inheritdoc
+	 */
+	ve.ui.CiteFromIDDialog.prototype.getReadyProcess = function ( data ) {
+		return ve.ui.CiteFromIDDialog.super.prototype.getReadyProcess.call( this, data )
+			.next( function () {
+				this.searchInput.focus();
+			}, this );
+	};
+
+	/**
 	 * Handle the transclusion being ready to use.
 	 * Enables apply/insert buttons
 	 */
