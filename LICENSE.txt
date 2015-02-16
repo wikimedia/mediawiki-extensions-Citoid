@@ -1,8 +1,8 @@
-Copyright (c) 2014-2015 Marielle Volz and others under the terms
+Copyright (c) 2014-2015 VisualEditor team and others under the terms
 of The MIT License (MIT), as follows:
 
 This software consists of voluntary contributions made by several
-individuals. For exact contribution history, see therevision history
+individuals. For exact contribution history, see the revision history
 and logs, available at https://gerrit.wikimedia.org
 
 Permission is hereby granted, free of charge, to any person obtaining

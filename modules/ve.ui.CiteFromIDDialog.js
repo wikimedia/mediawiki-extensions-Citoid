@@ -36,28 +36,22 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 		// Booklet layout required due to inheriting from MWTemplateDialog
 		this.bookletLayout = new OO.ui.BookletLayout(
 			ve.extendObject(
-				{ $: this.$ },
 				this.constructor.static.bookletLayoutConfig
 			)
 		);
 
 		this.searchInput = new OO.ui.TextInputWidget( {
-			$: this.$,
 			multiline: false,
 			placeholder: mw.msg( 'citoid-citeFromIDDialog-search-placeholder' )
 		} );
 
 		var panel = new OO.ui.PanelLayout( {
-				$: this.$,
 				padded: true,
 				scrollable: true,
 				expanded: false
 			} ),
-			inputsFieldset = new OO.ui.FieldsetLayout( {
-				$: this.$
-			} ),
+			inputsFieldset = new OO.ui.FieldsetLayout(),
 			searchField = new OO.ui.FieldLayout( this.searchInput, {
-				$: this.$,
 				align: 'top',
 				label: mw.msg( 'citoid-citeFromIDDialog-search-label' )
 			} );
@@ -69,7 +63,7 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 		panel.$element.append( inputsFieldset.$element );
 		this.$body.append( panel.$element );
 
-		this.modules = ['ext.visualEditor.data'];
+		this.modules = [ 'ext.visualEditor.data' ];
 
 		// Events
 		this.searchInput.connect( this, { enter: 'onSearchInputEnter' } );
@@ -89,7 +83,7 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 	ve.ui.CiteFromIDDialog.prototype.insertTemplate = function ( searchResults ) {
 
 		var transclusion, template, templateName, templateTypeMap, partPromise, item, fragment,
-			citation = searchResults[0], //uses the first citation result for the time being
+			citation = searchResults[ 0 ], // Uses the first citation result for the time being
 			dialog = this,
 			surfaceModel = this.getFragment().getSurface(),
 			doc = surfaceModel.getDocument(),
@@ -169,20 +163,20 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 			// Construct parameters
 			if ( typeof templateField === 'string' && citation[citoidField] !== undefined ) {
 				// Case: Citoid parameter directly equivalent to TemplateData parameter
-				template.addParameter( new ve.dm.MWParameterModel( template, templateField, citation[citoidField] ) );
+				template.addParameter( new ve.dm.MWParameterModel( template, templateField, citation[citoidField ] ) );
 			} else if ( Array.isArray( citation[citoidField] ) ) {
 				// Case: Citoid parameter equivalent to 1 or 2D Array of TD parameters
-				for ( i = 0; i < citation[citoidField].length; i++ ) {
+				for ( i = 0; i < citation[ citoidField ].length; i++ ) {
 					// Iterate through first dimension of array
-					if ( typeof citation[citoidField][i] === 'string' && templateField[i] !== undefined ) {
+					if ( typeof citation[ citoidField ][ i ] === 'string' && templateField[i] !== undefined ) {
 						// Case: Citoid parameter equivalent to 1D Array of TD parameters
-						template.addParameter( new ve.dm.MWParameterModel( template, templateField[i], citation[citoidField][i] ) );
-					} else if ( Array.isArray( citation[citoidField][i] ) ) {
+						template.addParameter( new ve.dm.MWParameterModel( template, templateField[i], citation[ citoidField ][ i ] ) );
+					} else if ( Array.isArray( citation[ citoidField ][ i ] ) ) {
 						// Case: Citoid parameter equivalent to 2D Array of TD parameters
-						for ( j = 0; j < citation[citoidField][i].length; j++ ) {
+						for ( j = 0; j < citation[ citoidField ][ i ].length; j++ ) {
 							// Iterate through 2nd dimension of Array
-							if ( typeof citation[citoidField][i][j] === 'string' && templateField[i][j] !== undefined ) {
-								template.addParameter( new ve.dm.MWParameterModel( template, templateField[i][j], citation[citoidField][i][j] ) );
+							if ( typeof citation[ citoidField ][ i ][ j ] === 'string' && templateField[ i ][ j ] !== undefined ) {
+								template.addParameter( new ve.dm.MWParameterModel( template, templateField[ i ][ j ], citation[ citoidField ][ i ][ j ] ) );
 							}
 						}
 					}
@@ -255,7 +249,7 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 		// Parent method
 		ve.ui.CiteFromIDDialog.super.prototype.onTransclusionReady.call( this );
 		// TODO- disable when no input
-		this.actions.setAbilities( { 'apply': true, 'insert': true } );
+		this.actions.setAbilities( { apply: true, insert: true } );
 	};
 
 	/**

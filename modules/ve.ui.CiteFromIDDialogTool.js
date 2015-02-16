@@ -11,7 +11,7 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 	 * @param {Object} [config] Configuration options
 	 */
 
-	//Don't create tool unless the configuration message is present
+	// Don't create tool unless the configuration message is present
 	try {
 		JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
 	} catch ( e ) {
@@ -33,7 +33,7 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 	ve.ui.commandRegistry.register(
 		new ve.ui.Command(
 			'citefromid', 'window', 'open',
-			{ args: ['citefromid'], supportedSelections: ['linear'] }
+			{ args: [ 'citefromid' ], supportedSelections: [ 'linear' ] }
 		)
 	);
 
