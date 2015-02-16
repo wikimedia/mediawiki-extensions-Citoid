@@ -71,6 +71,15 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 
 		this.modules = ['ext.visualEditor.data'];
 
+		// Events
+		this.searchInput.connect( this, { enter: 'onSearchInputEnter' } );
+	};
+
+	/**
+	 * Respond to the user hitting enter in the link/doi input
+	 */
+	ve.ui.CiteFromIDDialog.prototype.onSearchInputEnter = function () {
+		this.executeAction( 'insert' );
 	};
 
 	/**
