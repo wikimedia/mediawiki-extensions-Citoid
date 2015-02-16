@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64"
+			"Metalhead64",
+			"Purodha"
 		]
 	},
 	"citoid-520-error": "Informationen von der angegebenen Bezeichnung konnten nicht abgerufen werden.",
-	"citoid-desc": "Ergänzt Zugriffspunkte zwischen dem Citoid-Dienst und MediaWiki",
+	"citoid-desc": "Schafft Zugriffspunkte zwischen dem Citoid-Dienst und MediaWiki",
 	"citoid-citeFromIDDialog-search": "Suche",
 	"citoid-citeFromIDDialog-search-label": "URL oder DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "z.&nbsp;B. http://www.example.com",

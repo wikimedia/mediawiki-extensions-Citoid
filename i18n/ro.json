@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minisarm"
+		]
+	},
+	"citoid-520-error": "Imposibil de obținut informații de la identificatorul furnizat.",
+	"citoid-desc": "Oferă puncte de acces între serviciul citoid și MediaWiki",
+	"citoid-citeFromIDDialog-search": "Caută",
+	"citoid-citeFromIDDialog-search-label": "URL sau DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "de ex.: http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Se caută, așteptați...",
+	"citoid-citeFromIDDialog-title": "Autocompletare referințe după URL sau DOI",
+	"citoid-citeFromIDTool-title": "Autocompletare din URL",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json nu este configurat corect."
+}
