@@ -35,10 +35,12 @@ $wgHooks['ContentHandlerDefaultModelFor'][] = 'CitoidHooks::onContentHandlerDefa
 // Register modules
 $wgResourceModules['ext.citoid.visualEditor'] = array(
 	'scripts' => array(
-		'modules/ve.ui.CiteFromIDDialogTool.js',
-		'modules/ve.ui.CiteFromIDDialog.js'
+		'modules/ve.ui.CiteFromIdInspectorTool.js',
+		'modules/ve.ui.CiteFromIdOptionWidget.js',
+		'modules/ve.ui.CiteFromIdInspector.js'
 	),
 	'styles' => array(
+		'modules/ve.ui.CiteFromIdInspector.css'
 	),
 	'dependencies ' => array(
 		'ext.visualEditor.mwreference',
@@ -46,14 +48,16 @@ $wgResourceModules['ext.citoid.visualEditor'] = array(
 	),
 	'messages' => array(
 		'citoid-520-error',
+		'citoid-citeFromIDDialog-lookup-button',
 		'citoid-citeFromIDDialog-search',
 		'citoid-citeFromIDDialog-search-label',
 		'citoid-citeFromIDDialog-search-placeholder',
 		'citoid-citeFromIDDialog-search-progress',
 		'citoid-citeFromIDDialog-title',
 		'citoid-citeFromIDTool-title',
+		'citoid-template-type-map.json',
 		'citoid-typeMap-config-error',
-		'citoid-template-type-map.json'
+		'citoid-unknown-error'
 	),
 	'targets' => array( 'desktop', 'mobile' ),
 	'localBasePath' => __DIR__,
