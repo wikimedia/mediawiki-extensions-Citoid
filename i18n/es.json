@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Macofe",
-			"MadriCR"
+			"MadriCR",
+			"Fitoschido"
 		]
 	},
 	"citoid-520-error": "No se pudo obtener información a partir del identificador proporcionado.",
-	"citoid-desc": "Proporciona puntos de acceso entre el citoid servicio y MediaWiki",
+	"citoid-desc": "Proporciona puntos de acceso entre el servicio Citoid y MediaWiki",
 	"citoid-citeFromIDDialog-search": "Buscar",
 	"citoid-citeFromIDDialog-search-label": "URL o DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "por ejemplo, http://www.ejemplo.com",
