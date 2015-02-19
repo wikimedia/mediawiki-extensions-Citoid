@@ -29,6 +29,7 @@ mw.loader.using( 'ext.visualEditor.mwreference' ).done( function () {
 	ve.ui.CiteFromIDDialogTool.static.title = mw.msg( 'citoid-citeFromIDTool-title' );
 	ve.ui.CiteFromIDDialogTool.static.group = 'cite';
 	ve.ui.CiteFromIDDialogTool.static.commandName = 'citefromid';
+	ve.ui.CiteFromIDDiologTool.static.autoAddToCatchall = false;
 
 	ve.ui.commandRegistry.register(
 		new ve.ui.Command(
