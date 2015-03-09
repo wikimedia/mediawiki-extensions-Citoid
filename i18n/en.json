@@ -3,12 +3,14 @@
 		"authors": []
 	},
 	"citoid-520-error": "Unable to retrieve information from the provided identifier.",
-	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
+	"citoid-citeFromIDDialog-lookup-button": "Lookup",
 	"citoid-citeFromIDDialog-search": "Search",
 	"citoid-citeFromIDDialog-search-label": "URL or DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "e.g. http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Searching, please wait...",
 	"citoid-citeFromIDDialog-title": "Autofill citations by URL or DOI",
 	"citoid-citeFromIDTool-title": "Autofill from URL",
-	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json is improperly configured."
+	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json is improperly configured.",
+	"citoid-unknown-error": "An unknown error has occured that prevented us from creating a citation. Please try again later."
 }

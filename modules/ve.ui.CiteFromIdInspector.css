@@ -1,0 +1,28 @@
+.ve-ui-citeFromIdInspector-preview {
+	max-height: 15em;
+	overflow-y: auto;
+}
+
+.ve-ui-citeFromIdOptionWidget.oo-ui-labelElement .oo-ui-labelElement-label {
+	white-space: normal;
+}
+
+.ve-ui-citeFromIdOptionWidget-wrapper {
+	margin-left: -2em;
+	margin-top: 0.6em;
+	line-height: 1.3em;
+}
+
+.ve-ui-citeFromIdOptionWidget-wrapper a:hover {
+	text-decoration: none;
+}
+
+.ve-ui-citeFromIdOptionWidget .oo-ui-labelElement-label {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.ve-ui-citeFromIdOptionWidget .oo-ui-iconElement-icon {
+	background-size: 24px 24px;
+	height: 2.5em;
+}
