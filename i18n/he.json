@@ -5,12 +5,14 @@
 		]
 	},
 	"citoid-520-error": "לא ניתן לאחזר מידע מהמזהה שסופק.",
-	"citoid-desc": "אספקת נקודות כניסה בין שירות citoid לבין מדיה־ויקי",
+	"citoid-citeFromIDDialog-lookup-button": "חיפוש",
 	"citoid-citeFromIDDialog-search": "חיפוש",
 	"citoid-citeFromIDDialog-search-label": "URL או DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "למשל http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "חיפוש, נא להמתין...",
 	"citoid-citeFromIDDialog-title": "מילוי אוטומטי באמצעות URL או DOI",
 	"citoid-citeFromIDTool-title": "מילוי אוטומטי מ־URL",
-	"citoid-typeMap-config-error": "הקובץ Mediawiki:citoid-template-type-map.json אינו מוגדר נכון."
+	"citoid-desc": "אספקת נקודות כניסה בין שירות citoid לבין מדיה־ויקי",
+	"citoid-typeMap-config-error": "הקובץ Mediawiki:citoid-template-type-map.json אינו מוגדר נכון.",
+	"citoid-unknown-error": "אירעה שגיאה בלתי־ידועה שמנעה מאתנו ליצור ציטוט.\nנא לנסות שוב מאוחר יותר."
 }

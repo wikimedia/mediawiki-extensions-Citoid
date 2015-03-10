@@ -6,12 +6,14 @@
 		]
 	},
 	"citoid-520-error": "Informationen von der angegebenen Bezeichnung konnten nicht abgerufen werden.",
-	"citoid-desc": "Schafft Zugriffspunkte zwischen dem Citoid-Dienst und MediaWiki",
+	"citoid-citeFromIDDialog-lookup-button": "Suchen",
 	"citoid-citeFromIDDialog-search": "Suche",
 	"citoid-citeFromIDDialog-search-label": "URL oder DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "z.&nbsp;B. http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Suche, bitte warten …",
 	"citoid-citeFromIDDialog-title": "Zitate von URL oder DOI automatisch vervollständigen",
 	"citoid-citeFromIDTool-title": "Autovervollständigen von URL",
-	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json ist unsachgemäß konfiguriert."
+	"citoid-desc": "Schafft Zugriffspunkte zwischen dem Citoid-Dienst und MediaWiki",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json ist unsachgemäß konfiguriert.",
+	"citoid-unknown-error": "Ein unbekannter Fehler ist aufgetreten, der uns daran hindert, ein Zitat zu erstellen. Bitte später erneut versuchen."
 }
