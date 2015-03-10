@@ -1,28 +1,39 @@
 .ve-ui-citeFromIdInspector-preview {
+	border-top: 1px solid #cccccc;
 	max-height: 15em;
+	margin-top: 0.5em;
+	padding: 0.5em;
 	overflow-y: auto;
 }
 
-.ve-ui-citeFromIdOptionWidget.oo-ui-labelElement .oo-ui-labelElement-label {
+.ve-ui-citeFromIdReferenceWidget.oo-ui-labelElement .oo-ui-labelElement-label {
 	white-space: normal;
 }
 
-.ve-ui-citeFromIdOptionWidget-wrapper {
-	margin-left: -2em;
+.ve-ui-citeFromIdReferenceWidget-wrapper {
 	margin-top: 0.6em;
 	line-height: 1.3em;
 }
 
-.ve-ui-citeFromIdOptionWidget-wrapper a:hover {
+.ve-ui-citeFromIdReferenceWidget-wrapper a:hover {
 	text-decoration: none;
 }
 
-.ve-ui-citeFromIdOptionWidget .oo-ui-labelElement-label {
+.ve-ui-citeFromIdReferenceWidget .oo-ui-labelElement-label {
 	font-size: 1em;
 	font-weight: bold;
 }
 
-.ve-ui-citeFromIdOptionWidget .oo-ui-iconElement-icon {
+.ve-ui-citeFromIdReferenceWidget .oo-ui-iconElement-icon {
+	display: inline-block;
+	margin-right: 0.5em;
 	background-size: 24px 24px;
-	height: 2.5em;
+	height: 1.5em;
+	width: 1.5em;
+	padding: 0.2em;
+	vertical-align: middle;
+}
+
+.ve-ui-citeFromIdReferenceWidget-insert-button {
+	float: right;
 }

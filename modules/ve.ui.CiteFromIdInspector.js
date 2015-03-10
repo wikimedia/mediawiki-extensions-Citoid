@@ -18,6 +18,7 @@ ve.ui.CiteFromIdInspector = function VeUiCiteFromIdInspector( config ) {
 	this.citeTools = [];
 	this.templateTypeMap = null;
 	this.lookupPromise = null;
+	this.service = null;
 
 	this.$element.addClass( 've-ui-citeFromIdInspector' );
 };
@@ -93,10 +94,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	);
 
 	// Preview fieldset
-	this.previewSelectWidget = new OO.ui.SelectWidget( {
-		classes: [ 've-ui-citeFromIdInspector-preview' ]
-	} );
-	this.previewSelectWidget.aggregate( { update: 'itemUpdate' } );
+	this.previewSelectWidget = new ve.ui.CiteFromIdGroupWidget();
 	this.previewSelectWidget.toggle( false );
 
 	// Events
@@ -104,7 +102,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	this.lookupButton.connect( this, { click: 'onLookupButtonClick' } );
 	this.previewSelectWidget.connect( this, {
 		choose: 'onPreviewSelectWidgetChoose',
-		itemUpdate: 'onPreviewSelectWidgetItemUpdate'
+		update: 'onPreviewSelectWidgetUpdate'
 	} );
 
 	// Attach
@@ -122,7 +120,7 @@ ve.ui.CiteFromIdInspector.prototype.onFormSubmit = function () {
 /**
  * Respond to item update event in the preview select widget
  */
-ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetItemUpdate = function () {
+ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetUpdate = function () {
 	this.updateSize();
 };
 
@@ -273,8 +271,8 @@ ve.ui.CiteFromIdInspector.prototype.getActionProcess = function ( action ) {
  * Send a request to the citoid service
  */
 ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
-	var inspector = this,
-		xhr = inspector.service;
+	var xhr,
+		inspector = this;
 
 	// TODO: Add caching for requested urls
 	if ( this.lookupPromise ) {
@@ -286,11 +284,16 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 	this.lookupButton.setDisabled( true );
 	this.lookupInput.pushPending();
 
-	this.lookupPromise = xhr
+	// We have to first set up a get response so we can have
+	// a proper xhr object with "abort" method, so we can
+	// hand off this abort method to the jquery promise
+	xhr = this.service
 		.get( {
-			search: encodeURI( inspector.lookupInput.getValue() ),
+			search: encodeURI( this.lookupInput.getValue() ),
 			format: ve.ui.CiteFromIdInspector.static.citoidFormat
-		} )
+		} );
+
+	this.lookupPromise = xhr
 		.then(
 			// Success
 			function ( searchResults ) {
@@ -372,7 +375,7 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 			var optionWidgets = [];
 			// Create option widgets
 			for ( i = 0; i < inspector.results.length; i++ ) {
-				optionWidgets.push( new ve.ui.CiteFromIdOptionWidget(
+				optionWidgets.push( new ve.ui.CiteFromIdReferenceWidget(
 					inspector.getFragment().getSurface().getDocument(),
 					{
 						data: i,

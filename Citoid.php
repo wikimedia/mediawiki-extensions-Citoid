@@ -36,7 +36,8 @@ $wgHooks['ContentHandlerDefaultModelFor'][] = 'CitoidHooks::onContentHandlerDefa
 $wgResourceModules['ext.citoid.visualEditor'] = array(
 	'scripts' => array(
 		'modules/ve.ui.CiteFromIdInspectorTool.js',
-		'modules/ve.ui.CiteFromIdOptionWidget.js',
+		'modules/ve.ui.CiteFromIdGroupWidget.js',
+		'modules/ve.ui.CiteFromIdReferenceWidget.js',
 		'modules/ve.ui.CiteFromIdInspector.js'
 	),
 	'styles' => array(
@@ -49,6 +50,7 @@ $wgResourceModules['ext.citoid.visualEditor'] = array(
 	),
 	'messages' => array(
 		'citoid-520-error',
+		'citoid-citation-widget-insert-button',
 		'citoid-citeFromIDDialog-lookup-button',
 		'citoid-citeFromIDDialog-search',
 		'citoid-citeFromIDDialog-search-label',
