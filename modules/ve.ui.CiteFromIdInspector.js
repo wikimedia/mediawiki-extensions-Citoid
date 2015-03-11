@@ -34,9 +34,7 @@ ve.ui.CiteFromIdInspector.static.title = OO.ui.deferMsg( 'citoid-citeFromIDDialo
 ve.ui.CiteFromIdInspector.static.size = 'large';
 
 // The string used in TemplateData to identify the correct Map object
-
-// TODO: Replace this to a more general string "Citoid"
-ve.ui.CiteFromIdInspector.static.templateDataName = 'extension/Citoid/ve.ui.CiteFromIDDialog';
+ve.ui.CiteFromIdInspector.static.templateDataName = 'citoid';
 
 // The requested format from the citoid client, passed as a GET parameter
 ve.ui.CiteFromIdInspector.static.citoidFormat = 'mediawiki';
