@@ -44,7 +44,8 @@ $wgResourceModules['ext.citoid.visualEditor'] = array(
 	),
 	'dependencies ' => array(
 		'ext.visualEditor.mwreference',
-		'json'
+		'json',
+		'ext.visualEditor.mediawiki'
 	),
 	'messages' => array(
 		'citoid-520-error',

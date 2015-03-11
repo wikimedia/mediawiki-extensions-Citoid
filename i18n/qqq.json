@@ -11,7 +11,7 @@
 	"citoid-citeFromIDDialog-search-placeholder": "Placeholder for the URL/DOI search field.",
 	"citoid-citeFromIDDialog-search-progress": "Message for when the search is in progress",
 	"citoid-citeFromIDDialog-title": "The title displayed on the dialog",
-	"citoid-citeFromIDTool-title": "What the dialog is called in the menu",
+	"citoid-citeFromIDTool-title": "Label for the button to add a citation in the toolbar",
 	"citoid-desc": "{{desc|name=Citoid|url=http://www.mediawiki.org/wiki/Citoid}}",
 	"citoid-typeMap-config-error": "Error message indicating Mediawiki:citoid-template-type-map.json either doesn't exist or contains errors.",
 	"citoid-unknown-error": "Error message indicating that the service to create citations has returned an error or is temporarily malfunctioning, asking the user to try again later."
