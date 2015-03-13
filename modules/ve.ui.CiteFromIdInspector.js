@@ -63,6 +63,17 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		this.citeTools.splice( limit );
 	} catch ( e ) { }
 
+	// API for citoid service
+	this.service = new mw.Api( {
+		ajax: {
+			url: mw.config.get( 'wgCitoidConfig' ).citoidServiceUrl,
+			// Request content language of wiki from citoid service
+			headers: { 'accept-language': mw.config.get( 'wgContentLanguage' ) },
+			dataType: 'json',
+			type: 'GET'
+		}
+	} );
+
 	// Lookup fieldset
 	this.lookupInput = new OO.ui.TextInputWidget( {
 		multiline: false,
@@ -260,11 +271,10 @@ ve.ui.CiteFromIdInspector.prototype.getActionProcess = function ( action ) {
 
 /**
  * Send a request to the citoid service
- * @return {[type]} [description]
  */
 ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
-	var xhr,
-		inspector = this;
+	var inspector = this,
+		xhr = inspector.service;
 
 	// TODO: Add caching for requested urls
 	if ( this.lookupPromise ) {
@@ -275,20 +285,12 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 	// Set as pending
 	this.lookupButton.setDisabled( true );
 	this.lookupInput.pushPending();
-	xhr = new mw.Api().get(
-				// Data
-				{
-					search: encodeURI( inspector.lookupInput.getValue() ),
-					format: ve.ui.CiteFromIdInspector.static.citoidFormat
-				},
-				// Settings
-				{
-					url: mw.config.get( 'wgCitoidConfig' ).citoidServiceUrl,
-					dataType: 'json',
-					type: 'GET'
-				}
-			);
+
 	this.lookupPromise = xhr
+		.get( {
+			search: encodeURI( inspector.lookupInput.getValue() ),
+			format: ve.ui.CiteFromIdInspector.static.citoidFormat
+		} )
 		.then(
 			// Success
 			function ( searchResults ) {
