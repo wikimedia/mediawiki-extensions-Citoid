@@ -26,3 +26,8 @@
 	background-size: 24px 24px;
 	height: 2.5em;
 }
+
+.ve-ui-citeFromIdInspector-dialog-link {
+	display: inline-block;
+	margin: 0.5em 0;
+}

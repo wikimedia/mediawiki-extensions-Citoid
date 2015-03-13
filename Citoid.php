@@ -52,6 +52,8 @@ $wgResourceModules['ext.citoid.visualEditor'] = array(
 		'citoid-citeFromIDDialog-lookup-button',
 		'citoid-citeFromIDDialog-search',
 		'citoid-citeFromIDDialog-search-label',
+		'citoid-citeFromIDDialog-use-general-dialog-message',
+		'citoid-citeFromIDDialog-use-general-dialog-button',
 		'citoid-citeFromIDDialog-search-placeholder',
 		'citoid-citeFromIDDialog-search-progress',
 		'citoid-citeFromIDDialog-title',

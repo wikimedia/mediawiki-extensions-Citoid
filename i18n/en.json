@@ -11,6 +11,8 @@
 	"citoid-citeFromIDDialog-title": "Add a citation",
 	"citoid-citeFromIDTool-title": "Cite",
 	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "Or use the $1 to fill in the details yourself.",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "full citation dialog",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json is improperly configured.",
 	"citoid-unknown-error": "An unknown error has occured that prevented us from creating a citation. Please try again later."
 }

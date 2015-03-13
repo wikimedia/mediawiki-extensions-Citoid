@@ -73,7 +73,7 @@
 	OO.inheritClass( ve.ui.CiteFromIdInspectorTool, ve.ui.InspectorTool );
 
 	ve.ui.CiteFromIdInspectorTool.static.name = 'citefromid';
-	ve.ui.CiteFromIdInspectorTool.static.icon = 'ref-cite-web';
+	ve.ui.CiteFromIdInspectorTool.static.icon = 'reference';
 	ve.ui.CiteFromIdInspectorTool.static.title = OO.ui.deferMsg( 'citoid-citeFromIDTool-title' );
 	ve.ui.CiteFromIdInspectorTool.static.label = OO.ui.deferMsg( 'citoid-citeFromIDTool-title' );
 	ve.ui.CiteFromIdInspectorTool.static.group = 'cite';

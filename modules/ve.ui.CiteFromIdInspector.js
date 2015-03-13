@@ -11,15 +11,17 @@ ve.ui.CiteFromIdInspector = function VeUiCiteFromIdInspector( config ) {
 	// Parent constructor
 	ve.ui.CiteFromIdInspector.super.call( this, config );
 
+	config = config || {};
+
 	this.referenceModel = null;
-	this.transclusionModel = null;
 	this.doneStaging = false;
 	this.results = [];
 	this.citeTools = [];
 	this.templateTypeMap = null;
 	this.lookupPromise = null;
 
-	this.$element.addClass( 've-ui-citeFromIdInspector' );
+	this.$element
+		.addClass( 've-ui-citeFromIdInspector' );
 };
 
 /* Inheritance */
@@ -47,7 +49,7 @@ ve.ui.CiteFromIdInspector.static.actions = [];
  * @inheritDoc
  */
 ve.ui.CiteFromIdInspector.prototype.initialize = function () {
-	var lookupActionFieldLayout,
+	var lookupActionFieldLayout, plainMsg, parsedMsg,
 		lookupFieldset = new OO.ui.FieldsetLayout(),
 		limit = ve.init.target.constructor.static.citationToolsLimit;
 
@@ -92,6 +94,25 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		lookupActionFieldLayout.$element
 	);
 
+	// Once more, with feeling: there's a bug in mw.messages that prevents us from
+	// using a link in the message unless we double-parse it.
+	// See https://phabricator.wikimedia.org/T49395#490610
+	mw.messages.set( {
+		'citoid-citeFromIDDialog-temporary-message': '<a href="#">' + mw.message( 'citoid-citeFromIDDialog-use-general-dialog-button' ) + '</a>'
+	} );
+	plainMsg = mw.message( 'citoid-citeFromIDDialog-temporary-message' ).plain();
+	mw.messages.set( { 'citoid-citeFromIDDialog-temporary-message-parsed': plainMsg } );
+	parsedMsg = mw.message( 'citoid-citeFromIDDialog-temporary-message-parsed' );
+	// Citation dialog label
+	this.citeDialogLabel = new OO.ui.LabelWidget( {
+		// Double-parse
+		label: $( '<span>' )
+			.addClass( 've-ui-citeFromIdInspector-dialog-link' )
+			.append(
+				mw.message( 'citoid-citeFromIDDialog-use-general-dialog-message', parsedMsg ).parse()
+			)
+	} );
+
 	// Preview fieldset
 	this.previewSelectWidget = new OO.ui.SelectWidget( {
 		classes: [ 've-ui-citeFromIdInspector-preview' ]
@@ -108,7 +129,31 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	} );
 
 	// Attach
-	this.form.$element.append( lookupFieldset.$element, this.previewSelectWidget.$element );
+	this.form.$element
+		.append(
+			lookupFieldset.$element,
+			this.citeDialogLabel.$element,
+			this.previewSelectWidget.$element
+		)
+		// Connect the dialog link to the event
+		.find( '.ve-ui-citeFromIdInspector-dialog-link a' )
+			.click( this.onOpenFullDialogLinkClick.bind( this ) );
+};
+
+/**
+ * Respond to full dialog link click
+ */
+ve.ui.CiteFromIdInspector.prototype.onOpenFullDialogLinkClick = function () {
+	var inspector = this,
+		fragment = this.getFragment();
+
+	// Preserve the staging
+	this.deliveredToAnotherDialog = true;
+	this.close().then( function () {
+		inspector.getManager().getSurface().execute( 'window', 'open', 'generalreference', {
+			fragment: fragment
+		} );
+	} );
 };
 
 /**
