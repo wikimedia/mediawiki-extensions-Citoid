@@ -5,12 +5,14 @@
 		]
 	},
 	"citoid-520-error": "Mer künne kein Dahte von däm enjeschtallte Bezäjschner afroofe.",
-	"citoid-desc": "Schaff Zohjreffspungkte zwesche däm Deens <i lang=\"en\" xml:lang=\"en\">Citoid</i> un MedijaWikki.",
+	"citoid-citeFromIDDialog-lookup-button": "Lohß jonn!",
 	"citoid-citeFromIDDialog-search": "Söhke",
 	"citoid-citeFromIDDialog-search-label": "<i xmk:lang=\"en\" lang=\"en\">URL</i> of <i xmk:lang=\"en\" lang=\"en\">DOI</i>",
 	"citoid-citeFromIDDialog-search-placeholder": "För e Beischpell: http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Ben aam Söhkre, ene Monemang&nbsp;&hellip;",
-	"citoid-citeFromIDDialog-title": "Donn de Zittahte automettesch vum <i xmk:lang=\"en\" lang=\"en\">URL</i> of <i xmk:lang=\"en\" lang=\"en\">DOI</i> enfölle.",
-	"citoid-citeFromIDTool-title": "Automattesch vum <i xmk:lang=\"en\" lang=\"en\">URL</i> ußfölle",
-	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json es schlääsch ennjeschtallt."
+	"citoid-citeFromIDDialog-title": "Donn e Zittaht derbei.",
+	"citoid-citeFromIDTool-title": "Zėttėhre",
+	"citoid-desc": "Schaff Zohjreffspungkte zwesche däm Deens <i lang=\"en\" xml:lang=\"en\">Citoid</i> un MedijaWikki.",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json es schlääsch ennjeschtallt.",
+	"citoid-unknown-error": "Ene onbikannte Fähler es opjetrodde.\nDröm krijje mer jäz kein Zittaht.\nBes esu johd un versöhg et schpääder norr_ens."
 }
