@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"LACLARETTA"
 		]
 	},
 	"citoid-520-error": "Impossibile recuperare le informazioni dall'identificatore fornito.",
@@ -9,7 +10,7 @@
 	"citoid-citeFromIDDialog-search-label": "URL o DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "ad esempio http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Ricerca in corso, attendi...",
-	"citoid-citeFromIDDialog-title": "Compilazione automatica delle citazioni da URL o DOI",
+	"citoid-citeFromIDDialog-title": "Aggiungi una didascalia",
 	"citoid-citeFromIDTool-title": "Compilazione automatica da URL",
 	"citoid-desc": "Fornisce un punto di accesso tra il servizio citoid e MediaWiki",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json non è configurato correttamente."

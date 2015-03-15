@@ -6,5 +6,7 @@
 	},
 	"citoid-citeFromIDDialog-search": "Sichen",
 	"citoid-citeFromIDDialog-search-placeholder": "z. B. http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "Sichen, gedëllegt Iech w.e.g. ..."
+	"citoid-citeFromIDDialog-search-progress": "Sichen, gedëllegt Iech w.e.g. ...",
+	"citoid-citeFromIDDialog-title": "En Zitat dobäisetzen",
+	"citoid-citeFromIDTool-title": "Zitéieren"
 }
