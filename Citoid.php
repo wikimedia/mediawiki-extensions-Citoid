@@ -42,7 +42,7 @@ $wgResourceModules['ext.citoid.visualEditor'] = array(
 	'styles' => array(
 		'modules/ve.ui.CiteFromIdInspector.css'
 	),
-	'dependencies ' => array(
+	'dependencies' => array(
 		'ext.visualEditor.mwreference',
 		'json',
 		'ext.visualEditor.mediawiki'
