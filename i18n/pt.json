@@ -12,7 +12,7 @@
 	"citoid-citeFromIDDialog-search-placeholder": "ex: http://www.exemplo.com",
 	"citoid-citeFromIDDialog-search-progress": "A pesquisar, por favor aguarde...",
 	"citoid-citeFromIDDialog-title": "Preenchimento automático de citações por URL ou DOI",
-	"citoid-citeFromIDTool-title": "Preenchimento automático a partir do URL",
+	"citoid-citeFromIDTool-title": "Citar",
 	"citoid-desc": "Fornece pontos de acesso entre o serviço citoid e a MediaWiki",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json está configurado incorretamente.",
 	"citoid-unknown-error": "Ocorreu um erro desconhecido que impediu a criação de uma citação. Por favor, tente novamente mais tarde."
