@@ -1,0 +1,71 @@
+{
+	"name": "Citoid",
+	"version": "0.1.0",
+	"author": [
+		"Marielle Volz"
+	],
+	"url": "https://www.mediawiki.org/wiki/Citoid",
+	"descriptionmsg": "citoid-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"MessagesDirs": {
+		"Citoid": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"CitoidHooks": "Citoid.hooks.php"
+	},
+	"ResourceModules": {
+		"ext.citoid.visualEditor": {
+			"scripts": [
+				"modules/ve.ui.CiteFromIdInspectorTool.js",
+				"modules/ve.ui.CiteFromIdOptionWidget.js",
+				"modules/ve.ui.CiteFromIdInspector.js"
+			],
+			"styles": [
+				"modules/ve.ui.CiteFromIdInspector.css"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwreference",
+				"json",
+				"ext.visualEditor.mediawiki"
+			],
+			"messages": [
+				"citoid-520-error",
+				"citoid-citeFromIDDialog-lookup-button",
+				"citoid-citeFromIDDialog-search",
+				"citoid-citeFromIDDialog-search-label",
+				"citoid-citeFromIDDialog-search-placeholder",
+				"citoid-citeFromIDDialog-search-progress",
+				"citoid-citeFromIDDialog-title",
+				"citoid-citeFromIDTool-title",
+				"citoid-template-type-map.json",
+				"citoid-typeMap-config-error",
+				"citoid-unknown-error"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Citoid"
+	},
+	"Hooks": {
+		"ResourceLoaderGetConfigVars": [
+			"CitoidHooks::onResourceLoaderGetConfigVars"
+		],
+		"ContentHandlerDefaultModelFor": [
+			"CitoidHooks::onContentHandlerDefaultModelFor"
+		]
+	},
+	"VisualEditorPluginModules": [
+		"ext.citoid.visualEditor"
+	],
+	"config": {
+		"CitoidServiceUrl": "https://localhost:1970/api"
+	}
+}
