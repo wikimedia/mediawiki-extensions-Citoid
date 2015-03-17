@@ -20,7 +20,8 @@
 		"ext.citoid.visualEditor": {
 			"scripts": [
 				"modules/ve.ui.CiteFromIdInspectorTool.js",
-				"modules/ve.ui.CiteFromIdOptionWidget.js",
+				"modules/ve.ui.CiteFromIdGroupWidget.js",
+				"modules/ve.ui.CiteFromIdReferenceWidget.js",
 				"modules/ve.ui.CiteFromIdInspector.js"
 			],
 			"styles": [

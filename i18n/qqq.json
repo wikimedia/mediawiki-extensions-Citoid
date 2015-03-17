@@ -5,6 +5,7 @@
 		]
 	},
 	"citoid-520-error": "Error message for when citoid service returns a 520 error",
+	"citoid-citation-widget-insert-button": "Label for the button to insert a chosen reference.",
 	"citoid-citeFromIDDialog-lookup-button": "Label for the lookup button for citation inputs.\n{{Identical|Lookup}}",
 	"citoid-citeFromIDDialog-search": "Text for the search button.\n{{Identical|Search}}",
 	"citoid-citeFromIDDialog-search-label": "Label for the URL/DOI search field.",
