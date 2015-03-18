@@ -47,3 +47,22 @@ ve.ui.CiteFromIdGroupWidget.prototype.onItemInsert = function ( item ) {
 ve.ui.CiteFromIdGroupWidget.prototype.onItemUpdate = function () {
 	this.emit( 'update' );
 };
+
+/**
+ * Clear all items from the group.
+ *
+ * Before they are cleared they will be destroyed individually, aborting promises and destroying ui
+ * surfaces and nodes.
+ *
+ * @chainable
+ */
+ve.ui.CiteFromIdGroupWidget.prototype.clearItems = function () {
+	var i, len;
+
+	for ( i = 0, len = this.items.length; i < len; i++ ) {
+		this.items[ i ].destroy();
+	}
+
+	// Parent method
+	OO.ui.GroupElement.prototype.clearItems.call( this );
+};
