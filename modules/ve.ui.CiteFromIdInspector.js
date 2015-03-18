@@ -42,7 +42,14 @@ ve.ui.CiteFromIdInspector.static.templateDataName = 'citoid';
 // The requested format from the citoid client, passed as a GET parameter
 ve.ui.CiteFromIdInspector.static.citoidFormat = 'mediawiki';
 
-ve.ui.CiteFromIdInspector.static.actions = [];
+ve.ui.CiteFromIdInspector.static.actions = [
+	{
+		action: 'back',
+		label: OO.ui.deferMsg( 'citoid-citeFromIDDialog-back' ),
+		flags: 'safe',
+		modes: [ 'result', 'notice' ]
+	}
+];
 
 /* Methods */
 
@@ -50,7 +57,7 @@ ve.ui.CiteFromIdInspector.static.actions = [];
  * @inheritDoc
  */
 ve.ui.CiteFromIdInspector.prototype.initialize = function () {
-	var lookupActionFieldLayout,
+	var lookupActionFieldLayout, noticeLabel,
 		lookupFieldset = new OO.ui.FieldsetLayout(),
 		limit = ve.init.target.constructor.static.citationToolsLimit;
 
@@ -75,6 +82,32 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 			dataType: 'json',
 			type: 'GET'
 		}
+	} );
+
+	this.panels = new OO.ui.StackLayout( {
+		expanded: false,
+		scrollable: false
+	} );
+
+	this.lookupPanel = new OO.ui.PanelLayout( {
+		$: this.$,
+		classes: [ 'citoid-citeFromIDDialog-panel-lookup' ],
+		expanded: false,
+		scrollable: false
+	} );
+
+	this.resultPanel = new OO.ui.PanelLayout( {
+		$: this.$,
+		classes: [ 'citoid-citeFromIDDialog-panel-result' ],
+		expanded: false,
+		scrollable: false
+	} );
+
+	this.noticePanel = new OO.ui.PanelLayout( {
+		$: this.$,
+		classes: [ 'citoid-citeFromIDDialog-panel-notice' ],
+		expanded: false,
+		scrollable: false
 	} );
 
 	// Lookup fieldset
@@ -108,8 +141,14 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 			)
 	} );
 
+	this.lookupPanel.$element
+		.append(
+			lookupFieldset.$element,
+			this.citeDialogLabel.$element
+		);
+
 	// Error label
-	this.errorLabel = new OO.ui.LabelWidget( {
+	noticeLabel = new OO.ui.LabelWidget( {
 		// Double-parse
 		label: $( '<span>' )
 			.addClass( 've-ui-citeFromIdInspector-clickable ve-ui-citeFromIdInspector-dialog-error' )
@@ -120,11 +159,12 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 				)
 			)
 	} );
-	this.errorLabel.toggle( false );
+	this.noticePanel.$element
+		.append( noticeLabel.$element );
 
 	// Preview fieldset
 	this.previewSelectWidget = new ve.ui.CiteFromIdGroupWidget();
-	this.previewSelectWidget.toggle( false );
+	this.resultPanel.$element.append( this.previewSelectWidget.$element );
 
 	// Events
 	this.lookupInput.connect( this, { change: 'onLookupInputChange' } );
@@ -134,17 +174,44 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		update: 'onPreviewSelectWidgetUpdate'
 	} );
 
+	this.panels.addItems( [
+		this.lookupPanel,
+		this.resultPanel,
+		this.noticePanel
+	] );
+
+	this.form.$element.append( this.panels.$element );
+
 	// Attach
 	this.form.$element
-		.append(
-			lookupFieldset.$element,
-			this.citeDialogLabel.$element,
-			this.errorLabel.$element,
-			this.previewSelectWidget.$element
-		)
+		.append( this.panels.$element )
 		// Connect the dialog link to the event
 		.find( '.ve-ui-citeFromIdInspector-clickable a' )
 			.click( this.onOpenFullDialogLinkClick.bind( this ) );
+};
+
+/**
+ * Switch between panels in the inspector
+ * @param {string} panel Panel name
+ */
+ve.ui.CiteFromIdInspector.prototype.switchPanels = function ( panelName ) {
+	var panel;
+
+	switch ( panelName ) {
+		case 'lookup':
+			panel = this.lookupPanel;
+			break;
+		case 'result':
+			panel = this.resultPanel;
+			break;
+		case 'notice':
+			panel = this.noticePanel;
+			break;
+	}
+
+	this.actions.setMode( panelName );
+	this.panels.setItem( panel );
+	this.updateSize();
 };
 
 /**
@@ -248,7 +315,6 @@ ve.ui.CiteFromIdInspector.prototype.onLookupInputChange = function ( value ) {
 		this.lookupPromise = null;
 	}
 	this.lookupButton.setDisabled( value === '' );
-	this.errorLabel.toggle( false );
 };
 
 /**
@@ -269,7 +335,7 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 			this.doneStaging = false;
 			this.results = [];
 			this.lookupButton.setDisabled( true );
-			this.previewSelectWidget.toggle( false );
+
 			// Stage an empty reference
 			this.getFragment().getSurface().pushStaging();
 
@@ -282,6 +348,8 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 			// Insert an empty reference
 			this.referenceModel.insertInternalItem( this.getFragment().getSurface() );
 			this.referenceModel.insertReferenceNode( this.getFragment() );
+
+			this.switchPanels( 'lookup' );
 		}, this );
 };
 
@@ -325,7 +393,6 @@ ve.ui.CiteFromIdInspector.prototype.getTeardownProcess = function ( data ) {
 ve.ui.CiteFromIdInspector.prototype.clearResults = function () {
 	this.results = [];
 	this.previewSelectWidget.clearItems();
-	this.errorLabel.toggle( false );
 	this.updateSize();
 };
 
@@ -339,6 +406,12 @@ ve.ui.CiteFromIdInspector.prototype.getActionProcess = function ( action ) {
 			this.clearResults();
 			// Look up
 			return this.performLookup();
+		}, this );
+	}
+	if ( action === 'back' ) {
+		return new OO.ui.Process( function () {
+			// Clear the results
+			this.switchPanels( 'lookup' );
 		}, this );
 	}
 	// Fallback to parent handler
@@ -378,6 +451,7 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 				// Apply staging
 				inspector.lookupInput.popPending();
 				inspector.lookupButton.setDisabled( false );
+				inspector.switchPanels( 'result' );
 				return inspector.buildTemplateResults( searchResults );
 			},
 			// Fail
@@ -385,8 +459,7 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 				// Enable the input and lookup button
 				inspector.lookupInput.popPending();
 				inspector.lookupButton.setDisabled( false );
-				inspector.errorLabel.toggle( true );
-				inspector.updateSize();
+				inspector.switchPanels( 'notice' );
 				return $.Deferred().resolve();
 			} )
 		.promise( { abort: xhr.abort } );

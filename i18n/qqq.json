@@ -12,6 +12,7 @@
 	"citoid-citeFromIDDialog-search-placeholder": "Placeholder for the URL/DOI search field.",
 	"citoid-citeFromIDDialog-search-progress": "Message for when the search is in progress",
 	"citoid-citeFromIDDialog-title": "The title displayed on the dialog",
+	"citoid-citeFromIDDialog-back": "Label for the button to go back to the lookup panel in the inspector.",
 	"citoid-citeFromIDDialog-use-general-dialog-button": "Label for the user to click to use the full citation tool.",
 	"citoid-citeFromIDDialog-use-general-dialog-message": "Label for the user to use the full citation tool. $1 - the button to open the citation dialog.",
 	"citoid-citeFromIDDialog-use-general-error-message": "Label notifying the user there was a problem creating their reference, and offering to use the full citation tool. $1 - the button to open the citation dialog.",

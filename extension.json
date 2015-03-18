@@ -34,6 +34,7 @@
 			],
 			"messages": [
 				"citoid-520-error",
+				"citoid-citeFromIDDialog-back",
 				"citoid-citeFromIDDialog-lookup-button",
 				"citoid-citeFromIDDialog-search",
 				"citoid-citeFromIDDialog-search-label",

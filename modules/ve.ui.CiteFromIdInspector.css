@@ -1,5 +1,8 @@
-.ve-ui-citeFromIdInspector-preview {
+.ve-ui-citeFromIdInspector-preview + .ve-ui-citeFromIdInspector-preview {
 	border-top: 1px solid #cccccc;
+}
+
+.ve-ui-citeFromIdInspector-preview {
 	max-height: 15em;
 	margin-top: 0.5em;
 	padding: 0.5em;
@@ -39,9 +42,13 @@
 	float: right;
 }
 
+.ve-ui-citeFromIdInspector-clickable a {
+	font-weight: bold;
+}
+
 .ve-ui-citeFromIdInspector-dialog-link {
 	display: inline-block;
-	margin: 0.5em 0;
+	margin: 1.5em 0 1em 0;
 }
 
 .ve-ui-citeFromIdInspector-dialog-error {

@@ -51,6 +51,7 @@ $wgResourceModules['ext.citoid.visualEditor'] = array(
 	'messages' => array(
 		'citoid-520-error',
 		'citoid-citation-widget-insert-button',
+		'citoid-citeFromIDDialog-back',
 		'citoid-citeFromIDDialog-lookup-button',
 		'citoid-citeFromIDDialog-search',
 		'citoid-citeFromIDDialog-search-label',
