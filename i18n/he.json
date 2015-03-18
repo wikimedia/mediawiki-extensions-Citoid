@@ -5,6 +5,7 @@
 		]
 	},
 	"citoid-520-error": "לא ניתן לאחזר מידע מהמזהה שסופק.",
+	"citoid-citation-widget-insert-button": "הוספה",
 	"citoid-citeFromIDDialog-lookup-button": "חיפוש",
 	"citoid-citeFromIDDialog-search": "חיפוש",
 	"citoid-citeFromIDDialog-search-label": "URL או DOI",
@@ -13,6 +14,8 @@
 	"citoid-citeFromIDDialog-title": "הוספת ציטוט",
 	"citoid-citeFromIDTool-title": "ציטוט",
 	"citoid-desc": "אספקת נקודות כניסה בין שירות citoid לבין מדיה־ויקי",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "אפשר גם להשתמש בכפתור $1 כדי למלא את הפרטים בעצמך.",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "חלון ציטוטים מלא",
 	"citoid-typeMap-config-error": "הקובץ Mediawiki:citoid-template-type-map.json אינו מוגדר נכון.",
 	"citoid-unknown-error": "אירעה שגיאה בלתי־ידועה שמנעה מאתנו ליצור ציטוט.\nנא לנסות שוב מאוחר יותר."
 }

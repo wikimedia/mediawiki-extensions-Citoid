@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R."
+		]
+	},
+	"citoid-520-error": "Nun se ponno accucchià nfurmaziune d' 'o identificatore dato.",
+	"citoid-citation-widget-insert-button": "Nzèrta",
+	"citoid-citeFromIDDialog-lookup-button": "Cerca",
+	"citoid-citeFromIDDialog-search": "Ascìa",
+	"citoid-citeFromIDDialog-search-label": "URL o DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "p'esempie http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Ascianno mò, pe' piacere aspettate...",
+	"citoid-citeFromIDDialog-title": "Azzeccate na citazione",
+	"citoid-citeFromIDTool-title": "Citazione",
+	"citoid-desc": "Dà punte 'acciesso nfra 'o servizio citoid e MediaWiki",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "O pure ausate 'o $1 pe' putè ghienchere 'e ddettaglie vuje stisso",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "dialogo 'e citazione sano sano",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json nun è mpustato buono buono.",
+	"citoid-unknown-error": "S'è scummigliato n'errore ca nun ce permettesse 'e crià 'a citaziona. Pe' piacere tentate cchiù tarde.."
+}

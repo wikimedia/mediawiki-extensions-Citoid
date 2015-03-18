@@ -6,6 +6,7 @@
 		]
 	},
 	"citoid-520-error": "Informationen von der angegebenen Bezeichnung konnten nicht abgerufen werden.",
+	"citoid-citation-widget-insert-button": "Einfügen",
 	"citoid-citeFromIDDialog-lookup-button": "Suchen",
 	"citoid-citeFromIDDialog-search": "Suche",
 	"citoid-citeFromIDDialog-search-label": "URL oder DOI",
@@ -14,6 +15,8 @@
 	"citoid-citeFromIDDialog-title": "Ein Zitat hinzufügen",
 	"citoid-citeFromIDTool-title": "Zitieren",
 	"citoid-desc": "Schafft Zugriffspunkte zwischen dem Citoid-Dienst und MediaWiki",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "Oder benutze „$1“, um die Einzelheiten selbst auszufüllen.",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "Dialog für volle Zitierung",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json ist unsachgemäß konfiguriert.",
 	"citoid-unknown-error": "Ein unbekannter Fehler ist aufgetreten, der uns daran hindert, ein Zitat zu erstellen. Bitte später erneut versuchen."
 }
