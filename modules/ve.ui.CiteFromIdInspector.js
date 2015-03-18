@@ -50,7 +50,7 @@ ve.ui.CiteFromIdInspector.static.actions = [];
  * @inheritDoc
  */
 ve.ui.CiteFromIdInspector.prototype.initialize = function () {
-	var lookupActionFieldLayout, plainMsg, parsedMsg,
+	var lookupActionFieldLayout,
 		lookupFieldset = new OO.ui.FieldsetLayout(),
 		limit = ve.init.target.constructor.static.citationToolsLimit;
 
@@ -95,24 +95,32 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		lookupActionFieldLayout.$element
 	);
 
-	// Once more, with feeling: there's a bug in mw.messages that prevents us from
-	// using a link in the message unless we double-parse it.
-	// See https://phabricator.wikimedia.org/T49395#490610
-	mw.messages.set( {
-		'citoid-citeFromIDDialog-temporary-message': '<a href="#">' + mw.message( 'citoid-citeFromIDDialog-use-general-dialog-button' ) + '</a>'
-	} );
-	plainMsg = mw.message( 'citoid-citeFromIDDialog-temporary-message' ).plain();
-	mw.messages.set( { 'citoid-citeFromIDDialog-temporary-message-parsed': plainMsg } );
-	parsedMsg = mw.message( 'citoid-citeFromIDDialog-temporary-message-parsed' );
 	// Citation dialog label
 	this.citeDialogLabel = new OO.ui.LabelWidget( {
 		// Double-parse
 		label: $( '<span>' )
-			.addClass( 've-ui-citeFromIdInspector-dialog-link' )
+			.addClass( 've-ui-citeFromIdInspector-clickable ve-ui-citeFromIdInspector-dialog-link' )
 			.append(
-				mw.message( 'citoid-citeFromIDDialog-use-general-dialog-message', parsedMsg ).parse()
+				this.doubleParseMessage(
+					'citoid-citeFromIDDialog-use-general-dialog-message',
+					'citoid-citeFromIDDialog-use-general-dialog-button'
+				)
 			)
 	} );
+
+	// Error label
+	this.errorLabel = new OO.ui.LabelWidget( {
+		// Double-parse
+		label: $( '<span>' )
+			.addClass( 've-ui-citeFromIdInspector-clickable ve-ui-citeFromIdInspector-dialog-error' )
+			.append(
+				this.doubleParseMessage(
+					'citoid-citeFromIDDialog-use-general-error-message',
+					'citoid-citeFromIDDialog-use-general-dialog-button'
+				)
+			)
+	} );
+	this.errorLabel.toggle( false );
 
 	// Preview fieldset
 	this.previewSelectWidget = new ve.ui.CiteFromIdGroupWidget();
@@ -131,11 +139,33 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		.append(
 			lookupFieldset.$element,
 			this.citeDialogLabel.$element,
+			this.errorLabel.$element,
 			this.previewSelectWidget.$element
 		)
 		// Connect the dialog link to the event
-		.find( '.ve-ui-citeFromIdInspector-dialog-link a' )
+		.find( '.ve-ui-citeFromIdInspector-clickable a' )
 			.click( this.onOpenFullDialogLinkClick.bind( this ) );
+};
+
+/**
+ * Double-parse a message to be able to display links inside it.
+ * @param {string} wrapperMessage Wrapping message key
+ * @param {string} linkMessage Link message key
+ * @return {string} The final message, parsed.
+ */
+ve.ui.CiteFromIdInspector.prototype.doubleParseMessage = function ( wrapperMessage, linkMessage ) {
+	var plainMsg, parsedMsg;
+
+	// Once more, with feeling: there's a bug in mw.messages that prevents us from
+	// using a link in the message unless we double-parse it.
+	// See https://phabricator.wikimedia.org/T49395#490610
+	mw.messages.set( {
+		'citoid-citeFromIDDialog-temporary-message': '<a href="#">' + mw.message( linkMessage ) + '</a>'
+	} );
+	plainMsg = mw.message( 'citoid-citeFromIDDialog-temporary-message' ).plain();
+	mw.messages.set( { 'citoid-citeFromIDDialog-temporary-message-parsed': plainMsg } );
+	parsedMsg = mw.message( 'citoid-citeFromIDDialog-temporary-message-parsed' );
+	return mw.message( wrapperMessage, parsedMsg ).parse();
 };
 
 /**
@@ -218,6 +248,7 @@ ve.ui.CiteFromIdInspector.prototype.onLookupInputChange = function ( value ) {
 		this.lookupPromise = null;
 	}
 	this.lookupButton.setDisabled( value === '' );
+	this.errorLabel.toggle( false );
 };
 
 /**
@@ -294,6 +325,8 @@ ve.ui.CiteFromIdInspector.prototype.getTeardownProcess = function ( data ) {
 ve.ui.CiteFromIdInspector.prototype.clearResults = function () {
 	this.results = [];
 	this.previewSelectWidget.clearItems();
+	this.errorLabel.toggle( false );
+	this.updateSize();
 };
 
 /**
@@ -348,29 +381,13 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 				return inspector.buildTemplateResults( searchResults );
 			},
 			// Fail
-			function ( type, response ) {
-				var textStatus = response.textStatus;
-				// 520 status from citoid means there was no response at the
-				// URL provided, but it returns a citation regardless. We're
-				// choosing to insert that citation here but to notify the user.
-				if ( response.xhr.status === 520 ) {
-					// Enable the input and lookup button
-					inspector.lookupInput.popPending();
-					inspector.lookupButton.setDisabled( false );
-
-					// Notify the user that something went wrong
-					mw.notify( mw.message( 'citoid-520-error' ) );
-
-					// Add as a regular web citation
-					return inspector.buildTemplateResults( response.xhr.responseJSON );
-				} else {
-					inspector.lookupInput.popPending();
-					inspector.lookupButton.setDisabled( false );
-					if ( textStatus !== 'abort' ) {
-						mw.notify( mw.msg( 'citoid-unknown-error' ) );
-					}
-					return new OO.ui.Error( mw.msg( 'citoid-unknown-error' ) );
-				}
+			function () {
+				// Enable the input and lookup button
+				inspector.lookupInput.popPending();
+				inspector.lookupButton.setDisabled( false );
+				inspector.errorLabel.toggle( true );
+				inspector.updateSize();
+				return $.Deferred().resolve();
 			} )
 		.promise( { abort: xhr.abort } );
 	return this.lookupPromise;

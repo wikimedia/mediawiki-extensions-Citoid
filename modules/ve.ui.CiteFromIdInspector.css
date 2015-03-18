@@ -10,6 +10,7 @@
 	white-space: normal;
 }
 
+.ve-ui-citeFromIdInspector-dialog-error,
 .ve-ui-citeFromIdReferenceWidget-wrapper {
 	margin-top: 0.6em;
 	line-height: 1.3em;
@@ -41,4 +42,8 @@
 .ve-ui-citeFromIdInspector-dialog-link {
 	display: inline-block;
 	margin: 0.5em 0;
+}
+
+.ve-ui-citeFromIdInspector-dialog-error {
+	display: inline-block;
 }
