@@ -2,16 +2,24 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"LACLARETTA"
+			"LACLARETTA",
+			"Jdforrester"
 		]
 	},
 	"citoid-520-error": "Impossibile recuperare le informazioni dall'identificatore fornito.",
+	"citoid-citation-widget-insert-button": "Inserirla",
+	"citoid-citeFromIDDialog-back": "Indietro",
+	"citoid-citeFromIDDialog-lookup-button": "Ricerca",
 	"citoid-citeFromIDDialog-search": "Cerca",
 	"citoid-citeFromIDDialog-search-label": "URL o DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "ad esempio http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Ricerca in corso, attendi...",
 	"citoid-citeFromIDDialog-title": "Aggiungi una citazione",
-	"citoid-citeFromIDTool-title": "Compilazione automatica da URL",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "strumento completo per citazioni",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "Oppure utilizzare lo $1 per inserire i dati manualmente.",
+	"citoid-citeFromIDDialog-use-general-error-message": "Non potevamo fare una citazione per voi. Si può fare usando lo $1.",
+	"citoid-citeFromIDTool-title": "Cita",
 	"citoid-desc": "Fornisce un punto di accesso tra il servizio citoid e MediaWiki",
-	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json non è configurato correttamente."
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json non è configurato correttamente.",
+	"citoid-unknown-error": "Un errore sconosciuto è verificato che ci ha impedito la creazione di una citazione. Si prega di riprovare più tardi."
 }

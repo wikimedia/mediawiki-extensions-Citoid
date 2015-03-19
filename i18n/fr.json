@@ -3,16 +3,25 @@
 		"authors": [
 			"Benjozork",
 			"Orikrin1998",
-			"Linedwell"
+			"Linedwell",
+			"Gomoko",
+			"Jdforrester"
 		]
 	},
 	"citoid-520-error": "Impossible de récupérer les informations à partir de son identifiant.",
-	"citoid-desc": "Offre des points d'accès entre le service citoid et MediaWiki",
+	"citoid-citation-widget-insert-button": "Insérer",
+	"citoid-citeFromIDDialog-back": "Retour",
+	"citoid-citeFromIDDialog-lookup-button": "Trouver",
 	"citoid-citeFromIDDialog-search": "Chercher",
 	"citoid-citeFromIDDialog-search-label": "URL ou DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "par exemple, http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Recherche en cours, veuillez patienter...",
-	"citoid-citeFromIDDialog-title": "Remplissage automatique des citations par URL ou DOI",
-	"citoid-citeFromIDTool-title": "Remplir depuis l'URL",
-	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json n'est pas correctement configuré."
+	"citoid-citeFromIDDialog-title": "Ajouter une citation",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "dialogue de citation complète",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "Ou utiliser la $1 à remplir dans les détails vous-même.",
+	"citoid-citeFromIDDialog-use-general-error-message": "Nous ne pouvons pas faire une citation pour vous. Vous pouvez en faire une en utilisant le $1.",
+	"citoid-citeFromIDTool-title": "Citer",
+	"citoid-desc": "Offre des points d'accès entre le service citoid et MediaWiki",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json n'est pas correctement configuré.",
+	"citoid-unknown-error": "Une erreur inconnue s'est produite ce qui nous a empêchés de création d'une citation. S'il vous plaît essayer à nouveau plus tard."
 }

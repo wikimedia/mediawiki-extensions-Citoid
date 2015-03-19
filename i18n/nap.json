@@ -12,10 +12,10 @@
 	"citoid-citeFromIDDialog-search-placeholder": "p'esempie http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Ascianno mò, pe' piacere aspettate...",
 	"citoid-citeFromIDDialog-title": "Azzeccate na citazione",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "dialogo 'e citazione sano sano",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "O pure ausate 'o $1 pe' putè ghienchere 'e ddettaglie vuje stisso",
 	"citoid-citeFromIDTool-title": "Citazione",
 	"citoid-desc": "Dà punte 'acciesso nfra 'o servizio citoid e MediaWiki",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "O pure ausate 'o $1 pe' putè ghienchere 'e ddettaglie vuje stisso",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "dialogo 'e citazione sano sano",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json nun è mpustato buono buono.",
 	"citoid-unknown-error": "S'è scummigliato n'errore ca nun ce permettesse 'e crià 'a citaziona. Pe' piacere tentate cchiù tarde.."
 }

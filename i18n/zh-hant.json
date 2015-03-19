@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Citizen01"
+			"Citizen01",
+			"Wehwei"
 		]
 	},
-	"citoid-desc": "於 citoid 服務與 MediaWiki 間提供存取點",
+	"citoid-citeFromIDDialog-back": "返回",
 	"citoid-citeFromIDDialog-search": "搜尋",
 	"citoid-citeFromIDDialog-search-label": "URL 或 DOI",
-	"citoid-citeFromIDDialog-search-placeholder": "例如 http://www.example.com"
+	"citoid-citeFromIDDialog-search-placeholder": "例如 http://www.example.com",
+	"citoid-desc": "於 citoid 服務與 MediaWiki 間提供存取點"
 }

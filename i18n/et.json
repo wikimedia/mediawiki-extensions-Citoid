@@ -12,10 +12,10 @@
 	"citoid-citeFromIDDialog-search-placeholder": "nt http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Otsimine, palun oota...",
 	"citoid-citeFromIDDialog-title": "Viite lisamine",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "täielikku viitamisdialoogi",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "Või kasuta $1, et üksikasjad ise sisestada.",
 	"citoid-citeFromIDTool-title": "Viide",
 	"citoid-desc": "Tagab teenuse Citoid ja MediaWiki vahelised pääsupunktid.",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "Või kasuta $1, et üksikasjad ise sisestada.",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "täielikku viitamisdialoogi",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json ei ole õigesti häälestatud.",
 	"citoid-unknown-error": "Ilmnes tundmatu tõrge, mis takistas viite loomist. Palun proovi hiljem uuesti."
 }
