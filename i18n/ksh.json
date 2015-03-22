@@ -13,6 +13,8 @@
 	"citoid-citeFromIDDialog-search-placeholder": "För e Beischpell: http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Ben aam Söhkre, ene Monemang&nbsp;&hellip;",
 	"citoid-citeFromIDDialog-title": "Donn e Zittaht derbei.",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "voll zittehre",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "Udder nemm dä Knopp „$1“ un föll de Einzelheijte sällver en.",
 	"citoid-citeFromIDDialog-use-general-error-message": "Mer kunnte kei Zettaht zesamme krijje.\nDo kanns ein maache, jangk op der  „$1“-Knopp.",
 	"citoid-citeFromIDTool-title": "Zėttėhre",
 	"citoid-desc": "Schaff Zohjreffspungkte zwesche däm Deens <i lang=\"en\" xml:lang=\"en\">Citoid</i> un MedijaWikki.",

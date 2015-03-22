@@ -8,6 +8,7 @@
 	"citoid-citeFromIDDialog-back": "Atgal",
 	"citoid-citeFromIDDialog-lookup-button": "Ieškoti",
 	"citoid-citeFromIDDialog-title": "Pridėti citatą",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "pilnas citatos dialogas",
 	"citoid-citeFromIDDialog-use-general-error-message": "Mums nepavyko sukurti citatą. Jūs galite tai padaryti naudodamiesi $1.",
 	"citoid-citeFromIDTool-title": "Cituoti"
 }
