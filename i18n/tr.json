@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Ekle",
+	"citoid-citeFromIDDialog-back": "Geri",
+	"citoid-citeFromIDDialog-search": "Ara",
+	"citoid-citeFromIDDialog-search-label": "URL veya DOİ",
+	"citoid-citeFromIDDialog-search-placeholder": "örneğin http://www.example.com"
+}

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Pikne"
 		]
 	},
 	"citoid-520-error": "Error message for when citoid service returns a 520 error",
@@ -14,8 +15,8 @@
 	"citoid-citeFromIDDialog-search-progress": "Message for when the search is in progress",
 	"citoid-citeFromIDDialog-title": "The title displayed on the dialog",
 	"citoid-citeFromIDDialog-use-general-dialog-button": "Label for the user to click to use the full citation tool.",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "Label for the user to use the full citation tool. $1 - the button to open the citation dialog.",
-	"citoid-citeFromIDDialog-use-general-error-message": "Label notifying the user there was a problem creating their reference, and offering to use the full citation tool. $1 - the button to open the citation dialog.",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "Label for the user to use the full citation tool.\n* $1 – the link to open the citation dialog; link label: {{msg-mw|citoid-citeFromIDDialog-use-general-dialog-button}}",
+	"citoid-citeFromIDDialog-use-general-error-message": "Label notifying the user there was a problem creating their reference, and offering to use the full citation tool.\n* $1 – link to open the citation dialog; link label: {{msg-mw|citoid-citeFromIDDialog-use-general-dialog-button}}",
 	"citoid-citeFromIDTool-title": "Label for the button to add a citation in the toolbar\n{{Identical|Cite}}",
 	"citoid-desc": "{{desc|name=Citoid|url=http://www.mediawiki.org/wiki/Citoid}}",
 	"citoid-typeMap-config-error": "Error message indicating Mediawiki:citoid-template-type-map.json either doesn't exist or contains errors.",

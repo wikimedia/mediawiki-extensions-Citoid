@@ -9,12 +9,16 @@
 	"citoid-520-error": "No se pudo obtener información a partir del identificador proporcionado.",
 	"citoid-citation-widget-insert-button": "Insertar",
 	"citoid-citeFromIDDialog-back": "Atrás",
+	"citoid-citeFromIDDialog-lookup-button": "Busca",
 	"citoid-citeFromIDDialog-search": "Buscar",
 	"citoid-citeFromIDDialog-search-label": "URL o DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "por ejemplo, http://www.ejemplo.com",
 	"citoid-citeFromIDDialog-search-progress": "Buscando. Espera...",
 	"citoid-citeFromIDDialog-title": "Agregar una cita",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "Cuadro completo de citas",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "O usa $1 para completar los detalles tu mismo.",
 	"citoid-citeFromIDTool-title": "Citar",
 	"citoid-desc": "Proporciona puntos de acceso entre el servicio Citoid y MediaWiki",
-	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json está configurado incorrectamente."
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json está configurado incorrectamente.",
+	"citoid-unknown-error": "Ocurrió un error desconocido que nos impidió crear la cita. Inténtalo de nuevo más tarde."
 }
