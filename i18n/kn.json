@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vikassy"
+		]
+	},
+	"citoid-citation-widget-insert-button": "ಸೇರ್ಪಡಿಸು",
+	"citoid-citeFromIDDialog-back": "ಹಿಂದಕ್ಕೆ",
+	"citoid-citeFromIDDialog-lookup-button": "ಹುಡುಕು",
+	"citoid-citeFromIDDialog-search": "ಹುಡುಕು",
+	"citoid-citeFromIDDialog-search-label": "ಯುಆರ ಅತವ ಡೀಒಏ",
+	"citoid-citeFromIDDialog-search-placeholder": "http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "ಹುಡುಕುತೀದೆ, ಸ್ವಲ್ಪ ಕಾಯೀರೀ",
+	"citoid-citeFromIDDialog-title": "ಉಲ್ಲೇಖ ಹಾಕೀ",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "ಉಲ್ಲೇಖದ ಆಯ್ಕೆಯನ್ನು ತೊರೀಸೀ",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "ಅಥವಾ $1 ಅಲೀ ವಿವರಗಳು ಹಾಕೀ",
+	"citoid-citeFromIDTool-title": "ಉಲ್ಲೇಖಿಸಿ"
+}
