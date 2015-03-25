@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robin0van0der0vliet"
+			"Robin0van0der0vliet",
+			"MedShot"
 		]
 	},
+	"citoid-citeFromIDDialog-back": "Terug",
 	"citoid-citeFromIDDialog-search": "Zoeken",
 	"citoid-citeFromIDDialog-search-label": "URL of DOI"
 }
