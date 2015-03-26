@@ -80,6 +80,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 			// Request content language of wiki from citoid service
 			headers: { 'accept-language': mw.config.get( 'wgContentLanguage' ) },
 			dataType: 'json',
+			timeout: 20 * 1000, // 20 seconds
 			type: 'GET'
 		}
 	} );
@@ -170,8 +171,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	this.lookupInput.connect( this, { change: 'onLookupInputChange' } );
 	this.lookupButton.connect( this, { click: 'onLookupButtonClick' } );
 	this.previewSelectWidget.connect( this, {
-		choose: 'onPreviewSelectWidgetChoose',
-		update: 'onPreviewSelectWidgetUpdate'
+		choose: 'onPreviewSelectWidgetChoose'
 	} );
 
 	this.panels.addItems( [
@@ -260,13 +260,6 @@ ve.ui.CiteFromIdInspector.prototype.onFormSubmit = function () {
 };
 
 /**
- * Respond to item update event in the preview select widget
- */
-ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetUpdate = function () {
-	this.updateSize();
-};
-
-/**
  * Respond to preview select widget choose event
  */
 ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) {
@@ -311,7 +304,6 @@ ve.ui.CiteFromIdInspector.prototype.onLookupInputChange = function ( value ) {
 	if ( this.lookupPromise ) {
 		// Abort existing promises
 		this.lookupPromise.abort();
-		this.lookupInput.popPending();
 		this.lookupPromise = null;
 	}
 	this.lookupButton.setDisabled( value === '' );
@@ -429,6 +421,7 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 	if ( this.lookupPromise ) {
 		// Abort existing lookup
 		this.lookupPromise.abort();
+		this.lookupPromise = null;
 		this.lookupInput.popPending();
 	}
 	// Set as pending
@@ -448,20 +441,25 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 		.then(
 			// Success
 			function ( searchResults ) {
-				// Apply staging
-				inspector.lookupInput.popPending();
-				inspector.lookupButton.setDisabled( false );
-				inspector.switchPanels( 'result' );
-				return inspector.buildTemplateResults( searchResults );
+				// Build results
+				return inspector.buildTemplateResults( searchResults )
+					.then( function () {
+						inspector.switchPanels( 'result' );
+					} );
 			},
 			// Fail
-			function () {
+			function ( type, response ) {
+				if ( response && response.textStatus === 'abort' ) {
+					return $.Deferred().reject();
+				}
 				// Enable the input and lookup button
-				inspector.lookupInput.popPending();
-				inspector.lookupButton.setDisabled( false );
 				inspector.switchPanels( 'notice' );
 				return $.Deferred().resolve();
 			} )
+		.always( function () {
+			inspector.lookupInput.popPending();
+			inspector.lookupButton.setDisabled( false );
+		} )
 		.promise( { abort: xhr.abort } );
 	return this.lookupPromise;
 };
@@ -474,7 +472,8 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
  *  or is rejected if there are any problems with the template name or the internal item.
  */
 ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResults ) {
-	var i, templateName, citation, result,
+	var i, templateName, citation, result, refWidget,
+		renderPromises = [],
 		partPromises = [],
 		inspector = this;
 
@@ -510,18 +509,20 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 			var optionWidgets = [];
 			// Create option widgets
 			for ( i = 0; i < inspector.results.length; i++ ) {
-				optionWidgets.push( new ve.ui.CiteFromIdReferenceWidget(
+				refWidget = new ve.ui.CiteFromIdReferenceWidget(
 					inspector.getFragment().getSurface().getDocument(),
 					{
 						data: i,
 						transclusionModel: inspector.results[i].transclusionModel,
 						templateName: inspector.results[i].templateName,
 						citeTools: inspector.citeTools
-					} ) );
+					} );
+				optionWidgets.push( refWidget );
+				renderPromises.push( refWidget.getRenderPromise() );
 			}
 			// Add to the select widget
 			inspector.previewSelectWidget.addItems( optionWidgets );
-			inspector.previewSelectWidget.toggle( true );
+			return $.when.apply( $, renderPromises );
 		} );
 };
 

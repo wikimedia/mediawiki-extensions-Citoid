@@ -5,7 +5,7 @@
  * @param {Object} config Dialog configuration object
  */
 ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( documentModel, config ) {
-	var i, len, icon, item, title, uiSurface,
+	var i, len, icon, item, title,
 		widget = this;
 
 	config = config || {};
@@ -15,6 +15,8 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 	this.template = config.template;
 	this.transclusionModel = config.transclusionModel;
 	this.title = this.templateName;
+
+	this.renderPromise = $.Deferred();
 
 	// Parent constructor
 	ve.ui.CiteFromIdReferenceWidget.super.call( this, config );
@@ -42,7 +44,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 	} );
 
 	// Creating the citation
-	uiSurface = new ve.ui.DesktopSurface(
+	this.uiSurface = new ve.ui.DesktopSurface(
 		new ve.dm.ElementLinearData(
 			documentModel.getStore(),
 			[
@@ -57,19 +59,24 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 				{ type: '/internalList' }
 			]
 		) );
+	// HACK: We need the view to be initialized in order for the 'rerender' event
+	// to be emitted on the generated node.
+	this.uiSurface.getView().initialize();
+	this.node = this.uiSurface.getView().getDocument().getDocumentNode().getChildren()[0];
+	if ( this.node.isGenerating() ) {
+		this.node.once( 'rerender', function () {
+			widget.renderPromise.resolve();
+		} );
+	} else {
+		this.renderPromise.resolve();
+	}
+
 	this.$referenceWrapper = $( '<div>' )
 		.addClass( 've-ui-citeFromIdReferenceWidget-wrapper' )
-		// HACK: We want to update the size of the inspector according to the
-		// size of this widget, and for that we need to know when the generated
-		// node is done generating. This should be fixed at some point to not
-		// require listening DOMSubtreeModified event.
-		.on( 'DOMSubtreeModified', ve.debounce( function () {
-			widget.emit( 'update' );
-		}, 100 ) )
 		.on( 'click mousedown', function ( e ) {
 			e.preventDefault();
 		} )
-		.append( uiSurface.view.documentView.documentNode.children[0].$element );
+		.append( this.node.$element );
 
 	// Display the preview
 	title = new OO.ui.LabelWidget( {
@@ -98,9 +105,27 @@ OO.mixinClass( ve.ui.CiteFromIdReferenceWidget, OO.ui.IconElement );
 /* Methods */
 
 /**
+ * Clean up the widget; destroy node and surface.
+ */
+ve.ui.CiteFromIdReferenceWidget.prototype.destroy = function () {
+	this.node.destroy();
+	this.uiSurface.destroy();
+	this.renderPromise.reject();
+};
+
+/**
  * Respond to insert button click event
  * @fires insert
  */
 ve.ui.CiteFromIdReferenceWidget.prototype.onInsertButtonClick = function () {
 	this.emit( 'insert', this.data );
+};
+
+/**
+ * Get the render promise associated with the node.
+ * @return {jQuery.Promise} Rendering promise resolved when the rendering
+ * of the node is completed.
+ */
+ve.ui.CiteFromIdReferenceWidget.prototype.getRenderPromise = function () {
+	return this.renderPromise;
 };
