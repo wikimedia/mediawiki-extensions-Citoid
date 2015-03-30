@@ -6,6 +6,7 @@
 	},
 	"citoid-520-error": "Nie można pobrać informacji z dostarczonego identyfikatora.",
 	"citoid-citation-widget-insert-button": "Wstaw",
+	"citoid-citeFromIDDialog-back": "Wstecz",
 	"citoid-citeFromIDDialog-search": "Szukaj",
 	"citoid-citeFromIDDialog-search-label": "URL lub DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "np. http://www.example.com",

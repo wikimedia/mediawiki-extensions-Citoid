@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Вставить",
+	"citoid-citeFromIDDialog-back": "Назад",
+	"citoid-citeFromIDDialog-search": "Поиск"
+}

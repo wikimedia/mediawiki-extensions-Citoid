@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mogoeilor"
+		]
+	},
+	"citoid-citation-widget-insert-button": "نیائن",
+	"citoid-citeFromIDDialog-back": "دما",
+	"citoid-citeFromIDDialog-lookup-button": "پی جوری",
+	"citoid-citeFromIDDialog-search": "پی جوری",
+	"citoid-citeFromIDDialog-search-label": "یو آر ال یا دی او آی",
+	"citoid-citeFromIDDialog-search-placeholder": "همچنی چی... http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "د حال و بار پی جوری لطفن یه گری صب بکیت...."
+}
