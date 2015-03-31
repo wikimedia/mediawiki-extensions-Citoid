@@ -47,12 +47,12 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 			documentModel.getStore(),
 			[
 				{
-					type: 'mwTransclusionBlock',
+					type: 'mwTransclusionInline',
 					attributes: {
 						mw: this.transclusionModel.getPlainObject()
 					}
 				},
-				{ type: '/mwTransclusionBlock' },
+				{ type: '/mwTransclusionInline' },
 				{ type: 'internalList' },
 				{ type: '/internalList' }
 			]
