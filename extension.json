@@ -22,7 +22,8 @@
 				"modules/ve.ui.CiteFromIdInspectorTool.js",
 				"modules/ve.ui.CiteFromIdGroupWidget.js",
 				"modules/ve.ui.CiteFromIdReferenceWidget.js",
-				"modules/ve.ui.CiteFromIdInspector.js"
+				"modules/ve.ui.CiteFromIdInspector.js",
+				"modules/ve.ui.CitoidAction.js"
 			],
 			"styles": [
 				"modules/ve.ui.CiteFromIdInspector.css"
@@ -34,6 +35,7 @@
 			],
 			"messages": [
 				"citoid-520-error",
+				"citoid-citation-widget-insert-button",
 				"citoid-citeFromIDDialog-back",
 				"citoid-citeFromIDDialog-lookup-button",
 				"citoid-citeFromIDDialog-search",
@@ -41,6 +43,8 @@
 				"citoid-citeFromIDDialog-search-placeholder",
 				"citoid-citeFromIDDialog-search-progress",
 				"citoid-citeFromIDDialog-title",
+				"citoid-citeFromIDDialog-use-general-dialog-button",
+				"citoid-citeFromIDDialog-use-general-dialog-message",
 				"citoid-citeFromIDDialog-use-general-error-message",
 				"citoid-citeFromIDTool-title",
 				"citoid-template-type-map.json",
