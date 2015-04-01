@@ -1,9 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Phoenix303"
+			"Phoenix303",
+			"Ankita-ks"
 		]
 	},
+	"citoid-520-error": "प्रदान किये पहचानकर्ता से जानकारी प्राप्त करने में असमर्थ।",
 	"citoid-citation-widget-insert-button": "सम्मिलित करें",
-	"citoid-citeFromIDDialog-back": "पीछे"
+	"citoid-citeFromIDDialog-back": "पीछे",
+	"citoid-citeFromIDDialog-lookup-button": "ढूँढें",
+	"citoid-citeFromIDDialog-search": "खोजें",
+	"citoid-citeFromIDDialog-search-label": "यू.आर.एल",
+	"citoid-citeFromIDDialog-search-placeholder": "उदाहरण http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": " ढूंढ़ रहे हैं, कृपया प्रतीक्षा करें...",
+	"citoid-citeFromIDDialog-title": "एक उद्धरण जोड़ें",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "पूर्ण उद्धरण डायलॉग",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "या विवरण अपने आप भरने के लिए $1 का उपयोग करें।",
+	"citoid-citeFromIDDialog-use-general-error-message": "हम आप के लिए एक उद्धरण नहीं बना सके। आप $1 का उपयोग करके स्वयं बना सकते हैं।",
+	"citoid-citeFromIDTool-title": "उद्धृत करें",
+	"citoid-desc": "Citoid सेवा और MediaWiki के बीच अभिगम बिंदुअों का प्रदान करता है",
+	"citoid-typeMap-config-error": "MediaWiki:citoid-template-type-map.json अनुचित तरीके से विन्यस्त है।",
+	"citoid-unknown-error": "एक अज्ञात त्रुटि ने हमें एक उद्धरण बनाने से हमें रोका हुआ है। कृपया बाद में पुन: प्रयास करें।"
 }
