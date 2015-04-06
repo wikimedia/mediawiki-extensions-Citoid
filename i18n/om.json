@@ -6,5 +6,11 @@
 	},
 	"citoid-citation-widget-insert-button": "Galchi",
 	"citoid-citeFromIDDialog-back": "Gara duubaa",
+	"citoid-citeFromIDDialog-lookup-button": "Barbaadi",
+	"citoid-citeFromIDDialog-search": "Barbaadi",
+	"citoid-citeFromIDDialog-search-placeholder": "fkn http://www.fakkeenya.com",
+	"citoid-citeFromIDDialog-search-progress": "Barbaadaa jira, eegi...",
+	"citoid-citeFromIDDialog-title": "Madda itti galchi",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "Qaaqa maddaa guddaa",
 	"citoid-citeFromIDTool-title": "Eeri"
 }

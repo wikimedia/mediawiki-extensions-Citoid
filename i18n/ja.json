@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Los688"
+		]
+	},
+	"citoid-citation-widget-insert-button": "挿入",
+	"citoid-citeFromIDDialog-back": "戻る",
+	"citoid-citeFromIDDialog-search-label": "URL 又は DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "例 http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "検索しています。しばらくお待ち下さい。",
+	"citoid-citeFromIDDialog-title": "引用を追加",
+	"citoid-citeFromIDTool-title": "引用"
+}
