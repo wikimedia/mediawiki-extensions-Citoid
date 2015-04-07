@@ -12,16 +12,13 @@
  * @cfg {Object[]} citeTools An array of available citation tool configuration
  */
 ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( documentModel, transclusionModel, config ) {
-	var i, len, icon, item, title,
-		widget = this;
+	var i, len, icon, item, title, data, doc, node;
 
 	config = config || {};
 
 	this.transclusionModel = transclusionModel;
-
 	this.templateName = config.templateName || 'Cite web';
 	this.title = this.templateName;
-
 	this.renderPromise = $.Deferred();
 
 	// Parent constructor
@@ -49,45 +46,30 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 		flags: [ 'constructive', 'primary' ]
 	} );
 
-	// Creating the citation
-	this.uiSurface = new ve.ui.DesktopSurface(
-		new ve.dm.Document(
-			new ve.dm.ElementLinearData(
-				documentModel.getStore(),
-				[
-					{
-						type: 'mwTransclusionInline',
-						attributes: {
-							mw: this.transclusionModel.getPlainObject()
-						}
-					},
-					{ type: '/mwTransclusionInline' },
-					{ type: 'internalList' },
-					{ type: '/internalList' }
-				]
-			),
-			documentModel.getHtmlDocument()
-		)
-	);
+	// Create the citation preview
+	data = [
+		{
+			type: 'mwTransclusionInline',
+			attributes: {
+				mw: this.transclusionModel.getPlainObject()
+			}
+		},
+		{ type: '/mwTransclusionInline' },
+		{ type: 'internalList' },
+		{ type: '/internalList' }
+	];
 
-	// HACK: We need the view to be initialized in order for the 'rerender' event
-	// to be emitted on the generated node.
-	this.uiSurface.getView().initialize();
-	this.node = this.uiSurface.getView().getDocument().getDocumentNode().getChildren()[0];
-	if ( this.node.isGenerating() ) {
-		this.node.once( 'rerender', function () {
-			widget.renderPromise.resolve();
-		} );
+	doc = new ve.dm.Document(
+		new ve.dm.ElementLinearData( documentModel.getStore(), data ),
+		documentModel.getHtmlDocument()
+	);
+	node = doc.getDocumentNode().getChildren()[ 0 ];
+	this.view = new ve.ui.PreviewWidget( node );
+	if ( this.view.isGenerating() ) {
+		this.view.once( 'render', this.renderPromise.resolve );
 	} else {
 		this.renderPromise.resolve();
 	}
-
-	this.$referenceWrapper = $( '<div>' )
-		.addClass( 've-ui-citeFromIdReferenceWidget-wrapper' )
-		.on( 'click mousedown', function ( e ) {
-			e.preventDefault();
-		} )
-		.append( this.node.$element );
 
 	// Display the preview
 	title = new OO.ui.LabelWidget( {
@@ -104,7 +86,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 			this.$icon,
 			title.$element,
 			this.insertButton.$element,
-			this.$referenceWrapper
+			this.view.$element
 		);
 };
 
@@ -119,9 +101,8 @@ OO.mixinClass( ve.ui.CiteFromIdReferenceWidget, OO.ui.IconElement );
  * Clean up the widget; destroy node and surface.
  */
 ve.ui.CiteFromIdReferenceWidget.prototype.destroy = function () {
-	this.node.destroy();
-	this.uiSurface.destroy();
 	this.renderPromise.reject();
+	this.view.destroy();
 };
 
 /**
