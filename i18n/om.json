@@ -4,13 +4,18 @@
 			"Tumsaa"
 		]
 	},
+	"citoid-520-error": "Odeeffannoo ID kennamerraa kebaafachuun hin dandamne.",
 	"citoid-citation-widget-insert-button": "Galchi",
 	"citoid-citeFromIDDialog-back": "Gara duubaa",
 	"citoid-citeFromIDDialog-lookup-button": "Barbaadi",
 	"citoid-citeFromIDDialog-search": "Barbaadi",
+	"citoid-citeFromIDDialog-search-label": "URL ykn DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "fkn http://www.fakkeenya.com",
 	"citoid-citeFromIDDialog-search-progress": "Barbaadaa jira, eegi...",
 	"citoid-citeFromIDDialog-title": "Madda itti galchi",
 	"citoid-citeFromIDDialog-use-general-dialog-button": "Qaaqa maddaa guddaa",
-	"citoid-citeFromIDTool-title": "Eeri"
+	"citoid-citeFromIDDialog-use-general-dialog-message": "Ykn balballooma ofii kee itti guutuf, $1 fayyadami.",
+	"citoid-citeFromIDDialog-use-general-error-message": "Eera siif uumuu hin dandeenye. Ofuma keetii $1tti fayyadamtee uumuu dandeessa.",
+	"citoid-citeFromIDTool-title": "Eeri",
+	"citoid-unknown-error": "Dogoggorri hin beekkamne uummamee eera akka hin uumne dhorke. Mee, boodarra itti deebi'ii yaali."
 }
