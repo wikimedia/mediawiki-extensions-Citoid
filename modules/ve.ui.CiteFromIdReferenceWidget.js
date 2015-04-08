@@ -6,19 +6,20 @@
  *
  * @constructor
  * @param {ve.dm.Document} documentModel Document model
+ * @param {ve.dm.MWTransclusionModel} transclusionModel Transclusion model used for this template
  * @param {Object} config Configuration object
  * @cfg {string} [templateName] Template name
- * @cfg {ve.dm.MWTransclusionModel} transclusionModel Transclusion model used for this template
+ * @cfg {Object[]} citeTools An array of available citation tool configuration
  */
-ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( documentModel, config ) {
+ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( documentModel, transclusionModel, config ) {
 	var i, len, icon, item, title,
 		widget = this;
 
 	config = config || {};
 
-	this.allLinks = {};
+	this.transclusionModel = transclusionModel;
+
 	this.templateName = config.templateName || 'Cite web';
-	this.transclusionModel = config.transclusionModel;
 	this.title = this.templateName;
 
 	this.renderPromise = $.Deferred();
@@ -39,7 +40,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 			}
 		}
 	}
-	this.setIcon( icon );
+	this.setIcon( icon || 'cite-web' );
 
 	// Add insert button
 	this.insertButton = new OO.ui.ButtonWidget( {

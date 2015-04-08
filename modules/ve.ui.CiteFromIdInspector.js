@@ -511,9 +511,9 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 			for ( i = 0; i < inspector.results.length; i++ ) {
 				refWidget = new ve.ui.CiteFromIdReferenceWidget(
 					inspector.getFragment().getSurface().getDocument(),
+					inspector.results[i].transclusionModel,
 					{
 						data: i,
-						transclusionModel: inspector.results[i].transclusionModel,
 						templateName: inspector.results[i].templateName,
 						citeTools: inspector.citeTools
 					} );
