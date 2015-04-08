@@ -1,8 +1,14 @@
 /**
  * Citoid extension citation option widget
  *
+ * @class
  * @extends {OO.ui.DecoratedOptionWidget}
- * @param {Object} config Dialog configuration object
+ *
+ * @constructor
+ * @param {ve.dm.Document} documentModel Document model
+ * @param {Object} config Configuration object
+ * @cfg {string} [templateName] Template name
+ * @cfg {ve.dm.MWTransclusionModel} transclusionModel Transclusion model used for this template
  */
 ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( documentModel, config ) {
 	var i, len, icon, item, title,
@@ -12,7 +18,6 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 
 	this.allLinks = {};
 	this.templateName = config.templateName || 'Cite web';
-	this.template = config.template;
 	this.transclusionModel = config.transclusionModel;
 	this.title = this.templateName;
 
@@ -45,20 +50,25 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 
 	// Creating the citation
 	this.uiSurface = new ve.ui.DesktopSurface(
-		new ve.dm.ElementLinearData(
-			documentModel.getStore(),
-			[
-				{
-					type: 'mwTransclusionInline',
-					attributes: {
-						mw: this.transclusionModel.getPlainObject()
-					}
-				},
-				{ type: '/mwTransclusionInline' },
-				{ type: 'internalList' },
-				{ type: '/internalList' }
-			]
-		) );
+		new ve.dm.Document(
+			new ve.dm.ElementLinearData(
+				documentModel.getStore(),
+				[
+					{
+						type: 'mwTransclusionInline',
+						attributes: {
+							mw: this.transclusionModel.getPlainObject()
+						}
+					},
+					{ type: '/mwTransclusionInline' },
+					{ type: 'internalList' },
+					{ type: '/internalList' }
+				]
+			),
+			documentModel.getHtmlDocument()
+		)
+	);
+
 	// HACK: We need the view to be initialized in order for the 'rerender' event
 	// to be emitted on the generated node.
 	this.uiSurface.getView().initialize();
