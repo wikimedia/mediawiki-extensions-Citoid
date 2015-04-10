@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Դավիթ Սարոյան"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Ավելացնել",
+	"citoid-citeFromIDDialog-back": "Հետ",
+	"citoid-citeFromIDDialog-lookup-button": "Փնտրել",
+	"citoid-citeFromIDDialog-search": "Որոնել",
+	"citoid-citeFromIDDialog-search-label": "Հղում կամ DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "օր.՝ http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Որոնում, սպասեք, խնդրում եմ...",
+	"citoid-citeFromIDDialog-title": "Ավելացնել մեջբերում",
+	"citoid-citeFromIDTool-title": "Քաղվածել"
+}
