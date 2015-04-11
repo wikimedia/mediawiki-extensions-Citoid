@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geraki"
+		]
+	},
+	"citoid-520-error": "Δεν είναι δυνατή η ανάκτηση πληροφοριών από το παρεχόμενο αναγνωριστικό.",
+	"citoid-citation-widget-insert-button": "Εισαγωγή",
+	"citoid-citeFromIDDialog-back": "Πίσω",
+	"citoid-citeFromIDDialog-lookup-button": "Εύρεση",
+	"citoid-citeFromIDDialog-search": "Αναζήτηση",
+	"citoid-citeFromIDDialog-search-label": "Διεύθυνση URL ή DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "π.χ. http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Γίνεται αναζήτηση, παρακαλούμε περιμένετε...",
+	"citoid-citeFromIDDialog-title": "Προσθέστε μια παραπομπή",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "διάλογος πλήρους βιβλιογραφικής αναφοράς",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "Ή χρησιμοποιήστε το $1 για να συμπληρώσετε τις λεπτομέρεις ο ίδιος.",
+	"citoid-citeFromIDDialog-use-general-error-message": "Δεν θα μπορούσαμε να κάνουμε μια παραπομπή για εσάς. Μπορείτε να κάνετε μία χρησιμοποιώντας το $1.",
+	"citoid-citeFromIDTool-title": "Προσθήκη παραπομπής",
+	"citoid-desc": "Παρέχει σημεία πρόσβασης μεταξύ της υπηρεσίας citoid και του MediaWiki",
+	"citoid-typeMap-config-error": "Το Mediawiki:citoid-template-type-map.json δεν έχει ρυθμιστεί σωστά.",
+	"citoid-unknown-error": "Ένα άγνωστο σφάλμα παρουσιάστηκε που μας απέτρεψε από το να δημιουργηθεί μια παραπομπή. Παρακαλούμε δοκιμάστε ξανά αργότερα."
+}
