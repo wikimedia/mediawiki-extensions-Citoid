@@ -20,6 +20,7 @@ ve.ui.CiteFromIdInspector = function VeUiCiteFromIdInspector( config ) {
 	this.templateTypeMap = null;
 	this.lookupPromise = null;
 	this.service = null;
+	this.inDialog = '';
 
 	this.$element
 		.addClass( 've-ui-citeFromIdInspector' );
@@ -263,7 +264,7 @@ ve.ui.CiteFromIdInspector.prototype.onFormSubmit = function () {
  * Respond to preview select widget choose event
  */
 ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) {
-	var fragment,
+	var fragment = this.fragment,
 		surfaceModel = this.getFragment().getSurface(),
 		doc = surfaceModel.getDocument(),
 		internalList = doc.getInternalList(),
@@ -274,23 +275,27 @@ ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( ite
 		this.getFragment().getSurface().applyStaging();
 
 		// Gets back contents of <ref> tag
-		item = this.referenceModel.findInternalItem( surfaceModel );
-		fragment = this.getFragment().clone(
-			new ve.dm.LinearSelection( doc, item.getChildren()[ 0 ].getRange() )
-		);
+		if ( this.inDialog !== 'reference' ) {
+			item = this.referenceModel.findInternalItem( surfaceModel );
+			fragment = this.getFragment().clone(
+				new ve.dm.LinearSelection( doc, item.getChildren()[ 0 ].getRange() )
+			);
+		}
 
 		this.results[ index ].transclusionModel.insertTransclusionNode( fragment );
-		// HACK: Scorch the earth - this is only needed because without it,
-		// the reference list won't re-render properly, and can be removed
-		// once someone fixes that
-		this.referenceModel.setDocument(
-			doc.cloneFromRange(
-				internalList.getItemNode( this.referenceModel.getListIndex() ).getRange()
-			)
-		);
-		this.referenceModel.updateInternalItem( surfaceModel );
-		this.doneStaging = true;
 
+		if ( this.inDialog !== 'reference' ) {
+			// HACK: Scorch the earth - this is only needed because without it,
+			// the reference list won't re-render properly, and can be removed
+			// once someone fixes that
+			this.referenceModel.setDocument(
+				doc.cloneFromRange(
+					internalList.getItemNode( this.referenceModel.getListIndex() ).getRange()
+				)
+			);
+			this.referenceModel.updateInternalItem( surfaceModel );
+			this.doneStaging = true;
+		}
 		// Close the inspector
 		this.close();
 	}
@@ -322,14 +327,13 @@ ve.ui.CiteFromIdInspector.prototype.onLookupButtonClick = function () {
 ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 	return ve.ui.CiteFromIdInspector.super.prototype.getSetupProcess.call( this, data )
 		.next( function () {
+
 			// Reset
 			this.lookupPromise = null;
 			this.doneStaging = false;
 			this.results = [];
 			this.lookupButton.setDisabled( true );
-
-			// Stage an empty reference
-			this.getFragment().getSurface().pushStaging();
+			this.inDialog = data.inDialog || '';
 
 			// Collapse returns a new fragment, so update this.fragment
 			this.fragment = this.getFragment().collapseToEnd();
@@ -337,9 +341,14 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 			// Create model
 			this.referenceModel = new ve.dm.MWReferenceModel();
 
-			// Insert an empty reference
-			this.referenceModel.insertInternalItem( this.getFragment().getSurface() );
-			this.referenceModel.insertReferenceNode( this.getFragment() );
+			if ( this.inDialog !== 'reference' ) {
+				// Stage an empty reference
+				this.getFragment().getSurface().pushStaging();
+
+				// Insert an empty reference
+				this.referenceModel.insertInternalItem( this.getFragment().getSurface() );
+				this.referenceModel.insertReferenceNode( this.getFragment() );
+			}
 
 			this.switchPanels( 'lookup' );
 		}, this );
@@ -362,7 +371,7 @@ ve.ui.CiteFromIdInspector.prototype.getReadyProcess = function ( data ) {
 ve.ui.CiteFromIdInspector.prototype.getTeardownProcess = function ( data ) {
 	return ve.ui.CiteFromIdInspector.super.prototype.getTeardownProcess.call( this, data )
 		.first( function () {
-			if ( !this.doneStaging ) {
+			if ( !this.doneStaging && this.inDialog !== 'reference' ) {
 				this.fragment.getSurface().popStaging();
 			}
 

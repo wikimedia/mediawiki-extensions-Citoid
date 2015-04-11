@@ -81,8 +81,7 @@
 
 	ve.ui.commandRegistry.register(
 		new ve.ui.Command(
-			'citefromid', 'window', 'open',
-			{ args: [ 'citefromid' ], supportedSelections: [ 'linear' ] }
+			'citefromid', 'citoid', 'open', { supportedSelections: [ 'linear' ] }
 		)
 	);
 
