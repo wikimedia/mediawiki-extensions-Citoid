@@ -86,6 +86,10 @@
 		)
 	);
 
+	ve.ui.sequenceRegistry.register(
+		new ve.ui.Sequence( 'wikitextRef', 'citefromid', '<ref', 4 )
+	);
+
 	ve.ui.toolFactory.register( ve.ui.CiteFromIdInspectorTool );
 
 }() );
