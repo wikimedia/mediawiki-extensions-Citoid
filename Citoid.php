@@ -38,7 +38,8 @@ $wgResourceModules['ext.citoid.visualEditor'] = array(
 		'modules/ve.ui.CiteFromIdInspectorTool.js',
 		'modules/ve.ui.CiteFromIdGroupWidget.js',
 		'modules/ve.ui.CiteFromIdReferenceWidget.js',
-		'modules/ve.ui.CiteFromIdInspector.js'
+		'modules/ve.ui.CiteFromIdInspector.js',
+		'modules/ve.ui.CitoidAction.js'
 	),
 	'styles' => array(
 		'modules/ve.ui.CiteFromIdInspector.css'
