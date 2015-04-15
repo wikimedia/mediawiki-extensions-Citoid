@@ -271,9 +271,6 @@ ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( ite
 		index = item.getData();
 
 	if ( this.results[ index ] ) {
-		// Apply staging
-		this.getFragment().getSurface().applyStaging();
-
 		// Gets back contents of <ref> tag
 		if ( this.inDialog !== 'reference' ) {
 			item = this.referenceModel.findInternalItem( surfaceModel );
@@ -294,6 +291,9 @@ ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( ite
 				)
 			);
 			this.referenceModel.updateInternalItem( surfaceModel );
+
+			// Apply staging
+			this.getFragment().getSurface().applyStaging();
 			this.doneStaging = true;
 		}
 		// Close the inspector
