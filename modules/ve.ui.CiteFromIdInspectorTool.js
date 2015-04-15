@@ -74,6 +74,7 @@
 
 	ve.ui.CiteFromIdInspectorTool.static.name = 'citefromid';
 	ve.ui.CiteFromIdInspectorTool.static.icon = 'reference';
+	ve.ui.CiteFromIdInspectorTool.static.autoAddToCatchall = false;
 	ve.ui.CiteFromIdInspectorTool.static.title = OO.ui.deferMsg( 'citoid-citeFromIDTool-title' );
 	ve.ui.CiteFromIdInspectorTool.static.label = OO.ui.deferMsg( 'citoid-citeFromIDTool-title' );
 	ve.ui.CiteFromIdInspectorTool.static.group = 'cite';
