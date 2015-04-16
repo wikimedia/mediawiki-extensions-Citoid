@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman"
+		]
+	},
+	"citoid-citation-widget-insert-button": "যোগ করো",
+	"citoid-citeFromIDDialog-back": "পিছনে",
+	"citoid-citeFromIDDialog-search": "অনুসন্ধান",
+	"citoid-citeFromIDDialog-search-label": "URL বা DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "উদা. http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "অনুসন্ধান করা হচ্ছে, দয়া করে অপেক্ষা করুন...",
+	"citoid-citeFromIDDialog-title": "একটি উদ্ধৃতি যোগ করুন",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "সম্পূর্ণ উদ্ধৃতি ডায়লগ",
+	"citoid-citeFromIDTool-title": "উদ্ধৃতি"
+}
