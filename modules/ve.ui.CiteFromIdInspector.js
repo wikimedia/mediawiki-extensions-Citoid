@@ -45,6 +45,11 @@ ve.ui.CiteFromIdInspector.static.citoidFormat = 'mediawiki';
 
 ve.ui.CiteFromIdInspector.static.actions = [
 	{
+		label: OO.ui.deferMsg( 'visualeditor-dialog-action-cancel' ),
+		flags: 'safe',
+		modes: [ 'lookup' ]
+	},
+	{
 		action: 'back',
 		label: OO.ui.deferMsg( 'citoid-citeFromIDDialog-back' ),
 		flags: 'safe',
