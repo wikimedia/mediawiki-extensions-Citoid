@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"EileenSanda"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Innset",
+	"citoid-citeFromIDDialog-back": "Aftur",
+	"citoid-citeFromIDDialog-lookup-button": "Leita",
+	"citoid-citeFromIDDialog-search": "Leita",
+	"citoid-citeFromIDDialog-search-label": "URL ella DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "t.d. http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Leitar, vinarliga bíða...",
+	"citoid-citeFromIDDialog-title": "Innset eina keldu",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "Ella nýt $1 fyri at útfylla smálutirnir sjálv/ur.",
+	"citoid-citeFromIDDialog-use-general-error-message": "Vit kundu ikki gera eina keldu fyri teg. Tú kanst gera eina við at nýta $1.",
+	"citoid-citeFromIDTool-title": "Skriva keldu"
+}

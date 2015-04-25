@@ -8,7 +8,7 @@
 		]
 	},
 	"citoid-520-error": "Error message for when citoid service returns a 520 error",
-	"citoid-citation-widget-insert-button": "Label for the button to insert a chosen reference.",
+	"citoid-citation-widget-insert-button": "Label for the button to insert a chosen reference.\n{{Identical|Insert}}",
 	"citoid-citeFromIDDialog-back": "Label for the button to go back to the lookup panel in the inspector.\n{{Identical|Back}}",
 	"citoid-citeFromIDDialog-lookup-button": "Label for the lookup button for citation inputs. Unlike \"search\", \"lookup\" is a process in which there is certainty that a particular result will be found, for example, matching a valid ISBN to a book title.\n{{Identical|Lookup}}",
 	"citoid-citeFromIDDialog-search": "Text for the search button.\n{{Identical|Search}}",

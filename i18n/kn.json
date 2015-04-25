@@ -1,18 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vikassy"
+			"Vikassy",
+			"Pavanaja"
 		]
 	},
 	"citoid-citation-widget-insert-button": "ಸೇರ್ಪಡಿಸು",
 	"citoid-citeFromIDDialog-back": "ಹಿಂದಕ್ಕೆ",
 	"citoid-citeFromIDDialog-lookup-button": "ಹುಡುಕು",
 	"citoid-citeFromIDDialog-search": "ಹುಡುಕು",
-	"citoid-citeFromIDDialog-search-label": "ಯುಆರ ಅತವ ಡೀಒಏ",
+	"citoid-citeFromIDDialog-search-label": "ಯುಆರ್‍ಎಲ್ ಅಥವಾ ಡೀಒಐ",
 	"citoid-citeFromIDDialog-search-placeholder": "http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "ಹುಡುಕುತೀದೆ, ಸ್ವಲ್ಪ ಕಾಯೀರೀ",
-	"citoid-citeFromIDDialog-title": "ಉಲ್ಲೇಖ ಹಾಕೀ",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "ಉಲ್ಲೇಖದ ಆಯ್ಕೆಯನ್ನು ತೊರೀಸೀ",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "ಅಥವಾ $1 ಅಲೀ ವಿವರಗಳು ಹಾಕೀ",
+	"citoid-citeFromIDDialog-search-progress": "ಹುಡುಕುಕಲಾಗುತ್ತಿದೆ, ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಕಾಯಿರಿ",
+	"citoid-citeFromIDDialog-title": "ಉಲ್ಲೇಖ ಸೇರಿಸಿ",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "ಉಲ್ಲೇಖದ ಆಯ್ಕೆಯ ಸಂವಾದ ಪೆಟ್ಟಿಗೆ",
+	"citoid-citeFromIDDialog-use-general-dialog-message": "ವಿವರಗಳನ್ನು ನೀವೇ ಸೇರಿಸಲು $1 ಅನ್ನು ಬಳಸಿ",
 	"citoid-citeFromIDTool-title": "ಉಲ್ಲೇಖಿಸಿ"
 }
