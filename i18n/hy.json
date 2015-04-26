@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Դավիթ Սարոյան"
+			"Դավիթ Սարոյան",
+			"Beko"
 		]
 	},
+	"citoid-520-error": "Անհնար է ստանալ տեղեկություններ տրամադրված նույնացուցիչից։",
 	"citoid-citation-widget-insert-button": "Ավելացնել",
 	"citoid-citeFromIDDialog-back": "Հետ",
 	"citoid-citeFromIDDialog-lookup-button": "Փնտրել",
@@ -12,5 +14,6 @@
 	"citoid-citeFromIDDialog-search-placeholder": "օր.՝ http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Որոնում, սպասեք, խնդրում եմ...",
 	"citoid-citeFromIDDialog-title": "Ավելացնել մեջբերում",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "երկխոսության լրիվ մեջբերում",
 	"citoid-citeFromIDTool-title": "Քաղվածել"
 }
