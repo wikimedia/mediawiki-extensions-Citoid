@@ -5,6 +5,11 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "ورټومبل",
+	"citoid-citeFromIDDialog-back": "پر شا کېدل",
+	"citoid-citeFromIDDialog-lookup-button": "پلټنه",
 	"citoid-citeFromIDDialog-search": "پلټل",
+	"citoid-citeFromIDDialog-search-label": "URL يا DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "لکه http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "په پلټلو کې دی، تم شئ...",
 	"citoid-citeFromIDTool-title": "اخځ"
 }
