@@ -8,7 +8,7 @@
 	"citoid-520-error": "Informationen von der angegebenen Bezeichnung konnten nicht abgerufen werden.",
 	"citoid-citation-widget-insert-button": "Einfügen",
 	"citoid-citeFromIDDialog-back": "Zurück",
-	"citoid-citeFromIDDialog-lookup-button": "Suchen",
+	"citoid-citeFromIDDialog-lookup-button": "Erzeugen",
 	"citoid-citeFromIDDialog-search": "Suche",
 	"citoid-citeFromIDDialog-search-label": "URL oder DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "z.&nbsp;B. http://www.example.com",

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"1AnuraagPandey"
+		]
+	},
+	"citoid-520-error": "प्रदान किये पहचानकर्ता से जानकारी प्राप्त करने में असमर्थ।",
+	"citoid-citation-widget-insert-button": "सम्मिलित करा जाए",
+	"citoid-citeFromIDDialog-back": "पीछे",
+	"citoid-citeFromIDDialog-lookup-button": "ढूँढा जाय",
+	"citoid-citeFromIDDialog-search": "खोजा जाय",
+	"citoid-citeFromIDDialog-search-label": "यू.आर.एल",
+	"citoid-citeFromIDDialog-search-placeholder": "उदाहरण http://www.example.com",
+	"citoid-citeFromIDTool-title": "उद्धृत करा जाए",
+	"citoid-desc": "Citoid सेवा और MediaWiki के बीच अभिगम बिंदुअों का प्रदान करता है",
+	"citoid-typeMap-config-error": "MediaWiki:citoid-template-type-map.json अनुचित तरीके से विन्यस्त है।",
+	"citoid-unknown-error": "एक अज्ञात त्रुटि ने हमें एक उद्धरण बनाने से हमें रोका हुआ है। कृपया बाद में पुन: प्रयास करें।"
+}
