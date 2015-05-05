@@ -2,7 +2,8 @@
 	"name": "Citoid",
 	"version": "0.1.0",
 	"author": [
-		"Marielle Volz"
+		"Marielle Volz",
+		"Moriel Schottlender"
 	],
 	"url": "https://www.mediawiki.org/wiki/Citoid",
 	"descriptionmsg": "citoid-desc",
