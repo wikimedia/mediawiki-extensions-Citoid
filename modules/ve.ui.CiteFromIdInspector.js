@@ -6,12 +6,9 @@
  * @constructor
  * @param {Object} [config] Configuration options
  */
-
 ve.ui.CiteFromIdInspector = function VeUiCiteFromIdInspector( config ) {
 	// Parent constructor
 	ve.ui.CiteFromIdInspector.super.call( this, config );
-
-	config = config || {};
 
 	this.referenceModel = null;
 	this.doneStaging = false;
@@ -21,12 +18,13 @@ ve.ui.CiteFromIdInspector = function VeUiCiteFromIdInspector( config ) {
 	this.lookupPromise = null;
 	this.service = null;
 	this.inDialog = '';
+	this.currentAutoProcessPanel = null;
 
-	this.$element
-		.addClass( 've-ui-citeFromIdInspector' );
+	this.$element.addClass( 've-ui-citeFromIdInspector' );
 };
 
 /* Inheritance */
+
 OO.inheritClass( ve.ui.CiteFromIdInspector, ve.ui.FragmentInspector );
 
 /* Static properties */
@@ -47,13 +45,13 @@ ve.ui.CiteFromIdInspector.static.actions = [
 	{
 		label: OO.ui.deferMsg( 'visualeditor-dialog-action-cancel' ),
 		flags: 'safe',
-		modes: [ 'lookup' ]
+		modes: [ 'auto-lookup', 'manual', 'reuse' ]
 	},
 	{
 		action: 'back',
 		label: OO.ui.deferMsg( 'citoid-citeFromIDDialog-back' ),
 		flags: 'safe',
-		modes: [ 'result', 'notice' ]
+		modes: [ 'auto-result', 'auto-notice' ]
 	}
 ];
 
@@ -63,7 +61,7 @@ ve.ui.CiteFromIdInspector.static.actions = [
  * @inheritDoc
  */
 ve.ui.CiteFromIdInspector.prototype.initialize = function () {
-	var lookupActionFieldLayout, noticeLabel,
+	var lookupActionFieldLayout, $noticeLabel,
 		lookupFieldset = new OO.ui.FieldsetLayout(),
 		limit = ve.init.target.constructor.static.citationToolsLimit;
 
@@ -91,31 +89,62 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		}
 	} );
 
-	this.panels = new OO.ui.StackLayout( {
+	this.modeSelect = new OO.ui.TabSelectWidget( {
+		classes: [ 've-ui-citeFromIdInspector-modeSelect' ],
+		items: [
+			new OO.ui.TabOptionWidget( { data: 'auto', label: 'Automatic' } ),
+			new OO.ui.TabOptionWidget( { data: 'manual', label: 'Manual' } ),
+			new OO.ui.TabOptionWidget( { data: 'reuse', label: 'Re-use' } )
+		]
+	} );
+
+	// Modes
+	this.modeStack = new OO.ui.StackLayout( {
 		expanded: false,
 		scrollable: false
 	} );
 
-	this.lookupPanel = new OO.ui.PanelLayout( {
-		$: this.$,
-		classes: [ 'citoid-citeFromIDDialog-panel-lookup' ],
+	this.modePanels = {
+		auto: new OO.ui.PanelLayout( {
+			classes: [ 'citoid-citeFromIDDialog-panel-auto' ],
+			expanded: false,
+			scrollable: false
+		} ),
+		manual: new OO.ui.PanelLayout( {
+			classes: [ 'citoid-citeFromIDDialog-panel-manual' ],
+			expanded: false,
+			scrollable: false
+		} ),
+		reuse: new OO.ui.PanelLayout( {
+			classes: [ 'citoid-citeFromIDDialog-panel-reuse' ],
+			expanded: false,
+			scrollable: false
+		} )
+	};
+
+	// Auto mode
+	this.autoProcessStack = new OO.ui.StackLayout( {
 		expanded: false,
 		scrollable: false
 	} );
 
-	this.resultPanel = new OO.ui.PanelLayout( {
-		$: this.$,
-		classes: [ 'citoid-citeFromIDDialog-panel-result' ],
-		expanded: false,
-		scrollable: false
-	} );
-
-	this.noticePanel = new OO.ui.PanelLayout( {
-		$: this.$,
-		classes: [ 'citoid-citeFromIDDialog-panel-notice' ],
-		expanded: false,
-		scrollable: false
-	} );
+	this.autoProcessPanels = {
+		lookup: new OO.ui.PanelLayout( {
+			classes: [ 'citoid-citeFromIDDialog-panel-lookup' ],
+			expanded: false,
+			scrollable: false
+		} ),
+		result: new OO.ui.PanelLayout( {
+			classes: [ 'citoid-citeFromIDDialog-panel-result' ],
+			expanded: false,
+			scrollable: false
+		} ),
+		notice: new OO.ui.PanelLayout( {
+			classes: [ 'citoid-citeFromIDDialog-panel-notice' ],
+			expanded: false,
+			scrollable: false
+		} )
+	};
 
 	// Lookup fieldset
 	this.lookupInput = new OO.ui.TextInputWidget( {
@@ -135,134 +164,129 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		lookupActionFieldLayout.$element
 	);
 
-	// Citation dialog label
-	this.citeDialogLabel = new OO.ui.LabelWidget( {
-		// Double-parse
-		label: $( '<span>' )
-			.addClass( 've-ui-citeFromIdInspector-clickable ve-ui-citeFromIdInspector-dialog-link' )
-			.append(
-				this.doubleParseMessage(
-					'citoid-citeFromIDDialog-use-general-dialog-message',
-					'citoid-citeFromIDDialog-use-general-dialog-button'
-				)
-			)
-	} );
-
-	this.lookupPanel.$element
-		.append(
-			lookupFieldset.$element,
-			this.citeDialogLabel.$element
-		);
+	this.autoProcessPanels.lookup.$element.append( lookupFieldset.$element );
 
 	// Error label
-	noticeLabel = new OO.ui.LabelWidget( {
-		// Double-parse
-		label: $( '<span>' )
-			.addClass( 've-ui-citeFromIdInspector-clickable ve-ui-citeFromIdInspector-dialog-error' )
-			.append(
-				this.doubleParseMessage(
-					'citoid-citeFromIDDialog-use-general-error-message',
-					'citoid-citeFromIDDialog-use-general-dialog-button'
-				)
-			)
-	} );
-	this.noticePanel.$element
-		.append( noticeLabel.$element );
+	$noticeLabel = $( '<span>' ).addClass( 've-ui-citeFromIdInspector-dialog-error' ).text(
+		ve.msg( 'citoid-citeFromIDDialog-use-general-error-message' )
+	);
+	this.autoProcessPanels.notice.$element.append( $noticeLabel );
+
+	this.modePanels.auto.$element.append( this.autoProcessStack.$element );
 
 	// Preview fieldset
 	this.previewSelectWidget = new ve.ui.CiteFromIdGroupWidget();
-	this.resultPanel.$element.append( this.previewSelectWidget.$element );
+	this.autoProcessPanels.result.$element.append( this.previewSelectWidget.$element );
+
+	// Manual mode
+	this.sourceSelect = new ve.ui.MWReferenceSourceSelectWidget( {
+		classes: [ 've-ui-citeFromIdInspector-sourceSelect' ]
+	} );
+	this.modePanels.manual.$element.append( this.sourceSelect.$element );
+
+	// Re-use mode
+	this.search = new ve.ui.MWReferenceSearchWidget( {
+		classes: [ 've-ui-citeFromIdInspector-search' ]
+	} );
+	this.modePanels.reuse.$element.append( this.search.$element );
 
 	// Events
-	this.lookupInput.connect( this, { change: 'onLookupInputChange' } );
-	this.lookupButton.connect( this, { click: 'onLookupButtonClick' } );
-	this.previewSelectWidget.connect( this, {
-		choose: 'onPreviewSelectWidgetChoose'
+	this.modeSelect.connect( this, { choose: 'onModeSelectChoose' } );
+	this.lookupInput.connect( this, {
+		change: 'onLookupInputChange',
+		enter: 'onLookupButtonClick'
 	} );
+	this.lookupButton.connect( this, { click: 'onLookupButtonClick' } );
+	this.previewSelectWidget.connect( this, { choose: 'onPreviewSelectWidgetChoose' } );
+	this.sourceSelect.connect( this, { choose: 'onSourceSelectChoose' } );
+	this.search.connect( this, { select: 'onSearchSelect' } );
 
-	this.panels.addItems( [
-		this.lookupPanel,
-		this.resultPanel,
-		this.noticePanel
+	this.autoProcessStack.addItems( [
+		this.autoProcessPanels.lookup,
+		this.autoProcessPanels.result,
+		this.autoProcessPanels.notice
 	] );
 
-	this.form.$element.append( this.panels.$element );
+	this.modeStack.addItems( [
+		this.modePanels.auto,
+		this.modePanels.manual,
+		this.modePanels.reuse
+	] );
 
 	// Attach
 	this.form.$element
-		.append( this.panels.$element )
-		// Connect the dialog link to the event
-		.find( '.ve-ui-citeFromIdInspector-clickable a' )
-			.click( this.onOpenFullDialogLinkClick.bind( this ) );
+		.addClass( 've-ui-citeFromIdInspector-form' )
+		.append( this.modeSelect.$element, this.modeStack.$element );
 };
 
 /**
- * Switch between panels in the inspector
- * @param {string} panel Panel name
+ * Handle choose events from mode select widget
+ *
+ * @param {OO.ui.OptionWidget} item Chosen option
  */
-ve.ui.CiteFromIdInspector.prototype.switchPanels = function ( panelName ) {
-	var panel;
+ve.ui.CiteFromIdInspector.prototype.onModeSelectChoose = function ( item ) {
+	this.setModePanel( item.getData(), null, true );
+};
 
+/**
+ * Switch to a specific mode panel
+ *
+ * @param {string} panelName Panel name
+ * @param {boolean} [fromSelect] Mode was changed by the select widget
+ * @param {boolean} [fromSelect] Mode was changed by the select widget
+ */
+ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( panelName, processPanelName, fromSelect ) {
+	this.modeStack.setItem( this.modePanels[panelName] );
 	switch ( panelName ) {
-		case 'lookup':
-			panel = this.lookupPanel;
+		case 'auto':
+			processPanelName = processPanelName || this.currentAutoProcessPanel || 'lookup';
+			this.autoProcessStack.setItem( this.autoProcessPanels[processPanelName] );
+			if ( processPanelName === 'lookup' ) {
+				this.lookupInput.setDisabled( false ).focus().select();
+			}
+			this.currentAutoProcessPanel = processPanelName;
 			break;
-		case 'result':
-			panel = this.resultPanel;
-			break;
-		case 'notice':
-			panel = this.noticePanel;
+		case 'reuse':
+			this.search.buildIndex();
+			this.search.getQuery().focus();
 			break;
 	}
-
-	this.actions.setMode( panelName );
-	this.panels.setItem( panel );
+	if ( !fromSelect ) {
+		this.modeSelect.selectItemByData( panelName );
+	}
+	this.actions.setMode( panelName + ( processPanelName ? '-' + processPanelName : '' ) );
 	this.updateSize();
 };
 
 /**
- * Double-parse a message to be able to display links inside it.
- * @param {string} wrapperMessage Wrapping message key
- * @param {string} linkMessage Link message key
- * @return {string} The final message, parsed.
+ * Handle source select choose events
+ *
+ * @param {OO.ui.OptionWidget} item Chosen item
  */
-ve.ui.CiteFromIdInspector.prototype.doubleParseMessage = function ( wrapperMessage, linkMessage ) {
-	var plainMsg, parsedMsg;
+ve.ui.CiteFromIdInspector.prototype.onSourceSelectChoose = function ( item ) {
+	var data = item.getData(),
+		// Closing the dialog may unset some properties, so cache the ones we want
+		fragment = this.getFragment(),
+		manager = this.getManager();
 
-	// Once more, with feeling: there's a bug in mw.messages that prevents us from
-	// using a link in the message unless we double-parse it.
-	// See https://phabricator.wikimedia.org/T49395#490610
-	mw.messages.set( {
-		'citoid-citeFromIDDialog-temporary-message': '<a href="#">' + mw.message( linkMessage ) + '</a>'
-	} );
-	plainMsg = mw.message( 'citoid-citeFromIDDialog-temporary-message' ).plain();
-	mw.messages.set( { 'citoid-citeFromIDDialog-temporary-message-parsed': plainMsg } );
-	parsedMsg = mw.message( 'citoid-citeFromIDDialog-temporary-message-parsed' );
-	return mw.message( wrapperMessage, parsedMsg ).parse();
-};
-
-/**
- * Respond to full dialog link click
- */
-ve.ui.CiteFromIdInspector.prototype.onOpenFullDialogLinkClick = function () {
-	var inspector = this,
-		fragment = this.getFragment();
-
-	// Preserve the staging
-	this.deliveredToAnotherDialog = true;
+	// Close this dialog then open the new dialog
 	this.close().then( function () {
-		inspector.getManager().getSurface().execute( 'window', 'open', 'generalreference', {
+		manager.getSurface().execute( 'mwcite', 'open', data.windowName, $.extend( {
 			fragment: fragment
-		} );
+		}, data.dialogData ) );
 	} );
 };
 
 /**
- * Respond to form submit.
+ * Handle search select events.
+ *
+ * @param {ve.dm.MWReferenceModel|null} ref Reference model or null if no item is selected
  */
-ve.ui.CiteFromIdInspector.prototype.onFormSubmit = function () {
-	this.executeAction( 'lookup' );
-	return false;
+ve.ui.CiteFromIdInspector.prototype.onSearchSelect = function ( ref ) {
+	if ( ref instanceof ve.dm.MWReferenceModel ) {
+		ref.insertReferenceNode( this.getFragment() );
+		this.getFragment().getSurface().applyStaging();
+	}
 };
 
 /**
@@ -308,6 +332,7 @@ ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( ite
 
 /**
  * Respond to change value of the search input.
+ *
  * @param {string} value Current value
  */
 ve.ui.CiteFromIdInspector.prototype.onLookupInputChange = function ( value ) {
@@ -346,16 +371,19 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 			// Create model
 			this.referenceModel = new ve.dm.MWReferenceModel();
 
+			this.search.setInternalList( this.getFragment().getDocument().getInternalList() );
+			this.modeSelect.getItemFromData( 'reuse' ).setDisabled( this.search.isIndexEmpty() );
+
 			if ( this.inDialog !== 'reference' ) {
 				// Stage an empty reference
 				this.getFragment().getSurface().pushStaging();
 
 				// Insert an empty reference
 				this.referenceModel.insertInternalItem( this.getFragment().getSurface() );
-				this.referenceModel.insertReferenceNode( this.getFragment() );
+				this.referenceModel.insertReferenceNode( this.getFragment(), true );
 			}
 
-			this.switchPanels( 'lookup' );
+			this.modeSelect.selectItemByData( 'auto' );
 		}, this );
 };
 
@@ -363,10 +391,10 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
  * @inheritdoc
  */
 ve.ui.CiteFromIdInspector.prototype.getReadyProcess = function ( data ) {
-	return ve.ui.LinkInspector.super.prototype.getReadyProcess.call( this, data )
+	return ve.ui.CiteFromIdInspector.super.prototype.getReadyProcess.call( this, data )
 		.next( function () {
-			// Focus on the input
-			this.lookupInput.setDisabled( false ).focus().select();
+			// Set the panel after ready as it focuses the input too
+			this.setModePanel( 'auto', 'lookup' );
 		}, this );
 };
 
@@ -383,6 +411,9 @@ ve.ui.CiteFromIdInspector.prototype.getTeardownProcess = function ( data ) {
 			// Empty the input
 			this.lookupInput.setValue( null );
 
+			// Clear selection
+			this.sourceSelect.selectItem();
+
 			// Reset
 			if ( this.lookupPromise ) {
 				this.lookupPromise.abort();
@@ -390,6 +421,7 @@ ve.ui.CiteFromIdInspector.prototype.getTeardownProcess = function ( data ) {
 			this.lookupPromise = null;
 			this.clearResults();
 			this.referenceModel = null;
+			this.currentAutoProcessPanel = null;
 		}, this );
 };
 
@@ -417,7 +449,7 @@ ve.ui.CiteFromIdInspector.prototype.getActionProcess = function ( action ) {
 	if ( action === 'back' ) {
 		return new OO.ui.Process( function () {
 			// Clear the results
-			this.switchPanels( 'lookup' );
+			this.setModePanel( 'auto', 'lookup' );
 		}, this );
 	}
 	// Fallback to parent handler
@@ -458,7 +490,7 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 				// Build results
 				return inspector.buildTemplateResults( searchResults )
 					.then( function () {
-						inspector.switchPanels( 'result' );
+						inspector.setModePanel( 'auto', 'result' );
 					} );
 			},
 			// Fail
@@ -467,7 +499,7 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 					return $.Deferred().reject();
 				}
 				// Enable the input and lookup button
-				inspector.switchPanels( 'notice' );
+				inspector.setModePanel( 'auto', 'notice' );
 				return $.Deferred().resolve();
 			} )
 		.always( function () {

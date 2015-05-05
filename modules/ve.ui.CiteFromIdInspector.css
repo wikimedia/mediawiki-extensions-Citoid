@@ -1,10 +1,31 @@
+/*!
+ * VisualEditor UserInterface CiteFromId styles.
+ */
+
+.ve-ui-citeFromIdInspector-form {
+	margin: 0;
+}
+
+.citoid-citeFromIDDialog-panel-auto,
+.citoid-citeFromIDDialog-panel-manual {
+	margin: 0.75em;
+}
+
+.ve-ui-citeFromIdInspector-search {
+	min-height: 20em;
+}
+
+.ve-ui-citeFromIdInspector-search .ve-ui-mwReferenceResultWidget {
+	padding: 0.5em;
+}
+
 .ve-ui-citeFromIdInspector-preview + .ve-ui-citeFromIdInspector-preview {
 	border-top: 1px solid #cccccc;
 }
 
 .ve-ui-citeFromIdInspector-preview {
 	max-height: 15em;
-	margin-top: 0.5em;
+	margin-top: 1em;
 	padding: 0.5em;
 	overflow-y: auto;
 }
@@ -14,13 +35,8 @@
 }
 
 .ve-ui-citeFromIdInspector-dialog-error,
-.ve-ui-citeFromIdReferenceWidget-wrapper {
-	margin-top: 0.6em;
-	line-height: 1.3em;
-}
-
-.ve-ui-citeFromIdReferenceWidget-wrapper a:hover {
-	text-decoration: none;
+.ve-ui-citeFromIdReferenceWidget {
+	line-height: 1.5em;
 }
 
 .ve-ui-citeFromIdReferenceWidget .oo-ui-labelElement-label {
@@ -38,19 +54,23 @@
 	vertical-align: middle;
 }
 
+.ve-ui-citeFromIdReferenceWidget .ve-ui-previewWidget {
+	margin-top: 0.5em;
+}
+
 .ve-ui-citeFromIdReferenceWidget-insert-button {
 	float: right;
 }
 
-.ve-ui-citeFromIdInspector-clickable a {
-	font-weight: bold;
-}
-
-.ve-ui-citeFromIdInspector-dialog-link {
-	display: inline-block;
-	margin: 1.5em 0 1em 0;
-}
-
 .ve-ui-citeFromIdInspector-dialog-error {
 	display: inline-block;
+}
+
+.ve-ui-citeFromIdInspector-sourceSelect .oo-ui-optionWidget {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 50%;
+	margin: 0.5em 0;
 }
