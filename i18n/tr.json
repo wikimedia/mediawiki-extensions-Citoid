@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Mavrikant"
+			"Mavrikant",
+			"Captantrips"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ekle",
 	"citoid-citeFromIDDialog-back": "Geri",
+	"citoid-citeFromIDDialog-lookup-button": "Üretmek",
 	"citoid-citeFromIDDialog-search": "Ara",
 	"citoid-citeFromIDDialog-search-label": "URL veya DOİ",
 	"citoid-citeFromIDDialog-search-placeholder": "örneğin http://www.ornek.com.tr"

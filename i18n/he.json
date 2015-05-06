@@ -8,7 +8,7 @@
 	"citoid-520-error": "לא ניתן לאחזר מידע מהמזהה שסופק.",
 	"citoid-citation-widget-insert-button": "הוספה",
 	"citoid-citeFromIDDialog-back": "חזרה",
-	"citoid-citeFromIDDialog-lookup-button": "חיפוש",
+	"citoid-citeFromIDDialog-lookup-button": "יצירה",
 	"citoid-citeFromIDDialog-search": "חיפוש",
 	"citoid-citeFromIDDialog-search-label": "URL או DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "למשל http://www.example.com",

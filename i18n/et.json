@@ -7,7 +7,7 @@
 	"citoid-520-error": "Ette antud identifikaatori järgi ei õnnestunud teavet hankida.",
 	"citoid-citation-widget-insert-button": "Lisa",
 	"citoid-citeFromIDDialog-back": "Tagasi",
-	"citoid-citeFromIDDialog-lookup-button": "Otsi",
+	"citoid-citeFromIDDialog-lookup-button": "Koosta",
 	"citoid-citeFromIDDialog-search": "Otsi",
 	"citoid-citeFromIDDialog-search-label": "URL või DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "nt http://www.example.com",

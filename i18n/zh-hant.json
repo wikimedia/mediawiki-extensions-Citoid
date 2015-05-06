@@ -10,7 +10,7 @@
 	"citoid-520-error": "無法從提供的辨識代號中取得資訊。",
 	"citoid-citation-widget-insert-button": "插入",
 	"citoid-citeFromIDDialog-back": "返回",
-	"citoid-citeFromIDDialog-lookup-button": "查詢",
+	"citoid-citeFromIDDialog-lookup-button": "產生",
 	"citoid-citeFromIDDialog-search": "搜尋",
 	"citoid-citeFromIDDialog-search-label": "URL 或 DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "例如 http://www.example.com",

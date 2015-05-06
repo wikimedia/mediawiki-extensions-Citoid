@@ -9,7 +9,7 @@
 	"citoid-520-error": "无法从提供的标识符检索信息。",
 	"citoid-citation-widget-insert-button": "插入",
 	"citoid-citeFromIDDialog-back": "返回",
-	"citoid-citeFromIDDialog-lookup-button": "查找",
+	"citoid-citeFromIDDialog-lookup-button": "生成",
 	"citoid-citeFromIDDialog-search": "搜索",
 	"citoid-citeFromIDDialog-search-label": "URL或DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "例如http://www.example.com",
