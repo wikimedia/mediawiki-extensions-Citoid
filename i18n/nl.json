@@ -2,10 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Robin0van0der0vliet",
-			"MedShot"
+			"MedShot",
+			"Jdforrester"
 		]
 	},
+	"citoid-citation-widget-insert-button": "Invoegen",
 	"citoid-citeFromIDDialog-back": "Terug",
+	"citoid-citeFromIDDialog-lookup-button": "Aanmaken",
 	"citoid-citeFromIDDialog-search": "Zoeken",
-	"citoid-citeFromIDDialog-search-label": "URL of DOI"
+	"citoid-citeFromIDDialog-search-label": "URL of DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "bijv. http://www.example.com"
 }

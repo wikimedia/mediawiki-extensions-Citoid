@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Dan Koehl",
-			"Ainali"
+			"Ainali",
+			"Josve05a"
 		]
 	},
 	"citoid-520-error": "Kan inte hämta information genom den angivna identifieraren.",
 	"citoid-citation-widget-insert-button": "Infoga",
 	"citoid-citeFromIDDialog-back": "Tillbaka",
-	"citoid-citeFromIDDialog-lookup-button": "Slå upp",
+	"citoid-citeFromIDDialog-lookup-button": "Generera",
 	"citoid-citeFromIDDialog-search": "Sök",
 	"citoid-citeFromIDDialog-search-label": "URL eller DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "t.ex. http://www.example.com",

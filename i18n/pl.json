@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Tar Lócesilion"
 		]
 	},
 	"citoid-520-error": "Nie można pobrać informacji z dostarczonego identyfikatora.",
@@ -12,5 +13,8 @@
 	"citoid-citeFromIDDialog-search-label": "URL lub DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "np. http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Wyszukiwanie, proszę czekać...",
+	"citoid-citeFromIDDialog-title": "Dodaj przypis",
+	"citoid-citeFromIDDialog-use-general-dialog-button": "całe okno przypisu",
+	"citoid-citeFromIDTool-title": "Cytuj",
 	"citoid-typeMap-config-error": "MediaWiki:citoid-szablon-Typ-map.json jest niepoprawnie skonfigurowany."
 }

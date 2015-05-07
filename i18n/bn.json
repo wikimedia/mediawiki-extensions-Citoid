@@ -7,7 +7,7 @@
 	"citoid-520-error": "প্রদানকৃত শনাক্তকারী থেকে তথ্য পুনরুদ্ধার করা যাবে না।",
 	"citoid-citation-widget-insert-button": "যোগ করো",
 	"citoid-citeFromIDDialog-back": "পিছনে",
-	"citoid-citeFromIDDialog-lookup-button": "দেখুন",
+	"citoid-citeFromIDDialog-lookup-button": "উৎপন্ন করুন",
 	"citoid-citeFromIDDialog-search": "অনুসন্ধান",
 	"citoid-citeFromIDDialog-search-label": "URL বা DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "উদা. http://www.example.com",

@@ -9,7 +9,7 @@
 	"citoid-520-error": "Non se puido obter información a partir do identificador proporcionado.",
 	"citoid-citation-widget-insert-button": "Inserir",
 	"citoid-citeFromIDDialog-back": "Volver",
-	"citoid-citeFromIDDialog-lookup-button": "Procura",
+	"citoid-citeFromIDDialog-lookup-button": "Xerar",
 	"citoid-citeFromIDDialog-search": "Procurar",
 	"citoid-citeFromIDDialog-search-label": "URL ou DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "p.e. http://www.example.com",
