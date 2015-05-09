@@ -13,7 +13,6 @@
 	"citoid-citeFromIDDialog-search-placeholder": "t.d. http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Leita, vinsamlegast bíddu...",
 	"citoid-citeFromIDDialog-title": "Bæta við heimild",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "Eða notaðu $1 til að fylla inn upplýsingarnar sjálf/ur.",
 	"citoid-citeFromIDDialog-use-general-error-message": "Við gátum ekki búið til heimild fyrir þig. Þú getur búið hana til með því að nota $1.",
 	"citoid-citeFromIDTool-title": "Heimild",
 	"citoid-desc": "Veitir aðgang á milli citoid þjónustunnar og MediaWiki.",

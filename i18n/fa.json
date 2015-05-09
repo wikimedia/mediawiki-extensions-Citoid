@@ -13,8 +13,6 @@
 	"citoid-citeFromIDDialog-search-placeholder": "مثلا http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "درحال جستجو، صبر کنید...",
 	"citoid-citeFromIDDialog-title": "افزودن یک یادکرد",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "متن کامل یادکرد",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "یا از $1 برای پرکردن جزئیات استفاده کنید.",
 	"citoid-citeFromIDDialog-use-general-error-message": "امکان ساخت یادکرد برای شما نیست.شما می توانید توسط $1 انجام دهید.",
 	"citoid-citeFromIDTool-title": "یادکرد",
 	"citoid-desc": "تامین ارتباط بین سرور citoid و مدیاویکی",

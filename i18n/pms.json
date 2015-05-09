@@ -13,8 +13,6 @@
 	"citoid-citeFromIDDialog-search-placeholder": "për esempi, http://www.esempi.com",
 	"citoid-citeFromIDDialog-search-progress": "Arserca an cors, avèj passiensa...",
 	"citoid-citeFromIDDialog-title": "Gionté na sitassion",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "diàlogh ëd sitassion complet",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "Opura dovré la $1 për compilé ij detaj daspërchiel.",
 	"citoid-citeFromIDDialog-use-general-error-message": "I l'oma nen podù fé na sitassion për chiel. A peul fess-ne un-a an dovrand ël $1.",
 	"citoid-citeFromIDTool-title": "Sité",
 	"citoid-desc": "A forniss dij pont d'acess antra ël serviss citoid e MediaWiki",

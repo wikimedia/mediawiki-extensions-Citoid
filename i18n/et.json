@@ -13,8 +13,6 @@
 	"citoid-citeFromIDDialog-search-placeholder": "nt http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Otsimine, palun oota...",
 	"citoid-citeFromIDDialog-title": "Viite lisamine",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "täielikku viitamisdialoogi",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "Või kasuta $1, et üksikasjad ise sisestada.",
 	"citoid-citeFromIDDialog-use-general-error-message": "Viidet ei õnnestunud koostada. Saad viite koostamiseks kasutada $1.",
 	"citoid-citeFromIDTool-title": "Viide",
 	"citoid-desc": "Tagab teenuse Citoid ja MediaWiki vahelised pääsupunktid.",

@@ -3,12 +3,13 @@
 		"authors": [
 			"Amire80",
 			"Mavrikant",
-			"Captantrips"
+			"Captantrips",
+			"Stultiwikia"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ekle",
 	"citoid-citeFromIDDialog-back": "Geri",
-	"citoid-citeFromIDDialog-lookup-button": "Üretmek",
+	"citoid-citeFromIDDialog-lookup-button": "Yarat",
 	"citoid-citeFromIDDialog-search": "Ara",
 	"citoid-citeFromIDDialog-search-label": "URL veya DOİ",
 	"citoid-citeFromIDDialog-search-placeholder": "örneğin http://www.ornek.com.tr"

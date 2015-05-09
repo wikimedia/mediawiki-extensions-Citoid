@@ -18,8 +18,6 @@
 	"citoid-citeFromIDDialog-search-placeholder": "par exemple, http://www.exemple.com",
 	"citoid-citeFromIDDialog-search-progress": "Recherche en cours, veuillez patienter...",
 	"citoid-citeFromIDDialog-title": "Ajouter une référence",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "Outil complet de modification de référence",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "Ou utiliser la $1 pour emplir les détails vous-même.",
 	"citoid-citeFromIDDialog-use-general-error-message": "Nous ne pouvons pas faire de référence pour vous. Vous pouvez en faire une en utilisant le $1.",
 	"citoid-citeFromIDTool-title": "Citer",
 	"citoid-desc": "Offre des points d'accès entre le service citoid et MediaWiki",

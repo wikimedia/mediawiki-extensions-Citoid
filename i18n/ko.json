@@ -1,8 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"SeoJeongHo"
+			"SeoJeongHo",
+			"아라"
 		]
 	},
-	"citoid-citeFromIDDialog-lookup-button": "생성"
+	"citoid-citation-widget-insert-button": "넣기",
+	"citoid-citeFromIDDialog-back": "뒤로",
+	"citoid-citeFromIDDialog-lookup-button": "생성",
+	"citoid-citeFromIDDialog-search": "검색",
+	"citoid-citeFromIDDialog-search-label": "URL 또는 DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "예 http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "검색 중입니다, 잠시 기다려주세요...",
+	"citoid-citeFromIDDialog-title": "인용 추가",
+	"citoid-citeFromIDDialog-use-general-error-message": "우리는 당신을 위한 인용을 만들 수 없습니다. $1를 사용하여 인용을 만들 수 있습니다.",
+	"citoid-citeFromIDTool-title": "인용",
+	"citoid-desc": "Citoid 서비스와 미디어위키 사이의 액세스 포인트를 제공합니다",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json은 제대로 구성되어야 합니다."
 }

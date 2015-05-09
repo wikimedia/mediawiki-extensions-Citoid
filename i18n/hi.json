@@ -14,8 +14,6 @@
 	"citoid-citeFromIDDialog-search-placeholder": "उदाहरण http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": " ढूंढ़ रहे हैं, कृपया प्रतीक्षा करें...",
 	"citoid-citeFromIDDialog-title": "एक उद्धरण जोड़ें",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "पूर्ण उद्धरण डायलॉग",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "या विवरण अपने आप भरने के लिए $1 का उपयोग करें।",
 	"citoid-citeFromIDDialog-use-general-error-message": "हम आप के लिए एक उद्धरण नहीं बना सके। आप $1 का उपयोग करके स्वयं बना सकते हैं।",
 	"citoid-citeFromIDTool-title": "उद्धृत करें",
 	"citoid-desc": "Citoid सेवा और MediaWiki के बीच अभिगम बिंदुअों का प्रदान करता है",

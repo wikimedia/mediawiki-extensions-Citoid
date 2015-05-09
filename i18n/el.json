@@ -13,8 +13,6 @@
 	"citoid-citeFromIDDialog-search-placeholder": "π.χ. http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Γίνεται αναζήτηση, παρακαλούμε περιμένετε...",
 	"citoid-citeFromIDDialog-title": "Προσθέστε μια παραπομπή",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "διάλογος πλήρους βιβλιογραφικής αναφοράς",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "Ή χρησιμοποιήστε το $1 για να συμπληρώσετε τις λεπτομέρεις ο ίδιος.",
 	"citoid-citeFromIDDialog-use-general-error-message": "Δεν θα μπορούσαμε να κάνουμε μια παραπομπή για εσάς. Μπορείτε να κάνετε μία χρησιμοποιώντας το $1.",
 	"citoid-citeFromIDTool-title": "Προσθήκη παραπομπής",
 	"citoid-desc": "Παρέχει σημεία πρόσβασης μεταξύ της υπηρεσίας citoid και του MediaWiki",

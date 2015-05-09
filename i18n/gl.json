@@ -15,8 +15,6 @@
 	"citoid-citeFromIDDialog-search-placeholder": "p.e. http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Procurando, por favor agarde...",
 	"citoid-citeFromIDDialog-title": "Engadir unha cita",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "dialogo completo de cita",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "Ou use $1 para engadir os detalles por si mesmo.",
 	"citoid-citeFromIDDialog-use-general-error-message": "Non conseguimos crear a referencia por vostede. Pode crear unha usando $1.",
 	"citoid-citeFromIDTool-title": "Citar",
 	"citoid-desc": "Proporciona puntos de acceso entre o servizo Citoid e MediaWiki",

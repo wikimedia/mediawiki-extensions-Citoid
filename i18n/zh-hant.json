@@ -16,8 +16,6 @@
 	"citoid-citeFromIDDialog-search-placeholder": "例如 http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "搜尋中，請稍候...",
 	"citoid-citeFromIDDialog-title": "新增引用",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "完整的引用對話框",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "或自行使用 $1 填寫詳細資訊。",
 	"citoid-citeFromIDDialog-use-general-error-message": "我們無法為您建立引用。 您可以使用 $1 自行建立。",
 	"citoid-citeFromIDTool-title": "引用",
 	"citoid-desc": "於 citoid 服務與 MediaWiki 間提供存取點",

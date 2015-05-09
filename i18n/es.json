@@ -15,8 +15,6 @@
 	"citoid-citeFromIDDialog-search-placeholder": "por ejemplo, http://www.ejemplo.com",
 	"citoid-citeFromIDDialog-search-progress": "Buscando. Espera...",
 	"citoid-citeFromIDDialog-title": "Agregar una cita",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "Cuadro completo de citas",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "O usa $1 para completar los detalles tu mismo.",
 	"citoid-citeFromIDTool-title": "Citar",
 	"citoid-desc": "Proporciona puntos de acceso entre el servicio Citoid y MediaWiki",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json está configurado incorrectamente.",

@@ -14,8 +14,6 @@
 	"citoid-citeFromIDDialog-search-placeholder": "למשל http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "חיפוש, נא להמתין...",
 	"citoid-citeFromIDDialog-title": "הוספת ציטוט",
-	"citoid-citeFromIDDialog-use-general-dialog-button": "חלון ציטוטים מלא",
-	"citoid-citeFromIDDialog-use-general-dialog-message": "אפשר גם להשתמש בכפתור $1 כדי למלא את הפרטים בעצמך.",
 	"citoid-citeFromIDDialog-use-general-error-message": "המערכת לא הצליחה ליצור ציטוט עבורך. באפשרותך להוסיף ציטוט באמצעות $1",
 	"citoid-citeFromIDTool-title": "ציטוט",
 	"citoid-desc": "אספקת נקודות כניסה בין שירות citoid לבין מדיה־ויקי",
