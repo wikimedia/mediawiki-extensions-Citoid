@@ -13,7 +13,7 @@
 	"citoid-citeFromIDDialog-search-placeholder": "на пр. http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Пребарувам. Почекајте...",
 	"citoid-citeFromIDDialog-title": "Додај навод",
-	"citoid-citeFromIDDialog-use-general-error-message": "Не можев да го направам наводот. Можете да го создадете со $1.",
+	"citoid-citeFromIDDialog-use-general-error-message": "Не можев да го направам наводот. Можете да го создадете со јазичето „Рачно“ погоре.",
 	"citoid-citeFromIDTool-title": "Наведи",
 	"citoid-desc": "Овозможува поврзаност помеѓу службата Citoid и МедијаВики",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json е неправилно поставен.",

@@ -13,7 +13,7 @@
 	"citoid-citeFromIDDialog-search-placeholder": "de ex.: http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Se caută, așteptați...",
 	"citoid-citeFromIDDialog-title": "Adăugare referință",
-	"citoid-citeFromIDDialog-use-general-error-message": "Nu am putut crea o referință în locul dumneavoastră. Puteți crea una folosind $1.",
+	"citoid-citeFromIDDialog-use-general-error-message": "Nu am putut crea o referință pentru dumneavoastră. Puteți crea manual una folosind fila „Manual” de deasupra.",
 	"citoid-citeFromIDTool-title": "Citare",
 	"citoid-desc": "Oferă puncte de acces între serviciul citoid și MediaWiki",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json nu este configurat corect.",

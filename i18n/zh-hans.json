@@ -15,7 +15,7 @@
 	"citoid-citeFromIDDialog-search-placeholder": "例如http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "搜索中，请稍候…",
 	"citoid-citeFromIDDialog-title": "添加一个引用",
-	"citoid-citeFromIDDialog-use-general-error-message": "我们不能为您做一个引用。您可以通过使用$1制作一个引用。",
+	"citoid-citeFromIDDialog-use-general-error-message": "我们不能为您做一个引用。您可以使用上方的“手动”标签创建一个。",
 	"citoid-citeFromIDTool-title": "引用",
 	"citoid-desc": "在citoid服务和MediaWiki之间提供接入点",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json 配置不当。",

@@ -16,7 +16,7 @@
 	"citoid-citeFromIDDialog-search-placeholder": "ex: http://www.exemplo.com",
 	"citoid-citeFromIDDialog-search-progress": "A pesquisar, por favor aguarde...",
 	"citoid-citeFromIDDialog-title": "Adicionar uma referência",
-	"citoid-citeFromIDDialog-use-general-error-message": "Não conseguimos criar a referência. Pode criar uma ao utilizar $1.",
+	"citoid-citeFromIDDialog-use-general-error-message": "Não conseguimos criar a referência. Pode criar uma manualmente ao utilizar a aba acima.",
 	"citoid-citeFromIDTool-title": "Citar",
 	"citoid-desc": "Fornece pontos de acesso entre o serviço citoid e a MediaWiki",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json está configurado incorretamente.",
