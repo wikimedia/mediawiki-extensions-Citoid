@@ -251,6 +251,9 @@ ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( panelName, process
 			this.search.getQuery().focus();
 			break;
 	}
+	// Process panels go 'fullscreen', hiding the tab widget
+	// TODO: Do this in a less hacky way
+	this.modeSelect.toggle( !( processPanelName && processPanelName !== 'lookup' ) );
 	if ( !fromSelect ) {
 		this.modeSelect.selectItemByData( panelName );
 	}
