@@ -47,6 +47,8 @@
 	ve.ui.CiteFromIdInspectorTool.static.autoAddToCatchall = false;
 	ve.ui.CiteFromIdInspectorTool.static.title = OO.ui.deferMsg( 'citoid-citeFromIDTool-title' );
 	ve.ui.CiteFromIdInspectorTool.static.label = OO.ui.deferMsg( 'citoid-citeFromIDTool-title' );
+	ve.ui.CiteFromIdInspectorTool.static.icon = 'quotes';
+	ve.ui.CiteFromIdInspectorTool.static.displayBothIconAndLabel = true;
 	ve.ui.CiteFromIdInspectorTool.static.group = 'cite';
 	ve.ui.CiteFromIdInspectorTool.static.commandName = 'citefromid';
 
