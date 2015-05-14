@@ -4,13 +4,14 @@
 			"Beta16",
 			"LACLARETTA",
 			"Jdforrester",
-			"^musaz"
+			"^musaz",
+			"Macofe"
 		]
 	},
 	"citoid-520-error": "Impossibile recuperare le informazioni dall'identificatore fornito.",
 	"citoid-citation-widget-insert-button": "Inserirla",
 	"citoid-citeFromIDDialog-back": "Indietro",
-	"citoid-citeFromIDDialog-lookup-button": "Ricerca",
+	"citoid-citeFromIDDialog-lookup-button": "Genera",
 	"citoid-citeFromIDDialog-search": "Cerca",
 	"citoid-citeFromIDDialog-search-label": "URL o DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "ad esempio http://www.example.com",

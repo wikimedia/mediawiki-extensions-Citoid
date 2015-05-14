@@ -1,10 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aktron"
+			"Aktron",
+			"Mormegil"
 		]
 	},
+	"citoid-520-error": "Ze zadaného identifikátoru se nepodařilo získat informace.",
+	"citoid-citation-widget-insert-button": "Vložit",
+	"citoid-citeFromIDDialog-back": "Zpět",
+	"citoid-citeFromIDDialog-lookup-button": "Vytvořit",
 	"citoid-citeFromIDDialog-search": "Hledat",
+	"citoid-citeFromIDDialog-search-label": "URL nebo DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "např. http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Vyhledávání, prosím vyčkejte...",
-	"citoid-citeFromIDTool-title": "Automatické vyplňování z URL"
+	"citoid-citeFromIDDialog-title": "Přidat citaci",
+	"citoid-citeFromIDDialog-use-general-error-message": "Nemohli jsme pro vás vytvořit citaci. Můžete ji vytvořit ručně pomocí výše zobrazené záložky „Ručně“.",
+	"citoid-citeFromIDTool-title": "Citace",
+	"citoid-desc": "Poskytuje přístupové body mezi službou Citoid a MediaWiki",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json je nakonfigurováno chybně.",
+	"citoid-unknown-error": "Jelikož došlo k neznámé chybě, nejsme schopni vytvořit citaci. Zkuste to znovu později."
 }
