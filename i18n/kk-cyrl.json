@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Кірістіру",
+	"citoid-citeFromIDDialog-back": "Қайту",
+	"citoid-citeFromIDDialog-search": "Іздеу",
+	"citoid-citeFromIDDialog-search-label": "URL немесе DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "мысалы http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Ізделуде, күте тұрыңыз..."
+}
