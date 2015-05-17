@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iltever"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Сал",
+	"citoid-citeFromIDDialog-back": "Артха",
+	"citoid-citeFromIDDialog-lookup-button": "Джарат",
+	"citoid-citeFromIDDialog-search": "Излеу",
+	"citoid-citeFromIDDialog-search-label": "URL неда DOI"
+}

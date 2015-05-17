@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Base"
+		]
+	},
+	"citoid-520-error": "Не вдалось отримати інформацію за вказаним ідентифікатором.",
+	"citoid-citation-widget-insert-button": "Вставити",
+	"citoid-citeFromIDDialog-back": "Назад",
+	"citoid-citeFromIDDialog-lookup-button": "Генерувати",
+	"citoid-citeFromIDDialog-search": "Знайти",
+	"citoid-citeFromIDDialog-search-label": "URL або DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "наприклад http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Пошук, зачекайте, будь ласка…",
+	"citoid-citeFromIDDialog-title": "Додати цитування"
+}

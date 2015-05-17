@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"सरोज कुमार ढकाल"
+			"सरोज कुमार ढकाल",
+			"Nirjal stha"
 		]
 	},
 	"citoid-citation-widget-insert-button": "थप्ने",
 	"citoid-citeFromIDDialog-back": "अघिल्लो",
-	"citoid-citeFromIDDialog-lookup-button": "खोज्ने",
+	"citoid-citeFromIDDialog-lookup-button": "उत्पन्न",
 	"citoid-citeFromIDDialog-search": "खोज",
 	"citoid-citeFromIDDialog-search-placeholder": "उदाहरण http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "खोज्दै , पर्खनुहोस् ...",
