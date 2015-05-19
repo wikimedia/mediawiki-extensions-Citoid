@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"citoid-citation-widget-insert-button": "ഉൾപ്പെടുത്തുക",
+	"citoid-citeFromIDDialog-back": "പുറകോട്ട്",
+	"citoid-citeFromIDDialog-lookup-button": "നിർമ്മിക്കുക",
+	"citoid-citeFromIDDialog-search": "തിരയുക",
+	"citoid-citeFromIDDialog-search-label": "യു.ആർ.എൽ. അഥവാ ഡി.ഓ.ഐ.",
+	"citoid-citeFromIDDialog-search-placeholder": "ഉദാ: http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "തിരയുന്നു, ദയവായി കാത്തിരിക്കുക...",
+	"citoid-citeFromIDDialog-title": "അവലംബം ചേർക്കുക",
+	"citoid-citeFromIDTool-title": "ഉദ്ധരിക്കുക"
+}

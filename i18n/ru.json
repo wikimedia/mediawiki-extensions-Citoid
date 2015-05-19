@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras"
+			"Okras",
+			"Дмитрий"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Вставить",
 	"citoid-citeFromIDDialog-back": "Назад",
-	"citoid-citeFromIDDialog-search": "Поиск"
+	"citoid-citeFromIDDialog-lookup-button": "Сгенерировать",
+	"citoid-citeFromIDDialog-search": "Поиск",
+	"citoid-citeFromIDDialog-search-placeholder": "например, http://www.example.com"
 }
