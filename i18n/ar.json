@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jdforrester"
+			"Jdforrester",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"citoid-citation-widget-insert-button": "أدرج",
-	"citoid-citeFromIDDialog-back": "رجوع"
+	"citoid-citeFromIDDialog-back": "رجوع",
+	"citoid-citeFromIDDialog-search": "ابحث"
 }

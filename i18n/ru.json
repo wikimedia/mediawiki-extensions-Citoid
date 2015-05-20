@@ -9,5 +9,8 @@
 	"citoid-citeFromIDDialog-back": "Назад",
 	"citoid-citeFromIDDialog-lookup-button": "Сгенерировать",
 	"citoid-citeFromIDDialog-search": "Поиск",
-	"citoid-citeFromIDDialog-search-placeholder": "например, http://www.example.com"
+	"citoid-citeFromIDDialog-search-placeholder": "например, http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Идёт поиск, пожалуйста, подождите…",
+	"citoid-citeFromIDDialog-title": "Добавить ссылку на источник",
+	"citoid-citeFromIDTool-title": "Источник"
 }
