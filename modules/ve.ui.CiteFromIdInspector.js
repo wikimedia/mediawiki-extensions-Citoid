@@ -92,9 +92,18 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	this.modeSelect = new OO.ui.TabSelectWidget( {
 		classes: [ 've-ui-citeFromIdInspector-modeSelect' ],
 		items: [
-			new OO.ui.TabOptionWidget( { data: 'auto', label: 'Automatic' } ),
-			new OO.ui.TabOptionWidget( { data: 'manual', label: 'Manual' } ),
-			new OO.ui.TabOptionWidget( { data: 'reuse', label: 'Re-use' } )
+			new OO.ui.TabOptionWidget( {
+				data: 'auto',
+				label: mw.msg( 'citoid-citeFromIDDialog-mode-auto' )
+			} ),
+			new OO.ui.TabOptionWidget( {
+				data: 'manual',
+				label: mw.msg( 'citoid-citeFromIDDialog-mode-manual' )
+			} ),
+			new OO.ui.TabOptionWidget( {
+				data: 'reuse',
+				label: mw.msg( 'citoid-citeFromIDDialog-mode-reuse' )
+			} )
 		]
 	} );
 
