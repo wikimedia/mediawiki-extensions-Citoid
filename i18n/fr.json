@@ -6,13 +6,17 @@
 			"Linedwell",
 			"Gomoko",
 			"Jdforrester",
-			"NemesisIII"
+			"NemesisIII",
+			"Mattho69"
 		]
 	},
 	"citoid-520-error": "Impossible de récupérer les informations à partir de son identifiant.",
 	"citoid-citation-widget-insert-button": "Insérer",
 	"citoid-citeFromIDDialog-back": "Retour",
 	"citoid-citeFromIDDialog-lookup-button": "Générer",
+	"citoid-citeFromIDDialog-mode-auto": "Automatique",
+	"citoid-citeFromIDDialog-mode-manual": "Manuel",
+	"citoid-citeFromIDDialog-mode-reuse": "Réutilisation",
 	"citoid-citeFromIDDialog-search": "Chercher",
 	"citoid-citeFromIDDialog-search-label": "URL ou DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "par exemple, http://www.exemple.com",

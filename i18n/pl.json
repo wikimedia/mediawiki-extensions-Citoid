@@ -9,6 +9,8 @@
 	"citoid-citation-widget-insert-button": "Wstaw",
 	"citoid-citeFromIDDialog-back": "Wstecz",
 	"citoid-citeFromIDDialog-lookup-button": "Generuj",
+	"citoid-citeFromIDDialog-mode-auto": "Automatycznie",
+	"citoid-citeFromIDDialog-mode-manual": "Podręcznik",
 	"citoid-citeFromIDDialog-search": "Szukaj",
 	"citoid-citeFromIDDialog-search-label": "URL lub DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "np. http://www.example.com",

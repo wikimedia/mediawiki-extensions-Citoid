@@ -4,6 +4,8 @@
 			"Joetaras"
 		]
 	},
+	"citoid-citeFromIDDialog-mode-manual": "A màne",
+	"citoid-citeFromIDDialog-mode-reuse": "Ause arrete",
 	"citoid-citeFromIDDialog-search": "Cirche",
 	"citoid-citeFromIDDialog-search-label": "URL o DOI"
 }

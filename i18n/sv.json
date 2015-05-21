@@ -3,19 +3,23 @@
 		"authors": [
 			"Dan Koehl",
 			"Ainali",
-			"Josve05a"
+			"Josve05a",
+			"WikiPhoenix"
 		]
 	},
 	"citoid-520-error": "Kan inte hämta information genom den angivna identifieraren.",
 	"citoid-citation-widget-insert-button": "Infoga",
 	"citoid-citeFromIDDialog-back": "Tillbaka",
 	"citoid-citeFromIDDialog-lookup-button": "Generera",
+	"citoid-citeFromIDDialog-mode-auto": "Automatisk",
+	"citoid-citeFromIDDialog-mode-manual": "Manuell",
+	"citoid-citeFromIDDialog-mode-reuse": "Återanvänd",
 	"citoid-citeFromIDDialog-search": "Sök",
 	"citoid-citeFromIDDialog-search-label": "URL eller DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "t.ex. http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Söker, vänligen vänta...",
 	"citoid-citeFromIDDialog-title": "Lägg till en källa",
-	"citoid-citeFromIDDialog-use-general-error-message": "Vi kunde inte göra en referens åt dig. Du kan göra en genom att använda $1.",
+	"citoid-citeFromIDDialog-use-general-error-message": "Vi kunde inte göra en referens åt dig. Du kan göra en manuellt på fliken 'Manuell' ovanför.",
 	"citoid-citeFromIDTool-title": "Ange källa",
 	"citoid-desc": "Tillhandahåller åtkomstpunkter mellan citiod-tjänsten och MediaWiki",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json är ej korrekt konfigurerad.",

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Emir Mujadzic"
+		]
+	},
+	"citoid-citeFromIDDialog-mode-auto": "Automatski",
+	"citoid-citeFromIDDialog-mode-manual": "Uputstvo",
+	"citoid-citeFromIDDialog-mode-reuse": "Ponovo upotrijebiti"
+}

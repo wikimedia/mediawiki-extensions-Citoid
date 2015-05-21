@@ -8,10 +8,14 @@
 	"citoid-citation-widget-insert-button": "Сал",
 	"citoid-citeFromIDDialog-back": "Артха",
 	"citoid-citeFromIDDialog-lookup-button": "Джарат",
+	"citoid-citeFromIDDialog-mode-auto": "Автомат халда",
+	"citoid-citeFromIDDialog-mode-manual": "Къол режим",
+	"citoid-citeFromIDDialog-mode-reuse": "Джангыдан хайырландырыу",
 	"citoid-citeFromIDDialog-search": "Излеу",
 	"citoid-citeFromIDDialog-search-label": "URL неда DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "сёз ючюн, http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Излеу барады, сакъла...",
 	"citoid-citeFromIDDialog-title": "Цитатаны къош",
+	"citoid-citeFromIDDialog-use-general-error-message": "Цитата эталмадыкъ сизге. Башыракъдагъы 'Къол режим' тиек бла къураб кёрюрге боллукъса.",
 	"citoid-citeFromIDTool-title": "Цитата этиу"
 }
