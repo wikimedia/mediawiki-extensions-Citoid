@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"NehalDaveND"
+		]
+	},
+	"citoid-citeFromIDDialog-back": "पृष्ठे",
+	"citoid-citeFromIDDialog-lookup-button": "सर्जकः",
+	"citoid-citeFromIDDialog-mode-auto": "स्वचालितम्",
+	"citoid-citeFromIDDialog-mode-manual": "हस्तेन कृतम्",
+	"citoid-citeFromIDDialog-mode-reuse": "पुनरुपयोगः",
+	"citoid-citeFromIDDialog-search": "अन्वेषणम्"
+}

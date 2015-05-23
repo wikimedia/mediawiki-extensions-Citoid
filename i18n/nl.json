@@ -9,7 +9,12 @@
 	"citoid-citation-widget-insert-button": "Invoegen",
 	"citoid-citeFromIDDialog-back": "Terug",
 	"citoid-citeFromIDDialog-lookup-button": "Aanmaken",
+	"citoid-citeFromIDDialog-mode-auto": "Automatisch",
+	"citoid-citeFromIDDialog-mode-manual": "Handmatig",
+	"citoid-citeFromIDDialog-mode-reuse": "Hergebruiken",
 	"citoid-citeFromIDDialog-search": "Zoeken",
 	"citoid-citeFromIDDialog-search-label": "URL of DOI",
-	"citoid-citeFromIDDialog-search-placeholder": "bijv. http://www.example.com"
+	"citoid-citeFromIDDialog-search-placeholder": "bijv. http://www.example.com",
+	"citoid-citeFromIDDialog-title": "Een citaat toevoegen",
+	"citoid-citeFromIDTool-title": "Citeren"
 }

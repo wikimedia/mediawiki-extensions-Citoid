@@ -10,13 +10,16 @@
 	"citoid-citeFromIDDialog-back": "Wstecz",
 	"citoid-citeFromIDDialog-lookup-button": "Generuj",
 	"citoid-citeFromIDDialog-mode-auto": "Automatycznie",
-	"citoid-citeFromIDDialog-mode-manual": "Podręcznik",
+	"citoid-citeFromIDDialog-mode-manual": "Ręcznie",
+	"citoid-citeFromIDDialog-mode-reuse": "Użyj istniejącego",
 	"citoid-citeFromIDDialog-search": "Szukaj",
 	"citoid-citeFromIDDialog-search-label": "URL lub DOI",
-	"citoid-citeFromIDDialog-search-placeholder": "np. http://www.example.com",
+	"citoid-citeFromIDDialog-search-placeholder": "np. http://www.przyklad.com",
 	"citoid-citeFromIDDialog-search-progress": "Wyszukiwanie, proszę czekać...",
 	"citoid-citeFromIDDialog-title": "Dodaj przypis",
 	"citoid-citeFromIDDialog-use-general-error-message": "Nie mogliśmy utworzyć przypisu. Możesz go utworzyć samodzielnie, używając trybu ręcznego.",
 	"citoid-citeFromIDTool-title": "Cytuj",
-	"citoid-typeMap-config-error": "MediaWiki:citoid-szablon-Typ-map.json jest niepoprawnie skonfigurowany."
+	"citoid-desc": "Zapewnia punkty dostępu między Citoidem a MediaWiki",
+	"citoid-typeMap-config-error": "MediaWiki:citoid-szablon-Typ-map.json jest niepoprawnie skonfigurowany.",
+	"citoid-unknown-error": "Nieznany błąd uniemożliwił utworzenie przypisu. Spróbuj ponownie później."
 }

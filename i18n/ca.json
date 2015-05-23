@@ -1,13 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"Macofe"
 		]
 	},
 	"citoid-520-error": "No s’ha pogut recuperar informació sobre l’identificador proporcionat.",
-	"citoid-desc": "Proporciona punts d’accés entre el servei Citoid i MediaWiki",
+	"citoid-citeFromIDDialog-mode-auto": "Automàtic",
+	"citoid-citeFromIDDialog-mode-manual": "Manual",
+	"citoid-citeFromIDDialog-mode-reuse": "Reutilitza",
 	"citoid-citeFromIDDialog-search": "Cerca",
 	"citoid-citeFromIDDialog-search-label": "URL o DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "p. ex., http://www.exemple.com",
-	"citoid-citeFromIDDialog-search-progress": "S’està cercant, espereu-vos…"
+	"citoid-citeFromIDDialog-search-progress": "S’està cercant, espereu-vos…",
+	"citoid-desc": "Proporciona punts d’accés entre el servei Citoid i MediaWiki"
 }

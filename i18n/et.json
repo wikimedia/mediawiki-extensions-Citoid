@@ -16,7 +16,7 @@
 	"citoid-citeFromIDDialog-search-placeholder": "nt http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Otsimine, palun oota...",
 	"citoid-citeFromIDDialog-title": "Viite lisamine",
-	"citoid-citeFromIDDialog-use-general-error-message": "Viidet ei õnnestunud koostada. Et viide käsitsi koostada, kasuta selle ülaltoodud kaarti \"{{int:citoid-citeFromIDDialog-mode-manual}}\".",
+	"citoid-citeFromIDDialog-use-general-error-message": "Viidet ei õnnestunud koostada. Et viide käsitsi koostada, kasuta ülaltoodud kaarti \"{{int:citoid-citeFromIDDialog-mode-manual}}\".",
 	"citoid-citeFromIDTool-title": "Viide",
 	"citoid-desc": "Tagab teenuse Citoid ja MediaWiki vahelised pääsupunktid.",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json ei ole õigesti häälestatud.",
