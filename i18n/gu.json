@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"NehalDaveND"
+		]
+	},
+	"citoid-citation-widget-insert-button": "ઉમેરો",
+	"citoid-citeFromIDDialog-back": "પાછાં જાવ",
+	"citoid-citeFromIDDialog-lookup-button": "સામાન્ય",
+	"citoid-citeFromIDDialog-mode-auto": "આપોઆપ",
+	"citoid-citeFromIDDialog-mode-manual": "માનવ ચાલિત",
+	"citoid-citeFromIDDialog-mode-reuse": "ફરી ઉપયોગ",
+	"citoid-citeFromIDDialog-search": "શોધો"
+}

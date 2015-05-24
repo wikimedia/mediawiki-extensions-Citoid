@@ -4,6 +4,14 @@
 			"Satdeep gill"
 		]
 	},
+	"citoid-citation-widget-insert-button": "ਜੋੜੋ",
+	"citoid-citeFromIDDialog-back": "ਪਿੱਛੇ",
+	"citoid-citeFromIDDialog-mode-auto": "ਆਟੋਮੈਟਿਕ",
+	"citoid-citeFromIDDialog-mode-manual": "ਮੈਨੂਅਲ",
+	"citoid-citeFromIDDialog-mode-reuse": "ਮੁੜ-ਵਰਤੋਂ",
 	"citoid-citeFromIDDialog-search": "ਖੋਜ",
-	"citoid-citeFromIDDialog-title": "ਹਵਾਲਾ ਜੋੜੋ"
+	"citoid-citeFromIDDialog-search-placeholder": "ਉਦਾਹਰਨ http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "ਲੱਭਿਆ ਜਾ ਰਿਹਾ ਹੈ, ਇੰਤਜ਼ਾਰ ਕਰੋ...",
+	"citoid-citeFromIDDialog-title": "ਹਵਾਲਾ ਜੋੜੋ",
+	"citoid-citeFromIDTool-title": "ਹਵਾਲਾ"
 }

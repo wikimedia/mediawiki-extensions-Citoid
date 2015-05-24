@@ -6,8 +6,13 @@
 	},
 	"citoid-citation-widget-insert-button": "Кірістіру",
 	"citoid-citeFromIDDialog-back": "Қайту",
+	"citoid-citeFromIDDialog-lookup-button": "Жасау",
+	"citoid-citeFromIDDialog-mode-auto": "Автоматты",
+	"citoid-citeFromIDDialog-mode-manual": "Қолмен",
+	"citoid-citeFromIDDialog-mode-reuse": "Қайта қолдану",
 	"citoid-citeFromIDDialog-search": "Іздеу",
 	"citoid-citeFromIDDialog-search-label": "URL немесе DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "мысалы http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "Ізделуде, күте тұрыңыз..."
+	"citoid-citeFromIDDialog-search-progress": "Ізделуде, күте тұрыңыз...",
+	"citoid-citeFromIDDialog-title": "Орналасқан жерін қосу"
 }

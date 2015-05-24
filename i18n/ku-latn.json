@@ -6,5 +6,9 @@
 	},
 	"citoid-citation-widget-insert-button": "Tevlî bike",
 	"citoid-citeFromIDDialog-back": "Paşve here",
-	"citoid-citeFromIDDialog-lookup-button": "Çêke"
+	"citoid-citeFromIDDialog-lookup-button": "Çêke",
+	"citoid-citeFromIDDialog-mode-auto": "Otomatîk",
+	"citoid-citeFromIDDialog-search": "Lêgerîn",
+	"citoid-citeFromIDDialog-search-label": "URL an DOI",
+	"citoid-citeFromIDTool-title": "Jêgirtin"
 }
