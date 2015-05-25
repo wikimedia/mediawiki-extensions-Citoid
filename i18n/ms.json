@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Sisipkan",
+	"citoid-citeFromIDDialog-back": "Kembali",
+	"citoid-citeFromIDDialog-mode-auto": "Automatik",
+	"citoid-citeFromIDDialog-mode-manual": "Manual",
+	"citoid-citeFromIDDialog-mode-reuse": "Guna semula",
+	"citoid-citeFromIDDialog-search": "Cari",
+	"citoid-citeFromIDDialog-search-label": "URL atau DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "cth. http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Sedang mencari, sila tunggu...",
+	"citoid-desc": "Menyediakan titik-titik akses antara khidmat citoid dan MediaWiki",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json tidak dikonfigurasikan dengan betul."
+}

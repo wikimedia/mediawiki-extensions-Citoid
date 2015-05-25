@@ -14,7 +14,7 @@
 	"citoid-citeFromIDDialog-search": "Söhke",
 	"citoid-citeFromIDDialog-search-label": "<i xmk:lang=\"en\" lang=\"en\">URL</i> of <i xmk:lang=\"en\" lang=\"en\">DOI</i>",
 	"citoid-citeFromIDDialog-search-placeholder": "För e Beischpell: http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "Ben aam Söhkre, ene Monemang&nbsp;&hellip;",
+	"citoid-citeFromIDDialog-search-progress": "Ben aam Söhkre, ene Monemang&nbsp;…",
 	"citoid-citeFromIDDialog-title": "Donn e Zittaht derbei.",
 	"citoid-citeFromIDDialog-use-general-error-message": "Mer kunnte kei Zettaht zesamme krijje.\nDo kanns ävver eins vun Hand maache, jangk op der  „{{int:citoid-citeFromIDDialog-use-general-dialog-button}}“-Knopp.",
 	"citoid-citeFromIDTool-title": "Zėttėhre",

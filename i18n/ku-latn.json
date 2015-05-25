@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bikarhêner"
+			"Bikarhêner",
+			"George Animal"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Tevlî bike",
@@ -10,5 +11,7 @@
 	"citoid-citeFromIDDialog-mode-auto": "Otomatîk",
 	"citoid-citeFromIDDialog-search": "Lêgerîn",
 	"citoid-citeFromIDDialog-search-label": "URL an DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "w. m. http://www.mînak.com",
+	"citoid-citeFromIDDialog-search-progress": "Lê digere, ji kerema xwe re bisekine...",
 	"citoid-citeFromIDTool-title": "Jêgirtin"
 }

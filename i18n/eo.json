@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"KuboF"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Enmeti",
+	"citoid-citeFromIDDialog-back": "Reen",
+	"citoid-citeFromIDDialog-lookup-button": "Generi",
+	"citoid-citeFromIDDialog-mode-auto": "Aŭtomate",
+	"citoid-citeFromIDDialog-mode-manual": "Permane",
+	"citoid-citeFromIDDialog-mode-reuse": "Reuze",
+	"citoid-citeFromIDDialog-search": "Serĉi",
+	"citoid-citeFromIDDialog-search-label": "URL aŭ DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "ekzemple http://www.ekzemplo.com",
+	"citoid-citeFromIDDialog-search-progress": "Serĉado, bonvolu atendi...",
+	"citoid-citeFromIDDialog-title": "Aldoni citon",
+	"citoid-citeFromIDTool-title": "Citado"
+}
