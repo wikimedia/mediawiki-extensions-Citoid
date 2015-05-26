@@ -4,14 +4,22 @@
 			"Amire80",
 			"Mavrikant",
 			"Captantrips",
-			"Stultiwikia"
+			"Stultiwikia",
+			"Arystanbek"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ekle",
 	"citoid-citeFromIDDialog-back": "Geri",
 	"citoid-citeFromIDDialog-lookup-button": "Yarat",
 	"citoid-citeFromIDDialog-mode-auto": "Otomatik",
+	"citoid-citeFromIDDialog-mode-manual": "Kılavuz",
+	"citoid-citeFromIDDialog-mode-reuse": "Tekrar kullan",
 	"citoid-citeFromIDDialog-search": "Ara",
 	"citoid-citeFromIDDialog-search-label": "URL veya DOİ",
-	"citoid-citeFromIDDialog-search-placeholder": "örneğin http://www.ornek.com.tr"
+	"citoid-citeFromIDDialog-search-placeholder": "örneğin http://www.ornek.com.tr",
+	"citoid-citeFromIDDialog-search-progress": "Aranıyor, lütfen bekleyin...",
+	"citoid-citeFromIDDialog-title": "Alıntı Ekle",
+	"citoid-citeFromIDTool-title": "Kaynak göster",
+	"citoid-desc": "Citoid hizmet ve MediaWiki arasında erişim noktaları sağlar",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json yanlış yapılandırılmış."
 }

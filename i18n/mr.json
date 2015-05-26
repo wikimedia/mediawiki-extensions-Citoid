@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"NehalDaveND"
+		]
+	},
+	"citoid-citation-widget-insert-button": "समाविष्ट करा",
+	"citoid-citeFromIDDialog-back": "परत",
+	"citoid-citeFromIDDialog-lookup-button": "निर्माता",
+	"citoid-citeFromIDDialog-mode-auto": "स्वयंचलित",
+	"citoid-citeFromIDDialog-mode-manual": "मानवीकृत",
+	"citoid-citeFromIDDialog-mode-reuse": "पुनरुपयोग",
+	"citoid-citeFromIDDialog-search": "शोधा"
+}
