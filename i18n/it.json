@@ -5,13 +5,17 @@
 			"LACLARETTA",
 			"Jdforrester",
 			"^musaz",
-			"Macofe"
+			"Macofe",
+			"Mpiva"
 		]
 	},
 	"citoid-520-error": "Impossibile recuperare le informazioni dall'identificatore fornito.",
 	"citoid-citation-widget-insert-button": "Inserirla",
 	"citoid-citeFromIDDialog-back": "Indietro",
 	"citoid-citeFromIDDialog-lookup-button": "Genera",
+	"citoid-citeFromIDDialog-mode-auto": "Automatico",
+	"citoid-citeFromIDDialog-mode-manual": "Manuale",
+	"citoid-citeFromIDDialog-mode-reuse": "Riutilizza",
 	"citoid-citeFromIDDialog-search": "Cerca",
 	"citoid-citeFromIDDialog-search-label": "URL o DOI",
 	"citoid-citeFromIDDialog-search-placeholder": "ad esempio http://www.example.com",
