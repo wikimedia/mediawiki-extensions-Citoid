@@ -3,7 +3,8 @@
 	"version": "0.1.0",
 	"author": [
 		"Marielle Volz",
-		"Moriel Schottlender"
+		"Moriel Schottlender",
+		"Ed Sanders"
 	],
 	"url": "https://www.mediawiki.org/wiki/Citoid",
 	"descriptionmsg": "citoid-desc",
@@ -68,6 +69,9 @@
 		],
 		"ContentHandlerDefaultModelFor": [
 			"CitoidHooks::onContentHandlerDefaultModelFor"
+		],
+		"ResourceLoaderTestModules": [
+			"CitoidHooks::onResourceLoaderTestModules"
 		]
 	},
 	"VisualEditorPluginModules": [

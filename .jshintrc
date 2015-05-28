@@ -20,6 +20,7 @@
 	"globals": {
 		"OO": false,
 		"ve": false,
-		"mw": false
+		"mw": false,
+		"QUnit": false
 	}
 }

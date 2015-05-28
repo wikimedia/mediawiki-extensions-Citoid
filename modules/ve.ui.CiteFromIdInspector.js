@@ -568,7 +568,7 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 		partPromises.push(
 			result.transclusionModel.addPart( result.template )
 				// Fill in the details for the individual template
-				.then( this.populateTemplate.bind( this, result.template, citation ) )
+				.then( ve.ui.CiteFromIdInspector.static.populateTemplate.bind( this, result.template, citation ) )
 		);
 	}
 
@@ -600,7 +600,7 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
  * @param {ve.dm.MNTemplateModel} template A template model to fill
  * @param {Object} citation An object that contains values to insert into template
  */
-ve.ui.CiteFromIdInspector.prototype.populateTemplate = function ( template, citation ) {
+ve.ui.CiteFromIdInspector.static.populateTemplate = function ( template, citation ) {
 	var citoidField, templateField, i, j,
 		spec = template.getSpec(),
 		maps = spec.getMaps(),
@@ -609,22 +609,38 @@ ve.ui.CiteFromIdInspector.prototype.populateTemplate = function ( template, cita
 	for ( citoidField in map ) {
 		templateField = map[ citoidField ];
 		// Construct parameters
-		if ( typeof templateField === 'string' && citation[ citoidField ] !== undefined ) {
+		if ( typeof templateField === 'string' &&
+			citation[ citoidField ] && typeof citation[ citoidField ] === 'string' ) {
 			// Case: Citoid parameter directly equivalent to TemplateData parameter
-			template.addParameter( new ve.dm.MWParameterModel( template, templateField, citation[citoidField ] ) );
-		} else if ( Array.isArray( citation[ citoidField ] ) ) {
+			template.addParameter( new ve.dm.MWParameterModel(
+				template, templateField, citation[ citoidField ] )
+			);
+		// Check that both typeof citoidField and templateField match
+		} else if ( Array.isArray( citation[ citoidField ] ) && Array.isArray( templateField ) ) {
 			// Case: Citoid parameter equivalent to 1 or 2D Array of TD parameters
 			for ( i = 0; i < citation[ citoidField ].length; i++ ) {
 				// Iterate through first dimension of array
-				if ( typeof citation[ citoidField ][ i ] === 'string' && templateField[ i ] !== undefined ) {
+				if ( typeof citation[ citoidField ][ i ] === 'string' &&
+					typeof templateField[ i ] === 'string' ) {
 					// Case: Citoid parameter equivalent to 1D Array of TD parameters
-					template.addParameter( new ve.dm.MWParameterModel( template, templateField[ i ], citation[ citoidField ][ i ] ) );
-				} else if ( Array.isArray( citation[ citoidField ][ i ] ) ) {
+					template.addParameter(
+						new ve.dm.MWParameterModel(
+							template, templateField[ i ], citation[ citoidField ][ i ]
+						)
+					);
+				// Check that both typeof citoidField and templateField match
+				} else if ( Array.isArray( citation[ citoidField ][ i ] ) &&
+					Array.isArray( templateField[ i ] ) ) {
 					// Case: Citoid parameter equivalent to 2D Array of TD parameters
 					for ( j = 0; j < citation[ citoidField ][ i ].length; j++ ) {
 						// Iterate through 2nd dimension of Array
-						if ( typeof citation[ citoidField ][ i ][ j ] === 'string' && templateField[ i ] !== undefined && templateField[ i ][ j ] !== undefined ) {
-							template.addParameter( new ve.dm.MWParameterModel( template, templateField[ i ][ j ], citation[ citoidField ][ i ][ j ] ) );
+						if ( typeof citation[ citoidField ][ i ][ j ] === 'string' &&
+							templateField[ i ] && templateField[ i ][ j ] ) {
+							template.addParameter(
+								new ve.dm.MWParameterModel(
+									template, templateField[ i ][ j ], citation[ citoidField ][ i ][ j ]
+								)
+							);
 						}
 					}
 				}

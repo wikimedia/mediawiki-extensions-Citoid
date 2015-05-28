@@ -28,4 +28,25 @@ class CitoidHooks {
 
 		return true;
 	}
+
+	/**
+	 * Register qunit unit tests
+	 */
+	public static function onResourceLoaderTestModules(
+		array &$testModules,
+		ResourceLoader &$resourceLoader
+	) {
+		$testModules['qunit']['ext.citoid.tests'] = array(
+			'scripts' => array(
+				'modules/tests/index.test.js'
+				),
+			'dependencies' => array(
+				'ext.citoid.visualEditor',
+				),
+			'localBasePath' => __DIR__,
+			'remoteExtPath' => 'Citoid',
+		);
+
+		return true;
+	}
 }
