@@ -76,5 +76,6 @@
 	],
 	"config": {
 		"CitoidServiceUrl": "https://localhost:1970/api"
-	}
+	},
+	"manifest_version": 1
 }
