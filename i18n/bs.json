@@ -1,10 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Emir Mujadzic"
+			"Emir Mujadzic",
+			"DzWiki"
 		]
 	},
+	"citoid-citation-widget-insert-button": "Ubaci",
+	"citoid-citeFromIDDialog-back": "Nazad",
 	"citoid-citeFromIDDialog-mode-auto": "Automatski",
 	"citoid-citeFromIDDialog-mode-manual": "Uputstvo",
-	"citoid-citeFromIDDialog-mode-reuse": "Ponovo upotrijebiti"
+	"citoid-citeFromIDDialog-mode-reuse": "Ponovo upotrijebiti",
+	"citoid-citeFromIDDialog-search": "Traži",
+	"citoid-citeFromIDDialog-search-label": "URL ili DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "npr. http://www.example.com",
+	"citoid-citeFromIDTool-title": "Citiraj"
 }
