@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Beillesztés",
+	"citoid-citeFromIDDialog-back": "Vissza",
+	"citoid-citeFromIDDialog-lookup-button": "Generálás",
+	"citoid-citeFromIDDialog-mode-auto": "Automatikus",
+	"citoid-citeFromIDDialog-mode-manual": "Kézi",
+	"citoid-citeFromIDDialog-mode-reuse": "Újrafelhasználás",
+	"citoid-citeFromIDDialog-search": "Keresés",
+	"citoid-citeFromIDDialog-search-label": "URL vagy DOI",
+	"citoid-citeFromIDDialog-search-placeholder": "pl. http://www.example.com",
+	"citoid-citeFromIDDialog-search-progress": "Keresés, pillanat…",
+	"citoid-citeFromIDDialog-title": "Forráshivatkozás hozzáadása",
+	"citoid-citeFromIDDialog-use-general-error-message": "Nem tudtunk hivatkozást készíteni neked. Létrehozhatsz egyet kézzel a fenti „{{int:citoid-citeFromIDDialog-mode-manual}}” füllel.",
+	"citoid-citeFromIDTool-title": "Forrás",
+	"citoid-unknown-error": "Egy ismeretlen hiba lépett fel, ami megakadályozott minket a forráshivatkozás létrehozásában. Próbáld újra később."
+}

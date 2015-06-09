@@ -17,7 +17,7 @@
 	"citoid-citeFromIDDialog-search-placeholder": "למשל http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "חיפוש, נא להמתין...",
 	"citoid-citeFromIDDialog-title": "הוספת ציטוט",
-	"citoid-citeFromIDDialog-use-general-error-message": "המערכת לא הצליחה ליצור ציטוט עבורך. באפשרותך ליצור ציטוט ידנית באמצעות באמצעות הלשנוית \"{{int:citoid-citeFromIDDialog-mode-manual}}\" למעלה.",
+	"citoid-citeFromIDDialog-use-general-error-message": "המערכת לא הצליחה ליצור ציטוט עבורך. באפשרותך ליצור ציטוט ידנית באמצעות באמצעות הלשונית \"ידני\" למעלה.",
 	"citoid-citeFromIDTool-title": "ציטוט",
 	"citoid-desc": "אספקת נקודות כניסה בין שירות citoid לבין מדיה־ויקי",
 	"citoid-typeMap-config-error": "הקובץ Mediawiki:citoid-template-type-map.json אינו מוגדר נכון.",

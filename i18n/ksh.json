@@ -16,9 +16,9 @@
 	"citoid-citeFromIDDialog-search-placeholder": "För e Beischpell: http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "Ben aam Söhkre, ene Monemang&nbsp;…",
 	"citoid-citeFromIDDialog-title": "Donn e Zittaht derbei.",
-	"citoid-citeFromIDDialog-use-general-error-message": "Mer kunnte kei Zettaht zesamme krijje.\nDo kanns ävver eins vun Hand maache, jangk op der  „{{int:citoid-citeFromIDDialog-use-general-dialog-button}}“-Knopp.",
+	"citoid-citeFromIDDialog-use-general-error-message": "Mer kunnte kei Zettaht zesamme krijje.\nDo kanns ävver eins vun Hand maache, jangk op der „{{int:citoid-citeFromIDDialog-use-general-dialog-button}}“-Knopp.",
 	"citoid-citeFromIDTool-title": "Zėttėhre",
-	"citoid-desc": "Schaff Zohjreffspungkte zwesche däm Deens <i lang=\"en\" xml:lang=\"en\">Citoid</i> un MedijaWikki.",
+	"citoid-desc": "Schaff Zohjreffspungkte zwesche däm Deens <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Generate citations given an URL, URI, DOI, …\">Citoid</i> un MedijaWikki.",
 	"citoid-typeMap-config-error": "<code lang=\"en\" xml:lang=\"en\">Mediawiki:citoid-template-type-map.json</code> es schlääsch ennjeschtallt.",
 	"citoid-unknown-error": "Ene onbikannte Fähler es opjetrodde.\nDröm krijje mer jäz kein Zittaht.\nBes esu johd un versöhg et schpääder norr_ens."
 }

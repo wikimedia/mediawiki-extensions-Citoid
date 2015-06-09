@@ -4,7 +4,8 @@
 			"Liuxinyu970226",
 			"Citizen01",
 			"Wehwei",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Shangkuanlc"
 		]
 	},
 	"citoid-520-error": "無法從提供的辨識代號中取得資訊。",
@@ -19,7 +20,7 @@
 	"citoid-citeFromIDDialog-search-placeholder": "例如 http://www.example.com",
 	"citoid-citeFromIDDialog-search-progress": "搜尋中，請稍候...",
 	"citoid-citeFromIDDialog-title": "新增引用",
-	"citoid-citeFromIDDialog-use-general-error-message": "我們無法為您建立引用。 您可使用上方 '手動' 頁籤自行建立。",
+	"citoid-citeFromIDDialog-use-general-error-message": "我們無法為您建立引用。 您可使用上方 \"{{int:citoid-citeFromIDDialog-mode-manual}}\" 頁籤自行建立。",
 	"citoid-citeFromIDTool-title": "引用",
 	"citoid-desc": "提供於 citoid 服務與 MediaWiki 間的存取點",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json 未正確設定。",
