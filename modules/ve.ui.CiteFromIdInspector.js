@@ -491,7 +491,7 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 	// hand off this abort method to the jquery promise
 	xhr = this.service
 		.get( {
-			search: encodeURI( this.lookupInput.getValue() ),
+			search: this.lookupInput.getValue(),
 			format: ve.ui.CiteFromIdInspector.static.citoidFormat
 		} );
 
