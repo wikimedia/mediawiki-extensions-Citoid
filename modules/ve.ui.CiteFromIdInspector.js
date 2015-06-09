@@ -35,10 +35,22 @@ ve.ui.CiteFromIdInspector.static.title = OO.ui.deferMsg( 'citoid-citefromiddialo
 
 ve.ui.CiteFromIdInspector.static.size = 'large';
 
-// The string used in TemplateData to identify the correct Map object
+/**
+ * The string used in TemplateData to identify the correct Map object
+ *
+ * @static
+ * @property {string}
+ * @inheritable
+ */
 ve.ui.CiteFromIdInspector.static.templateDataName = 'citoid';
 
-// The requested format from the citoid client, passed as a GET parameter
+/**
+ * The requested format from the citoid client, passed as a GET parameter
+ *
+ * @static
+ * @property {string}
+ * @inheritable
+ */
 ve.ui.CiteFromIdInspector.static.citoidFormat = 'mediawiki';
 
 ve.ui.CiteFromIdInspector.static.actions = [
@@ -51,7 +63,7 @@ ve.ui.CiteFromIdInspector.static.actions = [
 		action: 'back',
 		label: OO.ui.deferMsg( 'citoid-citefromiddialog-back' ),
 		flags: 'safe',
-		modes: [ 'auto-result', 'auto-notice' ]
+		modes: [ 'auto-result' ]
 	}
 ];
 
@@ -61,7 +73,7 @@ ve.ui.CiteFromIdInspector.static.actions = [
  * @inheritDoc
  */
 ve.ui.CiteFromIdInspector.prototype.initialize = function () {
-	var lookupActionFieldLayout, $noticeLabel,
+	var lookupActionFieldLayout,
 		lookupFieldset = new OO.ui.FieldsetLayout(),
 		limit = ve.init.target.constructor.static.citationToolsLimit;
 
@@ -147,11 +159,6 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 			classes: [ 'citoid-citeFromIDDialog-panel-result' ],
 			expanded: false,
 			scrollable: false
-		} ),
-		notice: new OO.ui.PanelLayout( {
-			classes: [ 'citoid-citeFromIDDialog-panel-notice' ],
-			expanded: false,
-			scrollable: false
 		} )
 	};
 
@@ -173,13 +180,12 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		lookupActionFieldLayout.$element
 	);
 
-	this.autoProcessPanels.lookup.$element.append( lookupFieldset.$element );
-
 	// Error label
-	$noticeLabel = $( '<span>' ).addClass( 've-ui-citeFromIdInspector-dialog-error' ).text(
+	this.$noticeLabel = $( '<div>' ).addClass( 've-ui-citeFromIdInspector-dialog-error oo-ui-element-hidden' ).text(
 		ve.msg( 'citoid-citefromiddialog-use-general-error-message' )
 	);
-	this.autoProcessPanels.notice.$element.append( $noticeLabel );
+
+	this.autoProcessPanels.lookup.$element.append( lookupFieldset.$element, this.$noticeLabel );
 
 	this.modePanels.auto.$element.append( this.autoProcessStack.$element );
 
@@ -212,8 +218,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 
 	this.autoProcessStack.addItems( [
 		this.autoProcessPanels.lookup,
-		this.autoProcessPanels.result,
-		this.autoProcessPanels.notice
+		this.autoProcessPanels.result
 	] );
 
 	this.modeStack.addItems( [
@@ -511,7 +516,12 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 					return $.Deferred().reject();
 				}
 				// Enable the input and lookup button
-				inspector.setModePanel( 'auto', 'notice' );
+				inspector.$noticeLabel.removeClass( 'oo-ui-element-hidden' );
+				inspector.lookupInput.once( 'change', function () {
+					inspector.$noticeLabel.addClass( 'oo-ui-element-hidden' );
+					inspector.updateSize();
+				} ).setValidityFlag( false );
+				inspector.updateSize();
 				return $.Deferred().resolve();
 			} )
 		.always( function () {

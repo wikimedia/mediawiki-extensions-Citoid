@@ -61,7 +61,8 @@
 }
 
 .ve-ui-citeFromIdInspector-dialog-error {
-	display: inline-block;
+	margin: 1em 0;
+	color: #c00;
 }
 
 .ve-ui-citeFromIdInspector-sourceSelect .oo-ui-optionWidget {
