@@ -31,7 +31,7 @@ OO.inheritClass( ve.ui.CiteFromIdInspector, ve.ui.FragmentInspector );
 
 ve.ui.CiteFromIdInspector.static.name = 'citefromid';
 
-ve.ui.CiteFromIdInspector.static.title = OO.ui.deferMsg( 'citoid-citeFromIDDialog-title' );
+ve.ui.CiteFromIdInspector.static.title = OO.ui.deferMsg( 'citoid-citefromiddialog-title' );
 
 ve.ui.CiteFromIdInspector.static.size = 'large';
 
@@ -49,7 +49,7 @@ ve.ui.CiteFromIdInspector.static.actions = [
 	},
 	{
 		action: 'back',
-		label: OO.ui.deferMsg( 'citoid-citeFromIDDialog-back' ),
+		label: OO.ui.deferMsg( 'citoid-citefromiddialog-back' ),
 		flags: 'safe',
 		modes: [ 'auto-result', 'auto-notice' ]
 	}
@@ -94,15 +94,15 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		items: [
 			new OO.ui.TabOptionWidget( {
 				data: 'auto',
-				label: mw.msg( 'citoid-citeFromIDDialog-mode-auto' )
+				label: ve.msg( 'citoid-citefromiddialog-mode-auto' )
 			} ),
 			new OO.ui.TabOptionWidget( {
 				data: 'manual',
-				label: mw.msg( 'citoid-citeFromIDDialog-mode-manual' )
+				label: ve.msg( 'citoid-citefromiddialog-mode-manual' )
 			} ),
 			new OO.ui.TabOptionWidget( {
 				data: 'reuse',
-				label: mw.msg( 'citoid-citeFromIDDialog-mode-reuse' )
+				label: ve.msg( 'citoid-citefromiddialog-mode-reuse' )
 			} )
 		]
 	} );
@@ -158,15 +158,15 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	// Lookup fieldset
 	this.lookupInput = new OO.ui.TextInputWidget( {
 		multiline: false,
-		placeholder: mw.msg( 'citoid-citeFromIDDialog-search-placeholder' )
+		placeholder: ve.msg( 'citoid-citefromiddialog-search-placeholder' )
 	} );
 
 	this.lookupButton = new OO.ui.ButtonWidget( {
-		label: mw.msg( 'citoid-citeFromIDDialog-lookup-button' )
+		label: ve.msg( 'citoid-citefromiddialog-lookup-button' )
 	} );
 	lookupActionFieldLayout = new OO.ui.ActionFieldLayout( this.lookupInput, this.lookupButton, {
 		align: 'top',
-		label: mw.msg( 'citoid-citeFromIDDialog-search-label' )
+		label: ve.msg( 'citoid-citefromiddialog-search-label' )
 	} );
 
 	lookupFieldset.$element.append(
@@ -177,7 +177,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 
 	// Error label
 	$noticeLabel = $( '<span>' ).addClass( 've-ui-citeFromIdInspector-dialog-error' ).text(
-		ve.msg( 'citoid-citeFromIDDialog-use-general-error-message' )
+		ve.msg( 'citoid-citefromiddialog-use-general-error-message' )
 	);
 	this.autoProcessPanels.notice.$element.append( $noticeLabel );
 
