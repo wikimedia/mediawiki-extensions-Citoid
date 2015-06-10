@@ -18,7 +18,7 @@
 	"citoid-citeFromIDDialog-search-placeholder": "por ejemplo, http://www.ejemplo.com",
 	"citoid-citeFromIDDialog-search-progress": "Buscando. Espera...",
 	"citoid-citeFromIDDialog-title": "Agregar una cita",
-	"citoid-citeFromIDDialog-use-general-error-message": "No pudimos crear la cita. Utiliza la pestaña «{{int:citoid-citeFromIDDialog-mode-manual}}» ubicada más arriba para crear una manualmente.",
+	"citoid-citeFromIDDialog-use-general-error-message": "No pudimos crear la cita. Utiliza la pestaña «Manual» ubicada más arriba para crear una manualmente.",
 	"citoid-citeFromIDTool-title": "Citar",
 	"citoid-desc": "Proporciona puntos de acceso entre el servicio Citoid y MediaWiki",
 	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json está configurado incorrectamente.",
