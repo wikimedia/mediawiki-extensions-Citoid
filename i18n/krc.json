@@ -17,5 +17,6 @@
 	"citoid-citeFromIDDialog-search-progress": "Излеу барады, сакъла...",
 	"citoid-citeFromIDDialog-title": "Цитатаны къош",
 	"citoid-citeFromIDDialog-use-general-error-message": "Цитата эталмадыкъ сизге. Башыракъдагъы 'Къол режим' тиек бла къураб кёрюрге боллукъса.",
-	"citoid-citeFromIDTool-title": "Цитата этиу"
+	"citoid-citeFromIDTool-title": "Цитата этиу",
+	"citoid-typeMap-config-error": "Mediawiki:citoid-template-type-map.json терс джарашдырылыбды."
 }
