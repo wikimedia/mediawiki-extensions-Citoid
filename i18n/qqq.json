@@ -12,7 +12,7 @@
 	"citoid-citeFromIDDialog-back": "Label for the button to go back to the generate panel in the inspector.\n{{Identical|Back}}",
 	"citoid-citeFromIDDialog-lookup-button": "Label for the generate button for citation inputs. Unlike \"search\", \"generate\" is a process in which there is certainty that a particular result will be found, for example, matching a valid ISBN to a book title.\n{{Identical|Generate}}",
 	"citoid-citeFromIDDialog-mode-auto": "Label of tab in citation dialog, used to select mode.",
-	"citoid-citeFromIDDialog-mode-manual": "Label of tab in citation dialog, used to select mode.",
+	"citoid-citeFromIDDialog-mode-manual": "Label of tab in citation dialog, used to select mode.\n{{Identical|Manual}}",
 	"citoid-citeFromIDDialog-mode-reuse": "Label of tab in citation dialog, used to select mode.",
 	"citoid-citeFromIDDialog-search": "Text for the search button.\n{{Identical|Search}}",
 	"citoid-citeFromIDDialog-search-label": "Label for the URL/DOI search field.",
