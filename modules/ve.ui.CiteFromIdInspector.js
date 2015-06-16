@@ -328,6 +328,9 @@ ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( ite
 		this.results[ index ].transclusionModel.insertTransclusionNode( fragment );
 
 		if ( this.inDialog !== 'reference' ) {
+			// Remove placeholder status
+			this.getFragment().changeAttributes( { placeholder: false } );
+
 			// HACK: Scorch the earth - this is only needed because without it,
 			// the reference list won't re-render properly, and can be removed
 			// once someone fixes that
