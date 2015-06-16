@@ -4,5 +4,16 @@
 			"פוילישער"
 		]
 	},
-	"citoid-citeFromIDDialog-lookup-button": "גענערירן"
+	"citoid-citation-widget-insert-button": "צולייגן",
+	"citoid-citefromiddialog-back": "צוריק",
+	"citoid-citefromiddialog-lookup-button": "גענערירן",
+	"citoid-citefromiddialog-mode-auto": "אויטאמאטיש",
+	"citoid-citefromiddialog-mode-manual": "האַנטלעך",
+	"citoid-citefromiddialog-mode-reuse": "ווידערניצן",
+	"citoid-citefromiddialog-search": "זוכן",
+	"citoid-citefromiddialog-search-label": "URL אדער DOI",
+	"citoid-citefromiddialog-search-placeholder": "צום ביישפיל http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "זוכן, זײט אזוי גוט און ווארט…",
+	"citoid-citefromiddialog-title": "צולייגן ציטירונג",
+	"citoid-citefromidtool-title": "ציטירן"
 }
