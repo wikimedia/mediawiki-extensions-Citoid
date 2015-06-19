@@ -245,8 +245,8 @@ ve.ui.CiteFromIdInspector.prototype.onModeSelectChoose = function ( item ) {
 /**
  * Switch to a specific mode panel
  *
- * @param {string} panelName Panel name
- * @param {boolean} [fromSelect] Mode was changed by the select widget
+ * @param {string} panelName Panel name, 'auto', 'manual' or 'reuse'
+ * @param {string} [processPanelName] Process panel name, 'lookup' or 'result'
  * @param {boolean} [fromSelect] Mode was changed by the select widget
  */
 ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( panelName, processPanelName, fromSelect ) {
@@ -255,8 +255,13 @@ ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( panelName, process
 		case 'auto':
 			processPanelName = processPanelName || this.currentAutoProcessPanel || 'lookup';
 			this.autoProcessStack.setItem( this.autoProcessPanels[processPanelName] );
-			if ( processPanelName === 'lookup' ) {
-				this.lookupInput.setDisabled( false ).focus().select();
+			switch ( processPanelName ) {
+				case 'lookup':
+					this.lookupInput.setDisabled( false ).focus().select();
+					break;
+				case 'result':
+					this.previewSelectWidget.items[0].focus();
+					break;
 			}
 			this.currentAutoProcessPanel = processPanelName;
 			break;

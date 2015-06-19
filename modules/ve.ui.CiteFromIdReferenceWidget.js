@@ -114,6 +114,13 @@ ve.ui.CiteFromIdReferenceWidget.prototype.onInsertButtonClick = function () {
 };
 
 /**
+ * Focus the widget
+ */
+ve.ui.CiteFromIdReferenceWidget.prototype.focus = function () {
+	this.insertButton.$button[0].focus();
+};
+
+/**
  * Get the render promise associated with the node.
  * @return {jQuery.Promise} Rendering promise resolved when the rendering
  * of the node is completed.
