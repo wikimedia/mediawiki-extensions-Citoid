@@ -5,14 +5,14 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Кірістіру",
-	"citoid-citeFromIDDialog-back": "Қайту",
-	"citoid-citeFromIDDialog-lookup-button": "Жасау",
-	"citoid-citeFromIDDialog-mode-auto": "Автоматты",
-	"citoid-citeFromIDDialog-mode-manual": "Қолмен",
-	"citoid-citeFromIDDialog-mode-reuse": "Қайта қолдану",
-	"citoid-citeFromIDDialog-search": "Іздеу",
-	"citoid-citeFromIDDialog-search-label": "URL немесе DOI",
-	"citoid-citeFromIDDialog-search-placeholder": "мысалы http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "Ізделуде, күте тұрыңыз...",
-	"citoid-citeFromIDDialog-title": "Орналасқан жерін қосу"
+	"citoid-citefromiddialog-back": "Қайту",
+	"citoid-citefromiddialog-lookup-button": "Жасау",
+	"citoid-citefromiddialog-mode-auto": "Автоматты",
+	"citoid-citefromiddialog-mode-manual": "Қолмен",
+	"citoid-citefromiddialog-mode-reuse": "Қайта қолдану",
+	"citoid-citefromiddialog-search": "Іздеу",
+	"citoid-citefromiddialog-search-label": "URL немесе DOI",
+	"citoid-citefromiddialog-search-placeholder": "мысалы http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Ізделуде, күте тұрыңыз...",
+	"citoid-citefromiddialog-title": "Орналасқан жерін қосу"
 }

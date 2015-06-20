@@ -5,13 +5,13 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "যোগ কৰক",
-	"citoid-citeFromIDDialog-back": "ঘূৰি যাওক",
-	"citoid-citeFromIDDialog-lookup-button": "উৎপন্ন কৰক",
-	"citoid-citeFromIDDialog-search": "সন্ধান কৰক",
-	"citoid-citeFromIDDialog-search-label": "URL বা DOI",
-	"citoid-citeFromIDDialog-search-placeholder": "যেনে- http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "সন্ধান কৰা হৈছে, অনুগ্ৰহ কৰি অপেক্ষা কৰক...",
-	"citoid-citeFromIDDialog-title": "এটা উদ্ধৃতি যোগ কৰক",
-	"citoid-citeFromIDDialog-use-general-error-message": "আমি আপোনাৰ বাবে উদ্ধৃতি সৃষ্টি কৰিব নোৱাৰিলোঁ। আপুনি ওপৰৰ 'মেনুৱেল' টেব্‌ ব্যৱহাৰ কৰি নিজেই সৃষ্টি কৰিব পাৰে।",
-	"citoid-citeFromIDTool-title": "উদ্ধৃতি দিয়ক"
+	"citoid-citefromiddialog-back": "ঘূৰি যাওক",
+	"citoid-citefromiddialog-lookup-button": "উৎপন্ন কৰক",
+	"citoid-citefromiddialog-search": "সন্ধান কৰক",
+	"citoid-citefromiddialog-search-label": "URL বা DOI",
+	"citoid-citefromiddialog-search-placeholder": "যেনে- http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "সন্ধান কৰা হৈছে, অনুগ্ৰহ কৰি অপেক্ষা কৰক...",
+	"citoid-citefromiddialog-title": "এটা উদ্ধৃতি যোগ কৰক",
+	"citoid-citefromiddialog-use-general-error-message": "আমি আপোনাৰ বাবে উদ্ধৃতি সৃষ্টি কৰিব নোৱাৰিলোঁ। আপুনি ওপৰৰ 'মেনুৱেল' টেব্‌ ব্যৱহাৰ কৰি নিজেই সৃষ্টি কৰিব পাৰে।",
+	"citoid-citefromidtool-title": "উদ্ধৃতি দিয়ক"
 }

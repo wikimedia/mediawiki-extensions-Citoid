@@ -7,14 +7,14 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "थप्ने",
-	"citoid-citeFromIDDialog-back": "अघिल्लो",
-	"citoid-citeFromIDDialog-lookup-button": "उत्पन्न",
-	"citoid-citeFromIDDialog-mode-auto": "स्वत",
-	"citoid-citeFromIDDialog-mode-manual": "स्वयं",
-	"citoid-citeFromIDDialog-mode-reuse": "पुनः प्रयोग",
-	"citoid-citeFromIDDialog-search": "खोज",
-	"citoid-citeFromIDDialog-search-placeholder": "उदाहरण http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "खोज्दै , पर्खनुहोस् ...",
-	"citoid-citeFromIDDialog-title": "सन्दर्भ थप्नुहोस",
-	"citoid-citeFromIDTool-title": "सन्दर्भ राख्ने"
+	"citoid-citefromiddialog-back": "अघिल्लो",
+	"citoid-citefromiddialog-lookup-button": "उत्पन्न",
+	"citoid-citefromiddialog-mode-auto": "स्वत",
+	"citoid-citefromiddialog-mode-manual": "स्वयं",
+	"citoid-citefromiddialog-mode-reuse": "पुनः प्रयोग",
+	"citoid-citefromiddialog-search": "खोज",
+	"citoid-citefromiddialog-search-placeholder": "उदाहरण http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "खोज्दै , पर्खनुहोस् ...",
+	"citoid-citefromiddialog-title": "सन्दर्भ थप्नुहोस",
+	"citoid-citefromidtool-title": "सन्दर्भ राख्ने"
 }

@@ -5,9 +5,9 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Įterpti",
-	"citoid-citeFromIDDialog-back": "Atgal",
-	"citoid-citeFromIDDialog-lookup-button": "Ieškoti",
-	"citoid-citeFromIDDialog-title": "Pridėti citatą",
-	"citoid-citeFromIDDialog-use-general-error-message": "Mums nepavyko sukurti citatą. Jūs galite tai padaryti naudodamiesi $1.",
-	"citoid-citeFromIDTool-title": "Cituoti"
+	"citoid-citefromiddialog-back": "Atgal",
+	"citoid-citefromiddialog-lookup-button": "Ieškoti",
+	"citoid-citefromiddialog-title": "Pridėti citatą",
+	"citoid-citefromiddialog-use-general-error-message": "Mums nepavyko sukurti citatą. Jūs galite tai padaryti naudodamiesi $1.",
+	"citoid-citefromidtool-title": "Cituoti"
 }

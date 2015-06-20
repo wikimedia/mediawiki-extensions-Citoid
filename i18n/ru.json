@@ -6,15 +6,15 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Вставить",
-	"citoid-citeFromIDDialog-back": "Назад",
-	"citoid-citeFromIDDialog-lookup-button": "Сгенерировать",
-	"citoid-citeFromIDDialog-mode-auto": "Автоматически",
-	"citoid-citeFromIDDialog-mode-manual": "Вручную",
-	"citoid-citeFromIDDialog-mode-reuse": "Повторное использование",
-	"citoid-citeFromIDDialog-search": "Поиск",
-	"citoid-citeFromIDDialog-search-label": "URL или DOI",
-	"citoid-citeFromIDDialog-search-placeholder": "например, http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "Идёт поиск, пожалуйста, подождите…",
-	"citoid-citeFromIDDialog-title": "Добавить ссылку на источник",
-	"citoid-citeFromIDTool-title": "Источник"
+	"citoid-citefromiddialog-back": "Назад",
+	"citoid-citefromiddialog-lookup-button": "Сгенерировать",
+	"citoid-citefromiddialog-mode-auto": "Автоматически",
+	"citoid-citefromiddialog-mode-manual": "Вручную",
+	"citoid-citefromiddialog-mode-reuse": "Повторное использование",
+	"citoid-citefromiddialog-search": "Поиск",
+	"citoid-citefromiddialog-search-label": "URL или DOI",
+	"citoid-citefromiddialog-search-placeholder": "например, http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Идёт поиск, пожалуйста, подождите…",
+	"citoid-citefromiddialog-title": "Добавить ссылку на источник",
+	"citoid-citefromidtool-title": "Источник"
 }

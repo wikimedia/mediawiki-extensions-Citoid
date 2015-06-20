@@ -5,12 +5,12 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "ഉൾപ്പെടുത്തുക",
-	"citoid-citeFromIDDialog-back": "പുറകോട്ട്",
-	"citoid-citeFromIDDialog-lookup-button": "നിർമ്മിക്കുക",
-	"citoid-citeFromIDDialog-search": "തിരയുക",
-	"citoid-citeFromIDDialog-search-label": "യു.ആർ.എൽ. അഥവാ ഡി.ഓ.ഐ.",
-	"citoid-citeFromIDDialog-search-placeholder": "ഉദാ: http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "തിരയുന്നു, ദയവായി കാത്തിരിക്കുക...",
-	"citoid-citeFromIDDialog-title": "അവലംബം ചേർക്കുക",
-	"citoid-citeFromIDTool-title": "ഉദ്ധരിക്കുക"
+	"citoid-citefromiddialog-back": "പുറകോട്ട്",
+	"citoid-citefromiddialog-lookup-button": "നിർമ്മിക്കുക",
+	"citoid-citefromiddialog-search": "തിരയുക",
+	"citoid-citefromiddialog-search-label": "യു.ആർ.എൽ. അഥവാ ഡി.ഓ.ഐ.",
+	"citoid-citefromiddialog-search-placeholder": "ഉദാ: http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "തിരയുന്നു, ദയവായി കാത്തിരിക്കുക...",
+	"citoid-citefromiddialog-title": "അവലംബം ചേർക്കുക",
+	"citoid-citefromidtool-title": "ഉദ്ധരിക്കുക"
 }

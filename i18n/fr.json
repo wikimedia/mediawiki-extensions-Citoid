@@ -22,7 +22,7 @@
 	"citoid-citefromiddialog-search-placeholder": "par exemple, http://www.exemple.com",
 	"citoid-citefromiddialog-search-progress": "Recherche en cours, veuillez patienter...",
 	"citoid-citefromiddialog-title": "Ajouter une référence",
-	"citoid-citefromiddialog-use-general-error-message": "Nous n’avons pas pu faire de référence pour vous. Vous pouvez en créer une manuellement en utilisant l’onglet « Manuel » ci-dessus.",
+	"citoid-citefromiddialog-use-general-error-message": "Nous n’avons pas pu faire de référence pour vous. Vous pouvez en créer une manuellement en utilisant l’onglet « {{int:citoid-citefromiddialog-mode-manual}} » ci-dessus.",
 	"citoid-citefromidtool-title": "Citer",
 	"citoid-desc": "Offre des points d'accès entre le service citoid et MediaWiki",
 	"citoid-unknown-error": "Une erreur inconnue s’est produite ce qui nous a empêché de créer la référence. Veuillez réessayer plus tard."

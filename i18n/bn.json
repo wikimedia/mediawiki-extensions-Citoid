@@ -6,12 +6,12 @@
 	},
 	"citoid-520-error": "প্রদানকৃত শনাক্তকারী থেকে তথ্য পুনরুদ্ধার করা যাবে না।",
 	"citoid-citation-widget-insert-button": "যোগ করো",
-	"citoid-citeFromIDDialog-back": "পিছনে",
-	"citoid-citeFromIDDialog-lookup-button": "উৎপন্ন করুন",
-	"citoid-citeFromIDDialog-search": "অনুসন্ধান",
-	"citoid-citeFromIDDialog-search-label": "URL বা DOI",
-	"citoid-citeFromIDDialog-search-placeholder": "উদা. http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "অনুসন্ধান করা হচ্ছে, দয়া করে অপেক্ষা করুন...",
-	"citoid-citeFromIDDialog-title": "একটি উদ্ধৃতি যোগ করুন",
-	"citoid-citeFromIDTool-title": "উদ্ধৃতি"
+	"citoid-citefromiddialog-back": "পিছনে",
+	"citoid-citefromiddialog-lookup-button": "উৎপন্ন করুন",
+	"citoid-citefromiddialog-search": "অনুসন্ধান",
+	"citoid-citefromiddialog-search-label": "URL বা DOI",
+	"citoid-citefromiddialog-search-placeholder": "উদা. http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "অনুসন্ধান করা হচ্ছে, দয়া করে অপেক্ষা করুন...",
+	"citoid-citefromiddialog-title": "একটি উদ্ধৃতি যোগ করুন",
+	"citoid-citefromidtool-title": "উদ্ধৃতি"
 }

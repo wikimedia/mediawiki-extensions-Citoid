@@ -5,7 +5,7 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Убаци",
-	"citoid-citeFromIDDialog-back": "Назад",
-	"citoid-citeFromIDDialog-search": "Претражи",
-	"citoid-citeFromIDDialog-search-placeholder": "нпр. http://www.example.com"
+	"citoid-citefromiddialog-back": "Назад",
+	"citoid-citefromiddialog-search": "Претражи",
+	"citoid-citefromiddialog-search-placeholder": "нпр. http://www.example.com"
 }

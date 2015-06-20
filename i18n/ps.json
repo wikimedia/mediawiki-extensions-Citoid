@@ -5,11 +5,11 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "ورټومبل",
-	"citoid-citeFromIDDialog-back": "پر شا کېدل",
-	"citoid-citeFromIDDialog-lookup-button": "زېږل",
-	"citoid-citeFromIDDialog-search": "پلټل",
-	"citoid-citeFromIDDialog-search-label": "URL يا DOI",
-	"citoid-citeFromIDDialog-search-placeholder": "لکه http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "په پلټلو کې دی، تم شئ...",
-	"citoid-citeFromIDTool-title": "اخځ"
+	"citoid-citefromiddialog-back": "پر شا کېدل",
+	"citoid-citefromiddialog-lookup-button": "زېږل",
+	"citoid-citefromiddialog-search": "پلټل",
+	"citoid-citefromiddialog-search-label": "URL يا DOI",
+	"citoid-citefromiddialog-search-placeholder": "لکه http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "په پلټلو کې دی، تم شئ...",
+	"citoid-citefromidtool-title": "اخځ"
 }

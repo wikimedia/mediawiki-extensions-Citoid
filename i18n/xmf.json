@@ -5,13 +5,13 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "ჩასმა",
-	"citoid-citeFromIDDialog-back": "უკან",
-	"citoid-citeFromIDDialog-lookup-button": "გენერატორი",
-	"citoid-citeFromIDDialog-mode-auto": "ავტომატური",
-	"citoid-citeFromIDDialog-mode-manual": "ხელით",
-	"citoid-citeFromIDDialog-mode-reuse": "ხელახლა გამოყენება",
-	"citoid-citeFromIDDialog-search": "გორუა",
-	"citoid-citeFromIDDialog-search-label": "URL ან DOI",
-	"citoid-citeFromIDDialog-search-placeholder": "მაგ. http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "მიმდინარეობს ძიება, გთხოვთ, მოიცადოთ..."
+	"citoid-citefromiddialog-back": "უკან",
+	"citoid-citefromiddialog-lookup-button": "გენერატორი",
+	"citoid-citefromiddialog-mode-auto": "ავტომატური",
+	"citoid-citefromiddialog-mode-manual": "ხელით",
+	"citoid-citefromiddialog-mode-reuse": "ხელახლა გამოყენება",
+	"citoid-citefromiddialog-search": "გორუა",
+	"citoid-citefromiddialog-search-label": "URL ან DOI",
+	"citoid-citefromiddialog-search-placeholder": "მაგ. http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "მიმდინარეობს ძიება, გთხოვთ, მოიცადოთ..."
 }

@@ -5,14 +5,14 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Drasetzen",
-	"citoid-citeFromIDDialog-back": "Zréck",
-	"citoid-citeFromIDDialog-lookup-button": "Generéieren",
-	"citoid-citeFromIDDialog-mode-auto": "Automatesch",
-	"citoid-citeFromIDDialog-mode-manual": "Manuell",
-	"citoid-citeFromIDDialog-mode-reuse": "Nees-benotzen",
-	"citoid-citeFromIDDialog-search": "Sichen",
-	"citoid-citeFromIDDialog-search-placeholder": "z. B. http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "Sichen, gedëllegt Iech w.e.g. ...",
-	"citoid-citeFromIDDialog-title": "En Zitat dobäisetzen",
-	"citoid-citeFromIDTool-title": "Zitéieren"
+	"citoid-citefromiddialog-back": "Zréck",
+	"citoid-citefromiddialog-lookup-button": "Generéieren",
+	"citoid-citefromiddialog-mode-auto": "Automatesch",
+	"citoid-citefromiddialog-mode-manual": "Manuell",
+	"citoid-citefromiddialog-mode-reuse": "Nees-benotzen",
+	"citoid-citefromiddialog-search": "Sichen",
+	"citoid-citefromiddialog-search-placeholder": "z. B. http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Sichen, gedëllegt Iech w.e.g. ...",
+	"citoid-citefromiddialog-title": "En Zitat dobäisetzen",
+	"citoid-citefromidtool-title": "Zitéieren"
 }

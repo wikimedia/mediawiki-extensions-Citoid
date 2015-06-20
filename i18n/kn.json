@@ -6,12 +6,12 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "ಸೇರ್ಪಡಿಸು",
-	"citoid-citeFromIDDialog-back": "ಹಿಂದಕ್ಕೆ",
-	"citoid-citeFromIDDialog-lookup-button": "ಹುಡುಕು",
-	"citoid-citeFromIDDialog-search": "ಹುಡುಕು",
-	"citoid-citeFromIDDialog-search-label": "ಯುಆರ್‍ಎಲ್ ಅಥವಾ ಡೀಒಐ",
-	"citoid-citeFromIDDialog-search-placeholder": "http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "ಹುಡುಕುಕಲಾಗುತ್ತಿದೆ, ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಕಾಯಿರಿ",
-	"citoid-citeFromIDDialog-title": "ಉಲ್ಲೇಖ ಸೇರಿಸಿ",
-	"citoid-citeFromIDTool-title": "ಉಲ್ಲೇಖಿಸಿ"
+	"citoid-citefromiddialog-back": "ಹಿಂದಕ್ಕೆ",
+	"citoid-citefromiddialog-lookup-button": "ಹುಡುಕು",
+	"citoid-citefromiddialog-search": "ಹುಡುಕು",
+	"citoid-citefromiddialog-search-label": "ಯುಆರ್‍ಎಲ್ ಅಥವಾ ಡೀಒಐ",
+	"citoid-citefromiddialog-search-placeholder": "http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "ಹುಡುಕುಕಲಾಗುತ್ತಿದೆ, ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಕಾಯಿರಿ",
+	"citoid-citefromiddialog-title": "ಉಲ್ಲೇಖ ಸೇರಿಸಿ",
+	"citoid-citefromidtool-title": "ಉಲ್ಲೇಖಿಸಿ"
 }

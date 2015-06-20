@@ -5,12 +5,12 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "نیائن",
-	"citoid-citeFromIDDialog-back": "دما",
-	"citoid-citeFromIDDialog-lookup-button": "پی جوری",
-	"citoid-citeFromIDDialog-search": "پی جوری",
-	"citoid-citeFromIDDialog-search-label": "یو آر ال یا دی او آی",
-	"citoid-citeFromIDDialog-search-placeholder": "همچنی چی... http://www.example.com",
-	"citoid-citeFromIDDialog-search-progress": "د حال و بار پی جوری لطفن یه گری صب بکیت....",
-	"citoid-citeFromIDDialog-title": "اضاف کردن یه گل ویرجا",
-	"citoid-citeFromIDTool-title": "ویرجا"
+	"citoid-citefromiddialog-back": "دما",
+	"citoid-citefromiddialog-lookup-button": "پی جوری",
+	"citoid-citefromiddialog-search": "پی جوری",
+	"citoid-citefromiddialog-search-label": "یو آر ال یا دی او آی",
+	"citoid-citefromiddialog-search-placeholder": "همچنی چی... http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "د حال و بار پی جوری لطفن یه گری صب بکیت....",
+	"citoid-citefromiddialog-title": "اضاف کردن یه گل ویرجا",
+	"citoid-citefromidtool-title": "ویرجا"
 }

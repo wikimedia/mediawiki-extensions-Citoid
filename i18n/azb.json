@@ -4,9 +4,9 @@
 			"Koroğlu"
 		]
 	},
-	"citoid-citeFromIDDialog-back": "دالی",
-	"citoid-citeFromIDDialog-search": "آختار",
-	"citoid-citeFromIDDialog-search-label": "URL یوخسا DOI",
-	"citoid-citeFromIDDialog-search-placeholder": "اؤرنک http://www.example.com",
-	"citoid-citeFromIDTool-title": "قایناقلاما"
+	"citoid-citefromiddialog-back": "دالی",
+	"citoid-citefromiddialog-search": "آختار",
+	"citoid-citefromiddialog-search-label": "URL یوخسا DOI",
+	"citoid-citefromiddialog-search-placeholder": "اؤرنک http://www.example.com",
+	"citoid-citefromidtool-title": "قایناقلاما"
 }

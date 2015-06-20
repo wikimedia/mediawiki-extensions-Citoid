@@ -6,12 +6,12 @@
 		]
 	},
 	"citoid-520-error": "No s’ha pogut recuperar informació sobre l’identificador proporcionat.",
-	"citoid-citeFromIDDialog-mode-auto": "Automàtic",
-	"citoid-citeFromIDDialog-mode-manual": "Manual",
-	"citoid-citeFromIDDialog-mode-reuse": "Reutilitza",
-	"citoid-citeFromIDDialog-search": "Cerca",
-	"citoid-citeFromIDDialog-search-label": "URL o DOI",
-	"citoid-citeFromIDDialog-search-placeholder": "p. ex., http://www.exemple.com",
-	"citoid-citeFromIDDialog-search-progress": "S’està cercant, espereu-vos…",
+	"citoid-citefromiddialog-mode-auto": "Automàtic",
+	"citoid-citefromiddialog-mode-manual": "Manual",
+	"citoid-citefromiddialog-mode-reuse": "Reutilitza",
+	"citoid-citefromiddialog-search": "Cerca",
+	"citoid-citefromiddialog-search-label": "URL o DOI",
+	"citoid-citefromiddialog-search-placeholder": "p. ex., http://www.exemple.com",
+	"citoid-citefromiddialog-search-progress": "S’està cercant, espereu-vos…",
 	"citoid-desc": "Proporciona punts d’accés entre el servei Citoid i MediaWiki"
 }

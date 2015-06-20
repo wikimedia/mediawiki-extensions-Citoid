@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"citoid-520-error": "Di nakaala ti pakaamo manipud iti naited a pananginagan.",
+	"citoid-citation-widget-insert-button": "Isengngat",
+	"citoid-citefromiddialog-back": "Agsubli",
+	"citoid-citefromiddialog-lookup-button": "Agpataud",
+	"citoid-citefromiddialog-mode-auto": "Automatiko",
+	"citoid-citefromiddialog-mode-manual": "Manual",
+	"citoid-citefromiddialog-mode-reuse": "Usaren manen",
+	"citoid-citefromiddialog-search": "Biruken",
+	"citoid-citefromiddialog-search-label": "URL wenno DOI",
+	"citoid-citefromiddialog-search-placeholder": "kas iti http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Agbirbiruk, pangngaasi nga aguray...",
+	"citoid-citefromiddialog-title": "Aginayon iti dakamat",
+	"citoid-citefromiddialog-use-general-error-message": "Saankami a makaaramid iti dakamat para kenka. Mabalinmo ti manual nga agpartuat babaen ti panagusar iti etiketa ti \"{{int:citoid-citefromiddialog-mode-manual}}\" dita ngato.",
+	"citoid-citefromidtool-title": "Dakamaten",
+	"citoid-desc": "Mangited kadagiti pagserrekan a punto a pagbaetan ti serbisio ti citoid ken MediaWiki",
+	"citoid-unknown-error": "Adda napasamak a biddut a nangigawid kaniami manipud iti panagpartuat ti dakamat. Pangngaasi a padasen manen intono madamdama."
+}

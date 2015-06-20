@@ -1,9 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kingu"
+			"Kingu",
+			"Jeblad"
 		]
 	},
+	"citoid-520-error": "Kan ikke hente informasjon fra tilgjengelig identifikator.",
 	"citoid-citation-widget-insert-button": "Sett inn",
-	"citoid-citeFromIDDialog-back": "Tilbake"
+	"citoid-citefromiddialog-back": "Tilbake",
+	"citoid-citefromiddialog-lookup-button": "Generer",
+	"citoid-citefromiddialog-mode-auto": "Automatisk",
+	"citoid-citefromiddialog-mode-manual": "Manuell",
+	"citoid-citefromiddialog-mode-reuse": "Gjenbruk",
+	"citoid-citefromiddialog-search": "Søk",
+	"citoid-citefromiddialog-search-label": "URL eller DOI",
+	"citoid-citefromiddialog-search-placeholder": "e.g. http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Søker, vennligst vent…",
+	"citoid-citefromiddialog-title": "Legg til en sitering",
+	"citoid-citefromiddialog-use-general-error-message": "Vi kunne ikke lage en sitering for deg. Du kan lage en sitering manuelt ved å bruke arkfanen \"{{int:citoid-citefromiddialog-mode-manual}}\" ovenfor.",
+	"citoid-citefromidtool-title": "Siter",
+	"citoid-desc": "Et aksesspunkt mellom citoid-tjenesten og MediaWiki",
+	"citoid-unknown-error": "En ukjent feil som har oppstått hindrer oss fra å lage en sitering. Vennligst prøv igjen senere."
 }
