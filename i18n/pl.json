@@ -18,7 +18,7 @@
 	"citoid-citefromiddialog-search-progress": "Wyszukiwanie, proszę czekać...",
 	"citoid-citefromiddialog-title": "Dodaj przypis",
 	"citoid-citefromiddialog-use-general-error-message": "Nie mogliśmy utworzyć przypisu. Możesz go utworzyć samodzielnie, używając przycisku „{{int:citoid-citefromiddialog-mode-manual}}”.",
-	"citoid-citefromidtool-title": "Cytuj",
+	"citoid-citefromidtool-title": "Przypis",
 	"citoid-desc": "Zapewnia punkty dostępu między Citoidem a MediaWiki",
 	"citoid-unknown-error": "Nieznany błąd uniemożliwił utworzenie przypisu. Spróbuj ponownie później."
 }
