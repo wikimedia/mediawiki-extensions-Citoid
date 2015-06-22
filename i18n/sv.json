@@ -4,7 +4,8 @@
 			"Dan Koehl",
 			"Ainali",
 			"Josve05a",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Lokal Profil"
 		]
 	},
 	"citoid-520-error": "Kan inte hämta information genom den angivna identifieraren.",
@@ -19,7 +20,7 @@
 	"citoid-citefromiddialog-search-placeholder": "t.ex. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Söker, vänligen vänta...",
 	"citoid-citefromiddialog-title": "Lägg till en källa",
-	"citoid-citefromiddialog-use-general-error-message": "Vi kunde inte göra en referens åt dig. Du kan göra en manuellt på fliken 'Manuell' ovanför.",
+	"citoid-citefromiddialog-use-general-error-message": "Vi kunde inte göra en referens åt dig. Du kan göra en manuellt på fliken \"{{int:citoid-citefromiddialog-mode-manual}}\" ovanför.",
 	"citoid-citefromidtool-title": "Ange källa",
 	"citoid-desc": "Tillhandahåller åtkomstpunkter mellan citiod-tjänsten och MediaWiki",
 	"citoid-unknown-error": "Ett okänt fel har inträffat som hindrade oss från att skapa en referens. Vänligen försök igen senare."

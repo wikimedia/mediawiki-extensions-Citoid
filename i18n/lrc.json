@@ -5,12 +5,16 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "نیائن",
-	"citoid-citefromiddialog-back": "دما",
-	"citoid-citefromiddialog-lookup-button": "پی جوری",
-	"citoid-citefromiddialog-search": "پی جوری",
-	"citoid-citefromiddialog-search-label": "یو آر ال یا دی او آی",
-	"citoid-citefromiddialog-search-placeholder": "همچنی چی... http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "د حال و بار پی جوری لطفن یه گری صب بکیت....",
-	"citoid-citefromiddialog-title": "اضاف کردن یه گل ویرجا",
-	"citoid-citefromidtool-title": "ویرجا"
+	"citoid-citefromiddialog-back": "دئما",
+	"citoid-citefromiddialog-lookup-button": "راس کئردئن",
+	"citoid-citefromiddialog-mode-auto": "خود أنجوم",
+	"citoid-citefromiddialog-mode-manual": "دأسی",
+	"citoid-citefromiddialog-mode-reuse": "د نۊ ڤئ کار گئرتئن",
+	"citoid-citefromiddialog-search": "پئی جوٙری",
+	"citoid-citefromiddialog-search-label": "یوٙ آر ئل یا دی ئو آی",
+	"citoid-citefromiddialog-search-placeholder": "هأمچئنی چی... http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "د حال و بال پئی جوٙری لوطف بأکیت یئ گوری آهئرە داری بأکیت....",
+	"citoid-citefromiddialog-title": "ئضاف کئردئن یئ گئل ڤیرجا",
+	"citoid-citefromiddialog-use-general-error-message": "ئیما نئمی توٙنیم یئ گئل ڤیرجا سی شوما راس بأکیم.شمانیا می توٙنیت سی راس کئردئن یئ گل ڤیرجا د رأڤئشت دأسی رازینە یا هاری نە ڤئ کار بئیریت\n\"{{int:citoid-citefromiddialog-mode-manual}}\"",
+	"citoid-citefromidtool-title": "ڤیرجا"
 }

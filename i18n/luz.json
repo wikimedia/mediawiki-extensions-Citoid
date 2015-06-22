@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"علی ساکی لرستانی"
+		]
+	},
+	"citoid-520-error": "قادر وه ورگردن اطلاعات د شناسه داده شده نیسس.",
+	"citoid-citation-widget-insert-button": "هشتن",
+	"citoid-citefromiddialog-back": "عقب",
+	"citoid-citefromiddialog-lookup-button": "تولید",
+	"citoid-citefromiddialog-mode-auto": "اتوماتیک",
+	"citoid-citefromiddialog-mode-manual": "دستی",
+	"citoid-citefromiddialog-mode-reuse": "دوباره استفاده کردن",
+	"citoid-citefromiddialog-search": "جستن",
+	"citoid-citefromiddialog-search-label": "URL یا DOI",
+	"citoid-citefromiddialog-search-placeholder": "مثلا http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "د حال جستن،لطفا بونیت...",
+	"citoid-citefromiddialog-title": "اضاف کردن یه استناد",
+	"citoid-citefromiddialog-use-general-error-message": "ایما نیتریم سی ایشا استناد درست کنیم.ایشا ایترید سی خوتون یکی دستی وا تب بالا \"{{int:citoid-citefromiddialog-mode-manual}}\" درست کنیت.",
+	"citoid-citefromidtool-title": "ویرکرد سرچشمه"
+}
