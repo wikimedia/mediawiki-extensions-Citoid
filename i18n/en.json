@@ -16,6 +16,7 @@
 	"citoid-citefromiddialog-title": "Add a citation",
 	"citoid-citefromiddialog-use-general-error-message": "We couldn't make a citation for you. You can create one manually using the \"{{int:citoid-citefromiddialog-mode-manual}}\" tab above.",
 	"citoid-citefromidtool-title": "Cite",
+	"citoid-dialogbutton-reference-full-tooltip": "Basic reference",
 	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
 	"citoid-unknown-error": "An unknown error has occured that prevented us from creating a citation. Please try again later."
 }
