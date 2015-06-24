@@ -8,24 +8,30 @@
 
 	// HACK: Find the position of the current citation toolbar definition
 	// and manipulate it.
-	var i, len,
-		toolGroups = ve.init.mw.Target.static.toolbarGroups,
-		citeIndex = toolGroups.length;
+	var i, j, jLen, toolGroups, citeIndex, target;
 
-	// Instead of using the rigid position of the group,
-	// downgrade this hack from horrific to somewhat less horrific by
-	// looking through the object to find what we actually need
-	// to replace. This way, if toolbarGroups are changed in VE code
-	// we won't have to manually change the index here.
-	for ( i = 0, len = toolGroups.length; i < len; i++ ) {
-		if ( ve.getProp( toolGroups[i], 'include', 0, 'group' ) === 'cite' ) {
-			citeIndex = i;
-			break;
+	for ( i in ve.init.mw ) {
+		target = ve.init.mw[i];
+		if ( !target || !( target.prototype instanceof ve.init.Target ) ) {
+			continue;
 		}
-	}
+		toolGroups = target.static.toolbarGroups;
+		citeIndex = toolGroups.length;
+		// Instead of using the rigid position of the group,
+		// downgrade this hack from horrific to somewhat less horrific by
+		// looking through the object to find what we actually need
+		// to replace. This way, if toolbarGroups are changed in VE code
+		// we won't have to manually change the index here.
+		for ( j = 0, jLen = toolGroups.length; j < jLen; j++ ) {
+			if ( ve.getProp( toolGroups[j], 'include', 0, 'group' ) === 'cite' ) {
+				citeIndex = j;
+				break;
+			}
+		}
 
-	// HACK: Replace the previous cite group with the citoid tool.
-	ve.init.mw.Target.static.toolbarGroups[ citeIndex ] = { include: [ 'citefromid' ] };
+		// HACK: Replace the previous cite group with the citoid tool.
+		toolGroups[ citeIndex ] = { include: [ 'citefromid' ] };
+	}
 
 	// HACK: Replace the 'Basic' tool title now that it lives in the 'insert' toolgroup
 	ve.ui.MWReferenceDialogTool.static.title = OO.ui.deferMsg( 'citoid-dialogbutton-reference-full-tooltip' );
