@@ -250,6 +250,15 @@ ve.ui.CiteFromIdInspector.prototype.onModeSelectChoose = function ( item ) {
  * @param {boolean} [fromSelect] Mode was changed by the select widget
  */
 ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( panelName, processPanelName, fromSelect ) {
+	if ( [ 'auto', 'manual', 'reuse' ].indexOf( panelName ) === -1 ) {
+		panelName = 'auto';
+	} else if ( panelName === 'reuse' && this.modeSelect.getItemFromData( 'reuse' ).isDisabled() ) {
+		panelName = 'auto';
+	} else if ( panelName !== mw.user.options.get( 'citoid-mode', 'auto' ) ) {
+		new mw.Api().saveOption( 'citoid-mode', panelName ); // for future page views
+		mw.user.options.set( 'citoid-mode', panelName ); // for this page view
+	}
+
 	this.modeStack.setItem( this.modePanels[panelName] );
 	switch ( panelName ) {
 		case 'auto':
@@ -419,7 +428,7 @@ ve.ui.CiteFromIdInspector.prototype.getReadyProcess = function ( data ) {
 	return ve.ui.CiteFromIdInspector.super.prototype.getReadyProcess.call( this, data )
 		.next( function () {
 			// Set the panel after ready as it focuses the input too
-			this.setModePanel( 'auto', 'lookup' );
+			this.setModePanel( mw.user.options.get( 'citoid-mode' ), 'lookup' );
 		}, this );
 };
 

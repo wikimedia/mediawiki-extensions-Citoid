@@ -33,7 +33,8 @@
 			"dependencies": [
 				"ext.visualEditor.mwreference",
 				"json",
-				"ext.visualEditor.mediawiki"
+				"ext.visualEditor.mediawiki",
+				"mediawiki.api.options"
 			],
 			"messages": [
 				"citoid-520-error",
@@ -73,6 +74,9 @@
 		],
 		"ResourceLoaderTestModules": [
 			"CitoidHooks::onResourceLoaderTestModules"
+		],
+		"GetPreferences": [
+			"CitoidHooks::onGetPreferences"
 		]
 	},
 	"VisualEditorPluginModules": [

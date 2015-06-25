@@ -49,4 +49,11 @@ class CitoidHooks {
 
 		return true;
 	}
+
+	public static function onGetPreferences( User $user, array &$preferences ) {
+		$preferences['citoid-mode'] = array(
+			'type' => 'api'
+		);
+		return true;
+	}
 }
