@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"William915"
+		]
+	},
+	"citoid-citation-widget-insert-button": "插入",
+	"citoid-citefromiddialog-back": "返轉頭",
+	"citoid-citefromiddialog-lookup-button": "生成",
+	"citoid-citefromiddialog-mode-auto": "自動",
+	"citoid-citefromiddialog-mode-manual": "人手",
+	"citoid-citefromiddialog-mode-reuse": "翻用",
+	"citoid-citefromiddialog-search": "搵",
+	"citoid-citefromiddialog-search-label": "URL 或者 DOI",
+	"citoid-citefromiddialog-search-placeholder": "例如 http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "搵緊，請等陣……",
+	"citoid-citefromiddialog-title": "加個引用",
+	"citoid-citefromidtool-title": "引用",
+	"citoid-unknown-error": "發生咗未知錯誤，所以建立唔到引用，麻煩遲啲再試過。"
+}

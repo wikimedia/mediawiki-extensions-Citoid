@@ -3,7 +3,8 @@
 		"authors": [
 			"Macofe",
 			"MadriCR",
-			"Fitoschido"
+			"Fitoschido",
+			"Chris TR"
 		]
 	},
 	"citoid-520-error": "No se pudo obtener información a partir del identificador proporcionado.",
@@ -20,6 +21,7 @@
 	"citoid-citefromiddialog-title": "Agregar una cita",
 	"citoid-citefromiddialog-use-general-error-message": "No pudimos crear la cita. Utiliza la pestaña «{{int:citoid-citefromiddialog-mode-manual}}» ubicada más arriba para crear una manualmente.",
 	"citoid-citefromidtool-title": "Citar",
+	"citoid-dialogbutton-reference-full-tooltip": "Referencia básica",
 	"citoid-desc": "Proporciona puntos de acceso entre el servicio Citoid y MediaWiki",
 	"citoid-unknown-error": "Ocurrió un error desconocido que nos impidió crear la cita. Inténtalo de nuevo más tarde."
 }
