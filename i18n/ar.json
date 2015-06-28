@@ -17,5 +17,7 @@
 	"citoid-citefromiddialog-search-placeholder": "مثال: http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "البحث جار، برجاء الانتظار...",
 	"citoid-citefromiddialog-title": "إضافة استشهاد",
-	"citoid-citefromidtool-title": "استشهد"
+	"citoid-citefromidtool-title": "استشهد",
+	"citoid-dialogbutton-reference-full-tooltip": "مرجع ابتدائي",
+	"citoid-desc": "يوفر نقطة وصول بين citoid وميدياويكي"
 }

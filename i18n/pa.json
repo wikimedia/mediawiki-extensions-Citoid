@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Satdeep gill"
+			"Satdeep gill",
+			"Nachhattardhammu"
 		]
 	},
 	"citoid-citation-widget-insert-button": "ਜੋੜੋ",
@@ -13,5 +14,6 @@
 	"citoid-citefromiddialog-search-placeholder": "ਉਦਾਹਰਨ http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "ਲੱਭਿਆ ਜਾ ਰਿਹਾ ਹੈ, ਇੰਤਜ਼ਾਰ ਕਰੋ...",
 	"citoid-citefromiddialog-title": "ਹਵਾਲਾ ਜੋੜੋ",
-	"citoid-citefromidtool-title": "ਹਵਾਲਾ"
+	"citoid-citefromidtool-title": "ਹਵਾਲਾ",
+	"citoid-dialogbutton-reference-full-tooltip": "ਬੇਸਿਕ ਹਵਾਲਾ"
 }

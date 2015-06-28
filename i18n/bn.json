@@ -13,5 +13,6 @@
 	"citoid-citefromiddialog-search-placeholder": "উদা. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "অনুসন্ধান করা হচ্ছে, দয়া করে অপেক্ষা করুন...",
 	"citoid-citefromiddialog-title": "একটি উদ্ধৃতি যোগ করুন",
-	"citoid-citefromidtool-title": "উদ্ধৃতি"
+	"citoid-citefromidtool-title": "উদ্ধৃতি",
+	"citoid-dialogbutton-reference-full-tooltip": "মৌলিক তথ্যসূত্র"
 }

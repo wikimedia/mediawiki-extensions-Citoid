@@ -1,10 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Subi"
+			"Subi",
+			"Sator"
 		]
 	},
+	"citoid-citation-widget-insert-button": "Txertatu",
+	"citoid-citefromiddialog-back": "Atzera",
+	"citoid-citefromiddialog-mode-auto": "Automatikoa",
+	"citoid-citefromiddialog-mode-manual": "Eskuz",
+	"citoid-citefromiddialog-mode-reuse": "Berrerabili",
 	"citoid-citefromiddialog-search": "Bilatu",
+	"citoid-citefromiddialog-search-label": "URL edo DOI",
 	"citoid-citefromiddialog-search-placeholder": "adib. http://www.adibidea.eus",
-	"citoid-citefromiddialog-search-progress": "Bilatzen. Mesedez, itxaron..."
+	"citoid-citefromiddialog-search-progress": "Bilatzen. Mesedez, itxaron...",
+	"citoid-citefromiddialog-title": "Aipamena gehitu",
+	"citoid-dialogbutton-reference-full-tooltip": "Oinarrizko erreferentzia"
 }

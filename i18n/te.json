@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"M phani",
-			"Veeven"
+			"Veeven",
+			"Praveen Illa"
 		]
 	},
 	"citoid-citefromiddialog-back": "వెనుకకు",
 	"citoid-citefromiddialog-search": "వెతుకు",
 	"citoid-citefromiddialog-search-placeholder": "ఉదా॥ http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "వెతకబడుతుంది, దయచేసి వేచి ఉండండి..."
+	"citoid-citefromiddialog-search-progress": "వెతకబడుతుంది, దయచేసి వేచి ఉండండి...",
+	"citoid-dialogbutton-reference-full-tooltip": "ప్రాథమిక ఉదహరింపు"
 }
