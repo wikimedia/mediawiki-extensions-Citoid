@@ -632,18 +632,18 @@ ve.ui.CiteFromIdInspector.static.populateTemplate = function ( template, citatio
 		// Construct parameters
 
 		// Case: Citoid parameter directly equivalent to TemplateData parameter
-		if ( typeof templateField === 'string' && typeof citation[ citoidField ] === 'string' ) {
+		if ( typeof templateField === 'string' && citation[ citoidField ] && typeof citation[ citoidField ] === 'string' ) {
 			template.addParameter(
 				new ve.dm.MWParameterModel(
 					template, templateField, citation[citoidField ]
 				)
 			);
 		// Case: Citoid parameter contains a 1 or 2D Array
-		} else if ( Array.isArray( citation[ citoidField ] ) ) {
+		} else if ( citation[ citoidField ] && Array.isArray( citation[ citoidField ] ) ) {
 			// Iterate through first dimension of array
 			for ( i = 0; i < citation[ citoidField ].length; i++ ) {
 				// Case: Citoid parameter equivalent to 1D Array of TD parameters
-				if ( typeof citation[ citoidField ][ i ] === 'string' ) {
+				if ( citation[ citoidField ][ i ] && typeof citation[ citoidField ][ i ] === 'string' ) {
 					// Case: Citoid parameter equivalent to TD parameter
 					if ( Array.isArray( templateField ) && templateField[ i ] &&
 						typeof templateField[ i ] === 'string' ) {
@@ -659,13 +659,13 @@ ve.ui.CiteFromIdInspector.static.populateTemplate = function ( template, citatio
 						}
 					}
 				// Case: Citoid parameter equivalent to 2D Array of TD parameters
-				} else if ( Array.isArray( citation[ citoidField ][ i ] ) ) {
+				} else if ( citation[ citoidField ][ i ] && Array.isArray( citation[ citoidField ][ i ] ) ) {
 					concat2dField = null; // Wipe field from previous iteration
 
 					// Iterate through inner dimension of array
 					for ( j = 0; j < citation[ citoidField ][ i ].length; j++ ) {
 						// Case: 2nd degree parameter exists
-						if ( typeof citation[ citoidField ][ i ][ j ] === 'string' ) {
+						if ( citation[ citoidField ][ i ][ j ] && typeof citation[ citoidField ][ i ][ j ] === 'string' ) {
 							// Case: Citoid parameter equivalent to TD parameter
 							if ( Array.isArray( templateField[ i ] ) &&
 								templateField[ i ][ j ] && typeof templateField[ i ][ j ] === 'string' ) {
