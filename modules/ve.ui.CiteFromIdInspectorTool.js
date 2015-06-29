@@ -27,9 +27,6 @@
 	// HACK: Replace the previous cite group with the citoid tool.
 	ve.init.mw.Target.static.toolbarGroups[ citeIndex ] = { include: [ 'citefromid' ] };
 
-	// HACK: Replace the 'Basic' tool title now that it lives in the 'insert' toolgroup
-	ve.ui.MWReferenceDialogTool.static.title = OO.ui.deferMsg( 'citoid-dialogbutton-reference-full-tooltip' );
-
 	/**
 	 * MediaWiki UserInterface cite from ID inspector tool.
 	 *
