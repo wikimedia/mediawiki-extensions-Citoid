@@ -16,6 +16,6 @@
 	"citoid-citefromiddialog-search-placeholder": "сёз ючюн, http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Излеу барады, сакъла...",
 	"citoid-citefromiddialog-title": "Цитатаны къош",
-	"citoid-citefromiddialog-use-general-error-message": "Цитата эталмадыкъ сизге. Башыракъдагъы 'Къол режим' тиек бла къураб кёрюрге боллукъса.",
+	"citoid-citefromiddialog-use-general-error-message": "Цитата эталмадыкъ сизге. Башыракъдагъы \"{{int:citoid-citefromiddialog-mode-manual}}\" тиек бла къураб кёрюрге боллукъса.",
 	"citoid-citefromidtool-title": "Цитата этиу"
 }

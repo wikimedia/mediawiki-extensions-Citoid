@@ -19,7 +19,6 @@
 	"citoid-citefromiddialog-title": "Legg til en sitering",
 	"citoid-citefromiddialog-use-general-error-message": "Vi kunne ikke lage en sitering for deg. Du kan lage en sitering manuelt ved å bruke arkfanen \"{{int:citoid-citefromiddialog-mode-manual}}\" ovenfor.",
 	"citoid-citefromidtool-title": "Siter",
-	"citoid-dialogbutton-reference-full-tooltip": "Grunnleggende referanse",
 	"citoid-desc": "Et aksesspunkt mellom citoid-tjenesten og MediaWiki",
 	"citoid-unknown-error": "En ukjent feil som har oppstått hindrer oss fra å lage en sitering. Vennligst prøv igjen senere."
 }
