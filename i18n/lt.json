@@ -1,12 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pofka"
+			"Pofka",
+			"Albertas"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Įterpti",
 	"citoid-citefromiddialog-back": "Atgal",
 	"citoid-citefromiddialog-lookup-button": "Ieškoti",
+	"citoid-citefromiddialog-mode-auto": "Automatinis",
+	"citoid-citefromiddialog-mode-manual": "Instrukcija",
+	"citoid-citefromiddialog-mode-reuse": "Naudoti pakartotinai",
+	"citoid-citefromiddialog-search": "Paieška",
+	"citoid-citefromiddialog-search-label": "URL arba DOI",
+	"citoid-citefromiddialog-search-placeholder": "pvz. http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Ieškoma, prašome palaukti...",
 	"citoid-citefromiddialog-title": "Pridėti citatą",
 	"citoid-citefromiddialog-use-general-error-message": "Mums nepavyko sukurti citatą. Jūs galite tai padaryti naudodamiesi $1.",
 	"citoid-citefromidtool-title": "Cituoti"

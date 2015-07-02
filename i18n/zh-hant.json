@@ -20,7 +20,7 @@
 	"citoid-citefromiddialog-search-placeholder": "例如 http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "搜尋中，請稍候...",
 	"citoid-citefromiddialog-title": "新增引用",
-	"citoid-citefromiddialog-use-general-error-message": "我們無法為您建立引用。 您可使用上方 \"{{int:citoid-citeFromIDDialog-mode-manual}}\" 頁籤自行建立。",
+	"citoid-citefromiddialog-use-general-error-message": "我們無法為您建立引用。 您可使用上方 \"{{int:citoid-citefromiddialog-mode-manual}}\" 頁籤自行建立。",
 	"citoid-citefromidtool-title": "引用",
 	"citoid-desc": "提供於 citoid 服務與 MediaWiki 間的存取點",
 	"citoid-unknown-error": "發生不明錯誤，導致無法建立引用。請稍候再試一次。"
