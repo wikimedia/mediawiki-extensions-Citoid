@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Reza1615"
+			"Reza1615",
+			"Leyth"
 		]
 	},
 	"citoid-520-error": "امکان دریافت اطلاعات از شناسه بدست آمده نیست.",
@@ -16,7 +17,7 @@
 	"citoid-citefromiddialog-search-placeholder": "مثلا http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "درحال جستجو، صبر کنید...",
 	"citoid-citefromiddialog-title": "افزودن یک یادکرد",
-	"citoid-citefromiddialog-use-general-error-message": "امکان ساخت یادکرد برای شما نیست.شما می توانید توسط $1 انجام دهید.",
+	"citoid-citefromiddialog-use-general-error-message": "امکان ساخت یادکرد برای شما نیست. شما می توانید یک یادکرد دستی با استفاده از زبانهٔ {{int:citoid-citefromiddialog-mode-manual}} بسازید.",
 	"citoid-citefromidtool-title": "یادکرد",
 	"citoid-desc": "تامین ارتباط بین سرور citoid و مدیاویکی",
 	"citoid-unknown-error": "خطای نامشخص اجازه ساخت یادکرد را نمی‌دهد. لطفا بعدا تلاش کنید."

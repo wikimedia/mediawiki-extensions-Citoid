@@ -7,9 +7,12 @@
 	"citoid-citation-widget-insert-button": "ورټومبل",
 	"citoid-citefromiddialog-back": "پر شا کېدل",
 	"citoid-citefromiddialog-lookup-button": "زېږل",
+	"citoid-citefromiddialog-mode-auto": "اتوماتيک",
+	"citoid-citefromiddialog-mode-reuse": "بياکارول",
 	"citoid-citefromiddialog-search": "پلټل",
 	"citoid-citefromiddialog-search-label": "URL يا DOI",
 	"citoid-citefromiddialog-search-placeholder": "لکه http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "په پلټلو کې دی، تم شئ...",
+	"citoid-citefromiddialog-title": "يو اخځ ورگډول",
 	"citoid-citefromidtool-title": "اخځ"
 }
