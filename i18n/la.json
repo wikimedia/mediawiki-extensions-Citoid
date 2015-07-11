@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jdforrester"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Insere",
+	"citoid-citefromiddialog-back": "Torna",
+	"citoid-citefromiddialog-lookup-button": "Genera",
+	"citoid-citefromiddialog-mode-auto": "Automatopœtus",
+	"citoid-citefromiddialog-mode-manual": "manuale",
+	"citoid-citefromiddialog-mode-reuse": "Reutere",
+	"citoid-citefromiddialog-search": "Scisce"
+}
