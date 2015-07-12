@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Reza1615",
-			"Leyth"
+			"Leyth",
+			"Maspadana"
 		]
 	},
 	"citoid-520-error": "امکان دریافت اطلاعات از شناسه بدست آمده نیست.",
 	"citoid-citation-widget-insert-button": "درج",
 	"citoid-citefromiddialog-back": "بازگشت",
-	"citoid-citefromiddialog-lookup-button": "جستجو",
+	"citoid-citefromiddialog-lookup-button": "تولید",
 	"citoid-citefromiddialog-mode-auto": "خودکار",
 	"citoid-citefromiddialog-mode-manual": "دستی",
 	"citoid-citefromiddialog-mode-reuse": "استفادهٔ مجدد",

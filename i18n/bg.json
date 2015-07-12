@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aquilax"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Вмъкване",
+	"citoid-citefromiddialog-back": "Назад",
+	"citoid-citefromiddialog-mode-auto": "Автоматично",
+	"citoid-citefromiddialog-mode-manual": "Ръчна настройка",
+	"citoid-citefromiddialog-mode-reuse": "Повторно използване",
+	"citoid-citefromiddialog-search": "Търсене",
+	"citoid-citefromiddialog-search-label": "URL или DOI",
+	"citoid-citefromiddialog-search-placeholder": "например, http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Търсене, моля изчакайте...",
+	"citoid-citefromiddialog-title": "Добавяне на цитат",
+	"citoid-citefromidtool-title": "Цитиране"
+}

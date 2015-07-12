@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Techlik"
+		]
+	},
+	"citoid-520-error": "E pamundur të mirren informacionet prej identifikuesit të ofruar.",
+	"citoid-citation-widget-insert-button": "Vendos",
+	"citoid-citefromiddialog-back": "Prapa",
+	"citoid-citefromiddialog-lookup-button": "Gjenero",
+	"citoid-citefromiddialog-mode-auto": "Automatik",
+	"citoid-citefromiddialog-mode-manual": "Manual",
+	"citoid-citefromiddialog-mode-reuse": "Ri-shfrytëzo",
+	"citoid-citefromiddialog-search": "Kērko",
+	"citoid-citefromiddialog-search-label": "URL apo DOI",
+	"citoid-citefromiddialog-search-placeholder": "p.sh. http://www.shembull.com",
+	"citoid-citefromiddialog-search-progress": "Po kërkojmë, ju lutem prisni...",
+	"citoid-citefromiddialog-title": "Shtoni një burim",
+	"citoid-citefromiddialog-use-general-error-message": "Nuk mundem të krijojmë një burim për ju. Ju mund të krijoni një manualisht, duke përdorur \"{{int:citoid-citefromiddialog-mode-manual}}\" më sipër.",
+	"citoid-citefromidtool-title": "Burim",
+	"citoid-desc": "Ofroni qasje mes pikave të burimeve të cituara dhe MediaWiki",
+	"citoid-unknown-error": "Një gabim i panjohur ka ndodhur dhe na ka penguar që krijojmë një burim. Ju lutemi të provoni sërish më vonë."
+}

@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"Misibacsi"
 		]
 	},
+	"citoid-520-error": "Nem tudja lekérni az adatokat a megadott azonosítóról.",
 	"citoid-citation-widget-insert-button": "Beillesztés",
 	"citoid-citefromiddialog-back": "Vissza",
 	"citoid-citefromiddialog-lookup-button": "Generálás",
@@ -15,7 +17,8 @@
 	"citoid-citefromiddialog-search-placeholder": "pl. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Keresés, pillanat…",
 	"citoid-citefromiddialog-title": "Forráshivatkozás hozzáadása",
-	"citoid-citefromiddialog-use-general-error-message": "Nem tudtunk hivatkozást készíteni neked. Létrehozhatsz egyet kézzel a fenti „{{int:citoid-citeFromIDDialog-mode-manual}}” füllel.",
+	"citoid-citefromiddialog-use-general-error-message": "Nem tudtunk hivatkozást készíteni neked. Létrehozhatsz egyet kézzel a fenti „{{int:citoid-citefromiddialog-mode-manual}}” füllel.",
 	"citoid-citefromidtool-title": "Forrás",
+	"citoid-desc": "Összeköttetést biztosít a citoid szolgáltatás és a MediaWiki között",
 	"citoid-unknown-error": "Egy ismeretlen hiba lépett fel, ami megakadályozott minket a forráshivatkozás létrehozásában. Próbáld újra később."
 }

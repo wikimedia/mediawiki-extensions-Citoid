@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Misibacsi"
+		]
+	},
+	"citoid-520-error": "Nem tudja lekérni az adatokat a megadott azonosítóról.",
+	"citoid-citation-widget-insert-button": "Beillesztés",
+	"citoid-citefromiddialog-back": "Vissza",
+	"citoid-citefromiddialog-lookup-button": "Generálás",
+	"citoid-citefromiddialog-mode-auto": "Automatikus",
+	"citoid-citefromiddialog-mode-manual": "Kézi",
+	"citoid-citefromiddialog-mode-reuse": "Újrafelhasználás",
+	"citoid-citefromiddialog-search": "Keresés",
+	"citoid-citefromiddialog-search-label": "URL vagy DOI",
+	"citoid-citefromiddialog-search-placeholder": "pl. http://www.pelda.com",
+	"citoid-citefromiddialog-search-progress": "Keresés, kérem várjon…",
+	"citoid-citefromiddialog-title": "Hivatkozás hozzáadása"
+}
