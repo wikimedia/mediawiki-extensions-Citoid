@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stranger195"
+			"Stranger195",
+			"Jewel457"
 		]
 	},
+	"citoid-citefromiddialog-search": "Hanapin",
+	"citoid-citefromiddialog-search-placeholder": "Hal. http://www.halimbawa.com",
+	"citoid-citefromiddialog-search-progress": "Naghahanap, pakihintay lamang...",
 	"citoid-citefromiddialog-title": "Magdagdag ng isang sitasyon",
 	"citoid-citefromidtool-title": "Tukuyin"
 }
