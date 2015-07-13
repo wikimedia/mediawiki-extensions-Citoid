@@ -214,7 +214,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	this.lookupButton.connect( this, { click: 'onLookupButtonClick' } );
 	this.previewSelectWidget.connect( this, { choose: 'onPreviewSelectWidgetChoose' } );
 	this.sourceSelect.connect( this, { choose: 'onSourceSelectChoose' } );
-	this.search.connect( this, { select: 'onSearchSelect' } );
+	this.search.getResults().connect( this, { choose: 'onSearchResultsChoose' } );
 
 	this.autoProcessStack.addItems( [
 		this.autoProcessPanels.lookup,
@@ -309,15 +309,15 @@ ve.ui.CiteFromIdInspector.prototype.onSourceSelectChoose = function ( item ) {
 };
 
 /**
- * Handle search select events.
+ * Handle search results choose events.
  *
- * @param {ve.dm.MWReferenceModel|null} ref Reference model or null if no item is selected
+ * @param {ve.ui.MWReferenceResultWidget} item Chosen item
  */
-ve.ui.CiteFromIdInspector.prototype.onSearchSelect = function ( ref ) {
-	if ( ref instanceof ve.dm.MWReferenceModel ) {
-		ref.insertReferenceNode( this.getFragment() );
-		this.getFragment().getSurface().applyStaging();
-	}
+ve.ui.CiteFromIdInspector.prototype.onSearchResultsChoose = function ( item ) {
+	var ref = item.getData();
+
+	ref.insertReferenceNode( this.getFragment() );
+	this.getFragment().getSurface().applyStaging();
 };
 
 /**
