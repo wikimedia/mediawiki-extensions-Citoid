@@ -619,47 +619,101 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
  */
 ve.ui.CiteFromIdInspector.static.populateTemplate = function ( template, citation ) {
 	var citoidField, templateField, i, j,
+		concatCitoidField, // for storing a concatenated citoid value composed of array elements
+		concat2dField, // for storing elements of a 2d array converted to a 1d element
 		spec = template.getSpec(),
 		maps = spec.getMaps(),
 		map = maps[ ve.ui.CiteFromIdInspector.static.templateDataName ];
 
 	for ( citoidField in map ) {
 		templateField = map[ citoidField ];
+		concatCitoidField = null; // Wipe field from previous iteration
+
 		// Construct parameters
-		if ( typeof templateField === 'string' &&
-			citation[ citoidField ] && typeof citation[ citoidField ] === 'string' ) {
-			// Case: Citoid parameter directly equivalent to TemplateData parameter
-			template.addParameter( new ve.dm.MWParameterModel(
-				template, templateField, citation[ citoidField ] )
+
+		// Case: Citoid parameter directly equivalent to TemplateData parameter
+		if ( typeof templateField === 'string' && typeof citation[ citoidField ] === 'string' ) {
+			template.addParameter(
+				new ve.dm.MWParameterModel(
+					template, templateField, citation[citoidField ]
+				)
 			);
-		// Check that both typeof citoidField and templateField match
-		} else if ( Array.isArray( citation[ citoidField ] ) && Array.isArray( templateField ) ) {
-			// Case: Citoid parameter equivalent to 1 or 2D Array of TD parameters
+		// Case: Citoid parameter contains a 1 or 2D Array
+		} else if ( Array.isArray( citation[ citoidField ] ) ) {
+			// Iterate through first dimension of array
 			for ( i = 0; i < citation[ citoidField ].length; i++ ) {
-				// Iterate through first dimension of array
-				if ( typeof citation[ citoidField ][ i ] === 'string' &&
-					typeof templateField[ i ] === 'string' ) {
-					// Case: Citoid parameter equivalent to 1D Array of TD parameters
-					template.addParameter(
-						new ve.dm.MWParameterModel(
-							template, templateField[ i ], citation[ citoidField ][ i ]
-						)
-					);
-				// Check that both typeof citoidField and templateField match
-				} else if ( Array.isArray( citation[ citoidField ][ i ] ) &&
-					Array.isArray( templateField[ i ] ) ) {
-					// Case: Citoid parameter equivalent to 2D Array of TD parameters
-					for ( j = 0; j < citation[ citoidField ][ i ].length; j++ ) {
-						// Iterate through 2nd dimension of Array
-						if ( typeof citation[ citoidField ][ i ][ j ] === 'string' &&
-							templateField[ i ] && templateField[ i ][ j ] ) {
-							template.addParameter(
-								new ve.dm.MWParameterModel(
-									template, templateField[ i ][ j ], citation[ citoidField ][ i ][ j ]
-								)
-							);
+				// Case: Citoid parameter equivalent to 1D Array of TD parameters
+				if ( typeof citation[ citoidField ][ i ] === 'string' ) {
+					// Case: Citoid parameter equivalent to TD parameter
+					if ( Array.isArray( templateField ) && templateField[ i ] &&
+						typeof templateField[ i ] === 'string' ) {
+						template.addParameter( new ve.dm.MWParameterModel(
+							template, templateField[ i ], citation[ citoidField ][ i ] )
+						);
+					// Case: No equivalent TD parameter, add value to flattened string instead.
+					} else if ( typeof templateField === 'string' ) {
+						if ( !concatCitoidField ) {
+							concatCitoidField = citation[ citoidField ][ i ];
+						} else {
+							concatCitoidField += ', ' + citation[ citoidField ][ i ] ;
 						}
 					}
+				// Case: Citoid parameter equivalent to 2D Array of TD parameters
+				} else if ( Array.isArray( citation[ citoidField ][ i ] ) ) {
+					concat2dField = null; // Wipe field from previous iteration
+
+					// Iterate through inner dimension of array
+					for ( j = 0; j < citation[ citoidField ][ i ].length; j++ ) {
+						// Case: 2nd degree parameter exists
+						if ( typeof citation[ citoidField ][ i ][ j ] === 'string' ) {
+							// Case: Citoid parameter equivalent to TD parameter
+							if ( Array.isArray( templateField[ i ] ) &&
+								templateField[ i ][ j ] && typeof templateField[ i ][ j ] === 'string' ) {
+								template.addParameter(
+									new ve.dm.MWParameterModel(
+										template, templateField[ i ][ j ],
+										citation[ citoidField ][ i ][ j ]
+									)
+								);
+							// Case: Citoid parameter deeper than TD parameter
+							} else if ( templateField[ i ] && typeof templateField[ i ] === 'string' ) {
+								if ( !concat2dField ) {
+									concat2dField = citation[ citoidField][ i ][ j ];
+								} else {
+									concat2dField += ' ' + citation[ citoidField ][ i ][ j ];
+								}
+							}
+						}
+					}
+					// Done iterating; Deal with concatenated values
+					if ( concat2dField ) {
+						// Case: Concat 2d value is equivalent to a 1d template field value
+						if ( Array.isArray( templateField ) && typeof templateField[ i ] === 'string' ) {
+							template.addParameter(
+								new ve.dm.MWParameterModel(
+									template, templateField[ i ], concat2dField
+								)
+							);
+						// Case: Concat value is likely equivalent to a flat template field value
+						} else {
+							if ( !concatCitoidField ) {
+								concatCitoidField = concat2dField;
+							} else {
+								concatCitoidField += ', ' + concat2dField;
+							}
+						}
+					}
+				}
+			}
+			// Done iterating; add final citoidConcatValue to TD
+			if ( concatCitoidField ) {
+				// Case: Concat value is equivalent to flat templateField value
+				if ( templateField && typeof templateField === 'string' ) {
+					template.addParameter(
+						new ve.dm.MWParameterModel(
+							template, templateField, concatCitoidField
+						)
+					);
 				}
 			}
 		}
