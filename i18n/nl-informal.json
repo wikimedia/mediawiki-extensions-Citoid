@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carsrac"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Voeg in",
+	"citoid-citefromiddialog-back": "Terug",
+	"citoid-citefromiddialog-lookup-button": "Aanmaken",
+	"citoid-citefromiddialog-mode-auto": "Automatisch",
+	"citoid-citefromiddialog-mode-manual": "Handmatig",
+	"citoid-citefromiddialog-mode-reuse": "Hergebruiken",
+	"citoid-citefromiddialog-search": "Zoeken",
+	"citoid-citefromiddialog-search-label": "URL of DOI",
+	"citoid-citefromiddialog-search-placeholder": "bijv. http://www.example.com"
+}

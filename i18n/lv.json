@@ -5,5 +5,8 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ievietot",
-	"citoid-citefromiddialog-back": "Atpakaļ"
+	"citoid-citefromiddialog-back": "Atpakaļ",
+	"citoid-citefromiddialog-search-label": "URL vai DOI",
+	"citoid-citefromiddialog-search-placeholder": "piemēram, http://www.piemers.com",
+	"citoid-citefromiddialog-search-progress": "Meklē, lūdzu, uzgaidiet..."
 }

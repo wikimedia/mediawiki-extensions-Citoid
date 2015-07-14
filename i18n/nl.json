@@ -4,7 +4,8 @@
 			"Robin0van0der0vliet",
 			"MedShot",
 			"Jdforrester",
-			"Siebrand"
+			"Siebrand",
+			"Romaine"
 		]
 	},
 	"citoid-520-error": "Het was niet mogelijk de gegevens van de opgegeven identifier op te halen.",
@@ -19,7 +20,7 @@
 	"citoid-citefromiddialog-search-placeholder": "bijv. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Bezig met zoeken. Een moment geduld alstublieft...",
 	"citoid-citefromiddialog-title": "Een citaat toevoegen",
-	"citoid-citefromiddialog-use-general-error-message": "Het was niet mogelijk een citaat aan te maken. U kunt proberen het handmatig aan te maken via het tabblad \"Handmatig\" hierboven.",
+	"citoid-citefromiddialog-use-general-error-message": "Het was niet mogelijk een citaat aan te maken. U kunt proberen het handmatig aan te maken via het tabblad \"{{int:citoid-citefromiddialog-mode-manual}}\" hierboven.",
 	"citoid-citefromidtool-title": "Citeren",
 	"citoid-desc": "Koppelt de citoidservice en MediaWiki",
 	"citoid-unknown-error": "Er is een onbekende fout opgetreden waardoor het citaat niet aangemaakt kon worden. Probeer het later opnieuw."
