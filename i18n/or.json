@@ -1,19 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Psubhashish"
+			"Psubhashish",
+			"ଶିତିକଣ୍ଠ ଦାଶ"
 		]
 	},
 	"citoid-520-error": "ଏହି ଆଇଡେଣ୍ଟିଫାଇଅର ସମ୍ବନ୍ଧିତ ସୂଚନା ମିଳିପାରିଲା ନାହିଁ ।",
 	"citoid-citation-widget-insert-button": "ଭରିବେ",
 	"citoid-citefromiddialog-back": "ପଛକୁ",
 	"citoid-citefromiddialog-lookup-button": "ଖୋଜିବେ",
+	"citoid-citefromiddialog-mode-auto": "ଆପେଆପେ",
+	"citoid-citefromiddialog-mode-manual": "ଶିକ୍ଷଣ",
+	"citoid-citefromiddialog-mode-reuse": "ପୁନଃ-ବ୍ୟବହାର",
 	"citoid-citefromiddialog-search": "ଖୋଜନ୍ତୁ",
 	"citoid-citefromiddialog-search-label": "URL କିମ୍ବା DOI",
 	"citoid-citefromiddialog-search-placeholder": "ଉଦାହରଣ http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "ଖୋଜୁଛି, ଅପେକ୍ଷା କରିବେ....",
 	"citoid-citefromiddialog-title": "ଆଧାର ଯୋଡ଼ନ୍ତୁ",
-	"citoid-citefromiddialog-use-general-error-message": "ଆମେ ଆପଣଙ୍କ ପାଇଁ ଆଧାରଟିଏ ଗଢ଼ିପାରୁନାହୁଁ । ଆପଣ $1 ବ୍ୟବହାର କରି ଏହା ନିଜେ ଗଢ଼ିପାରିବେ ।",
+	"citoid-citefromiddialog-use-general-error-message": "ଆମେ ଆପଣଙ୍କ ପାଇଁ ଆଧାରଟିଏ ଗଢ଼ିପାରୁନାହୁଁ । ଆପଣ ଉପରେ ଥିବା \"{{int:citoid-citefromiddialog-mode-manual}}\" ଟ୍ୟାବ୍ ବ୍ୟବହାର କରି ଏହା ନିଜେ ଗଢ଼ିପାରିବେ ।",
 	"citoid-citefromidtool-title": "ଆଧାର ଦେବେ",
 	"citoid-desc": "ସାଇଟଏଡ଼ ସୁବିଧା ଏବଂ ମିଡ଼ିଆଉଇକି ଲାଗି ଆକସେସ ପଏଣ୍ଟ ଯୋଗାଇଥାଏ",
 	"citoid-unknown-error": "ଏକ ଅଜଣା ଅସୁବିଧା ହେବାରୁ ଆମେ ଆଧାଟିଏ ଗଢ଼ିପାରିଲୁ ନାହିଁ । ଆଉଥରେ ଚେଷ୍ଟା କରିବେ ।"

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalanTul"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Ук",
+	"citoid-citefromiddialog-back": "Төнүн",
+	"citoid-citefromiddialog-lookup-button": "Оҥор",
+	"citoid-citefromiddialog-mode-auto": "Аптамаатынан",
+	"citoid-citefromiddialog-mode-manual": "Илиинэн туруоруу",
+	"citoid-citefromiddialog-mode-reuse": "Хос туттуу",
+	"citoid-citefromiddialog-search": "Бул",
+	"citoid-citefromiddialog-search-label": "URL биитэр DOI",
+	"citoid-citefromiddialog-search-placeholder": "холобур, http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Көрдөөһүн бара турар, кэтэс дуу...",
+	"citoid-citefromiddialog-title": "Сытаата эбии",
+	"citoid-citefromidtool-title": "Сытаата"
+}

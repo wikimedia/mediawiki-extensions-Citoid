@@ -2,13 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Դավիթ Սարոյան",
-			"Beko"
+			"Beko",
+			"Vahe Gharakhanyan"
 		]
 	},
 	"citoid-520-error": "Անհնար է ստանալ տեղեկություններ տրամադրված նույնացուցիչից։",
 	"citoid-citation-widget-insert-button": "Ավելացնել",
 	"citoid-citefromiddialog-back": "Հետ",
 	"citoid-citefromiddialog-lookup-button": "Փնտրել",
+	"citoid-citefromiddialog-mode-auto": "Ավտոմատ",
+	"citoid-citefromiddialog-mode-manual": "Ձեռքով",
+	"citoid-citefromiddialog-mode-reuse": "Կրկին օգտագործում",
 	"citoid-citefromiddialog-search": "Որոնել",
 	"citoid-citefromiddialog-search-label": "Հղում կամ DOI",
 	"citoid-citefromiddialog-search-placeholder": "օր.՝ http://www.example.com",

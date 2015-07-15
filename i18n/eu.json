@@ -5,8 +5,10 @@
 			"Sator"
 		]
 	},
+	"citoid-520-error": "Ezinezko da informazioa berreskuratzea emandako identifikatzailetik.",
 	"citoid-citation-widget-insert-button": "Txertatu",
 	"citoid-citefromiddialog-back": "Atzera",
+	"citoid-citefromiddialog-lookup-button": "Sortu",
 	"citoid-citefromiddialog-mode-auto": "Automatikoa",
 	"citoid-citefromiddialog-mode-manual": "Eskuz",
 	"citoid-citefromiddialog-mode-reuse": "Berrerabili",
@@ -15,5 +17,8 @@
 	"citoid-citefromiddialog-search-placeholder": "adib. http://www.adibidea.eus",
 	"citoid-citefromiddialog-search-progress": "Bilatzen. Mesedez, itxaron...",
 	"citoid-citefromiddialog-title": "Aipamena gehitu",
-	"citoid-citefromidtool-title": "Aipatu"
+	"citoid-citefromiddialog-use-general-error-message": "Ezin dugu zure aipamena egin. Eskuz sortu dezakezu goiko  \"{{int:citoid-citefromiddialog-mode-manual}}\" fitxa erabiliz.",
+	"citoid-citefromidtool-title": "Aipatu",
+	"citoid-desc": "Sarbide puntuak eskaintzen ditu citoid zerbitzuaren eta MediaWikiren artean.",
+	"citoid-unknown-error": "Aipamena sortzen uzten ez digun errore ezezagun bat gertatu da. Saiatu berriro beranduago mesedez."
 }

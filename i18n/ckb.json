@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pirehelokan"
+		]
+	},
+	"citoid-citefromiddialog-back": "گەڕانەوە",
+	"citoid-citefromiddialog-lookup-button": "دروست کردن",
+	"citoid-citefromiddialog-mode-auto": "ئوتۆماتیک",
+	"citoid-citefromiddialog-mode-manual": "دەستی",
+	"citoid-citefromiddialog-mode-reuse": "بەکارھێنانەوە",
+	"citoid-citefromiddialog-search": "گەڕان",
+	"citoid-citefromiddialog-search-label": "URL یان DOI",
+	"citoid-citefromiddialog-search-placeholder": "بۆ نموونە: http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "گەڕان، تکایە سەبرت ببێت...",
+	"citoid-citefromiddialog-title": "سەرچاوەیەک زیاد بکە",
+	"citoid-citefromidtool-title": "ژێدەر"
+}

@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gitartha.bordoloi"
+			"Gitartha.bordoloi",
+			"Dibya Dutta"
 		]
 	},
 	"citoid-citation-widget-insert-button": "যোগ কৰক",
 	"citoid-citefromiddialog-back": "ঘূৰি যাওক",
 	"citoid-citefromiddialog-lookup-button": "উৎপন্ন কৰক",
+	"citoid-citefromiddialog-mode-auto": "স্বয়ংক্ৰিয়",
+	"citoid-citefromiddialog-mode-manual": "হাতপুথি",
 	"citoid-citefromiddialog-search": "সন্ধান কৰক",
 	"citoid-citefromiddialog-search-label": "URL বা DOI",
 	"citoid-citefromiddialog-search-placeholder": "যেনে- http://www.example.com",

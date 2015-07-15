@@ -7,10 +7,11 @@
 			"Gomoko",
 			"Jdforrester",
 			"NemesisIII",
-			"Mattho69"
+			"Mattho69",
+			"Wladek92"
 		]
 	},
-	"citoid-520-error": "Impossible de récupérer les informations à partir de son identifiant.",
+	"citoid-520-error": "Impossible de récupérer les informations à partir de l'identifiant fourni.",
 	"citoid-citation-widget-insert-button": "Insérer",
 	"citoid-citefromiddialog-back": "Retour",
 	"citoid-citefromiddialog-lookup-button": "Générer",

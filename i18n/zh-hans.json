@@ -20,7 +20,6 @@
 	"citoid-citefromiddialog-title": "添加一个引用",
 	"citoid-citefromiddialog-use-general-error-message": "我们不能为您做一个引用。您可以使用上方的“{{int:citoid-citefromiddialog-mode-manual}}”标签创建一个。",
 	"citoid-citefromidtool-title": "引用",
-	"citoid-dialogbutton-reference-full-tooltip": "基本参考资料",
 	"citoid-desc": "在citoid服务和MediaWiki之间提供接入点",
 	"citoid-unknown-error": "阻止创建引用时发生未知错误。请稍后再试。"
 }

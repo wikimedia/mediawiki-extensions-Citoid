@@ -1,18 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aftabuzzaman"
+			"Aftabuzzaman",
+			"NahidSultan"
 		]
 	},
 	"citoid-520-error": "প্রদানকৃত শনাক্তকারী থেকে তথ্য পুনরুদ্ধার করা যাবে না।",
 	"citoid-citation-widget-insert-button": "যোগ করো",
 	"citoid-citefromiddialog-back": "পিছনে",
 	"citoid-citefromiddialog-lookup-button": "উৎপন্ন করুন",
+	"citoid-citefromiddialog-mode-auto": "স্বয়ংক্রিয়",
+	"citoid-citefromiddialog-mode-manual": "হাতে কলমে",
+	"citoid-citefromiddialog-mode-reuse": "পুনঃব্যবহার",
 	"citoid-citefromiddialog-search": "অনুসন্ধান",
 	"citoid-citefromiddialog-search-label": "URL বা DOI",
 	"citoid-citefromiddialog-search-placeholder": "উদা. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "অনুসন্ধান করা হচ্ছে, দয়া করে অপেক্ষা করুন...",
 	"citoid-citefromiddialog-title": "একটি উদ্ধৃতি যোগ করুন",
+	"citoid-citefromiddialog-use-general-error-message": "আমরা আপনার জন্য তথ্যসূত্র তৈরী করে দিতে পারব না, কিন্তু আপনি নিজেই ম্যানুয়ালি উপরের \"{{int:citoid-citefromiddialog-mode-manual}}\" ট্যাবের মাধ্যমে তৈরী করতে পারেন।",
 	"citoid-citefromidtool-title": "উদ্ধৃতি",
-	"citoid-dialogbutton-reference-full-tooltip": "মৌলিক তথ্যসূত্র"
+	"citoid-desc": "ভিজুয়াল এডিটারের সাইটয়েড টুল ও মিডিয়াউইকির মধ্যে অ্যাক্সেস পয়েন্ট সরবরাহ করুন।",
+	"citoid-unknown-error": "একটি অজানা ত্রুটি যা আমাদের তথ্যসূত্র তৈরী করতে বাধা দিচ্ছে। অনুগ্রহ করে পুনরায় চেষ্টা করুন।"
 }

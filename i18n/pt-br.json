@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"TheEduGobi",
+			"TheGabrielZaum"
+		]
+	},
+	"citoid-520-error": "Incapaz de recuperar informações do identificador provido.",
+	"citoid-citation-widget-insert-button": "Inserir",
+	"citoid-citefromiddialog-back": "Voltar",
+	"citoid-citefromiddialog-lookup-button": "Gerar",
+	"citoid-citefromiddialog-mode-auto": "Automático",
+	"citoid-citefromiddialog-mode-manual": "Manual",
+	"citoid-citefromiddialog-mode-reuse": "Reusar",
+	"citoid-citefromiddialog-search": "Pesquisar",
+	"citoid-citefromiddialog-search-label": "URL ou DOI",
+	"citoid-citefromiddialog-search-placeholder": "por exemplo, http://www.exemplo.com",
+	"citoid-citefromiddialog-search-progress": "Pesquisando, aguarde...",
+	"citoid-citefromiddialog-title": "Adicionar uma citação",
+	"citoid-citefromiddialog-use-general-error-message": "Não pudemos criar uma citação para você. Você poderá criar uma manualmente usando a aba \"{{int:citoid-citefromiddialog-mode-manual}}\" acima.",
+	"citoid-citefromidtool-title": "Citar",
+	"citoid-desc": "Provê pontos de acesso entre o serviço Citoid e MediaWiki",
+	"citoid-unknown-error": "Ocorreu um erro desconhecido que nos impediu de criar uma citação. Tente de novo mais tarde."
+}

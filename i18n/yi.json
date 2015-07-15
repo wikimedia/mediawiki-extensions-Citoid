@@ -16,5 +16,7 @@
 	"citoid-citefromiddialog-search-placeholder": "צום ביישפיל http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "זוכן, זײט אזוי גוט און ווארט…",
 	"citoid-citefromiddialog-title": "צולייגן ציטירונג",
-	"citoid-citefromidtool-title": "ציטירן"
+	"citoid-citefromiddialog-use-general-error-message": "מיר האבן נישט געקענט צושטעלן א ציטירונג פאר אייך. איר קענט שאפן איינס מאנועל ניצנדיק דעם \"{{int:citoid-citefromiddialog-mode-manual}}\" טאב אויבן.",
+	"citoid-citefromidtool-title": "ציטירן",
+	"citoid-desc": "פארזארגט צוטריט פונקטן צווישן דער citoid־דינסט און מעדיעוויקי"
 }

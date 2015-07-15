@@ -5,9 +5,17 @@
 			"Jewel457"
 		]
 	},
+	"citoid-520-error": "Hindi mahugot ang impormasyon mula sa binaggit na identifier.",
+	"citoid-citation-widget-insert-button": "Isingit",
+	"citoid-citefromiddialog-back": "Magbalik",
+	"citoid-citefromiddialog-lookup-button": "Likhain",
+	"citoid-citefromiddialog-mode-auto": "Otomatiko",
+	"citoid-citefromiddialog-mode-reuse": "Gamiting muli",
 	"citoid-citefromiddialog-search": "Hanapin",
+	"citoid-citefromiddialog-search-label": "URL o DOI",
 	"citoid-citefromiddialog-search-placeholder": "Hal. http://www.halimbawa.com",
 	"citoid-citefromiddialog-search-progress": "Naghahanap, pakihintay lamang...",
 	"citoid-citefromiddialog-title": "Magdagdag ng isang sitasyon",
-	"citoid-citefromidtool-title": "Tukuyin"
+	"citoid-citefromidtool-title": "Tukuyin",
+	"citoid-unknown-error": "Isang hindi mawaring pagkakamali ang nangyari na humadlang sa aming gawin ang pagbabanggit. Subukin muli mamaya."
 }

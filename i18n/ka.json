@@ -5,6 +5,7 @@
 			"David1010"
 		]
 	},
+	"citoid-520-error": "წარმოდგენილი იდენტიფიკატორიდან ინფორმაციის მიღება ვერ მოხერხდა.",
 	"citoid-citation-widget-insert-button": "ჩასმა",
 	"citoid-citefromiddialog-back": "უკან",
 	"citoid-citefromiddialog-lookup-button": "გენერატორი",
@@ -12,6 +13,11 @@
 	"citoid-citefromiddialog-mode-manual": "ხელით",
 	"citoid-citefromiddialog-mode-reuse": "ხელახლა გამოყენება",
 	"citoid-citefromiddialog-search": "ძიება",
+	"citoid-citefromiddialog-search-label": "URL ან DOI",
 	"citoid-citefromiddialog-search-placeholder": "მაგ. http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "მიმდინარეობს ძიება, გთხოვთ, მოიცადოთ..."
+	"citoid-citefromiddialog-search-progress": "მიმდინარეობს ძიება, გთხოვთ, მოიცადოთ...",
+	"citoid-citefromiddialog-title": "ციტატის დამატება",
+	"citoid-citefromidtool-title": "ციტირება",
+	"citoid-desc": "უზრუნველყოფს კავშირს citoid-ის მომსახურებსა MediaWiki-ს შორის",
+	"citoid-unknown-error": "უცნობი შეცდომა არ იძლეოდა ციტატის შექმნის საშუალებას. გთხოვთ, მოგვიანებით სცადეთ."
 }
