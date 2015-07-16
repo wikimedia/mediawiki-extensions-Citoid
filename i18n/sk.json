@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kusavica"
+		]
+	},
+	"citoid-520-error": "Zo zadaného identifikátoru nebolo možné získať informácie.",
+	"citoid-citation-widget-insert-button": "Vložiť",
+	"citoid-citefromiddialog-back": "Späť",
+	"citoid-citefromiddialog-mode-auto": "Automaticky",
+	"citoid-citefromiddialog-mode-manual": "Ručne",
+	"citoid-citefromiddialog-mode-reuse": "Použiť existujúcy",
+	"citoid-citefromiddialog-search": "Hľadať",
+	"citoid-citefromiddialog-search-label": "URL alebo DOI",
+	"citoid-citefromiddialog-search-placeholder": "napr. http://www.príklad.com",
+	"citoid-citefromiddialog-search-progress": "Vyhľadávanie, prosím čakajte..."
+}

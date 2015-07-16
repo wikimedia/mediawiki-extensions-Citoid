@@ -4,8 +4,10 @@
 			"Anakmalaysia"
 		]
 	},
+	"citoid-520-error": "Tidak dapat menerima maklumat daripada pengecam yang disediakan.",
 	"citoid-citation-widget-insert-button": "Sisipkan",
 	"citoid-citefromiddialog-back": "Kembali",
+	"citoid-citefromiddialog-lookup-button": "Hasilkan",
 	"citoid-citefromiddialog-mode-auto": "Automatik",
 	"citoid-citefromiddialog-mode-manual": "Manual",
 	"citoid-citefromiddialog-mode-reuse": "Guna semula",
@@ -13,5 +15,9 @@
 	"citoid-citefromiddialog-search-label": "URL atau DOI",
 	"citoid-citefromiddialog-search-placeholder": "cth. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Sedang mencari, sila tunggu...",
-	"citoid-desc": "Menyediakan titik-titik akses antara khidmat citoid dan MediaWiki"
+	"citoid-citefromiddialog-title": "Tambah petikan",
+	"citoid-citefromiddialog-use-general-error-message": "Kami tidak dapat membuatkan petikan. Anda boleh membuat petikan secara manual dengan menggunakan tab \"{{int:citoid-citefromiddialog-mode-manual}}\" di atas.",
+	"citoid-citefromidtool-title": "Petik",
+	"citoid-desc": "Menyediakan titik-titik akses antara khidmat citoid dan MediaWiki",
+	"citoid-unknown-error": "Terjadinya ralat tidak dikenali yang telah mengganggu kami daripada menghasilkan petikan. Sila cuba lagi kemudian."
 }

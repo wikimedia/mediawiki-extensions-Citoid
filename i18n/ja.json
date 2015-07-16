@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Los688",
-			"Sujiniku"
+			"Sujiniku",
+			"Takot"
 		]
 	},
 	"citoid-520-error": "提供された識別子から情報を取得することが、できません。",
@@ -17,5 +18,6 @@
 	"citoid-citefromiddialog-search-placeholder": "例 http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "検索しています。しばらくお待ち下さい。",
 	"citoid-citefromiddialog-title": "引用を追加",
-	"citoid-citefromidtool-title": "引用"
+	"citoid-citefromidtool-title": "引用",
+	"citoid-desc": "citoid サービスとMediaWikiとの間のアクセスポイントを提供する"
 }

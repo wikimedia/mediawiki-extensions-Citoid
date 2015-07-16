@@ -1,19 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Borichèt"
+			"Borichèt",
+			"Dragonòt"
 		]
 	},
 	"citoid-520-error": "Impossìbil arcuperé j'anformassion a parte da l'identificativ fornì.",
 	"citoid-citation-widget-insert-button": "Anserì",
 	"citoid-citefromiddialog-back": "André",
 	"citoid-citefromiddialog-lookup-button": "Trové",
+	"citoid-citefromiddialog-mode-auto": "Automàtich",
+	"citoid-citefromiddialog-mode-manual": "Manual",
+	"citoid-citefromiddialog-mode-reuse": "Torna dovré",
 	"citoid-citefromiddialog-search": "Sërché",
 	"citoid-citefromiddialog-search-label": "Adrëssa an sl'Aragnà o DOI",
 	"citoid-citefromiddialog-search-placeholder": "për esempi, http://www.esempi.com",
 	"citoid-citefromiddialog-search-progress": "Arserca an cors, avèj passiensa...",
 	"citoid-citefromiddialog-title": "Gionté na sitassion",
-	"citoid-citefromiddialog-use-general-error-message": "I l'oma nen podù fé na sitassion për chiel. A peul fess-ne un-a an dovrand ël $1.",
+	"citoid-citefromiddialog-use-general-error-message": "I l'oma nen podù fé na sitassion për chiel. A peul fess-ne un-a a man an dovrand ël boton sota \"{{int:citoid-citefromiddialog-mode-manual}}\".",
 	"citoid-citefromidtool-title": "Sité",
 	"citoid-desc": "A forniss dij pont d'acess antra ël serviss citoid e MediaWiki",
 	"citoid-unknown-error": "A l'é ancapitaje n'eror dësconossù che a l'ha ampedine ëd creé na sistassion. Për piasì, ch'a preuva torna pi tard."
