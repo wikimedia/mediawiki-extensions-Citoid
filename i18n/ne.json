@@ -6,6 +6,7 @@
 			"बिप्लब आनन्द"
 		]
 	},
+	"citoid-520-error": "प्रदान गरिएको पहिचानकर्ताबाट जानकारी प्राप्त गर्न असमर्थ।",
 	"citoid-citation-widget-insert-button": "थप्ने",
 	"citoid-citefromiddialog-back": "अघिल्लो",
 	"citoid-citefromiddialog-lookup-button": "उत्पन्न",
@@ -13,8 +14,10 @@
 	"citoid-citefromiddialog-mode-manual": "स्वयं",
 	"citoid-citefromiddialog-mode-reuse": "पुनः प्रयोग",
 	"citoid-citefromiddialog-search": "खोज",
+	"citoid-citefromiddialog-search-label": "युआरयल वा डिओआई",
 	"citoid-citefromiddialog-search-placeholder": "उदाहरण http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "खोज्दै , पर्खनुहोस् ...",
 	"citoid-citefromiddialog-title": "सन्दर्भ थप्नुहोस",
+	"citoid-citefromiddialog-use-general-error-message": "हामी तपाईंको लागि एक उद्धरण बनाउन सकेनौ। तपाईं माथिल्लो ट्याब \"{{int:citoid-citefromiddialog-mode-manual}}\" लाई काममा ल्याएर म्यानुअली निर्माण गर्न सक्नुहुन्छ।",
 	"citoid-citefromidtool-title": "सन्दर्भ राख्ने"
 }

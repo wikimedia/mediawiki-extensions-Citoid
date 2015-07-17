@@ -1,24 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stryn"
+			"Stryn",
+			"Nike"
 		]
 	},
-	"citoid-520-error": "Ei voi hakea tietoja annetusta tunnisteesta.",
+	"citoid-520-error": "Tunnisteen tietojen hakeminen epäonnistui.",
 	"citoid-citation-widget-insert-button": "Aseta",
 	"citoid-citefromiddialog-back": "Takaisin",
-	"citoid-citefromiddialog-lookup-button": "Hae",
+	"citoid-citefromiddialog-lookup-button": "Tuota",
 	"citoid-citefromiddialog-mode-auto": "Automaattinen",
 	"citoid-citefromiddialog-mode-manual": "Manuaalinen",
-	"citoid-citefromiddialog-mode-reuse": "Käytä uudelleen",
+	"citoid-citefromiddialog-mode-reuse": "Uudelleenkäyttö",
 	"citoid-citefromiddialog-search": "Hae",
 	"citoid-citefromiddialog-search-label": "URL tai DOI",
 	"citoid-citefromiddialog-search-placeholder": "esim. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Haetaan, odota...",
 	"citoid-citefromiddialog-title": "Lisää viittaus",
-	"citoid-citefromiddialog-use-general-error-message": "Emme voineet luoda viitettä sinulle. Voit luoda sen automaattisesti käyttämällä yläpuolella olevaa välilehteä \"{{int:citoid-citefromiddialog-mode-manual}}\".",
+	"citoid-citefromiddialog-use-general-error-message": "Viitteen luominen epäonnistui. Voit luoda sen manuaalisesti valitsemalla välilehden {{int:citoid-citefromiddialog-mode-manual}}.",
 	"citoid-citefromidtool-title": "Viittaa",
-	"citoid-dialogbutton-reference-full-tooltip": "Perusviite",
-	"citoid-desc": "Tarjoaa yhteyspisteet citoid-palvelun ja MediaWikin välillä",
-	"citoid-unknown-error": "Tuntematon virhe tapahtui, minkä johdosta emme voineet luoda viitettä. Yritä myöhemmin uudelleen."
+	"citoid-desc": "Mahdollistaa citoid-palvelun käytön MediaWikissä",
+	"citoid-unknown-error": "Viitteen luominen epäonnistui tuntemattomasta syystä. Yritä myöhemmin uudelleen."
 }

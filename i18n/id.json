@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kenrick95"
+		]
+	},
+	"citoid-520-error": "Tidak dapat mengambil informasi dari penyedia pengenal.",
+	"citoid-citation-widget-insert-button": "Sisipkan",
+	"citoid-citefromiddialog-back": "Kembali",
+	"citoid-citefromiddialog-lookup-button": "Hasilkan",
+	"citoid-citefromiddialog-mode-auto": "Otomatis",
+	"citoid-citefromiddialog-mode-manual": "Manual",
+	"citoid-citefromiddialog-mode-reuse": "Pakai ulang",
+	"citoid-citefromiddialog-search": "Cari",
+	"citoid-citefromiddialog-search-label": "URL atau DOI",
+	"citoid-citefromiddialog-search-placeholder": "misalnya http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Mencari, silakan menunggu...",
+	"citoid-citefromiddialog-title": "Tambahkan kutipan",
+	"citoid-citefromiddialog-use-general-error-message": "Kami tidak dapat membuat kutipan untuk Anda. Anda dapat membuatnya secara manual dengan tab \"{{int:citoid-citefromiddialog-mode-manual}}\" di atas.",
+	"citoid-citefromidtool-title": "Kutip",
+	"citoid-desc": "Sediakan titik akses antara layanan kutipan dan MediaWiki",
+	"citoid-unknown-error": "Galat yang tidak diketahui menghadang kami membuat kutipan. Silakan coba lagi nanti."
+}

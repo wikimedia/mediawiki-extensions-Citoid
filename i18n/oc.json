@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Inserir",
+	"citoid-citefromiddialog-back": "Retorn",
+	"citoid-citefromiddialog-lookup-button": "Generar",
+	"citoid-citefromiddialog-mode-auto": "Automatic",
+	"citoid-citefromiddialog-mode-manual": "Manual",
+	"citoid-citefromiddialog-mode-reuse": "Reütilizar",
+	"citoid-citefromiddialog-search": "Cercar",
+	"citoid-citefromiddialog-search-label": "URL o DOI",
+	"citoid-citefromidtool-title": "Citar"
+}

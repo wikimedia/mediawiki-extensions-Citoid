@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pahles"
+		]
+	},
+	"citoid-520-error": "'t Waor neet meugelek om de gegaeves van de opgegeve identifier op te haole",
+	"citoid-citation-widget-insert-button": "Voog in",
+	"citoid-citefromiddialog-back": "Trök",
+	"citoid-citefromiddialog-lookup-button": "Aanmake",
+	"citoid-citefromiddialog-mode-auto": "Autematisj",
+	"citoid-citefromiddialog-mode-manual": "Handjmaotig",
+	"citoid-citefromiddialog-mode-reuse": "Hergebroeke",
+	"citoid-citefromiddialog-search": "Zeuke",
+	"citoid-citefromiddialog-search-label": "URL of DOI",
+	"citoid-citefromiddialog-search-placeholder": "beveurbeeld http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Bezeg mit zeuke, effe wachte...",
+	"citoid-citefromiddialog-title": "Citaat biedoon",
+	"citoid-citefromidtool-title": "Citere",
+	"citoid-desc": "Koppeltj de citoidservice en MediaWiki"
+}

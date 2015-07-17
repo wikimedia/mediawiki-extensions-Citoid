@@ -1,16 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Naudefj"
+			"Naudefj",
+			"Neil P. Quinn"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Invoeg",
 	"citoid-citefromiddialog-back": "Terug",
 	"citoid-citefromiddialog-lookup-button": "Soek",
+	"citoid-citefromiddialog-mode-auto": "Outomaties",
+	"citoid-citefromiddialog-mode-manual": "Per hand",
+	"citoid-citefromiddialog-mode-reuse": "Hergebruik",
 	"citoid-citefromiddialog-search": "Soek",
 	"citoid-citefromiddialog-search-label": "URL of DOI",
 	"citoid-citefromiddialog-search-placeholder": "b.v. http://www.voorbeeld.com",
 	"citoid-citefromiddialog-search-progress": "Besig om te soek, wag asseblief...",
 	"citoid-citefromiddialog-title": "Voeg 'n verwysing by",
-	"citoid-citefromidtool-title": "Aanhaal"
+	"citoid-citefromiddialog-use-general-error-message": "Ons kon nie 'n verwysing maak nie. Jy kan self een skep met die \"{{int:citoid-citefromiddialog-mode-manual}}\" \"tab\" hierbo.",
+	"citoid-citefromidtool-title": "Aanhaal",
+	"citoid-desc": "Verskaf toegangs punte tussen die \"citoid\" diens en MediaWiki"
 }

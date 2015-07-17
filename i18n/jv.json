@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jadinegara"
+		]
+	},
+	"citoid-520-error": "Ora bisa njupuk katrangan saka pangênal kasêdya.",
+	"citoid-citation-widget-insert-button": "Lêbokake",
+	"citoid-citefromiddialog-back": "Balik",
+	"citoid-citefromiddialog-lookup-button": "Kasilna",
+	"citoid-citefromiddialog-mode-auto": "Otomatis",
+	"citoid-citefromiddialog-mode-manual": "Mawa tangan",
+	"citoid-citefromiddialog-mode-reuse": "Dianggo balik",
+	"citoid-citefromiddialog-search": "Golèk",
+	"citoid-citefromiddialog-search-label": "URL utawa DOI",
+	"citoid-citefromiddialog-search-placeholder": "tuladha http://www.tuladha.com",
+	"citoid-citefromiddialog-search-progress": "Nggolèki, êntènana sadhela...",
+	"citoid-citefromiddialog-title": "Tambahi comotan",
+	"citoid-citefromiddialog-use-general-error-message": "Kami ora bisa nggawe comotan kanggo sira. Sira bisa anggawe dhewe nganggo tab \"{{int:citoid-citefromiddialog-mode-manual}}\" ning dhuwur.",
+	"citoid-citefromidtool-title": "Comot",
+	"citoid-desc": "Nyêdhiyani pada pakolèh antara pamong comotan lan MedhiyaWiki",
+	"citoid-unknown-error": "Kaluputan nirkalok wis kêlakon njalari ngalangi kami nggawe comotan. Sumangga jajal manèh mêngko."
+}
