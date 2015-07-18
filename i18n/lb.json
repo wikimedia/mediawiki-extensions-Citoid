@@ -11,9 +11,10 @@
 	"citoid-citefromiddialog-mode-manual": "Manuell",
 	"citoid-citefromiddialog-mode-reuse": "Nees-benotzen",
 	"citoid-citefromiddialog-search": "Sichen",
+	"citoid-citefromiddialog-search-label": "URL oder DOI",
 	"citoid-citefromiddialog-search-placeholder": "z. B. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Sichen, gedëllegt Iech w.e.g. ...",
 	"citoid-citefromiddialog-title": "En Zitat dobäisetzen",
 	"citoid-citefromidtool-title": "Zitéieren",
-	"citoid-dialogbutton-reference-full-tooltip": "Basisreferenz"
+	"citoid-unknown-error": "En onbekannte Feeler ass geschitt an deen huet eis et net erlaabt fir en Citatioun unzeleeën. Probéiert et méi spéit nach eng Kéier."
 }

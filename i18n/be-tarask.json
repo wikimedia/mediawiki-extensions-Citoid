@@ -1,9 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Renessaince"
 		]
 	},
+	"citoid-520-error": "Немагчыма атрымаць інфармацыю з пазначанага ідэнтыфікатара.",
 	"citoid-citation-widget-insert-button": "Уставіць",
-	"citoid-citefromiddialog-mode-reuse": "Паўторнае ўжываньне"
+	"citoid-citefromiddialog-back": "Назад",
+	"citoid-citefromiddialog-lookup-button": "Згенэраваць",
+	"citoid-citefromiddialog-mode-auto": "Аўтаматычна",
+	"citoid-citefromiddialog-mode-manual": "Уручную",
+	"citoid-citefromiddialog-mode-reuse": "Паўторнае ўжываньне",
+	"citoid-citefromiddialog-search": "Пошук",
+	"citoid-citefromiddialog-search-label": "URL або DOI",
+	"citoid-citefromiddialog-search-placeholder": "напрыклад http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Ідзе пошук, пачакайце, калі ласка…",
+	"citoid-citefromiddialog-title": "Дадаць цытату",
+	"citoid-citefromiddialog-use-general-error-message": "Мы не змаглі стварыць для Вас цытату. Вы можаце стварыць яе ўручную з дапамогай закладкі «{{int:citoid-citefromiddialog-mode-manual}}» ўверсе.",
+	"citoid-citefromidtool-title": "Цытаваць",
+	"citoid-desc": "Забясьпечвае кропкі досягу між сэрвісам citoid і MediaWiki",
+	"citoid-unknown-error": "Адбылася невядомая памылка, якая не дала магчымасьць стварыць цытату. Калі ласка, паспрабуйце пазьней."
 }
