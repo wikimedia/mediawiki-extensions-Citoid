@@ -3,10 +3,11 @@
 		"authors": [
 			"Reza1615",
 			"Leyth",
-			"Maspadana"
+			"Maspadana",
+			"الناز"
 		]
 	},
-	"citoid-520-error": "امکان دریافت اطلاعات از شناسه بدست آمده نیست.",
+	"citoid-520-error": "بازیابی اطلاعات از شناسه ارائه شده ممکن نیست.",
 	"citoid-citation-widget-insert-button": "درج",
 	"citoid-citefromiddialog-back": "بازگشت",
 	"citoid-citefromiddialog-lookup-button": "تولید",
@@ -15,11 +16,11 @@
 	"citoid-citefromiddialog-mode-reuse": "استفادهٔ مجدد",
 	"citoid-citefromiddialog-search": "جستجو",
 	"citoid-citefromiddialog-search-label": "URL یا DOI",
-	"citoid-citefromiddialog-search-placeholder": "مثلا http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "درحال جستجو، صبر کنید...",
-	"citoid-citefromiddialog-title": "افزودن یک یادکرد",
-	"citoid-citefromiddialog-use-general-error-message": "امکان ساخت یادکرد برای شما نیست. شما می توانید یک یادکرد دستی با استفاده از زبانهٔ {{int:citoid-citefromiddialog-mode-manual}} بسازید.",
+	"citoid-citefromiddialog-search-placeholder": "مثلاً http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "درحال جستجو، لطفاً صبر کنید...",
+	"citoid-citefromiddialog-title": "افزودن یادکرد",
+	"citoid-citefromiddialog-use-general-error-message": "نتوانستیم یادکردی برای شما بسازیم. شما می‌توانید با استفاده از زبانهٔ {{int:citoid-citefromiddialog-mode-manual}} به صورت دستی آن را بسازید.",
 	"citoid-citefromidtool-title": "یادکرد",
-	"citoid-desc": "تامین ارتباط بین سرور citoid و مدیاویکی",
-	"citoid-unknown-error": "خطای نامشخص اجازه ساخت یادکرد را نمی‌دهد. لطفا بعدا تلاش کنید."
+	"citoid-desc": "ارتباط بین خدمت citoid و مدیاویکی را برقرار می‌کند",
+	"citoid-unknown-error": "خطای نامشخصی اجازه ساخت یادکرد را نمی‌دهد. لطفاً بعداً تلاش کنید."
 }

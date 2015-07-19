@@ -2,14 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Stranger195",
-			"Jewel457"
+			"Jewel457",
+			"Sky Harbor"
 		]
 	},
 	"citoid-520-error": "Hindi mahugot ang impormasyon mula sa binaggit na identifier.",
 	"citoid-citation-widget-insert-button": "Isingit",
 	"citoid-citefromiddialog-back": "Magbalik",
 	"citoid-citefromiddialog-lookup-button": "Likhain",
-	"citoid-citefromiddialog-mode-auto": "Otomatiko",
+	"citoid-citefromiddialog-mode-auto": "Automatiko",
+	"citoid-citefromiddialog-mode-manual": "Manwal",
 	"citoid-citefromiddialog-mode-reuse": "Gamiting muli",
 	"citoid-citefromiddialog-search": "Hanapin",
 	"citoid-citefromiddialog-search-label": "URL o DOI",
