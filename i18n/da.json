@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Indsæt",
+	"citoid-citefromiddialog-back": "Tilbage",
+	"citoid-citefromiddialog-mode-auto": "Automatisk",
+	"citoid-citefromiddialog-search": "Søg",
+	"citoid-citefromiddialog-search-label": "URL eller DOI"
+}

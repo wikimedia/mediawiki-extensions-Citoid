@@ -15,5 +15,7 @@
 	"citoid-citefromiddialog-search-placeholder": "холобур, http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Көрдүүбүт, кэтэс дуу...",
 	"citoid-citefromiddialog-title": "Сытаата эбии",
-	"citoid-citefromidtool-title": "Сытаата"
+	"citoid-citefromidtool-title": "Сытаата",
+	"citoid-desc": "Сигэлиир сулууспа уонна MediaWiki ыккардыларыгар ситим олохтуур",
+	"citoid-unknown-error": "Туох эрэ алҕас тахсан, сигэниини оҥорор табыллыбата. Бука диэн кэлин хатылаан көрөөр."
 }
