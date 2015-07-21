@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muhammad Shuaib"
+		]
+	},
+	"citoid-citation-widget-insert-button": "درج کریں",
+	"citoid-citefromiddialog-back": "پیچھے",
+	"citoid-citefromiddialog-lookup-button": "تولید",
+	"citoid-citefromiddialog-mode-auto": "خودکار",
+	"citoid-citefromiddialog-mode-manual": "دستی",
+	"citoid-citefromiddialog-mode-reuse": "دوبارہ استعمال کریں",
+	"citoid-citefromiddialog-search": "تلاش",
+	"citoid-citefromiddialog-search-label": "URL اور DOI",
+	"citoid-citefromiddialog-search-placeholder": "مثلا http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "تلاش جاری ہے، براہ کرم انتظار کریں...",
+	"citoid-citefromiddialog-title": "حوالہ درج کریں"
+}
