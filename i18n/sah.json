@@ -4,6 +4,7 @@
 			"HalanTul"
 		]
 	},
+	"citoid-520-error": "Бэриллибит идентификаторы туһанар сатаммата.",
 	"citoid-citation-widget-insert-button": "Ук",
 	"citoid-citefromiddialog-back": "Төнүн",
 	"citoid-citefromiddialog-lookup-button": "Оҥор",
@@ -15,6 +16,7 @@
 	"citoid-citefromiddialog-search-placeholder": "холобур, http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Көрдүүбүт, кэтэс дуу...",
 	"citoid-citefromiddialog-title": "Сытаата эбии",
+	"citoid-citefromiddialog-use-general-error-message": "Сытаата оҥорор табыллыбата. Үөһэ көстөр кыбытыкка баар бу тимэҕи туһанан  \"{{int:citoid-citefromiddialog-mode-manual}}\" бэйэҥ оҥоруоххун сөп.",
 	"citoid-citefromidtool-title": "Сытаата",
 	"citoid-desc": "Сигэлиир сулууспа уонна MediaWiki ыккардыларыгар ситим олохтуур",
 	"citoid-unknown-error": "Туох эрэ алҕас тахсан, сигэниини оҥорор табыллыбата. Бука диэн кэлин хатылаан көрөөр."
