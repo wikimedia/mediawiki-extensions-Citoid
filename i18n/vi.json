@@ -2,23 +2,24 @@
 	"@metadata": {
 		"authors": [
 			"Dinhxuanduyet",
-			"Anh88"
+			"Anh88",
+			"Minh Nguyen"
 		]
 	},
-	"citoid-520-error": "Không thể truy vấn thông tin từ định danh đã cho",
+	"citoid-520-error": "Không thể lấy thông tin từ định danh được cung cấp.",
 	"citoid-citation-widget-insert-button": "Chèn",
-	"citoid-citefromiddialog-back": "Trở về (trang / mục trước)",
+	"citoid-citefromiddialog-back": "Quay lại",
 	"citoid-citefromiddialog-lookup-button": "Phát sinh",
 	"citoid-citefromiddialog-mode-auto": "Tự động",
-	"citoid-citefromiddialog-mode-manual": "Thủ công / bằng tay",
-	"citoid-citefromiddialog-mode-reuse": "Tái sử dụng / dùng lại",
+	"citoid-citefromiddialog-mode-manual": "Thủ công",
+	"citoid-citefromiddialog-mode-reuse": "Tái sử dụng",
 	"citoid-citefromiddialog-search": "Tìm kiếm",
 	"citoid-citefromiddialog-search-label": "URL hoặc DOI",
-	"citoid-citefromiddialog-search-placeholder": "Ví dụ như: http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "Đang tìm, vui lòng chờ ...",
-	"citoid-citefromiddialog-title": "Thêm một trích dẫn",
-	"citoid-citefromiddialog-use-general-error-message": "Chúng tôi đã không thể tạo một trích dẫn cho bạn. Bạn có thể tạo một cái khác một cách thủ công sử dụng thẻ \"{{int:citoid-citefromiddialog-mode-manual}}\" bên trên",
-	"citoid-citefromidtool-title": "Trích dẫn",
-	"citoid-desc": "Cung cấp các điểm truy cập giữa Dịch vụ citoid và MediaWiki",
-	"citoid-unknown-error": "Một lỗi chưa rõ đã xảy ra đã khiến chúng tôi không thể tạo được một trích dẫn. Xin vui lòng thử lại sau."
+	"citoid-citefromiddialog-search-placeholder": "ví dụ http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Đang tìm, vui lòng chờ…",
+	"citoid-citefromiddialog-title": "Thêm chú thích",
+	"citoid-citefromiddialog-use-general-error-message": "Không thể tạo một chú thích cho bạn. Bạn có thể tạo ra nó một cách thủ công dùng thẻ “{{int:citoid-citefromiddialog-mode-manual}}” bên trên.",
+	"citoid-citefromidtool-title": "Chú thích",
+	"citoid-desc": "Cung cấp các điểm truy cập giữa dịch vụ citoid và MediaWiki",
+	"citoid-unknown-error": "Một lỗi không rõ đã xảy ra, khiến chúng tôi không thể tạo được một chú thích. Xin vui lòng thử lại sau."
 }
