@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"William915",
-			"Shinjiman"
+			"Shinjiman",
+			"CRCHF"
 		]
 	},
+	"citoid-520-error": "唔可以喺畀出嘅鑒定器度攞信息。",
 	"citoid-citation-widget-insert-button": "插入",
 	"citoid-citefromiddialog-back": "返轉頭",
 	"citoid-citefromiddialog-lookup-button": "生成",
