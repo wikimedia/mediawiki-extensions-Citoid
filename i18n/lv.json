@@ -6,7 +6,12 @@
 	},
 	"citoid-citation-widget-insert-button": "Ievietot",
 	"citoid-citefromiddialog-back": "Atpakaļ",
+	"citoid-citefromiddialog-lookup-button": "Ģenerēt",
+	"citoid-citefromiddialog-mode-auto": "Automātiski",
+	"citoid-citefromiddialog-mode-manual": "Manuāli",
+	"citoid-citefromiddialog-search": "Meklēt",
 	"citoid-citefromiddialog-search-label": "URL vai DOI",
 	"citoid-citefromiddialog-search-placeholder": "piemēram, http://www.piemers.com",
-	"citoid-citefromiddialog-search-progress": "Meklē, lūdzu, uzgaidiet..."
+	"citoid-citefromiddialog-search-progress": "Meklē, lūdzu, uzgaidiet...",
+	"citoid-citefromiddialog-title": "Pievienot atsauci"
 }

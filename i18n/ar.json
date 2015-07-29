@@ -18,5 +18,6 @@
 	"citoid-citefromiddialog-search-progress": "البحث جار، برجاء الانتظار...",
 	"citoid-citefromiddialog-title": "إضافة استشهاد",
 	"citoid-citefromidtool-title": "استشهد",
-	"citoid-desc": "يوفر نقطة وصول بين citoid وميدياويكي"
+	"citoid-desc": "يوفر نقطة وصول بين citoid وميدياويكي",
+	"citoid-unknown-error": "حدث خطأ غير معلوم منعنا من إنشاء استشهاد. برجاء المحاولة في وقت لاحق."
 }
