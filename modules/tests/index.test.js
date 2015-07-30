@@ -1981,7 +1981,7 @@ QUnit.test( 'Mismatched templateData; 2D Array (cit) / String (td) mismatch', 2,
 
 } );
 
-QUnit.test( 'Unbalanced templateData', 2, function ( assert ) {
+QUnit.test( 'Unbalanced templateData; mixed String and Array', 2, function ( assert ) {
 	var expected = {
 		target: {
 			wt: 'Cite web',
@@ -2053,7 +2053,7 @@ QUnit.test( 'Unbalanced templateData', 2, function ( assert ) {
 
 } );
 
-QUnit.test( 'Unbalanced citation', 2, function ( assert ) {
+QUnit.test( 'Unbalanced templateData; jagged Array', 2, function ( assert ) {
 	var expected = {
 		target: {
 			wt: 'Cite web',
@@ -2075,6 +2075,9 @@ QUnit.test( 'Unbalanced citation', 2, function ( assert ) {
 			last: {
 				wt: 'Last'
 			},
+			first2: {
+				wt: 'First2'
+			}
 		},
 		i: 0
 	},
@@ -2087,7 +2090,76 @@ QUnit.test( 'Unbalanced citation', 2, function ( assert ) {
 			'978-3-16-148410-0',
 			'this text should not appear anywhere'
 		],
-		author: [ // Jagged array
+		author: [
+			[ 'First', 'Last' ],
+			[ 'First2', 'Last2' ]
+		]
+	},
+	maps = {
+		citoid: {
+			title: 'title',
+			url: 'url',
+			publicationTitle: 'website',
+			publisher: 'publisher',
+			date: 'date',
+			PMCID: 'pmc',
+			PMID: 'pmid',
+			pages: 'pages',
+			series: 'series',
+			accessDate: 'accessdate',
+			DOI: 'doi',
+			language: 'language',
+			isbn: [ 'isbn' ],
+			author: [ // Jagged array
+				[ 'first', 'last' ],
+				[ 'first2' ],
+				[ 'first3', 'last3' ]
+			],
+			editor: [
+				[ 'editor-first', 'editor-last' ]
+			]
+		}
+	};
+
+	return testMaps( maps, citation, expected, assert );
+
+} );
+
+QUnit.test( 'Unbalanced citation; mixed String and Array', 2, function ( assert ) {
+	var expected = {
+		target: {
+			wt: 'Cite web',
+			href: './Template:Cite_web'
+		},
+		params: {
+			title: {
+				wt: 'Example Domain'
+			},
+			url: {
+				wt: 'http://www.example.com/'
+			},
+			isbn: {
+				wt: '978-3-16-148410-0'
+			},
+			first: {
+				wt: 'First'
+			},
+			last: {
+				wt: 'Last'
+			}
+		},
+		i: 0
+	},
+	citation =
+	{
+		title: 'Example Domain',
+		itemType: 'webpage',
+		url: 'http://www.example.com/',
+		isbn: [
+			'978-3-16-148410-0',
+			'this text should not appear anywhere'
+		],
+		author: [ // Mixed strings and list inside list
 			[ 'First', 'Last' ],
 			'First2'
 		]
@@ -2110,6 +2182,200 @@ QUnit.test( 'Unbalanced citation', 2, function ( assert ) {
 			author: [
 				[ 'first', 'last' ],
 				[ 'first2', 'last2' ]
+			],
+			editor: [
+				[ 'editor-first', 'editor-last' ]
+			]
+		}
+	};
+
+	return testMaps( maps, citation, expected, assert );
+
+} );
+
+QUnit.test( 'Empty strings in citation; Flat parameter', 2, function ( assert ) {
+	// Test should not add parameters where the citation value is an empty string
+	var expected = {
+		target: {
+			wt: 'Cite web',
+			href: './Template:Cite_web'
+		},
+		params: {
+			title: {
+				wt: 'Example Domain'
+			},
+			url: {
+				wt: 'http://www.example.com/'
+			}
+		},
+		i: 0
+	},
+	citation =
+	{
+		title: 'Example Domain',
+		itemType: 'webpage',
+		url: 'http://www.example.com/',
+		publisher: ''
+	},
+	maps = {
+		citoid: {
+			title: 'title',
+			url: 'url',
+			publicationTitle: 'website',
+			publisher: 'publisher',
+			date: 'date',
+			PMCID: 'pmc',
+			PMID: 'pmid',
+			pages: 'pages',
+			series: 'series',
+			accessDate: 'accessdate',
+			DOI: 'doi',
+			language: 'language',
+			isbn: [ 'isbn' ],
+			author: [
+				[ 'first', 'last' ],
+				[ 'first2', 'last2' ],
+				[ 'first3', 'last3' ]
+			],
+			editor: [
+				[ 'editor-first', 'editor-last' ]
+			]
+		}
+	};
+
+	return testMaps( maps, citation, expected, assert );
+
+} );
+
+QUnit.test( 'Empty strings in citation; 1D Array', 2, function ( assert ) {
+	// Test should not add parameters where the citation value is an empty string
+	var expected = {
+		target: {
+			wt: 'Cite web',
+			href: './Template:Cite_web'
+		},
+		params: {
+			title: {
+				wt: 'Example Domain'
+			},
+			url: {
+				wt: 'http://www.example.com/'
+			},
+			first: {
+				wt: 'First'
+			},
+			last: {
+				wt: 'Last'
+			}
+		},
+		i: 0
+	},
+	citation =
+	{
+		title: 'Example Domain',
+		itemType: 'webpage',
+		url: 'http://www.example.com/',
+		isbn: [
+			'', // Empty string- should not be added
+			'this text should not appear anywhere'
+		],
+		author: [
+			[ 'First', 'Last' ]
+		]
+	},
+	maps = {
+		citoid: {
+			title: 'title',
+			url: 'url',
+			publicationTitle: 'website',
+			publisher: 'publisher',
+			date: 'date',
+			PMCID: 'pmc',
+			PMID: 'pmid',
+			pages: 'pages',
+			series: 'series',
+			accessDate: 'accessdate',
+			DOI: 'doi',
+			language: 'language',
+			isbn: [ 'isbn' ],
+			author: [
+				[ 'first', 'last' ],
+				[ 'first2', 'last2' ],
+				[ 'first3', 'last3' ]
+			],
+			editor: [
+				[ 'editor-first', 'editor-last' ]
+			]
+		}
+	};
+
+	return testMaps( maps, citation, expected, assert );
+
+} );
+
+QUnit.test( 'Empty strings in citation; 2D Array', 2, function ( assert ) {
+	// Test should not add parameters where the citation value is an empty string
+	// Empty strings are expected in the authors field occasionally from citoid
+	var expected = {
+		target: {
+			wt: 'Cite web',
+			href: './Template:Cite_web'
+		},
+		params: {
+			title: {
+				wt: 'Example Domain'
+			},
+			url: {
+				wt: 'http://www.example.com/'
+			},
+			isbn: {
+				wt: '978-3-16-148410-0'
+			},
+			first: {
+				wt: 'First'
+			},
+			last: {
+				wt: 'Last'
+			},
+			last2: {
+				wt: 'Last2'
+			}
+		},
+		i: 0
+	},
+	citation =
+	{
+		title: 'Example Domain',
+		itemType: 'webpage',
+		url: 'http://www.example.com/',
+		isbn: [
+			'978-3-16-148410-0',
+			'this text should not appear anywhere'
+		],
+		author: [
+			[ 'First', 'Last' ],
+			[ '', 'Last2' ]
+		]
+	},
+	maps = {
+		citoid: {
+			title: 'title',
+			url: 'url',
+			publicationTitle: 'website',
+			publisher: 'publisher',
+			date: 'date',
+			PMCID: 'pmc',
+			PMID: 'pmid',
+			pages: 'pages',
+			series: 'series',
+			accessDate: 'accessdate',
+			DOI: 'doi',
+			language: 'language',
+			isbn: [ 'isbn' ],
+			author: [
+				[ 'first', 'last' ],
+				[ 'first2', 'last2' ],
+				[ 'first3', 'last3' ]
 			],
 			editor: [
 				[ 'editor-first', 'editor-last' ]
@@ -2195,3 +2461,4 @@ QUnit.test( 'Invalid templateData; Object in citation and templateData', 2, func
 	return testMaps( maps, citation, expected, assert );
 
 } );
+
