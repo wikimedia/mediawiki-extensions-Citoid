@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Metalhead64",
-			"Purodha"
+			"Purodha",
+			"DerHexer"
 		]
 	},
 	"citoid-520-error": "Informationen von der angegebenen Bezeichnung konnten nicht abgerufen werden.",
@@ -16,10 +17,9 @@
 	"citoid-citefromiddialog-search-label": "URL oder DOI",
 	"citoid-citefromiddialog-search-placeholder": "z.&nbsp;B. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Suche, bitte warten …",
-	"citoid-citefromiddialog-title": "Ein Zitat hinzufügen",
-	"citoid-citefromiddialog-use-general-error-message": "Wir konnten für dich kein Zitat erstellen. Du kannst eines manuell durch Verwendung der obigen Registerkarte „{{int:citoid-citefromiddialog-mode-manual}}“ erstellen.",
-	"citoid-citefromidtool-title": "Zitieren",
-	"citoid-dialogbutton-reference-full-tooltip": "Basisreferenz",
+	"citoid-citefromiddialog-title": "Einen Beleg hinzufügen",
+	"citoid-citefromiddialog-use-general-error-message": "Wir konnten für dich keinen Beleg erstellen. Du kannst einen manuell durch Verwendung der obigen Registerkarte „{{int:citoid-citefromiddialog-mode-manual}}“ erstellen.",
+	"citoid-citefromidtool-title": "Belegen",
 	"citoid-desc": "Schafft Zugriffspunkte zwischen dem Citoid-Dienst und MediaWiki",
 	"citoid-unknown-error": "Ein unbekannter Fehler ist aufgetreten, der uns daran hindert, ein Zitat zu erstellen. Bitte später erneut versuchen."
 }
