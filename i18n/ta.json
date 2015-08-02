@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Info-farmer"
+			"Info-farmer",
+			"Dineshkumar Ponnusamy"
 		]
 	},
 	"citoid-520-error": "உரிய இனங்காட்டியிலிருந்து தகவலைப் பெற இயலவில்லை.",
-	"citoid-citation-widget-insert-button": "நுழை",
+	"citoid-citation-widget-insert-button": "புகுத்து",
 	"citoid-citefromiddialog-back": "பின்னால்",
 	"citoid-citefromiddialog-lookup-button": "உருவாக்கு",
 	"citoid-citefromiddialog-mode-auto": "தானியக்கம்",

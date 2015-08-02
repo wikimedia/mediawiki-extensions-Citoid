@@ -17,5 +17,7 @@
 	"citoid-citefromiddialog-search-progress": "د حال جستن،لطفا بونیت...",
 	"citoid-citefromiddialog-title": "اضاف کردن یه استناد",
 	"citoid-citefromiddialog-use-general-error-message": "ایما نیتریم سی ایشا استناد درست کنیم.ایشا ایترید سی خوتون یکی دستی وا تب بالا \"{{int:citoid-citefromiddialog-mode-manual}}\" درست کنیت.",
-	"citoid-citefromidtool-title": "ویرکرد سرچشمه"
+	"citoid-citefromidtool-title": "ویرکرد سرچشمه",
+	"citoid-desc": "ئیرتیباط بین ھ خیدمأت citoid ڤ میدیاڤیکی نە راس ئیکۉنە",
+	"citoid-unknown-error": "خأطایی نامۉشأخأص ئیجازھ ھ راس کیردأن ھ یادکأرد رنە نیدھ. لۉطفاً بأعدا تألاش کۉنیت."
 }
