@@ -16,10 +16,10 @@
 	"citoid-citefromiddialog-search": "검색",
 	"citoid-citefromiddialog-search-label": "URL 또는 DOI",
 	"citoid-citefromiddialog-search-placeholder": "예 http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "검색 중입니다, 잠시 기다려주세요...",
+	"citoid-citefromiddialog-search-progress": "검색 중입니다, 기다려주세요...",
 	"citoid-citefromiddialog-title": "인용 추가",
-	"citoid-citefromiddialog-use-general-error-message": "우리는 당신을 위한 인용을 만들 수 없습니다. {{int:citoid-citefromiddialog-mode-manual}}탭에서 인용을 직접 만들 수 있습니다.",
+	"citoid-citefromiddialog-use-general-error-message": "당신을 위한 인용을 만들 수 없습니다. 위의 \"{{int:citoid-citefromiddialog-mode-manual}}\" 탭에서 인용을 직접 만들 수 있습니다.",
 	"citoid-citefromidtool-title": "인용",
 	"citoid-desc": "Citoid 서비스와 미디어위키 사이의 액세스 포인트를 제공합니다",
-	"citoid-unknown-error": "알 수 없는 오류가 발생하여 인용을 만드는데 실패하였습니다. 잠시 후에 다시 시도해 보세요."
+	"citoid-unknown-error": "알 수 없는 오류가 발생하여 인용을 만드는 것을 막았습니다. 나중에 다시 시도하세요."
 }
