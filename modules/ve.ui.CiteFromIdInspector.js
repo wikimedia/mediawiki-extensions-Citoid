@@ -56,13 +56,13 @@ ve.ui.CiteFromIdInspector.static.citoidFormat = 'mediawiki';
 ve.ui.CiteFromIdInspector.static.actions = [
 	{
 		label: OO.ui.deferMsg( 'visualeditor-dialog-action-cancel' ),
-		flags: 'safe',
+		flags: [ 'safe', 'back' ],
 		modes: [ 'auto-lookup', 'manual', 'reuse' ]
 	},
 	{
 		action: 'back',
 		label: OO.ui.deferMsg( 'citoid-citefromiddialog-back' ),
-		flags: 'safe',
+		flags: [ 'safe', 'back' ],
 		modes: [ 'auto-result' ]
 	}
 ];
