@@ -23,6 +23,10 @@
 		// to replace. This way, if toolbarGroups are changed in VE code
 		// we won't have to manually change the index here.
 		for ( j = 0, jLen = toolGroups.length; j < jLen; j++ ) {
+			if ( ve.getProp( toolGroups[j], 'include', 0 ) === 'citefromid' ) {
+				citeIndex = -1;
+				break;
+			}
 			if ( ve.getProp( toolGroups[j], 'include', 0, 'group' ) === 'cite' ) {
 				citeIndex = j;
 				break;
@@ -30,7 +34,9 @@
 		}
 
 		// HACK: Replace the previous cite group with the citoid tool.
-		toolGroups[ citeIndex ] = { include: [ 'citefromid' ] };
+		if ( citeIndex !== -1 ) {
+			toolGroups[ citeIndex ] = { include: [ 'citefromid' ] };
+		}
 	}
 
 	/**
