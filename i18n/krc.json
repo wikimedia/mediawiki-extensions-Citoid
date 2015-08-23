@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Iltever"
+			"Iltever",
+			"Ernác"
 		]
 	},
 	"citoid-520-error": "Берилген идентификатордан информация алынмады",
@@ -17,5 +18,6 @@
 	"citoid-citefromiddialog-search-progress": "Излеу барады, сакъла...",
 	"citoid-citefromiddialog-title": "Цитатаны къош",
 	"citoid-citefromiddialog-use-general-error-message": "Цитата эталмадыкъ сизге. Башыракъдагъы \"{{int:citoid-citefromiddialog-mode-manual}}\" тиек бла къураб кёрюрге боллукъса.",
-	"citoid-citefromidtool-title": "Цитата этиу"
+	"citoid-citefromidtool-title": "Цитата этиу",
+	"citoid-desc": "Citoid сервис бла MediaWiki'ни арасында байламны баджарады"
 }

@@ -3,7 +3,8 @@
 		"authors": [
 			"William915",
 			"Shinjiman",
-			"CRCHF"
+			"CRCHF",
+			"Yueman"
 		]
 	},
 	"citoid-520-error": "唔可以喺畀出嘅鑒定器度攞信息。",
@@ -18,6 +19,8 @@
 	"citoid-citefromiddialog-search-placeholder": "例如 http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "搵緊，請等陣……",
 	"citoid-citefromiddialog-title": "加個引用",
+	"citoid-citefromiddialog-use-general-error-message": "我哋無辦法幫你整引用。 你可以用上面 \"{{int:citoid-citefromiddialog-mode-manual}}\" 頁籤自己搞。",
 	"citoid-citefromidtool-title": "引用",
+	"citoid-desc": "提供喺 citoid 服務同 MediaWiki 之間嘅存取點",
 	"citoid-unknown-error": "發生咗未知錯誤，所以建立唔到引用，麻煩遲啲再試過。"
 }
