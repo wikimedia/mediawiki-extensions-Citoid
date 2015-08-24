@@ -194,7 +194,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	this.autoProcessPanels.result.$element.append( this.previewSelectWidget.$element );
 
 	// Manual mode
-	this.sourceSelect = new ve.ui.MWReferenceSourceSelectWidget( {
+	this.sourceSelect = new ve.ui.CiteSourceSelectWidget( {
 		classes: [ 've-ui-citeFromIdInspector-sourceSelect' ]
 	} );
 	this.modePanels.manual.$element.append( this.sourceSelect.$element );

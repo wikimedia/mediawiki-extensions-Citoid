@@ -21,6 +21,7 @@
 	"ResourceModules": {
 		"ext.citoid.visualEditor": {
 			"scripts": [
+				"modules/ve.ui.CiteSourceSelectWidget.js",
 				"modules/ve.ui.CiteFromIdInspectorTool.js",
 				"modules/ve.ui.CiteFromIdGroupWidget.js",
 				"modules/ve.ui.CiteFromIdReferenceWidget.js",
@@ -28,6 +29,7 @@
 				"modules/ve.ui.CitoidAction.js"
 			],
 			"styles": [
+				"modules/ve.ui.CiteSourceSelectWidget.css",
 				"modules/ve.ui.CiteFromIdInspector.css"
 			],
 			"dependencies": [

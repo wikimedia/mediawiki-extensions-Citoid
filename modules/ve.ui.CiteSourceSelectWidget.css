@@ -1,0 +1,7 @@
+/*!
+ * VisualEditor UserInterface CiteSourceSelectWidget styles.
+ */
+
+.ve-ui-citeSourceSelectWidget-separator {
+	border-top: 1px solid #ccc;
+}
