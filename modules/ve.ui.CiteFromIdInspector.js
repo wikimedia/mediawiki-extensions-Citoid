@@ -403,7 +403,7 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 			this.fragment = this.getFragment().collapseToEnd();
 
 			// Create model
-			this.referenceModel = new ve.dm.MWReferenceModel();
+			this.referenceModel = new ve.dm.MWReferenceModel( this.fragment.getDocument() );
 
 			this.search.setInternalList( this.getFragment().getDocument().getInternalList() );
 			this.modeSelect.getItemFromData( 'reuse' ).setDisabled( this.search.isIndexEmpty() );
