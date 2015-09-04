@@ -254,9 +254,8 @@ ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( panelName, process
 		panelName = 'auto';
 	} else if ( panelName === 'reuse' && this.modeSelect.getItemFromData( 'reuse' ).isDisabled() ) {
 		panelName = 'auto';
-	} else if ( panelName !== mw.user.options.get( 'citoid-mode', 'auto' ) ) {
-		new mw.Api().saveOption( 'citoid-mode', panelName ); // for future page views
-		mw.user.options.set( 'citoid-mode', panelName ); // for this page view
+	} else if ( panelName !== ( ve.userConfig( 'citoid-mode' ) || 'auto' ) ) {
+		ve.userConfig( 'citoid-mode', panelName );
 	}
 
 	this.modeStack.setItem( this.modePanels[panelName] );
@@ -428,7 +427,7 @@ ve.ui.CiteFromIdInspector.prototype.getReadyProcess = function ( data ) {
 	return ve.ui.CiteFromIdInspector.super.prototype.getReadyProcess.call( this, data )
 		.next( function () {
 			// Set the panel after ready as it focuses the input too
-			this.setModePanel( mw.user.options.get( 'citoid-mode' ), 'lookup' );
+			this.setModePanel( ve.userConfig( 'citoid-mode' ), 'lookup' );
 		}, this );
 };
 
