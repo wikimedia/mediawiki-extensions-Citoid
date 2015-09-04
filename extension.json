@@ -16,7 +16,8 @@
 		]
 	},
 	"AutoloadClasses": {
-		"CitoidHooks": "Citoid.hooks.php"
+		"CitoidHooks": "Citoid.hooks.php",
+		"CitoidDataModule": "CitoidDataModule.php"
 	},
 	"ResourceModules": {
 		"ext.citoid.visualEditor": {
@@ -36,7 +37,8 @@
 				"ext.visualEditor.mwreference",
 				"json",
 				"ext.visualEditor.mediawiki",
-				"mediawiki.api.options"
+				"mediawiki.api.options",
+				"ext.citoid.visualEditor.data"
 			],
 			"messages": [
 				"citoid-520-error",
@@ -60,6 +62,9 @@
 				"desktop",
 				"mobile"
 			]
+		},
+		"ext.citoid.visualEditor.data": {
+			"class": "CitoidDataModule"
 		}
 	},
 	"ResourceFileModulePaths": {
