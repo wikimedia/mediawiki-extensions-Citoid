@@ -80,7 +80,11 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	// Parent method
 	ve.ui.CiteFromIdInspector.super.prototype.initialize.call( this );
 
-	this.templateTypeMap = JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
+	try {
+		this.templateTypeMap = JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
+	} catch ( e ) {
+		this.templateTypeMap = JSON.parse( mw.message( 'citoid-template-type-map-backup.json' ).plain() );
+	}
 	// Get the available tools for their titles and icons
 	try {
 		// Must use mw.message to avoid JSON being parsed as Wikitext
