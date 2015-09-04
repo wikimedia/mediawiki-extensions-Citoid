@@ -3,7 +3,12 @@
 	try {
 		JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
 	} catch ( e ) {
-		return;
+		// Temporary hack for T93800
+		try {
+			JSON.parse( mw.message( 'citoid-template-type-map-backup.json' ).plain() );
+		} catch ( e2 ) {
+			return;
+		}
 	}
 
 	// HACK: Find the position of the current citation toolbar definition
