@@ -5,7 +5,8 @@
 			"Pikne",
 			"Umherirrender",
 			"Amire80",
-			"Raymond"
+			"Raymond",
+			"Purodha"
 		]
 	},
 	"citoid-520-error": "Error message for when citoid service returns a 520 error",
@@ -20,7 +21,7 @@
 	"citoid-citefromiddialog-search-placeholder": "Placeholder for the URL/DOI search field.",
 	"citoid-citefromiddialog-search-progress": "Message for when the search is in progress",
 	"citoid-citefromiddialog-title": "The title displayed on the dialog",
-	"citoid-citefromiddialog-use-general-error-message": "Label notifying the user there was a problem creating their reference, and offering to use the full citation tool.\n* $1 – link to open the citation dialog; link label: {{msg-mw|citoid-citefromiddialog-mode-manual}}",
+	"citoid-citefromiddialog-use-general-error-message": "Label notifying the user there was a problem creating their reference, and offering to use the full citation tool.\n* $1 – link to open the citation dialog; link label: {{msg-mw|Citoid-citefromiddialog-mode-manual}}",
 	"citoid-citefromidtool-title": "Label for the button to add a citation in the toolbar\n{{Identical|Cite}}",
 	"citoid-desc": "{{desc|name=Citoid|url=https://www.mediawiki.org/wiki/Citoid}}",
 	"citoid-unknown-error": "Error message indicating that the service to create citations has returned an error or is temporarily malfunctioning, asking the user to try again later."

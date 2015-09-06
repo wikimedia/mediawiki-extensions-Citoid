@@ -16,7 +16,7 @@
 	"citoid-citefromiddialog-search-placeholder": "För e Beischpell: http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Ben aam Söhkre, ene Monemang&nbsp;…",
 	"citoid-citefromiddialog-title": "Donn e Zittaht derbei.",
-	"citoid-citefromiddialog-use-general-error-message": "Mer kunnte kei Zettaht zesamme krijje.\nDo kanns ävver eins vun Hand maache, jangk op der „{{int:citoid-citeFromIDDialog-use-general-dialog-button}}“-Knopp.",
+	"citoid-citefromiddialog-use-general-error-message": "Mer kunnte automattesch keij Zettaht zesamme krijje. Do kanns ävver övver „{{int:citoid-citefromiddialog-mode-manual}}“ ein vun Hand ennjävve.",
 	"citoid-citefromidtool-title": "Zėttėhre",
 	"citoid-desc": "Schaff Zohjreffspungkte zwesche däm Deens <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Generate citations given an URL, URI, DOI, …\">Citoid</i> un MedijaWikki.",
 	"citoid-unknown-error": "Ene onbikannte Fähler es opjetrodde.\nDröm krijje mer jäz kein Zittaht.\nBes esu johd un versöhg et schpääder norr_ens."
