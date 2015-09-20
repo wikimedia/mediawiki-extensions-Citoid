@@ -6,9 +6,13 @@
 	margin: 0;
 }
 
-.citoid-citeFromIDDialog-panel-auto,
-.citoid-citeFromIDDialog-panel-manual {
-	margin: 0.75em;
+.oo-ui-indexLayout-stackLayout > .citoid-citeFromIDDialog-panel-auto,
+.oo-ui-indexLayout-stackLayout > .citoid-citeFromIDDialog-panel-manual {
+	padding: 0.75em;
+}
+
+.oo-ui-indexLayout-stackLayout > .citoid-citeFromIDDialog-panel-reuse {
+	padding: 0;
 }
 
 .ve-ui-citeFromIdInspector-search {
@@ -25,7 +29,6 @@
 
 .ve-ui-citeFromIdInspector-preview {
 	max-height: 15em;
-	margin-top: 1em;
 	padding: 0.5em;
 	overflow-y: auto;
 }
@@ -58,6 +61,7 @@
 
 .ve-ui-citeFromIdReferenceWidget-insert-button {
 	float: right;
+	margin-right: 0;
 }
 
 .ve-ui-citeFromIdInspector-dialog-error {

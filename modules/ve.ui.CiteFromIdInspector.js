@@ -105,46 +105,38 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		}
 	} );
 
-	this.modeSelect = new OO.ui.TabSelectWidget( {
-		classes: [ 've-ui-citeFromIdInspector-modeSelect' ],
-		items: [
-			new OO.ui.TabOptionWidget( {
-				data: 'auto',
-				label: ve.msg( 'citoid-citefromiddialog-mode-auto' )
-			} ),
-			new OO.ui.TabOptionWidget( {
-				data: 'manual',
-				label: ve.msg( 'citoid-citefromiddialog-mode-manual' )
-			} ),
-			new OO.ui.TabOptionWidget( {
-				data: 'reuse',
-				label: ve.msg( 'citoid-citefromiddialog-mode-reuse' )
-			} )
-		]
-	} );
-
 	// Modes
-	this.modeStack = new OO.ui.StackLayout( {
-		expanded: false,
+	this.modeIndex = new OO.ui.IndexLayout( {
 		scrollable: false
 	} );
 
+	// HACK: Make this an option upstream
+	this.modeIndex.stackLayout.$element.removeClass( 'oo-ui-panelLayout-expanded' );
+
 	this.modePanels = {
-		auto: new OO.ui.PanelLayout( {
+		auto: new OO.ui.CardLayout( 'auto', {
+			label: ve.msg( 'citoid-citefromiddialog-mode-auto' ),
 			classes: [ 'citoid-citeFromIDDialog-panel-auto' ],
 			expanded: false,
 			scrollable: false
 		} ),
-		manual: new OO.ui.PanelLayout( {
+		manual: new OO.ui.CardLayout( 'manual', {
+			label: ve.msg( 'citoid-citefromiddialog-mode-manual' ),
 			classes: [ 'citoid-citeFromIDDialog-panel-manual' ],
 			expanded: false,
 			scrollable: false
 		} ),
-		reuse: new OO.ui.PanelLayout( {
+		reuse: new OO.ui.CardLayout( 'reuse', {
+			label: ve.msg( 'citoid-citefromiddialog-mode-reuse' ),
 			classes: [ 'citoid-citeFromIDDialog-panel-reuse' ],
 			expanded: false,
 			scrollable: false
 		} )
+	};
+
+	// TODO: Remove this when upstream patch for labels lands
+	this.modePanels.auto.setupTabItem = this.modePanels.manual.setupTabItem = this.modePanels.reuse.setupTabItem = function () {
+		this.tabItem.setLabel( ve.msg( 'citoid-citefromiddialog-mode-' + this.getName() ) );
 	};
 
 	// Auto mode
@@ -210,7 +202,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	this.modePanels.reuse.$element.append( this.search.$element );
 
 	// Events
-	this.modeSelect.connect( this, { choose: 'onModeSelectChoose' } );
+	this.modeIndex.connect( this, { set: 'onModeIndexSet' } );
 	this.lookupInput.connect( this, {
 		change: 'onLookupInputChange',
 		enter: 'onLookupButtonClick'
@@ -225,7 +217,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		this.autoProcessPanels.result
 	] );
 
-	this.modeStack.addItems( [
+	this.modeIndex.addCards( [
 		this.modePanels.auto,
 		this.modePanels.manual,
 		this.modePanels.reuse
@@ -234,36 +226,40 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	// Attach
 	this.form.$element
 		.addClass( 've-ui-citeFromIdInspector-form' )
-		.append( this.modeSelect.$element, this.modeStack.$element );
+		.append( this.modeIndex.$element );
 };
 
 /**
- * Handle choose events from mode select widget
+ * Handle set events from mode index layout
  *
- * @param {OO.ui.OptionWidget} item Chosen option
+ * @param {OO.ui.CardLayout} card Set card
  */
-ve.ui.CiteFromIdInspector.prototype.onModeSelectChoose = function ( item ) {
-	this.setModePanel( item.getData(), null, true );
+ve.ui.CiteFromIdInspector.prototype.onModeIndexSet = function ( card ) {
+	this.setModePanel( card.getName(), null, true );
 };
 
 /**
  * Switch to a specific mode panel
  *
- * @param {string} panelName Panel name, 'auto', 'manual' or 'reuse'
+ * @param {string} cardName Panel name, 'auto', 'manual' or 'reuse'
  * @param {string} [processPanelName] Process panel name, 'lookup' or 'result'
  * @param {boolean} [fromSelect] Mode was changed by the select widget
  */
-ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( panelName, processPanelName, fromSelect ) {
-	if ( [ 'auto', 'manual', 'reuse' ].indexOf( panelName ) === -1 ) {
-		panelName = 'auto';
-	} else if ( panelName === 'reuse' && this.modeSelect.getItemFromData( 'reuse' ).isDisabled() ) {
-		panelName = 'auto';
-	} else if ( panelName !== ( ve.userConfig( 'citoid-mode' ) || 'auto' ) ) {
-		ve.userConfig( 'citoid-mode', panelName );
+ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( cardName, processPanelName, fromSelect ) {
+	var inspector = this;
+
+	if ( [ 'auto', 'manual', 'reuse' ].indexOf( cardName ) === -1 ) {
+		cardName = 'auto';
+	} else if ( cardName === 'reuse' && this.modeIndex.getCard( 'reuse' ).tabItem.isDisabled() ) {
+		cardName = 'auto';
+	} else if ( cardName !== ( ve.userConfig( 'citoid-mode' ) || 'auto' ) ) {
+		ve.userConfig( 'citoid-mode', cardName );
 	}
 
-	this.modeStack.setItem( this.modePanels[ panelName ] );
-	switch ( panelName ) {
+	if ( !fromSelect ) {
+		this.modeIndex.setCard( cardName );
+	}
+	switch ( cardName ) {
 		case 'auto':
 			processPanelName = processPanelName || this.currentAutoProcessPanel || 'lookup';
 			this.autoProcessStack.setItem( this.autoProcessPanels[ processPanelName ] );
@@ -282,14 +278,15 @@ ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( panelName, process
 			this.search.getQuery().focus();
 			break;
 	}
-	// Result panel goes 'fullscreen', hiding the tab widget
+	// Result card goes 'fullscreen' by hiding the tab widget
 	// TODO: Do this in a less hacky way
-	this.modeSelect.toggle( !( processPanelName && processPanelName === 'result' ) );
-	if ( !fromSelect ) {
-		this.modeSelect.selectItemByData( panelName );
-	}
-	this.actions.setMode( panelName + ( processPanelName ? '-' + processPanelName : '' ) );
+	this.modeIndex.toggleMenu( !( processPanelName && processPanelName === 'result' ) );
+	this.actions.setMode( cardName + ( processPanelName ? '-' + processPanelName : '' ) );
 	this.updateSize();
+	// Hiding the menu is a 200ms transition, so resize again
+	setTimeout( function () {
+		inspector.updateSize();
+	}, 200 );
 };
 
 /**
@@ -409,7 +406,7 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 			this.referenceModel = new ve.dm.MWReferenceModel( this.fragment.getDocument() );
 
 			this.search.setInternalList( this.getFragment().getDocument().getInternalList() );
-			this.modeSelect.getItemFromData( 'reuse' ).setDisabled( this.search.isIndexEmpty() );
+			this.modeIndex.getCard( 'reuse' ).tabItem.setDisabled( this.search.isIndexEmpty() );
 
 			if ( this.inDialog !== 'reference' ) {
 				// Stage an empty reference
@@ -420,7 +417,7 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 				this.referenceModel.insertReferenceNode( this.getFragment(), true );
 			}
 
-			this.modeSelect.selectItemByData( 'auto' );
+			this.modeIndex.setCard( 'auto' );
 		}, this );
 };
 
