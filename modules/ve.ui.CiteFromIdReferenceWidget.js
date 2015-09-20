@@ -30,7 +30,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 	// Set the icon
 	if ( Array.isArray( config.citeTools ) ) {
 		for ( i = 0, len = config.citeTools.length; i < len; i++ ) {
-			item = config.citeTools[i];
+			item = config.citeTools[ i ];
 			if ( item.template === this.templateName ) {
 				this.title = item.title;
 				icon = item.icon;
@@ -107,6 +107,7 @@ ve.ui.CiteFromIdReferenceWidget.prototype.destroy = function () {
 
 /**
  * Respond to insert button click event
+ *
  * @fires insert
  */
 ve.ui.CiteFromIdReferenceWidget.prototype.onInsertButtonClick = function () {
@@ -117,11 +118,12 @@ ve.ui.CiteFromIdReferenceWidget.prototype.onInsertButtonClick = function () {
  * Focus the widget
  */
 ve.ui.CiteFromIdReferenceWidget.prototype.focus = function () {
-	this.insertButton.$button[0].focus();
+	this.insertButton.$button[ 0 ].focus();
 };
 
 /**
  * Get the render promise associated with the node.
+ *
  * @return {jQuery.Promise} Rendering promise resolved when the rendering
  * of the node is completed.
  */

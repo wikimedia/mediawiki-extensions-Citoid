@@ -18,7 +18,6 @@
 	"citoid-citefromiddialog-title": "Додај навод",
 	"citoid-citefromiddialog-use-general-error-message": "Не можев да го направам наводот. Можете да го создадете со јазичето „{{int:citoid-citefromiddialog-mode-manual}}“ погоре.",
 	"citoid-citefromidtool-title": "Наведи",
-	"citoid-dialogbutton-reference-full-tooltip": "Основен навод",
 	"citoid-desc": "Овозможува поврзаност помеѓу службата Citoid и МедијаВики",
 	"citoid-unknown-error": "Се појави непозната грешка и затоа не можев да го создадам наводот. Обидете се подоцна."
 }

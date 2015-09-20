@@ -1,4 +1,6 @@
 ( function () {
+	var i, j, jLen, toolGroups, citeIndex, target;
+
 	// Don't create tool unless the configuration message is present
 	try {
 		JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
@@ -13,10 +15,9 @@
 
 	// HACK: Find the position of the current citation toolbar definition
 	// and manipulate it.
-	var i, j, jLen, toolGroups, citeIndex, target;
 
 	for ( i in ve.init.mw ) {
-		target = ve.init.mw[i];
+		target = ve.init.mw[ i ];
 		if ( !target || !( target.prototype instanceof ve.init.Target ) ) {
 			continue;
 		}
@@ -28,11 +29,11 @@
 		// to replace. This way, if toolbarGroups are changed in VE code
 		// we won't have to manually change the index here.
 		for ( j = 0, jLen = toolGroups.length; j < jLen; j++ ) {
-			if ( ve.getProp( toolGroups[j], 'include', 0 ) === 'citefromid' ) {
+			if ( ve.getProp( toolGroups[ j ], 'include', 0 ) === 'citefromid' ) {
 				citeIndex = -1;
 				break;
 			}
-			if ( ve.getProp( toolGroups[j], 'include', 0, 'group' ) === 'cite' ) {
+			if ( ve.getProp( toolGroups[ j ], 'include', 0, 'group' ) === 'cite' ) {
 				citeIndex = j;
 				break;
 			}
@@ -51,11 +52,11 @@
 	 * @abstract
 	 * @extends ve.ui.Tool
 	 * @constructor
-	 * @param {OO.ui.Toolbar} toolbar
+	 * @param {OO.ui.ToolGroup} toolGroup
 	 * @param {Object} [config] Configuration options
 	 */
-	ve.ui.CiteFromIdInspectorTool = function VeUiCiteFromIdInspectorTool( toolGroup, config ) {
-		ve.ui.InspectorTool.call( this, toolGroup, config );
+	ve.ui.CiteFromIdInspectorTool = function VeUiCiteFromIdInspectorTool() {
+		ve.ui.CiteFromIdInspectorTool.super.apply( this, arguments );
 	};
 
 	OO.inheritClass( ve.ui.CiteFromIdInspectorTool, ve.ui.InspectorTool );

@@ -70,7 +70,7 @@ ve.ui.CiteFromIdInspector.static.actions = [
 /* Methods */
 
 /**
- * @inheritDoc
+ * @inheritdoc
  */
 ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	var lookupActionFieldLayout,
@@ -262,17 +262,17 @@ ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( panelName, process
 		ve.userConfig( 'citoid-mode', panelName );
 	}
 
-	this.modeStack.setItem( this.modePanels[panelName] );
+	this.modeStack.setItem( this.modePanels[ panelName ] );
 	switch ( panelName ) {
 		case 'auto':
 			processPanelName = processPanelName || this.currentAutoProcessPanel || 'lookup';
-			this.autoProcessStack.setItem( this.autoProcessPanels[processPanelName] );
+			this.autoProcessStack.setItem( this.autoProcessPanels[ processPanelName ] );
 			switch ( processPanelName ) {
 				case 'lookup':
 					this.lookupInput.setDisabled( false ).focus().select();
 					break;
 				case 'result':
-					this.previewSelectWidget.items[0].focus();
+					this.previewSelectWidget.items[ 0 ].focus();
 					break;
 			}
 			this.currentAutoProcessPanel = processPanelName;
@@ -472,7 +472,7 @@ ve.ui.CiteFromIdInspector.prototype.clearResults = function () {
 };
 
 /**
- * @inheritDoc
+ * @inheritdoc
  */
 ve.ui.CiteFromIdInspector.prototype.getActionProcess = function ( action ) {
 	if ( action === 'lookup' ) {
@@ -556,7 +556,7 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
  * Insert filled template based on search results from citoid service
  *
  * @param {Object[]} searchResults Array of citation objects from citoid service
- * @returns {jQuery.Promise} Promise that is resolved when the template part is added
+ * @return {jQuery.Promise} Promise that is resolved when the template part is added
  *  or is rejected if there are any problems with the template name or the internal item.
  */
 ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResults ) {
@@ -566,7 +566,7 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 		inspector = this;
 
 	for ( i = 0; i < searchResults.length; i++ ) {
-		citation = searchResults[i];
+		citation = searchResults[ i ];
 		templateName = this.templateTypeMap[ citation.itemType ];
 
 		// if TemplateName is undefined, this means that items of this citoid
@@ -599,10 +599,10 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 			for ( i = 0; i < inspector.results.length; i++ ) {
 				refWidget = new ve.ui.CiteFromIdReferenceWidget(
 					inspector.getFragment().getSurface().getDocument(),
-					inspector.results[i].transclusionModel,
+					inspector.results[ i ].transclusionModel,
 					{
 						data: i,
-						templateName: inspector.results[i].templateName,
+						templateName: inspector.results[ i ].templateName,
 						citeTools: inspector.citeTools
 					} );
 				optionWidgets.push( refWidget );
@@ -638,7 +638,7 @@ ve.ui.CiteFromIdInspector.static.populateTemplate = function ( template, citatio
 		if ( typeof templateField === 'string' && citation[ citoidField ] && typeof citation[ citoidField ] === 'string' ) {
 			template.addParameter(
 				new ve.dm.MWParameterModel(
-					template, templateField, citation[citoidField ]
+					template, templateField, citation[ citoidField ]
 				)
 			);
 		// Case: Citoid parameter contains a 1 or 2D Array
@@ -681,7 +681,7 @@ ve.ui.CiteFromIdInspector.static.populateTemplate = function ( template, citatio
 							// Case: Citoid parameter deeper than TD parameter
 							} else if ( templateField[ i ] && typeof templateField[ i ] === 'string' ) {
 								if ( !concat2dField ) {
-									concat2dField = citation[ citoidField][ i ][ j ];
+									concat2dField = citation[ citoidField ][ i ][ j ];
 								} else {
 									concat2dField += ' ' + citation[ citoidField ][ i ][ j ];
 								}

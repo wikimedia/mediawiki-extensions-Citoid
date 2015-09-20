@@ -32,6 +32,7 @@ OO.mixinClass( ve.ui.CiteFromIdGroupWidget, OO.ui.GroupElement );
 
 /**
  * Respond to item insert event
+ *
  * @param {ve.ui.CiteFromIdReferenceWidget} item Source item
  * @fires choose
  */
@@ -41,6 +42,7 @@ ve.ui.CiteFromIdGroupWidget.prototype.onItemInsert = function ( item ) {
 
 /**
  * Respond to item update event
+ *
  * @param {ve.ui.CiteFromIdReferenceWidget} item Source item
  * @fires update
  */
