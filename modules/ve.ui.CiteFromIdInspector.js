@@ -107,11 +107,9 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 
 	// Modes
 	this.modeIndex = new OO.ui.IndexLayout( {
+		expanded: false,
 		scrollable: false
 	} );
-
-	// HACK: Make this an option upstream
-	this.modeIndex.stackLayout.$element.removeClass( 'oo-ui-panelLayout-expanded' );
 
 	this.modePanels = {
 		auto: new OO.ui.CardLayout( 'auto', {
