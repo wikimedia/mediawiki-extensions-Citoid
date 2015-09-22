@@ -31,6 +31,7 @@
 			],
 			"styles": [
 				"modules/ve.ui.CiteSourceSelectWidget.css",
+				"modules/ve.ui.CiteFromIdInspectorTool.css",
 				"modules/ve.ui.CiteFromIdInspector.css"
 			],
 			"dependencies": [

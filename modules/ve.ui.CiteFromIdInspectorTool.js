@@ -57,9 +57,14 @@
 	 */
 	ve.ui.CiteFromIdInspectorTool = function VeUiCiteFromIdInspectorTool() {
 		ve.ui.CiteFromIdInspectorTool.super.apply( this, arguments );
+		ve.ui.MWEducationPopupTool.call( this, {
+			title: ve.msg( 'visualeditor-dialogbutton-citation-educationpopup-title' ),
+			text: ve.msg( 'visualeditor-dialogbutton-citation-educationpopup-text' )
+		} );
 	};
 
 	OO.inheritClass( ve.ui.CiteFromIdInspectorTool, ve.ui.InspectorTool );
+	OO.mixinClass( ve.ui.CiteFromIdInspectorTool, ve.ui.MWEducationPopupTool );
 
 	ve.ui.CiteFromIdInspectorTool.static.name = 'citefromid';
 	ve.ui.CiteFromIdInspectorTool.static.autoAddToCatchall = false;
