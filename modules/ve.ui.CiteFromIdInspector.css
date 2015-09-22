@@ -6,15 +6,6 @@
 	margin: 0;
 }
 
-.oo-ui-indexLayout-stackLayout > .citoid-citeFromIDDialog-panel-auto,
-.oo-ui-indexLayout-stackLayout > .citoid-citeFromIDDialog-panel-manual {
-	padding: 0.75em;
-}
-
-.oo-ui-indexLayout-stackLayout > .citoid-citeFromIDDialog-panel-reuse {
-	padding: 0;
-}
-
 .ve-ui-citeFromIdInspector-search {
 	min-height: 20em;
 }

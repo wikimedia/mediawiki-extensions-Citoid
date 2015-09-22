@@ -117,12 +117,14 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		auto: new OO.ui.CardLayout( 'auto', {
 			label: ve.msg( 'citoid-citefromiddialog-mode-auto' ),
 			classes: [ 'citoid-citeFromIDDialog-panel-auto' ],
+			padded: true,
 			expanded: false,
 			scrollable: false
 		} ),
 		manual: new OO.ui.CardLayout( 'manual', {
 			label: ve.msg( 'citoid-citefromiddialog-mode-manual' ),
 			classes: [ 'citoid-citeFromIDDialog-panel-manual' ],
+			padded: true,
 			expanded: false,
 			scrollable: false
 		} ),
