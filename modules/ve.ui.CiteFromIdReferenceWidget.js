@@ -64,7 +64,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 		documentModel.getHtmlDocument()
 	);
 	node = doc.getDocumentNode().getChildren()[ 0 ];
-	this.view = new ve.ui.PreviewWidget( node );
+	this.view = new ve.ui.PreviewElement( node );
 	if ( this.view.isGenerating() ) {
 		this.view.once( 'render', this.renderPromise.resolve );
 	} else {
