@@ -21,7 +21,7 @@
 	"citoid-citefromiddialog-search-placeholder": "ad esempio http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Ricerca in corso, attendi...",
 	"citoid-citefromiddialog-title": "Aggiungi una citazione",
-	"citoid-citefromiddialog-use-general-error-message": "Non possiamo fare una citazione per voi. Puoi crearne una manualmente utilizzando la scheda '{{int:citoid-citefromiddialog-mode-manual}}' di cui sopra.",
+	"citoid-citefromiddialog-use-general-error-message": "Non possiamo fare una citazione per voi. Puoi crearne una manualmente utilizzando la scheda \"{{int:citoid-citefromiddialog-mode-manual}}\".",
 	"citoid-citefromidtool-title": "Cita",
 	"citoid-desc": "Fornisce un punto di accesso tra il servizio citoid e MediaWiki",
 	"citoid-unknown-error": "Un errore sconosciuto è verificato che ci ha impedito la creazione di una citazione. Si prega di riprovare più tardi."

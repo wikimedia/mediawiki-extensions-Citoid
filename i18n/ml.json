@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Praveenp"
+			"Praveenp",
+			"Ranjithsiji"
 		]
 	},
 	"citoid-520-error": "നൽകിയ തിരിച്ചറിയൽ സൗകര്യത്തിൽ നിന്ന് വിവരങ്ങൾ എടുക്കാൻ കഴിഞ്ഞില്ല.",
@@ -12,12 +13,12 @@
 	"citoid-citefromiddialog-mode-manual": "മാനുഷികം",
 	"citoid-citefromiddialog-mode-reuse": "പുനരുപയോഗം",
 	"citoid-citefromiddialog-search": "തിരയുക",
-	"citoid-citefromiddialog-search-label": "യു.ആർ.എൽ. അഥവാ ഡി.ഓ.ഐ.",
+	"citoid-citefromiddialog-search-label": "യു.ആർ.എൽ. അല്ലെങ്കിൽ ഡി.ഓ.ഐ.",
 	"citoid-citefromiddialog-search-placeholder": "ഉദാ: http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "തിരയുന്നു, ദയവായി കാത്തിരിക്കുക...",
 	"citoid-citefromiddialog-title": "അവലംബം ചേർക്കുക",
 	"citoid-citefromiddialog-use-general-error-message": "താങ്കൾക്കായി അവലംബം സൃഷ്ടിക്കാൻ കഴിഞ്ഞില്ല. മുകളിലെ \"{{int:citoid-citefromiddialog-mode-manual}}\" ടാബ് ഉപയോഗിച്ച് താങ്കൾക്ക് ഒന്ന് ഉണ്ടാക്കാവുന്നതാണ്.",
 	"citoid-citefromidtool-title": "ഉദ്ധരിക്കുക",
 	"citoid-desc": "സൈറ്റോയിഡ് സേവനവും മീഡിയവിക്കിയും തമ്മിലുള്ള സമ്പർക്കസൗകര്യം ഒരുക്കുന്നു",
-	"citoid-unknown-error": "അപരിചിതമായ ഒരു പിഴവ് ഉണ്ടായതിനാൽ അവലംബം സൃഷ്ടിക്കാൻ കഴിഞ്ഞില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
+	"citoid-unknown-error": "തിരിച്ചറിയാനാവാത്ത ഒരു പിഴവ് ഉണ്ടായതിനാൽ അവലംബം സൃഷ്ടിക്കാൻ കഴിഞ്ഞില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
 }

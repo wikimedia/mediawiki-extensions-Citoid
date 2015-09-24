@@ -16,7 +16,7 @@
 	"citoid-citefromiddialog-search-placeholder": "p'esempie http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Ascianno mò, pe' piacere aspettate...",
 	"citoid-citefromiddialog-title": "Azzeccate na citazione",
-	"citoid-citefromiddialog-use-general-error-message": "Nun se puteva fà na citazione pe' vuje. Se putesse fà manualmente ausanno 'a scheda \"{{int:citoid-citefromiddialog-mode-manual}}\" ccà ncoppa.",
+	"citoid-citefromiddialog-use-general-error-message": "Nun se puteva fà na citazione pe' vuje. Vuje putite fà cchesta manualmente ausanno 'a scheda \"{{int:citoid-citefromiddialog-mode-manual}}\" ccà ncoppa.",
 	"citoid-citefromidtool-title": "Citazione",
 	"citoid-desc": "Dà punte 'acciesso nfra 'o servizio citoid e MediaWiki",
 	"citoid-unknown-error": "S'è scummigliato n'errore ca nun ce permettesse 'e crià 'a citaziona. Pe' piacere tentate cchiù tarde.."
