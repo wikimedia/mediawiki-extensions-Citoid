@@ -18,7 +18,7 @@
 	"citoid-citefromiddialog-search-placeholder": "例 http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "検索しています。しばらくお待ち下さい。",
 	"citoid-citefromiddialog-title": "引用を追加",
-	"citoid-citefromiddialog-use-general-error-message": "出典を作成できませんでした。上にある{{int:citoid-citefromiddialog-mode-manual}}タブを使って、手動で作成することもできます。",
+	"citoid-citefromiddialog-use-general-error-message": "出典を作成できませんでした。上にある「{{int:citoid-citefromiddialog-mode-manual}}」タブを使って、手動で作成することもできます。",
 	"citoid-citefromidtool-title": "引用",
 	"citoid-desc": "citoid サービスとMediaWikiとの間のアクセスポイントを提供する",
 	"citoid-unknown-error": "出典の作成を妨害する不明なエラーが発生しました。後でやり直してください。"

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Pofka",
-			"Albertas"
+			"Albertas",
+			"Zygimantus"
 		]
 	},
 	"citoid-520-error": "Nepavyksta gauti informacijos iš nurodyto identifikatoriaus.",
@@ -17,7 +18,7 @@
 	"citoid-citefromiddialog-search-placeholder": "pvz. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Ieškoma, prašome palaukti...",
 	"citoid-citefromiddialog-title": "Pridėti citatą",
-	"citoid-citefromiddialog-use-general-error-message": "Nepavyko sukurti citatos. Galite ją sukurti rankiniu būdu naudodami \"{{int:citoid-citefromiddialog-mode-manual}}\" kortelę, esančią viršuje.",
+	"citoid-citefromiddialog-use-general-error-message": "Nepavyko sukurti citatos. Galite ją sukurti rankiniu būdu naudodami \"{{int:citoid-citefromiddialog-mode-manual}}\" viršuje esantį skirtuką.",
 	"citoid-citefromidtool-title": "Cituoti",
 	"citoid-desc": "Suteikia prieigos taškų tarp citoid paslaugos ir MediaWiki",
 	"citoid-unknown-error": "Įvyko nežinoma klaida, dėl kurios nepavyko sukurti citatos. Prašome vėliau pabandyti dar kartą."

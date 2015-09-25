@@ -17,7 +17,7 @@
 	"citoid-citefromiddialog-search-placeholder": "למשל http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "חיפוש, נא להמתין...",
 	"citoid-citefromiddialog-title": "הוספת ציטוט",
-	"citoid-citefromiddialog-use-general-error-message": "המערכת לא הצליחה ליצור ציטוט עבורך. באפשרותך ליצור ציטוט ידנית באמצעות באמצעות הלשונית \"{{int:citoid-citefromiddialog-mode-manual}}\".",
+	"citoid-citefromiddialog-use-general-error-message": "המערכת לא הצליחה ליצור ציטוט עבורך. באפשרותך ליצור ציטוט ידנית באמצעות באמצעות הלשונית \"{{int:citoid-citefromiddialog-mode-manual}}\" לעיל.",
 	"citoid-citefromidtool-title": "ציטוט",
 	"citoid-desc": "אספקת נקודות כניסה בין שירות citoid לבין מדיה־ויקי",
 	"citoid-unknown-error": "אירעה שגיאה בלתי־ידועה שמנעה מאתנו ליצור ציטוט.\nנא לנסות שוב מאוחר יותר."
