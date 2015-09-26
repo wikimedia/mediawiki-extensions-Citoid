@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pinky sl"
+			"Pinky sl",
+			"Dbc334"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Vstavi",
@@ -15,7 +16,7 @@
 	"citoid-citefromiddialog-search-placeholder": "npr. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Iskanje, prosimo počakajte...",
 	"citoid-citefromiddialog-title": "Dodaj sklic",
-	"citoid-citefromiddialog-use-general-error-message": "Sklica nismo mogli ustvariti. Ustvarite ga lahko ročno z uporabo zavihka \"{{int:citoid-citefromiddialog-mode-manual}}\" zgoraj.",
+	"citoid-citefromiddialog-use-general-error-message": "Sklica nismo mogli ustvariti. Ustvarite ga lahko ročno z uporabo zavihka »{{int:citoid-citefromiddialog-mode-manual}}« zgoraj.",
 	"citoid-citefromidtool-title": "Navedi",
 	"citoid-desc": "Zagotavlja točke dostopa med storitvama citoid in MediaWiki",
 	"citoid-unknown-error": "Pojavila se je neznana napaka, ki je preprečila kreacijo sklica. Prosimo, poskusite znova kasneje."

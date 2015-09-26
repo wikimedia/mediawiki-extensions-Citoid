@@ -6,7 +6,8 @@
 			"Umherirrender",
 			"Amire80",
 			"Raymond",
-			"Purodha"
+			"Purodha",
+			"McDutchie"
 		]
 	},
 	"citoid-520-error": "Error message for when citoid service returns a 520 error",
@@ -18,7 +19,7 @@
 	"citoid-citefromiddialog-mode-reuse": "Label of tab in citation dialog, used to select mode.\n{{Identical|Re-use}}",
 	"citoid-citefromiddialog-search": "Text for the search button.\n{{Identical|Search}}",
 	"citoid-citefromiddialog-search-label": "Label for the URL/DOI search field.",
-	"citoid-citefromiddialog-search-placeholder": "Placeholder for the URL/DOI search field.",
+	"citoid-citefromiddialog-search-placeholder": "Placeholder for the URL/DOI search field.\n\n'''NOTE:''' Do not translate example.com as it is a domain name specifically reserved by IANA for examples.",
 	"citoid-citefromiddialog-search-progress": "Message for when the search is in progress",
 	"citoid-citefromiddialog-title": "The title displayed on the dialog",
 	"citoid-citefromiddialog-use-general-error-message": "Label notifying the user there was a problem creating their reference, and offering to use the full citation tool.\n* $1 – link to open the citation dialog; link label: {{msg-mw|Citoid-citefromiddialog-mode-manual}}",

@@ -4,5 +4,18 @@
 			"McDutchie"
 		]
 	},
-	"citoid-520-error": "Impossibile recuperar information ab le identificator fornite."
+	"citoid-520-error": "Impossibile recuperar information ab le identificator fornite.",
+	"citoid-citation-widget-insert-button": "Inserer",
+	"citoid-citefromiddialog-back": "Retornar",
+	"citoid-citefromiddialog-lookup-button": "Generar",
+	"citoid-citefromiddialog-mode-auto": "Automatic",
+	"citoid-citefromiddialog-mode-manual": "Manual",
+	"citoid-citefromiddialog-mode-reuse": "Reusar",
+	"citoid-citefromiddialog-search": "Cercar",
+	"citoid-citefromiddialog-search-label": "URL o DOI",
+	"citoid-citefromiddialog-search-placeholder": "p.ex. http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Recerca in curso, attende...",
+	"citoid-citefromiddialog-title": "Adder a citation",
+	"citoid-citefromiddialog-use-general-error-message": "Nos non ha potite crear un citation pro te. Tu pote manualmente crear un per medio del scheda \"{{int:citoid-citefromiddialog-mode-manual}}\" supra.",
+	"citoid-citefromidtool-title": "Citar"
 }
