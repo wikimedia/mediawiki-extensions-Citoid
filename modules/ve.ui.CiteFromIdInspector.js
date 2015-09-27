@@ -134,11 +134,6 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		} )
 	};
 
-	// TODO: Remove this when upstream patch for labels lands
-	this.modePanels.auto.setupTabItem = this.modePanels.manual.setupTabItem = this.modePanels.reuse.setupTabItem = function () {
-		this.tabItem.setLabel( ve.msg( 'citoid-citefromiddialog-mode-' + this.getName() ) );
-	};
-
 	// Auto mode
 	this.autoProcessStack = new OO.ui.StackLayout( {
 		expanded: false,
