@@ -19,7 +19,7 @@
 	"citoid-citefromiddialog-search-placeholder": "例如http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "搜索中，请稍候…",
 	"citoid-citefromiddialog-title": "添加一个引用",
-	"citoid-citefromiddialog-use-general-error-message": "我们不能为您生成一个引用。您可以使用上方的“{{int:citoid-citefromiddialog-mode-manual}}”标签创建一个。",
+	"citoid-citefromiddialog-use-general-error-message": "我们不能为您生成一个引用。您可以使用上方的“{{int:citoid-citefromiddialog-mode-manual}}”标签手动创建一个。",
 	"citoid-citefromidtool-title": "引用",
 	"citoid-desc": "在citoid服务和MediaWiki之间提供接入点",
 	"citoid-unknown-error": "发生了未知错误，以至于我们无法创建引用。请稍后再试。"

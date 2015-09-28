@@ -16,7 +16,7 @@
 	"citoid-citefromiddialog-search-placeholder": "ekzemple http://www.ekzemplo.com",
 	"citoid-citefromiddialog-search-progress": "Serĉanto, bonvolu atendi...",
 	"citoid-citefromiddialog-title": "Aldoni citon",
-	"citoid-citefromiddialog-use-general-error-message": "Ni ne povis krei unu citon pri vi. Vi povas krei la citon permane kun la \"{{int:citoid-citefromiddialog-mode-manual}}\" super.",
+	"citoid-citefromiddialog-use-general-error-message": "Ni ne povis krei citaĵon por vi. Vi povas krei la citaĵon permane per la supra langeto \"{{int:citoid-citefromiddialog-mode-manual}}\".",
 	"citoid-citefromidtool-title": "Citado",
 	"citoid-unknown-error": "Ni ne povis krei la citon pro nekonata eraro. Bonvolu reprovi pli malfrue."
 }

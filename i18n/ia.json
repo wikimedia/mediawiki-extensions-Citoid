@@ -17,5 +17,7 @@
 	"citoid-citefromiddialog-search-progress": "Recerca in curso, attende...",
 	"citoid-citefromiddialog-title": "Adder a citation",
 	"citoid-citefromiddialog-use-general-error-message": "Nos non ha potite crear un citation pro te. Tu pote manualmente crear un per medio del scheda \"{{int:citoid-citefromiddialog-mode-manual}}\" supra.",
-	"citoid-citefromidtool-title": "Citar"
+	"citoid-citefromidtool-title": "Citar",
+	"citoid-desc": "Forni punctos de accesso inter le servicio Citoid e MediaWiki",
+	"citoid-unknown-error": "Un error incognite ha impedite le creation de un citation. Per favor reproba plus tarde."
 }
