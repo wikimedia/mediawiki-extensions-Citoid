@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Jdforrester",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"فلورانس"
 		]
 	},
 	"citoid-520-error": "غير قادر على استرجاع المعلومات من المعرف المقدم",
@@ -17,6 +18,7 @@
 	"citoid-citefromiddialog-search-placeholder": "مثال: http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "البحث جار، برجاء الانتظار...",
 	"citoid-citefromiddialog-title": "إضافة استشهاد",
+	"citoid-citefromiddialog-use-general-error-message": "لم نتمكن من جعل الاقتباس لك. يمكنك إنشاء واحد يدويا باستخدام \"{{int:citoid-citefromiddialog-mode-manual}}\" التبويب أعلاه.",
 	"citoid-citefromidtool-title": "استشهد",
 	"citoid-desc": "يوفر نقطة وصول بين citoid وميدياويكي",
 	"citoid-unknown-error": "حدث خطأ غير معلوم منعنا من إنشاء استشهاد. برجاء المحاولة في وقت لاحق."
