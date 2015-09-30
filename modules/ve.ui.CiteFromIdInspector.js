@@ -412,7 +412,7 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 				this.referenceModel.insertReferenceNode( this.getFragment(), true );
 			}
 
-			this.modeIndex.setCard( 'auto' );
+			this.modeIndex.setCard( ve.userConfig( 'citoid-mode' ) || 'auto' );
 		}, this );
 };
 
@@ -423,7 +423,7 @@ ve.ui.CiteFromIdInspector.prototype.getReadyProcess = function ( data ) {
 	return ve.ui.CiteFromIdInspector.super.prototype.getReadyProcess.call( this, data )
 		.next( function () {
 			// Set the panel after ready as it focuses the input too
-			this.setModePanel( ve.userConfig( 'citoid-mode' ), 'lookup' );
+			this.setModePanel( ve.userConfig( 'citoid-mode' ) || 'auto', 'lookup' );
 		}, this );
 };
 
