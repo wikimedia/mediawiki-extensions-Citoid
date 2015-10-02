@@ -16,7 +16,7 @@
 	"citoid-citefromiddialog-search-placeholder": "π.χ. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Γίνεται αναζήτηση, παρακαλούμε περιμένετε...",
 	"citoid-citefromiddialog-title": "Προσθέστε μια παραπομπή",
-	"citoid-citefromiddialog-use-general-error-message": "Δεν θα μπορούσαμε να κάνουμε μια παραπομπή για εσάς. Μπορείτε να κάνετε μία χρησιμοποιώντας την καρτέλα \"{{int:citoid-citefromiddialog-mode-manual}}\" παραπάνω.",
+	"citoid-citefromiddialog-use-general-error-message": "Δεν θα μπορούσαμε να κάνουμε μια παραπομπή για εσάς. Μπορείτε να κάνετε μία χειροκίνητα χρησιμοποιώντας την καρτέλα \"{{int:citoid-citefromiddialog-mode-manual}}\" παραπάνω.",
 	"citoid-citefromidtool-title": "Προσθήκη παραπομπής",
 	"citoid-desc": "Παρέχει σημεία πρόσβασης μεταξύ της υπηρεσίας citoid και του MediaWiki",
 	"citoid-unknown-error": "Ένα άγνωστο σφάλμα παρουσιάστηκε που μας απέτρεψε από το να δημιουργηθεί μια παραπομπή. Παρακαλούμε δοκιμάστε ξανά αργότερα."
