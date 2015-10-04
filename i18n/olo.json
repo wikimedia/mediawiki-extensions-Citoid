@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mashoi7"
+			"Mashoi7",
+			"Ilja.mos"
 		]
 	},
+	"citoid-citation-widget-insert-button": "Ližiä",
 	"citoid-citefromiddialog-back": "Järilleh",
 	"citoid-citefromiddialog-lookup-button": "Luaji",
 	"citoid-citefromiddialog-mode-auto": "Automuattine",
@@ -11,6 +13,7 @@
 	"citoid-citefromiddialog-mode-reuse": "Uvvelleh käyttö",
 	"citoid-citefromiddialog-search": "Eči",
 	"citoid-citefromiddialog-search-label": "URL libo DOI",
+	"citoid-citefromiddialog-search-placeholder": "ezim. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Ečitäh, vuota ole hyvä...",
 	"citoid-citefromiddialog-title": "Ližiä citacii"
 }
