@@ -26,9 +26,6 @@ module.exports = function ( grunt ) {
 			src: '<%= jshint.all %>'
 		},
 		banana: {
-			options: {
-				disallowDuplicateTranslations: false
-			},
 			all: 'i18n/'
 		},
 		watch: {
