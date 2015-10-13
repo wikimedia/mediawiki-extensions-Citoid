@@ -64,9 +64,9 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 		documentModel.getHtmlDocument()
 	);
 	node = doc.getDocumentNode().getChildren()[ 0 ];
-	this.view = new ve.ui.PreviewElement( node );
-	if ( this.view.isGenerating() ) {
-		this.view.once( 'render', this.renderPromise.resolve );
+	this.preview = new ve.ui.PreviewElement( node );
+	if ( this.preview.isGenerating() ) {
+		this.preview.once( 'render', this.renderPromise.resolve );
 	} else {
 		this.renderPromise.resolve();
 	}
@@ -86,7 +86,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 			this.$icon,
 			title.$element,
 			this.insertButton.$element,
-			this.view.$element
+			this.preview.$element
 		);
 };
 
@@ -102,7 +102,7 @@ OO.mixinClass( ve.ui.CiteFromIdReferenceWidget, OO.ui.IconElement );
  */
 ve.ui.CiteFromIdReferenceWidget.prototype.destroy = function () {
 	this.renderPromise.reject();
-	this.view.destroy();
+	this.preview.destroy();
 };
 
 /**
