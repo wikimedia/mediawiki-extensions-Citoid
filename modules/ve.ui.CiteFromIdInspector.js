@@ -501,7 +501,7 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 	}
 	// Set as pending
 	this.lookupButton.setDisabled( true );
-	this.lookupInput.pushPending();
+	this.lookupInput.setDisabled( true ).pushPending();
 
 	// We have to first set up a get response so we can have
 	// a proper xhr object with "abort" method, so we can
@@ -537,7 +537,12 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 				return $.Deferred().resolve();
 			} )
 		.always( function () {
-			inspector.lookupInput.popPending();
+			inspector
+				.lookupInput
+				.setDisabled( false )
+				// restore focus to the input field
+				.focus()
+				.popPending();
 			inspector.lookupButton.setDisabled( false );
 		} )
 		.promise( { abort: xhr.abort } );
