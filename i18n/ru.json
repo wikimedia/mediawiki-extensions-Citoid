@@ -18,7 +18,7 @@
 	"citoid-citefromiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Идёт поиск, пожалуйста, подождите…",
 	"citoid-citefromiddialog-title": "Добавить ссылку на источник",
-	"citoid-citefromiddialog-use-general-error-message": "Мы не могли сделать цитату для вас. Ее можно создать вручную, используя кнопку  \"{{int:citoid-citefromiddialog-mode-manual}}\" во вкладке выше.",
+	"citoid-citefromiddialog-use-general-error-message": "Мы не могли сделать цитату для вас. Её можно создать вручную, используя кнопку «{{int:citoid-citefromiddialog-mode-manual}}» во вкладке выше.",
 	"citoid-citefromidtool-title": "Источник",
 	"citoid-desc": "Обеспечивает доступ между сервисом citoid и Медиавики",
 	"citoid-unknown-error": "Произошла неизвестная ошибка, не позволявшая нам создавать цитату. Пожалуйста, повторите попытку позже."
