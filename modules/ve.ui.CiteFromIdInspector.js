@@ -395,7 +395,9 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 			this.inDialog = data.inDialog || '';
 
 			// Collapse returns a new fragment, so update this.fragment
-			this.fragment = this.getFragment().collapseToEnd();
+			if ( !data.lookup ) {
+				this.fragment = this.getFragment().collapseToEnd();
+			}
 
 			// Create model
 			this.referenceModel = new ve.dm.MWReferenceModel( this.fragment.getDocument() );
@@ -410,6 +412,12 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 				// Insert an empty reference
 				this.referenceModel.insertInternalItem( this.getFragment().getSurface() );
 				this.referenceModel.insertReferenceNode( this.getFragment(), true );
+			}
+
+			if ( data.lookup ) {
+				this.lookupInput.setValue( data.lookup );
+				this.executeAction( 'lookup' );
+				return;
 			}
 
 			this.modeIndex.setCard( ve.userConfig( 'citoid-mode' ) || 'auto' );
