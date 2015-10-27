@@ -200,7 +200,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	this.modeIndex.connect( this, { set: 'onModeIndexSet' } );
 	this.lookupInput.connect( this, {
 		change: 'onLookupInputChange',
-		enter: 'onLookupButtonClick'
+		enter: 'onLookupInputEnter'
 	} );
 	this.lookupButton.connect( this, { click: 'onLookupButtonClick' } );
 	this.previewSelectWidget.connect( this, { choose: 'onPreviewSelectWidgetChoose' } );
@@ -374,7 +374,16 @@ ve.ui.CiteFromIdInspector.prototype.onLookupInputChange = function ( value ) {
 };
 
 /**
- * Respond to lookup button click, perform lookup
+ * Handle enter events from the lookup input
+ */
+ve.ui.CiteFromIdInspector.prototype.onLookupInputEnter = function () {
+	if ( !this.lookupButton.isDisabled() ) {
+		this.onLookupButtonClick();
+	}
+};
+
+/**
+ * Handle click events from the lookup button, perform lookup
  */
 ve.ui.CiteFromIdInspector.prototype.onLookupButtonClick = function () {
 	this.executeAction( 'lookup' );
