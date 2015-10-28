@@ -93,7 +93,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 /* Inheritance */
 
 OO.inheritClass( ve.ui.CiteFromIdReferenceWidget, OO.ui.Widget );
-OO.mixinClass( ve.ui.CiteFromIdReferenceWidget, OO.ui.IconElement );
+OO.mixinClass( ve.ui.CiteFromIdReferenceWidget, OO.ui.mixin.IconElement );
 
 /* Methods */
 

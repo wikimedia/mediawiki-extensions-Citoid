@@ -26,7 +26,7 @@ ve.ui.CiteFromIdGroupWidget = function VeUiCiteFromIdGroupWidget( config ) {
 
 /* Inheritance */
 OO.inheritClass( ve.ui.CiteFromIdGroupWidget, OO.ui.Widget );
-OO.mixinClass( ve.ui.CiteFromIdGroupWidget, OO.ui.GroupElement );
+OO.mixinClass( ve.ui.CiteFromIdGroupWidget, OO.ui.mixin.GroupElement );
 
 /* Methods */
 
