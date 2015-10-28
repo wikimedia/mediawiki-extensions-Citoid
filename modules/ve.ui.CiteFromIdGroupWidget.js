@@ -1,7 +1,7 @@
 /**
  * Citoid extension citation group widget
  *
- * @mixins OO.ui.GroupWidget
+ * @mixins OO.ui.mixin.GroupWidget
  * @param {Object} config Dialog configuration object
  */
 ve.ui.CiteFromIdGroupWidget = function VeUiCiteFromIdGroupWidget( config ) {
@@ -9,7 +9,7 @@ ve.ui.CiteFromIdGroupWidget = function VeUiCiteFromIdGroupWidget( config ) {
 	ve.ui.CiteFromIdGroupWidget.super.call( this, config );
 
 	// Mixin constructors
-	OO.ui.GroupWidget.call( this, $.extend( {}, config, { $group: this.$element } ) );
+	OO.ui.mixin.GroupWidget.call( this, $.extend( {}, config, { $group: this.$element } ) );
 
 	// Aggregate events
 	this.aggregate( {
@@ -66,5 +66,5 @@ ve.ui.CiteFromIdGroupWidget.prototype.clearItems = function () {
 	}
 
 	// Parent method
-	OO.ui.GroupElement.prototype.clearItems.call( this );
+	OO.ui.mixin.GroupElement.prototype.clearItems.call( this );
 };

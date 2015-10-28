@@ -25,7 +25,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 	ve.ui.CiteFromIdReferenceWidget.super.call( this, config );
 
 	// Mixin constructors
-	OO.ui.IconElement.call( this, config );
+	OO.ui.mixin.IconElement.call( this, config );
 
 	// Set the icon
 	if ( Array.isArray( config.citeTools ) ) {
