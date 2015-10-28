@@ -16,7 +16,7 @@
 	"citoid-citefromiddialog-search-placeholder": "p.e. http://www.exemplu.com",
 	"citoid-citefromiddialog-search-progress": "Buscando, espera...",
 	"citoid-citefromiddialog-title": "Amestar una cita",
-	"citoid-citefromiddialog-use-general-error-message": "Nun pudimos crear la cita por ti. Puedes crear una manualmente usando la llingüeta \"{{int:citoid-citefromiddialog-mode-manual}}\" de más arriba.",
+	"citoid-citefromiddialog-use-general-error-message": "Nun pudimos crear la cita por ti. Puedes crear una manualmente usando la llingüeta «{{int:citoid-citefromiddialog-mode-manual}}» de más arriba.",
 	"citoid-citefromidtool-title": "Citar",
 	"citoid-desc": "Ufre puntos d'accesu ente'l serviciu Citoid y MediaWiki",
 	"citoid-unknown-error": "Hebo un error desconocíu que torgó la creación de la cita. Inténtalo más sero."
