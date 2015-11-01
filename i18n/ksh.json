@@ -19,5 +19,6 @@
 	"citoid-citefromiddialog-use-general-error-message": "Mer kunnte automattesch keij Zettaht zesamme krijje. Do kanns ävver övver „{{int:citoid-citefromiddialog-mode-manual}}“ ein vun Hand ennjävve.",
 	"citoid-citefromidtool-title": "Zėttėhre",
 	"citoid-desc": "Schaff Zohjreffspungkte zwesche däm Deens <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Generate citations given an URL, URI, DOI, …\">Citoid</i> un MedijaWikki.",
+	"citoid-referencecontextitem-convert-button": "Ömwandelle",
 	"citoid-unknown-error": "Ene onbikannte Fähler es opjetrodde.\nDröm krijje mer jäz kein Zittaht.\nBes esu johd un versöhg et schpääder norr_ens."
 }

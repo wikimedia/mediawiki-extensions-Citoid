@@ -21,5 +21,6 @@
 	"citoid-citefromiddialog-use-general-error-message": "Nepavyko sukurti citatos. Galite ją sukurti rankiniu būdu naudodami \"{{int:citoid-citefromiddialog-mode-manual}}\" viršuje esantį skirtuką.",
 	"citoid-citefromidtool-title": "Cituoti",
 	"citoid-desc": "Suteikia prieigos taškų tarp citoid paslaugos ir MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Konvertuoti",
 	"citoid-unknown-error": "Įvyko nežinoma klaida, dėl kurios nepavyko sukurti citatos. Prašome vėliau pabandyti dar kartą."
 }
