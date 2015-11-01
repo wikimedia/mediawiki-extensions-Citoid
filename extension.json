@@ -32,7 +32,8 @@
 			"styles": [
 				"modules/ve.ui.CiteSourceSelectWidget.css",
 				"modules/ve.ui.CiteFromIdInspectorTool.css",
-				"modules/ve.ui.CiteFromIdInspector.css"
+				"modules/ve.ui.CiteFromIdInspector.css",
+				"modules/ve.ui.CitoidReferenceContextItem.css"
 			],
 			"dependencies": [
 				"ext.visualEditor.mwreference",
@@ -56,6 +57,8 @@
 				"citoid-citefromiddialog-title",
 				"citoid-citefromiddialog-use-general-error-message",
 				"citoid-citefromidtool-title",
+				"citoid-referencecontextitem-convert-button",
+				"citoid-referencecontextitem-convert-message",
 				"citoid-template-type-map.json",
 				"citoid-unknown-error"
 			],

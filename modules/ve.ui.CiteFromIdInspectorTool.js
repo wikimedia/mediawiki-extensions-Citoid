@@ -87,4 +87,56 @@
 
 	ve.ui.toolFactory.register( ve.ui.CiteFromIdInspectorTool );
 
+	/**
+	 * HACK: Override MWReferenceContextItem methods directly instead of inheriting,
+	 * as the context relies on the generated citation types (ref, book, ...) inheriting
+	 * directly from MWReferenceContextItem.
+	 *
+	 * This should be a subclass, e.g. CitoidReferenceContextItem
+	 */
+
+	/**
+	 * @inheritdoc
+	 */
+	ve.ui.MWReferenceContextItem.prototype.renderBody = function () {
+		var surfaceModel, fragment, annotations, annotation, convertButton,
+			refNode = this.getReferenceNode();
+
+		this.$body.append( this.getRendering() );
+
+		if ( !refNode ) {
+			return;
+		}
+
+		surfaceModel = this.context.getSurface().getModel();
+		fragment = surfaceModel.getLinearFragment( refNode.getRange() );
+		// Get covering annotations
+		annotations = fragment.getAnnotations( false );
+		if (
+			annotations.getLength() === 1 &&
+			( annotation = annotations.get( 0 ) ) instanceof ve.dm.MWExternalLinkAnnotation
+		) {
+			// The reference consists of one single external link so
+			// offer the user a conversion to citoid-generated reference
+			this.convertibleHref = annotation.getHref();
+			convertButton = new OO.ui.ButtonWidget( {
+				label: ve.msg( 'citoid-referencecontextitem-convert-button' )
+			} ).connect( this, { click: 'onConvertButtonClick' } );
+			this.$body.append(
+				$( '<div>' )
+					.addClass( 've-ui-citoidReferenceContextItem-convert ve-ui-mwReferenceContextItem-muted' )
+					.text( ve.msg( 'citoid-referencecontextitem-convert-message' ) ),
+				convertButton.$element
+			);
+		}
+	};
+
+	/**
+	 * Handle click events from the convert button
+	 */
+	ve.ui.MWReferenceContextItem.prototype.onConvertButtonClick = function () {
+		var action = ve.ui.actionFactory.create( 'citoid', this.context.getSurface() );
+		action.open( this.convertibleHref );
+	};
+
 }() );

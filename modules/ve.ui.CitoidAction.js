@@ -31,7 +31,7 @@ ve.ui.CitoidAction.static.name = 'citoid';
 /**
  * @inheritdoc
  */
-ve.ui.CitoidAction.static.methods = [ 'open' ];
+ve.ui.CitoidAction.static.methods = [ 'open', 'convert' ];
 
 /* Methods */
 
@@ -42,8 +42,9 @@ ve.ui.CitoidAction.static.methods = [ 'open' ];
  * @method
  * @return {boolean} Action was executed
  */
-ve.ui.CitoidAction.prototype.open = function () {
+ve.ui.CitoidAction.prototype.open = function ( lookup ) {
 	this.surface.execute( 'window', 'open', 'citefromid', {
+		lookup: lookup,
 		inDialog: this.surface.getInDialog()
 	} );
 	return true;
