@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aneeskaka"
+			"Aneeskaka",
+			"Mehtab ahmed"
 		]
 	},
 	"citoid-citefromiddialog-search": "ڳولا",
 	"citoid-citefromiddialog-search-label": "يو آر ايل يا ڊي او آءِ",
-	"citoid-citefromiddialog-search-progress": "ڳولا ڀي رهي آهي، مهرباني ڪري انتظار ڪريو"
+	"citoid-citefromiddialog-search-progress": "ڳولا ڀي رهي آهي، مهرباني ڪري انتظار ڪريو",
+	"citoid-referencecontextitem-convert-button": "تبديل ڪريو"
 }

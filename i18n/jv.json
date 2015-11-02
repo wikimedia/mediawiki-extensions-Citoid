@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jadinegara"
+			"Jadinegara",
+			"Meursault2004"
 		]
 	},
-	"citoid-520-error": "Ora bisa njupuk katrangan saka pangênal kasêdya.",
-	"citoid-citation-widget-insert-button": "Lêbokake",
+	"citoid-520-error": "Ora bisa njupuk katrangan saka pangenal kasedya.",
+	"citoid-citation-widget-insert-button": "Lebokna",
 	"citoid-citefromiddialog-back": "Balik",
 	"citoid-citefromiddialog-lookup-button": "Kasilna",
 	"citoid-citefromiddialog-mode-auto": "Otomatis",
@@ -14,10 +15,10 @@
 	"citoid-citefromiddialog-search": "Golèk",
 	"citoid-citefromiddialog-search-label": "URL utawa DOI",
 	"citoid-citefromiddialog-search-placeholder": "tuladha http://www.tuladha.com",
-	"citoid-citefromiddialog-search-progress": "Nggolèki, êntènana sadhela...",
+	"citoid-citefromiddialog-search-progress": "Nggolèki, entènana sadhela...",
 	"citoid-citefromiddialog-title": "Tambahi comotan",
-	"citoid-citefromiddialog-use-general-error-message": "Kami ora bisa nggawe comotan kanggo sira. Sira bisa anggawe dhewe nganggo tab \"{{int:citoid-citefromiddialog-mode-manual}}\" ning dhuwur.",
+	"citoid-citefromiddialog-use-general-error-message": "Awaké dhéwé ora bisa nggawé comotan kanggo sampéyan. Sampéyan bisa nggawé dhéwé nganggo tab \"{{int:citoid-citefromiddialog-mode-manual}}\" ing dhuwur.",
 	"citoid-citefromidtool-title": "Comot",
-	"citoid-desc": "Nyêdhiyani pada pakolèh antara pamong comotan lan MedhiyaWiki",
-	"citoid-unknown-error": "Kaluputan nirkalok wis kêlakon njalari ngalangi kami nggawe comotan. Sumangga jajal manèh mêngko."
+	"citoid-desc": "Nyedhyani titik aksès antara pamong comotan lan MediaWiki",
+	"citoid-unknown-error": "Kaluputan nirkalok wis kalakon njalari ngalangi awaké dhéwé nggawé comotan. Sumangga jajal manèh mengko."
 }

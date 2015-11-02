@@ -25,7 +25,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "Label notifying the user there was a problem creating their reference, and offering to use the full citation tool.\n* $1 – link to open the citation dialog; link label: {{msg-mw|Citoid-citefromiddialog-mode-manual}}",
 	"citoid-citefromidtool-title": "Label for the button to add a citation in the toolbar\n{{Identical|Cite}}",
 	"citoid-desc": "{{desc|name=Citoid|url=https://www.mediawiki.org/wiki/Citoid}}",
-	"citoid-referencecontextitem-convert-button": "Label for the button to convert a plain reference to a Citoid reference.",
+	"citoid-referencecontextitem-convert-button": "Label for the button to convert a plain reference to a Citoid reference.\n{{Identical|Convert}}",
 	"citoid-referencecontextitem-convert-message": "Message explaining the functionality of the button to convert a plain reference to a Citoid reference.",
 	"citoid-unknown-error": "Error message indicating that the service to create citations has returned an error or is temporarily malfunctioning, asking the user to try again later."
 }

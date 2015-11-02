@@ -19,5 +19,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "Nun se puteva fà na citazione pe' vuje. Vuje putite fà cchesta manualmente ausanno 'a scheda \"{{int:citoid-citefromiddialog-mode-manual}}\" ccà ncoppa.",
 	"citoid-citefromidtool-title": "Citazione",
 	"citoid-desc": "Dà punte 'acciesso nfra 'o servizio citoid e MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Scagna",
+	"citoid-referencecontextitem-convert-message": "Stu riferimento è fatto 'a nu cullegamento 'e fore. Putite ausà pure 'o buttóne \"{{int:citoid-referencecontextitem-convert-button}}\" ccà abbascio pe' puté crià nu riferimento furmatato buono.",
 	"citoid-unknown-error": "S'è scummigliato n'errore ca nun ce permettesse 'e crià 'a citaziona. Pe' piacere tentate cchiù tarde.."
 }

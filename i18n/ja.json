@@ -21,5 +21,6 @@
 	"citoid-citefromiddialog-use-general-error-message": "出典を作成できませんでした。上にある「{{int:citoid-citefromiddialog-mode-manual}}」タブを使って、手動で作成することもできます。",
 	"citoid-citefromidtool-title": "引用",
 	"citoid-desc": "citoid サービスとMediaWikiとの間のアクセスポイントを提供する",
+	"citoid-referencecontextitem-convert-button": "変換",
 	"citoid-unknown-error": "出典の作成を妨害する不明なエラーが発生しました。後でやり直してください。"
 }

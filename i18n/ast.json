@@ -19,5 +19,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "Nun pudimos crear la cita por ti. Puedes crear una manualmente usando la llingüeta «{{int:citoid-citefromiddialog-mode-manual}}» de más arriba.",
 	"citoid-citefromidtool-title": "Citar",
 	"citoid-desc": "Ufre puntos d'accesu ente'l serviciu Citoid y MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Convertir",
+	"citoid-referencecontextitem-convert-message": "Esta referencia solo contien un enllaz esternu. Puedes utilizar el botón \"{{int:citoid-referencecontextitem-converter-botón}}\" de más abaxo pa xenerar una referencia col formatu correchu.",
 	"citoid-unknown-error": "Hebo un error desconocíu que torgó la creación de la cita. Inténtalo más sero."
 }

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Techlik"
+			"Techlik",
+			"Liridon"
 		]
 	},
 	"citoid-520-error": "E pamundur të mirren informacionet prej identifikuesit të ofruar.",
@@ -19,5 +20,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "Nuk mundem të krijojmë një burim për ju. Ju mund të krijoni një manualisht, duke përdorur \"{{int:citoid-citefromiddialog-mode-manual}}\" më sipër.",
 	"citoid-citefromidtool-title": "Burim",
 	"citoid-desc": "Ofroni qasje mes pikave të burimeve të cituara dhe MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Konverto",
+	"citoid-referencecontextitem-convert-message": "Kjo referencë përbëhet nga vetëm një lidhje e jashtme. Ju mund të përdorni butonin \"{{int:citoid-referencecontextitem-convert-button}}\" më poshtë për të gjeneruar një referencë të formatit të duhur.",
 	"citoid-unknown-error": "Një gabim i panjohur ka ndodhur dhe na ka penguar që krijojmë një burim. Ju lutemi të provoni sërish më vonë."
 }
