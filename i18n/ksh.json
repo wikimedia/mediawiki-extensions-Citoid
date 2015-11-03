@@ -20,5 +20,6 @@
 	"citoid-citefromidtool-title": "Zėttėhre",
 	"citoid-desc": "Schaff Zohjreffspungkte zwesche däm Deens <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Generate citations given an URL, URI, DOI, …\">Citoid</i> un MedijaWikki.",
 	"citoid-referencecontextitem-convert-button": "Ömwandelle",
+	"citoid-referencecontextitem-convert-message": "En heh dä Fohßnuhd es blohs ene Lengk dren, Met dämm Knopp „{{int:citoid-referencecontextitem-convert-button}}“ kam_mer ene jannze Saz druß maache.",
 	"citoid-unknown-error": "Ene onbikannte Fähler es opjetrodde.\nDröm krijje mer jäz kein Zittaht.\nBes esu johd un versöhg et schpääder norr_ens."
 }
