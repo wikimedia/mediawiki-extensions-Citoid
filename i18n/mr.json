@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"NehalDaveND"
+			"NehalDaveND",
+			"V.narsikar"
 		]
 	},
 	"citoid-citation-widget-insert-button": "समाविष्ट करा",
@@ -10,5 +11,6 @@
 	"citoid-citefromiddialog-mode-auto": "स्वयंचलित",
 	"citoid-citefromiddialog-mode-manual": "मानवीकृत",
 	"citoid-citefromiddialog-mode-reuse": "पुनरुपयोग",
-	"citoid-citefromiddialog-search": "शोधा"
+	"citoid-citefromiddialog-search": "शोधा",
+	"citoid-referencecontextitem-convert-button": "रुपांतर करा"
 }

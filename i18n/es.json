@@ -22,5 +22,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "No pudimos crear la cita. Utiliza la pestaña «{{int:citoid-citefromiddialog-mode-manual}}» ubicada más arriba para crear una manualmente.",
 	"citoid-citefromidtool-title": "Citar",
 	"citoid-desc": "Proporciona puntos de acceso entre el servicio Citoid y MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Convertir",
+	"citoid-referencecontextitem-convert-message": "Esta referencia se compone únicamente de un enlace externo. Puedes usar el botón \"{{int:citoid-referencecontextitem-convertir-botón}}\" de abajo para generar una referencia correctamente formateada.",
 	"citoid-unknown-error": "Ocurrió un error desconocido que nos impidió crear la cita. Inténtalo de nuevo más tarde."
 }
