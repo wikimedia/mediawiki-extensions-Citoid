@@ -20,5 +20,6 @@
 	"citoid-citefromiddialog-use-general-error-message": "Viitteen luominen epäonnistui. Voit luoda sen manuaalisesti valitsemalla välilehden {{int:citoid-citefromiddialog-mode-manual}}.",
 	"citoid-citefromidtool-title": "Viittaa",
 	"citoid-desc": "Mahdollistaa citoid-palvelun käytön MediaWikissä",
+	"citoid-referencecontextitem-convert-button": "Muunna",
 	"citoid-unknown-error": "Viitteen luominen epäonnistui tuntemattomasta syystä. Yritä myöhemmin uudelleen."
 }
