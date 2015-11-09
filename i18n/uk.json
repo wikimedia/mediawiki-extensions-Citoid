@@ -21,5 +21,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "Ми не могли зробити для Вас цитування. Його можна створити вручну, використовуючи вкладку «{{int:citoid-citefromiddialog-mode-manual}}» вище.",
 	"citoid-citefromidtool-title": "Цитувати",
 	"citoid-desc": "Забезпечує точки доступу між сервісом citoid та MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Конвертувати",
+	"citoid-referencecontextitem-convert-message": "Це посилання на джерело містить лише зовнішнє посилання. Ви можете скористатися кнопкою «{{int:citoid-referencecontextitem-convert-button}}» нижче, щоб згенерувати відповідно відформатоване посилання на джерело.",
 	"citoid-unknown-error": "Сталася невідома помилка, яка не дозволила нам створити цитування. Будь ласка, спробуйте пізніше."
 }

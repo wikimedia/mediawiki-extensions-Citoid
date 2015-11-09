@@ -3,7 +3,8 @@
 		"authors": [
 			"Dinhxuanduyet",
 			"Anh88",
-			"Minh Nguyen"
+			"Minh Nguyen",
+			"Nguyên Lê"
 		]
 	},
 	"citoid-520-error": "Không thể lấy thông tin từ định danh được cung cấp.",
@@ -21,5 +22,6 @@
 	"citoid-citefromiddialog-use-general-error-message": "Không thể tạo một chú thích cho bạn. Bạn có thể tạo ra nó một cách thủ công dùng thẻ “{{int:citoid-citefromiddialog-mode-manual}}” bên trên.",
 	"citoid-citefromidtool-title": "Chú thích",
 	"citoid-desc": "Cung cấp các điểm truy cập giữa dịch vụ citoid và MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Chuyển đổi",
 	"citoid-unknown-error": "Một lỗi không rõ đã xảy ra, khiến chúng tôi không thể tạo được một chú thích. Xin vui lòng thử lại sau."
 }
