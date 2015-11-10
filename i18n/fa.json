@@ -4,7 +4,8 @@
 			"Reza1615",
 			"Leyth",
 			"Maspadana",
-			"الناز"
+			"الناز",
+			"Ebraminio"
 		]
 	},
 	"citoid-520-error": "بازیابی اطلاعات از شناسه ارائه شده ممکن نیست.",
@@ -22,5 +23,6 @@
 	"citoid-citefromiddialog-use-general-error-message": "نتوانستیم یادکردی برای شما بسازیم. شما می‌توانید با استفاده از زبانهٔ {{int:citoid-citefromiddialog-mode-manual}} به صورت دستی آن را بسازید.",
 	"citoid-citefromidtool-title": "یادکرد",
 	"citoid-desc": "ارتباط بین خدمت citoid و مدیاویکی را برقرار می‌کند",
+	"citoid-referencecontextitem-convert-button": "تبدیل",
 	"citoid-unknown-error": "خطای نامشخصی اجازه ساخت یادکرد را نمی‌دهد. لطفاً بعداً تلاش کنید."
 }
