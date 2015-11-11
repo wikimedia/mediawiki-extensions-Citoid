@@ -20,7 +20,10 @@
 	"citoid-citefromiddialog-search-placeholder": "p. ex., http://www.exemple.com",
 	"citoid-citefromiddialog-search-progress": "S’està cercant, espereu-vos…",
 	"citoid-citefromiddialog-title": "Afegir una citació",
+	"citoid-citefromiddialog-use-general-error-message": "No hem pogut fer generar la cita. Pots crear-la manualment utilitzant el \"{{int:citoid-citefromiddialog-mode-manual}}\" a la pestanya de dalt.",
 	"citoid-citefromidtool-title": "Cita",
 	"citoid-desc": "Proporciona punts d’accés entre el servei Citoid i MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Convertir",
+	"citoid-referencecontextitem-convert-message": "Aquesta referència es compon de només un enllaç extern. Podeu utilitzar el \"{{int:citoid-referencecontextitem-convertir-botó}}\" botó de sota per a generar-ne una referència correctament formatada.",
 	"citoid-unknown-error": "Un error desconegut ha ocorregut, fet que ens impedeix la creació d'una referència. Si us plau, proveu-ho més tard."
 }
