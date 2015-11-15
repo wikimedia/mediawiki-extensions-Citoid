@@ -21,5 +21,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "Vi kunne ikke lage en sitering for deg. Du kan lage en manuelt ved å bruke arkfanen «{{int:citoid-citefromiddialog-mode-manual}}» ovenfor.",
 	"citoid-citefromidtool-title": "Siter",
 	"citoid-desc": "Et aksesspunkt mellom citoid-tjenesten og MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Konverter",
+	"citoid-referencecontextitem-convert-message": "Denne referansen består kun av en ekstern lenke. Du kan bruke «{{int:citoid-referencecontextitem-convert-button}}»-knappen under for å lage en korrekt formatert referanse.",
 	"citoid-unknown-error": "En ukjent feil som har oppstått hindrer oss fra å lage en sitering. Vennligst prøv igjen senere."
 }

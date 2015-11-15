@@ -23,5 +23,6 @@
 	"citoid-citefromidtool-title": "Chú thích",
 	"citoid-desc": "Cung cấp các điểm truy cập giữa dịch vụ citoid và MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Chuyển đổi",
+	"citoid-referencecontextitem-convert-message": "Chú thích này chỉ là một liên kết ngoài. Bấm nút “{{int:citoid-referencecontextitem-convert-button}}” bên dưới để tạo chú thích có định dạng đúng.",
 	"citoid-unknown-error": "Một lỗi không rõ đã xảy ra, khiến chúng tôi không thể tạo được một chú thích. Xin vui lòng thử lại sau."
 }
