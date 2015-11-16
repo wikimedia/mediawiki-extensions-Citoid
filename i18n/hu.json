@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Tacsipacsi",
-			"Misibacsi"
+			"Misibacsi",
+			"Nyuszika7H"
 		]
 	},
-	"citoid-520-error": "Nem tudja lekérni az adatokat a megadott azonosítóról.",
+	"citoid-520-error": "Nem sikerült lekérni az adatokat a megadott azonosítóról.",
 	"citoid-citation-widget-insert-button": "Beillesztés",
 	"citoid-citefromiddialog-back": "Vissza",
 	"citoid-citefromiddialog-lookup-button": "Generálás",
@@ -20,5 +21,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "Nem tudtunk hivatkozást készíteni neked. Létrehozhatsz egyet kézzel a fenti „{{int:citoid-citefromiddialog-mode-manual}}” füllel.",
 	"citoid-citefromidtool-title": "Forrás",
 	"citoid-desc": "Összeköttetést biztosít a citoid szolgáltatás és a MediaWiki között",
+	"citoid-referencecontextitem-convert-button": "Konvertálás",
+	"citoid-referencecontextitem-convert-message": "Ez a forráshivatkozás csak egy külső linket tartalmaz. A lenti „{{int:citoid-referencecontextitem-convert-button}}” gombbal átalakíthatod egy jól formázott forráshivatkozássá.",
 	"citoid-unknown-error": "Egy ismeretlen hiba lépett fel, ami megakadályozott minket a forráshivatkozás létrehozásában. Próbáld újra később."
 }
