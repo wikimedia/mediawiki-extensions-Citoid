@@ -7,14 +7,15 @@
 			"Amire80",
 			"Raymond",
 			"Purodha",
-			"McDutchie"
+			"McDutchie",
+			"Mormegil"
 		]
 	},
 	"citoid-520-error": "Error message for when citoid service returns a 520 error",
 	"citoid-citation-widget-insert-button": "Label for the button to insert a chosen reference.\n{{Identical|Insert}}",
 	"citoid-citefromiddialog-back": "Label for the button to go back to the generate panel in the inspector.\n{{Identical|Back}}",
 	"citoid-citefromiddialog-lookup-button": "Label for the generate button for citation inputs. Unlike \"search\", \"generate\" is a process in which there is certainty that a particular result will be found, for example, matching a valid ISBN to a book title.\n{{Identical|Generate}}",
-	"citoid-citefromiddialog-mode-auto": "Label of tab in citation dialog, used to select mode.\n{{Identical|Automatic}}",
+	"citoid-citefromiddialog-mode-auto": "Label of tab in citation dialog ({{msg-mw|Citoid-citefromiddialog-title}}), used to select mode. The other tabs are {{msg-mw|Citoid-citefromiddialog-mode-manual}} and {{msg-mw|Citoid-citefromiddialog-mode-reuse}}.\n{{Identical|Automatic}}",
 	"citoid-citefromiddialog-mode-manual": "Label of tab in citation dialog, used to select mode.\n{{Identical|Manual}}",
 	"citoid-citefromiddialog-mode-reuse": "Label of tab in citation dialog, used to select mode.\n{{Identical|Re-use}}",
 	"citoid-citefromiddialog-search": "Text for the search button.\n{{Identical|Search}}",
