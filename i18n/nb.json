@@ -6,7 +6,7 @@
 			"Danmichaelo"
 		]
 	},
-	"citoid-520-error": "Kan ikke hente informasjon fra tilgjengelig identifikator.",
+	"citoid-520-error": "Klarte ikke hente informasjon fra identifikatoren.",
 	"citoid-citation-widget-insert-button": "Sett inn",
 	"citoid-citefromiddialog-back": "Tilbake",
 	"citoid-citefromiddialog-lookup-button": "Generer",
@@ -18,10 +18,10 @@
 	"citoid-citefromiddialog-search-placeholder": "e.g. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Søker, vennligst vent…",
 	"citoid-citefromiddialog-title": "Legg til en sitering",
-	"citoid-citefromiddialog-use-general-error-message": "Vi kunne ikke lage en sitering for deg. Du kan lage en manuelt ved å bruke arkfanen «{{int:citoid-citefromiddialog-mode-manual}}» ovenfor.",
+	"citoid-citefromiddialog-use-general-error-message": "Klarte ikke lage en automatisk sitering. Du kan lage en manuelt ved å bruke arkfanen «{{int:citoid-citefromiddialog-mode-manual}}» ovenfor.",
 	"citoid-citefromidtool-title": "Siter",
 	"citoid-desc": "Et aksesspunkt mellom citoid-tjenesten og MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konverter",
 	"citoid-referencecontextitem-convert-message": "Denne referansen består kun av en ekstern lenke. Du kan bruke «{{int:citoid-referencecontextitem-convert-button}}»-knappen under for å lage en korrekt formatert referanse.",
-	"citoid-unknown-error": "En ukjent feil som har oppstått hindrer oss fra å lage en sitering. Vennligst prøv igjen senere."
+	"citoid-unknown-error": "Kunne ikke opprette referansen på grunn av en ukjent feil. Prøv på nytt senere."
 }
