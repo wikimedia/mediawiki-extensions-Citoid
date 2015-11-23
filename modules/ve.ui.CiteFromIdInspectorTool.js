@@ -99,7 +99,7 @@
 	 * @inheritdoc
 	 */
 	ve.ui.MWReferenceContextItem.prototype.renderBody = function () {
-		var surfaceModel, fragment, annotations, annotation, convertButton,
+		var surfaceModel, fragment, annotations, annotation, convertButton, range, contentNode,
 			refNode = this.getReferenceNode();
 
 		this.$body.append( this.getRendering() );
@@ -109,16 +109,24 @@
 		}
 
 		surfaceModel = this.context.getSurface().getModel();
-		fragment = surfaceModel.getLinearFragment( refNode.getRange() );
+		range = refNode.getRange();
+		fragment = surfaceModel.getLinearFragment( range );
 		// Get covering annotations
 		annotations = fragment.getAnnotations( false );
+		// The reference consists of one single external link so
+		// offer the user a conversion to citoid-generated reference
 		if (
 			annotations.getLength() === 1 &&
 			( annotation = annotations.get( 0 ) ) instanceof ve.dm.MWExternalLinkAnnotation
 		) {
-			// The reference consists of one single external link so
-			// offer the user a conversion to citoid-generated reference
 			this.convertibleHref = annotation.getHref();
+		} else if ( range.getLength() === 4 ) {
+			contentNode = fragment.adjustLinearSelection( 1, -1 ).getSelectedNode();
+			if ( contentNode instanceof ve.dm.MWNumberedExternalLinkNode ) {
+				this.convertibleHref = contentNode.getHref();
+			}
+		}
+		if ( this.convertibleHref ) {
 			convertButton = new OO.ui.ButtonWidget( {
 				label: ve.msg( 'citoid-referencecontextitem-convert-button' )
 			} ).connect( this, { click: 'onConvertButtonClick' } );
