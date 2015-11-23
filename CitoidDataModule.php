@@ -36,11 +36,7 @@ class CitoidDataModule extends ResourceLoaderModule {
 		);
 	}
 
-	public function getDefinitionSummary( ResourceLoaderContext $context ) {
-		$summary = parent::getDefinitionSummary( $context );
-		$summary[] = array(
-			'script' => $this->getScript( $context ),
-		);
-		return $summary;
+	public function enableModuleContentVersion() {
+		return true;
 	}
 }
