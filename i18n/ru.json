@@ -21,5 +21,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "Мы не могли сделать цитату для вас. Её можно создать вручную, используя кнопку «{{int:citoid-citefromiddialog-mode-manual}}» во вкладке выше.",
 	"citoid-citefromidtool-title": "Источник",
 	"citoid-desc": "Обеспечивает доступ между сервисом citoid и Медиавики",
+	"citoid-referencecontextitem-convert-button": "Конвертировать",
+	"citoid-referencecontextitem-convert-message": "Эта ссылка состоит из простой внешней ссылки. Вы можете использовать кнопку «{{int:citoid-referencecontextitem-convert-button}}», чтобы создать правильно сформированную ссылку.",
 	"citoid-unknown-error": "Произошла неизвестная ошибка, не позволявшая нам создавать цитату. Пожалуйста, повторите попытку позже."
 }
