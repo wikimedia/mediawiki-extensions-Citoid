@@ -4,7 +4,8 @@
 			"William915",
 			"Shinjiman",
 			"CRCHF",
-			"Yueman"
+			"Yueman",
+			"Ktchankt"
 		]
 	},
 	"citoid-520-error": "唔可以喺畀出嘅鑒定器度攞信息。",
@@ -22,5 +23,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "我哋無辦法幫你整引用。 你可以用上面 \"{{int:citoid-citefromiddialog-mode-manual}}\" 頁籤自己搞。",
 	"citoid-citefromidtool-title": "引用",
 	"citoid-desc": "提供喺 citoid 服務同 MediaWiki 之間嘅存取點",
+	"citoid-referencecontextitem-convert-button": "轉換",
+	"citoid-referencecontextitem-convert-message": "呢項參考只係個出面網頁，你可以用下面 \"{{int:citoid-referencecontextitem-convert-button}}\" 掣去整啱格式嘅參考。",
 	"citoid-unknown-error": "發生咗未知錯誤，所以建立唔到引用，麻煩遲啲再試過。"
 }

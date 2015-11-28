@@ -21,5 +21,6 @@
 	"citoid-citefromidtool-title": "Цытаваць",
 	"citoid-desc": "Забясьпечвае пункты дасягу між сэрвісам citoid і MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Канвэртаваць",
+	"citoid-referencecontextitem-convert-message": "Гэтая спасылка складаецца з простай вонкавай спасылкі. Вы можаце скарыстацца кнопкай «{{int:citoid-referencecontextitem-convert-button}}», каб сфармаваць правільную спасылку.",
 	"citoid-unknown-error": "Адбылася невядомая памылка, якая не дала магчымасьць стварыць цытату. Калі ласка, паспрабуйце пазьней."
 }
