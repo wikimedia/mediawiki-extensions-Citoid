@@ -3,7 +3,8 @@
 		"authors": [
 			"SeoJeongHo",
 			"아라",
-			"Lefion"
+			"Lefion",
+			"Revi"
 		]
 	},
 	"citoid-520-error": "제공한 식별자로부터 정보를 얻을 수 없습니다.",
@@ -21,5 +22,6 @@
 	"citoid-citefromiddialog-use-general-error-message": "당신을 위한 인용을 만들 수 없습니다. 위의 \"{{int:citoid-citefromiddialog-mode-manual}}\" 탭에서 인용을 직접 만들 수 있습니다.",
 	"citoid-citefromidtool-title": "인용",
 	"citoid-desc": "Citoid 서비스와 미디어위키 사이의 액세스 포인트를 제공합니다",
+	"citoid-referencecontextitem-convert-button": "변환",
 	"citoid-unknown-error": "알 수 없는 오류가 발생하여 인용을 만드는 것을 막았습니다. 나중에 다시 시도하세요."
 }
