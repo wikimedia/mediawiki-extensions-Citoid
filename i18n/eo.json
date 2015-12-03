@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"KuboF",
-			"Kvardek du"
+			"Kvardek du",
+			"Ochilov"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Enmeti",
@@ -18,5 +19,6 @@
 	"citoid-citefromiddialog-title": "Aldoni citon",
 	"citoid-citefromiddialog-use-general-error-message": "Ni ne povis krei citaĵon por vi. Vi povas krei la citaĵon permane per la supra langeto \"{{int:citoid-citefromiddialog-mode-manual}}\".",
 	"citoid-citefromidtool-title": "Citado",
+	"citoid-referencecontextitem-convert-button": "Igi",
 	"citoid-unknown-error": "Ni ne povis krei la citon pro nekonata eraro. Bonvolu reprovi pli malfrue."
 }
