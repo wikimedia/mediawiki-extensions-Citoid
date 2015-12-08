@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hosseinblue"
+		]
+	},
+	"citoid-520-error": "بازیابی اطلاعات از شناسه ارائه شده ممکن نیست.",
+	"citoid-citation-widget-insert-button": "قرار دائن",
+	"citoid-citefromiddialog-back": "گِل آوردن/برگشت",
+	"citoid-citefromiddialog-lookup-button": "تولید",
+	"citoid-citefromiddialog-mode-auto": "خودکار",
+	"citoid-citefromiddialog-mode-manual": "کتابچه راهنمای",
+	"citoid-citefromiddialog-mode-reuse": "استفادهٔ مجدد",
+	"citoid-citefromiddialog-search": "گئردین/مهِ نی",
+	"citoid-citefromiddialog-search-label": "URL یا DOI",
+	"citoid-citefromiddialog-search-placeholder": "مثلاً http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "درحال مِنِی کِردِن، گرئ بووسِن...",
+	"citoid-citefromiddialog-use-general-error-message": "نتوانستیم یادکردی برای شما بسازیم. شما می‌توانید با استفاده از زبانهٔ {{int:citoid-citefromiddialog-mode-manual}} به صورت دستی آن را بسازید.",
+	"citoid-citefromidtool-title": "Cite",
+	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
+	"citoid-referencecontextitem-convert-button": "تبدیل",
+	"citoid-referencecontextitem-convert-message": "This reference consists of just an external link. You can use the \"{{int:citoid-referencecontextitem-convert-button}}\" button below to generate a properly formatted reference.",
+	"citoid-unknown-error": "خطای نامشخصی اجازه ساخت یادکرد را نمی‌دهد. لطفاً بعداً تلاش کنید."
+}
