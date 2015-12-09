@@ -50,7 +50,7 @@
 	 *
 	 * @class
 	 * @abstract
-	 * @extends ve.ui.Tool
+	 * @extends ve.ui.FragmentInspectorTool
 	 * @constructor
 	 * @param {OO.ui.ToolGroup} toolGroup
 	 * @param {Object} [config] Configuration options
@@ -63,7 +63,7 @@
 		} );
 	};
 
-	OO.inheritClass( ve.ui.CiteFromIdInspectorTool, ve.ui.InspectorTool );
+	OO.inheritClass( ve.ui.CiteFromIdInspectorTool, ve.ui.FragmentInspectorTool );
 	OO.mixinClass( ve.ui.CiteFromIdInspectorTool, ve.ui.MWEducationPopupTool );
 
 	ve.ui.CiteFromIdInspectorTool.static.name = 'citefromid';
