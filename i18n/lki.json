@@ -15,6 +15,7 @@
 	"citoid-citefromiddialog-search-label": "URL یا DOI",
 	"citoid-citefromiddialog-search-placeholder": "مثلاً http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "درحال مِنِی کِردِن، گرئ بووسِن...",
+	"citoid-citefromiddialog-title": "افزودن یادکرد",
 	"citoid-citefromiddialog-use-general-error-message": "نتوانستیم یادکردی برای شما بسازیم. شما می‌توانید با استفاده از زبانهٔ {{int:citoid-citefromiddialog-mode-manual}} به صورت دستی آن را بسازید.",
 	"citoid-citefromidtool-title": "Cite",
 	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
