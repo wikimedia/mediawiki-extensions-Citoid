@@ -79,9 +79,6 @@
 		"ResourceLoaderGetConfigVars": [
 			"CitoidHooks::onResourceLoaderGetConfigVars"
 		],
-		"ContentHandlerDefaultModelFor": [
-			"CitoidHooks::onContentHandlerDefaultModelFor"
-		],
 		"ResourceLoaderTestModules": [
 			"CitoidHooks::onResourceLoaderTestModules"
 		],

@@ -21,14 +21,6 @@ class CitoidHooks {
 		return true;
 	}
 
-	public static function onContentHandlerDefaultModelFor( Title $title, &$model ) {
-		if ( $title->inNamespace( NS_MEDIAWIKI ) && $title->getText() === 'Citoid-template-type-map.json' ) {
-			$model = CONTENT_MODEL_JSON;
-		}
-
-		return true;
-	}
-
 	/**
 	 * Register qunit unit tests
 	 */
