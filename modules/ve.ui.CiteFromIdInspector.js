@@ -526,7 +526,8 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 	xhr = this.service
 		.get( {
 			search: this.lookupInput.getValue(),
-			format: ve.ui.CiteFromIdInspector.static.citoidFormat
+			format: ve.ui.CiteFromIdInspector.static.citoidFormat,
+			basefields: 'true' // Request base fields from API i.e. publicationTitle instead of websiteTitle
 		} );
 
 	this.lookupPromise = xhr
