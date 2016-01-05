@@ -6,7 +6,8 @@
 			"Maceleiro",
 			"Arnaugir",
 			"Kippelboy",
-			"Jaumeortola"
+			"Jaumeortola",
+			"Ssola"
 		]
 	},
 	"citoid-520-error": "No s’ha pogut recuperar informació sobre l’identificador proporcionat.",
@@ -21,7 +22,7 @@
 	"citoid-citefromiddialog-search-placeholder": "p. ex., http://www.exemple.com",
 	"citoid-citefromiddialog-search-progress": "S’està cercant, espereu-vos…",
 	"citoid-citefromiddialog-title": "Afegir una citació",
-	"citoid-citefromiddialog-use-general-error-message": "No hem pogut fer generar la cita. Pots crear-la manualment utilitzant el \"{{int:citoid-citefromiddialog-mode-manual}}\" a la pestanya de dalt.",
+	"citoid-citefromiddialog-use-general-error-message": "No hem pogut generar la cita. Pots crear-la manualment utilitzant la pestanya «{{int:citoid-citefromiddialog-mode-manual}}» de dalt.",
 	"citoid-citefromidtool-title": "Cita",
 	"citoid-desc": "Proporciona punts d’accés entre el servei Citoid i MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Convertir",
