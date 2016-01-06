@@ -13,7 +13,7 @@
 	"citoid-citefromiddialog-mode-manual": "ידני",
 	"citoid-citefromiddialog-mode-reuse": "שימוש חוזר",
 	"citoid-citefromiddialog-search": "חיפוש",
-	"citoid-citefromiddialog-search-label": "URL או DOI",
+	"citoid-citefromiddialog-search-label": "URL&rlm;, DOI או PMID.",
 	"citoid-citefromiddialog-search-placeholder": "למשל http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "חיפוש, נא להמתין...",
 	"citoid-citefromiddialog-title": "הוספת ציטוט",
