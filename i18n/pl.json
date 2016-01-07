@@ -13,7 +13,7 @@
 	"citoid-citefromiddialog-mode-manual": "Ręcznie",
 	"citoid-citefromiddialog-mode-reuse": "Użyj istniejącego",
 	"citoid-citefromiddialog-search": "Szukaj",
-	"citoid-citefromiddialog-search-label": "URL lub DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI lub PMID",
 	"citoid-citefromiddialog-search-placeholder": "np. http://www.przyklad.com",
 	"citoid-citefromiddialog-search-progress": "Wyszukiwanie, proszę czekać...",
 	"citoid-citefromiddialog-title": "Dodaj przypis",

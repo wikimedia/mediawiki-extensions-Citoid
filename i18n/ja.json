@@ -14,7 +14,7 @@
 	"citoid-citefromiddialog-mode-manual": "マニュアル",
 	"citoid-citefromiddialog-mode-reuse": "再利用",
 	"citoid-citefromiddialog-search": "検索",
-	"citoid-citefromiddialog-search-label": "URL 又は DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI または PMID",
 	"citoid-citefromiddialog-search-placeholder": "例 http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "検索しています。しばらくお待ち下さい。",
 	"citoid-citefromiddialog-title": "引用を追加",
