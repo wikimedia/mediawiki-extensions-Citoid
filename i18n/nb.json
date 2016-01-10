@@ -14,7 +14,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manuell",
 	"citoid-citefromiddialog-mode-reuse": "Gjenbruk",
 	"citoid-citefromiddialog-search": "Søk",
-	"citoid-citefromiddialog-search-label": "URL eller DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI eller PMID",
 	"citoid-citefromiddialog-search-placeholder": "e.g. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Søker, vennligst vent…",
 	"citoid-citefromiddialog-title": "Legg til en sitering",
