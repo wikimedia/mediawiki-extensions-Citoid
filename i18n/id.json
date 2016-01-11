@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kenrick95"
+			"Kenrick95",
+			"Arief"
 		]
 	},
 	"citoid-520-error": "Tidak dapat mengambil informasi dari penyedia pengenal.",
@@ -12,7 +13,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manual",
 	"citoid-citefromiddialog-mode-reuse": "Pakai ulang",
 	"citoid-citefromiddialog-search": "Cari",
-	"citoid-citefromiddialog-search-label": "URL atau DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI atau PMID",
 	"citoid-citefromiddialog-search-placeholder": "misalnya http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Mencari, silakan menunggu...",
 	"citoid-citefromiddialog-title": "Tambahkan kutipan",
