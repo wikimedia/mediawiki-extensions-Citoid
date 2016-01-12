@@ -14,7 +14,7 @@
 	"citoid-citefromiddialog-mode-manual": "Вручную",
 	"citoid-citefromiddialog-mode-reuse": "Повторное использование",
 	"citoid-citefromiddialog-search": "Поиск",
-	"citoid-citefromiddialog-search-label": "URL или DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI или PMID",
 	"citoid-citefromiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Идёт поиск, пожалуйста, подождите…",
 	"citoid-citefromiddialog-title": "Добавить ссылку на источник",

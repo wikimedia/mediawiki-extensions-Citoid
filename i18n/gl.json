@@ -15,7 +15,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manual",
 	"citoid-citefromiddialog-mode-reuse": "Reutilizar",
 	"citoid-citefromiddialog-search": "Procurar",
-	"citoid-citefromiddialog-search-label": "URL ou DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI ou PMID",
 	"citoid-citefromiddialog-search-placeholder": "por exemplo, http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Procurando; por favor, agarde...",
 	"citoid-citefromiddialog-title": "Engadir unha cita",
