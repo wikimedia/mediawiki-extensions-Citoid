@@ -6,7 +6,8 @@
 			"Jdforrester",
 			"Siebrand",
 			"Romaine",
-			"Dedalus"
+			"Dedalus",
+			"Sjoerddebruin"
 		]
 	},
 	"citoid-520-error": "Het was niet mogelijk de gegevens van de opgegeven identifier op te halen.",
@@ -17,12 +18,13 @@
 	"citoid-citefromiddialog-mode-manual": "Handmatig",
 	"citoid-citefromiddialog-mode-reuse": "Hergebruiken",
 	"citoid-citefromiddialog-search": "Zoeken",
-	"citoid-citefromiddialog-search-label": "URL of DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI of PMID",
 	"citoid-citefromiddialog-search-placeholder": "bijvoorbeeld http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Bezig met zoeken. Een moment geduld...",
 	"citoid-citefromiddialog-title": "Citaat toevoegen",
 	"citoid-citefromiddialog-use-general-error-message": "Het was niet mogelijk een citaat aan te maken. U kunt proberen het handmatig aan te maken via het tabblad \"{{int:citoid-citefromiddialog-mode-manual}}\" hierboven.",
 	"citoid-citefromidtool-title": "Citeren",
 	"citoid-desc": "Koppelt de citoidservice en MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Converteren",
 	"citoid-unknown-error": "Er is een onbekende fout opgetreden waardoor het citaat niet aangemaakt kon worden. Probeer het later opnieuw."
 }
