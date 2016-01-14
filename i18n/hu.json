@@ -3,7 +3,8 @@
 		"authors": [
 			"Tacsipacsi",
 			"Misibacsi",
-			"Nyuszika7H"
+			"Nyuszika7H",
+			"Elitre (WMF)"
 		]
 	},
 	"citoid-520-error": "Nem sikerült lekérni az adatokat a megadott azonosítóról.",
@@ -14,7 +15,7 @@
 	"citoid-citefromiddialog-mode-manual": "Kézi",
 	"citoid-citefromiddialog-mode-reuse": "Újrafelhasználás",
 	"citoid-citefromiddialog-search": "Keresés",
-	"citoid-citefromiddialog-search-label": "URL vagy DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI vagy PMID",
 	"citoid-citefromiddialog-search-placeholder": "pl. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Keresés, pillanat…",
 	"citoid-citefromiddialog-title": "Forráshivatkozás hozzáadása",
