@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Stryn",
-			"Nike"
+			"Nike",
+			"Alluk."
 		]
 	},
 	"citoid-520-error": "Tunnisteen tietojen hakeminen epäonnistui.",
-	"citoid-citation-widget-insert-button": "Aseta",
+	"citoid-citation-widget-insert-button": "Lisää",
 	"citoid-citefromiddialog-back": "Takaisin",
 	"citoid-citefromiddialog-lookup-button": "Tuota",
 	"citoid-citefromiddialog-mode-auto": "Automaattinen",
@@ -15,11 +16,12 @@
 	"citoid-citefromiddialog-search": "Hae",
 	"citoid-citefromiddialog-search-label": "URL tai DOI",
 	"citoid-citefromiddialog-search-placeholder": "esim. http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "Haetaan, odota...",
+	"citoid-citefromiddialog-search-progress": "Haetaan, pieni hetki...",
 	"citoid-citefromiddialog-title": "Lisää viittaus",
 	"citoid-citefromiddialog-use-general-error-message": "Viitteen luominen epäonnistui. Voit luoda sen manuaalisesti valitsemalla välilehden {{int:citoid-citefromiddialog-mode-manual}}.",
 	"citoid-citefromidtool-title": "Viittaa",
 	"citoid-desc": "Mahdollistaa citoid-palvelun käytön MediaWikissä",
 	"citoid-referencecontextitem-convert-button": "Muunna",
+	"citoid-referencecontextitem-convert-message": "Tämä viite koostuu pelkästä linkistä. Voit päivittää sen muoto-ohjeiden mukaiseksi viitteeksi käyttämällä \"{{int:citoid-referencecontextitem-convert-button}}\"-toimintoa.",
 	"citoid-unknown-error": "Viitteen luominen epäonnistui tuntemattomasta syystä. Yritä myöhemmin uudelleen."
 }
