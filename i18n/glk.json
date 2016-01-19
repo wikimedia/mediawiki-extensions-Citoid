@@ -1,22 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"V6rg"
+			"V6rg",
+			"شیخ"
 		]
 	},
-	"citoid-520-error": "اي شناسه جي که هأدأىننشأنه اطلاعاته واىتن.",
+	"citoid-520-error": "اي شناسه جي که هأدأىن نشأنه اطلاعاته واىتن.",
 	"citoid-citation-widget-insert-button": "دنأن",
 	"citoid-citefromiddialog-back": "وگرد",
 	"citoid-citefromiddialog-lookup-button": "تؤليد",
-	"citoid-citefromiddialog-mode-auto": "خۊکار",
+	"citoid-citefromiddialog-mode-auto": "خۊدکار",
 	"citoid-citefromiddialog-mode-manual": "دستي",
-	"citoid-citefromiddialog-mode-reuse": "هنده کاراىتن",
+	"citoid-citefromiddialog-mode-reuse": "هندئه کاراىتن",
 	"citoid-citefromiddialog-search": "وامج",
-	"citoid-citefromiddialog-search-label": "URL ىا DOI",
+	"citoid-citefromiddialog-search-label": "URL، DOI ىا PMID",
 	"citoid-citefromiddialog-search-placeholder": "http://www.example.com مۊسؤن",
 	"citoid-citefromiddialog-search-progress": "وامته دره، صبر بۊکۊنين...",
 	"citoid-citefromiddialog-title": "نقلˇ قؤل چربانئن",
-	"citoid-citefromiddialog-use-general-error-message": "نۊتؤنسيم شيمئبه نقلˇ قؤل چاکۊنيم. شمه تينين {{int:citoid-citefromiddialog-mode-manual}} زبانه' جي دستي اۊنه چاکۊنين.",
-	"citoid-citefromidtool-title": "نقلˇقؤل",
-	"citoid-unknown-error": "ىکته \"سأب\" (خطا) کي مألۊم نئه چيسه، اجازه ندئنه کي نقلˇقؤل چاکۊده بۊبۊن. ىک سفر ديگه حقسأى بۊکۊنين."
+	"citoid-citefromiddialog-use-general-error-message": "مننيم شيمئبه نقلˇ قؤل چاکۊنيم. شمه تينين {{int:citoid-citefromiddialog-mode-manual}} زوانه أجي دستي اۊنه چاکۊنين.",
+	"citoid-citefromidtool-title": "نقلˇ قؤل",
+	"citoid-unknown-error": "ىکته \"سأب\" کي مألۊم نيه چيسه، اجازه ندئنه کي نقلˇ قؤل چاگۊده بۊبۊن. ىک سفر ديگه حقسأى بۊکۊنين."
 }

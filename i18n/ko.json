@@ -15,7 +15,7 @@
 	"citoid-citefromiddialog-mode-manual": "수동",
 	"citoid-citefromiddialog-mode-reuse": "재사용",
 	"citoid-citefromiddialog-search": "검색",
-	"citoid-citefromiddialog-search-label": "URL 또는 DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI 또는 PMID",
 	"citoid-citefromiddialog-search-placeholder": "예 http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "검색 중입니다, 기다려주세요...",
 	"citoid-citefromiddialog-title": "인용 추가",
