@@ -14,7 +14,7 @@
 	"citoid-citefromiddialog-mode-manual": "Instrukcija",
 	"citoid-citefromiddialog-mode-reuse": "Naudoti pakartotinai",
 	"citoid-citefromiddialog-search": "Paieška",
-	"citoid-citefromiddialog-search-label": "URL arba DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI arba PMID",
 	"citoid-citefromiddialog-search-placeholder": "pvz. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Ieškoma, prašome palaukti...",
 	"citoid-citefromiddialog-title": "Pridėti citatą",
