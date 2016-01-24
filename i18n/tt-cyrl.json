@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ильнар"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Өстәү",
+	"citoid-citefromiddialog-back": "Артка",
+	"citoid-citefromiddialog-lookup-button": "Чыгару",
+	"citoid-citefromiddialog-mode-auto": "Үзлегеннән",
+	"citoid-citefromiddialog-mode-manual": "Кулдан",
+	"citoid-citefromiddialog-mode-reuse": "Кире куллану",
+	"citoid-citefromiddialog-search": "Эзләү",
+	"citoid-citefromiddialog-search-label": "URL, DOI яисә PMID",
+	"citoid-citefromiddialog-search-placeholder": "мәсәлән, http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Эзлибез, зинһар, көтегез…",
+	"citoid-citefromiddialog-title": "Чыганакка сылтама кую",
+	"citoid-citefromidtool-title": "Чыганак",
+	"citoid-referencecontextitem-convert-button": "Формат алмаштыру"
+}
