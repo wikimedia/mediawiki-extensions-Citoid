@@ -22,5 +22,6 @@
 	"citoid-citefromidtool-title": "ციტირება",
 	"citoid-desc": "უზრუნველყოფს კავშირს citoid-ის მომსახურებსა MediaWiki-ს შორის",
 	"citoid-referencecontextitem-convert-button": "კონვერტაცია",
+	"citoid-referencecontextitem-convert-message": "ეს სქოლიო მარტივი შიდა ბმულისაგან შედგება. სწორად ჩამოყალიბებული სქოლიოს შესაქმნელად, თქვენ შეგიძლიათ გამოიყენოთ ღილაკი „{{int:citoid-referencecontextitem-convert-button}}“.",
 	"citoid-unknown-error": "უცნობი შეცდომა არ იძლეოდა ციტატის შექმნის საშუალებას. გთხოვთ, მოგვიანებით სცადეთ."
 }

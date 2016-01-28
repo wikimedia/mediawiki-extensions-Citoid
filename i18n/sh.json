@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"OC Ripper"
+			"OC Ripper",
+			"Sf"
 		]
 	},
 	"citoid-520-error": "Nije moguće dobiti informacije od pruženog identifikatora.",
@@ -12,12 +13,13 @@
 	"citoid-citefromiddialog-mode-manual": "Ručno",
 	"citoid-citefromiddialog-mode-reuse": "Ponovo upotrijebiti",
 	"citoid-citefromiddialog-search": "Traži",
-	"citoid-citefromiddialog-search-label": "URL ili DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI ili PMID",
 	"citoid-citefromiddialog-search-placeholder": "npr. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Pretraživanje, molimo pričekajte...",
 	"citoid-citefromiddialog-title": "Dodaj citat",
 	"citoid-citefromiddialog-use-general-error-message": "Nismo mogli napraviti citat za vas. Možete ga stvoriti ručno koristeći gornji tab \"{{int:citoid-citefromiddialog-mode-manual}}\".",
 	"citoid-citefromidtool-title": "Citiraj - Цитирај",
 	"citoid-desc": "Pruža točke pristupa između službe citoida i  MediaWiki",
+	"citoid-referencecontextitem-convert-message": "Ova referenca se sastoji samo od vanjskog linka. Možete je pretvoriti u pravilno formatiranu referencu klikom na dugme \"{{int:citoid-referencecontextitem-convert-button}}\".",
 	"citoid-unknown-error": "Nepoznata pogreška se dogodila i spriječila nas da stvorimo citat. Molimo pokušajte kasnije."
 }
