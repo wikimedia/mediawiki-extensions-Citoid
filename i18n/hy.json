@@ -14,7 +14,7 @@
 	"citoid-citefromiddialog-mode-manual": "Ձեռքով",
 	"citoid-citefromiddialog-mode-reuse": "Կրկին օգտագործում",
 	"citoid-citefromiddialog-search": "Որոնել",
-	"citoid-citefromiddialog-search-label": "Հղում կամ DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI կամ PMID",
 	"citoid-citefromiddialog-search-placeholder": "օր.՝ http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Որոնում, սպասեք, խնդրում եմ...",
 	"citoid-citefromiddialog-title": "Ավելացնել մեջբերում",
@@ -23,5 +23,5 @@
 	"citoid-desc": "Կապ է հաստատում ծանոթագրության և ՄեդիաՎիքիի միջև:",
 	"citoid-referencecontextitem-convert-button": "Փոխարկել",
 	"citoid-referencecontextitem-convert-message": "Ծանոթագրությունը միայն արտաքին հղում է։ Դուք կարող եք օգտագործել {{int:citoid-referencecontextitem-convert-button}} կոճակը՝ ճիշտ ձևավորված ծանոթագրություն ստանալու համար։",
-	"citoid-unknown-error": "Որոշակի խնդիր խանգարեց, ո մենք ստեղծենք ծանոթագրությունը: Խնդրում ենք, փորձեք մի փոքր ուշ:"
+	"citoid-unknown-error": "Ինչ-որ բան խանգարեց ծանոթագրությունը ստեղծել: Խնդրում ենք, փորձեք մի փոքր ուշ:"
 }

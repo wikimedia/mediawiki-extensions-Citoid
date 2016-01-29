@@ -13,7 +13,7 @@
 	"citoid-citefromiddialog-mode-manual": "হাতে কলমে",
 	"citoid-citefromiddialog-mode-reuse": "পুনঃব্যবহার",
 	"citoid-citefromiddialog-search": "অনুসন্ধান",
-	"citoid-citefromiddialog-search-label": "URL বা DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI বা PMID",
 	"citoid-citefromiddialog-search-placeholder": "উদা. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "অনুসন্ধান করা হচ্ছে, দয়া করে অপেক্ষা করুন...",
 	"citoid-citefromiddialog-title": "একটি উদ্ধৃতি যোগ করুন",
