@@ -20,6 +20,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "Nismo mogli napraviti citat za vas. Možete ga stvoriti ručno koristeći gornji tab \"{{int:citoid-citefromiddialog-mode-manual}}\".",
 	"citoid-citefromidtool-title": "Citiraj - Цитирај",
 	"citoid-desc": "Pruža točke pristupa između službe citoida i  MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Pretvori",
 	"citoid-referencecontextitem-convert-message": "Ova referenca se sastoji samo od vanjskog linka. Možete je pretvoriti u pravilno formatiranu referencu klikom na dugme \"{{int:citoid-referencecontextitem-convert-button}}\".",
 	"citoid-unknown-error": "Nepoznata pogreška se dogodila i spriječila nas da stvorimo citat. Molimo pokušajte kasnije."
 }

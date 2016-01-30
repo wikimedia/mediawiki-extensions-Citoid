@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"EagerLin"
+		]
+	},
+	"citoid-520-error": "來自在提供識別碼，無法度檢視信息。",
+	"citoid-citation-widget-insert-button": "插入去",
+	"citoid-citefromiddialog-back": "轉來",
+	"citoid-citefromiddialog-lookup-button": "生出來",
+	"citoid-citefromiddialog-mode-auto": "自動个",
+	"citoid-citefromiddialog-mode-manual": "手冊",
+	"citoid-citefromiddialog-mode-reuse": "重來使用",
+	"citoid-citefromiddialog-search": "尋覓",
+	"citoid-citefromiddialog-search-label": "URL, DOI 或者 PMID",
+	"citoid-citefromiddialog-search-placeholder": "像係 http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "尋覓當中，請等一下仔......",
+	"citoid-citefromiddialog-title": "增加一隻引用",
+	"citoid-citefromiddialog-use-general-error-message": "𠊎兜無法度製作一隻引用分你。你做得建立只有一本手冊放到 \"{{int:citoid-citefromiddialog-mode-manual}}\" 標籤頂高",
+	"citoid-citefromidtool-title": "引用",
+	"citoid-desc": "Citoid服務和維基媒體之間提供存取點",
+	"citoid-referencecontextitem-convert-button": "變換"
+}
