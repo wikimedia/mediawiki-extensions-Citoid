@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yejianfei"
+		]
+	},
+	"citoid-520-error": "無辦法趁提供其標誌符掏轉信息",
+	"citoid-citation-widget-insert-button": "插入",
+	"citoid-citefromiddialog-back": "返回",
+	"citoid-citefromiddialog-lookup-button": "生成",
+	"citoid-citefromiddialog-mode-auto": "自動",
+	"citoid-citefromiddialog-mode-manual": "手動",
+	"citoid-citefromiddialog-mode-reuse": "複用",
+	"citoid-citefromiddialog-search": "尋討",
+	"citoid-citefromiddialog-search-label": "URL、DOI或者PMID",
+	"citoid-citefromiddialog-search-placeholder": "比如講 http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "敆𡅏尋討，起動汝等蜀等...",
+	"citoid-citefromiddialog-title": "添加引用",
+	"citoid-citefromiddialog-use-general-error-message": "儂家無法為汝建立引用。汝會使使懸頂其「{{int:citoid-citefromiddialog-mode-manual}}」標簽頁手動創建。",
+	"citoid-citefromidtool-title": "引用",
+	"citoid-desc": "敆citoid服務共媒體维基之間提供接入點",
+	"citoid-referencecontextitem-convert-button": "轉換",
+	"citoid-referencecontextitem-convert-message": "茲萆參考文獻儷由蜀萆外部鏈接組成。汝會使使下底其「{{int:citoid-referencecontextitem-convert-button}}」按鈕來生成蜀萆正確格式其參考文獻。",
+	"citoid-unknown-error": "發生未知错误，造成無法創建引用。起動汝等仂固再試蜀試。"
+}
