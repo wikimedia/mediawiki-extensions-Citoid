@@ -6,7 +6,8 @@
 			"Jdforrester",
 			"^musaz",
 			"Macofe",
-			"Mpiva"
+			"Mpiva",
+			"Fringio"
 		]
 	},
 	"citoid-520-error": "Impossibile recuperare le informazioni dall'identificatore fornito.",
@@ -26,5 +27,5 @@
 	"citoid-desc": "Fornisce un punto di accesso tra il servizio citoid e MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converti",
 	"citoid-referencecontextitem-convert-message": "Questo riferimento è costituito solo da un collegamento esterno. Puoi usare il bottone \"{{int:citoid-referencecontextitem-convert-button}}\" qui sotto per generare un riferimento formattato correttamente.",
-	"citoid-unknown-error": "Un errore sconosciuto è verificato che ci ha impedito la creazione di una citazione. Si prega di riprovare più tardi."
+	"citoid-unknown-error": "Si è verificato un errore sconosciuto che ha impedito la creazione di una citazione. Si prega di riprovare più tardi."
 }
