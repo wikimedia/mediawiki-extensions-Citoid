@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"David1010"
+			"David1010",
+			"Silovan"
 		]
 	},
 	"citoid-citation-widget-insert-button": "ჩასმა",
@@ -11,7 +12,14 @@
 	"citoid-citefromiddialog-mode-manual": "ხელით",
 	"citoid-citefromiddialog-mode-reuse": "ხელახლა გამოყენება",
 	"citoid-citefromiddialog-search": "გორუა",
-	"citoid-citefromiddialog-search-label": "URL ან DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI ვარდა PMID",
 	"citoid-citefromiddialog-search-placeholder": "მაგ. http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "მიმდინარეობს ძიება, გთხოვთ, მოიცადოთ..."
+	"citoid-citefromiddialog-search-progress": "მიმდინარეობს ძიება, გთხოვთ, მოიცადოთ...",
+	"citoid-citefromiddialog-title": "ციტატაშ გეძინა",
+	"citoid-citefromiddialog-use-general-error-message": "თქვანო რსხუქ ვამაკეთინეს. თქვა თიშ კეთება ხეთ შეილებჷნა „{{int:citoid-citefromiddialog-mode-manual}}“-იშ გჷმორინაფათ ჟილენი ჩანართიშე.",
+	"citoid-citefromidtool-title": "ციტირაფა",
+	"citoid-desc": "ხეს უნწყუნს citoid-იშ ნინალაშ დო MediaWiki-შ შქას რსხუს",
+	"citoid-referencecontextitem-convert-button": "კონვერტაცია",
+	"citoid-referencecontextitem-convert-message": "თე სქოლიო ლექინი დინოხოლენ რსხუეფშე აკმოდირთუ. თინას გჷმოქიმინელი სქოლიოშ აკაქიმინალო, შეილებუნა გჷმირინუათ კონჭი „{{int:citoid-referencecontextitem-convert-button}}“.",
+	"citoid-unknown-error": "უჩინებუ ჩილათა ვერძენდჷ ციტატაშ აკოქიმინუაშ ასა-გასას. ქორთხინთ, მოგვიანეთ ქეცადით."
 }
