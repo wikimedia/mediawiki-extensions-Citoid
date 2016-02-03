@@ -16,15 +16,14 @@
  * @param {Object} [config] Configuration options
  */
 ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
-	var i, len, tools, item, limit,
+	var i, len, tools, item,
+		limit = ve.ui.CiteFromIdInspector.static.citationToolsLimit,
 		items = [];
 
 	config = config || {};
 
 	// Parent constructor
 	ve.ui.CiteSourceSelectWidget.super.call( this, config );
-
-	limit = ve.init.target.constructor.static.citationToolsLimit;
 
 	try {
 		// Must use mw.message to avoid JSON being parsed as Wikitext
@@ -49,7 +48,7 @@ ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
 	// Basic tools
 	this.refBasic = new OO.ui.DecoratedOptionWidget( {
 		icon: 'reference',
-		label: ve.msg( 'visualeditor-dialogbutton-reference-full-label' ),
+		label: ve.msg( 'cite-ve-dialogbutton-reference-full-label' ),
 		data: { windowName: 'reference' },
 		classes: [ 've-ui-citeSourceSelectWidget-basic' ]
 	} );
