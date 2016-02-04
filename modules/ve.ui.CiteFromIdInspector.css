@@ -60,6 +60,10 @@
 	color: #c00;
 }
 
+.ve-ui-citeFromIdInspector-sourceSelect {
+	margin: -0.5em 0;
+}
+
 .ve-ui-citeFromIdInspector-sourceSelect .oo-ui-optionWidget {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
