@@ -31,7 +31,7 @@
 		// we won't have to manually change the index here.
 		for ( j = 0, jLen = toolGroups.length; j < jLen; j++ ) {
 			if ( ve.getProp( toolGroups[ j ], 'include', 0 ) === 'citefromid' ) {
-				break targetLoader;
+				continue targetLoader;
 			}
 			if ( ve.getProp( toolGroups[ j ], 'include', 0, 'group' ) === 'cite' ) {
 				citeIndex = j;
