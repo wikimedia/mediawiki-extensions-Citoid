@@ -67,6 +67,8 @@ ve.ui.CiteFromIdInspector.static.actions = [
 	}
 ];
 
+ve.ui.CiteFromIdInspector.static.citationToolsLimit = 5;
+
 /* Methods */
 
 /**
@@ -75,7 +77,7 @@ ve.ui.CiteFromIdInspector.static.actions = [
 ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	var lookupActionFieldLayout,
 		lookupFieldset = new OO.ui.FieldsetLayout(),
-		limit = ve.init.target.constructor.static.citationToolsLimit;
+		limit = this.constructor.static.citationToolsLimit;
 
 	// Parent method
 	ve.ui.CiteFromIdInspector.super.prototype.initialize.call( this );

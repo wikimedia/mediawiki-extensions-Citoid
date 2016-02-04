@@ -16,6 +16,7 @@
 	// HACK: Find the position of the current citation toolbar definition
 	// and manipulate it.
 
+	targetLoader:
 	for ( i in ve.init.mw ) {
 		target = ve.init.mw[ i ];
 		if ( !target || !( target.prototype instanceof ve.init.Target ) ) {
@@ -30,8 +31,7 @@
 		// we won't have to manually change the index here.
 		for ( j = 0, jLen = toolGroups.length; j < jLen; j++ ) {
 			if ( ve.getProp( toolGroups[ j ], 'include', 0 ) === 'citefromid' ) {
-				citeIndex = -1;
-				break;
+				break targetLoader;
 			}
 			if ( ve.getProp( toolGroups[ j ], 'include', 0, 'group' ) === 'cite' ) {
 				citeIndex = j;
@@ -39,10 +39,8 @@
 			}
 		}
 
-		// HACK: Replace the previous cite group with the citoid tool.
-		if ( citeIndex !== -1 ) {
-			toolGroups[ citeIndex ] = { include: [ 'citefromid' ] };
-		}
+		// Replace the previous cite group with the citoid tool.
+		toolGroups[ citeIndex ] = { include: [ 'citefromid' ] };
 	}
 
 	/**

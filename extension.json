@@ -36,7 +36,7 @@
 				"modules/ve.ui.CitoidReferenceContextItem.css"
 			],
 			"dependencies": [
-				"ext.visualEditor.mwreference",
+				"ext.cite.visualEditor",
 				"json",
 				"ext.visualEditor.mediawiki",
 				"mediawiki.api.options",
