@@ -22,5 +22,6 @@
 	"citoid-citefromidtool-title": "استشهد",
 	"citoid-desc": "يوفر نقطة وصول بين citoid وميدياويكي",
 	"citoid-referencecontextitem-convert-button": "حول",
+	"citoid-referencecontextitem-convert-message": "هذا المرجع يتكون من وصلة خارجية فقط. يمكنك استخدام زر\"{{int:citoid-referencecontextitem-convert-button}}\" في الأسفل لتوليد مرجع منسق على نحو مناسب.",
 	"citoid-unknown-error": "حدث خطأ غير معلوم منعنا من إنشاء استشهاد. برجاء المحاولة في وقت لاحق."
 }
