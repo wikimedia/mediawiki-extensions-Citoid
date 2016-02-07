@@ -10,7 +10,7 @@
 	"citoid-citefromiddialog-back": "পিছনে",
 	"citoid-citefromiddialog-lookup-button": "উৎপন্ন করুন",
 	"citoid-citefromiddialog-mode-auto": "স্বয়ংক্রিয়",
-	"citoid-citefromiddialog-mode-manual": "হাতে কলমে",
+	"citoid-citefromiddialog-mode-manual": "হস্তচালিত",
 	"citoid-citefromiddialog-mode-reuse": "পুনঃব্যবহার",
 	"citoid-citefromiddialog-search": "অনুসন্ধান",
 	"citoid-citefromiddialog-search-label": "URL, DOI বা PMID",
@@ -21,5 +21,6 @@
 	"citoid-citefromidtool-title": "উদ্ধৃতি",
 	"citoid-desc": "সাইটয়েড পরিষেবা ও মিডিয়াউইকির মধ্যে প্রবেশাধিকার বিন্দু সরবরাহ করে",
 	"citoid-referencecontextitem-convert-button": "রূপান্তর করো",
+	"citoid-referencecontextitem-convert-message": "এই তথ্যসূত্র শুধু একটি বাহ্যিক লিঙ্ক নিয়ে গঠিত। সঠিকভাবে বিন্যস্ত তথ্যসূত্র উৎপন্ন করতে আপনি নিচের  \"{{int:citoid-referencecontextitem-convert-button}}\" বোতাম ব্যবহার করতে পারেন।",
 	"citoid-unknown-error": "একটি অজানা ত্রুটি যা আমাদের তথ্যসূত্র তৈরী করতে বাধা দিচ্ছে। অনুগ্রহ করে পুনরায় চেষ্টা করুন।"
 }
