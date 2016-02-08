@@ -6,15 +6,19 @@
 			"Aursani"
 		]
 	},
+	"citoid-520-error": " ڄاڻايل آئڊينٽيفائر کان معلومات حاصل ڪرڻ ۾ ناڪام.",
 	"citoid-citation-widget-insert-button": "وجھو",
 	"citoid-citefromiddialog-back": "واپس",
 	"citoid-citefromiddialog-lookup-button": "پيدا ڪرڻ",
 	"citoid-citefromiddialog-mode-auto": "خودڪار",
+	"citoid-citefromiddialog-mode-manual": "ترتيبوار",
 	"citoid-citefromiddialog-mode-reuse": "ٻيهر استعمال ڪريو",
 	"citoid-citefromiddialog-search": "ڳولا",
-	"citoid-citefromiddialog-search-label": "يو آر ايل يا ڊي او آءِ",
+	"citoid-citefromiddialog-search-label": "يو آر ايل، ڊي او آءِ يا پي ايم آءِ ڊي",
 	"citoid-citefromiddialog-search-placeholder": "مثال طور http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "ڳولا جاري آهي، براءِ مهرباني انتظار فرمايو...",
 	"citoid-citefromiddialog-title": "ڪو حوالو شامل ڪريو",
-	"citoid-referencecontextitem-convert-button": "تبديل ڪريو"
+	"citoid-citefromidtool-title": "حوالو",
+	"citoid-referencecontextitem-convert-button": "تبديل ڪريو",
+	"citoid-unknown-error": "ھڪ اڻڄاتل خرابي پيش آئي آھي جنھن اسانکي ڪو حوالو تخليق ڪرڻ کان روڪيو. براءِ مھرباني بعد ۾ ٻيھر ڪوشش ڪريو."
 }
