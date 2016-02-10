@@ -56,8 +56,8 @@
 	ve.ui.CiteFromIdInspectorTool = function VeUiCiteFromIdInspectorTool() {
 		ve.ui.CiteFromIdInspectorTool.super.apply( this, arguments );
 		ve.ui.MWEducationPopupTool.call( this, {
-			title: ve.msg( 'visualeditor-dialogbutton-citation-educationpopup-title' ),
-			text: ve.msg( 'visualeditor-dialogbutton-citation-educationpopup-text' )
+			title: ve.msg( 'cite-ve-dialogbutton-citation-educationpopup-title' ),
+			text: ve.msg( 'cite-ve-dialogbutton-citation-educationpopup-text' )
 		} );
 	};
 
