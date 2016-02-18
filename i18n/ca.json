@@ -18,7 +18,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manual",
 	"citoid-citefromiddialog-mode-reuse": "Reutilitza",
 	"citoid-citefromiddialog-search": "Cerca",
-	"citoid-citefromiddialog-search-label": "URL o DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI o PMID",
 	"citoid-citefromiddialog-search-placeholder": "p. ex., http://www.exemple.com",
 	"citoid-citefromiddialog-search-progress": "S’està cercant, espereu-vos…",
 	"citoid-citefromiddialog-title": "Afegir una citació",
