@@ -26,5 +26,6 @@
 	"citoid-citefromidtool-title": "Citeren",
 	"citoid-desc": "Koppelt de citoidservice en MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converteren",
+	"citoid-referencecontextitem-convert-message": "Deze referentie bestaat uit alleen een externe koppeling.U kunt de knop \"{{int:citoid-referencecontextitem-convert-button}}\" hieronder gebruiken om een correct opgemaakte referentie te maken.",
 	"citoid-unknown-error": "Er is een onbekende fout opgetreden waardoor het citaat niet aangemaakt kon worden. Probeer het later opnieuw."
 }
