@@ -27,7 +27,8 @@
 				"modules/ve.ui.CiteFromIdGroupWidget.js",
 				"modules/ve.ui.CiteFromIdReferenceWidget.js",
 				"modules/ve.ui.CiteFromIdInspector.js",
-				"modules/ve.ui.CitoidAction.js"
+				"modules/ve.ui.CitoidAction.js",
+				"modules/ve.ui.Citoid.init.js"
 			],
 			"styles": [
 				"modules/ve.ui.CiteSourceSelectWidget.css",
