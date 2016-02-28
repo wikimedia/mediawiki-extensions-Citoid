@@ -5,6 +5,7 @@
 			"Dbc334"
 		]
 	},
+	"citoid-520-error": "Ne morem pridobiti informacij od navedenega identifikatorja.",
 	"citoid-citation-widget-insert-button": "Vstavi",
 	"citoid-citefromiddialog-back": "Nazaj",
 	"citoid-citefromiddialog-lookup-button": "Ustvari",
@@ -19,5 +20,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "Sklica nismo mogli ustvariti. Ustvarite ga lahko ročno z uporabo zavihka »{{int:citoid-citefromiddialog-mode-manual}}« zgoraj.",
 	"citoid-citefromidtool-title": "Navedi",
 	"citoid-desc": "Zagotavlja točke dostopa med storitvama citoid in MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Pretvori",
+	"citoid-referencecontextitem-convert-message": "Sklic vsebuje samo zunanjo povezavo. Uporabite lahko gumb »{{int:citoid-referencecontextitem-convert-button}}« spodaj, da ustvarite ustrezno oblikovan sklic.",
 	"citoid-unknown-error": "Pojavila se je neznana napaka, ki je preprečila kreacijo sklica. Prosimo, poskusite znova kasneje."
 }
