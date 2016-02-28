@@ -52,7 +52,7 @@
 
 .ve-ui-citeFromIdReferenceWidget-insert-button {
 	float: right;
-	margin-right: 0;
+	margin: 0 0 1em 1em;
 }
 
 .ve-ui-citeFromIdInspector-dialog-error {
