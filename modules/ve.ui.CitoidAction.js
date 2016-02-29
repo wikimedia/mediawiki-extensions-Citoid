@@ -31,7 +31,7 @@ ve.ui.CitoidAction.static.name = 'citoid';
 /**
  * @inheritdoc
  */
-ve.ui.CitoidAction.static.methods = [ 'open', 'convert' ];
+ve.ui.CitoidAction.static.methods = [ 'open' ];
 
 /* Methods */
 
