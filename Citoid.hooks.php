@@ -28,16 +28,21 @@ class CitoidHooks {
 		array &$testModules,
 		ResourceLoader &$resourceLoader
 	) {
-		$testModules['qunit']['ext.citoid.tests'] = array(
-			'scripts' => array(
-				'modules/tests/index.test.js'
+		if (
+			isset( $resourceModules[ 'ext.visualEditor.mediawiki' ] ) ||
+			$resourceLoader->isModuleRegistered( 'ext.visualEditor.mediawiki' )
+		) {
+			$testModules['qunit']['ext.citoid.tests'] = array(
+				'scripts' => array(
+					'modules/tests/index.test.js'
+					),
+				'dependencies' => array(
+					'ext.citoid.visualEditor',
 				),
-			'dependencies' => array(
-				'ext.citoid.visualEditor',
-				),
-			'localBasePath' => __DIR__,
-			'remoteExtPath' => 'Citoid',
-		);
+				'localBasePath' => __DIR__,
+				'remoteExtPath' => 'Citoid',
+			);
+		}
 
 		return true;
 	}
