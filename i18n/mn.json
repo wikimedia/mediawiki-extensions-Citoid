@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Munkhzaya.E"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Оруулаx",
+	"citoid-citefromiddialog-back": "Буцах",
+	"citoid-citefromiddialog-lookup-button": "Үүсгэх",
+	"citoid-citefromiddialog-mode-auto": "Автоматаар",
+	"citoid-citefromiddialog-mode-manual": "гараар",
+	"citoid-citefromiddialog-mode-reuse": "Цааш нь хэрэглэх",
+	"citoid-citefromiddialog-search": "Хайлт",
+	"citoid-citefromiddialog-search-label": "URL, DOI эсвэл PMID",
+	"citoid-citefromiddialog-search-placeholder": "Жнь.: http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Хайж байна, түр хүлээнэ үү...",
+	"citoid-citefromiddialog-title": "Баримт нэмж оруулах",
+	"citoid-citefromidtool-title": "Баримтжуулах",
+	"citoid-referencecontextitem-convert-button": "хөрвүүлэх"
+}
