@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tel'et"
+		]
+	},
+	"citoid-citation-widget-insert-button": "قىستۇر",
+	"citoid-citefromiddialog-back": "قايت",
+	"citoid-citefromiddialog-lookup-button": "ھاسىللىغۇچ",
+	"citoid-citefromiddialog-mode-auto": "ئاپتوماتىك",
+	"citoid-citefromiddialog-mode-manual": "قولدا",
+	"citoid-citefromiddialog-mode-reuse": "تەكرار قوللان",
+	"citoid-citefromiddialog-search": "ئىزدە",
+	"citoid-citefromiddialog-search-label": "URL، DOI ياكى PMID",
+	"citoid-citefromiddialog-search-placeholder": "مەسىلەن http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "ئىزدەۋاتىدۇ، ساقلاڭ ...",
+	"citoid-referencecontextitem-convert-button": "ئۆزگەرت"
+}
