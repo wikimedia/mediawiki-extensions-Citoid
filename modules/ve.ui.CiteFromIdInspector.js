@@ -136,6 +136,12 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		} )
 	};
 
+	this.modeIndex.addCards( [
+		this.modePanels.auto,
+		this.modePanels.manual,
+		this.modePanels.reuse
+	] );
+
 	// Auto mode
 	this.autoProcessStack = new OO.ui.StackLayout( {
 		expanded: false,
@@ -212,12 +218,6 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	this.autoProcessStack.addItems( [
 		this.autoProcessPanels.lookup,
 		this.autoProcessPanels.result
-	] );
-
-	this.modeIndex.addCards( [
-		this.modePanels.auto,
-		this.modePanels.manual,
-		this.modePanels.reuse
 	] );
 
 	// Attach
