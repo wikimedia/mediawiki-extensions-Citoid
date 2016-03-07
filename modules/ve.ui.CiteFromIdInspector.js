@@ -407,7 +407,7 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 
 			// Collapse returns a new fragment, so update this.fragment
 			if ( !data.lookup ) {
-				this.fragment = this.getFragment().collapseToEnd();
+				this.fragment = this.getFragment().collapseToEnd().select();
 			}
 
 			// Create model
