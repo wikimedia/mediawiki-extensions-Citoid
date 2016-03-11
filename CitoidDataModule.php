@@ -20,13 +20,12 @@ class CitoidDataModule extends ResourceLoaderModule {
 	/* Methods */
 
 	public function getScript( ResourceLoaderContext $context ) {
-		return
-			've.init.platform.addMessages(' . FormatJson::encode(
-				array(
-					'citoid-template-type-map-backup.json' => wfMessage( 'citoid-template-type-map.json' )->inLanguage( $context->getLanguage() )->plain(),
-				),
-				ResourceLoader::inDebugMode()
-			) . ');';
+		return 've.init.platform.addMessages(' . FormatJson::encode(
+			array(
+				'citoid-template-type-map-backup.json' => $context->msg( 'citoid-template-type-map.json' )->plain(),
+			),
+			ResourceLoader::inDebugMode()
+		) . ');';
 	}
 
 	public function getDependencies( ResourceLoaderContext $context = null ) {
