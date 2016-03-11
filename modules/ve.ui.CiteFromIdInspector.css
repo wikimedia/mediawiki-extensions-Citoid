@@ -53,6 +53,9 @@
 .ve-ui-citeFromIdReferenceWidget-insert-button {
 	float: right;
 	margin: 0 0 1em 1em;
+	/* Position above mw-body-content */
+	position: relative;
+	z-index: 1;
 }
 
 .ve-ui-citeFromIdInspector-dialog-error {
