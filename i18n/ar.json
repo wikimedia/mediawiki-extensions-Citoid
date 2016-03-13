@@ -3,7 +3,8 @@
 		"authors": [
 			"Jdforrester",
 			"محمد أحمد عبد الفتاح",
-			"فلورانس"
+			"فلورانس",
+			"JoyfulEditing"
 		]
 	},
 	"citoid-520-error": "غير قادر على استرجاع المعلومات من المعرف المقدم",
@@ -21,7 +22,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "لم نتمكن من جعل الاقتباس لك. يمكنك إنشاء واحد يدويا باستخدام \"{{int:citoid-citefromiddialog-mode-manual}}\" التبويب أعلاه.",
 	"citoid-citefromidtool-title": "استشهد",
 	"citoid-desc": "يوفر نقطة وصول بين citoid وميدياويكي",
-	"citoid-referencecontextitem-convert-button": "حول",
-	"citoid-referencecontextitem-convert-message": "هذا المرجع يتكون من وصلة خارجية فقط. يمكنك استخدام زر\"{{int:citoid-referencecontextitem-convert-button}}\" في الأسفل لتوليد مرجع منسق على نحو مناسب.",
+	"citoid-referencecontextitem-convert-button": "حَوِّلْ",
+	"citoid-referencecontextitem-convert-message": "هذا المرجع يتكون من رابط خارجي فقط. يمكنك استخدام زر\"{{int:citoid-referencecontextitem-convert-button}}\" في الأسفل لتوليد مرجع منسق على نحو مناسب.",
 	"citoid-unknown-error": "حدث خطأ غير معلوم منعنا من إنشاء استشهاد. برجاء المحاولة في وقت لاحق."
 }
