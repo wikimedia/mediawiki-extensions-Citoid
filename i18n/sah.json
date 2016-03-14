@@ -12,12 +12,14 @@
 	"citoid-citefromiddialog-mode-manual": "Илиинэн туруоруу",
 	"citoid-citefromiddialog-mode-reuse": "Хос туттуу",
 	"citoid-citefromiddialog-search": "Бул",
-	"citoid-citefromiddialog-search-label": "URL биитэр DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI биитэр PMID",
 	"citoid-citefromiddialog-search-placeholder": "холобур, http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Көрдүүбүт, кэтэс дуу...",
 	"citoid-citefromiddialog-title": "Сытаата эбии",
-	"citoid-citefromiddialog-use-general-error-message": "Сытаата оҥорор табыллыбата. Үөһэ көстөр кыбытыкка баар бу тимэҕи туһанан  \"{{int:citoid-citefromiddialog-mode-manual}}\" бэйэҥ оҥоруоххун сөп.",
+	"citoid-citefromiddialog-use-general-error-message": "Сытаата оҥорор табыллыбата. Үөһэ баар кыбытыкка бу тимэҕи туһанан  \"{{int:citoid-citefromiddialog-mode-manual}}\" бэйэҥ оҥоруоххун сөп.",
 	"citoid-citefromidtool-title": "Сытаата",
 	"citoid-desc": "Сигэлиир сулууспа уонна MediaWiki ыккардыларыгар ситим олохтуур",
+	"citoid-referencecontextitem-convert-button": "Уларытарга",
+	"citoid-referencecontextitem-convert-message": "Бу сигэ судургу тас сигэттэн турар. Бу тимэҕи «{{int:citoid-referencecontextitem-convert-button}}» баттааҥҥын, сөптөөх сигэни оҥоруоххун сөп.",
 	"citoid-unknown-error": "Туох эрэ алҕас тахсан, сигэниини оҥорор табыллыбата. Бука диэн кэлин хатылаан көрөөр."
 }
