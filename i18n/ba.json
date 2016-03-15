@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sagan"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Өҫтәү",
+	"citoid-citefromiddialog-back": "Артҡа",
+	"citoid-citefromiddialog-lookup-button": "Генератор",
+	"citoid-citefromiddialog-mode-auto": "Автоматик",
+	"citoid-citefromiddialog-mode-manual": "Ҡулдан",
+	"citoid-citefromiddialog-mode-reuse": "Яңынан ҡулланыу",
+	"citoid-citefromiddialog-search": "Табырға",
+	"citoid-citefromiddialog-search-label": "URL, DOI йәки PMID",
+	"citoid-citefromiddialog-search-placeholder": "мәҫәлән, http://www.example.com"
+}
