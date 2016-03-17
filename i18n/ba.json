@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sagan"
+			"Sagan",
+			"Азат Хәлилов"
 		]
 	},
+	"citoid-520-error": "Идентификаторҙан ҡуйылған мәғлүмәтте алып булманы.",
 	"citoid-citation-widget-insert-button": "Өҫтәү",
 	"citoid-citefromiddialog-back": "Артҡа",
 	"citoid-citefromiddialog-lookup-button": "Генератор",
@@ -12,5 +14,13 @@
 	"citoid-citefromiddialog-mode-reuse": "Яңынан ҡулланыу",
 	"citoid-citefromiddialog-search": "Табырға",
 	"citoid-citefromiddialog-search-label": "URL, DOI йәки PMID",
-	"citoid-citefromiddialog-search-placeholder": "мәҫәлән, http://www.example.com"
+	"citoid-citefromiddialog-search-placeholder": "мәҫәлән, http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Эҙләйбеҙ, зинһар көтөгөҙ.",
+	"citoid-citefromiddialog-title": "Сығанаҡҡа һылтанма ҡуйыу.",
+	"citoid-citefromiddialog-use-general-error-message": "Беҙ һеҙҙең өсөн цитата эшләй алманыҡ. Уны һаҡлағысан өҫтәрәк «{{int:citoid-citefromiddialog-mode-manual}}» кнопканы файҙаланып, ҡулдан эшләргә мөмкин .",
+	"citoid-citefromidtool-title": "Сығанаҡ",
+	"citoid-desc": " citoid сервисы  һәм Медиавики араһында инеү мөмкинселеген тәьмин итә.",
+	"citoid-referencecontextitem-convert-button": "Формат алмаштырыу",
+	"citoid-referencecontextitem-convert-message": "Был һылтанма ябай эске сығанаҡтарҙан тора. Дөрөҫ һылтанма төҙөү  өсөн, һеҙ ошо «{{int:citoid-referencecontextitem-convert-button}}» кнопканы файҙалана алаһығыҙ.",
+	"citoid-unknown-error": "Цитата барлыҡҡа килтерә алмаҫлыҡ билдаһеҙ хата барлыҡҡа килде. Зинһар, һуңғараҡ тағы эшләп ҡарағыҙ."
 }
