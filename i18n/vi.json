@@ -15,7 +15,7 @@
 	"citoid-citefromiddialog-mode-manual": "Thủ công",
 	"citoid-citefromiddialog-mode-reuse": "Tái sử dụng",
 	"citoid-citefromiddialog-search": "Tìm kiếm",
-	"citoid-citefromiddialog-search-label": "URL hoặc DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI, hoặc PMID",
 	"citoid-citefromiddialog-search-placeholder": "ví dụ http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Đang tìm, vui lòng chờ…",
 	"citoid-citefromiddialog-title": "Thêm chú thích",
