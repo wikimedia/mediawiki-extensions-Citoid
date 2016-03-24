@@ -4,7 +4,8 @@
 			"Phoenix303",
 			"Ankita-ks",
 			"NehalDaveND",
-			"संजीव कुमार"
+			"संजीव कुमार",
+			"Sfic"
 		]
 	},
 	"citoid-520-error": "प्रदान किये पहचानकर्ता से जानकारी प्राप्त करने में असमर्थ।",
@@ -15,12 +16,13 @@
 	"citoid-citefromiddialog-mode-manual": "मैन्युअल",
 	"citoid-citefromiddialog-mode-reuse": "पुन: उपयोग",
 	"citoid-citefromiddialog-search": "खोजें",
-	"citoid-citefromiddialog-search-label": "यू.आर.एल",
+	"citoid-citefromiddialog-search-label": "यूआरएल, डीओआई या पीएमआईडी",
 	"citoid-citefromiddialog-search-placeholder": "उदाहरण http://www.example.com",
 	"citoid-citefromiddialog-search-progress": " ढूंढ़ रहे हैं, कृपया प्रतीक्षा करें...",
 	"citoid-citefromiddialog-title": "एक उद्धरण जोड़ें",
-	"citoid-citefromiddialog-use-general-error-message": "हम आप के लिए एक उद्धरण नहीं बना सके। आप उपर की टैब \"{{int:citoid-citefromiddialog-mode-manual}}\" को काम में लेते हुये हाथ से निर्मित कर सकते हैं।",
+	"citoid-citefromiddialog-use-general-error-message": "हम आपके लिए सन्दर्भ नहीं बना सकते। लेकिन आप इसे अपने से \"{{int:citoid-citefromiddialog-mode-manual}}\" के द्वारा कर सकते हैं।",
 	"citoid-citefromidtool-title": "उद्धृत करें",
 	"citoid-desc": "Citoid सेवा और MediaWiki के बीच अभिगम बिंदुअों का प्रदान करता है",
+	"citoid-referencecontextitem-convert-button": "परिवर्तित करें",
 	"citoid-unknown-error": "एक अज्ञात त्रुटि ने हमें एक उद्धरण बनाने से हमें रोका हुआ है। कृपया बाद में पुन: प्रयास करें।"
 }

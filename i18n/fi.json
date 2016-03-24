@@ -3,7 +3,8 @@
 		"authors": [
 			"Stryn",
 			"Nike",
-			"Alluk."
+			"Alluk.",
+			"Olimar"
 		]
 	},
 	"citoid-520-error": "Tunnisteen tietojen hakeminen epäonnistui.",
@@ -14,7 +15,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manuaalinen",
 	"citoid-citefromiddialog-mode-reuse": "Uudelleenkäyttö",
 	"citoid-citefromiddialog-search": "Hae",
-	"citoid-citefromiddialog-search-label": "URL tai DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI tai PMID",
 	"citoid-citefromiddialog-search-placeholder": "esim. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Haetaan, pieni hetki...",
 	"citoid-citefromiddialog-title": "Lisää viittaus",
