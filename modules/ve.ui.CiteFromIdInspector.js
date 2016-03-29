@@ -442,7 +442,8 @@ ve.ui.CiteFromIdInspector.prototype.getReadyProcess = function ( data ) {
 	return ve.ui.CiteFromIdInspector.super.prototype.getReadyProcess.call( this, data )
 		.next( function () {
 			// Set the panel after ready as it focuses the input too
-			this.setModePanel( ve.userConfig( 'citoid-mode' ) || 'auto', 'lookup' );
+			var mode = ve.userConfig( 'citoid-mode' ) || 'auto';
+			this.setModePanel( mode, mode === 'auto' ? 'lookup' : undefined );
 		}, this );
 };
 
