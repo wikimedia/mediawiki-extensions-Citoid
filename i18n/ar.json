@@ -4,7 +4,8 @@
 			"Jdforrester",
 			"محمد أحمد عبد الفتاح",
 			"فلورانس",
-			"JoyfulEditing"
+			"JoyfulEditing",
+			"Shbib Al-Subaie"
 		]
 	},
 	"citoid-520-error": "غير قادر على استرجاع المعلومات من المعرف المقدم",
@@ -15,7 +16,7 @@
 	"citoid-citefromiddialog-mode-manual": "يدوي",
 	"citoid-citefromiddialog-mode-reuse": "أعد الاستخدام",
 	"citoid-citefromiddialog-search": "ابحث",
-	"citoid-citefromiddialog-search-label": "URL أو DOI",
+	"citoid-citefromiddialog-search-label": "URL أو DOI أو PMID",
 	"citoid-citefromiddialog-search-placeholder": "مثال: http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "البحث جار، برجاء الانتظار...",
 	"citoid-citefromiddialog-title": "إضافة استشهاد",
