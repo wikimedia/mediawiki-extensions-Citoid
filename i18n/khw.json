@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rachitrali"
+		]
+	},
+	"citoid-citation-widget-insert-button": "درج کورے",
+	"citoid-citefromiddialog-back": "آچی",
+	"citoid-citefromiddialog-mode-auto": "خودکار",
+	"citoid-citefromiddialog-mode-manual": "دستی",
+	"citoid-citefromiddialog-mode-reuse": "دوبارہ استعمال کورے",
+	"citoid-citefromiddialog-search": "تلاش",
+	"citoid-citefromiddialog-search-label": "URL, DOI or PMID",
+	"citoid-citefromiddialog-search-placeholder": "مثلا http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "تلاش جاری شیر، براہ کرم انتظار کورے...",
+	"citoid-citefromiddialog-title": "حوالہ درج کورے"
+}
