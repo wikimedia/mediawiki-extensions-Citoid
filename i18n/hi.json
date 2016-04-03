@@ -24,5 +24,6 @@
 	"citoid-citefromidtool-title": "उद्धृत करें",
 	"citoid-desc": "Citoid सेवा और MediaWiki के बीच अभिगम बिंदुअों का प्रदान करता है",
 	"citoid-referencecontextitem-convert-button": "परिवर्तित करें",
+	"citoid-referencecontextitem-convert-message": "सन्दर्भ में केवल बाहरी कड़ी है। आप \"{{int:citoid-referencecontextitem-convert-button}}\" बटन का उपयोग कर सही प्रारूप बना सकते हो।",
 	"citoid-unknown-error": "एक अज्ञात त्रुटि ने हमें एक उद्धरण बनाने से हमें रोका हुआ है। कृपया बाद में पुन: प्रयास करें।"
 }
