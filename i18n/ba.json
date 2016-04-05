@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sagan",
-			"Азат Хәлилов"
+			"Азат Хәлилов",
+			"Ләйсән"
 		]
 	},
 	"citoid-520-error": "Идентификаторҙан ҡуйылған мәғлүмәтте алып булманы.",
@@ -15,7 +16,7 @@
 	"citoid-citefromiddialog-search": "Табырға",
 	"citoid-citefromiddialog-search-label": "URL, DOI йәки PMID",
 	"citoid-citefromiddialog-search-placeholder": "мәҫәлән, http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "Эҙләйбеҙ, зинһар көтөгөҙ.",
+	"citoid-citefromiddialog-search-progress": "Эҙләйбеҙ, зинһар, көтөгөҙ.",
 	"citoid-citefromiddialog-title": "Сығанаҡҡа һылтанма ҡуйыу.",
 	"citoid-citefromiddialog-use-general-error-message": "Беҙ һеҙҙең өсөн цитата эшләй алманыҡ. Уны һаҡлағысан өҫтәрәк «{{int:citoid-citefromiddialog-mode-manual}}» кнопканы файҙаланып, ҡулдан эшләргә мөмкин .",
 	"citoid-citefromidtool-title": "Сығанаҡ",
