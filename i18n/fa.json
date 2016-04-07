@@ -6,10 +6,11 @@
 			"Maspadana",
 			"الناز",
 			"Ebraminio",
-			"Huji"
+			"Huji",
+			"درفش کاویانی"
 		]
 	},
-	"citoid-520-error": "بازیابی اطلاعات از شناسه ارائه شده ممکن نیست.",
+	"citoid-520-error": "بازیابی اطلاعات از شناسهٔ ارائه‌شده ممکن نیست.",
 	"citoid-citation-widget-insert-button": "درج",
 	"citoid-citefromiddialog-back": "بازگشت",
 	"citoid-citefromiddialog-lookup-button": "تولید",
@@ -26,5 +27,5 @@
 	"citoid-desc": "ارتباط بین خدمت citoid و مدیاویکی را برقرار می‌کند",
 	"citoid-referencecontextitem-convert-button": "تبدیل",
 	"citoid-referencecontextitem-convert-message": "این ارجاع فقط شامل یک پیوند بیرونی است. می توانید از \"{{int:citoid-referencecontextitem-convert-button}}\" برای تولید ارجاع مناسب استفاده کنید.",
-	"citoid-unknown-error": "خطای نامشخصی اجازه ساخت یادکرد را نمی‌دهد. لطفاً بعداً تلاش کنید."
+	"citoid-unknown-error": "خطای نامشخصی اجازهٔ ساخت یادکرد را نمی‌دهد. لطفاً بعداً تلاش کنید."
 }
