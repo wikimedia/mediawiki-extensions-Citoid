@@ -541,6 +541,9 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 				return inspector.buildTemplateResults( searchResults )
 					.then( function () {
 						inspector.setModePanel( 'auto', 'result' );
+					}, function () {
+						inspector.lookupFailed();
+						return $.Deferred().resolve();
 					} );
 			},
 			// Fail
@@ -548,13 +551,7 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 				if ( response && response.textStatus === 'abort' ) {
 					return $.Deferred().reject();
 				}
-				// Enable the input and lookup button
-				inspector.$noticeLabel.removeClass( 'oo-ui-element-hidden' );
-				inspector.lookupInput.once( 'change', function () {
-					inspector.$noticeLabel.addClass( 'oo-ui-element-hidden' );
-					inspector.updateSize();
-				} ).setValidityFlag( false );
-				inspector.updateSize();
+				inspector.lookupFailed();
 				return $.Deferred().resolve();
 			} )
 		.always( function () {
@@ -568,6 +565,19 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 		} )
 		.promise( { abort: xhr.abort } );
 	return this.lookupPromise;
+};
+
+/**
+ * Set the auto panel to the error-state
+ */
+ve.ui.CiteFromIdInspector.prototype.lookupFailed = function () {
+	// Enable the input and lookup button
+	this.$noticeLabel.removeClass( 'oo-ui-element-hidden' );
+	this.lookupInput.once( 'change', function () {
+		this.$noticeLabel.addClass( 'oo-ui-element-hidden' );
+		this.updateSize();
+	}.bind( this ) ).setValidityFlag( false );
+	this.updateSize();
 };
 
 /**
@@ -626,9 +636,13 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 				optionWidgets.push( refWidget );
 				renderPromises.push( refWidget.getRenderPromise() );
 			}
-			// Add to the select widget
-			inspector.previewSelectWidget.addItems( optionWidgets );
-			return $.when.apply( $, renderPromises );
+			if ( optionWidgets.length > 0 ) {
+				// Add to the select widget
+				inspector.previewSelectWidget.addItems( optionWidgets );
+				return $.when.apply( $, renderPromises );
+			}
+			// failed, so go back
+			return $.Deferred().reject();
 		} );
 };
 
