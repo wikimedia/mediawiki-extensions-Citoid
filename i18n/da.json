@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe"
+			"Macofe",
+			"Peter Alberti"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Indsæt",
 	"citoid-citefromiddialog-back": "Tilbage",
 	"citoid-citefromiddialog-mode-auto": "Automatisk",
 	"citoid-citefromiddialog-search": "Søg",
-	"citoid-citefromiddialog-search-label": "URL eller DOI"
+	"citoid-citefromiddialog-search-label": "URL, DOI eller PMID",
+	"citoid-citefromiddialog-search-placeholder": "f. eks. http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Søger, vent venligst..."
 }
