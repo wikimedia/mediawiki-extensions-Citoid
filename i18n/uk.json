@@ -4,7 +4,8 @@
 			"Base",
 			"Ата",
 			"Alex Khimich",
-			"Piramidion"
+			"Piramidion",
+			"Vall gorr"
 		]
 	},
 	"citoid-520-error": "Не вдалось отримати інформацію за вказаним ідентифікатором.",
@@ -19,7 +20,7 @@
 	"citoid-citefromiddialog-search-placeholder": "наприклад http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Пошук, зачекайте, будь ласка…",
 	"citoid-citefromiddialog-title": "Додати джерело",
-	"citoid-citefromiddialog-use-general-error-message": "Ми не могли згенерувати для Вас посилання на джерело. Його можна створити вручну, використовуючи вкладку «{{int:citoid-citefromiddialog-mode-manual}}» вище.",
+	"citoid-citefromiddialog-use-general-error-message": "Ми не змогли згенерувати для Вас посилання на джерело. Його можна створити вручну, використовуючи вкладку «{{int:citoid-citefromiddialog-mode-manual}}» вище.",
 	"citoid-citefromidtool-title": "Джерело",
 	"citoid-desc": "Забезпечує точки доступу між сервісом citoid та MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Конвертувати",
