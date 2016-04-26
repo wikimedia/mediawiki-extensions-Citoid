@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"TheEduGobi",
-			"TheGabrielZaum"
+			"TheGabrielZaum",
+			"Dianakc"
 		]
 	},
 	"citoid-520-error": "Incapaz de recuperar informações do identificador provido.",
@@ -13,7 +14,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manual",
 	"citoid-citefromiddialog-mode-reuse": "Reusar",
 	"citoid-citefromiddialog-search": "Pesquisar",
-	"citoid-citefromiddialog-search-label": "URL ou DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI ou PMID",
 	"citoid-citefromiddialog-search-placeholder": "por exemplo, http://www.exemplo.com",
 	"citoid-citefromiddialog-search-progress": "Pesquisando, aguarde...",
 	"citoid-citefromiddialog-title": "Adicionar uma citação",
