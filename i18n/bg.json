@@ -1,18 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aquilax"
+			"Aquilax",
+			"Лорд Бъмбъри"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Вмъкване",
 	"citoid-citefromiddialog-back": "Назад",
+	"citoid-citefromiddialog-lookup-button": "Генериране",
 	"citoid-citefromiddialog-mode-auto": "Автоматично",
 	"citoid-citefromiddialog-mode-manual": "Ръчна настройка",
 	"citoid-citefromiddialog-mode-reuse": "Повторно използване",
 	"citoid-citefromiddialog-search": "Търсене",
-	"citoid-citefromiddialog-search-label": "URL или DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI или PMID",
 	"citoid-citefromiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Търсене, моля изчакайте...",
 	"citoid-citefromiddialog-title": "Добавяне на цитат",
-	"citoid-citefromidtool-title": "Цитиране"
+	"citoid-citefromiddialog-use-general-error-message": "Не успяхме на създадем цитат. Можете да създадете такъв ръчно като ползвате  „{{int:citoid-citefromiddialog-mode-manual}}“ по-горе.",
+	"citoid-citefromidtool-title": "Цитиране",
+	"citoid-referencecontextitem-convert-button": "Конвертиране",
+	"citoid-referencecontextitem-convert-message": "Източникът съдържа единствено външна препратка. Можете да ползвате бутона „{{int:citoid-referencecontextitem-convert-button}}“ по-долу за генериране на правилно форматиран източник.",
+	"citoid-unknown-error": "Възникна неизвестна грешка, която ни попречи да създадем цитат. Моля, опитайте по-късно."
 }
