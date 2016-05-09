@@ -25,6 +25,7 @@
 	"citoid-citefromiddialog-title": "The title displayed on the dialog",
 	"citoid-citefromiddialog-use-general-error-message": "Label notifying the user there was a problem creating their reference, and offering to use the full citation tool.",
 	"citoid-citefromidtool-title": "Label for the button to add a citation in the toolbar\n{{Identical|Cite}}",
+	"citoid-citefromidtool-title-othergroup": "Label for the button to add a citation in the insert menu",
 	"citoid-desc": "{{desc|name=Citoid|url=https://www.mediawiki.org/wiki/Citoid}}",
 	"citoid-referencecontextitem-convert-button": "Label for the button to convert a plain reference to a Citoid reference.\n{{Identical|Convert}}",
 	"citoid-referencecontextitem-convert-message": "Message explaining the functionality of the button to convert a plain reference to a Citoid reference.",
