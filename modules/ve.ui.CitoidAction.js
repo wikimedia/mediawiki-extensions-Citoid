@@ -40,10 +40,13 @@ ve.ui.CitoidAction.static.methods = [ 'open' ];
  * dialog name.
  *
  * @method
+ * @param {boolean} [replace] Replace the contents of the selected reference
+ * @param {string} [lookup] URL to look up
  * @return {boolean} Action was executed
  */
-ve.ui.CitoidAction.prototype.open = function ( lookup ) {
+ve.ui.CitoidAction.prototype.open = function ( replace, lookup ) {
 	this.surface.execute( 'window', 'open', 'citefromid', {
+		replace: replace,
 		lookup: lookup,
 		inDialog: this.surface.getInDialog()
 	} );
