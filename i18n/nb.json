@@ -3,7 +3,8 @@
 		"authors": [
 			"Kingu",
 			"Jeblad",
-			"Danmichaelo"
+			"Danmichaelo",
+			"Telaneo"
 		]
 	},
 	"citoid-520-error": "Klarte ikke hente informasjon fra identifikatoren.",
@@ -17,7 +18,7 @@
 	"citoid-citefromiddialog-search-label": "URL, DOI eller PMID",
 	"citoid-citefromiddialog-search-placeholder": "e.g. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Søker, vennligst vent…",
-	"citoid-citefromiddialog-title": "Legg til en sitering",
+	"citoid-citefromiddialog-title": "Legg til en referanse",
 	"citoid-citefromiddialog-use-general-error-message": "Klarte ikke lage en automatisk sitering. Du kan lage en manuelt ved å bruke arkfanen «{{int:citoid-citefromiddialog-mode-manual}}» ovenfor.",
 	"citoid-citefromidtool-title": "Siter",
 	"citoid-desc": "Et aksesspunkt mellom citoid-tjenesten og MediaWiki",
