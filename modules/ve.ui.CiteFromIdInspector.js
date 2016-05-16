@@ -336,7 +336,7 @@ ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( ite
 			);
 		}
 
-		this.results[ index ].transclusionModel.insertTransclusionNode( fragment );
+		this.results[ index ].transclusionModel.insertTransclusionNode( fragment, 'inline' );
 
 		if ( this.inDialog !== 'reference' ) {
 			// Remove placeholder status
