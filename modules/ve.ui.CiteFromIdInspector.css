@@ -14,18 +14,14 @@
 	padding: 0.5em;
 }
 
-.ve-ui-citeFromIdInspector-preview + .ve-ui-citeFromIdInspector-preview {
-	border-top: 1px solid #cccccc;
-}
-
 .ve-ui-citeFromIdInspector-preview {
 	max-height: 15em;
 	padding: 0.5em;
 	overflow-y: auto;
 }
 
-.ve-ui-citeFromIdReferenceWidget.oo-ui-labelElement .oo-ui-labelElement-label {
-	white-space: normal;
+.ve-ui-citeFromIdInspector-preview + .ve-ui-citeFromIdInspector-preview {
+	border-top: 1px solid #ccc;
 }
 
 .ve-ui-citeFromIdInspector-dialog-error,
@@ -33,7 +29,8 @@
 	line-height: 1.5em;
 }
 
-.ve-ui-citeFromIdReferenceWidget .oo-ui-labelElement-label {
+.ve-ui-citeFromIdReferenceWidget.oo-ui-labelElement .oo-ui-labelElement-label {
+	white-space: normal;
 	font-size: 1em;
 	font-weight: bold;
 }
