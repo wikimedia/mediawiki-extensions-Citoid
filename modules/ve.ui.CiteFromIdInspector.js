@@ -2,7 +2,7 @@
  * Inspector to insert filled references using citoid service
  *
  * @class
- * @extends ve.ui.FragmentInspector
+ * @extends ve.ui.NodeInspector
  * @constructor
  * @param {Object} [config] Configuration options
  */
@@ -11,7 +11,7 @@ ve.ui.CiteFromIdInspector = function VeUiCiteFromIdInspector( config ) {
 	ve.ui.CiteFromIdInspector.super.call( this, config );
 
 	this.referenceModel = null;
-	this.doneStaging = false;
+	this.staging = false;
 	this.results = [];
 	this.citeTools = [];
 	this.templateTypeMap = null;
@@ -25,7 +25,7 @@ ve.ui.CiteFromIdInspector = function VeUiCiteFromIdInspector( config ) {
 
 /* Inheritance */
 
-OO.inheritClass( ve.ui.CiteFromIdInspector, ve.ui.FragmentInspector );
+OO.inheritClass( ve.ui.CiteFromIdInspector, ve.ui.NodeInspector );
 
 /* Static properties */
 
@@ -34,6 +34,8 @@ ve.ui.CiteFromIdInspector.static.name = 'citefromid';
 ve.ui.CiteFromIdInspector.static.title = OO.ui.deferMsg( 'citoid-citefromiddialog-title' );
 
 ve.ui.CiteFromIdInspector.static.size = 'large';
+
+ve.ui.CiteFromIdInspector.static.modelClasses = [ ve.dm.MWReferenceNode ];
 
 /**
  * The string used in TemplateData to identify the correct Map object
@@ -338,7 +340,7 @@ ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( ite
 
 		this.results[ index ].transclusionModel.insertTransclusionNode( fragment, 'inline' );
 
-		if ( this.inDialog !== 'reference' ) {
+		if ( this.staging ) {
 			// Remove placeholder status
 			this.getFragment().changeAttributes( { placeholder: false } );
 
@@ -353,9 +355,12 @@ ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( ite
 			this.referenceModel.updateInternalItem( surfaceModel );
 
 			// Apply staging
-			this.getFragment().getSurface().applyStaging();
-			this.doneStaging = true;
+			surfaceModel.applyStaging();
+			this.staging = false;
 		}
+		// Force a context change to show the correct context item as we may
+		// have changed from a plain reference to a templated citation
+		surfaceModel.emitContextChange();
 		// Close the inspector
 		this.close();
 	}
@@ -400,29 +405,35 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 
 			// Reset
 			this.lookupPromise = null;
-			this.doneStaging = false;
+			this.staging = false;
 			this.results = [];
 			this.lookupButton.setDisabled( true );
 			this.inDialog = data.inDialog || '';
+			this.replaceNode = data.replace && this.getSelectedNode();
 
 			// Collapse returns a new fragment, so update this.fragment
-			if ( !data.lookup ) {
+			if ( !this.replaceNode ) {
 				this.fragment = this.getFragment().collapseToEnd().select();
 			}
-
-			// Create model
-			this.referenceModel = new ve.dm.MWReferenceModel( this.fragment.getDocument() );
 
 			this.search.setInternalList( this.getFragment().getDocument().getInternalList() );
 			this.modeIndex.getCard( 'reuse' ).tabItem.setDisabled( this.search.isIndexEmpty() );
 
-			if ( this.inDialog !== 'reference' ) {
-				// Stage an empty reference
-				this.getFragment().getSurface().pushStaging();
+			if ( this.replaceNode ) {
+				this.referenceModel = ve.dm.MWReferenceModel.static.newFromReferenceNode( this.replaceNode );
+			} else {
+				// Create model
+				this.referenceModel = new ve.dm.MWReferenceModel( this.fragment.getDocument() );
 
-				// Insert an empty reference
-				this.referenceModel.insertInternalItem( this.getFragment().getSurface() );
-				this.referenceModel.insertReferenceNode( this.getFragment(), true );
+				if ( this.inDialog !== 'reference' ) {
+					this.staging = true;
+					// Stage an empty reference
+					this.getFragment().getSurface().pushStaging();
+
+					// Insert an empty reference
+					this.referenceModel.insertInternalItem( this.getFragment().getSurface() );
+					this.referenceModel.insertReferenceNode( this.getFragment(), true );
+				}
 			}
 
 			if ( data.lookup ) {
@@ -452,7 +463,7 @@ ve.ui.CiteFromIdInspector.prototype.getReadyProcess = function ( data ) {
 ve.ui.CiteFromIdInspector.prototype.getTeardownProcess = function ( data ) {
 	return ve.ui.CiteFromIdInspector.super.prototype.getTeardownProcess.call( this, data )
 		.first( function () {
-			if ( !this.doneStaging && this.inDialog !== 'reference' ) {
+			if ( this.staging ) {
 				this.fragment.getSurface().popStaging();
 			}
 

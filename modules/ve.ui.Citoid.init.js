@@ -102,7 +102,7 @@
 	 */
 	ve.ui.MWReferenceContextItem.prototype.onConvertButtonClick = function () {
 		var action = ve.ui.actionFactory.create( 'citoid', this.context.getSurface() );
-		action.open( this.convertibleHref );
+		action.open( true, this.convertibleHref );
 	};
 
 }() );
