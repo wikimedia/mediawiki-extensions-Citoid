@@ -54,10 +54,40 @@
 	 */
 
 	/**
+	 * Get the href associated with this reference if it is a plain link reference
+	 *
+	 * @param {ve.dm.InternalItemNode} itemNode Reference item node
+	 * @return {string|null} Href, or null if this isn't a plain link reference
+	 */
+	ve.ui.MWReferenceContextItem.static.getConvertibleHref = function ( itemNode ) {
+		var annotation, contentNode,
+			doc = itemNode.getRoot().getDocument(),
+			range = itemNode.getRange(),
+			// Get covering annotations
+			annotations = doc.data.getAnnotationsFromRange( range, false );
+
+		// The reference consists of one single external link so
+		// offer the user a conversion to citoid-generated reference
+		if (
+			annotations.getLength() === 1 &&
+			( annotation = annotations.get( 0 ) ) instanceof ve.dm.MWExternalLinkAnnotation
+		) {
+			return annotation.getHref();
+		} else if ( range.getLength() === 4 ) {
+			contentNode = ve.getProp( itemNode, 'children', 0, 'children', 0 );
+			if ( contentNode instanceof ve.dm.MWNumberedExternalLinkNode ) {
+				return contentNode.getHref();
+			}
+		}
+		return null;
+	};
+
+	/**
 	 * @inheritdoc
 	 */
 	ve.ui.MWReferenceContextItem.prototype.renderBody = function () {
-		var surfaceModel, fragment, annotations, annotation, convertButton, range, contentNode,
+		var convertButton, convertibleHref,
+			contextItem = this,
 			refNode = this.getReferenceNode();
 
 		this.$body.append( this.getRendering() );
@@ -66,28 +96,16 @@
 			return;
 		}
 
-		surfaceModel = this.context.getSurface().getModel();
-		range = refNode.getRange();
-		fragment = surfaceModel.getLinearFragment( range );
-		// Get covering annotations
-		annotations = fragment.getAnnotations( false );
-		// The reference consists of one single external link so
-		// offer the user a conversion to citoid-generated reference
-		if (
-			annotations.getLength() === 1 &&
-			( annotation = annotations.get( 0 ) ) instanceof ve.dm.MWExternalLinkAnnotation
-		) {
-			this.convertibleHref = annotation.getHref();
-		} else if ( range.getLength() === 4 ) {
-			contentNode = fragment.adjustLinearSelection( 1, -1 ).getSelectedNode();
-			if ( contentNode instanceof ve.dm.MWNumberedExternalLinkNode ) {
-				this.convertibleHref = contentNode.getHref();
-			}
-		}
-		if ( this.convertibleHref ) {
+		convertibleHref = this.constructor.static.getConvertibleHref( refNode );
+
+		if ( convertibleHref ) {
 			convertButton = new OO.ui.ButtonWidget( {
 				label: ve.msg( 'citoid-referencecontextitem-convert-button' )
-			} ).connect( this, { click: 'onConvertButtonClick' } );
+			} ).on( 'click', function () {
+				var action = ve.ui.actionFactory.create( 'citoid', contextItem.context.getSurface() );
+				action.open( true, convertibleHref );
+			} );
+
 			this.$body.append(
 				$( '<div>' )
 					.addClass( 've-ui-citoidReferenceContextItem-convert ve-ui-mwReferenceContextItem-muted' )
@@ -95,14 +113,6 @@
 				convertButton.$element
 			);
 		}
-	};
-
-	/**
-	 * Handle click events from the convert button
-	 */
-	ve.ui.MWReferenceContextItem.prototype.onConvertButtonClick = function () {
-		var action = ve.ui.actionFactory.create( 'citoid', this.context.getSurface() );
-		action.open( true, this.convertibleHref );
 	};
 
 }() );
