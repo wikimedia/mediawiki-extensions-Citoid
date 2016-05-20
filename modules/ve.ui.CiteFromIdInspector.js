@@ -104,6 +104,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 			// Request content language of wiki from citoid service
 			headers: { 'accept-language': mw.config.get( 'wgContentLanguage' ) },
 			dataType: 'json',
+			crossDomain: false, // Support IE9: T134928
 			timeout: 20 * 1000, // 20 seconds
 			type: 'GET'
 		}
