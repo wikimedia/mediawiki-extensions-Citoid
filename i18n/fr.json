@@ -8,7 +8,8 @@
 			"Jdforrester",
 			"NemesisIII",
 			"Mattho69",
-			"Wladek92"
+			"Wladek92",
+			"Ash Crow"
 		]
 	},
 	"citoid-520-error": "Impossible de récupérer les informations à partir de l'identifiant fourni.",
@@ -24,7 +25,7 @@
 	"citoid-citefromiddialog-search-progress": "Recherche en cours, veuillez patienter...",
 	"citoid-citefromiddialog-title": "Ajouter une référence",
 	"citoid-citefromiddialog-use-general-error-message": "Nous n’avons pas pu faire de référence pour vous. Vous pouvez en créer une manuellement en utilisant l’onglet « {{int:citoid-citefromiddialog-mode-manual}} » ci-dessus.",
-	"citoid-citefromidtool-title": "Citer",
+	"citoid-citefromidtool-title": "Source",
 	"citoid-desc": "Offre des points d'accès entre le service citoid et MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Convertir",
 	"citoid-referencecontextitem-convert-message": "Cette référence consiste simplement en un lien externe. Vous pouvez utiliser le bouton « {{int:citoid-referencecontextitem-convert-button}} » ci-dessous pour générer une référence correctement mise en forme.",

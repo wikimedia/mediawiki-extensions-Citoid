@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Marwan Mohamad"
+		]
+	},
+	"citoid-520-error": "Ja mowali mohama habari monto ta loposadia pengenal",
+	"citoid-citation-widget-insert-button": "Tuwanga",
+	"citoid-citefromiddialog-back": "Mohuwalingo",
+	"citoid-citefromiddialog-lookup-button": "Po'otapula",
+	"citoid-citefromiddialog-mode-auto": "Otomatis",
+	"citoid-citefromiddialog-mode-manual": "Manual",
+	"citoid-citefromiddialog-mode-reuse": "Pomaakeya ulangi",
+	"citoid-citefromiddialog-search": "Lolohe",
+	"citoid-citefromiddialog-search-label": "URL, DOI atau PMID",
+	"citoid-citefromiddialog-search-placeholder": "humaya http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Hemololohu, towuwoolo mohulato...",
+	"citoid-citefromiddialog-title": "Duhengi kupe'i",
+	"citoid-citefromiddialog-use-general-error-message": "Ami ja mowali mohutu kupe'i ode olemu. Yi'o mowali mohutu lo hihilawo mopohuna \"{{int:citoid-citefromiddialog-mode-manual}}\" tab yitaato.",
+	"citoid-citefromidtool-title": "Kupe'i",
+	"citoid-desc": "Moposadiyawa bonto'o akses to wolota lo kupe'i wawu MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Boli'a",
+	"citoid-unknown-error": "Galat ja otawa lolilunga olami mohutu kupe'i. Toduwoolo mohimontalo lapatiyoma'o."
+}
