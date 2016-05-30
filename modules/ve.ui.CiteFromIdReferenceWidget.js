@@ -12,7 +12,7 @@
  * @cfg {Object[]} citeTools An array of available citation tool configuration
  */
 ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( documentModel, transclusionModel, config ) {
-	var i, len, icon, item, title, data, doc, node;
+	var i, len, icon, item, title, doc, node;
 
 	config = config || {};
 
@@ -47,7 +47,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 	} );
 
 	// Create the citation preview
-	data = [
+	doc = documentModel.cloneWithData( [
 		{
 			type: 'mwTransclusionInline',
 			attributes: {
@@ -57,12 +57,8 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 		{ type: '/mwTransclusionInline' },
 		{ type: 'internalList' },
 		{ type: '/internalList' }
-	];
+	] );
 
-	doc = new ve.dm.Document(
-		new ve.dm.ElementLinearData( documentModel.getStore(), data ),
-		documentModel.getHtmlDocument()
-	);
 	node = doc.getDocumentNode().getChildren()[ 0 ];
 	this.preview = new ve.ui.MWPreviewElement( node );
 	if ( this.preview.isGenerating() ) {
