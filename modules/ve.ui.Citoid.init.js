@@ -1,18 +1,19 @@
 ( function () {
-	var i, j, jLen, toolGroups, citeIndex, target;
+	var i, j, jLen, toolGroups, citeIndex, target, map;
 
 	// Don't create tool unless the configuration message is present
 	try {
-		JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
+		map = JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
 	} catch ( e ) {
 		// Temporary hack for T93800
 		try {
-			JSON.parse( mw.message( 'citoid-template-type-map-backup.json' ).plain() );
-		} catch ( e2 ) {
-			// Unregister the tool
-			ve.ui.toolFactory.unregister( ve.ui.CiteFromIdInspectorTool );
-			return;
-		}
+			map = JSON.parse( mw.message( 'citoid-template-type-map-backup.json' ).plain() );
+		} catch ( e2 ) {}
+	}
+	if ( !map ) {
+		// Unregister the tool
+		ve.ui.toolFactory.unregister( ve.ui.CiteFromIdInspectorTool );
+		return;
 	}
 
 	// HACK: Find the position of the current citation toolbar definition
