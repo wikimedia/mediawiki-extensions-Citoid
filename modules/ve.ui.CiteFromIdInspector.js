@@ -92,10 +92,18 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	// Get the available tools for their titles and icons
 	try {
 		// Must use mw.message to avoid JSON being parsed as Wikitext
-		this.citeTools = JSON.parse( mw.message( 'visualeditor-cite-tool-definition.json' ).plain() );
-		// Limit the number of tools
-		this.citeTools.splice( limit );
+		this.citeTools = JSON.parse( mw.message( 'cite-tool-definition.json' ).plain() );
 	} catch ( e ) { }
+
+	if ( !this.citeTools ) {
+		try {
+			// Must use mw.message to avoid JSON being parsed as Wikitext
+			this.citeTools = JSON.parse( mw.message( 'visualeditor-cite-tool-definition.json' ).plain() );
+		} catch ( e ) { }
+	}
+
+	// Limit the number of tools
+	this.citeTools.splice( limit );
 
 	// API for citoid service
 	this.service = new mw.Api( {

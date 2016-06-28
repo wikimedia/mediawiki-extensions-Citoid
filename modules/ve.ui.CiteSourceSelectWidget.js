@@ -27,9 +27,17 @@ ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
 
 	try {
 		// Must use mw.message to avoid JSON being parsed as Wikitext
-		tools = JSON.parse( mw.message( 'visualeditor-cite-tool-definition.json' ).plain() );
+		tools = JSON.parse( mw.message( 'cite-tool-definition.json' ).plain() );
 	} catch ( e ) {
 		tools = [];
+	}
+	if ( !tools ) {
+		try {
+			// Must use mw.message to avoid JSON being parsed as Wikitext
+			tools = JSON.parse( mw.message( 'visualeditor-cite-tool-definition.json' ).plain() );
+		} catch ( e ) {
+			tools = [];
+		}
 	}
 
 	// Go over available tools
