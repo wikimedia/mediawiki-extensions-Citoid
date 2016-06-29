@@ -25,8 +25,12 @@ OO.mixinClass( ve.ui.CiteFromIdInspectorTool, ve.ui.MWEducationPopupTool );
 
 ve.ui.CiteFromIdInspectorTool.static.name = 'citefromid';
 ve.ui.CiteFromIdInspectorTool.static.autoAddToCatchall = false;
-ve.ui.CiteFromIdInspectorTool.static.title = OO.ui.deferMsg( 'citoid-citefromidtool-title' );
-ve.ui.CiteFromIdInspectorTool.static.label = OO.ui.deferMsg( 'citoid-citefromidtool-title' );
+ve.ui.CiteFromIdInspectorTool.static.title = OO.ui.deferMsg(
+	mw.config.get( 'wgCiteVisualEditorOtherGroup' ) ?
+		'citoid-citefromidtool-title-othergroup' :
+		'citoid-citefromidtool-title'
+);
+ve.ui.CiteFromIdInspectorTool.static.label = ve.ui.CiteFromIdInspectorTool.static.title;
 ve.ui.CiteFromIdInspectorTool.static.icon = 'quotes';
 ve.ui.CiteFromIdInspectorTool.static.displayBothIconAndLabel = true;
 ve.ui.CiteFromIdInspectorTool.static.group = 'cite';
