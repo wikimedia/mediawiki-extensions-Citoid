@@ -21,6 +21,7 @@
 	"citoid-citefromiddialog-title": "添加一个引用",
 	"citoid-citefromiddialog-use-general-error-message": "我们不能为您生成一个引用。您可以使用上方的“{{int:citoid-citefromiddialog-mode-manual}}”标签手动创建一个。",
 	"citoid-citefromidtool-title": "引用",
+	"citoid-citefromidtool-title-othergroup": "引用",
 	"citoid-desc": "在citoid服务和MediaWiki之间提供接入点",
 	"citoid-referencecontextitem-convert-button": "转换",
 	"citoid-referencecontextitem-convert-message": "这条参考文献仅由一个外部链接组成。您可以使用下方的“{{int:citoid-referencecontextitem-convert-button}}”以生成一个正确格式的参考文献。",

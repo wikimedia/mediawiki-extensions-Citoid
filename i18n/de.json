@@ -20,6 +20,7 @@
 	"citoid-citefromiddialog-title": "Einen Beleg hinzufügen",
 	"citoid-citefromiddialog-use-general-error-message": "Wir konnten für dich keinen Beleg erstellen. Du kannst einen manuell durch Verwendung der obigen Registerkarte „{{int:citoid-citefromiddialog-mode-manual}}“ erstellen.",
 	"citoid-citefromidtool-title": "Belegen",
+	"citoid-citefromidtool-title-othergroup": "Zitat",
 	"citoid-desc": "Schafft Zugriffspunkte zwischen dem Citoid-Dienst und MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konvertieren",
 	"citoid-referencecontextitem-convert-message": "Dieser Einzelnachweis besteht nur aus einem Weblink. Du kannst unten die Schaltfläche „{{int:citoid-referencecontextitem-convert-button}}“ verwenden, um einen korrekt formatierten Einzelnachweis zu erzeugen.",

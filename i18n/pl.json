@@ -19,6 +19,7 @@
 	"citoid-citefromiddialog-title": "Dodaj przypis",
 	"citoid-citefromiddialog-use-general-error-message": "Nie mogliśmy utworzyć przypisu. Możesz go utworzyć samodzielnie, używając przycisku „{{int:citoid-citefromiddialog-mode-manual}}”.",
 	"citoid-citefromidtool-title": "Przypis",
+	"citoid-citefromidtool-title-othergroup": "Przypisy",
 	"citoid-desc": "Zapewnia punkty dostępu między Citoidem a MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konwertuj",
 	"citoid-referencecontextitem-convert-message": "Ten odnośnik składa się tylko z linku zewnętrznego. Możesz użyć przycisk „{{int:citoid-referencecontextitem-convert-button}}”, znajdującego się poniżej, aby utworzyć odpowiednio sformatowany odnośnik.",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Muhammad Shuaib"
+			"Muhammad Shuaib",
+			"امین اکبر"
 		]
 	},
 	"citoid-citation-widget-insert-button": "درج کریں",
@@ -14,5 +15,6 @@
 	"citoid-citefromiddialog-search-label": "URL اور DOI",
 	"citoid-citefromiddialog-search-placeholder": "مثلا http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "تلاش جاری ہے، براہ کرم انتظار کریں...",
-	"citoid-citefromiddialog-title": "حوالہ درج کریں"
+	"citoid-citefromiddialog-title": "حوالہ درج کریں",
+	"citoid-citefromidtool-title-othergroup": "حوالہ جات"
 }

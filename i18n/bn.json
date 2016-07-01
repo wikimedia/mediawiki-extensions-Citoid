@@ -20,6 +20,7 @@
 	"citoid-citefromiddialog-title": "একটি উদ্ধৃতি যোগ করুন",
 	"citoid-citefromiddialog-use-general-error-message": "আমরা আপনার জন্য তথ্যসূত্র তৈরী করে দিতে পারব না। আপনি নিজেই উপরের \"{{int:citoid-citefromiddialog-mode-manual}}\" ট্যাবের মাধ্যমে ম্যানুয়ালি তৈরী করতে পারেন।",
 	"citoid-citefromidtool-title": "উদ্ধৃতি",
+	"citoid-citefromidtool-title-othergroup": "উদ্ধৃতি",
 	"citoid-desc": "সাইটয়েড পরিষেবা ও মিডিয়াউইকির মধ্যে প্রবেশাধিকার বিন্দু সরবরাহ করে",
 	"citoid-referencecontextitem-convert-button": "রূপান্তর করো",
 	"citoid-referencecontextitem-convert-message": "এই তথ্যসূত্র শুধু একটি বাহ্যিক লিঙ্ক নিয়ে গঠিত। সঠিকভাবে বিন্যস্ত তথ্যসূত্র উৎপন্ন করতে আপনি নিচের  \"{{int:citoid-referencecontextitem-convert-button}}\" বোতাম ব্যবহার করতে পারেন।",

@@ -3,7 +3,8 @@
 		"authors": [
 			"Aktron",
 			"Mormegil",
-			"Matěj Suchánek"
+			"Matěj Suchánek",
+			"Dvorapa"
 		]
 	},
 	"citoid-520-error": "Ze zadaného identifikátoru se nepodařilo získat informace.",
@@ -20,6 +21,7 @@
 	"citoid-citefromiddialog-title": "Přidat citaci",
 	"citoid-citefromiddialog-use-general-error-message": "Nemohli jsme pro vás vytvořit citaci. Můžete ji vytvořit ručně pomocí výše zobrazené záložky „{{int:citoid-citefromiddialog-mode-manual}}“.",
 	"citoid-citefromidtool-title": "Citace",
+	"citoid-citefromidtool-title-othergroup": "Citace",
 	"citoid-desc": "Poskytuje přístupové body mezi službou Citoid a MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Převést",
 	"citoid-referencecontextitem-convert-message": "Tato reference obsahuje jen externí odkaz. Pomocí tlačítka „{{int:citoid-referencecontextitem-convert-button}}“ níže můžete vytvořit správně formátovanou referenci.",
