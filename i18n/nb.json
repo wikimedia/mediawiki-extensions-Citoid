@@ -21,6 +21,7 @@
 	"citoid-citefromiddialog-title": "Legg til en referanse",
 	"citoid-citefromiddialog-use-general-error-message": "Klarte ikke lage en automatisk sitering. Du kan lage en manuelt ved å bruke arkfanen «{{int:citoid-citefromiddialog-mode-manual}}» ovenfor.",
 	"citoid-citefromidtool-title": "Siter",
+	"citoid-citefromidtool-title-othergroup": "Sitering",
 	"citoid-desc": "Et aksesspunkt mellom citoid-tjenesten og MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konverter",
 	"citoid-referencecontextitem-convert-message": "Denne referansen består kun av en ekstern lenke. Du kan bruke «{{int:citoid-referencecontextitem-convert-button}}»-knappen under for å lage en korrekt formatert referanse.",
