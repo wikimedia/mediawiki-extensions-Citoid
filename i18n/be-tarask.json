@@ -19,6 +19,7 @@
 	"citoid-citefromiddialog-title": "Дадаць цытату",
 	"citoid-citefromiddialog-use-general-error-message": "Мы не змаглі стварыць для Вас цытату. Вы можаце стварыць яе ўручную з дапамогай закладкі «{{int:citoid-citefromiddialog-mode-manual}}» вышэй.",
 	"citoid-citefromidtool-title": "Цытаваць",
+	"citoid-citefromidtool-title-othergroup": "Цытата",
 	"citoid-desc": "Забясьпечвае пункты дасягу між сэрвісам citoid і MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Канвэртаваць",
 	"citoid-referencecontextitem-convert-message": "Гэтая спасылка складаецца з простай вонкавай спасылкі. Вы можаце скарыстацца кнопкай «{{int:citoid-referencecontextitem-convert-button}}», каб сфармаваць правільную спасылку.",

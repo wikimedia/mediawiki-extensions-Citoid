@@ -21,6 +21,7 @@
 	"citoid-citefromiddialog-title": "Thêm chú thích",
 	"citoid-citefromiddialog-use-general-error-message": "Không thể tạo một chú thích cho bạn. Bạn có thể tạo ra nó một cách thủ công dùng thẻ “{{int:citoid-citefromiddialog-mode-manual}}” bên trên.",
 	"citoid-citefromidtool-title": "Chú thích",
+	"citoid-citefromidtool-title-othergroup": "Trích dẫn",
 	"citoid-desc": "Cung cấp các điểm truy cập giữa dịch vụ citoid và MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Chuyển đổi",
 	"citoid-referencecontextitem-convert-message": "Chú thích này chỉ là một liên kết ngoài. Bấm nút “{{int:citoid-referencecontextitem-convert-button}}” bên dưới để tạo chú thích có định dạng đúng.",
