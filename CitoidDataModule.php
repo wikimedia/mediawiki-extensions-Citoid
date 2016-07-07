@@ -22,7 +22,7 @@ class CitoidDataModule extends ResourceLoaderModule {
 	public function getScript( ResourceLoaderContext $context ) {
 		return 've.init.platform.addMessages(' . FormatJson::encode(
 			[
-				'citoid-template-type-map-backup.json' =>
+				'citoid-template-type-map.json' =>
 					$context->msg( 'citoid-template-type-map.json' )
 						->inContentLanguage()
 						->plain(),
