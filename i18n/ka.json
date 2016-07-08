@@ -20,6 +20,7 @@
 	"citoid-citefromiddialog-title": "ციტატის დამატება",
 	"citoid-citefromiddialog-use-general-error-message": "ჩვენ ვერ შევძელით თქვენთვის ბმულის გაკეთება. თქვენ შეგიძლიათ ხელით შექმნათ ის „{{int:citoid-citefromiddialog-mode-manual}}“-ის გამოყენებით ზედა ჩანართიდან.",
 	"citoid-citefromidtool-title": "ციტირება",
+	"citoid-citefromidtool-title-othergroup": "ციტირება",
 	"citoid-desc": "უზრუნველყოფს კავშირს citoid-ის მომსახურებსა MediaWiki-ს შორის",
 	"citoid-referencecontextitem-convert-button": "კონვერტაცია",
 	"citoid-referencecontextitem-convert-message": "ეს სქოლიო მარტივი შიდა ბმულისაგან შედგება. სწორად ჩამოყალიბებული სქოლიოს შესაქმნელად, თქვენ შეგიძლიათ გამოიყენოთ ღილაკი „{{int:citoid-referencecontextitem-convert-button}}“.",

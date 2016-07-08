@@ -20,6 +20,7 @@
 	"citoid-citefromiddialog-title": "Tambah sitiran",
 	"citoid-citefromiddialog-use-general-error-message": "Awak dhéwé ora bisa nggawékaké sampéyan sitasi. Sampéyan bisa nggawé dhéwé kanthi manuwal nganggo tab \"{{int:citoid-citefromiddialog-mode-manual}}\" ing dhuwur.",
 	"citoid-citefromidtool-title": "Sitir",
+	"citoid-citefromidtool-title-othergroup": "Sitiran",
 	"citoid-desc": "Nyepakaké titik aksès antara paladèn sitiran lan MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Salin",
 	"citoid-referencecontextitem-convert-message": "Rujukan iki dumadi mung pranala njaba siji. Sampéyan bisa nganggo \"{{int:citoid-referencecontextitem-convert-button}}\" ngisor iki kanggo ngasilaké rujukan mawa format sing mèmper.",
