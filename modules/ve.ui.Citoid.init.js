@@ -4,12 +4,8 @@
 	// Don't create tool unless the configuration message is present
 	try {
 		map = JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
-	} catch ( e ) {
-		// Temporary hack for T93800
-		try {
-			map = JSON.parse( mw.message( 'citoid-template-type-map-backup.json' ).plain() );
-		} catch ( e2 ) {}
-	}
+	} catch ( e ) { }
+
 	if ( !map ) {
 		// Unregister the tool
 		ve.ui.toolFactory.unregister( ve.ui.CiteFromIdInspectorTool );
