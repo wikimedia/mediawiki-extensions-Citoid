@@ -1,5 +1,5 @@
 ( function () {
-	var i, j, jLen, toolGroups, citeIndex, target, map;
+	var i, j, jLen, name, toolClass, toolGroups, citeIndex, target, map;
 
 	// Don't create tool unless the configuration message is present
 	try {
@@ -15,6 +15,16 @@
 	// HACK: Find the position of the current citation toolbar definition
 	// and manipulate it.
 
+	// Unregister regular citation tools so they don't end up in catch-all groups
+	for ( name in ve.ui.toolFactory.registry ) {
+		toolClass = ve.ui.toolFactory.lookup( name );
+		if (
+			name === 'reference' || name.indexOf( 'reference/' ) === 0 ||
+			toolClass.prototype instanceof ve.ui.MWCitationDialogTool
+		) {
+			ve.ui.toolFactory.unregister( toolClass );
+		}
+	}
 	targetLoader:
 	for ( i in ve.init.mw ) {
 		target = ve.init.mw[ i ];
