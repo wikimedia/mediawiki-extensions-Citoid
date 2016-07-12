@@ -12,7 +12,7 @@
 	"citoid-citefromiddialog-mode-manual": "Käsitsi",
 	"citoid-citefromiddialog-mode-reuse": "Korduv",
 	"citoid-citefromiddialog-search": "Otsi",
-	"citoid-citefromiddialog-search-label": "URL või DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI või PMID",
 	"citoid-citefromiddialog-search-placeholder": "nt http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Otsimine, palun oota...",
 	"citoid-citefromiddialog-title": "Viite lisamine",
