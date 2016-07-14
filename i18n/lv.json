@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Papuass"
+			"Papuass",
+			"Silraks"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ievietot",
@@ -14,5 +15,6 @@
 	"citoid-citefromiddialog-search-label": "URL, DOI vai PMID",
 	"citoid-citefromiddialog-search-placeholder": "piemēram, http://www.piemers.com",
 	"citoid-citefromiddialog-search-progress": "Meklē, lūdzu, uzgaidiet...",
-	"citoid-citefromiddialog-title": "Pievienot atsauci"
+	"citoid-citefromiddialog-title": "Pievienot atsauci",
+	"citoid-referencecontextitem-convert-button": "Pārveidot"
 }
