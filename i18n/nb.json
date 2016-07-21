@@ -20,7 +20,7 @@
 	"citoid-citefromiddialog-search-progress": "Søker, vennligst vent…",
 	"citoid-citefromiddialog-title": "Legg til en referanse",
 	"citoid-citefromiddialog-use-general-error-message": "Klarte ikke å lage en automatisk referanse. Du kan lage en manuelt ved å bruke arkfanen «{{int:citoid-citefromiddialog-mode-manual}}» ovenfor.",
-	"citoid-citefromidtool-title": "Sitér",
+	"citoid-citefromidtool-title": "Angi kilde",
 	"citoid-citefromidtool-title-othergroup": "Referanse",
 	"citoid-desc": "Et aksesspunkt mellom citoid-tjenesten og MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konverter",
