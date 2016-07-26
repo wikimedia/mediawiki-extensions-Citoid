@@ -48,6 +48,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 
 	// Create the citation preview
 	doc = documentModel.cloneWithData( [
+		{ type: 'paragraph' },
 		{
 			type: 'mwTransclusionInline',
 			attributes: {
@@ -55,6 +56,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 			}
 		},
 		{ type: '/mwTransclusionInline' },
+		{ type: '/paragraph' },
 		{ type: 'internalList' },
 		{ type: '/internalList' }
 	] );
