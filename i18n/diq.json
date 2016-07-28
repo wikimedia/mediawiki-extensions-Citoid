@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kumkumuk"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Cı ke",
+	"citoid-citefromiddialog-back": "Peyser",
+	"citoid-citefromiddialog-lookup-button": "Vıraze",
+	"citoid-citefromiddialog-mode-auto": "Otomatik",
+	"citoid-citefromiddialog-mode-manual": "Manuel",
+	"citoid-citefromiddialog-mode-reuse": "Fına bıkarn",
+	"citoid-citefromiddialog-search": "Cı geyre",
+	"citoid-citefromiddialog-search-label": "URL, DOI yana PMID",
+	"citoid-citefromiddialog-search-placeholder": "mesela http://www.zazaki.zz",
+	"citoid-citefromiddialog-search-progress": "Vineno,  tay bıpawê...",
+	"citoid-citefromiddialog-title": "Çıme dek",
+	"citoid-citefromidtool-title": "Çıme",
+	"citoid-citefromidtool-title-othergroup": "Çıme",
+	"citoid-referencecontextitem-convert-button": "Açarn"
+}
