@@ -4,6 +4,7 @@
 			"Ильнар"
 		]
 	},
+	"citoid-520-error": "Идентификаторда күрсәтелгән мәгълүматны алып булмады.",
 	"citoid-citation-widget-insert-button": "Өстәү",
 	"citoid-citefromiddialog-back": "Артка",
 	"citoid-citefromiddialog-lookup-button": "Чыгару",
@@ -16,5 +17,8 @@
 	"citoid-citefromiddialog-search-progress": "Эзлибез, зинһар, көтегез…",
 	"citoid-citefromiddialog-title": "Чыганакка сылтама кую",
 	"citoid-citefromidtool-title": "Чыганак",
-	"citoid-referencecontextitem-convert-button": "Формат алмаштыру"
+	"citoid-citefromidtool-title-othergroup": "Өзек",
+	"citoid-desc": "Citoid сервисы һәм Медиавики арасында аралашу мөмкинлеген тәэмин итә.",
+	"citoid-referencecontextitem-convert-button": "Формат алмаштыру",
+	"citoid-unknown-error": "Билгесез хата барлыкка килде, шуның аркасында өзекне төзү мөмкин түгел. Зинһар, соңрак кабатлап карагыз."
 }

@@ -4,6 +4,7 @@
 			"Kumkumuk"
 		]
 	},
+	"citoid-520-error": "Dayoği ra malumata iınasnayışi nê gêriyaya",
 	"citoid-citation-widget-insert-button": "Cı ke",
 	"citoid-citefromiddialog-back": "Peyser",
 	"citoid-citefromiddialog-lookup-button": "Vıraze",
@@ -15,7 +16,11 @@
 	"citoid-citefromiddialog-search-placeholder": "mesela http://www.zazaki.zz",
 	"citoid-citefromiddialog-search-progress": "Vineno,  tay bıpawê...",
 	"citoid-citefromiddialog-title": "Çıme dek",
+	"citoid-citefromiddialog-use-general-error-message": "Ma nêşa grotek bıgim qandé şıma. Cor ra  \"{{int:citoid-citefromiddialog-mode-manuel}}\" tab ra menuel şenê vırazê",
 	"citoid-citefromidtool-title": "Çıme",
 	"citoid-citefromidtool-title-othergroup": "Çıme",
-	"citoid-referencecontextitem-convert-button": "Açarn"
+	"citoid-desc": "Citoid ra MediaWiki are dı cay irtibat vırazeno",
+	"citoid-referencecontextitem-convert-button": "Açarn",
+	"citoid-referencecontextitem-convert-message": "Enonyew referans tenya grey tebwri vırazeno. Timaryaye mırecet kerdışi rê cér ra \"{{int:citoid-referencecontextitem-convert-button}}\" şenê bıkarnê",
+	"citoid-unknown-error": "Nêzanıyen yew xeta amê meydan u çıme vıraştennrê bena mani. Vanê se fına bıcerebne."
 }
