@@ -22,6 +22,7 @@
 	"citoid-citefromiddialog-title": "إضافة استشهاد",
 	"citoid-citefromiddialog-use-general-error-message": "لم نتمكن من جعل الاقتباس لك. يمكنك إنشاء واحد يدويا باستخدام \"{{int:citoid-citefromiddialog-mode-manual}}\" التبويب أعلاه.",
 	"citoid-citefromidtool-title": "استشهد",
+	"citoid-citefromidtool-title-othergroup": "استشهاد",
 	"citoid-desc": "يوفر نقطة وصول بين citoid وميدياويكي",
 	"citoid-referencecontextitem-convert-button": "حَوِّلْ",
 	"citoid-referencecontextitem-convert-message": "هذا المرجع يتكون من رابط خارجي فقط. يمكنك استخدام زر\"{{int:citoid-referencecontextitem-convert-button}}\" في الأسفل لتوليد مرجع منسق على نحو مناسب.",

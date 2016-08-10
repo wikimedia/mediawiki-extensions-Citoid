@@ -19,6 +19,7 @@
 	"citoid-citefromiddialog-title": "Aipamena gehitu",
 	"citoid-citefromiddialog-use-general-error-message": "Ezin dugu zure aipamena egin. Eskuz sortu dezakezu goiko  \"{{int:citoid-citefromiddialog-mode-manual}}\" fitxa erabiliz.",
 	"citoid-citefromidtool-title": "Aipatu",
+	"citoid-citefromidtool-title-othergroup": "Aipamen",
 	"citoid-desc": "Sarbide puntuak eskaintzen ditu citoid zerbitzuaren eta MediaWikiren artean.",
 	"citoid-referencecontextitem-convert-button": "Bihurtu",
 	"citoid-unknown-error": "Aipamena sortzen uzten ez digun errore ezezagun bat gertatu da. Saiatu berriro beranduago mesedez."
