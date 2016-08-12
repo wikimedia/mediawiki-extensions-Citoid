@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pirehelokan"
+			"Pirehelokan",
+			"Sarchia"
 		]
 	},
+	"citoid-citation-widget-insert-button": "تێخستن",
 	"citoid-citefromiddialog-back": "گەڕانەوە",
 	"citoid-citefromiddialog-lookup-button": "دروست کردن",
 	"citoid-citefromiddialog-mode-auto": "ئوتۆماتیک",
@@ -14,5 +16,5 @@
 	"citoid-citefromiddialog-search-placeholder": "بۆ نموونە: http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "گەڕان، تکایە سەبرت ببێت...",
 	"citoid-citefromiddialog-title": "سەرچاوەیەک زیاد بکە",
-	"citoid-citefromidtool-title": "ژێدەر"
+	"citoid-citefromidtool-title": "ئاماژە"
 }
