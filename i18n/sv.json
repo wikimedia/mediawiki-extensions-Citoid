@@ -5,7 +5,8 @@
 			"Ainali",
 			"Josve05a",
 			"WikiPhoenix",
-			"Lokal Profil"
+			"Lokal Profil",
+			"Jopparn"
 		]
 	},
 	"citoid-520-error": "Kan inte hämta information genom den angivna identifieraren.",
@@ -22,6 +23,7 @@
 	"citoid-citefromiddialog-title": "Lägg till en källa",
 	"citoid-citefromiddialog-use-general-error-message": "Vi kunde inte göra en referens åt dig. Du kan göra en manuellt på fliken \"{{int:citoid-citefromiddialog-mode-manual}}\" ovanför.",
 	"citoid-citefromidtool-title": "Ange källa",
+	"citoid-citefromidtool-title-othergroup": "Referens",
 	"citoid-desc": "Tillhandahåller åtkomstpunkter mellan citiod-tjänsten och MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konvertera",
 	"citoid-referencecontextitem-convert-message": "Denna referens består enbart av en extern länk. Du kan använda \"{{int:citoid-referencecontextitem-convert-button}}\"-knappen nedan för att generera en korrekt formaterad referens.",
