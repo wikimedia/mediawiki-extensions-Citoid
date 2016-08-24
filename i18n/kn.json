@@ -3,16 +3,20 @@
 		"authors": [
 			"Vikassy",
 			"Pavanaja",
-			"Omshivaprakash"
+			"Omshivaprakash",
+			"Yogesh"
 		]
 	},
 	"citoid-citation-widget-insert-button": "ಸೇರ್ಪಡಿಸು",
 	"citoid-citefromiddialog-back": "ಹಿಂದಕ್ಕೆ",
 	"citoid-citefromiddialog-lookup-button": "ಸೃಷ್ಟಿಸು",
+	"citoid-citefromiddialog-mode-manual": "ಕೈಪಿಡಿ",
+	"citoid-citefromiddialog-mode-reuse": "ಮತ್ತೆ ಬಳಸು",
 	"citoid-citefromiddialog-search": "ಹುಡುಕು",
 	"citoid-citefromiddialog-search-label": "ಯುಆರ್‍ಎಲ್ ಅಥವಾ ಡೀಒಐ",
 	"citoid-citefromiddialog-search-placeholder": "ಉ.ದಾ. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "ಹುಡುಕುಕಲಾಗುತ್ತಿದೆ, ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಕಾಯಿರಿ...",
 	"citoid-citefromiddialog-title": "ಉಲ್ಲೇಖ ಸೇರಿಸಿ",
-	"citoid-citefromidtool-title": "ಉಲ್ಲೇಖಿಸಿ"
+	"citoid-citefromidtool-title": "ಉಲ್ಲೇಖಿಸಿ",
+	"citoid-referencecontextitem-convert-button": "ಪರಿವರ್ತಿಸು"
 }
