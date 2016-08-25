@@ -12,5 +12,7 @@
 	"citoid-citefromiddialog-mode-reuse": "Reütilizar",
 	"citoid-citefromiddialog-search": "Cercar",
 	"citoid-citefromiddialog-search-label": "URL, DOI o PMID",
-	"citoid-citefromidtool-title": "Citar"
+	"citoid-citefromidtool-title": "Citar",
+	"citoid-citefromidtool-title-othergroup": "Citacion",
+	"citoid-referencecontextitem-convert-button": "Convertir"
 }
