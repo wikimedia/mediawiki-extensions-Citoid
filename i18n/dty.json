@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"जनक राज भट्ट"
+			"जनक राज भट्ट",
+			"Nirajan pant"
 		]
 	},
 	"citoid-citation-widget-insert-button": "थप्दे",
@@ -11,7 +12,7 @@
 	"citoid-citefromiddialog-mode-manual": "स्वयं",
 	"citoid-citefromiddialog-mode-reuse": "पुनः प्रयोग",
 	"citoid-citefromiddialog-search": "खोज",
-	"citoid-citefromiddialog-search-label": "यूआरएल अथवा डीओआइ",
+	"citoid-citefromiddialog-search-label": "यूआरएल, डीओआइ या पीएमआइडी",
 	"citoid-citefromiddialog-search-placeholder": "उदाहरण http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "खोज्जा छ,पख",
 	"citoid-citefromiddialog-title": "सन्दर्भ थप",
