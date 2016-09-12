@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Pirehelokan",
-			"Sarchia"
+			"Sarchia",
+			"Muhammed taha"
 		]
 	},
 	"citoid-citation-widget-insert-button": "تێخستن",
@@ -12,7 +13,7 @@
 	"citoid-citefromiddialog-mode-manual": "دەستی",
 	"citoid-citefromiddialog-mode-reuse": "بەکارھێنانەوە",
 	"citoid-citefromiddialog-search": "گەڕان",
-	"citoid-citefromiddialog-search-label": "URL یان DOI",
+	"citoid-citefromiddialog-search-label": "URL، DOI یان PMID",
 	"citoid-citefromiddialog-search-placeholder": "بۆ نموونە: http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "گەڕان، تکایە سەبرت ببێت...",
 	"citoid-citefromiddialog-title": "سەرچاوەیەک زیاد بکە",

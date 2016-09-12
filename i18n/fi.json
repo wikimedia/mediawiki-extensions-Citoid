@@ -21,6 +21,7 @@
 	"citoid-citefromiddialog-title": "Lisää viittaus",
 	"citoid-citefromiddialog-use-general-error-message": "Viitteen luominen epäonnistui. Voit luoda sen manuaalisesti valitsemalla välilehden {{int:citoid-citefromiddialog-mode-manual}}.",
 	"citoid-citefromidtool-title": "Viittaa",
+	"citoid-citefromidtool-title-othergroup": "Viite",
 	"citoid-desc": "Mahdollistaa citoid-palvelun käytön MediaWikissä",
 	"citoid-referencecontextitem-convert-button": "Muunna",
 	"citoid-referencecontextitem-convert-message": "Tämä viite koostuu pelkästä linkistä. Voit päivittää sen muoto-ohjeiden mukaiseksi viitteeksi käyttämällä \"{{int:citoid-referencecontextitem-convert-button}}\"-toimintoa.",
