@@ -18,5 +18,6 @@
 	"citoid-citefromidtool-title": "Zitéieren",
 	"citoid-citefromidtool-title-othergroup": "Citatioun",
 	"citoid-referencecontextitem-convert-button": "Ëmwandelen",
+	"citoid-referencecontextitem-convert-message": "Dës Referenz besteet just aus engem externe Link. Dir kënnt den \"{{int:citoid-referencecontextitem-convert-button}}\"-Knäppche hei drënner benotze fir eng korrekt formatéiert Referenz ze generéieren.",
 	"citoid-unknown-error": "En onbekannte Feeler ass geschitt an deen huet eis et net erlaabt fir en Citatioun unzeleeën. Probéiert et méi spéit nach eng Kéier."
 }
