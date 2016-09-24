@@ -19,6 +19,7 @@
 	"citoid-citefromiddialog-title": "Dodaj sklic",
 	"citoid-citefromiddialog-use-general-error-message": "Sklica nismo mogli ustvariti. Ustvarite ga lahko ročno z uporabo zavihka »{{int:citoid-citefromiddialog-mode-manual}}« zgoraj.",
 	"citoid-citefromidtool-title": "Navedi",
+	"citoid-citefromidtool-title-othergroup": "Navedek",
 	"citoid-desc": "Zagotavlja točke dostopa med storitvama citoid in MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
 	"citoid-referencecontextitem-convert-message": "Sklic vsebuje samo zunanjo povezavo. Uporabite lahko gumb »{{int:citoid-referencecontextitem-convert-button}}« spodaj, da ustvarite ustrezno oblikovan sklic.",
