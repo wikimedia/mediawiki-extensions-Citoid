@@ -527,6 +527,7 @@ ve.ui.CiteFromIdInspector.prototype.getActionProcess = function ( action ) {
  */
 ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 	var xhr,
+		search,
 		inspector = this;
 
 	// TODO: Add caching for requested urls
@@ -540,12 +541,18 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 	this.lookupButton.setDisabled( true );
 	this.lookupInput.setDisabled( true ).pushPending();
 
+	search = this.lookupInput.getValue();
+	// Common case: pasting a URI into this field. Citoid expects
+	// minimally encoded input, so do some speculative decoding here to
+	// avoid 404 fetches. T146539
+	search = ve.safeDecodeURIComponent( search );
+
 	// We have to first set up a get response so we can have
 	// a proper xhr object with "abort" method, so we can
 	// hand off this abort method to the jquery promise
 	xhr = this.service
 		.get( {
-			search: this.lookupInput.getValue(),
+			search: search,
 			format: ve.ui.CiteFromIdInspector.static.citoidFormat,
 			basefields: 'true' // Request base fields from API i.e. publicationTitle instead of websiteTitle
 		} );
