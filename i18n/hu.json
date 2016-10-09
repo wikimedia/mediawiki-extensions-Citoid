@@ -21,6 +21,7 @@
 	"citoid-citefromiddialog-title": "Forráshivatkozás hozzáadása",
 	"citoid-citefromiddialog-use-general-error-message": "Nem tudtunk hivatkozást készíteni neked. Létrehozhatsz egyet kézzel a fenti „{{int:citoid-citefromiddialog-mode-manual}}” füllel.",
 	"citoid-citefromidtool-title": "Forrás",
+	"citoid-citefromidtool-title-othergroup": "Forráshivatkozás",
 	"citoid-desc": "Összeköttetést biztosít a citoid szolgáltatás és a MediaWiki között",
 	"citoid-referencecontextitem-convert-button": "Konvertálás",
 	"citoid-referencecontextitem-convert-message": "Ez a forráshivatkozás csak egy külső linket tartalmaz. A lenti „{{int:citoid-referencecontextitem-convert-button}}” gombbal átalakíthatod egy jól formázott forráshivatkozássá.",
