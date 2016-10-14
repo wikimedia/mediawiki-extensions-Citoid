@@ -5,6 +5,7 @@
 	"citoid-520-error": "Unable to retrieve information from the provided identifier.",
 	"citoid-citation-widget-insert-button": "Insert",
 	"citoid-citefromiddialog-back": "Back",
+	"citoid-citefromiddialog-credit": "Powered by $1",
 	"citoid-citefromiddialog-lookup-button": "Generate",
 	"citoid-citefromiddialog-mode-auto": "Automatic",
 	"citoid-citefromiddialog-mode-manual": "Manual",

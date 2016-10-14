@@ -199,6 +199,11 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 
 	// Preview fieldset
 	this.previewSelectWidget = new ve.ui.CiteFromIdGroupWidget();
+	this.credit = new OO.ui.Element( {
+		tag: 'div',
+		text: OO.ui.deferMsg( 'citoid-citefromiddialog-credit', [ 'Zotero' ] ),
+		classes: [ 've-ui-citeFromIdInspector-credit' ]
+	} );
 	this.autoProcessPanels.result.$element.append( this.previewSelectWidget.$element );
 
 	// Manual mode
@@ -480,6 +485,9 @@ ve.ui.CiteFromIdInspector.prototype.getTeardownProcess = function ( data ) {
 			// Clear selection
 			this.sourceSelect.selectItem();
 
+			// Clear credit line
+			this.credit.$element.remove();
+
 			// Reset
 			if ( this.lookupPromise ) {
 				this.lookupPromise.abort();
@@ -516,6 +524,8 @@ ve.ui.CiteFromIdInspector.prototype.getActionProcess = function ( action ) {
 		return new OO.ui.Process( function () {
 			// Clear the results
 			this.setModePanel( 'auto', 'lookup' );
+			// Clear credit line
+			this.credit.$element.remove();
 		}, this );
 	}
 	// Fallback to parent handler
@@ -631,6 +641,7 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 		this.results.push( {
 			templateName: templateName,
 			template: null,
+			source: citation.source, // May be undefined or Array
 			transclusionModel: new ve.dm.MWTransclusionModel()
 		} );
 		result = this.results[ this.results.length - 1 ];
@@ -646,7 +657,8 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 
 	return $.when.apply( $, partPromises )
 		.then( function () {
-			var optionWidgets = [];
+			var sources = [],
+				optionWidgets = [];
 			// Create option widgets
 			for ( i = 0; i < inspector.results.length; i++ ) {
 				refWidget = new ve.ui.CiteFromIdReferenceWidget(
@@ -657,12 +669,17 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 						templateName: inspector.results[ i ].templateName,
 						citeTools: inspector.citeTools
 					} );
+				sources.push( inspector.results[ i ].source ); // source may be undefined or Array of strings
 				optionWidgets.push( refWidget );
 				renderPromises.push( refWidget.getRenderPromise() );
 			}
 			if ( optionWidgets.length > 0 ) {
-				// Add to the select widget
+				// Add citations to the select widget
 				inspector.previewSelectWidget.addItems( optionWidgets );
+				// Add credit item only for result to the widget, currently for Zotero only
+				if ( sources[ 0 ] && ( sources[ 0 ].indexOf( 'Zotero' ) > -1 ) ) {
+					inspector.previewSelectWidget.$element.append( inspector.credit.$element );
+				}
 				return $.when.apply( $, renderPromises );
 			}
 			// failed, so go back

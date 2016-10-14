@@ -55,6 +55,12 @@
 	z-index: 1;
 }
 
+.ve-ui-citeFromIdInspector-credit {
+	font-size: x-small;
+	text-align: right;
+	color: #888;
+}
+
 .ve-ui-citeFromIdInspector-dialog-error {
 	margin-top: 1em;
 	color: #c00;
