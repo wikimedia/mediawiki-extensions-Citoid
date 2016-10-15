@@ -10,6 +10,7 @@
 	"citoid-520-error": "无法从提供的标识符检索信息。",
 	"citoid-citation-widget-insert-button": "插入",
 	"citoid-citefromiddialog-back": "返回",
+	"citoid-citefromiddialog-credit": "由$1提供支持",
 	"citoid-citefromiddialog-lookup-button": "生成",
 	"citoid-citefromiddialog-mode-auto": "自动",
 	"citoid-citefromiddialog-mode-manual": "手动",

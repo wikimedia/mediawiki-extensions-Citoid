@@ -9,6 +9,7 @@
 	"citoid-520-error": "Informationen von der angegebenen Bezeichnung konnten nicht abgerufen werden.",
 	"citoid-citation-widget-insert-button": "Einfügen",
 	"citoid-citefromiddialog-back": "Zurück",
+	"citoid-citefromiddialog-credit": "Powered by $1",
 	"citoid-citefromiddialog-lookup-button": "Erzeugen",
 	"citoid-citefromiddialog-mode-auto": "Automatisch",
 	"citoid-citefromiddialog-mode-manual": "Manuell",
