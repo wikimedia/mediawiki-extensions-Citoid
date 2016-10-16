@@ -7,12 +7,14 @@
 			"^musaz",
 			"Macofe",
 			"Mpiva",
-			"Fringio"
+			"Fringio",
+			"Selven"
 		]
 	},
 	"citoid-520-error": "Impossibile recuperare le informazioni dall'identificatore fornito.",
 	"citoid-citation-widget-insert-button": "Inserisci",
 	"citoid-citefromiddialog-back": "Indietro",
+	"citoid-citefromiddialog-credit": "Realizzato con $1",
 	"citoid-citefromiddialog-lookup-button": "Genera",
 	"citoid-citefromiddialog-mode-auto": "Automatico",
 	"citoid-citefromiddialog-mode-manual": "Manuale",
