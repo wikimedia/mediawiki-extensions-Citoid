@@ -15,6 +15,7 @@
 	"citoid-520-error": "Impossible de récupérer les informations à partir de l'identifiant fourni.",
 	"citoid-citation-widget-insert-button": "Insérer",
 	"citoid-citefromiddialog-back": "Retour",
+	"citoid-citefromiddialog-credit": "Fourni par $1",
 	"citoid-citefromiddialog-lookup-button": "Générer",
 	"citoid-citefromiddialog-mode-auto": "Automatique",
 	"citoid-citefromiddialog-mode-manual": "Manuel",

@@ -3,12 +3,14 @@
 		"authors": [
 			"Stranger195",
 			"Jewel457",
-			"Sky Harbor"
+			"Sky Harbor",
+			"Emem.calist"
 		]
 	},
 	"citoid-520-error": "Hindi mahugot ang impormasyon mula sa binaggit na identifier.",
 	"citoid-citation-widget-insert-button": "Isingit",
 	"citoid-citefromiddialog-back": "Magbalik",
+	"citoid-citefromiddialog-credit": "Sa lahat ng bumubuo ng ... $1",
 	"citoid-citefromiddialog-lookup-button": "Likhain",
 	"citoid-citefromiddialog-mode-auto": "Automatiko",
 	"citoid-citefromiddialog-mode-manual": "Manwal",

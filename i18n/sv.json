@@ -12,6 +12,7 @@
 	"citoid-520-error": "Kan inte hämta information genom den angivna identifieraren.",
 	"citoid-citation-widget-insert-button": "Infoga",
 	"citoid-citefromiddialog-back": "Tillbaka",
+	"citoid-citefromiddialog-credit": "Drivs av $1",
 	"citoid-citefromiddialog-lookup-button": "Generera",
 	"citoid-citefromiddialog-mode-auto": "Automatisk",
 	"citoid-citefromiddialog-mode-manual": "Manuell",

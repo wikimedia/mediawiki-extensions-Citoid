@@ -10,6 +10,7 @@
 	"citoid-520-error": "Non se puido obter a información a partir do identificador proporcionado.",
 	"citoid-citation-widget-insert-button": "Inserir",
 	"citoid-citefromiddialog-back": "Volver",
+	"citoid-citefromiddialog-credit": "Desenvolvido por $1",
 	"citoid-citefromiddialog-lookup-button": "Xerar",
 	"citoid-citefromiddialog-mode-auto": "Automático",
 	"citoid-citefromiddialog-mode-manual": "Manual",
