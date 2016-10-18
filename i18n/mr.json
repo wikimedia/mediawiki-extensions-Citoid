@@ -7,10 +7,19 @@
 	},
 	"citoid-citation-widget-insert-button": "समाविष्ट करा",
 	"citoid-citefromiddialog-back": "परत",
+	"citoid-citefromiddialog-credit": "$1 द्वारे ऊर्जीकृत",
 	"citoid-citefromiddialog-lookup-button": "निर्माता",
 	"citoid-citefromiddialog-mode-auto": "स्वयंचलित",
 	"citoid-citefromiddialog-mode-manual": "मानवीकृत",
 	"citoid-citefromiddialog-mode-reuse": "पुनरुपयोग",
 	"citoid-citefromiddialog-search": "शोधा",
-	"citoid-referencecontextitem-convert-button": "रुपांतर करा"
+	"citoid-citefromiddialog-search-placeholder": "उदाहरणार्थ http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "शोधत आहे, कृपया थांबा...",
+	"citoid-citefromiddialog-title": "अवतरण जोडा",
+	"citoid-citefromiddialog-use-general-error-message": "आम्ही आपल्यासाठी अवतरण तयार करु शकलो नाही. आपण स्वतः तो  \"{{int:citoid-citefromiddialog-mode-manual}}\" ही वर असलेली कळ वापरुन, तयार करु शकता.",
+	"citoid-citefromidtool-title": "उधृत करा",
+	"citoid-citefromidtool-title-othergroup": "अवतरण",
+	"citoid-referencecontextitem-convert-button": "रुपांतर करा",
+	"citoid-referencecontextitem-convert-message": "या संदर्भात फक्त एक बाह्य दुवा आहे.आपण खाली असलेली \"{{int:citoid-referencecontextitem-convert-button}}\" ही कळ वापरुन योग्य प्रारुपित संदर्भ तयार करु शकता.",
+	"citoid-unknown-error": "एक अनोळखी त्रुटी घडली ज्याने आम्हास अवतरण तयार करण्यास रोधीत केले. नंतर पुन्हा प्रयत्न करा."
 }
