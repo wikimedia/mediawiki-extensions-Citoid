@@ -5,12 +5,14 @@
 			"محمد أحمد عبد الفتاح",
 			"فلورانس",
 			"JoyfulEditing",
-			"Shbib Al-Subaie"
+			"Shbib Al-Subaie",
+			"Meno25"
 		]
 	},
 	"citoid-520-error": "غير قادر على استرجاع المعلومات من المعرف المقدم",
 	"citoid-citation-widget-insert-button": "أدرج",
 	"citoid-citefromiddialog-back": "رجوع",
+	"citoid-citefromiddialog-credit": "مدعوم من $1",
 	"citoid-citefromiddialog-lookup-button": "توليد",
 	"citoid-citefromiddialog-mode-auto": "آلي",
 	"citoid-citefromiddialog-mode-manual": "يدوي",

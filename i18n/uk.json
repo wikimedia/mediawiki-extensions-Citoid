@@ -11,6 +11,7 @@
 	"citoid-520-error": "Не вдалось отримати інформацію за вказаним ідентифікатором.",
 	"citoid-citation-widget-insert-button": "Вставити",
 	"citoid-citefromiddialog-back": "Назад",
+	"citoid-citefromiddialog-credit": "Підтримується $1",
 	"citoid-citefromiddialog-lookup-button": "Генерувати",
 	"citoid-citefromiddialog-mode-auto": "Автоматично",
 	"citoid-citefromiddialog-mode-manual": "Вручну",
