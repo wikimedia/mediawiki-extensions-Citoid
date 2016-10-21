@@ -3,13 +3,14 @@
 		"authors": [
 			"Aquilax",
 			"Лорд Бъмбъри",
-			"Vodnokon4e"
+			"Vodnokon4e",
+			"Spas.Z.Spasov"
 		]
 	},
 	"citoid-520-error": "Неуспешно извличане на информация от предоставения идентификатор.",
 	"citoid-citation-widget-insert-button": "Вмъкване",
 	"citoid-citefromiddialog-back": "Назад",
-	"citoid-citefromiddialog-credit": "С поддръжката на $1",
+	"citoid-citefromiddialog-credit": "С подкрепата на $1",
 	"citoid-citefromiddialog-lookup-button": "Генериране",
 	"citoid-citefromiddialog-mode-auto": "Автоматично",
 	"citoid-citefromiddialog-mode-manual": "Ръчна настройка",
