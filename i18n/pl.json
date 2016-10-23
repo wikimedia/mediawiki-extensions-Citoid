@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"Tar Lócesilion"
+			"Tar Lócesilion",
+			"Woytecr"
 		]
 	},
 	"citoid-520-error": "Nie można pobrać informacji z dostarczonego identyfikatora.",
 	"citoid-citation-widget-insert-button": "Wstaw",
 	"citoid-citefromiddialog-back": "Wstecz",
+	"citoid-citefromiddialog-credit": "Dostarczone przez $1",
 	"citoid-citefromiddialog-lookup-button": "Generuj",
 	"citoid-citefromiddialog-mode-auto": "Automatycznie",
 	"citoid-citefromiddialog-mode-manual": "Ręcznie",
