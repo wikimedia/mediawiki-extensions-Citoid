@@ -4,12 +4,16 @@
  * @class
  * @abstract
  * @extends ve.ui.FragmentInspectorTool
+ * @mixins ve.ui.MWEducationPopupTool
  * @constructor
  * @param {OO.ui.ToolGroup} toolGroup
  * @param {Object} [config] Configuration options
  */
 ve.ui.CiteFromIdInspectorTool = function VeUiCiteFromIdInspectorTool() {
+	// Parent constructor
 	ve.ui.CiteFromIdInspectorTool.super.apply( this, arguments );
+
+	// Mixin constructor
 	ve.ui.MWEducationPopupTool.call( this, {
 		title: ve.msg( 'cite-ve-dialogbutton-citation-educationpopup-title' ),
 		text: ve.msg( 'cite-ve-dialogbutton-citation-educationpopup-text' )
@@ -19,6 +23,7 @@ ve.ui.CiteFromIdInspectorTool = function VeUiCiteFromIdInspectorTool() {
 /* Inheritance */
 
 OO.inheritClass( ve.ui.CiteFromIdInspectorTool, ve.ui.FragmentInspectorTool );
+
 OO.mixinClass( ve.ui.CiteFromIdInspectorTool, ve.ui.MWEducationPopupTool );
 
 /* Static properties */
