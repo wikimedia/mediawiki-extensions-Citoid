@@ -333,6 +333,8 @@ ve.ui.CiteFromIdInspector.prototype.onSearchResultsChoose = function ( item ) {
 
 /**
  * Respond to preview select widget choose event
+ *
+ * @param {ve.ui.MWReferenceResultWidget} item Chosen item
  */
 ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) {
 	var fragment = this.fragment,
@@ -534,6 +536,8 @@ ve.ui.CiteFromIdInspector.prototype.getActionProcess = function ( action ) {
 
 /**
  * Send a request to the citoid service
+ *
+ * @return {jQuery.Promise} Lookup promise
  */
 ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 	var xhr,
@@ -731,7 +735,7 @@ ve.ui.CiteFromIdInspector.static.populateTemplate = function ( template, citatio
 						if ( !concatCitoidField ) {
 							concatCitoidField = citation[ citoidField ][ i ];
 						} else {
-							concatCitoidField += ', ' + citation[ citoidField ][ i ] ;
+							concatCitoidField += ', ' + citation[ citoidField ][ i ];
 						}
 					}
 				// Case: Citoid parameter equivalent to 2D Array of TD parameters
