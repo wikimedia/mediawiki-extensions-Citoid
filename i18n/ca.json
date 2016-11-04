@@ -26,7 +26,7 @@
 	"citoid-citefromiddialog-title": "Afegeix una referència",
 	"citoid-citefromiddialog-use-general-error-message": "No hem pogut generar la citació. Podeu crear-la manualment utilitzant la pestanya «{{int:citoid-citefromiddialog-mode-manual}}» de dalt.",
 	"citoid-citefromidtool-title": "Cita",
-	"citoid-citefromidtool-title-othergroup": "Citació",
+	"citoid-citefromidtool-title-othergroup": "Referència",
 	"citoid-desc": "Proporciona punts d’accés entre el servei Citoid i MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converteix",
 	"citoid-referencecontextitem-convert-message": "Aquesta referència es compon de només un enllaç extern. Podeu utilitzar el \"{{int:citoid-referencecontextitem-convertir-botó}}\" botó de sota per a generar-ne una referència correctament formatada.",
