@@ -1,17 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kusavica"
+			"Kusavica",
+			"Teslaton"
 		]
 	},
 	"citoid-520-error": "Zo zadaného identifikátoru nebolo možné získať informácie.",
 	"citoid-citation-widget-insert-button": "Vložiť",
 	"citoid-citefromiddialog-back": "Späť",
+	"citoid-citefromiddialog-credit": "Poskytuje $1",
+	"citoid-citefromiddialog-lookup-button": "Vytvoriť",
 	"citoid-citefromiddialog-mode-auto": "Automaticky",
 	"citoid-citefromiddialog-mode-manual": "Ručne",
-	"citoid-citefromiddialog-mode-reuse": "Použiť existujúcy",
+	"citoid-citefromiddialog-mode-reuse": "Použiť existujúcu",
 	"citoid-citefromiddialog-search": "Hľadať",
 	"citoid-citefromiddialog-search-label": "URL alebo DOI",
 	"citoid-citefromiddialog-search-placeholder": "napr. http://www.príklad.com",
-	"citoid-citefromiddialog-search-progress": "Vyhľadávanie, prosím čakajte..."
+	"citoid-citefromiddialog-search-progress": "Vyhľadávanie, prosím čakajte...",
+	"citoid-citefromiddialog-title": "Pridať citáciu",
+	"citoid-citefromiddialog-use-general-error-message": "Nebolo možné vytvoriť citáciu automaticky. Môžete ju vytvoriť ručne pomocou vyššie zobrazenej záložky „{{int:citoid-citefromiddialog-mode-manual}}“.",
+	"citoid-citefromidtool-title": "Citácia",
+	"citoid-citefromidtool-title-othergroup": "Citácia",
+	"citoid-desc": "Poskytuje prístupové body medzi službou Citoid a MediaWiki"
 }
