@@ -416,6 +416,7 @@ ve.ui.CiteFromIdInspector.prototype.onLookupButtonClick = function () {
 ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 	return ve.ui.CiteFromIdInspector.super.prototype.getSetupProcess.call( this, data )
 		.next( function () {
+			var fragment;
 
 			// Reset
 			this.lookupPromise = null;
@@ -441,12 +442,14 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 
 				if ( this.inDialog !== 'reference' ) {
 					this.staging = true;
+					fragment = this.getFragment();
 					// Stage an empty reference
-					this.getFragment().getSurface().pushStaging();
+					fragment.getSurface().pushStaging();
 
 					// Insert an empty reference
-					this.referenceModel.insertInternalItem( this.getFragment().getSurface() );
-					this.referenceModel.insertReferenceNode( this.getFragment(), true );
+					this.referenceModel.insertInternalItem( fragment.getSurface() );
+					this.referenceModel.insertReferenceNode( fragment, true );
+					fragment.select();
 				}
 			}
 
