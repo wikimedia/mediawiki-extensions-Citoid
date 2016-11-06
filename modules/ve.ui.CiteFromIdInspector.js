@@ -329,6 +329,8 @@ ve.ui.CiteFromIdInspector.prototype.onSearchResultsChoose = function ( item ) {
 
 	ref.insertReferenceNode( this.getFragment() );
 	this.getFragment().getSurface().applyStaging();
+
+	this.close();
 };
 
 /**
