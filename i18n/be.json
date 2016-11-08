@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Goshaproject"
+			"Goshaproject",
+			"Mechanizatar"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Уставіць",
 	"citoid-citefromiddialog-back": "Назад",
+	"citoid-citefromiddialog-credit": "Пры падтрымцы $1",
 	"citoid-citefromiddialog-lookup-button": "Агульныя",
 	"citoid-citefromiddialog-mode-auto": "Аўтаматычна",
 	"citoid-citefromiddialog-mode-manual": "Уручную",
