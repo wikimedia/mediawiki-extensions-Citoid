@@ -4,13 +4,14 @@
 			"Okras",
 			"Дмитрий",
 			"Meshkov.a",
-			"Irus"
+			"Irus",
+			"Sunpriat"
 		]
 	},
 	"citoid-520-error": "Не удалось получить информацию из предоставленного идентификатора.",
 	"citoid-citation-widget-insert-button": "Вставить",
 	"citoid-citefromiddialog-back": "Назад",
-	"citoid-citefromiddialog-credit": "При поддержке $1",
+	"citoid-citefromiddialog-credit": "Предоставлено $1",
 	"citoid-citefromiddialog-lookup-button": "Сгенерировать",
 	"citoid-citefromiddialog-mode-auto": "Автоматически",
 	"citoid-citefromiddialog-mode-manual": "Вручную",
