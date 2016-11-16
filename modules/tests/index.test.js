@@ -1,4 +1,3 @@
-
 /**
  * Citoid extension unit tests for function
  * ve.ui.CiteFromIdInspector.populateTemplate
@@ -2462,4 +2461,3 @@ QUnit.test( 'Invalid templateData; Object in citation and templateData', 2, func
 	return testMaps( maps, citation, expected, assert );
 
 } );
-
