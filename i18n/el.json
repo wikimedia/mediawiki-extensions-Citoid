@@ -17,7 +17,7 @@
 	"citoid-citefromiddialog-search-progress": "Γίνεται αναζήτηση, παρακαλούμε περιμένετε...",
 	"citoid-citefromiddialog-title": "Προσθέστε μια παραπομπή",
 	"citoid-citefromiddialog-use-general-error-message": "Δεν θα μπορούσαμε να κάνουμε μια παραπομπή για εσάς. Μπορείτε να κάνετε μία χειροκίνητα χρησιμοποιώντας την καρτέλα \"{{int:citoid-citefromiddialog-mode-manual}}\" παραπάνω.",
-	"citoid-citefromidtool-title": "Προσθήκη παραπομπής",
+	"citoid-citefromidtool-title": "Παραπομπή",
 	"citoid-desc": "Παρέχει σημεία πρόσβασης μεταξύ της υπηρεσίας citoid και του MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Μετατροπή",
 	"citoid-referencecontextitem-convert-message": "Η παραπομπή αυτή αποτελείται από ένα εξωτερικό σύνδεσμο. Μπορείτε να χρησιμοποιήσετε το κουμπί \"{{int:citoid-referencecontextitem-convert-button}}\" παρακάτω για να δημιουργήσετε μια σωστά διαμορφωμένη παραπομπή.",
