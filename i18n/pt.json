@@ -24,7 +24,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "Não conseguimos criar a referência. Pode criar uma manualmente ao utilizar a aba \"{{int:citoid-citefromiddialog-mode-manual}}\" acima.",
 	"citoid-citefromidtool-title": "Citar",
 	"citoid-citefromidtool-title-othergroup": "Citação",
-	"citoid-desc": "Fornece pontos de acesso entre o serviço citoid e a MediaWiki",
+	"citoid-desc": "Fornece pontos de acesso entre o serviço citoid e o MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converter",
 	"citoid-referencecontextitem-convert-message": "Esta referência é constituída apenas por uma ligação externa. Pode usar o botão \"{{int:citoid-referencecontextitem-convert-button}}\" abaixo para gerar um formatado correto de referência.",
 	"citoid-unknown-error": "Ocorreu um erro desconhecido que impediu a criação de uma citação. Por favor, tente novamente mais tarde."
