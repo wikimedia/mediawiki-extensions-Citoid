@@ -38,7 +38,6 @@
 			],
 			"dependencies": [
 				"ext.cite.visualEditor",
-				"json",
 				"ext.visualEditor.mediawiki",
 				"mediawiki.api.options",
 				"ext.citoid.visualEditor.data"
