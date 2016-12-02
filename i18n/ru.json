@@ -5,7 +5,8 @@
 			"Дмитрий",
 			"Meshkov.a",
 			"Irus",
-			"Sunpriat"
+			"Sunpriat",
+			"Kaganer"
 		]
 	},
 	"citoid-520-error": "Не удалось получить информацию из предоставленного идентификатора.",
@@ -21,7 +22,7 @@
 	"citoid-citefromiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Идёт поиск, пожалуйста, подождите…",
 	"citoid-citefromiddialog-title": "Добавить ссылку на источник",
-	"citoid-citefromiddialog-use-general-error-message": "Мы не могли сделать цитату для вас. Её можно создать вручную, используя кнопку «{{int:citoid-citefromiddialog-mode-manual}}» во вкладке выше.",
+	"citoid-citefromiddialog-use-general-error-message": "Мы не смогли сформировать для вас цитату. Её можно создать вручную, используя вкладку «{{int:citoid-citefromiddialog-mode-manual}}».",
 	"citoid-citefromidtool-title": "Источник",
 	"citoid-citefromidtool-title-othergroup": "Цитата",
 	"citoid-desc": "Обеспечивает доступ между сервисом citoid и Медиавики",
