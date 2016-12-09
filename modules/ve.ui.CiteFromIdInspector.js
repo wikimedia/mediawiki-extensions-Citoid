@@ -666,7 +666,8 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 
 	return $.when.apply( $, partPromises )
 		.then( function () {
-			var sources = [],
+			var template,
+				sources = [],
 				optionWidgets = [];
 			// Create option widgets
 			for ( i = 0; i < inspector.results.length; i++ ) {
@@ -678,6 +679,11 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 						templateName: inspector.results[ i ].templateName,
 						citeTools: inspector.citeTools
 					} );
+				template = inspector.results[ i ].template;
+				// T92428: Ignore empty templates
+				if ( template.getParameterNames().length === 0 ) {
+					continue;
+				}
 				sources.push( inspector.results[ i ].source ); // source may be undefined or Array of strings
 				optionWidgets.push( refWidget );
 				renderPromises.push( refWidget.getRenderPromise() );
