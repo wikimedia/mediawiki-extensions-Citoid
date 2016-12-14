@@ -16,7 +16,10 @@ ve.ui.CiteFromIdInspector = function VeUiCiteFromIdInspector( config ) {
 	this.citeTools = [];
 	this.templateTypeMap = null;
 	this.lookupPromise = null;
+	this.fullRestbaseUrl = null;
 	this.service = null;
+	this.serviceConfig = null;
+	this.serviceUrl = null;
 	this.inDialog = '';
 	this.currentAutoProcessPanel = null;
 
@@ -103,18 +106,34 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	// Limit the number of tools
 	this.citeTools.splice( limit );
 
-	// API for citoid service
-	this.service = new mw.Api( {
-		ajax: {
-			url: mw.config.get( 'wgCitoidConfig' ).citoidServiceUrl,
-			// Request content language of wiki from citoid service
-			headers: { 'accept-language': mw.config.get( 'wgContentLanguage' ) },
-			dataType: 'json',
-			crossDomain: false, // Support IE9: T134928
-			timeout: 20 * 1000, // 20 seconds
-			type: 'GET'
-		}
-	} );
+	// Restbase URL, also used as Bool to determine whether or not to use Restbase for citoid
+	this.fullRestbaseUrl = mw.config.get( 'wgVisualEditorConfig' ).fullRestbaseUrl;
+
+	// API config for citoid service if VE is using Restbase
+	if ( this.fullRestbaseUrl ) {
+		this.serviceUrl = this.fullRestbaseUrl + 'v1/data/citation/' + ve.ui.CiteFromIdInspector.static.citoidFormat;
+		this.serviceConfig = {
+			ajax: {
+				// Request content language of wiki from citoid service
+				headers: { 'accept-language': mw.config.get( 'wgContentLanguage' ) },
+				crossDomain: false, // Support IE9: T134928
+				timeout: 20 * 1000, // 20 seconds
+				type: 'GET'
+			}
+		};
+	} else {
+		// API for citoid service if not using Restbase; uses citoidServiceURL in extension.json instead
+		this.service = new mw.Api( {
+			ajax: {
+				url: mw.config.get( 'wgCitoidConfig' ).citoidServiceUrl,
+				// Request content language of wiki from citoid service
+				headers: { 'accept-language': mw.config.get( 'wgContentLanguage' ) },
+				crossDomain: false, // Support IE9: T134928
+				timeout: 20 * 1000, // 20 seconds
+				type: 'GET'
+			}
+		} );
+	}
 
 	// Modes
 	this.modeIndex = new OO.ui.IndexLayout( {
@@ -569,12 +588,19 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 	// We have to first set up a get response so we can have
 	// a proper xhr object with "abort" method, so we can
 	// hand off this abort method to the jquery promise
-	xhr = this.service
+
+	if ( this.fullRestbaseUrl ) {
+		// Use restbase endpoint
+		this.serviceConfig.ajax.url = this.serviceUrl + '/' + encodeURIComponent( search );
+		xhr = new mw.Api( this.serviceConfig ).get();
+	} else {
+		// Use standalone citoid service
+		xhr = this.service
 		.get( {
 			search: search,
-			format: ve.ui.CiteFromIdInspector.static.citoidFormat,
-			basefields: 'true' // Request base fields from API i.e. publicationTitle instead of websiteTitle
+			format: ve.ui.CiteFromIdInspector.static.citoidFormat
 		} );
+	}
 
 	this.lookupPromise = xhr
 		.then(

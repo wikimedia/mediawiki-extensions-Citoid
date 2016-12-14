@@ -1,1 +1,3 @@
-Welcome to Citoid! This extension provides dialogs for use in VisualEditor with the citoid service. It is currently rather buggy and shouldn't be used yet. 
+The Citoid extension enables VisualEditor support for the citoid service, which generates citation data given a URL, DOI, PMID, PMCID, or ISBN.
+
+For more, see: https://www.mediawiki.org/wiki/Citoid
