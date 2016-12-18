@@ -7,12 +7,14 @@
 			"Siebrand",
 			"Romaine",
 			"Dedalus",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Mainframe98"
 		]
 	},
 	"citoid-520-error": "Het was niet mogelijk de gegevens van de opgegeven identifier op te halen.",
 	"citoid-citation-widget-insert-button": "Invoegen",
 	"citoid-citefromiddialog-back": "Terug",
+	"citoid-citefromiddialog-credit": "Aangedreven door $1",
 	"citoid-citefromiddialog-lookup-button": "Aanmaken",
 	"citoid-citefromiddialog-mode-auto": "Automatisch",
 	"citoid-citefromiddialog-mode-manual": "Handmatig",
