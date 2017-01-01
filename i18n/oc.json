@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cedric31"
+			"Cedric31",
+			"Nicolas Eynaud"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Inserir",
@@ -12,6 +13,7 @@
 	"citoid-citefromiddialog-mode-reuse": "Reütilizar",
 	"citoid-citefromiddialog-search": "Cercar",
 	"citoid-citefromiddialog-search-label": "URL, DOI o PMID",
+	"citoid-citefromiddialog-title": "Apondre una citacion",
 	"citoid-citefromidtool-title": "Citar",
 	"citoid-citefromidtool-title-othergroup": "Citacion",
 	"citoid-referencecontextitem-convert-button": "Convertir"
