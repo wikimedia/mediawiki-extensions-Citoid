@@ -6,7 +6,8 @@
 			"Meshkov.a",
 			"Irus",
 			"Sunpriat",
-			"Kaganer"
+			"Kaganer",
+			"Mailman"
 		]
 	},
 	"citoid-520-error": "Не удалось получить информацию из предоставленного идентификатора.",
@@ -27,6 +28,6 @@
 	"citoid-citefromidtool-title-othergroup": "Цитата",
 	"citoid-desc": "Обеспечивает доступ между сервисом citoid и Медиавики",
 	"citoid-referencecontextitem-convert-button": "Конвертировать",
-	"citoid-referencecontextitem-convert-message": "Эта ссылка состоит из простой внешней ссылки. Вы можете использовать кнопку «{{int:citoid-referencecontextitem-convert-button}}», чтобы создать правильно сформированную ссылку.",
+	"citoid-referencecontextitem-convert-message": "Это примечание состоит из простой внешней ссылки. Вы можете использовать кнопку «{{int:citoid-referencecontextitem-convert-button}}», чтобы создать правильно сформированное примечание.",
 	"citoid-unknown-error": "Произошла неизвестная ошибка, не позволявшая нам создавать цитату. Пожалуйста, повторите попытку позже."
 }
