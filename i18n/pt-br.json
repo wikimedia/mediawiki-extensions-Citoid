@@ -3,7 +3,8 @@
 		"authors": [
 			"TheEduGobi",
 			"TheGabrielZaum",
-			"Dianakc"
+			"Dianakc",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"citoid-520-error": "Incapaz de recuperar informações do identificador provido.",
@@ -20,6 +21,8 @@
 	"citoid-citefromiddialog-title": "Adicionar uma citação",
 	"citoid-citefromiddialog-use-general-error-message": "Não pudemos criar uma citação para você. Crie uma manualmente usando a aba \"{{int:citoid-citefromiddialog-mode-manual}}\" acima.",
 	"citoid-citefromidtool-title": "Citar",
+	"citoid-citefromidtool-title-othergroup": "Citação",
 	"citoid-desc": "Provê pontos de acesso entre o serviço Citoid e MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Converter",
 	"citoid-unknown-error": "Ocorreu um erro desconhecido que nos impediu de criar uma citação. Tente de novo mais tarde."
 }
