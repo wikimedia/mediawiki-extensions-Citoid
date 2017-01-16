@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jdforrester"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Mewnosod",
+	"citoid-citefromiddialog-back": "Nôl",
+	"citoid-citefromiddialog-credit": "Darparwyd gyda $1",
+	"citoid-citefromiddialog-lookup-button": "Cynhyrchu",
+	"citoid-citefromiddialog-mode-auto": "Awtomatig",
+	"citoid-citefromiddialog-mode-manual": "Wrth law",
+	"citoid-citefromiddialog-mode-reuse": "Ailddefnyddio",
+	"citoid-citefromiddialog-search": "Chwilio",
+	"citoid-citefromiddialog-search-progress": "Wrthi'n chwilio…",
+	"citoid-citefromiddialog-title": "Ychwanegu cyfeirnod",
+	"citoid-citefromidtool-title": "Cyfeirio",
+	"citoid-citefromidtool-title-othergroup": "Cyfeiriad",
+	"citoid-referencecontextitem-convert-button": "Trosi"
+}
