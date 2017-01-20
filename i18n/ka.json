@@ -3,12 +3,14 @@
 		"authors": [
 			"MIKHEIL",
 			"David1010",
-			"BRUTE"
+			"BRUTE",
+			"Silovan"
 		]
 	},
 	"citoid-520-error": "წარმოდგენილი იდენტიფიკატორიდან ინფორმაციის მიღება ვერ მოხერხდა.",
 	"citoid-citation-widget-insert-button": "ჩასმა",
 	"citoid-citefromiddialog-back": "უკან",
+	"citoid-citefromiddialog-credit": "მხარდამჭერი $1",
 	"citoid-citefromiddialog-lookup-button": "გენერატორი",
 	"citoid-citefromiddialog-mode-auto": "ავტომატური",
 	"citoid-citefromiddialog-mode-manual": "ხელით",
