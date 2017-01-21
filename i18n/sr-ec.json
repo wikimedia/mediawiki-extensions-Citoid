@@ -1,17 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Zoranzoki21"
 		]
 	},
+	"citoid-520-error": "Није могуће преузети информације из приложеног идентификатора.",
 	"citoid-citation-widget-insert-button": "Убаци",
 	"citoid-citefromiddialog-back": "Назад",
+	"citoid-citefromiddialog-credit": "Покреће $1",
 	"citoid-citefromiddialog-lookup-button": "Направи",
 	"citoid-citefromiddialog-mode-auto": "Аутоматски",
 	"citoid-citefromiddialog-mode-manual": "Ручно",
 	"citoid-citefromiddialog-mode-reuse": "Поновно коришћење",
 	"citoid-citefromiddialog-search": "Претражи",
+	"citoid-citefromiddialog-search-label": "URL, DOI ili PMID",
 	"citoid-citefromiddialog-search-placeholder": "нпр. http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Претраживање, сачекајте...",
 	"citoid-citefromiddialog-title": "Додавање референце",
 	"citoid-citefromidtool-title": "Референца"
 }
