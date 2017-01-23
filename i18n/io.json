@@ -6,7 +6,15 @@
 	},
 	"citoid-citation-widget-insert-button": "Insertar",
 	"citoid-citefromiddialog-back": "Retroirar",
+	"citoid-citefromiddialog-lookup-button": "Produktar",
+	"citoid-citefromiddialog-mode-auto": "Automata",
+	"citoid-citefromiddialog-mode-manual": "Manuala",
+	"citoid-citefromiddialog-mode-reuse": "Ri-uzo",
 	"citoid-citefromiddialog-search": "Serchar",
+	"citoid-citefromiddialog-search-placeholder": "ex. http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Serchanta, voluntez vartar...",
+	"citoid-citefromiddialog-title": "Adjuntar citajo",
 	"citoid-citefromidtool-title": "Citar",
-	"citoid-citefromidtool-title-othergroup": "Citajo"
+	"citoid-citefromidtool-title-othergroup": "Citajo",
+	"citoid-referencecontextitem-convert-button": "Konvertar"
 }
