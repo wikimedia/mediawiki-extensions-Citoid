@@ -16,5 +16,7 @@
 	"citoid-citefromiddialog-title": "Adjuntar citajo",
 	"citoid-citefromidtool-title": "Citar",
 	"citoid-citefromidtool-title-othergroup": "Citajo",
-	"citoid-referencecontextitem-convert-button": "Konvertar"
+	"citoid-desc": "Provizas aces-punti inter la Citoid-servo e MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Konvertar",
+	"citoid-referencecontextitem-convert-message": "Ica refero konsistas ek nur extera ligilo. Vu povas uzar la butono \"{{int:citoid-referencecontextitem-convert-button}}\" por produktar refero juste formatizita."
 }
