@@ -4,12 +4,15 @@
 			"KuboF",
 			"Kvardek du",
 			"Ochilov",
-			"Psychoslave"
+			"Psychoslave",
+			"NMaia",
+			"Yekrats"
 		]
 	},
 	"citoid-520-error": "Ne eblas rekuperi informon el proviza indentilo.",
 	"citoid-citation-widget-insert-button": "Enmeti",
 	"citoid-citefromiddialog-back": "Reen",
+	"citoid-citefromiddialog-credit": "Funkcias per $1",
 	"citoid-citefromiddialog-lookup-button": "Generi",
 	"citoid-citefromiddialog-mode-auto": "Aŭtomate",
 	"citoid-citefromiddialog-mode-manual": "Permane",
@@ -21,6 +24,7 @@
 	"citoid-citefromiddialog-title": "Aldoni citon",
 	"citoid-citefromiddialog-use-general-error-message": "Ni ne povis krei citaĵon por vi. Vi povas krei la citaĵon permane per la supra langeto \"{{int:citoid-citefromiddialog-mode-manual}}\".",
 	"citoid-citefromidtool-title": "Citado",
+	"citoid-citefromidtool-title-othergroup": "Citaĵo",
 	"citoid-desc": "Provizi alirpunktojn inter la servo Citoid kaj MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Igi",
 	"citoid-referencecontextitem-convert-message": "Ĉi tiu referenco konsistas el nur ekstera ligo. Vi povas uzi la \"{{int:citoid-referencecontextitem-igi-butonon}}\" butonon sube por generi referencon ĝuste formatada.",
