@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mogoeilor"
+		]
+	},
+	"citoid-citation-widget-insert-button": "لاهاڌن",
+	"citoid-citefromiddialog-lookup-button": "راس کردن",
+	"citoid-citefromiddialog-mode-auto": "خود أنجوم",
+	"citoid-citefromiddialog-mode-manual": "دأسدي",
+	"citoid-citefromiddialog-mode-reuse": "ز نۉ ب کار ڤأندن",
+	"citoid-citefromiddialog-search": "پی جۈري",
+	"citoid-citefromiddialog-search-label": "URL, DOI or PMID",
+	"citoid-citefromiddialog-search-placeholder": "هأمچنۈ چي... http://www.example.com",
+	"citoid-citefromidtool-title": "ڤيرجا",
+	"citoid-citefromidtool-title-othergroup": "جاديارکاري"
+}
