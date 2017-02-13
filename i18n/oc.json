@@ -16,5 +16,6 @@
 	"citoid-citefromiddialog-title": "Apondre una referéncia",
 	"citoid-citefromidtool-title": "Citar",
 	"citoid-citefromidtool-title-othergroup": "Citacion",
-	"citoid-referencecontextitem-convert-button": "Convertir"
+	"citoid-referencecontextitem-convert-button": "Convertir",
+	"citoid-unknown-error": "Una error desconeguda s’es produita ; aquò nos a empachat de crear la referéncia. Reensajatz pus tard."
 }
