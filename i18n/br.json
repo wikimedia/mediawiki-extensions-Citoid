@@ -1,12 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Y-M D"
+			"Y-M D",
+			"Fulup"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ensoc'hañ",
 	"citoid-citefromiddialog-back": "Distreiñ",
+	"citoid-citefromiddialog-credit": "O vont en-dro gant $1",
+	"citoid-citefromiddialog-lookup-button": "Genel",
+	"citoid-citefromiddialog-mode-auto": "Emgefre",
+	"citoid-citefromiddialog-mode-manual": "Dre zorn",
+	"citoid-citefromiddialog-mode-reuse": "Adimplijout",
 	"citoid-citefromiddialog-search": "Klask",
+	"citoid-citefromiddialog-search-label": "URL, DOI pe PMID",
+	"citoid-citefromiddialog-search-placeholder": "da sk. http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "O klask, gortoz un tammig mp...",
 	"citoid-citefromiddialog-title": "Ouzhpennañ un arroudenn",
-	"citoid-citefromidtool-title": "Menegiñ"
+	"citoid-citefromidtool-title": "Menegiñ",
+	"citoid-citefromidtool-title-othergroup": "Arroud",
+	"citoid-referencecontextitem-convert-button": "Amdreiñ"
 }
