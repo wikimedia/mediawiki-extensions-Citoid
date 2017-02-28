@@ -218,12 +218,20 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 
 	// Preview fieldset
 	this.previewSelectWidget = new ve.ui.CiteFromIdGroupWidget();
-	this.credit = new OO.ui.Element( {
+	this.autoProcessPanels.result.$element.append( this.previewSelectWidget.$element );
+
+	// Credit field
+	this.credit = null;
+	this.creditZotero = new OO.ui.Element( {
 		tag: 'div',
-		text: OO.ui.deferMsg( 'citoid-citefromiddialog-credit', [ 'Zotero' ] ),
+		text: ve.msg( 'citoid-citefromiddialog-credit', 'Zotero' ),
 		classes: [ 've-ui-citeFromIdInspector-credit' ]
 	} );
-	this.autoProcessPanels.result.$element.append( this.previewSelectWidget.$element );
+	this.creditWorldCat = new OO.ui.Element( {
+		tag: 'div',
+		text: ve.msg( 'citoid-citefromiddialog-credit', 'WorldCat' ),
+		classes: [ 've-ui-citeFromIdInspector-credit' ]
+	} );
 
 	// Manual mode
 	this.sourceSelect = new ve.ui.CiteSourceSelectWidget( {
@@ -717,9 +725,15 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 			if ( optionWidgets.length > 0 ) {
 				// Add citations to the select widget
 				inspector.previewSelectWidget.addItems( optionWidgets );
-				// Add credit item only for result to the widget, currently for Zotero only
-				if ( sources[ 0 ] && ( sources[ 0 ].indexOf( 'Zotero' ) > -1 ) ) {
-					inspector.previewSelectWidget.$element.append( inspector.credit.$element );
+				// Add credit for the first result only to the widget, currently for Zotero & WorldCat only
+				if ( sources[ 0 ] ) {
+					if ( sources[ 0 ].indexOf( 'Zotero' ) !== -1 ) {
+						inspector.credit = inspector.creditZotero; // Set this so it can be removed later
+						inspector.previewSelectWidget.$element.append( inspector.creditZotero.$element );
+					} else if ( sources[ 0 ].indexOf( 'WorldCat' ) !== -1 ) {
+						inspector.credit = inspector.creditWorldCat; // Set this so it can be removed later
+						inspector.previewSelectWidget.$element.append( inspector.creditWorldCat.$element );
+					}
 				}
 				return $.when.apply( $, renderPromises );
 			}
