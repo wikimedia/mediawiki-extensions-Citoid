@@ -520,7 +520,9 @@ ve.ui.CiteFromIdInspector.prototype.getTeardownProcess = function ( data ) {
 			this.sourceSelect.selectItem();
 
 			// Clear credit line
-			this.credit.$element.remove();
+			if ( this.credit ) {
+				this.credit.$element.remove();
+			}
 
 			// Reset
 			if ( this.lookupPromise ) {
