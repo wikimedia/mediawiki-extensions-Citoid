@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Techlik",
-			"Liridon"
+			"Liridon",
+			"Arianit"
 		]
 	},
 	"citoid-520-error": "E pamundur të mirren informacionet prej identifikuesit të ofruar.",
@@ -13,7 +14,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manual",
 	"citoid-citefromiddialog-mode-reuse": "Ri-shfrytëzo",
 	"citoid-citefromiddialog-search": "Kērko",
-	"citoid-citefromiddialog-search-label": "URL apo DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI ose PMID",
 	"citoid-citefromiddialog-search-placeholder": "p.sh. http://www.shembull.com",
 	"citoid-citefromiddialog-search-progress": "Po kërkojmë, ju lutem prisni...",
 	"citoid-citefromiddialog-title": "Shtoni një burim",
