@@ -57,8 +57,9 @@
 
 .ve-ui-citeFromIdInspector-credit {
 	font-size: x-small;
-	text-align: right;
 	color: #888;
+	display: block;
+	text-align: right;
 }
 
 .ve-ui-citeFromIdInspector-dialog-error {
