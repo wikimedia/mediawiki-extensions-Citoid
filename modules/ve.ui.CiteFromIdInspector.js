@@ -221,17 +221,10 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	this.autoProcessPanels.result.$element.append( this.previewSelectWidget.$element );
 
 	// Credit field
-	this.credit = null;
-	this.creditZotero = new OO.ui.Element( {
-		tag: 'div',
-		text: ve.msg( 'citoid-citefromiddialog-credit', 'Zotero' ),
+	this.credit = new OO.ui.LabelWidget( {
 		classes: [ 've-ui-citeFromIdInspector-credit' ]
 	} );
-	this.creditWorldCat = new OO.ui.Element( {
-		tag: 'div',
-		text: ve.msg( 'citoid-citefromiddialog-credit', 'WorldCat' ),
-		classes: [ 've-ui-citeFromIdInspector-credit' ]
-	} );
+	this.previewSelectWidget.$element.append( this.credit.$element );
 
 	// Manual mode
 	this.sourceSelect = new ve.ui.CiteSourceSelectWidget( {
@@ -520,9 +513,7 @@ ve.ui.CiteFromIdInspector.prototype.getTeardownProcess = function ( data ) {
 			this.sourceSelect.selectItem();
 
 			// Clear credit line
-			if ( this.credit ) {
-				this.credit.$element.remove();
-			}
+			this.credit.setLabel( null );
 
 			// Reset
 			if ( this.lookupPromise ) {
@@ -561,7 +552,7 @@ ve.ui.CiteFromIdInspector.prototype.getActionProcess = function ( action ) {
 			// Clear the results
 			this.setModePanel( 'auto', 'lookup' );
 			// Clear credit line
-			this.credit.$element.remove();
+			this.credit.setLabel( null );
 		}, this );
 	}
 	// Fallback to parent handler
@@ -730,12 +721,14 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 				// Add credit for the first result only to the widget, currently for Zotero & WorldCat only
 				if ( sources[ 0 ] ) {
 					if ( sources[ 0 ].indexOf( 'Zotero' ) !== -1 ) {
-						inspector.credit = inspector.creditZotero; // Set this so it can be removed later
-						inspector.previewSelectWidget.$element.append( inspector.creditZotero.$element );
+						inspector.credit.setLabel( ve.msg( 'citoid-citefromiddialog-credit', 'Zotero' ) );
 					} else if ( sources[ 0 ].indexOf( 'WorldCat' ) !== -1 ) {
-						inspector.credit = inspector.creditWorldCat; // Set this so it can be removed later
-						inspector.previewSelectWidget.$element.append( inspector.creditWorldCat.$element );
+						inspector.credit.setLabel( ve.msg( 'citoid-citefromiddialog-credit', 'WorldCat' ) );
+					} else {
+						inspector.credit.setLabel( null );
 					}
+					// Move credit to end
+					inspector.previewSelectWidget.$element.append( inspector.credit.$element );
 				}
 				return $.when.apply( $, renderPromises );
 			}
