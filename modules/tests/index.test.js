@@ -18,8 +18,7 @@ QUnit.module( 'ext.citoid' );
  * @return {Object} a Promise for the transclusion with added template
  */
 function testMaps( maps, citation, expected, assert ) {
-	var serial,
-		data = {
+	var data = {
 			target: {
 				wt: 'Cite web',
 				href: './Template:Cite_web'
@@ -1418,23 +1417,23 @@ function testMaps( maps, citation, expected, assert ) {
 	// Set maps for this test
 	templateData.maps = maps;
 
-	// Add templateData to template
-	template.spec.extend( templateData );
+	// Add templateData to the template cache
+	transclusion.specCache[ template.getTitle() ] = templateData;
 
-	// Test target method
-	ve.ui.CiteFromIdInspector.static.populateTemplate( template, citation );
-	serial = template.serialize().template;
+	// Make sure template can be added to transclusion
+	return transclusion.addPart( template ).then( function () {
+		// Test target method
+		ve.ui.CiteFromIdInspector.static.populateTemplate( template, citation );
 
-	// Make sure serialised template matches expected data
-	assert.deepEqual( serial, expected );
-
-	return assert.ok( transclusion.addPart( template ) ); // Make sure template can be added to transclusion
+		// Make sure serialised template matches expected data
+		assert.deepEqual( template.serialize().template, expected );
+	} );
 
 }
 
 /* Tests */
 
-QUnit.test( 'Create template with using valid templateData', 2, function ( assert ) {
+QUnit.test( 'Create template with using valid templateData', function ( assert ) {
 	var expected = {
 			target: {
 				wt: 'Cite web',
@@ -1515,7 +1514,7 @@ QUnit.test( 'Create template with using valid templateData', 2, function ( asser
 
 } );
 
-QUnit.test( 'Invalid templateData; String (cit) / Array (td) mismatch', 2, function ( assert ) {
+QUnit.test( 'Invalid templateData; String (cit) / Array (td) mismatch', function ( assert ) {
 	// This test mismatches a flat field in the citation data (title) with an Array in the
 	// TemplateData. Expected result is for the field to be skipped in the resulting template,
 	// and for no VE errors to be thrown.
@@ -1596,7 +1595,7 @@ QUnit.test( 'Invalid templateData; String (cit) / Array (td) mismatch', 2, funct
 
 } );
 
-QUnit.test( 'Invalid templateData; String (cit) / 2D Array (td) mismatch', 2, function ( assert ) {
+QUnit.test( 'Invalid templateData; String (cit) / 2D Array (td) mismatch', function ( assert ) {
 	// This test mismatches a flat field in the citation data (title) with a 2D Array in the TemplateData
 	// Expected result is for the field to be skipped in the resulting template, and for no VE
 	// errors to be thrown.
@@ -1677,7 +1676,7 @@ QUnit.test( 'Invalid templateData; String (cit) / 2D Array (td) mismatch', 2, fu
 
 } );
 
-QUnit.test( 'Mismatched templateData; Array (cit) / String (td) mismatch', 2, function ( assert ) {
+QUnit.test( 'Mismatched templateData; Array (cit) / String (td) mismatch', function ( assert ) {
 	// This test mismatches an Array in the citation data (isbn) with a flat field in the TemplateData
 	// Expected result is for the array to be turned into a string with the fields separated by
 	// a comma, and for no VE errors to be thrown.
@@ -1761,7 +1760,7 @@ QUnit.test( 'Mismatched templateData; Array (cit) / String (td) mismatch', 2, fu
 
 } );
 
-QUnit.test( 'Mismatched templateData; Array (cit) / 2D Array (td) mismatch', 2, function ( assert ) {
+QUnit.test( 'Mismatched templateData; Array (cit) / 2D Array (td) mismatch', function ( assert ) {
 	// This test mismatches a Array in the citation data (isbn) with a flat field in the TemplateData
 	// Expected result is for the field to be skipped in the resulting template, and for no VE
 	// errors to be thrown.
@@ -1842,7 +1841,7 @@ QUnit.test( 'Mismatched templateData; Array (cit) / 2D Array (td) mismatch', 2, 
 
 } );
 
-QUnit.test( 'Mismatched templateData; 2D Array (cit) / Array (td) mismatch', 2, function ( assert ) {
+QUnit.test( 'Mismatched templateData; 2D Array (cit) / Array (td) mismatch', function ( assert ) {
 	// This test mismatches a 2D Array in the citation data (author) with a 1D array in the
 	// TemplateData. Expected result is for the inner fields to be concatenated with a space divider,
 	// and for no VE errors to be thrown.
@@ -1914,7 +1913,7 @@ QUnit.test( 'Mismatched templateData; 2D Array (cit) / Array (td) mismatch', 2, 
 
 } );
 
-QUnit.test( 'Mismatched templateData; 2D Array (cit) / String (td) mismatch', 2, function ( assert ) {
+QUnit.test( 'Mismatched templateData; 2D Array (cit) / String (td) mismatch', function ( assert ) {
 	// This test mismatches a 2D Array in the citation data (author) with a flat field in the TemplateData
 	// Expected result is for the fields to be concatenated, with the inner fields separated with a space,
 	// and the outer fields to be separated by a comma.
@@ -1981,7 +1980,7 @@ QUnit.test( 'Mismatched templateData; 2D Array (cit) / String (td) mismatch', 2,
 
 } );
 
-QUnit.test( 'Unbalanced templateData; mixed String and Array', 2, function ( assert ) {
+QUnit.test( 'Unbalanced templateData; mixed String and Array', function ( assert ) {
 	var expected = {
 			target: {
 				wt: 'Cite web',
@@ -2053,7 +2052,7 @@ QUnit.test( 'Unbalanced templateData; mixed String and Array', 2, function ( ass
 
 } );
 
-QUnit.test( 'Unbalanced templateData; jagged Array', 2, function ( assert ) {
+QUnit.test( 'Unbalanced templateData; jagged Array', function ( assert ) {
 	var expected = {
 			target: {
 				wt: 'Cite web',
@@ -2125,7 +2124,7 @@ QUnit.test( 'Unbalanced templateData; jagged Array', 2, function ( assert ) {
 
 } );
 
-QUnit.test( 'Unbalanced citation; mixed String and Array', 2, function ( assert ) {
+QUnit.test( 'Unbalanced citation; mixed String and Array', function ( assert ) {
 	var expected = {
 			target: {
 				wt: 'Cite web',
@@ -2193,7 +2192,7 @@ QUnit.test( 'Unbalanced citation; mixed String and Array', 2, function ( assert 
 
 } );
 
-QUnit.test( 'Empty strings in citation; Flat parameter', 2, function ( assert ) {
+QUnit.test( 'Empty strings in citation; Flat parameter', function ( assert ) {
 	// Test should not add parameters where the citation value is an empty string
 	var expected = {
 			target: {
@@ -2247,7 +2246,7 @@ QUnit.test( 'Empty strings in citation; Flat parameter', 2, function ( assert ) 
 
 } );
 
-QUnit.test( 'Empty strings in citation; 1D Array', 2, function ( assert ) {
+QUnit.test( 'Empty strings in citation; 1D Array', function ( assert ) {
 	// Test should not add parameters where the citation value is an empty string
 	var expected = {
 			target: {
@@ -2313,7 +2312,7 @@ QUnit.test( 'Empty strings in citation; 1D Array', 2, function ( assert ) {
 
 } );
 
-QUnit.test( 'Empty strings in citation; 2D Array', 2, function ( assert ) {
+QUnit.test( 'Empty strings in citation; 2D Array', function ( assert ) {
 	// Test should not add parameters where the citation value is an empty string
 	// Empty strings are expected in the authors field occasionally from citoid
 	var expected = {
@@ -2387,7 +2386,7 @@ QUnit.test( 'Empty strings in citation; 2D Array', 2, function ( assert ) {
 
 } );
 
-QUnit.test( 'Invalid templateData; Object in citation and templateData', 2, function ( assert ) {
+QUnit.test( 'Invalid templateData; Object in citation and templateData', function ( assert ) {
 	// This test mismatches a flat field in the citation data with an Object in the TemplateData
 	// (title).
 
