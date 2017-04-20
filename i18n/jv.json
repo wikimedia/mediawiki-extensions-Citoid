@@ -19,11 +19,11 @@
 	"citoid-citefromiddialog-search-placeholder": "conto http://www.conto.com",
 	"citoid-citefromiddialog-search-progress": "Tembé nggolèki, mangga ngentèni...",
 	"citoid-citefromiddialog-title": "Tambah sitiran",
-	"citoid-citefromiddialog-use-general-error-message": "Awak dhéwé ora bisa nggawékaké sampéyan sitasi. Sampéyan bisa nggawé dhéwé kanthi manuwal nganggo tab \"{{int:citoid-citefromiddialog-mode-manual}}\" ing dhuwur.",
+	"citoid-citefromiddialog-use-general-error-message": "Awak dhéwé ora bisa nggawékaké panjenengan sitiran. Panjenengan bisa nggawé dhéwé manual nganggo tab \"{{int:citoid-citefromiddialog-mode-manual}}\" ing dhuwur.",
 	"citoid-citefromidtool-title": "Sitir",
 	"citoid-citefromidtool-title-othergroup": "Sitiran",
 	"citoid-desc": "Nyepakaké titik aksès antara paladèn sitiran lan MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Salin",
-	"citoid-referencecontextitem-convert-message": "Rujukan iki dumadi mung pranala njaba siji. Sampéyan bisa nganggo \"{{int:citoid-referencecontextitem-convert-button}}\" ngisor iki kanggo ngasilaké rujukan mawa format sing mèmper.",
+	"citoid-referencecontextitem-convert-message": "Rujukan iki dumadi mung pranala njaba siji. Panjenengan bisa nganggo \"{{int:citoid-referencecontextitem-convert-button}}\" ngisor iki kanggo ngasilaké rujukan mawa format sing mungguh.",
 	"citoid-unknown-error": "Ana cacad sing ora kaweruhan sing ngalangi awak dhéwé nggawé sitiran. Mangga jajal manèh mengko."
 }
