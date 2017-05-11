@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Muhammad Shuaib",
-			"امین اکبر"
+			"امین اکبر",
+			"Obaid Raza"
 		]
 	},
 	"citoid-citation-widget-insert-button": "درج کریں",
@@ -12,7 +13,7 @@
 	"citoid-citefromiddialog-mode-manual": "دستی",
 	"citoid-citefromiddialog-mode-reuse": "دوبارہ استعمال",
 	"citoid-citefromiddialog-search": "تلاش",
-	"citoid-citefromiddialog-search-label": "URL اور DOI",
+	"citoid-citefromiddialog-search-label": "یو آر ایل، ڈی او آئی، آئی ایس بی این یا پی ایم سی/پی ایم آئی ڈی",
 	"citoid-citefromiddialog-search-placeholder": "مثلا http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "تلاش جاری ہے، براہ کرم انتظار کریں...",
 	"citoid-citefromiddialog-title": "حوالہ درج کریں",

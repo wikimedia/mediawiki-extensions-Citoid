@@ -2,21 +2,24 @@
 	"@metadata": {
 		"authors": [
 			"Naudefj",
-			"Neil P. Quinn"
+			"Neil P. Quinn",
+			"Fwolff"
 		]
 	},
-	"citoid-citation-widget-insert-button": "Invoeg",
+	"citoid-citation-widget-insert-button": "Voeg in",
 	"citoid-citefromiddialog-back": "Terug",
-	"citoid-citefromiddialog-lookup-button": "Soek",
+	"citoid-citefromiddialog-lookup-button": "Maak",
 	"citoid-citefromiddialog-mode-auto": "Outomaties",
-	"citoid-citefromiddialog-mode-manual": "Per hand",
+	"citoid-citefromiddialog-mode-manual": "Handmatig",
 	"citoid-citefromiddialog-mode-reuse": "Hergebruik",
 	"citoid-citefromiddialog-search": "Soek",
-	"citoid-citefromiddialog-search-label": "URL of DOI",
-	"citoid-citefromiddialog-search-placeholder": "b.v. http://www.voorbeeld.com",
-	"citoid-citefromiddialog-search-progress": "Besig om te soek, wag asseblief...",
+	"citoid-citefromiddialog-search-label": "URL, DOI of PMID",
+	"citoid-citefromiddialog-search-placeholder": "bv. http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Soek tans, wag asseblief...",
 	"citoid-citefromiddialog-title": "Voeg 'n verwysing by",
-	"citoid-citefromiddialog-use-general-error-message": "Ons kon nie 'n verwysing maak nie. Jy kan self een skep met die \"{{int:citoid-citefromiddialog-mode-manual}}\" \"tab\" hierbo.",
-	"citoid-citefromidtool-title": "Aanhaal",
-	"citoid-desc": "Verskaf toegangs punte tussen die \"citoid\" diens en MediaWiki"
+	"citoid-citefromiddialog-use-general-error-message": "Ons kon nie die verwysing maak nie. Skep gerus een self met die \"{{int:citoid-citefromiddialog-mode-manual}}\"-oortjie hierbo.",
+	"citoid-citefromidtool-title": "Haal aan",
+	"citoid-citefromidtool-title-othergroup": "Aanhaling",
+	"citoid-desc": "Verskaf toegangspunte tussen die \"citoid\"-diens en MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Skakel om"
 }
