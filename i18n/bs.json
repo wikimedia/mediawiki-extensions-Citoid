@@ -15,7 +15,7 @@
 	"citoid-citefromiddialog-mode-manual": "Ručno",
 	"citoid-citefromiddialog-mode-reuse": "Ponovo upotrijebi",
 	"citoid-citefromiddialog-search": "Traži",
-	"citoid-citefromiddialog-search-label": "URL, DOI ili PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN ili PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "npr. http://www.primjer.com",
 	"citoid-citefromiddialog-search-progress": "Traženje, molimo sačekajte...",
 	"citoid-citefromiddialog-title": "Dodaj referencu",

@@ -17,7 +17,7 @@
 	"citoid-citefromiddialog-mode-manual": "मैन्युअल",
 	"citoid-citefromiddialog-mode-reuse": "पुन: उपयोग",
 	"citoid-citefromiddialog-search": "खोजें",
-	"citoid-citefromiddialog-search-label": "यूआरएल, डीओआई या पीएमआईडी",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN या PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "उदाहरण http://www.example.com",
 	"citoid-citefromiddialog-search-progress": " ढूंढ़ रहे हैं, कृपया प्रतीक्षा करें...",
 	"citoid-citefromiddialog-title": "एक उद्धरण जोड़ें",

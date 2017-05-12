@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Minisarm"
+			"Minisarm",
+			"Matrafox"
 		]
 	},
 	"citoid-520-error": "Imposibil de obținut informații de la identificatorul furnizat.",
@@ -12,7 +13,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manual",
 	"citoid-citefromiddialog-mode-reuse": "Refolosire",
 	"citoid-citefromiddialog-search": "Caută",
-	"citoid-citefromiddialog-search-label": "URL, DOI sau PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN sau PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "de ex.: http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Se caută, așteptați...",
 	"citoid-citefromiddialog-title": "Adăugare referință",

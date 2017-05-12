@@ -16,7 +16,7 @@
 	"citoid-citefromiddialog-mode-manual": "手动",
 	"citoid-citefromiddialog-mode-reuse": "复用",
 	"citoid-citefromiddialog-search": "搜索",
-	"citoid-citefromiddialog-search-label": "URL、DOI或PMID",
+	"citoid-citefromiddialog-search-label": "URL、DOI、ISBN或PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "例如http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "搜索中，请稍候…",
 	"citoid-citefromiddialog-title": "添加一个引用",

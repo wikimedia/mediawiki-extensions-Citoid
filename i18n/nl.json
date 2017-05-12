@@ -20,7 +20,7 @@
 	"citoid-citefromiddialog-mode-manual": "Handmatig",
 	"citoid-citefromiddialog-mode-reuse": "Hergebruiken",
 	"citoid-citefromiddialog-search": "Zoeken",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBNof PMC/PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN of PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "bijvoorbeeld http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Bezig met zoeken. Een moment geduld...",
 	"citoid-citefromiddialog-title": "Citaat toevoegen",
