@@ -15,7 +15,7 @@ class CitoidDataModule extends ResourceLoaderModule {
 	/* Protected Members */
 
 	protected $origin = self::ORIGIN_USER_SITEWIDE;
-	protected $targets = array( 'desktop', 'mobile' );
+	protected $targets = [ 'desktop', 'mobile' ];
 
 	/* Methods */
 
@@ -31,12 +31,11 @@ class CitoidDataModule extends ResourceLoaderModule {
 		) . ');';
 	}
 
-
 	public function getDependencies( ResourceLoaderContext $context = null ) {
-		return array(
+		return [
 			'ext.visualEditor.base',
 			'ext.visualEditor.mediawiki',
-		);
+		];
 	}
 
 	public function enableModuleContentVersion() {

@@ -14,9 +14,9 @@ class CitoidHooks {
 	public static function onResourceLoaderGetConfigVars( array &$vars ) {
 		global $wgCitoidServiceUrl;
 
-		$vars['wgCitoidConfig'] = array(
+		$vars['wgCitoidConfig'] = [
 			'citoidServiceUrl' => $wgCitoidServiceUrl
-		);
+		];
 
 		return true;
 	}
@@ -32,25 +32,25 @@ class CitoidHooks {
 			isset( $resourceModules[ 'ext.visualEditor.mediawiki' ] ) ||
 			$resourceLoader->isModuleRegistered( 'ext.visualEditor.mediawiki' )
 		) {
-			$testModules['qunit']['ext.citoid.tests'] = array(
-				'scripts' => array(
+			$testModules['qunit']['ext.citoid.tests'] = [
+				'scripts' => [
 					'modules/tests/index.test.js'
-					),
-				'dependencies' => array(
+				],
+				'dependencies' => [
 					'ext.citoid.visualEditor',
-				),
+				],
 				'localBasePath' => __DIR__,
 				'remoteExtPath' => 'Citoid',
-			);
+			];
 		}
 
 		return true;
 	}
 
 	public static function onGetPreferences( User $user, array &$preferences ) {
-		$preferences['citoid-mode'] = array(
+		$preferences['citoid-mode'] = [
 			'type' => 'api'
-		);
+		];
 		return true;
 	}
 }
