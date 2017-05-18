@@ -4,7 +4,8 @@
 			"Aktron",
 			"Mormegil",
 			"Matěj Suchánek",
-			"Dvorapa"
+			"Dvorapa",
+			"Vojtěch Dostál"
 		]
 	},
 	"citoid-520-error": "Ze zadaného identifikátoru se nepodařilo získat informace.",
@@ -16,7 +17,7 @@
 	"citoid-citefromiddialog-mode-manual": "Ručně",
 	"citoid-citefromiddialog-mode-reuse": "Použít existující",
 	"citoid-citefromiddialog-search": "Hledat",
-	"citoid-citefromiddialog-search-label": "URL, DOI nebo PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN nebo PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "např. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Vyhledávání, prosím vyčkejte...",
 	"citoid-citefromiddialog-title": "Přidat citaci",

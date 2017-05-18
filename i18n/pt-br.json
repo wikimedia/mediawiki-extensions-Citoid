@@ -4,12 +4,14 @@
 			"TheEduGobi",
 			"TheGabrielZaum",
 			"Dianakc",
-			"Eduardo Addad de Oliveira"
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
 		]
 	},
 	"citoid-520-error": "Incapaz de recuperar informações do identificador provido.",
 	"citoid-citation-widget-insert-button": "Inserir",
 	"citoid-citefromiddialog-back": "Voltar",
+	"citoid-citefromiddialog-credit": "Powered by $1",
 	"citoid-citefromiddialog-lookup-button": "Gerar",
 	"citoid-citefromiddialog-mode-auto": "Automático",
 	"citoid-citefromiddialog-mode-manual": "Manual",
