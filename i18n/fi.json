@@ -16,7 +16,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manuaalinen",
 	"citoid-citefromiddialog-mode-reuse": "Uudelleenkäyttö",
 	"citoid-citefromiddialog-search": "Hae",
-	"citoid-citefromiddialog-search-label": "URL, DOI tai PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN tai PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "esim. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Haetaan, pieni hetki...",
 	"citoid-citefromiddialog-title": "Lisää viittaus",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Geraki"
+			"Geraki",
+			"Amire80"
 		]
 	},
 	"citoid-520-error": "Δεν είναι δυνατή η ανάκτηση πληροφοριών από το παρεχόμενο αναγνωριστικό.",
@@ -13,7 +14,7 @@
 	"citoid-citefromiddialog-mode-manual": "Χειροκίνητα",
 	"citoid-citefromiddialog-mode-reuse": "Επαναχρησιμοποίηση",
 	"citoid-citefromiddialog-search": "Αναζήτηση",
-	"citoid-citefromiddialog-search-label": "URL, DOI ή PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN ή PMID",
 	"citoid-citefromiddialog-search-placeholder": "π.χ. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Γίνεται αναζήτηση, παρακαλούμε περιμένετε...",
 	"citoid-citefromiddialog-title": "Προσθέστε μια παραπομπή",
