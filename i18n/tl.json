@@ -4,7 +4,8 @@
 			"Stranger195",
 			"Jewel457",
 			"Sky Harbor",
-			"Emem.calist"
+			"Emem.calist",
+			"Leeheonjin"
 		]
 	},
 	"citoid-520-error": "Hindi mahugot ang impormasyon mula sa binaggit na identifier.",
@@ -16,7 +17,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manwal",
 	"citoid-citefromiddialog-mode-reuse": "Gamiting muli",
 	"citoid-citefromiddialog-search": "Hanapin",
-	"citoid-citefromiddialog-search-label": "URL o DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN o PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "Hal. http://www.halimbawa.com",
 	"citoid-citefromiddialog-search-progress": "Naghahanap, pakihintay lamang...",
 	"citoid-citefromiddialog-title": "Magdagdag ng isang sitasyon",
