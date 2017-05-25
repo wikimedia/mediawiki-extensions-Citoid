@@ -6,7 +6,8 @@
 			"Captantrips",
 			"Stultiwikia",
 			"Arystanbek",
-			"McAang"
+			"McAang",
+			"Bulgu"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ekle",
@@ -16,7 +17,7 @@
 	"citoid-citefromiddialog-mode-manual": "Kılavuz",
 	"citoid-citefromiddialog-mode-reuse": "Tekrar kullan",
 	"citoid-citefromiddialog-search": "Ara",
-	"citoid-citefromiddialog-search-label": "URL, DOI  ya da PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN  ya da PMID",
 	"citoid-citefromiddialog-search-placeholder": "örneğin http://www.ornek.com.tr",
 	"citoid-citefromiddialog-search-progress": "Aranıyor, lütfen bekleyin...",
 	"citoid-citefromiddialog-title": "Alıntı Ekle",
