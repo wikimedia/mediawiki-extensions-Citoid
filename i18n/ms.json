@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Muhdnurhidayat"
 		]
 	},
 	"citoid-520-error": "Tidak dapat menerima maklumat daripada pengecam yang disediakan.",
@@ -12,7 +13,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manual",
 	"citoid-citefromiddialog-mode-reuse": "Guna semula",
 	"citoid-citefromiddialog-search": "Cari",
-	"citoid-citefromiddialog-search-label": "URL atau DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN atau PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "cth. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Sedang mencari, sila tunggu...",
 	"citoid-citefromiddialog-title": "Tambah petikan",
