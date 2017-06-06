@@ -332,7 +332,7 @@ ve.ui.CiteFromIdInspector.prototype.onSourceSelectChoose = function ( item ) {
 		manager = this.getManager();
 
 	// Close this dialog then open the new dialog
-	this.close().then( function () {
+	this.close().closed.then( function () {
 		manager.getSurface().execute( 'mwcite', 'open', data.windowName, $.extend( {
 			fragment: fragment
 		}, data.dialogData ) );
