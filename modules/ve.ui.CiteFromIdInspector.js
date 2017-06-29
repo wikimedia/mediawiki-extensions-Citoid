@@ -170,6 +170,9 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		this.modePanels.reuse
 	] );
 
+	this.modeIndex.getTabPanel( 'auto' ).tabItem.setDisabled( !this.templateTypeMap );
+	this.defaultPanel = this.templateTypeMap ? 'auto' : 'manual';
+
 	// Auto mode
 	this.autoProcessStack = new OO.ui.StackLayout( {
 		expanded: false,
@@ -280,10 +283,10 @@ ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( tabPanelName, proc
 	var inspector = this;
 
 	if ( [ 'auto', 'manual', 'reuse' ].indexOf( tabPanelName ) === -1 ) {
-		tabPanelName = 'auto';
-	} else if ( tabPanelName === 'reuse' && this.modeIndex.getTabPanel( 'reuse' ).tabItem.isDisabled() ) {
-		tabPanelName = 'auto';
-	} else if ( tabPanelName !== ( ve.userConfig( 'citoid-mode' ) || 'auto' ) ) {
+		tabPanelName = this.defaultPanel;
+	} else if ( this.modeIndex.getTabPanel( tabPanelName ).tabItem.isDisabled() ) {
+		tabPanelName = this.defaultPanel;
+	} else if ( tabPanelName !== ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel ) ) {
 		ve.userConfig( 'citoid-mode', tabPanelName );
 	}
 
@@ -480,7 +483,7 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 				this.executeAction( 'lookup' );
 			}
 
-			this.modeIndex.setTabPanel( data.lookup ? 'auto' : ( ve.userConfig( 'citoid-mode' ) || 'auto' ) );
+			this.modeIndex.setTabPanel( data.lookup ? this.defaultPanel : ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel ) );
 		}, this );
 };
 
@@ -491,7 +494,7 @@ ve.ui.CiteFromIdInspector.prototype.getReadyProcess = function ( data ) {
 	return ve.ui.CiteFromIdInspector.super.prototype.getReadyProcess.call( this, data )
 		.next( function () {
 			// Set the panel after ready as it focuses the input too
-			var mode = data.lookup ? 'auto' : ( ve.userConfig( 'citoid-mode' ) || 'auto' );
+			var mode = data.lookup ? this.defaultPanel : ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel );
 			this.setModePanel( mode, mode === 'auto' ? 'lookup' : undefined );
 		}, this );
 };
