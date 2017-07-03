@@ -64,9 +64,11 @@ ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
 
 	this.addItems( items );
 
-	$( '<div>' )
-		.addClass( 've-ui-citeSourceSelectWidget-separator' )
-		.insertBefore( this.refBasic.$element );
+	if ( items.length > 1 ) {
+		$( '<div>' )
+			.addClass( 've-ui-citeSourceSelectWidget-separator' )
+			.insertBefore( this.refBasic.$element );
+	}
 
 	// Initialization
 	this.$element.addClass( 've-ui-citeSourceSelectWidget' );
