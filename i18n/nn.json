@@ -4,5 +4,16 @@
 			"Njardarlogar"
 		]
 	},
-	"citoid-citefromiddialog-credit": "Drive av $1"
+	"citoid-520-error": "Klarte ikkje å henta informasjon frå den gjevne identifikatoren.",
+	"citoid-citation-widget-insert-button": "Set inn",
+	"citoid-citefromiddialog-back": "Attende",
+	"citoid-citefromiddialog-credit": "Drive av $1",
+	"citoid-citefromiddialog-lookup-button": "Opprett",
+	"citoid-citefromiddialog-mode-reuse": "Bruk om att",
+	"citoid-citefromiddialog-search-placeholder": "t.d. http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "Søkjer …",
+	"citoid-citefromiddialog-title": "Legg til ei kjelde",
+	"citoid-citefromiddialog-use-general-error-message": "Me klarte ikkje å laga ei kjelde til deg. Du kan laga ei manuelt ved å nytta «{{int:citoid-citefromiddialog-mode-manual}}»-fana over.",
+	"citoid-citefromidtool-title": "Siter",
+	"citoid-citefromidtool-title-othergroup": "Kjelde"
 }
