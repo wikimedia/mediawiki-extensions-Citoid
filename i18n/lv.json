@@ -13,7 +13,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manuāli",
 	"citoid-citefromiddialog-mode-reuse": "Atkārtota izmantošana",
 	"citoid-citefromiddialog-search": "Meklēt",
-	"citoid-citefromiddialog-search-label": "URL, DOI vai PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN vai PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "piemēram, http://www.piemers.com",
 	"citoid-citefromiddialog-search-progress": "Meklē, lūdzu, uzgaidiet...",
 	"citoid-citefromiddialog-title": "Pievienot atsauci",
