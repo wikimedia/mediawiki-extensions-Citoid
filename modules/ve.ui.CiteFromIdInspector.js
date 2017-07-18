@@ -600,10 +600,10 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 	} else {
 		// Use standalone citoid service
 		xhr = this.service
-		.get( {
-			search: search,
-			format: ve.ui.CiteFromIdInspector.static.citoidFormat
-		} );
+			.get( {
+				search: search,
+				format: ve.ui.CiteFromIdInspector.static.citoidFormat
+			} );
 	}
 
 	this.lookupPromise = xhr
