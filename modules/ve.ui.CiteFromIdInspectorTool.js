@@ -64,7 +64,7 @@ ve.ui.sequenceRegistry.register(
 // Unregister Cite's trigger
 ve.ui.triggerRegistry.unregister( 'reference' );
 ve.ui.triggerRegistry.register(
-    'citefromid', { mac: new ve.ui.Trigger( 'cmd+shift+k' ), pc: new ve.ui.Trigger( 'ctrl+shift+k' ) }
+	'citefromid', { mac: new ve.ui.Trigger( 'cmd+shift+k' ), pc: new ve.ui.Trigger( 'ctrl+shift+k' ) }
 );
 
 /* Command help */
