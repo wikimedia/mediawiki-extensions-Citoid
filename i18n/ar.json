@@ -6,7 +6,8 @@
 			"فلورانس",
 			"JoyfulEditing",
 			"Shbib Al-Subaie",
-			"Meno25"
+			"Meno25",
+			"ديفيد"
 		]
 	},
 	"citoid-520-error": "غير قادر على استرجاع المعلومات من المعرف المقدم",
@@ -18,7 +19,7 @@
 	"citoid-citefromiddialog-mode-manual": "يدوي",
 	"citoid-citefromiddialog-mode-reuse": "أعد الاستخدام",
 	"citoid-citefromiddialog-search": "ابحث",
-	"citoid-citefromiddialog-search-label": "URL أو DOI أو PMID",
+	"citoid-citefromiddialog-search-label": "URL أو DOI أو ISBN أو PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "مثال: http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "البحث جار، برجاء الانتظار...",
 	"citoid-citefromiddialog-title": "إضافة استشهاد",
