@@ -20,6 +20,7 @@
 	"citoid-citefromiddialog-title": "Сығанаҡҡа һылтанма ҡуйыу.",
 	"citoid-citefromiddialog-use-general-error-message": "Беҙ һеҙҙең өсөн цитата эшләй алманыҡ. Уны һаҡлағысан өҫтәрәк «{{int:citoid-citefromiddialog-mode-manual}}» кнопканы файҙаланып, ҡулдан эшләргә мөмкин .",
 	"citoid-citefromidtool-title": "Сығанаҡ",
+	"citoid-citefromidtool-title-othergroup": "Цитата",
 	"citoid-desc": " citoid сервисы  һәм Медиавики араһында инеү мөмкинселеген тәьмин итә.",
 	"citoid-referencecontextitem-convert-button": "Формат алмаштырыу",
 	"citoid-referencecontextitem-convert-message": "Был һылтанма ябай эске сығанаҡтарҙан тора. Дөрөҫ һылтанма төҙөү  өсөн, һеҙ ошо «{{int:citoid-referencecontextitem-convert-button}}» кнопканы файҙалана алаһығыҙ.",
