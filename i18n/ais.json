@@ -4,5 +4,9 @@
 			"Bunukwiki"
 		]
 	},
-	"citoid-citefromiddialog-search": "kilim"
+	"citoid-citefromiddialog-back": "tatiku",
+	"citoid-citefromiddialog-lookup-button": "masanga’",
+	"citoid-citefromiddialog-mode-manual": "palima",
+	"citoid-citefromiddialog-search": "kilim",
+	"citoid-referencecontextitem-convert-button": "miliyaw"
 }
