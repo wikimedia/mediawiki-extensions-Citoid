@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bunukwiki"
+			"Bunukwiki",
+			"Benel"
 		]
 	},
 	"citoid-citefromiddialog-back": "tatiku",
 	"citoid-citefromiddialog-lookup-button": "masanga’",
 	"citoid-citefromiddialog-mode-manual": "palima",
+	"citoid-citefromiddialog-mode-reuse": "caliwanaca",
 	"citoid-citefromiddialog-search": "kilim",
 	"citoid-referencecontextitem-convert-button": "miliyaw"
 }
