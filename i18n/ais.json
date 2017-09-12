@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Bunukwiki",
-			"Benel"
+			"Benel",
+			"Tokoabibi"
 		]
 	},
 	"citoid-citefromiddialog-back": "tatiku",
 	"citoid-citefromiddialog-lookup-button": "masanga’",
 	"citoid-citefromiddialog-mode-manual": "palima",
-	"citoid-citefromiddialog-mode-reuse": "caliwanaca",
+	"citoid-citefromiddialog-mode-reuse": "miliyaw pisaungay",
 	"citoid-citefromiddialog-search": "kilim",
 	"citoid-citefromiddialog-title": "micunus nicaliwan",
 	"citoid-referencecontextitem-convert-button": "miliyaw"
