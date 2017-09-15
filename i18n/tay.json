@@ -6,8 +6,13 @@
 			"Hitaypayan"
 		]
 	},
+	"citoid-citation-widget-insert-button": "Shap",
 	"citoid-citefromiddialog-back": "’bzinah",
+	"citoid-citefromiddialog-lookup-button": "Maki’ kya quw",
+	"citoid-citefromiddialog-mode-auto": "Ziroo",
+	"citoid-citefromiddialog-mode-manual": "Szyuwi’ na qba’",
 	"citoid-citefromiddialog-search": "Hhkangi’",
 	"citoid-citefromiddialog-title": "Misan tnwang na ’nagal kkayal",
-	"citoid-citefromidtool-title-othergroup": "’nagal sa"
+	"citoid-citefromidtool-title-othergroup": "’nagal sa",
+	"citoid-referencecontextitem-convert-button": "Iyugun"
 }
