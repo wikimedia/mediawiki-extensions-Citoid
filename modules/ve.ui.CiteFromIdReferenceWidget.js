@@ -43,7 +43,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 	this.insertButton = new OO.ui.ButtonWidget( {
 		label: mw.msg( 'citoid-citation-widget-insert-button' ),
 		classes: [ 've-ui-citeFromIdReferenceWidget-insert-button' ],
-		flags: [ 'constructive', 'primary' ]
+		flags: [ 'progressive', 'primary' ]
 	} );
 
 	// Create the citation preview
