@@ -8,7 +8,7 @@
  */
 ve.ui.CiteFromIdInspector = function VeUiCiteFromIdInspector( config ) {
 	// Parent constructor
-	ve.ui.CiteFromIdInspector.super.call( this, config );
+	ve.ui.CiteFromIdInspector.super.call( this, ve.extendObject( { padded: false }, config ) );
 
 	this.referenceModel = null;
 	this.staging = false;

@@ -2,10 +2,6 @@
  * VisualEditor UserInterface CiteFromId styles.
  */
 
-.ve-ui-citeFromIdInspector-form {
-	margin: 0;
-}
-
 .ve-ui-citeFromIdInspector-search {
 	min-height: 20em;
 }
