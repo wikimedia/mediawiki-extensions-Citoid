@@ -14,6 +14,8 @@
 	"citoid-citefromiddialog-mode-manual": "palima",
 	"citoid-citefromiddialog-mode-reuse": "miliyaw pisaungay",
 	"citoid-citefromiddialog-search": "kilim",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN saca PMC/PMID",
+	"citoid-citefromiddialog-search-placeholder": "tinaku. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "mikilim henay ayza, pihalhalen...",
 	"citoid-citefromiddialog-title": "micunus nicaliwan",
 	"citoid-referencecontextitem-convert-button": "miliyaw",
