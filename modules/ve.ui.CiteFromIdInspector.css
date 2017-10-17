@@ -31,7 +31,8 @@
 	font-weight: bold;
 }
 
-.ve-ui-citeFromIdReferenceWidget .oo-ui-iconElement-icon {
+.ve-ui-citeFromIdReferenceWidget.oo-ui-iconElement > .oo-ui-iconElement-icon {
+	position: static;
 	display: inline-block;
 	margin-right: 0.5em;
 	height: 1.875em;
