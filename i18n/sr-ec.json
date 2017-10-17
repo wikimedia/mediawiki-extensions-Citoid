@@ -19,5 +19,11 @@
 	"citoid-citefromiddialog-search-placeholder": "нпр. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Претраживање, сачекајте...",
 	"citoid-citefromiddialog-title": "Додавање референце",
-	"citoid-citefromidtool-title": "Референца"
+	"citoid-citefromiddialog-use-general-error-message": "Нисмо могли направити референцу за Вас. Можете је направити ручно коришћењем таба „{{int:citoid-citefromiddialog-mode-manual}}” изнад.",
+	"citoid-citefromidtool-title": "Референца",
+	"citoid-citefromidtool-title-othergroup": "Референца",
+	"citoid-desc": "Омогућава приступне тачке између сервиса citoid и Медијавикија",
+	"citoid-referencecontextitem-convert-button": "Конвертуј",
+	"citoid-referencecontextitem-convert-message": "Ова референца се састоји само од спољашње везе. Можете користити дугме „{{int:citoid-referencecontextitem-convert-button}}” испод за генерисање исправно форматиране референце.",
+	"citoid-unknown-error": "Непозната грешка се десила па је стварање референце спречено. Молимо покушајте касније."
 }
