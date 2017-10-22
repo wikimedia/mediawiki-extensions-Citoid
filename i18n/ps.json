@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"Baloch Khan"
 		]
 	},
 	"citoid-citation-widget-insert-button": "ورټومبل",
 	"citoid-citefromiddialog-back": "پر شا کېدل",
 	"citoid-citefromiddialog-lookup-button": "زېږل",
 	"citoid-citefromiddialog-mode-auto": "اتوماتيک",
-	"citoid-citefromiddialog-mode-manual": "لاسي",
+	"citoid-citefromiddialog-mode-manual": "لارښوونيز",
 	"citoid-citefromiddialog-mode-reuse": "بياکارول",
 	"citoid-citefromiddialog-search": "پلټل",
 	"citoid-citefromiddialog-search-label": "URL, DOI يا PMID",
