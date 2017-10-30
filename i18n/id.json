@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kenrick95",
-			"Arief"
+			"Arief",
+			"Gombang"
 		]
 	},
 	"citoid-520-error": "Tidak dapat mengambil informasi dari penyedia pengenal.",
@@ -23,5 +24,6 @@
 	"citoid-citefromidtool-title-othergroup": "Kutipan",
 	"citoid-desc": "Sediakan titik akses antara layanan kutipan dan MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Ubah",
+	"citoid-referencecontextitem-convert-message": "Referensi ini hanya berisi pranala luar. Anda dapat menggunakan tombol \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah untuk membuat referensi yang sudah diformat dengan baik.",
 	"citoid-unknown-error": "Galat yang tidak diketahui menghadang kami membuat kutipan. Silakan coba lagi nanti."
 }
