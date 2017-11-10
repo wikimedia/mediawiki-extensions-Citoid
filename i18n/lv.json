@@ -17,6 +17,9 @@
 	"citoid-citefromiddialog-search-placeholder": "piemēram, http://www.piemers.com",
 	"citoid-citefromiddialog-search-progress": "Meklē, lūdzu, uzgaidiet...",
 	"citoid-citefromiddialog-title": "Pievienot atsauci",
+	"citoid-citefromidtool-title": "Atsauce",
+	"citoid-citefromidtool-title-othergroup": "Atsauce",
 	"citoid-desc": "Nodrošina piekļuves punktus starp citoid pakalpojumu un MediaWiki",
-	"citoid-referencecontextitem-convert-button": "Pārveidot"
+	"citoid-referencecontextitem-convert-button": "Pārveidot",
+	"citoid-referencecontextitem-convert-message": "Šī atsauce sastāv tikai no ārējās saites. Tu vari izmantot \"{{int:citoid-referencecontextitem-convert-button}}\" pogu, lai izveidotu pareizi noformētu atsauci."
 }
