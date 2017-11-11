@@ -3,7 +3,8 @@
 		"authors": [
 			"Milicevic01",
 			"Zoranzoki21",
-			"Obsuser"
+			"Obsuser",
+			"Prevodim"
 		]
 	},
 	"citoid-520-error": "Није могуће преузети информације из приложеног идентификатора.",
@@ -25,5 +26,5 @@
 	"citoid-desc": "Омогућава приступне тачке између сервиса citoid и Медијавикија",
 	"citoid-referencecontextitem-convert-button": "Конвертуј",
 	"citoid-referencecontextitem-convert-message": "Ова референца се састоји само од спољашње везе. Можете користити дугме „{{int:citoid-referencecontextitem-convert-button}}” испод за генерисање исправно форматиране референце.",
-	"citoid-unknown-error": "Непозната грешка се десила па је стварање референце спречено. Молимо покушајте касније."
+	"citoid-unknown-error": "Десила се непозната грешка, па је стварање референце спречено. Молимо покушајте касније."
 }
