@@ -17,6 +17,7 @@
 	"citoid-citefromiddialog-search-placeholder": "piemēram, http://www.piemers.com",
 	"citoid-citefromiddialog-search-progress": "Meklē, lūdzu, uzgaidiet...",
 	"citoid-citefromiddialog-title": "Pievienot atsauci",
+	"citoid-citefromiddialog-use-general-error-message": "Neizdevās atsauci izveidot automātiski. To to vari izdarit manuāli, izmantojot \"{{int:citoid-citefromiddialog-mode-manual}}\" cilni augstāk.",
 	"citoid-citefromidtool-title": "Atsauce",
 	"citoid-citefromidtool-title-othergroup": "Atsauce",
 	"citoid-desc": "Nodrošina piekļuves punktus starp citoid pakalpojumu un MediaWiki",
