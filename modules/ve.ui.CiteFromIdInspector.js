@@ -81,7 +81,6 @@ ve.ui.CiteFromIdInspector.static.citationToolsLimit = 5;
  */
 ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	var lookupActionFieldLayout,
-		lookupFieldset = new OO.ui.FieldsetLayout(),
 		limit = this.constructor.static.citationToolsLimit;
 
 	// Parent method
@@ -192,7 +191,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		} )
 	};
 
-	// Lookup fieldset
+	// Lookup field
 	this.lookupInput = new OO.ui.TextInputWidget( {
 		multiline: false,
 		placeholder: ve.msg( 'citoid-citefromiddialog-search-placeholder' )
@@ -206,16 +205,12 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 		label: ve.msg( 'citoid-citefromiddialog-search-label' )
 	} );
 
-	lookupFieldset.$element.append(
-		lookupActionFieldLayout.$element
-	);
-
 	// Error label
 	this.$noticeLabel = $( '<div>' ).addClass( 've-ui-citeFromIdInspector-dialog-error oo-ui-element-hidden' ).text(
 		ve.msg( 'citoid-citefromiddialog-use-general-error-message' )
 	);
 
-	this.autoProcessPanels.lookup.$element.append( lookupFieldset.$element, this.$noticeLabel );
+	this.autoProcessPanels.lookup.$element.append( lookupActionFieldLayout.$element, this.$noticeLabel );
 
 	this.modePanels.auto.$element.append( this.autoProcessStack.$element );
 
