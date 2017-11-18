@@ -18,7 +18,9 @@
 	"citoid-citefromiddialog-search-placeholder": "tinaku. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "mikilim henay ayza, pihalhalen...",
 	"citoid-citefromiddialog-title": "micunus nicaliwan",
+	"citoid-citefromiddialog-use-general-error-message": "la’cus kami patizeng nicaliwan tu tisuwan. kapah kisu misaungay ipabaway a \"{{int:citoid-citefromiddialog-mode-manual}}\" kasabelih-paya kisu tu ku mipatizengay.",
 	"citoid-desc": "nipabeli i citoid ilaed mietap atu MediaWiki a misuped-miala baniyut",
 	"citoid-referencecontextitem-convert-button": "miliyaw",
+	"citoid-referencecontextitem-convert-message": "tina miazih tu tatenga’ay nasulitan nay hekal masasiket palekal a dada’, kapah kisu pisaungay sasa \"{{int:citoid-referencecontextitem-convert-button}}\" pipenecan amisanga’ matatungusay kese a miazih tu tatenga’ay nasulitan.",
 	"citoid-unknown-error": "izaw caay kapulita mungangaw, patatuzu’ la’cus patizeng nicaliwan. pihalhal sawni pitaneng aca"
 }
