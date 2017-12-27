@@ -26,6 +26,6 @@
 	"citoid-citefromidtool-title-othergroup": "Citação",
 	"citoid-desc": "Fornece pontos de acesso entre o serviço citoid e o MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converter",
-	"citoid-referencecontextitem-convert-message": "Esta referência é constituída apenas por um link externo. Pode usar o botão \"{{int:citoid-referencecontextitem-convert-button}}\" abaixo para gerar uma referência devidamente formatada.",
+	"citoid-referencecontextitem-convert-message": "Esta referência é constituída apenas por uma hiperligação externa. Pode usar o botão \"{{int:citoid-referencecontextitem-convert-button}}\" abaixo para gerar uma referência devidamente formatada.",
 	"citoid-unknown-error": "Ocorreu um erro desconhecido que impediu a criação de uma citação. Por favor, tente novamente mais tarde."
 }
