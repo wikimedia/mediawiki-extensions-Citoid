@@ -4,7 +4,8 @@
 			"Pofka",
 			"Albertas",
 			"Zygimantus",
-			"Eitvys200"
+			"Eitvys200",
+			"Manvydasz"
 		]
 	},
 	"citoid-520-error": "Nepavyksta gauti informacijos iš nurodyto identifikatoriaus.",
@@ -15,7 +16,7 @@
 	"citoid-citefromiddialog-mode-manual": "Instrukcija",
 	"citoid-citefromiddialog-mode-reuse": "Naudoti pakartotinai",
 	"citoid-citefromiddialog-search": "Paieška",
-	"citoid-citefromiddialog-search-label": "URL, DOI arba PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN arba PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "pvz. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Ieškoma, prašome palaukti...",
 	"citoid-citefromiddialog-title": "Pridėti citatą",
