@@ -10,6 +10,8 @@ class CitoidHooks {
 
 	/**
 	 * Adds extra variables to the global config
+	 * @param array &$vars
+	 * @return true
 	 */
 	public static function onResourceLoaderGetConfigVars( array &$vars ) {
 		global $wgCitoidServiceUrl;
@@ -23,6 +25,9 @@ class CitoidHooks {
 
 	/**
 	 * Register qunit unit tests
+	 * @param array &$testModules
+	 * @param ResourceLoader &$resourceLoader
+	 * @return true
 	 */
 	public static function onResourceLoaderTestModules(
 		array &$testModules,
@@ -47,6 +52,11 @@ class CitoidHooks {
 		return true;
 	}
 
+	/**
+	 * @param User $user
+	 * @param array &$preferences
+	 * @return true
+	 */
 	public static function onGetPreferences( User $user, array &$preferences ) {
 		$preferences['citoid-mode'] = [
 			'type' => 'api'

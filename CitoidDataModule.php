@@ -12,13 +12,16 @@
 
 class CitoidDataModule extends ResourceLoaderModule {
 
-	/* Protected Members */
-
+	/** @var string */
 	protected $origin = self::ORIGIN_USER_SITEWIDE;
+
+	/** @var string[] */
 	protected $targets = [ 'desktop', 'mobile' ];
 
-	/* Methods */
-
+	/**
+	 * @param ResourceLoaderContext $context
+	 * @return string
+	 */
 	public function getScript( ResourceLoaderContext $context ) {
 		return 've.init.platform.addMessages(' . FormatJson::encode(
 			[
@@ -31,6 +34,10 @@ class CitoidDataModule extends ResourceLoaderModule {
 		) . ');';
 	}
 
+	/**
+	 * @param ResourceLoaderContext|null $context
+	 * @return string[]
+	 */
 	public function getDependencies( ResourceLoaderContext $context = null ) {
 		return [
 			'ext.visualEditor.base',
@@ -38,6 +45,9 @@ class CitoidDataModule extends ResourceLoaderModule {
 		];
 	}
 
+	/**
+	 * @return bool
+	 */
 	public function enableModuleContentVersion() {
 		return true;
 	}
