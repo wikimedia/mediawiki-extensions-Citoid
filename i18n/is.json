@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Snævar"
+			"Snævar",
+			"Sveinn í Felli"
 		]
 	},
 	"citoid-520-error": "Gat ekki fengið upplýsingar frá tilgreindu kennimerki.",
 	"citoid-citation-widget-insert-button": "Setja inn",
 	"citoid-citefromiddialog-back": "Til baka",
+	"citoid-citefromiddialog-credit": "Keyrt með $1",
 	"citoid-citefromiddialog-lookup-button": "Fletta upp",
 	"citoid-citefromiddialog-search": "Leita",
 	"citoid-citefromiddialog-search-label": "Vefslóð, DOI eða PMID",
