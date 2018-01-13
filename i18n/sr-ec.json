@@ -4,7 +4,8 @@
 			"Milicevic01",
 			"Zoranzoki21",
 			"Obsuser",
-			"Prevodim"
+			"Prevodim",
+			"Acamicamacaraca"
 		]
 	},
 	"citoid-520-error": "Није могуће преузети информације из приложеног идентификатора.",
@@ -15,7 +16,7 @@
 	"citoid-citefromiddialog-mode-auto": "Аутоматски",
 	"citoid-citefromiddialog-mode-manual": "Ручно",
 	"citoid-citefromiddialog-mode-reuse": "Поновно коришћење",
-	"citoid-citefromiddialog-search": "Претражи",
+	"citoid-citefromiddialog-search": "Претрага",
 	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN или PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "нпр. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Претраживање, сачекајте...",
