@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Acamicamacaraca"
+		]
+	},
+	"citoid-520-error": "Nije moguće dohvatiti podatke s navedenog identifikatora.",
+	"citoid-citation-widget-insert-button": "Umetni",
+	"citoid-citefromiddialog-back": "Natrag",
+	"citoid-citefromiddialog-credit": "Pokreće $1",
+	"citoid-citefromiddialog-lookup-button": "Generiraj",
+	"citoid-citefromiddialog-mode-auto": "Automatski",
+	"citoid-citefromiddialog-mode-manual": "Ručno",
+	"citoid-citefromiddialog-mode-reuse": "Ponovno korištenje",
+	"citoid-citefromiddialog-search": "Pretraga",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN ili PMC/PMID",
+	"citoid-citefromiddialog-search-placeholder": "npr. http://www.primjer.com",
+	"citoid-citefromiddialog-search-progress": "Pretraživanje, pričekajte...",
+	"citoid-citefromiddialog-title": "Dodaj citat",
+	"citoid-citefromiddialog-use-general-error-message": "Nismo mogli da vam stvorimo citat. Možete ga stvoriti ručno pomoću kartice \"{{int: citoid-citefromiddialog-mode-manual}}\" iznad.",
+	"citoid-citefromidtool-title": "Citiraj",
+	"citoid-citefromidtool-title-othergroup": "Citat",
+	"citoid-desc": "Pruža pristupne točke između citoid usluge i MediaWikija",
+	"citoid-referencecontextitem-convert-button": "Pretvori",
+	"citoid-referencecontextitem-convert-message": "Ovaj citat se sastoji samo od vanjske veze. U nastavku možete upotrijebiti dugme \"{{int: citoid-referencecontextitem-convert-button}} kako biste generirali pravilno formatiran citat.",
+	"citoid-unknown-error": "Došlo je do nepoznate pogreške koja nam je spriječila stvaranje citata. Molimo pokušajte ponovo kasnije."
+}
