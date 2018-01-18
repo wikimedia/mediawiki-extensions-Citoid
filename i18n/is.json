@@ -11,7 +11,7 @@
 	"citoid-citefromiddialog-credit": "Keyrt með $1",
 	"citoid-citefromiddialog-lookup-button": "Fletta upp",
 	"citoid-citefromiddialog-search": "Leita",
-	"citoid-citefromiddialog-search-label": "Vefslóð, DOI eða PMID",
+	"citoid-citefromiddialog-search-label": "Vefslóð, DOI, ISBN eða PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "t.d. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Leita, vinsamlegast bíddu...",
 	"citoid-citefromiddialog-title": "Bæta við heimild",
