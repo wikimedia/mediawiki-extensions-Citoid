@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Giromin Cangiaxo"
+			"Giromin Cangiaxo",
+			"S4b1nuz E.656"
 		]
 	},
 	"citoid-520-error": "Imposcibbile recuperâ e informaçioin da l'identificatô fornio.",
@@ -15,7 +16,7 @@
 	"citoid-citefromiddialog-search": "Çerca",
 	"citoid-citefromiddialog-search-label": "URL, DOI ò PMID",
 	"citoid-citefromiddialog-search-placeholder": "presempio http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "Riçerca in corso, attendi...",
+	"citoid-citefromiddialog-search-progress": "Riçèrca in córso, attendi...",
 	"citoid-citefromiddialog-title": "Azonzi 'na çitaçion",
 	"citoid-citefromiddialog-use-general-error-message": "No poemo fâ 'na çitaçion pe voî. Ti poeu creâne un-a manoalmente doeuviando a scheda \"{{int:citoid-citefromiddialog-mode-manual}}\".",
 	"citoid-citefromidtool-title": "Çitta",
