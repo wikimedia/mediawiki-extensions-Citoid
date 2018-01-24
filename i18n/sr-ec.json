@@ -12,11 +12,11 @@
 	"citoid-citation-widget-insert-button": "Убаци",
 	"citoid-citefromiddialog-back": "Назад",
 	"citoid-citefromiddialog-credit": "Покреће $1",
-	"citoid-citefromiddialog-lookup-button": "Направи",
+	"citoid-citefromiddialog-lookup-button": "Генериши",
 	"citoid-citefromiddialog-mode-auto": "Аутоматски",
 	"citoid-citefromiddialog-mode-manual": "Ручно",
 	"citoid-citefromiddialog-mode-reuse": "Поновно коришћење",
-	"citoid-citefromiddialog-search": "Претрага",
+	"citoid-citefromiddialog-search": "Претражи",
 	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN или PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "нпр. http://www.пример.com",
 	"citoid-citefromiddialog-search-progress": "Претражујем, сачекајте...",
@@ -24,8 +24,8 @@
 	"citoid-citefromiddialog-use-general-error-message": "Нисам могао направити референцу за Вас. Можете је направити ручно коришћењем картице „{{int:citoid-citefromiddialog-mode-manual}}” изнад.",
 	"citoid-citefromidtool-title": "Цитирај",
 	"citoid-citefromidtool-title-othergroup": "Навођење",
-	"citoid-desc": "Омогућава приступне тачке између citoid сервиса и Медијавикија",
+	"citoid-desc": "Омогућава приступне тачке између Citoid сервиса и Медијавикија",
 	"citoid-referencecontextitem-convert-button": "Конвертуј",
 	"citoid-referencecontextitem-convert-message": "Ова референца се састоји само од спољашње везе. Можете користити дугме „{{int:citoid-referencecontextitem-convert-button}}” испод за прављење исправно форматиране референце.",
-	"citoid-unknown-error": "Десила се непозната грешка, која ме је спречила у прављењу цитата. Покушајте касније."
+	"citoid-unknown-error": "Десила се непозната грешка која ме је спречила у прављењу цитата. Молимо покушајте касније."
 }
