@@ -1,5 +1,6 @@
 ( function () {
-	var i, j, jLen, name, toolClass, toolGroups, citeIndex, target, map;
+	var i, j, jLen, name, toolClass, toolGroups, citeIndex, target, map, requireMappings,
+		missingMappings = [];
 
 	// Don't create tool unless the configuration message is present
 	try {
@@ -10,6 +11,57 @@
 		// Unregister the tool
 		ve.ui.toolFactory.unregister( ve.ui.CiteFromIdInspectorTool );
 		return;
+	}
+
+	requireMappings = [
+		'artwork',
+		'audioRecording',
+		'bill',
+		'blogPost',
+		'book',
+		'bookSection',
+		'case',
+		'computerProgram',
+		'conferencePaper',
+		'dictionaryEntry',
+		'document',
+		'email',
+		'encyclopediaArticle',
+		'film',
+		'forumPost',
+		'hearing',
+		'instantMessage',
+		'interview',
+		'journalArticle',
+		'letter',
+		'magazineArticle',
+		'manuscript',
+		'map',
+		'newspaperArticle',
+		'patent',
+		'podcast',
+		'presentation',
+		'radioBroadcast',
+		'report',
+		'statute',
+		'thesis',
+		'tvBroadcast',
+		'videoRecording',
+		'webpage'
+	];
+
+	// Check map has all required keys
+	for ( i = 0; i < requireMappings.length; i++ ) {
+		if ( !map[ requireMappings[ i ] ] ) {
+			missingMappings.push( requireMappings[ i ] );
+		}
+	}
+
+	if ( missingMappings.length ) {
+		mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingMappings.join( ', ' ) );
+		// TODO: Unregister the tool
+		// ve.ui.toolFactory.unregister( ve.ui.CiteFromIdInspectorTool );
+		// return;
 	}
 
 	// HACK: Find the position of the current citation toolbar definition
