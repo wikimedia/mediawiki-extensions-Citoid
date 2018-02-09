@@ -44,7 +44,7 @@ class CitoidHooks {
 				'dependencies' => [
 					'ext.citoid.visualEditor',
 				],
-				'localBasePath' => __DIR__,
+				'localBasePath' => __DIR__ . '/..',
 				'remoteExtPath' => 'Citoid',
 			];
 		}

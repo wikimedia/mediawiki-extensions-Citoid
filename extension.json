@@ -16,8 +16,8 @@
 		]
 	},
 	"AutoloadClasses": {
-		"CitoidHooks": "Citoid.hooks.php",
-		"CitoidDataModule": "CitoidDataModule.php"
+		"CitoidHooks": "includes/CitoidHooks.php",
+		"CitoidDataModule": "includes/CitoidDataModule.php"
 	},
 	"ResourceModules": {
 		"ext.citoid.visualEditor": {
