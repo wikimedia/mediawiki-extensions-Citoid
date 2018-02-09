@@ -3,10 +3,11 @@
 		"authors": [
 			"Emir Mujadzic",
 			"DzWiki",
-			"Srdjan m"
+			"Srdjan m",
+			"Acamicamacaraca"
 		]
 	},
-	"citoid-520-error": "Nije moguće dobiti informacije od pruženog identifikatora.",
+	"citoid-520-error": "Nije moguće dobiti informacije iz pruženog identifikatora.",
 	"citoid-citation-widget-insert-button": "Umetni",
 	"citoid-citefromiddialog-back": "Nazad",
 	"citoid-citefromiddialog-credit": "Pokreće $1",
@@ -16,14 +17,14 @@
 	"citoid-citefromiddialog-mode-reuse": "Ponovo upotrijebi",
 	"citoid-citefromiddialog-search": "Traži",
 	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN ili PMC/PMID",
-	"citoid-citefromiddialog-search-placeholder": "npr. http://www.primjer.com",
+	"citoid-citefromiddialog-search-placeholder": "npr. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Traženje, molimo sačekajte...",
 	"citoid-citefromiddialog-title": "Dodaj referencu",
-	"citoid-citefromiddialog-use-general-error-message": "Nismo mogli napraviti referencu za Vas. Možete je napraviti ručno kliknom iznad na karticu \"{{int:citoid-citefromiddialog-mode-manual}}\".",
+	"citoid-citefromiddialog-use-general-error-message": "Nismo mogli napraviti referencu za Vas. Možete je napraviti ručno korišćenjem kartice \"{{int:citoid-citefromiddialog-mode-manual}}\" iznad.",
 	"citoid-citefromidtool-title": "Referenca",
 	"citoid-citefromidtool-title-othergroup": "Referenca",
 	"citoid-desc": "Pruža tačke pristupa između usluge citoid i MediaWikija",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
 	"citoid-referencecontextitem-convert-message": "Ova referenca se sastoji samo od vanjskog linka. Možete je pretvoriti u pravilno formatiranu referencu klikom na dugme \"{{int:citoid-referencecontextitem-convert-button}}\".",
-	"citoid-unknown-error": "Dogodila se nepoznata greška koja nas je spriječila da Vam stvorimo referencu. Molimo pokušajte kasnije."
+	"citoid-unknown-error": "Dogodila se nepoznata greška koja nas je spriječila da stvorimo referencu. Molimo pokušajte kasnije."
 }
