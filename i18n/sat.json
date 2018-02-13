@@ -4,7 +4,15 @@
 			"Ramjit Tudu"
 		]
 	},
+	"citoid-citation-widget-insert-button": "ᱟᱫᱮᱨ",
+	"citoid-citefromiddialog-back": "ᱯᱟᱹᱪᱷᱞᱟᱹ",
+	"citoid-citefromiddialog-lookup-button": "ᱛᱮᱭᱟᱨ",
+	"citoid-citefromiddialog-mode-auto": "ᱟᱡᱛᱮ",
+	"citoid-citefromiddialog-mode-manual": "ᱟᱢᱛᱮ",
+	"citoid-citefromiddialog-mode-reuse": "ᱵᱮᱵᱷᱟᱨ ᱨᱩᱣᱟᱹᱲ",
 	"citoid-citefromiddialog-search": "ᱯᱟᱱᱛᱮ",
 	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN or PMC/PMID",
-	"citoid-citefromiddialog-search-progress": "ᱥᱮᱸᱫᱽᱨᱟᱜ ᱠᱟᱱᱟ, ᱛᱟᱺᱜᱤ ᱢᱮ ..."
+	"citoid-citefromiddialog-search-placeholder": "ᱡᱮᱞᱮᱠᱟ http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "ᱥᱮᱸᱫᱽᱨᱟᱜ ᱠᱟᱱᱟ, ᱛᱟᱺᱜᱤ ᱢᱮ ...",
+	"citoid-referencecontextitem-convert-button": "ᱵᱚᱫᱚᱞ"
 }
