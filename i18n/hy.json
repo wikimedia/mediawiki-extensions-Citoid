@@ -19,7 +19,7 @@
 	"citoid-citefromiddialog-search-progress": "Որոնում, սպասեք, խնդրում եմ...",
 	"citoid-citefromiddialog-title": "Ավելացնել մեջբերում",
 	"citoid-citefromiddialog-use-general-error-message": "Մենք չկարողացանք մեջբերում ավելացնել: Կարող ես դա անել ինքնուրույն` օգտվելով «{{int:citoid-citefromiddialog-mode-manual}}» բաժնից:",
-	"citoid-citefromidtool-title": "Քաղվածել",
+	"citoid-citefromidtool-title": "Աղբյուր",
 	"citoid-desc": "Կապ է հաստատում ծանոթագրության և ՄեդիաՎիքիի միջև:",
 	"citoid-referencecontextitem-convert-button": "Փոխարկել",
 	"citoid-referencecontextitem-convert-message": "Ծանոթագրությունը միայն արտաքին հղում է։ Դուք կարող եք օգտագործել {{int:citoid-referencecontextitem-convert-button}} կոճակը՝ ճիշտ ձևավորված ծանոթագրություն ստանալու համար։",
