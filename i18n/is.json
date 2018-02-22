@@ -10,6 +10,9 @@
 	"citoid-citefromiddialog-back": "Til baka",
 	"citoid-citefromiddialog-credit": "Keyrt með $1",
 	"citoid-citefromiddialog-lookup-button": "Fletta upp",
+	"citoid-citefromiddialog-mode-auto": "Sjálfvirkt",
+	"citoid-citefromiddialog-mode-manual": "Handvirkt",
+	"citoid-citefromiddialog-mode-reuse": "Endurnota",
 	"citoid-citefromiddialog-search": "Leita",
 	"citoid-citefromiddialog-search-label": "Vefslóð, DOI, ISBN eða PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "t.d. http://www.example.com",
@@ -17,6 +20,8 @@
 	"citoid-citefromiddialog-title": "Bæta við heimild",
 	"citoid-citefromiddialog-use-general-error-message": "Við gátum ekki búið til heimild fyrir þig. Þú getur búið hana til handvirkt með því að nota „{{int:citoid-citefromiddialog-mode-manual}}“ flipann hér fyrir ofan.",
 	"citoid-citefromidtool-title": "Heimild",
+	"citoid-citefromidtool-title-othergroup": "Tilvísun",
 	"citoid-desc": "Veitir aðgang á milli citoid þjónustunnar og MediaWiki.",
+	"citoid-referencecontextitem-convert-button": "Umbreyta",
 	"citoid-unknown-error": "Óþekkt villa átti sér stað sem kom í veg fyrir að heimildin væri búin til. Vinsamlegast reyndu aftur síðar."
 }

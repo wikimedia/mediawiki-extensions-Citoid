@@ -3,13 +3,14 @@
 		"authors": [
 			"NehalDaveND",
 			"V.narsikar",
-			"Sureshkhole"
+			"Sureshkhole",
+			"Pushkar Ekbote"
 		]
 	},
 	"citoid-520-error": "आपण पुरवीलेल्या अभिज्ञापकावरून माहिती घेणे शक्य नाहीये.",
 	"citoid-citation-widget-insert-button": "समाविष्ट करा",
 	"citoid-citefromiddialog-back": "परत जा",
-	"citoid-citefromiddialog-credit": "$1 द्वारे ऊर्जीकृत",
+	"citoid-citefromiddialog-credit": "$1 द्वारे प्रायोजित",
 	"citoid-citefromiddialog-lookup-button": "निर्माण करा",
 	"citoid-citefromiddialog-mode-auto": "स्वयंचलित",
 	"citoid-citefromiddialog-mode-manual": "मानवीकृत",
@@ -22,7 +23,7 @@
 	"citoid-citefromiddialog-use-general-error-message": "आम्ही आपल्यासाठी अवतरण तयार करु शकलो नाही. आपण स्वतः तो  \"{{int:citoid-citefromiddialog-mode-manual}}\" ही वर असलेली कळ वापरुन, तयार करु शकता.",
 	"citoid-citefromidtool-title": "उधृत करा",
 	"citoid-citefromidtool-title-othergroup": "अवतरण",
-	"citoid-desc": "येथून सायटोईड सेवा आणि मिडीयाविकीत प्रवेश दिला जातो",
+	"citoid-desc": "येथून सायटाॅईड सेवा आणि मिडीयाविकीत प्रवेश दिला जातो",
 	"citoid-referencecontextitem-convert-button": "रुपांतर करा",
 	"citoid-referencecontextitem-convert-message": "या संदर्भात फक्त एक बाह्य दुवा आहे.आपण खाली असलेली \"{{int:citoid-referencecontextitem-convert-button}}\" ही कळ वापरुन योग्य प्रारुपित संदर्भ तयार करु शकता.",
 	"citoid-unknown-error": "एक अनोळखी त्रुटी घडली ज्याने आम्हास अवतरण तयार करण्यापासून थांबवले. नंतर पुन्हा प्रयत्न करा."

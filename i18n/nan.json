@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Luuva"
+			"Luuva",
+			"Yoxem"
 		]
 	},
 	"citoid-520-error": "Bô hoat-tō͘ tùi só͘ thê-kiong ê sek-pia̍t-chú chhiau tio̍h sìn-sit.",
@@ -16,7 +17,7 @@
 	"citoid-citefromiddialog-search-placeholder": "pí-lūn",
 	"citoid-citefromiddialog-search-progress": "Tng teh chhōe, chhiáⁿ sió tán...",
 	"citoid-citefromiddialog-title": "Ka-thiam 1-ê í-iōng",
-	"citoid-citefromiddialog-use-general-error-message": "Goán bô hoat-tō͘ thè lí kiàn-li̍p ín-iōng. Lí ē-tàng lī-ēng téng-bīn ê \"{{int:citoid-citefromiddialog-mode-manual}}\" tab lâi ka-tī kiàn-li̍p 1-ê",
+	"citoid-citefromiddialog-use-general-error-message": "Goán bô hoat-tō͘ thè lí kiàn-li̍p ín-iōng. Lí ē-tàng lī-iōng téng-bīn ê \"{{int:citoid-citefromiddialog-mode-manual}}\" tab lâi ka-kī kiàn-li̍p 1-ê.",
 	"citoid-citefromidtool-title": "Ín-iōng",
 	"citoid-desc": "Thê-kiong citoid ho̍k-bū kap MediaWiki chi kan ê thong-lō͘ tiám",
 	"citoid-referencecontextitem-convert-button": "Choán-ōaⁿ",
