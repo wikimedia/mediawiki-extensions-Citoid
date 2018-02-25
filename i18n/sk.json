@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kusavica",
-			"Teslaton"
+			"Teslaton",
+			"TomášPolonec"
 		]
 	},
 	"citoid-520-error": "Zo zadaného identifikátoru nebolo možné získať informácie.",
@@ -14,12 +15,15 @@
 	"citoid-citefromiddialog-mode-manual": "Ručne",
 	"citoid-citefromiddialog-mode-reuse": "Použiť existujúcu",
 	"citoid-citefromiddialog-search": "Hľadať",
-	"citoid-citefromiddialog-search-label": "URL alebo DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN alebo PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "napr. http://www.príklad.com",
 	"citoid-citefromiddialog-search-progress": "Vyhľadávanie, prosím čakajte...",
 	"citoid-citefromiddialog-title": "Pridať citáciu",
 	"citoid-citefromiddialog-use-general-error-message": "Nebolo možné vytvoriť citáciu automaticky. Môžete ju vytvoriť ručne pomocou vyššie zobrazenej záložky „{{int:citoid-citefromiddialog-mode-manual}}“.",
 	"citoid-citefromidtool-title": "Citácia",
 	"citoid-citefromidtool-title-othergroup": "Citácia",
-	"citoid-desc": "Poskytuje prístupové body medzi službou Citoid a MediaWiki"
+	"citoid-desc": "Poskytuje prístupové body medzi službou Citoid a MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Previesť",
+	"citoid-referencecontextitem-convert-message": "Táto referencia obsahuje len externý odkaz. Môžete použiť tlačidlo „{{int:citoid-referencecontextitem-convert-button}}“, aby ste vytvorili správne formátovanú referenciu.",
+	"citoid-unknown-error": "Došlo k neznámej chybe, kvôli ktorej nemôžeme vytvoriť citáciu. Prosím skúste neskôr."
 }
