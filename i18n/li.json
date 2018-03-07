@@ -18,8 +18,11 @@
 	"citoid-citefromiddialog-search-placeholder": "beveurbeeld http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Bezeg mit zeuke, effe wachte...",
 	"citoid-citefromiddialog-title": "Citaat biedoon",
+	"citoid-citefromiddialog-use-general-error-message": "V'r kóste gei citaot make veur dich. De kans perbere 't handjmaesig te doon via 't tabblaad \"{{int:citoid-citefromiddialog-mode-manual}}\" hiebaove.",
 	"citoid-citefromidtool-title": "Citere",
 	"citoid-citefromidtool-title-othergroup": "Rifferensie",
 	"citoid-desc": "Koppeltj de citoidservice en MediaWiki",
-	"citoid-referencecontextitem-convert-button": "Zèt óm"
+	"citoid-referencecontextitem-convert-button": "Zèt óm",
+	"citoid-referencecontextitem-convert-message": "Dees rifferensie besteit allein oet 'nen externe link. De kans de knoep \"{{int:citoid-referencecontextitem-convert-button}}\" hie-ónger broeke veur 'n tegooj opgemaakde rifferensie te make.",
+	"citoid-unknown-error": "'n Ónbekande fout is opgetraoje wodoor 't citaot neet kós waere aangemaak. Perbeer 't later oppernuuj."
 }
