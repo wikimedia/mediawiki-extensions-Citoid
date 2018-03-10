@@ -21,10 +21,10 @@
 	"citoid-citefromiddialog-search-placeholder": "нпр. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Претражујем, сачекајте...",
 	"citoid-citefromiddialog-title": "Додај референцу",
-	"citoid-citefromiddialog-use-general-error-message": "Нисмо могли да направимо референцу за Вас. Можете је направити ручно коришћењем картице „{{int:citoid-citefromiddialog-mode-manual}}” изнад.",
+	"citoid-citefromiddialog-use-general-error-message": "Нисмо могли да направимо референцу за Вас. Можете је направити ручно коришћењем таба „{{int:citoid-citefromiddialog-mode-manual}}” изнад.",
 	"citoid-citefromidtool-title": "Референца",
 	"citoid-citefromidtool-title-othergroup": "Референца",
-	"citoid-desc": "Омогућава приступне тачке између Citoid сервиса и Медијавикија",
+	"citoid-desc": "Омогућава приступне тачке између сервиса citoid и Медијавикија",
 	"citoid-referencecontextitem-convert-button": "Претвори",
 	"citoid-referencecontextitem-convert-message": "Ова референца се састоји само од спољашње везе. Можете користити дугме „{{int:citoid-referencecontextitem-convert-button}}” испод за генерисање исправно форматиране референце.",
 	"citoid-unknown-error": "Десила се непозната грешка која нас је спречила да створимо референцу. Покушајте поново касније."
