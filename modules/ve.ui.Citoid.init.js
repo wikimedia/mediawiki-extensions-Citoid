@@ -59,9 +59,9 @@
 
 	if ( missingMappings.length ) {
 		mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingMappings.join( ', ' ) );
-		// TODO: Unregister the tool
-		// ve.ui.toolFactory.unregister( ve.ui.CiteFromIdInspectorTool );
-		// return;
+		// Unregister the tool
+		ve.ui.toolFactory.unregister( ve.ui.CiteFromIdInspectorTool );
+		return;
 	}
 
 	// HACK: Find the position of the current citation toolbar definition
