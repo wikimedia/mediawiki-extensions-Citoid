@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Subi",
-			"Sator"
+			"Sator",
+			"Iñaki LL"
 		]
 	},
 	"citoid-520-error": "Ezinezko da informazioa berreskuratzea emandako identifikatzailetik.",
@@ -20,7 +21,7 @@
 	"citoid-citefromiddialog-title": "Aipamena gehitu",
 	"citoid-citefromiddialog-use-general-error-message": "Ezin dugu zure aipamena egin. Eskuz sortu dezakezu goiko  \"{{int:citoid-citefromiddialog-mode-manual}}\" fitxa erabiliz.",
 	"citoid-citefromidtool-title": "Aipatu",
-	"citoid-citefromidtool-title-othergroup": "Aipamen",
+	"citoid-citefromidtool-title-othergroup": "Aipamena",
 	"citoid-desc": "Sarbide puntuak eskaintzen ditu citoid zerbitzuaren eta MediaWikiren artean.",
 	"citoid-referencecontextitem-convert-button": "Bihurtu",
 	"citoid-referencecontextitem-convert-message": "Erreferentzia hau kanpo lotura bat da hain justu. Azpiko \"{{int:citoid-referencecontextitem-convert-button}}\" botoia erabili dezakezu egoki formateatutako erreferentzia bat egiteko.",
