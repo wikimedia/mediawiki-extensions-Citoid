@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ramjit Tudu"
+			"Ramjit Tudu",
+			"Fagunkoyel Hansdah"
 		]
 	},
 	"citoid-citation-widget-insert-button": "ᱟᱫᱮᱨ",
@@ -14,5 +15,7 @@
 	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN or PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "ᱡᱮᱞᱮᱠᱟ http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "ᱥᱮᱸᱫᱽᱨᱟᱜ ᱠᱟᱱᱟ, ᱛᱟᱺᱜᱤ ᱢᱮ ...",
+	"citoid-citefromidtool-title": "ᱛᱩᱢᱟᱹᱞ",
+	"citoid-citefromidtool-title-othergroup": "ᱛᱩᱢᱟᱹᱞᱟᱜ",
 	"citoid-referencecontextitem-convert-button": "ᱵᱚᱫᱚᱞ"
 }
