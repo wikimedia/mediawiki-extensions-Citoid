@@ -12,7 +12,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manual",
 	"citoid-citefromiddialog-mode-reuse": "Usaren manen",
 	"citoid-citefromiddialog-search": "Agbiruk",
-	"citoid-citefromiddialog-search-label": "URL wenno DOI",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN wenno PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "kas iti http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Agbirbiruk, pangngaasi nga aguray...",
 	"citoid-citefromiddialog-title": "Aginayon iti dakamat",
