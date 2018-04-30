@@ -12,9 +12,6 @@
 
 class CitoidDataModule extends ResourceLoaderModule {
 
-	/** @var string */
-	protected $origin = self::ORIGIN_USER_SITEWIDE;
-
 	/** @var string[] */
 	protected $targets = [ 'desktop', 'mobile' ];
 
