@@ -193,7 +193,6 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 
 	// Lookup field
 	this.lookupInput = new OO.ui.TextInputWidget( {
-		multiline: false,
 		placeholder: ve.msg( 'citoid-citefromiddialog-search-placeholder' )
 	} );
 
