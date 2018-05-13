@@ -29,7 +29,6 @@ OO.mixinClass( ve.ui.CiteFromIdInspectorTool, ve.ui.MWEducationPopupTool );
 /* Static properties */
 
 ve.ui.CiteFromIdInspectorTool.static.name = 'citefromid';
-ve.ui.CiteFromIdInspectorTool.static.autoAddToCatchall = false;
 ve.ui.CiteFromIdInspectorTool.static.title = OO.ui.deferMsg(
 	mw.config.get( 'wgCiteVisualEditorOtherGroup' ) ?
 		'citoid-citefromidtool-title-othergroup' :

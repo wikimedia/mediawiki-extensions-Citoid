@@ -1,5 +1,5 @@
 ( function () {
-	var i, j, jLen, name, toolClass, toolGroups, citeIndex, target, map, requireMappings,
+	var i, name, toolClass, toolGroups, map, requireMappings,
 		missingMappings = [];
 
 	// Don't create tool unless the configuration message is present
@@ -77,32 +77,35 @@
 			ve.ui.toolFactory.unregister( toolClass );
 		}
 	}
-	targetLoader:
-	for ( i in ve.init.mw ) {
-		target = ve.init.mw[ i ];
-		if ( !target || !( target.prototype instanceof ve.init.Target ) ) {
-			continue;
-		}
+
+	function fixTarget( target ) {
+		var i, iLen;
 		toolGroups = target.static.toolbarGroups;
-		citeIndex = toolGroups.length;
 		// Instead of using the rigid position of the group,
 		// downgrade this hack from horrific to somewhat less horrific by
 		// looking through the object to find what we actually need
 		// to replace. This way, if toolbarGroups are changed in VE code
 		// we won't have to manually change the index here.
-		for ( j = 0, jLen = toolGroups.length; j < jLen; j++ ) {
-			if ( ve.getProp( toolGroups[ j ], 'include', 0 ) === 'citefromid' ) {
-				continue targetLoader;
-			}
-			if ( ve.getProp( toolGroups[ j ], 'include', 0, 'group' ) === 'cite' ) {
-				citeIndex = j;
+		for ( i = 0, iLen = toolGroups.length; i < iLen; i++ ) {
+			// Replace the previous cite group with the citoid tool.
+			// If there is no cite group, citoid will appear in the catch-all group
+			if ( toolGroups[ i ].name === 'cite' ) {
+				toolGroups[ i ] = {
+					name: 'citoid',
+					include: [ 'citefromid' ]
+				};
 				break;
 			}
 		}
-
-		// Replace the previous cite group with the citoid tool.
-		toolGroups[ citeIndex ] = { include: [ 'citefromid' ] };
 	}
+
+	for ( name in ve.init.mw.targetFactory.registry ) {
+		fixTarget( ve.init.mw.targetFactory.lookup( name ) );
+	}
+
+	ve.init.mw.targetFactory.on( 'register', function ( name, target ) {
+		fixTarget( target );
+	} );
 
 	/**
 	 * HACK: Override MWReferenceContextItem methods directly instead of inheriting,
