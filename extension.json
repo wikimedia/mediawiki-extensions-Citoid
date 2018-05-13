@@ -10,6 +10,12 @@
 	"descriptionmsg": "citoid-desc",
 	"license-name": "MIT",
 	"type": "other",
+	"requires": {
+		"extensions": {
+			"VisualEditor": ">= 0.1.0",
+			"Cite": ">= 1.0.0"
+		}
+	},
 	"MessagesDirs": {
 		"Citoid": [
 			"i18n"
