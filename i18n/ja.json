@@ -5,12 +5,14 @@
 			"Sujiniku",
 			"Takot",
 			"Otokoume",
-			"Miya"
+			"Miya",
+			"Delim"
 		]
 	},
 	"citoid-520-error": "提供された識別子から情報を取得することが、できません。",
 	"citoid-citation-widget-insert-button": "挿入",
 	"citoid-citefromiddialog-back": "戻る",
+	"citoid-citefromiddialog-credit": "$1の提供",
 	"citoid-citefromiddialog-lookup-button": "生成",
 	"citoid-citefromiddialog-mode-auto": "自動",
 	"citoid-citefromiddialog-mode-manual": "マニュアル",
