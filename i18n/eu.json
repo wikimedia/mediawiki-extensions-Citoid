@@ -3,7 +3,8 @@
 		"authors": [
 			"Subi",
 			"Sator",
-			"Iñaki LL"
+			"Iñaki LL",
+			"Theklan"
 		]
 	},
 	"citoid-520-error": "Ezinezko da informazioa berreskuratzea emandako identifikatzailetik.",
@@ -20,7 +21,7 @@
 	"citoid-citefromiddialog-search-progress": "Bilatzen. Mesedez, itxaron...",
 	"citoid-citefromiddialog-title": "Aipamena gehitu",
 	"citoid-citefromiddialog-use-general-error-message": "Ezin dugu zure aipamena egin. Eskuz sortu dezakezu goiko  \"{{int:citoid-citefromiddialog-mode-manual}}\" fitxa erabiliz.",
-	"citoid-citefromidtool-title": "Aipatu",
+	"citoid-citefromidtool-title": "Erreferentzia",
 	"citoid-citefromidtool-title-othergroup": "Aipamena",
 	"citoid-desc": "Sarbide puntuak eskaintzen ditu citoid zerbitzuaren eta MediaWikiren artean.",
 	"citoid-referencecontextitem-convert-button": "Bihurtu",
