@@ -7,11 +7,14 @@
 			"Stultiwikia",
 			"Arystanbek",
 			"McAang",
-			"Bulgu"
+			"Bulgu",
+			"Hedda"
 		]
 	},
+	"citoid-520-error": "Sağlanan tanıtıcıdan bilgi alınamıyor.",
 	"citoid-citation-widget-insert-button": "Ekle",
 	"citoid-citefromiddialog-back": "Geri",
+	"citoid-citefromiddialog-credit": "$1 tarafından oluşturulmuştur",
 	"citoid-citefromiddialog-lookup-button": "Yarat",
 	"citoid-citefromiddialog-mode-auto": "Otomatik",
 	"citoid-citefromiddialog-mode-manual": "Kılavuz",
@@ -22,5 +25,7 @@
 	"citoid-citefromiddialog-search-progress": "Aranıyor, lütfen bekleyin...",
 	"citoid-citefromiddialog-title": "Alıntı Ekle",
 	"citoid-citefromidtool-title": "Kaynak göster",
-	"citoid-desc": "Citoid hizmet ve MediaWiki arasında erişim noktaları sağlar"
+	"citoid-citefromidtool-title-othergroup": "Alıntı",
+	"citoid-desc": "Citoid hizmet ve MediaWiki arasında erişim noktaları sağlar",
+	"citoid-referencecontextitem-convert-button": "Çevir"
 }
