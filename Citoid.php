@@ -7,7 +7,7 @@
  * @file
  * @ingroup Extensions
  * @author 2014-2015 Marielle Volz and others
- * @license The MIT License (MIT); see LICENSE.txt
+ * @license MIT
  */
 
 if ( function_exists( 'wfLoadExtension' ) ) {
