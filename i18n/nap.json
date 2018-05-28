@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"C.R."
+			"C.R.",
+			"Ruthven"
 		]
 	},
 	"citoid-520-error": "Nun se ponno accucchià nfurmaziune d' 'o identificatore dato.",
@@ -14,7 +15,7 @@
 	"citoid-citefromiddialog-search": "Ascìa",
 	"citoid-citefromiddialog-search-label": "URL, DOI o PMID",
 	"citoid-citefromiddialog-search-placeholder": "p'esempie http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "Ascianno mò, pe' piacere aspettate...",
+	"citoid-citefromiddialog-search-progress": "Ascianno mo, pe piacere aspettate...",
 	"citoid-citefromiddialog-title": "Azzeccate na citazione",
 	"citoid-citefromiddialog-use-general-error-message": "Nun se puteva fà na citazione pe' vuje. Vuje putite fà cchesta manualmente ausanno 'a scheda \"{{int:citoid-citefromiddialog-mode-manual}}\" ccà ncoppa.",
 	"citoid-citefromidtool-title": "Citazione",
