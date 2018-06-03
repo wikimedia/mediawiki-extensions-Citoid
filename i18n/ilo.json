@@ -7,6 +7,7 @@
 	"citoid-520-error": "Di nakaala ti pakaamo manipud iti naited a pananginagan.",
 	"citoid-citation-widget-insert-button": "Isengngat",
 	"citoid-citefromiddialog-back": "Agsubli",
+	"citoid-citefromiddialog-credit": "Pinaandar babaen ti $1",
 	"citoid-citefromiddialog-lookup-button": "Agpataud",
 	"citoid-citefromiddialog-mode-auto": "Automatiko",
 	"citoid-citefromiddialog-mode-manual": "Manual",
@@ -18,6 +19,9 @@
 	"citoid-citefromiddialog-title": "Aginayon iti dakamat",
 	"citoid-citefromiddialog-use-general-error-message": "Saankami a makaaramid iti dakamat para kenka. Mabalinmo ti manual nga agpartuat babaen ti panagusar iti etiketa ti \"{{int:citoid-citefromiddialog-mode-manual}}\" dita ngato.",
 	"citoid-citefromidtool-title": "Dakamaten",
+	"citoid-citefromidtool-title-othergroup": "Dakamat",
 	"citoid-desc": "Mangited kadagiti pagserrekan a punto a pagbaetan ti serbisio ti citoid ken MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Pagbaliwen",
+	"citoid-referencecontextitem-convert-message": "Daytoy a nagibasaran ket buklen iti maymaysa nga akinruar a silpo. Mabalinmo nga usaren ti buton ti \"{{int:citoid-referencecontextitem-convert-button}}\" dita baba tapno makapataud iti nasayaat a napormat a nagibasaran.",
 	"citoid-unknown-error": "Adda napasamak a biddut a nangigawid kaniami manipud iti panagpartuat ti dakamat. Pangngaasi a padasen manen intono madamdama."
 }
