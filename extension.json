@@ -11,6 +11,7 @@
 	"license-name": "MIT",
 	"type": "other",
 	"requires": {
+		"MediaWiki": ">= 1.32.0",
 		"extensions": {
 			"VisualEditor": ">= 0.1.0",
 			"Cite": ">= 1.0.0"
@@ -45,7 +46,7 @@
 			"dependencies": [
 				"ext.cite.visualEditor",
 				"ext.visualEditor.mediawiki",
-				"mediawiki.api.options",
+				"mediawiki.api",
 				"ext.citoid.visualEditor.data"
 			],
 			"messages": [
