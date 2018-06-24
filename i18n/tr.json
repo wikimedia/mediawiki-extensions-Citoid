@@ -24,8 +24,11 @@
 	"citoid-citefromiddialog-search-placeholder": "örneğin http://www.ornek.com.tr",
 	"citoid-citefromiddialog-search-progress": "Aranıyor, lütfen bekleyin...",
 	"citoid-citefromiddialog-title": "Alıntı Ekle",
+	"citoid-citefromiddialog-use-general-error-message": "Senin için bir kaynak oluşturamadık. \"{{int:citoid-citefromiddialog-mode-manual}}\" sekmesini üstte kullanarak elle bir tane oluşturabilirsin.",
 	"citoid-citefromidtool-title": "Kaynak göster",
 	"citoid-citefromidtool-title-othergroup": "Alıntı",
 	"citoid-desc": "Citoid hizmet ve MediaWiki arasında erişim noktaları sağlar",
-	"citoid-referencecontextitem-convert-button": "Çevir"
+	"citoid-referencecontextitem-convert-button": "Çevir",
+	"citoid-referencecontextitem-convert-message": "Bu referans sadece bir harici bağlantıdan oluşmaktadır. Doğru biçimlendirilmiş bir referans oluşturmak için aşağıdaki \"{{int:citoid-referencecontextitem-convert-button}}\" tuşunu kullanabilirsiniz.",
+	"citoid-unknown-error": "Bir kaynak oluşturmamızı engelleyen bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
 }
