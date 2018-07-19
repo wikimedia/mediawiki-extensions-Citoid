@@ -4,6 +4,7 @@
 			"Robby"
 		]
 	},
+	"citoid-520-error": "Informatioune vum Identifier deen Dir uginn hutt konnt net ofgeruff ginn.",
 	"citoid-citation-widget-insert-button": "Drasetzen",
 	"citoid-citefromiddialog-back": "Zréck",
 	"citoid-citefromiddialog-credit": "Notzt $1",
@@ -16,8 +17,10 @@
 	"citoid-citefromiddialog-search-placeholder": "z. B. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Sichen, gedëllegt Iech w.e.g. ...",
 	"citoid-citefromiddialog-title": "En Zitat dobäisetzen",
+	"citoid-citefromiddialog-use-general-error-message": "Mir konnte fir Iech keng Citatioun maachen. Dir kënnt en manuell maache wann Dir den Tab \"{{int:citoid-citefromiddialog-mode-manual}}\" hei driwwer benotzt",
 	"citoid-citefromidtool-title": "Zitéieren",
 	"citoid-citefromidtool-title-othergroup": "Citatioun",
+	"citoid-desc": "Liwwert Zougrëffspunkten tëscht dem citoid-Service a MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Ëmwandelen",
 	"citoid-referencecontextitem-convert-message": "Dës Referenz besteet just aus engem externe Link. Dir kënnt den \"{{int:citoid-referencecontextitem-convert-button}}\"-Knäppche hei drënner benotze fir eng korrekt formatéiert Referenz ze generéieren.",
 	"citoid-unknown-error": "En onbekannte Feeler ass geschitt an deen huet eis et net erlaabt fir en Citatioun unzeleeën. Probéiert et méi spéit nach eng Kéier."

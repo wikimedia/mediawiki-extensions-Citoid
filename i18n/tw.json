@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Celestinesucess"
+			"Celestinesucess",
+			"Ed g2s"
 		]
 	},
 	"citoid-citation-widget-insert-button": "De hyɛ mu",
@@ -9,11 +10,11 @@
 	"citoid-citefromiddialog-credit": "$1 na ɔtaa ekyi",
 	"citoid-citefromiddialog-mode-auto": "No ankasa tumi",
 	"citoid-citefromiddialog-mode-manual": "W’ankasa woyɛ",
-	"citoid-citefromiddialog-mode-reuse": "fayɛ adeɛ bio",
-	"citoid-citefromiddialog-search": "hwehwɛ",
-	"citoid-citefromiddialog-search-progress": "ɛhwewhɛ, me pawo tsɔ twɛn",
-	"citoid-citefromiddialog-title": "bɔ bebia nsɛm no fi",
-	"citoid-citefromidtool-title": "bɔ bebea nsɛm no fri",
-	"citoid-citefromidtool-title-othergroup": "bebea nsɛm no fri",
+	"citoid-citefromiddialog-mode-reuse": "Fayɛ adeɛ bio",
+	"citoid-citefromiddialog-search": "Hwehwɛ",
+	"citoid-citefromiddialog-search-progress": "Ɛhwewhɛ, me pawo tsɔ twɛn",
+	"citoid-citefromiddialog-title": "Bɔ bebia nsɛm no fi",
+	"citoid-citefromidtool-title": "Bɔ bebea nsɛm no fri",
+	"citoid-citefromidtool-title-othergroup": "Bebea nsɛm no fri",
 	"citoid-referencecontextitem-convert-button": "Dan"
 }
