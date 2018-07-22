@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jdforrester"
+			"Jdforrester",
+			"Ed g2s"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Mewnosod",
@@ -12,6 +13,8 @@
 	"citoid-citefromiddialog-mode-manual": "Wrth law",
 	"citoid-citefromiddialog-mode-reuse": "Ailddefnyddio",
 	"citoid-citefromiddialog-search": "Chwilio",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN neu PMC/PMID",
+	"citoid-citefromiddialog-search-placeholder": "e.e. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Wrthi'n chwilio…",
 	"citoid-citefromiddialog-title": "Ychwanegu cyfeirnod",
 	"citoid-citefromidtool-title": "Cyfeirio",
