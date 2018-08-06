@@ -9,11 +9,11 @@
 			"BadDog"
 		]
 	},
-	"citoid-520-error": "Није могуће добити информације из пруженог идентификатора.",
+	"citoid-520-error": "Није могуће преузети информације из наведеног идентификатора.",
 	"citoid-citation-widget-insert-button": "Убаци",
 	"citoid-citefromiddialog-back": "Назад",
 	"citoid-citefromiddialog-credit": "Покреће $1",
-	"citoid-citefromiddialog-lookup-button": "Генериши",
+	"citoid-citefromiddialog-lookup-button": "Направи",
 	"citoid-citefromiddialog-mode-auto": "Аутоматски",
 	"citoid-citefromiddialog-mode-manual": "Ручно",
 	"citoid-citefromiddialog-mode-reuse": "Поновно коришћење",
@@ -25,8 +25,8 @@
 	"citoid-citefromiddialog-use-general-error-message": "Нисмо могли да направимо референцу за Вас. Можете је направити ручно коришћењем картице „{{int:citoid-citefromiddialog-mode-manual}}” изнад.",
 	"citoid-citefromidtool-title": "Референца",
 	"citoid-citefromidtool-title-othergroup": "Референца",
-	"citoid-desc": "Пружа приступне тачке између сервиса citoid и Медијавикија",
+	"citoid-desc": "Пружа приступне тачке између услуге citoid и Медијавикија",
 	"citoid-referencecontextitem-convert-button": "Претвори",
-	"citoid-referencecontextitem-convert-message": "Ова референца се састоји само од спољашње везе. Можете да користите дугме „{{int:citoid-referencecontextitem-convert-button}}” испод за генерисање исправно форматиране референце.",
+	"citoid-referencecontextitem-convert-message": "Ова референца се састоји само од спољашње везе. Можете да користите дугме „{{int:citoid-referencecontextitem-convert-button}}” испод за прављење исправно форматиране референце.",
 	"citoid-unknown-error": "Десила се непозната грешка која нас је спречила да створимо референцу. Покушајте поново касније."
 }
