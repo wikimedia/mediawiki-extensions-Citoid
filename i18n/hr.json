@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Acamicamacaraca",
-			"Bugoslav"
+			"Bugoslav",
+			"MaGa"
 		]
 	},
 	"citoid-520-error": "Nije moguće dohvatiti podatke s navedenog identifikatora.",
@@ -12,7 +13,7 @@
 	"citoid-citefromiddialog-lookup-button": "Generiraj",
 	"citoid-citefromiddialog-mode-auto": "Automatski",
 	"citoid-citefromiddialog-mode-manual": "Ručno",
-	"citoid-citefromiddialog-mode-reuse": "Ponovo upotrijebi",
+	"citoid-citefromiddialog-mode-reuse": "Uporaba postojećeg",
 	"citoid-citefromiddialog-search": "Pretraga",
 	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN ili PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "npr. http://www.primjer.com",
