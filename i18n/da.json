@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Macofe",
-			"Peter Alberti"
+			"Peter Alberti",
+			"Saederup92"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Indsæt",
 	"citoid-citefromiddialog-back": "Tilbage",
 	"citoid-citefromiddialog-mode-auto": "Automatisk",
 	"citoid-citefromiddialog-search": "Søg",
-	"citoid-citefromiddialog-search-label": "URL, DOI eller PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN eller PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "f. eks. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Søger, vent venligst...",
 	"citoid-referencecontextitem-convert-button": "Omdan"
