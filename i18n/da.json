@@ -13,5 +13,7 @@
 	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN eller PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "f. eks. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Søger, vent venligst...",
+	"citoid-citefromidtool-title": "Citér",
+	"citoid-citefromidtool-title-othergroup": "Citering",
 	"citoid-referencecontextitem-convert-button": "Omdan"
 }
