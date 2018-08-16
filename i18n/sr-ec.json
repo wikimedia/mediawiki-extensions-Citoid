@@ -19,7 +19,7 @@
 	"citoid-citefromiddialog-mode-reuse": "Поновно коришћење",
 	"citoid-citefromiddialog-search": "Претражи",
 	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN или PMC/PMID",
-	"citoid-citefromiddialog-search-placeholder": "нпр. http://www.пример.com",
+	"citoid-citefromiddialog-search-placeholder": "нпр. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Претражујем, сачекајте...",
 	"citoid-citefromiddialog-title": "Додавање референце",
 	"citoid-citefromiddialog-use-general-error-message": "Нисмо могли да направимо референцу за Вас. Можете је направити ручно коришћењем картице „{{int:citoid-citefromiddialog-mode-manual}}” изнад.",
