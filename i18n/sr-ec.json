@@ -26,7 +26,7 @@
 	"citoid-citefromidtool-title": "Референца",
 	"citoid-citefromidtool-title-othergroup": "Референца",
 	"citoid-desc": "Пружа приступне тачке између сервиса citoid и Медијавикија",
-	"citoid-referencecontextitem-convert-button": "Претвори",
-	"citoid-referencecontextitem-convert-message": "Ова референца се састоји само од спољашње везе. Можете да користите дугме „{{int:citoid-referencecontextitem-convert-button}}” испод за генерисање исправно форматиране референце.",
-	"citoid-unknown-error": "Десила се непозната грешка која нас је спречила да створимо референцу. Покушајте поново касније."
+	"citoid-referencecontextitem-convert-button": "Конвертуј",
+	"citoid-referencecontextitem-convert-message": "Ова референца се састоји само од спољашњег линка. Можете користити дугме „{{int:citoid-referencecontextitem-convert-button}}” испод да бисте генерисали исправно форматирану референцу.",
+	"citoid-unknown-error": "Дошло је до непознате грешке која нас је спречила у прављењу референце. Покушајте поново касније."
 }
