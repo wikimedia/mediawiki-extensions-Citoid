@@ -7,18 +7,24 @@
 			"Jhertel"
 		]
 	},
+	"citoid-520-error": "Kan ikke finde information fra den givne identifikator.",
 	"citoid-citation-widget-insert-button": "Indsæt",
 	"citoid-citefromiddialog-back": "Tilbage",
 	"citoid-citefromiddialog-credit": "Drevet af $1",
 	"citoid-citefromiddialog-lookup-button": "Opret",
 	"citoid-citefromiddialog-mode-auto": "Automatisk",
 	"citoid-citefromiddialog-mode-manual": "Manuel",
-	"citoid-citefromiddialog-mode-reuse": "Genanvend",
+	"citoid-citefromiddialog-mode-reuse": "Genbrug",
 	"citoid-citefromiddialog-search": "Søg",
 	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN eller PMC/PMID",
-	"citoid-citefromiddialog-search-placeholder": "f. eks. http://www.example.com",
+	"citoid-citefromiddialog-search-placeholder": "f.eks. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Søger, vent venligst...",
+	"citoid-citefromiddialog-title": "Tilføj en reference",
+	"citoid-citefromiddialog-use-general-error-message": "Vi kunne ikke lave en automatisk reference. Du kan oprette en manuelt ved brug af fanen \"{{int:citoid-citefromiddialog-mode-manual}}\" ovenfor.",
 	"citoid-citefromidtool-title": "Citér",
-	"citoid-citefromidtool-title-othergroup": "Citering",
-	"citoid-referencecontextitem-convert-button": "Omdan"
+	"citoid-citefromidtool-title-othergroup": "Reference",
+	"citoid-desc": "Tilknytter Citoid-tjenesten med MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Omdan",
+	"citoid-referencecontextitem-convert-message": "Denne reference består udelukkende af et eksternt link. Du kan bruge knappen \"{{int:citoid-referencecontextitem-convert-button}}\" nedenfor for at skabe en korrekt formateret reference.",
+	"citoid-unknown-error": "Kunne ikke skabe en reference, da der opstod en ukendt fejl. Prøv venligst igen senere."
 }
