@@ -5,5 +5,9 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "ꯏꯟꯁꯤꯟꯕ",
-	"citoid-citefromiddialog-back": "ꯃꯅꯤꯡꯗ ꯍꯟꯍꯜꯕ"
+	"citoid-citefromiddialog-back": "ꯃꯅꯤꯡꯗ ꯍꯟꯍꯜꯕ",
+	"citoid-citefromiddialog-mode-manual": "ꯈꯨꯠꯄꯥꯏ",
+	"citoid-citefromiddialog-mode-reuse": "ꯑꯃꯨꯛꯍꯟꯅ-ꯁꯤꯖꯤꯟꯅꯕ",
+	"citoid-citefromiddialog-search": "ꯊꯤꯕꯥ",
+	"citoid-referencecontextitem-convert-button": "ꯑꯣꯟꯊꯣꯛꯄ"
 }
