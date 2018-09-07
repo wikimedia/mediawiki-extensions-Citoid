@@ -5,7 +5,8 @@
 			"Shinjiman",
 			"CRCHF",
 			"Yueman",
-			"Ktchankt"
+			"Ktchankt",
+			"Hello903hello"
 		]
 	},
 	"citoid-520-error": "唔可以喺畀出嘅鑒定器度攞信息。",
@@ -17,7 +18,7 @@
 	"citoid-citefromiddialog-mode-manual": "手動",
 	"citoid-citefromiddialog-mode-reuse": "翻用",
 	"citoid-citefromiddialog-search": "搵",
-	"citoid-citefromiddialog-search-label": "URL、DOI 或者 DOI",
+	"citoid-citefromiddialog-search-label": "URL、DOI、ISBN或者PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "例如 http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "搵緊，請等陣……",
 	"citoid-citefromiddialog-title": "加個引用",
