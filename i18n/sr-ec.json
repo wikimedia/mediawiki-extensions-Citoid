@@ -9,7 +9,7 @@
 			"BadDog"
 		]
 	},
-	"citoid-520-error": "Не могу да преузмем информације из наведеног идентификатора.",
+	"citoid-520-error": "Није могуће преузети информације из наведеног идентификатора.",
 	"citoid-citation-widget-insert-button": "Уметни",
 	"citoid-citefromiddialog-back": "Назад",
 	"citoid-citefromiddialog-credit": "Покреће $1",
@@ -20,7 +20,7 @@
 	"citoid-citefromiddialog-search": "Претражи",
 	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN или PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "нпр. http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "Претражујем, сачекајте...",
+	"citoid-citefromiddialog-search-progress": "Претраживање, сачекајте…",
 	"citoid-citefromiddialog-title": "Додавање референце",
 	"citoid-citefromiddialog-use-general-error-message": "Нисмо могли да направимо референцу за вас. Можете је направити ручно коришћењем картице „{{int:citoid-citefromiddialog-mode-manual}}” изнад.",
 	"citoid-citefromidtool-title": "Цитирај",
