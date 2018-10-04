@@ -7,7 +7,8 @@
 			"Irus",
 			"Sunpriat",
 			"Kaganer",
-			"Mailman"
+			"Mailman",
+			"Stjn"
 		]
 	},
 	"citoid-520-error": "Не удалось получить информацию из предоставленного идентификатора.",
@@ -25,7 +26,7 @@
 	"citoid-citefromiddialog-title": "Добавить ссылку на источник",
 	"citoid-citefromiddialog-use-general-error-message": "Мы не смогли сформировать для вас цитату. Её можно создать вручную, используя вкладку «{{int:citoid-citefromiddialog-mode-manual}}».",
 	"citoid-citefromidtool-title": "Источник",
-	"citoid-citefromidtool-title-othergroup": "Цитата",
+	"citoid-citefromidtool-title-othergroup": "Источник",
 	"citoid-desc": "Обеспечивает доступ между сервисом Citoid и MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Конвертировать",
 	"citoid-referencecontextitem-convert-message": "Это примечание состоит из простой внешней ссылки. Используйте кнопку «{{int:citoid-referencecontextitem-convert-button}}», чтобы создать правильно сформированное примечание.",
