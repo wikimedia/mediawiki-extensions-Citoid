@@ -20,7 +20,7 @@
 	"citoid-citefromiddialog-mode-manual": "Label of tab in citation dialog, used to select mode. An adjective describing {{msg-mw|Citoid-citefromidtool-title}}. The other tabs are {{msg-mw|Citoid-citefromiddialog-mode-auto}} and {{msg-mw|Citoid-citefromiddialog-mode-reuse}}.\n{{Identical|Manual}}",
 	"citoid-citefromiddialog-mode-reuse": "Label of tab in citation dialog, used to select mode. The other tabs are {{msg-mw|Citoid-citefromiddialog-mode-auto}} and {{msg-mw|Citoid-citefromiddialog-mode-manual}}.\n{{Identical|Re-use}}",
 	"citoid-citefromiddialog-search": "Text for the search button.\n{{Identical|Search}}",
-	"citoid-citefromiddialog-search-label": "Label for the URL/DOI/PMID search field.",
+	"citoid-citefromiddialog-search-label": "Label for the search field where users can enter a URL, DOI, ISBN, PMCID, PMID, title of the work, or plain text citation.",
 	"citoid-citefromiddialog-search-placeholder": "{{doc-important|Do not translate example.com as it is a domain name specifically reserved by IANA for examples.}}\n\nPlaceholder for the URL/DOI/PMCID/PMID/ISBN search field.",
 	"citoid-citefromiddialog-search-progress": "Message for when the search is in progress",
 	"citoid-citefromiddialog-title": "The title displayed on the dialog",
