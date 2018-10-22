@@ -1,22 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"Idojc"
+			"Idojc",
+			"Joao Xavier"
 		]
 	},
+	"citoid-520-error": "Ne esas posibla rekuperar informo del identifikilo mencionita.",
 	"citoid-citation-widget-insert-button": "Insertar",
 	"citoid-citefromiddialog-back": "Retroirar",
+	"citoid-citefromiddialog-credit": "Funcionas per $1",
 	"citoid-citefromiddialog-lookup-button": "Produktar",
 	"citoid-citefromiddialog-mode-auto": "Automata",
 	"citoid-citefromiddialog-mode-manual": "Manuala",
 	"citoid-citefromiddialog-mode-reuse": "Ri-uzo",
 	"citoid-citefromiddialog-search": "Serchar",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN o PMC/PMID",
 	"citoid-citefromiddialog-search-placeholder": "ex. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Serchanta, voluntez vartar...",
 	"citoid-citefromiddialog-title": "Adjuntar citajo",
+	"citoid-citefromiddialog-use-general-error-message": "Ni ne povis krear citajo por vu. Vu povas krear ula per l'uzo dil etiketo \"{{int:citoid-citefromiddialog-mode-manual}}\" adsupre.",
 	"citoid-citefromidtool-title": "Citar",
 	"citoid-citefromidtool-title-othergroup": "Citajo",
 	"citoid-desc": "Provizas aces-punti inter la Citoid-servo e MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konvertar",
-	"citoid-referencecontextitem-convert-message": "Ica refero konsistas ek nur extera ligilo. Vu povas uzar la butono \"{{int:citoid-referencecontextitem-convert-button}}\" por produktar refero juste formatizita."
+	"citoid-referencecontextitem-convert-message": "Ica refero konsistas ek nur extera ligilo. Vu povas uzar la butono \"{{int:citoid-referencecontextitem-convert-button}}\" por produktar refero juste formatizita.",
+	"citoid-unknown-error": "Nekonocita eroro impedis ni krear citajo. Voluntez itere probar to, pose."
 }
