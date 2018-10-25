@@ -3,7 +3,8 @@
 		"authors": [
 			"Jadinegara",
 			"Meursault2004",
-			"NoiX180"
+			"NoiX180",
+			"Jdforrester"
 		]
 	},
 	"citoid-520-error": "Ora bisa njupuk informasi saka pangenal kang cumepak.",
@@ -16,7 +17,7 @@
 	"citoid-citefromiddialog-mode-reuse": "Anggo manèh",
 	"citoid-citefromiddialog-search": "Golèk",
 	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN utawa PMC/PMID",
-	"citoid-citefromiddialog-search-placeholder": "conto http://www.conto.com",
+	"citoid-citefromiddialog-search-placeholder": "conto http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Tembé nggolèki, nyuwun panjenengan entèni...",
 	"citoid-citefromiddialog-title": "Tambah sitiran",
 	"citoid-citefromiddialog-use-general-error-message": "Awak dhéwé ora bisa nggawékaké panjenengan sitiran. Panjenengan bisa nggawé dhéwé manual nganggo tab \"{{int:citoid-citefromiddialog-mode-manual}}\" ing dhuwur.",
