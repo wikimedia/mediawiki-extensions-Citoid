@@ -5,5 +5,8 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Susôp",
-	"citoid-citefromiddialog-back": "Gisa"
+	"citoid-citefromiddialog-back": "Gisa",
+	"citoid-citefromidtool-title": "Kutép",
+	"citoid-citefromidtool-title-othergroup": "Keunutép",
+	"citoid-referencecontextitem-convert-button": "Ubah"
 }
