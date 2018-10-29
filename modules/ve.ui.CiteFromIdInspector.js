@@ -367,7 +367,7 @@ ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( ite
 		if ( this.inDialog !== 'reference' ) {
 			item = this.referenceModel.findInternalItem( surfaceModel );
 			fragment = this.getFragment().clone(
-				new ve.dm.LinearSelection( doc, item.getChildren()[ 0 ].getRange() )
+				new ve.dm.LinearSelection( item.getChildren()[ 0 ].getRange() )
 			);
 		}
 
