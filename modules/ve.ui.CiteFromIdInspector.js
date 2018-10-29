@@ -356,7 +356,8 @@ ve.ui.CiteFromIdInspector.prototype.onSearchResultsChoose = function ( item ) {
  * @param {ve.ui.MWReferenceResultWidget} item Chosen item
  */
 ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) {
-	var fragment = this.fragment,
+	var linearSelection,
+		fragment = this.fragment,
 		surfaceModel = this.getFragment().getSurface(),
 		doc = surfaceModel.getDocument(),
 		internalList = doc.getInternalList(),
@@ -366,9 +367,16 @@ ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( ite
 		// Gets back contents of <ref> tag
 		if ( this.inDialog !== 'reference' ) {
 			item = this.referenceModel.findInternalItem( surfaceModel );
-			fragment = this.getFragment().clone(
-				new ve.dm.LinearSelection( doc, item.getChildren()[ 0 ].getRange() )
-			);
+			try {
+				// Old interface
+				// TODO: Remove this code once deployed on top of
+				// I715ae805f63f575249d7534112f4e30937d92e74
+				linearSelection = new ve.dm.LinearSelection( doc, item.getChildren()[ 0 ].getRange() );
+			} catch ( ex ) {
+				// New interface
+				linearSelection = new ve.dm.LinearSelection( item.getChildren()[ 0 ].getRange() );
+			}
+			fragment = this.getFragment().clone( linearSelection );
 		}
 
 		this.results[ index ].transclusionModel.insertTransclusionNode( fragment, 'inline' );
