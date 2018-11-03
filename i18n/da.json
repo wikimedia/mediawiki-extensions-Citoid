@@ -16,7 +16,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manuel",
 	"citoid-citefromiddialog-mode-reuse": "Genbrug",
 	"citoid-citefromiddialog-search": "Søg",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN eller PMC/PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, titel eller citering",
 	"citoid-citefromiddialog-search-placeholder": "f.eks. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Søger, vent venligst...",
 	"citoid-citefromiddialog-title": "Tilføj en reference",

@@ -18,7 +18,7 @@
 	"citoid-citefromiddialog-mode-manual": "Ручно",
 	"citoid-citefromiddialog-mode-reuse": "Поновно коришћење",
 	"citoid-citefromiddialog-search": "Претражи",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN или PMC/PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, наслов или цитат",
 	"citoid-citefromiddialog-search-placeholder": "нпр. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Претраживање, сачекајте…",
 	"citoid-citefromiddialog-title": "Додавање референце",
