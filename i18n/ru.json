@@ -8,7 +8,8 @@
 			"Sunpriat",
 			"Kaganer",
 			"Mailman",
-			"Stjn"
+			"Stjn",
+			"Vlad5250"
 		]
 	},
 	"citoid-520-error": "Не удалось получить информацию из предоставленного идентификатора.",
@@ -20,7 +21,7 @@
 	"citoid-citefromiddialog-mode-manual": "Вручную",
 	"citoid-citefromiddialog-mode-reuse": "Повторное использование",
 	"citoid-citefromiddialog-search": "Поиск",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN или PMC/PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, название или цитата",
 	"citoid-citefromiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Идёт поиск, пожалуйста, подождите…",
 	"citoid-citefromiddialog-title": "Добавить ссылку на источник",
