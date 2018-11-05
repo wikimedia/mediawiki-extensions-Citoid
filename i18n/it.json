@@ -20,7 +20,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manuale",
 	"citoid-citefromiddialog-mode-reuse": "Riutilizza",
 	"citoid-citefromiddialog-search": "Cerca",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN o PMC/PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, titolo o citazione",
 	"citoid-citefromiddialog-search-placeholder": "ad esempio http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Ricerca in corso, attendi...",
 	"citoid-citefromiddialog-title": "Aggiungi una citazione",
