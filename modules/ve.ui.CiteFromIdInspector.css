@@ -10,17 +10,19 @@
 	padding: 0.5em;
 }
 
-.ve-ui-citeFromIdInspector-preview {
-	padding: 0.5em;
-}
-
-.ve-ui-citeFromIdInspector-preview + .ve-ui-citeFromIdInspector-preview {
-	border-top: 1px solid #ccc;
-}
-
 .ve-ui-citeFromIdInspector-dialog-error,
 .ve-ui-citeFromIdReferenceWidget {
 	line-height: 1.5em;
+}
+
+.ve-ui-citeFromIdReferenceWidget {
+	padding: 0.5em;
+}
+
+.ve-ui-citeFromIdReferenceWidget + .ve-ui-citeFromIdReferenceWidget {
+	margin-top: 0.75em;
+	padding-top: 0.75em;
+	border-top: 1px solid #ccc;
 }
 
 .ve-ui-citeFromIdReferenceWidget.oo-ui-labelElement .oo-ui-labelElement-label {
@@ -38,8 +40,12 @@
 	vertical-align: middle;
 }
 
-.ve-ui-citeFromIdReferenceWidget .ve-ui-previewWidget {
+.ve-ui-citeFromIdReferenceWidget .ve-ui-previewElement {
 	margin-top: 0.5em;
+}
+
+.ve-ui-citeFromIdReferenceWidget .ve-ui-previewElement > p:last-child {
+	margin-bottom: 0;
 }
 
 .ve-ui-citeFromIdReferenceWidget-insert-button {
