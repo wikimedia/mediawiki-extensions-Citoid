@@ -11,9 +11,7 @@
 }
 
 .ve-ui-citeFromIdInspector-preview {
-	max-height: 15em;
 	padding: 0.5em;
-	overflow-y: auto;
 }
 
 .ve-ui-citeFromIdInspector-preview + .ve-ui-citeFromIdInspector-preview {
