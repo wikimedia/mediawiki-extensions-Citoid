@@ -37,7 +37,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 			}
 		}
 	}
-	this.setIcon( icon || 'cite-web' );
+	this.setIcon( icon || 'ref-cite-web' );
 
 	// Add insert button
 	this.insertButton = new OO.ui.ButtonWidget( {
