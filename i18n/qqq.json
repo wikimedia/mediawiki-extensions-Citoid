@@ -9,7 +9,8 @@
 			"Purodha",
 			"McDutchie",
 			"Mormegil",
-			"BadDog"
+			"BadDog",
+			"Matma Rex"
 		]
 	},
 	"citoid-520-error": "Error message for when citoid service returns a 520 error",
@@ -31,6 +32,6 @@
 	"citoid-desc": "{{desc|name=Citoid|url=https://www.mediawiki.org/wiki/Citoid}}",
 	"citoid-referencecontextitem-convert-button": "Label for the button to convert a plain reference to a Citoid reference.\n{{Identical|Convert}}",
 	"citoid-referencecontextitem-convert-message": "Message explaining the functionality of the button to convert a plain reference to a Citoid reference.",
-	"citoid-template-type-map.json": "JSON object containing mapping of different document types to the wiki's template names. Each template must have TemplateData defined to map Citoid's fields to the template's fields. Document types: book, bookSection, journalArticle, magazineArticle, newspaperArticle, thesis, letter, manuscript, interview, film, artwork, webpage, report, bill, hearing, patent, statute, email, map, blogPost, instantMessage, forumPost, audioRecording, presentation, videoRecording, tvBroadcast, radioBroadcast, podcast, computerProgram, conferencePaper, document, encyclopediaArticle, dictionaryEntry\n{{Identical|Null}}",
+	"citoid-template-type-map.json": "{{ignored}}\n\nJSON object containing mapping of different document types to the wiki's template names. Each template must have TemplateData defined to map Citoid's fields to the template's fields. Document types: book, bookSection, journalArticle, magazineArticle, newspaperArticle, thesis, letter, manuscript, interview, film, artwork, webpage, report, bill, hearing, patent, statute, email, map, blogPost, instantMessage, forumPost, audioRecording, presentation, videoRecording, tvBroadcast, radioBroadcast, podcast, computerProgram, conferencePaper, document, encyclopediaArticle, dictionaryEntry",
 	"citoid-unknown-error": "Error message indicating that the service to create citations has returned an error or is temporarily malfunctioning, asking the user to try again later."
 }

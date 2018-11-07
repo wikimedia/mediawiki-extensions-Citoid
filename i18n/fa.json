@@ -19,7 +19,7 @@
 	"citoid-citefromiddialog-mode-manual": "دستی",
 	"citoid-citefromiddialog-mode-reuse": "استفادهٔ مجدد",
 	"citoid-citefromiddialog-search": "جستجو",
-	"citoid-citefromiddialog-search-label": "URL، DOI، ISBN یا PMC/PMID",
+	"citoid-citefromiddialog-search-label": "URL، DOI، ISBN، PMC/PMID عنوان یا یادکرد",
 	"citoid-citefromiddialog-search-placeholder": "مثلاً http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "درحال جستجو، لطفاً صبر کنید...",
 	"citoid-citefromiddialog-title": "افزودن یادکرد",
