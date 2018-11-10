@@ -14,7 +14,7 @@
 	"citoid-citefromiddialog-mode-manual": "Handmatig",
 	"citoid-citefromiddialog-mode-reuse": "Hergebruik",
 	"citoid-citefromiddialog-search": "Soek",
-	"citoid-citefromiddialog-search-label": "URL, DOI of PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, titel, of aanhaling",
 	"citoid-citefromiddialog-search-placeholder": "bv. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Soek tans, wag asseblief...",
 	"citoid-citefromiddialog-title": "Voeg 'n verwysing by",
