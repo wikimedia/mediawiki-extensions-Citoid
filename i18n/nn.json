@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Njardarlogar"
+			"Njardarlogar",
+			"Ranveig"
 		]
 	},
 	"citoid-520-error": "Klarte ikkje å henta informasjon frå den gjevne identifikatoren.",
@@ -9,11 +10,17 @@
 	"citoid-citefromiddialog-back": "Attende",
 	"citoid-citefromiddialog-credit": "Drive av $1",
 	"citoid-citefromiddialog-lookup-button": "Opprett",
+	"citoid-citefromiddialog-mode-auto": "Automatisk",
 	"citoid-citefromiddialog-mode-reuse": "Bruk om att",
+	"citoid-citefromiddialog-search": "Søk",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, tittel eller referanse",
 	"citoid-citefromiddialog-search-placeholder": "t.d. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Søkjer …",
 	"citoid-citefromiddialog-title": "Legg til ei kjelde",
 	"citoid-citefromiddialog-use-general-error-message": "Me klarte ikkje å laga ei kjelde til deg. Du kan laga ei manuelt ved å nytta «{{int:citoid-citefromiddialog-mode-manual}}»-fana over.",
 	"citoid-citefromidtool-title": "Siter",
-	"citoid-citefromidtool-title-othergroup": "Kjelde"
+	"citoid-citefromidtool-title-othergroup": "Kjelde",
+	"citoid-referencecontextitem-convert-button": "Konverter",
+	"citoid-referencecontextitem-convert-message": "Denne referansen inneheld berre ei ekstern lenkje. Du kan bruka «{{int:citoid-referencecontextitem-convert-button}}»-knappen under for å laga ein korrekt formatert referanse.",
+	"citoid-unknown-error": "Det oppstod ein ukjend feil som hindra laginga av ein referanse. Du kan prøva igjen seinare."
 }
