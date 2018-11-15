@@ -6,6 +6,8 @@
  * @ingroup Extensions
  */
 
+use MediaWiki\MediaWikiServices;
+
 class CitoidHooks {
 
 	/**
@@ -14,10 +16,11 @@ class CitoidHooks {
 	 * @return true
 	 */
 	public static function onResourceLoaderGetConfigVars( array &$vars ) {
-		global $wgCitoidServiceUrl;
+		$config = MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'citoid' );
 
 		$vars['wgCitoidConfig'] = [
-			'citoidServiceUrl' => $wgCitoidServiceUrl
+			'citoidServiceUrl' => $config->get( 'CitoidServiceUrl' ),
+			'fullRestbaseUrl' => $config->get( 'CitoidFullRestbaseURL' )
 		];
 
 		return true;

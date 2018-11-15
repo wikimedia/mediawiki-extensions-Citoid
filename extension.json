@@ -94,11 +94,25 @@
 			"CitoidHooks::onGetPreferences"
 		]
 	},
-	"VisualEditorPluginModules": [
-		"ext.citoid.visualEditor"
-	],
-	"config": {
-		"CitoidServiceUrl": "https://localhost:1970/api"
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.citoid.visualEditor"
+			]
+		}
 	},
-	"manifest_version": 1
+	"config": {
+		"CitoidServiceUrl": {
+			"value": false,
+			"description": "Full url to use the native citoid api, i.e. http://localhost:1970/api. Only used if VisualEditorFullRestbaseURL is null."
+		},
+		"CitoidFullRestbaseURL": {
+			"value": false,
+			"description": "Full url to use a citoid service running behind restbase, i.e. https://en.wikipedia.org/api/rest_. Overwrites default, which is to use VisualEditorFullRestbaseURL."
+		}
+	},
+	"ConfigRegistry": {
+		"citoid": "GlobalVarConfig::newInstance"
+	},
+	"manifest_version": 2
 }

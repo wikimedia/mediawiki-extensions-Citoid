@@ -106,7 +106,9 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	this.citeTools.splice( limit );
 
 	// Restbase URL, also used as Bool to determine whether or not to use Restbase for citoid
-	this.fullRestbaseUrl = mw.config.get( 'wgVisualEditorConfig' ).fullRestbaseUrl;
+	// By default this will use the URL set in the VE config, but can be overwritten in the citoid config
+	this.fullRestbaseUrl = mw.config.get( 'wgCitoidConfig' ).fullRestbaseUrl ||
+		mw.config.get( 'wgVisualEditorConfig' ).fullRestbaseUrl;
 
 	// API config for citoid service if VE is using Restbase
 	if ( this.fullRestbaseUrl ) {
@@ -115,7 +117,6 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 			ajax: {
 				// Request content language of wiki from citoid service
 				headers: { 'accept-language': mw.config.get( 'wgContentLanguage' ) },
-				crossDomain: false, // Support IE9: T134928
 				timeout: 20 * 1000, // 20 seconds
 				type: 'GET'
 			}
@@ -127,7 +128,6 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 				url: mw.config.get( 'wgCitoidConfig' ).citoidServiceUrl,
 				// Request content language of wiki from citoid service
 				headers: { 'accept-language': mw.config.get( 'wgContentLanguage' ) },
-				crossDomain: false, // Support IE9: T134928
 				timeout: 20 * 1000, // 20 seconds
 				type: 'GET'
 			}
