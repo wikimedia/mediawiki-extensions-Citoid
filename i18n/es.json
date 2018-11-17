@@ -4,7 +4,8 @@
 			"Macofe",
 			"MadriCR",
 			"Fitoschido",
-			"Chris TR"
+			"Chris TR",
+			"Dgstranz"
 		]
 	},
 	"citoid-520-error": "No se pudo obtener información a partir del identificador proporcionado.",
@@ -16,7 +17,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manual",
 	"citoid-citefromiddialog-mode-reuse": "Reusar",
 	"citoid-citefromiddialog-search": "Buscar",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN o PMC/PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, título o cita",
 	"citoid-citefromiddialog-search-placeholder": "por ejemplo, http://www.ejemplo.com",
 	"citoid-citefromiddialog-search-progress": "Buscando. Espera...",
 	"citoid-citefromiddialog-title": "Agregar una cita",
