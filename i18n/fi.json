@@ -4,7 +4,8 @@
 			"Stryn",
 			"Nike",
 			"Alluk.",
-			"Olimar"
+			"Olimar",
+			"Valtlait"
 		]
 	},
 	"citoid-520-error": "Tunnisteen tietojen hakeminen epäonnistui.",
@@ -25,6 +26,6 @@
 	"citoid-citefromidtool-title-othergroup": "Viite",
 	"citoid-desc": "Mahdollistaa citoid-palvelun käytön MediaWikissä",
 	"citoid-referencecontextitem-convert-button": "Muunna",
-	"citoid-referencecontextitem-convert-message": "Tämä viite koostuu pelkästä linkistä. Voit päivittää sen muoto-ohjeiden mukaiseksi viitteeksi käyttämällä \"{{int:citoid-referencecontextitem-convert-button}}\"-toimintoa.",
+	"citoid-referencecontextitem-convert-message": "Tämä viite koostuu pelkästä linkistä. Voit päivittää sen muoto-ohjeiden mukaiseksi viitteeksi käyttämällä ”{{int:citoid-referencecontextitem-convert-button}}”-toimintoa.",
 	"citoid-unknown-error": "Viitteen luominen epäonnistui tuntemattomasta syystä. Yritä myöhemmin uudelleen."
 }

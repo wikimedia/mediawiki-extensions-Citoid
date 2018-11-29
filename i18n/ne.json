@@ -4,7 +4,8 @@
 			"सरोज कुमार ढकाल",
 			"Nirjal stha",
 			"बिप्लब आनन्द",
-			"जनक राज भट्ट"
+			"जनक राज भट्ट",
+			"Nirajan pant"
 		]
 	},
 	"citoid-520-error": "प्रदान गरिएको पहिचानकर्ताबाट जानकारी प्राप्त गर्न असमर्थ।",
@@ -15,7 +16,7 @@
 	"citoid-citefromiddialog-mode-manual": "स्वयं",
 	"citoid-citefromiddialog-mode-reuse": "पुनः प्रयोग",
 	"citoid-citefromiddialog-search": "खोज",
-	"citoid-citefromiddialog-search-label": "युआरयल, डिओआई अथवा पीएमआईडी",
+	"citoid-citefromiddialog-search-label": "युआरयल, डिओआई, आईएसबीएन, पीएमसी/पीएमआईडी, शीर्षक, वा सन्दर्भ",
 	"citoid-citefromiddialog-search-placeholder": "उदाहरण http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "खोज्दै , पर्खनुहोस् ...",
 	"citoid-citefromiddialog-title": "सन्दर्भ थप्नुहोस",
