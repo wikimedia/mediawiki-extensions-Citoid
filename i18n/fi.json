@@ -5,7 +5,8 @@
 			"Nike",
 			"Alluk.",
 			"Olimar",
-			"Valtlait"
+			"Valtlait",
+			"Susannaanas"
 		]
 	},
 	"citoid-520-error": "Tunnisteen tietojen hakeminen epäonnistui.",
@@ -17,7 +18,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manuaalinen",
 	"citoid-citefromiddialog-mode-reuse": "Uudelleenkäyttö",
 	"citoid-citefromiddialog-search": "Hae",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN tai PMC/PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID tai QID",
 	"citoid-citefromiddialog-search-placeholder": "esim. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Haetaan, pieni hetki...",
 	"citoid-citefromiddialog-title": "Lisää viittaus",
