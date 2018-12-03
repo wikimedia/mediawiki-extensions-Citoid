@@ -21,8 +21,8 @@
 	"citoid-citefromiddialog-use-general-error-message": "Nismo mogli da napravimo referencu za vas. Možete je napraviti ručno korišćenjem kartice „{{int:citoid-citefromiddialog-mode-manual}}” iznad.",
 	"citoid-citefromidtool-title": "Referenca",
 	"citoid-citefromidtool-title-othergroup": "Referenca",
-	"citoid-desc": "Pruža pristupne tačke između usluge citoid i Medijavikija",
+	"citoid-desc": "Pruža pristupne tačke između usluge Citoid i MediaWiki-ja",
 	"citoid-referencecontextitem-convert-button": "Konvertuj",
-	"citoid-referencecontextitem-convert-message": "Ova referenca se sastoji samo od spoljašnje veze. Koristite dugme „{{int:citoid-referencecontextitem-convert-button}}” ispod da biste generisali ispravno formatiranu referencu.",
+	"citoid-referencecontextitem-convert-message": "Ova referenca se sastoji samo od spoljašnje veze. Možete da koristite dugme „{{int:citoid-referencecontextitem-convert-button}}” ispod da biste generisali ispravno formatiranu referencu.",
 	"citoid-unknown-error": "Došlo je do nepoznate greške koja nas je sprečila u pravljenju reference. Pokušajte ponovo kasnije."
 }
