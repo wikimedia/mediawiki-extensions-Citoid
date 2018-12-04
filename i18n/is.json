@@ -14,7 +14,7 @@
 	"citoid-citefromiddialog-mode-manual": "Handvirkt",
 	"citoid-citefromiddialog-mode-reuse": "Endurnota",
 	"citoid-citefromiddialog-search": "Leita",
-	"citoid-citefromiddialog-search-label": "Vefslóð, DOI, ISBN eða PMC/PMID",
+	"citoid-citefromiddialog-search-label": "Vefslóð, DOI, ISBN, PMC/PMID, titill eða tilvísun",
 	"citoid-citefromiddialog-search-placeholder": "t.d. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Leita, vinsamlegast bíddu...",
 	"citoid-citefromiddialog-title": "Bæta við heimild",
@@ -23,5 +23,6 @@
 	"citoid-citefromidtool-title-othergroup": "Tilvísun",
 	"citoid-desc": "Veitir aðgang á milli citoid þjónustunnar og MediaWiki.",
 	"citoid-referencecontextitem-convert-button": "Umbreyta",
+	"citoid-referencecontextitem-convert-message": "Tilvísunin samanstendur einungis af utanaðkomandi tengli. Þú getur notað \"{{int:citoid-referencecontextitem-convert-button}}\"-hnappinn hér fyrir neðan til að útbúa rétt sniðna tilvísun.",
 	"citoid-unknown-error": "Óþekkt villa átti sér stað sem kom í veg fyrir að heimildin væri búin til. Vinsamlegast reyndu aftur síðar."
 }
