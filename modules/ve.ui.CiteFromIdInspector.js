@@ -443,18 +443,18 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 			this.results = [];
 			this.lookupButton.setDisabled( true );
 			this.inDialog = data.inDialog || '';
-			this.replaceNode = data.replace && this.getSelectedNode();
+			this.replaceRefNode = data.replace && this.getSelectedNode();
 
 			// Collapse returns a new fragment, so update this.fragment
-			if ( !this.replaceNode ) {
+			if ( !data.replace ) {
 				this.fragment = this.getFragment().collapseToEnd().select();
 			}
 
 			this.search.setInternalList( this.getFragment().getDocument().getInternalList() );
 			this.modeIndex.getTabPanel( 'reuse' ).tabItem.setDisabled( this.search.isIndexEmpty() );
 
-			if ( this.replaceNode ) {
-				this.referenceModel = ve.dm.MWReferenceModel.static.newFromReferenceNode( this.replaceNode );
+			if ( this.replaceRefNode ) {
+				this.referenceModel = ve.dm.MWReferenceModel.static.newFromReferenceNode( this.replaceRefNode );
 			} else {
 				// Create model
 				this.referenceModel = new ve.dm.MWReferenceModel( this.fragment.getDocument() );
