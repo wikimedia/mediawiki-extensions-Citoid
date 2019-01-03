@@ -1,5 +1,5 @@
 ( function () {
-	var i, name, toolClass, toolGroups, map, requireMappings,
+	var i, name, toolClass, toolGroups, map, requireMappings, origRenderBody,
 		missingMappings = [];
 
 	// Don't create tool unless the configuration message is present
@@ -144,6 +144,8 @@
 		return null;
 	};
 
+	origRenderBody = ve.ui.MWReferenceContextItem.prototype.renderBody;
+
 	/**
 	 * @inheritdoc
 	 */
@@ -152,7 +154,7 @@
 			contextItem = this,
 			refNode = this.getReferenceNode();
 
-		this.$body.append( this.getRendering() );
+		origRenderBody.call( this );
 
 		if ( !refNode ) {
 			return;
