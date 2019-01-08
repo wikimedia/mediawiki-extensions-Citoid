@@ -46,7 +46,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					title: {
 						label: 'Source title',
@@ -60,7 +60,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					date: {
 						label: 'Source date',
@@ -74,7 +74,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					accessdate: {
 						label: 'URL access date',
@@ -88,7 +88,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					website: {
 						label: 'Website title',
@@ -102,7 +102,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					publisher: {
 						label: 'Publisher',
@@ -116,7 +116,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					last: {
 						label: 'Last name',
@@ -133,7 +133,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					first: {
 						label: 'First name',
@@ -147,7 +147,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					authorlink: {
 						label: 'Author link',
@@ -163,7 +163,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					last2: {
 						label: 'Last name',
@@ -177,7 +177,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					first2: {
 						label: 'First name',
@@ -191,7 +191,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					authorlink2: {
 						label: 'Author link',
@@ -205,7 +205,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					others: {
 						label: 'Others',
@@ -219,7 +219,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					month: {
 						label: 'Month of publication',
@@ -233,7 +233,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					year: {
 						label: 'Year of publication',
@@ -247,7 +247,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					origyear: {
 						label: 'Original year',
@@ -261,7 +261,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					'editor-last': {
 						label: 'Editor last name',
@@ -275,7 +275,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					'editor-first': {
 						label: 'Editor first name',
@@ -289,7 +289,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					'editor-link': {
 						label: 'Editor link',
@@ -303,7 +303,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					series: {
 						label: 'Series identifier',
@@ -317,7 +317,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					location: {
 						label: 'Location of publication',
@@ -331,7 +331,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					'publication-place': {
 						label: 'Place of publication',
@@ -345,7 +345,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					'publication-date': {
 						label: 'Publication date',
@@ -359,7 +359,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					page: {
 						label: 'Page',
@@ -373,7 +373,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					pages: {
 						label: 'Pages',
@@ -387,7 +387,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					nopp: {
 						label: 'No pp',
@@ -401,7 +401,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					at: {
 						label: 'At',
@@ -415,7 +415,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					language: {
 						label: 'Language',
@@ -429,7 +429,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					'trans-title': { // Original field was trans_title - renamed here
 						label: 'Translated title',
@@ -443,7 +443,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					type: {
 						label: 'Type',
@@ -457,7 +457,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					format: {
 						label: 'Format',
@@ -471,7 +471,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					arxiv: {
 						label: 'arXiv identifier',
@@ -485,7 +485,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					asin: {
 						label: 'AZIN',
@@ -499,7 +499,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					'asin-tld': {
 						label: 'AZIN TLD',
@@ -513,7 +513,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					bibcode: {
 						label: 'Bibcode',
@@ -527,7 +527,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					doi: {
 						label: 'DOI',
@@ -541,7 +541,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					'doi-brokendate': { // Original field was doi_brokendate - renamed
 						label: 'DOI broken date',
@@ -555,7 +555,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					isbn: {
 						label: 'ISBN',
@@ -569,7 +569,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					issn: {
 						label: 'ISSN',
@@ -583,7 +583,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					jfm: {
 						label: 'jfm code',
@@ -597,7 +597,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					jstor: {
 						label: 'JSTOR',
@@ -611,7 +611,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					lccn: {
 						label: 'LCCN',
@@ -625,7 +625,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					mr: {
 						label: 'MR',
@@ -639,7 +639,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					oclc: {
 						label: 'OCLC',
@@ -653,7 +653,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					ol: {
 						label: 'OL',
@@ -667,7 +667,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					osti: {
 						label: 'OSTI',
@@ -681,7 +681,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					pmc: {
 						label: 'PMC',
@@ -695,7 +695,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					pmid: {
 						label: 'PMID',
@@ -709,7 +709,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					rfc: {
 						label: 'RFC',
@@ -723,7 +723,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					ssrn: {
 						label: 'SSRN',
@@ -737,7 +737,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					zbl: {
 						label: 'Zbl',
@@ -751,7 +751,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					id: {
 						label: 'id',
@@ -765,7 +765,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					archiveurl: {
 						label: 'Archive URL',
@@ -779,7 +779,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					archivedate: {
 						label: 'Archive date',
@@ -793,7 +793,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					deadurl: {
 						label: 'Dead URL',
@@ -807,7 +807,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					quote: {
 						label: 'Quote',
@@ -821,7 +821,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					ref: {
 						label: 'Ref',
@@ -835,13 +835,13 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					separator: {
 						label: 'Separator',
 						description: 'The punctuation used to separate lists of authors, editors, etc.; a space must be encoded as &#32; do not use an asterisk, colon, or hash mark',
 						type: 'string',
-						'default': '.',
+						default: '.',
 						required: false,
 						suggested: false,
 						example: null,
@@ -855,7 +855,7 @@ QUnit.module( 'ext.citoid' );
 						label: 'Postscript',
 						description: 'The closing punctuation for the citation; ignored if \'quote\' is defined',
 						type: 'string',
-						'default': '.',
+						default: '.',
 						required: false,
 						suggested: false,
 						example: null,
@@ -877,7 +877,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					laysource: {
 						label: 'Lay source',
@@ -891,7 +891,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					laydate: {
 						label: 'Lay date',
@@ -905,7 +905,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					'author-mask': {
 						label: 'Author mask',
@@ -919,7 +919,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					last3: {
 						label: 'Last name',
@@ -933,7 +933,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					first3: {
 						label: 'First name',
@@ -947,7 +947,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					authorlink3: {
 						label: 'Author link',
@@ -961,7 +961,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					last4: {
 						label: 'Last name',
@@ -975,7 +975,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					first4: {
 						label: 'First name',
@@ -989,7 +989,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					authorlink4: {
 						label: 'Author link',
@@ -1003,7 +1003,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					last5: {
 						label: 'Last name',
@@ -1017,7 +1017,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					first5: {
 						label: 'First name',
@@ -1031,7 +1031,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					authorlink5: {
 						label: 'Author link',
@@ -1045,7 +1045,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					last6: {
 						label: 'Last name',
@@ -1059,7 +1059,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					first6: {
 						label: 'First name',
@@ -1073,7 +1073,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					authorlink6: {
 						label: 'Author link',
@@ -1087,7 +1087,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					last7: {
 						label: 'Last name',
@@ -1101,7 +1101,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					first7: {
 						label: 'First name',
@@ -1115,7 +1115,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					authorlink7: {
 						label: 'Author link',
@@ -1129,7 +1129,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					last8: {
 						label: 'Last name',
@@ -1143,7 +1143,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					first8: {
 						label: 'First name',
@@ -1157,7 +1157,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					authorlink8: {
 						label: 'Author link',
@@ -1171,7 +1171,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					last9: {
 						label: 'Last name',
@@ -1185,7 +1185,7 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					first9: {
 						label: 'First name',
@@ -1199,7 +1199,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					authorlink9: {
 						label: 'Author link',
@@ -1213,13 +1213,13 @@ QUnit.module( 'ext.citoid' );
 						example: null,
 						deprecated: false,
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					'author-name-separator': {
 						label: 'Author name separator',
 						description: 'Changes the separator between last and first names; defaults to a comma and space; a space must be encoded as &#32; do not use an asterisk, colon, or hash mark',
 						type: 'string',
-						'default': ', ',
+						default: ', ',
 						required: false,
 						suggested: false,
 						example: null,
@@ -1233,7 +1233,7 @@ QUnit.module( 'ext.citoid' );
 						label: 'Author separator',
 						description: 'Changes the separator between authors; defaults to a semicolon and space; a space must be encoded as &#32; do not use an asterisk, colon, or hash mark',
 						type: 'string',
-						'default': '; ',
+						default: '; ',
 						required: false,
 						suggested: false,
 						example: null,
@@ -1247,7 +1247,7 @@ QUnit.module( 'ext.citoid' );
 						label: 'Display authors',
 						description: 'Number of authors to display before \'et al.\' is used; default is to do so after 8 of 9 are listed.',
 						type: 'number',
-						'default': '8',
+						default: '8',
 						aliases: [
 							'displayauthors'
 						],
@@ -1269,7 +1269,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					subscription: {
 						label: 'Subscription required',
@@ -1283,7 +1283,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					registration: {
 						label: 'Registration required',
@@ -1297,7 +1297,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					},
 					edition: {
 						label: 'Edition',
@@ -1311,7 +1311,7 @@ QUnit.module( 'ext.citoid' );
 
 						],
 						autovalue: null,
-						'default': null
+						default: null
 					}
 				},
 				sets: [ {
