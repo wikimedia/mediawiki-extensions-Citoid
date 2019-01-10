@@ -13,6 +13,7 @@
 			"Umherirrender"
 		]
 	},
+	"citoid-action-replace": "Label for button in reference dialog to change a reference type by replacing the contents of an existing reference using Citoid",
 	"citoid-citation-widget-insert-button": "[[File:Citoid insert button.png]]\n----\nLabel for the button to insert a chosen reference.\n{{Identical|Insert}}",
 	"citoid-citoiddialog-back": "[[File:Citoid back button.png]]\n----\nLabel for the button to go back to the generate panel in the inspector.\n{{Identical|Back}}",
 	"citoid-citoiddialog-credit": "[[File:Citoid credit text.png]]\n----\nText giving credit for the source of the retrieved citation; variable is name of source, i.e. 'Zotero'.",
@@ -25,6 +26,7 @@
 	"citoid-citoiddialog-search-placeholder": "{{doc-important|Do not translate example.com as it is a domain name specifically reserved by IANA for examples.}}\n\nPlaceholder for the search field.",
 	"citoid-citoiddialog-search-progress": "Message for when the search is in progress",
 	"citoid-citoiddialog-title": "The title displayed on the dialog",
+	"citoid-citoiddialog-title-replace": "The title displayed on the dialog when replacing an existing reference",
 	"citoid-citoiddialog-use-general-error-message": "Label notifying the user there was a problem creating their reference, and offering to use the full citation tool.",
 	"citoid-citoidtool-title": "Label for the button to add a citation in the toolbar\n{{Identical|Cite}}",
 	"citoid-citoidtool-title-othergroup": "Label for the button to add a citation in the insert menu\n{{Identical|Citation}}",

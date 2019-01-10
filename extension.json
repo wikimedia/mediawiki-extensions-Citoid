@@ -49,6 +49,7 @@
 				"ext.citoid.visualEditor.data"
 			],
 			"messages": [
+				"citoid-action-replace",
 				"citoid-citation-widget-insert-button",
 				"citoid-citoiddialog-back",
 				"citoid-citoiddialog-credit",
@@ -61,6 +62,7 @@
 				"citoid-citoiddialog-search-placeholder",
 				"citoid-citoiddialog-search-progress",
 				"citoid-citoiddialog-title",
+				"citoid-citoiddialog-title-replace",
 				"citoid-citoiddialog-use-general-error-message",
 				"citoid-citoidtool-title",
 				"citoid-citoidtool-title-othergroup",

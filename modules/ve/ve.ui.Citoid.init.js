@@ -216,4 +216,28 @@
 		}
 	};
 
+	// Add a "Replace reference" action to reference and citation dialogs
+	function extendDialog( dialogClass ) {
+		var getActionProcess = dialogClass.prototype.getActionProcess;
+		dialogClass.prototype.getActionProcess = function ( action ) {
+			if ( action === 'replace' ) {
+				return new OO.ui.Process( function () {
+					this.close( { action: action } ).closed.then( function () {
+						var surface = this.getManager().getSurface();
+						surface.execute( 'citoid', 'open', true );
+					}.bind( this ) );
+				}, this );
+			}
+			return getActionProcess.call( this, action );
+		};
+		dialogClass.static.actions.push( {
+			action: 'replace',
+			label: OO.ui.deferMsg( 'citoid-action-replace' ),
+			icon: 'quotes',
+			modes: [ 'edit' ]
+		} );
+	}
+	extendDialog( ve.ui.MWReferenceDialog );
+	extendDialog( ve.ui.MWCitationDialog );
+
 }() );

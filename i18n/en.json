@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": []
 	},
+	"citoid-action-replace": "Change reference type",
 	"citoid-citation-widget-insert-button": "Insert",
 	"citoid-citoiddialog-back": "Back",
 	"citoid-citoiddialog-credit": "Powered by $1",
@@ -14,6 +15,7 @@
 	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Searching, please wait...",
 	"citoid-citoiddialog-title": "Add a citation",
+	"citoid-citoiddialog-title-replace": "Replace citation",
 	"citoid-citoiddialog-use-general-error-message": "We couldn't make a citation for you. You can create one manually using the \"{{int:citoid-citoiddialog-mode-manual}}\" tab above.",
 	"citoid-citoidtool-title": "Cite",
 	"citoid-citoidtool-title-othergroup": "Citation",

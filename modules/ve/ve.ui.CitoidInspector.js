@@ -469,6 +469,12 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 				}
 			}
 
+			if ( data.replace ) {
+				this.title
+					.setLabel( ve.msg( 'citoid-citoiddialog-title-replace' ) )
+					.setTitle( ve.msg( 'citoid-citoiddialog-title-replace' ) );
+			}
+
 			if ( data.lookup ) {
 				this.lookupInput.setValue( data.lookup );
 				this.executeAction( 'lookup' );
