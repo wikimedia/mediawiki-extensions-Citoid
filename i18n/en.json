@@ -22,5 +22,5 @@
 	"citoid-referencecontextitem-convert-button": "Convert",
 	"citoid-referencecontextitem-convert-message": "This reference consists of just an external link. You can use the \"{{int:citoid-referencecontextitem-convert-button}}\" button below to generate a properly formatted reference.",
 	"citoid-template-type-map.json": "null",
-	"citoid-unknown-error": "An unknown error has occured that prevented us from creating a citation. Please try again later."
+	"citoid-unknown-error": "An unknown error has occurred that prevented us from creating a citation. Please try again later."
 }
