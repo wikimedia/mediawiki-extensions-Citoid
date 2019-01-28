@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kumkumuk",
-			"1917 Ekim Devrimi"
+			"1917 Ekim Devrimi",
+			"Orbot707"
 		]
 	},
 	"citoid-520-error": "Dayoği ra malumata iınasnayışi nê gêriyaya",
@@ -14,7 +15,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manuel",
 	"citoid-citefromiddialog-mode-reuse": "Fına bıkarn",
 	"citoid-citefromiddialog-search": "Cı geyre",
-	"citoid-citefromiddialog-search-label": "URL, DOI yana PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, sername ya ki vatış",
 	"citoid-citefromiddialog-search-placeholder": "mesela http://www.zazaki.zz",
 	"citoid-citefromiddialog-search-progress": "Vineno,  tay bıpawê...",
 	"citoid-citefromiddialog-title": "Çıme dek",
