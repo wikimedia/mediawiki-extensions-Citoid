@@ -3,7 +3,8 @@
 		"authors": [
 			"Kenrick95",
 			"Arief",
-			"Gombang"
+			"Gombang",
+			"William Surya Permana"
 		]
 	},
 	"citoid-520-error": "Tidak dapat mengambil informasi dari penyedia pengenal.",
@@ -22,8 +23,8 @@
 	"citoid-citefromiddialog-use-general-error-message": "Kami tidak dapat membuat kutipan untuk Anda. Anda dapat membuatnya secara manual dengan tab \"{{int:citoid-citefromiddialog-mode-manual}}\" di atas.",
 	"citoid-citefromidtool-title": "Kutip",
 	"citoid-citefromidtool-title-othergroup": "Kutipan",
-	"citoid-desc": "Sediakan titik akses antara layanan kutipan dan MediaWiki",
-	"citoid-referencecontextitem-convert-button": "Ubah",
+	"citoid-desc": "Menyediakan titik akses antara layanan kutipan dan MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Konversi",
 	"citoid-referencecontextitem-convert-message": "Referensi ini hanya berisi pranala luar. Anda dapat menggunakan tombol \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah untuk membuat referensi yang sudah diformat dengan baik.",
 	"citoid-unknown-error": "Galat yang tidak diketahui menghadang kami membuat kutipan. Silakan coba lagi nanti."
 }
