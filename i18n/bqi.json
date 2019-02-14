@@ -7,13 +7,14 @@
 	"citoid-citation-widget-insert-button": "لاهاڌن",
 	"citoid-citefromiddialog-back": "ڤاپوشت",
 	"citoid-citefromiddialog-lookup-button": "راس کردن",
-	"citoid-citefromiddialog-mode-auto": "خود أنجوم",
+	"citoid-citefromiddialog-mode-auto": "خود ٱنجوم",
 	"citoid-citefromiddialog-mode-manual": "دأسدي",
-	"citoid-citefromiddialog-mode-reuse": "ز نۉ ب کار ڤأندن",
-	"citoid-citefromiddialog-search": "پی جۈري",
+	"citoid-citefromiddialog-mode-reuse": "ز نۉ ب کار ڤٱندن",
+	"citoid-citefromiddialog-search": "پاٛی جۊری",
 	"citoid-citefromiddialog-search-label": "URL, DOI or PMID",
-	"citoid-citefromiddialog-search-placeholder": "هأمچنۈ چي... http://www.example.com",
-	"citoid-citefromiddialog-title": "إزاف کردن یأ ڤيرجا",
+	"citoid-citefromiddialog-search-placeholder": "هٱمچونو چی... http://www.example.com",
+	"citoid-citefromiddialog-search-progress": "میٛن هال و بال پاٛی جۊری، لوتفٱن دٱس ڤاڌارین....",
+	"citoid-citefromiddialog-title": "اْزاف کردن یٱ ڤیرجا",
 	"citoid-citefromidtool-title": "ڤيرجا",
-	"citoid-citefromidtool-title-othergroup": "جاديارکاري"
+	"citoid-citefromidtool-title-othergroup": "جادیارکاری"
 }
