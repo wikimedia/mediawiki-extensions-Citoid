@@ -323,16 +323,13 @@ ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( tabPanelName, proc
  * @param {OO.ui.OptionWidget} item Chosen item
  */
 ve.ui.CiteFromIdInspector.prototype.onSourceSelectChoose = function ( item ) {
-	var data = item.getData(),
-		// Closing the dialog may unset some properties, so cache the ones we want
-		fragment = this.getFragment(),
-		manager = this.getManager();
+	var commandName = item.getData(),
+		surface = this.getManager().getSurface();
 
 	// Close this dialog then open the new dialog
 	this.close().closed.then( function () {
-		manager.getSurface().execute( 'mwcite', 'open', data.windowName, $.extend( {
-			fragment: fragment
-		}, data.dialogData ) );
+		var command = ve.ui.commandRegistry.lookup( commandName );
+		command.execute( surface );
 	} );
 };
 
