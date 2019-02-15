@@ -46,10 +46,8 @@ ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
 		items.push( new OO.ui.DecoratedOptionWidget( {
 			icon: item.icon,
 			label: item.title,
-			data: {
-				windowName: 'cite-' + item.name,
-				dialogData: { template: item.template }
-			}
+			// Command name
+			data: 'cite-' + item.name
 		} ) );
 	}
 
@@ -57,7 +55,8 @@ ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
 	this.refBasic = new OO.ui.DecoratedOptionWidget( {
 		icon: 'reference',
 		label: ve.msg( 'cite-ve-dialogbutton-reference-full-label' ),
-		data: { windowName: 'reference' },
+		// Command name
+		data: 'reference',
 		classes: [ 've-ui-citeSourceSelectWidget-basic' ]
 	} );
 	items.push( this.refBasic );
