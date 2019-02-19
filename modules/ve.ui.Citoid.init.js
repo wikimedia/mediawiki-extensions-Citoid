@@ -156,7 +156,7 @@
 
 		origRenderBody.call( this );
 
-		if ( !refNode ) {
+		if ( !refNode || this.isReadOnly() ) {
 			return;
 		}
 
