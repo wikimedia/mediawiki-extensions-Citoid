@@ -20,6 +20,7 @@
 	"citoid-citoidtool-title": "Cite",
 	"citoid-citoidtool-title-othergroup": "Citation",
 	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
+	"citoid-isbnscannerdialog-title": "Scan ISBN barcode",
 	"citoid-referencecontextitem-convert-button": "Convert",
 	"citoid-referencecontextitem-convert-message": "You can use the \"{{int:citoid-referencecontextitem-convert-button}}\" button below to generate a properly formatted reference from the external link.",
 	"citoid-template-type-map.json": "null",

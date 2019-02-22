@@ -32,6 +32,7 @@
 	"citoid-citoidtool-title": "Label for the button to add a citation in the toolbar\n{{Identical|Cite}}",
 	"citoid-citoidtool-title-othergroup": "Label for the button to add a citation in the insert menu\n{{Identical|Citation}}",
 	"citoid-desc": "{{desc|name=Citoid|url=https://www.mediawiki.org/wiki/Citoid}}",
+	"citoid-isbnscannerdialog-title": "Title for ISBN scanner dialog",
 	"citoid-referencecontextitem-convert-button": "Label for the button to convert a plain reference to a Citoid reference.\n{{Identical|Convert}}",
 	"citoid-referencecontextitem-convert-message": "Message explaining the functionality of the button to convert a plain reference to a Citoid reference.",
 	"citoid-template-type-map.json": "{{ignored}}\nJSON object containing mapping of different document types to the wiki's template names.\n\nEach template must have TemplateData defined to map Citoid's fields to the template's fields.\n\nDocument types: book, bookSection, journalArticle, magazineArticle, newspaperArticle, thesis, letter, manuscript, interview, film, artwork, webpage, report, bill, hearing, patent, statute, email, map, blogPost, instantMessage, forumPost, audioRecording, presentation, videoRecording, tvBroadcast, radioBroadcast, podcast, computerProgram, conferencePaper, document, encyclopediaArticle, dictionaryEntry",

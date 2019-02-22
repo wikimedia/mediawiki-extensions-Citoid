@@ -11,3 +11,11 @@ Bartosz Dziewoński <matma.rex@gmail.com>
 David Lynch <dlynch@wikimedia.org>
 James D. Forrester <jforrester@wikimedia.org>
 Kunal Mehta <legoktm@gmail.com>
+
+Libraries used (alphabetically)
+
+quaggaJS
+ – https://github.com/ericblade/quagga2
+ – MIT licence
+ – Christoph Oberhofer <ch.oberhofer@gmail.com>
+   Eric Blade <blade.eric@gmail.com>
