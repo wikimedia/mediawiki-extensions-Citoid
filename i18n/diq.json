@@ -3,7 +3,8 @@
 		"authors": [
 			"Kumkumuk",
 			"1917 Ekim Devrimi",
-			"Orbot707"
+			"Orbot707",
+			"Mirzali"
 		]
 	},
 	"citoid-520-error": "Dayoği ra malumata iınasnayışi nê gêriyaya",
@@ -23,7 +24,7 @@
 	"citoid-citefromidtool-title": "Çıme",
 	"citoid-citefromidtool-title-othergroup": "Çıme",
 	"citoid-desc": "Citoid ra MediaWiki are dı cay irtibat vırazeno",
-	"citoid-referencecontextitem-convert-button": "Açarn",
+	"citoid-referencecontextitem-convert-button": "Açarne",
 	"citoid-referencecontextitem-convert-message": "Enonyew referans tenya grey tebwri vırazeno. Timaryaye mırecet kerdışi rê cér ra \"{{int:citoid-referencecontextitem-convert-button}}\" şenê bıkarnê",
 	"citoid-unknown-error": "Nêzanıyen yew xeta amê meydan u çıme vıraştennrê bena mani. Vanê se fına bıcerebne."
 }
