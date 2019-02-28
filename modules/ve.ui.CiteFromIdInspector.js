@@ -303,7 +303,11 @@ ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( tabPanelName, proc
 			break;
 		case 'reuse':
 			this.search.buildIndex();
-			this.search.getQuery().focus();
+			// Don't auto-focus on mobile as the keyboard
+			// covers the search results.
+			if ( !OO.ui.isMobile() ) {
+				this.search.getQuery().focus();
+			}
 			break;
 	}
 	// Result tab panel goes 'fullscreen' by hiding the tab widget
