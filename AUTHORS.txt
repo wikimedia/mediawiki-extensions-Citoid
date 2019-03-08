@@ -1,0 +1,13 @@
+Principal Authors (major contributors, alphabetically)
+
+Ed Sanders <esanders@wikimedia.org>
+Marielle Volz <marielle.volz@gmail.com>
+Moriel Schottlender <mschottlender@wikimedia.org>
+
+Patch Contributors (minor contributors, alphabetically)
+
+Alex Monk <krenair@gmail.com>
+Bartosz Dziewoński <matma.rex@gmail.com>
+David Lynch <dlynch@wikimedia.org>
+James D. Forrester <jforrester@wikimedia.org>
+Kunal Mehta <legoktm@gmail.com>
