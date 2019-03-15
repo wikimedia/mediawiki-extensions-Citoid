@@ -7,6 +7,8 @@
  */
 
 use MediaWiki\MediaWikiServices;
+/* @phan-suppress-next-line */
+use Wikibase\Repo\WikibaseRepo;
 
 class CitoidHooks {
 
@@ -20,8 +22,27 @@ class CitoidHooks {
 
 		$vars['wgCitoidConfig'] = [
 			'citoidServiceUrl' => $config->get( 'CitoidServiceUrl' ),
-			'fullRestbaseUrl' => $config->get( 'CitoidFullRestbaseURL' )
+			'fullRestbaseUrl' => $config->get( 'CitoidFullRestbaseURL' ),
+			'wbFullRestbaseUrl' => $config->get( 'WBCitoidFullRestbaseURL' ),
 		];
+
+		return true;
+	}
+
+	/**
+	 * Loads front-end wikibase citoid module
+	 * @param OutputPage &$out
+	 * @return true
+	 */
+	public static function onBeforePageDisplay( OutputPage &$out ) {
+		/* @phan-suppress-next-line PhanUndeclaredClassConstant*/
+		if ( class_exists( WikibaseRepo::class ) ) {
+			/* @phan-suppress-next-line PhanUndeclaredClassMethod*/
+			$lookup = WikibaseRepo::getDefaultInstance()->getEntityNamespaceLookup();
+			if ( $lookup->isEntityNamespace( $out->getTitle()->getNamespace() ) ) {
+				$out->addModules( 'ext.citoid.wikibase.init' );
+			}
+		}
 
 		return true;
 	}
@@ -64,6 +85,7 @@ class CitoidHooks {
 		$preferences['citoid-mode'] = [
 			'type' => 'api'
 		];
+
 		return true;
 	}
 }

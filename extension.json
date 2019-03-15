@@ -1,6 +1,6 @@
 {
 	"name": "Citoid",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"author": [
 		"Marielle Volz",
 		"Moriel Schottlender",
@@ -13,8 +13,6 @@
 	"requires": {
 		"MediaWiki": ">= 1.32.0",
 		"extensions": {
-			"VisualEditor": ">= 0.1.1",
-			"Cite": ">= 1.0.0"
 		}
 	},
 	"MessagesDirs": {
@@ -24,7 +22,8 @@
 	},
 	"AutoloadClasses": {
 		"CitoidHooks": "includes/CitoidHooks.php",
-		"CitoidDataModule": "includes/CitoidDataModule.php"
+		"CitoidDataModule": "includes/CitoidDataModule.php",
+		"WBCitoidDataModule": "includes/WBCitoidDataModule.php"
 	},
 	"ResourceModules": {
 		"ext.citoid.visualEditor": {
@@ -76,6 +75,49 @@
 		},
 		"ext.citoid.visualEditor.data": {
 			"class": "CitoidDataModule"
+		},
+		"ext.citoid.wikibase.init": {
+			"scripts": [
+				"modules/wikibase/wb.Citoid.init.js"
+			],
+			"dependencies": [
+				"ext.citoid.wikibase.data"
+			],
+			"targets": [
+				"desktop"
+			]
+		},
+		"ext.citoid.wikibase.data": {
+			"class": "WBCitoidDataModule"
+		},
+		"ext.citoid.wikibase": {
+			"scripts": [
+				"modules/wikibase/wb.CitoidClient.js",
+				"modules/wikibase/wb.CitoidLanguageConverter.js",
+				"modules/wikibase/wb.CitoidPendingDialog.js",
+				"modules/wikibase/wb.CitoidToolReferenceEditor.js",
+				"modules/wikibase/wb.CitoidToolTabRenderer.js",
+				"modules/wikibase/wb.CitoidTool.js"
+			],
+			"styles": [
+				"modules/wikibase/wb.Citoid.css"
+			],
+			"dependencies": [
+				"ext.citoid.wikibase.init",
+				"oojs-ui",
+				"jquery.ui.tabs"
+			],
+			"messages": [
+				"citoid-wb-referenceview-tabs-automatic",
+				"citoid-wb-referenceview-tabs-search",
+				"citoid-wb-referenceview-tabs-search-label",
+				"citoid-wb-pendingdialog-error",
+				"citoid-wb-pendingdialog-message",
+				"citoid-wb-pendingdialog-title"
+			],
+			"targets": [
+				"desktop"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
@@ -88,6 +130,9 @@
 		],
 		"ResourceLoaderTestModules": [
 			"CitoidHooks::onResourceLoaderTestModules"
+		],
+		"BeforePageDisplay": [
+			"CitoidHooks::onBeforePageDisplay"
 		],
 		"GetPreferences": [
 			"CitoidHooks::onGetPreferences"
@@ -108,6 +153,10 @@
 		"CitoidFullRestbaseURL": {
 			"value": false,
 			"description": "Full url to use a citoid service running behind restbase, i.e. https://en.wikipedia.org/api/rest_. Overwrites default, which is to use VisualEditorFullRestbaseURL."
+		},
+		"WBCitoidFullRestbaseURL": {
+			"value": false,
+			"description": "Full url to use a citoid service running behind restbase, used by wikibase module/repository, i.e. https://en.wikipedia.org/api/rest_"
 		}
 	},
 	"ConfigRegistry": {

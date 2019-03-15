@@ -6,6 +6,8 @@
 	],
 	"globals": {
 		"ve": true,
+		"wikibase": true,
+		"dataValues": true,
 		"OO": false,
 		"mw": false
 	},

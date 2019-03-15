@@ -1,0 +1,13 @@
+/*!
+ * Wikibase citoid styles
+ */
+
+.wikibase-referenceview-tabs label {
+	padding-right: 1em;
+}
+
+span.wikibase-toolbarbutton.wikibase-toolbar-item.wikibase-toolbar-button.wikibase-citoid-search {
+	float: right;
+	padding-right: 193px;
+}
+

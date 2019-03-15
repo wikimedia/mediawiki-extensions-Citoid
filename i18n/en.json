@@ -21,5 +21,11 @@
 	"citoid-referencecontextitem-convert-button": "Convert",
 	"citoid-referencecontextitem-convert-message": "This reference consists of just an external link. You can use the \"{{int:citoid-referencecontextitem-convert-button}}\" button below to generate a properly formatted reference.",
 	"citoid-template-type-map.json": "null",
-	"citoid-unknown-error": "An unknown error has occurred that prevented us from creating a citation. Please try again later."
+	"citoid-unknown-error": "An unknown error has occurred that prevented us from creating a citation. Please try again later.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatic",
+	"citoid-wb-referenceview-tabs-search": "search",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:",
+	"citoid-wb-pendingdialog-error": "Unable to generate a reference from this input. Use the manual tab, or try again.",
+	"citoid-wb-pendingdialog-message": "Generating a reference for you... please wait...",
+	"citoid-wb-pendingdialog-title": "Generating Citation"
 }
