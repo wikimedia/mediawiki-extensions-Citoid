@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mogoeilor"
+			"Mogoeilor",
+			"Kikumoron"
 		]
 	},
 	"citoid-citation-widget-insert-button": "لاهاڌن",
 	"citoid-citefromiddialog-back": "ڤاپوشت",
+	"citoid-citefromiddialog-credit": "کیٛشیاری ڤابیڌاْ ڤا.",
 	"citoid-citefromiddialog-lookup-button": "راس کردن",
 	"citoid-citefromiddialog-mode-auto": "خود ٱنجوم",
 	"citoid-citefromiddialog-mode-manual": "دٱسدی",
