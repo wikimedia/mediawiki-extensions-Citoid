@@ -4,7 +4,8 @@
 			"Aquilax",
 			"Лорд Бъмбъри",
 			"Vodnokon4e",
-			"Spas.Z.Spasov"
+			"Spas.Z.Spasov",
+			"Ted Masters"
 		]
 	},
 	"citoid-520-error": "Неуспешно извличане на информация от предоставения идентификатор.",
@@ -16,7 +17,7 @@
 	"citoid-citefromiddialog-mode-manual": "Ръчна настройка",
 	"citoid-citefromiddialog-mode-reuse": "Повторно използване",
 	"citoid-citefromiddialog-search": "Търсене",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN или PMC/PMID",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, заглавие или цитат",
 	"citoid-citefromiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Търсене, моля изчакайте...",
 	"citoid-citefromiddialog-title": "Добавяне на цитат",
