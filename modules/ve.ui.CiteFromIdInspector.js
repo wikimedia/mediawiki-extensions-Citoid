@@ -72,38 +72,19 @@ ve.ui.CiteFromIdInspector.static.actions = [
 	}
 ];
 
-ve.ui.CiteFromIdInspector.static.citationToolsLimit = 5;
-
 /* Methods */
 
 /**
  * @inheritdoc
  */
 ve.ui.CiteFromIdInspector.prototype.initialize = function () {
-	var lookupActionFieldLayout,
-		limit = this.constructor.static.citationToolsLimit;
+	var lookupActionFieldLayout;
 
 	// Parent method
 	ve.ui.CiteFromIdInspector.super.prototype.initialize.call( this );
 
-	try {
-		this.templateTypeMap = JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
-	} catch ( e ) { }
-	// Get the available tools for their titles and icons
-	try {
-		// Must use mw.message to avoid JSON being parsed as Wikitext
-		this.citeTools = JSON.parse( mw.message( 'cite-tool-definition.json' ).plain() );
-	} catch ( e ) { }
-
-	if ( !this.citeTools ) {
-		try {
-			// Must use mw.message to avoid JSON being parsed as Wikitext
-			this.citeTools = JSON.parse( mw.message( 'visualeditor-cite-tool-definition.json' ).plain() );
-		} catch ( e ) { }
-	}
-
-	// Limit the number of tools
-	this.citeTools.splice( limit );
+	this.templateTypeMap = ve.ui.mwCitoidMap;
+	this.citeTools = ve.ui.mwCitationTools;
 
 	// Restbase URL, also used as Bool to determine whether or not to use Restbase for citoid
 	// By default this will use the URL set in the VE config, but can be overwritten in the citoid config

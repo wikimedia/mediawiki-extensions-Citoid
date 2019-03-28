@@ -43,33 +43,3 @@ ve.ui.CiteFromIdInspectorTool.static.commandName = 'citefromid';
 /* Registration */
 
 ve.ui.toolFactory.register( ve.ui.CiteFromIdInspectorTool );
-
-/* Command */
-
-ve.ui.commandRegistry.register(
-	new ve.ui.Command(
-		'citefromid', 'citoid', 'open', { supportedSelections: [ 'linear' ] }
-	)
-);
-
-/* Sequence */
-
-ve.ui.sequenceRegistry.register(
-	new ve.ui.Sequence( 'wikitextRef', 'citefromid', '<ref', 4 )
-);
-
-/* Trigger */
-
-// Unregister Cite's trigger
-ve.ui.triggerRegistry.unregister( 'reference' );
-ve.ui.triggerRegistry.register(
-	'citefromid', { mac: new ve.ui.Trigger( 'cmd+shift+k' ), pc: new ve.ui.Trigger( 'ctrl+shift+k' ) }
-);
-
-/* Command help */
-
-// This will replace Cite's trigger on insert/ref
-// "register" on commandHelpRegistry is more of an "update", so we don't need to provide label/sequence.
-ve.ui.commandHelpRegistry.register( 'insert', 'ref', {
-	trigger: 'citefromid'
-} );

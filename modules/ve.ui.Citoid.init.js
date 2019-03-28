@@ -2,10 +2,45 @@
 	var i, name, toolClass, toolGroups, map, requireMappings, origRenderBody,
 		missingMappings = [];
 
+	// If any citation tools exist, setup Citoid commands, as this at
+	// least provides an improved experience for selecting "manual" citations.
+	if ( ve.ui.mwCitationTools.length ) {
+		/* Command */
+		ve.ui.commandRegistry.register(
+			new ve.ui.Command(
+				'citefromid', 'citoid', 'open', { supportedSelections: [ 'linear' ] }
+			)
+		);
+
+		/* Sequence */
+		ve.ui.sequenceRegistry.register(
+			new ve.ui.Sequence( 'wikitextRef', 'citefromid', '<ref', 4 )
+		);
+
+		/* Trigger */
+		// Unregister Cite's trigger
+		ve.ui.triggerRegistry.unregister( 'reference' );
+		ve.ui.triggerRegistry.register(
+			'citefromid', { mac: new ve.ui.Trigger( 'cmd+shift+k' ), pc: new ve.ui.Trigger( 'ctrl+shift+k' ) }
+		);
+
+		/* Command help */
+		// This will replace Cite's trigger on insert/ref
+		// "register" on commandHelpRegistry is more of an "update", so we don't need to provide label/sequence.
+		ve.ui.commandHelpRegistry.register( 'insert', 'ref', {
+			trigger: 'citefromid'
+		} );
+	} else {
+		// If there are no citation tools, don't even bother searching for type mappings below
+		return;
+	}
+
+	/* Setup tools and toolbars */
+
 	// Don't create tool unless the configuration message is present
 	try {
 		map = JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
-	} catch ( e ) { }
+	} catch ( e ) {}
 
 	if ( !map ) {
 		// Unregister the tool
@@ -63,6 +98,9 @@
 		ve.ui.toolFactory.unregister( ve.ui.CiteFromIdInspectorTool );
 		return;
 	}
+
+	// Expose
+	ve.ui.mwCitoidMap = map;
 
 	// HACK: Find the position of the current citation toolbar definition
 	// and manipulate it.
