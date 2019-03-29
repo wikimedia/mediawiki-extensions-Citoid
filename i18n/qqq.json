@@ -35,3 +35,7 @@
 	"citoid-template-type-map.json": "{{ignored}}\n\nJSON object containing mapping of different document types to the wiki's template names. Each template must have TemplateData defined to map Citoid's fields to the template's fields. Document types: book, bookSection, journalArticle, magazineArticle, newspaperArticle, thesis, letter, manuscript, interview, film, artwork, webpage, report, bill, hearing, patent, statute, email, map, blogPost, instantMessage, forumPost, audioRecording, presentation, videoRecording, tvBroadcast, radioBroadcast, podcast, computerProgram, conferencePaper, document, encyclopediaArticle, dictionaryEntry",
 	"citoid-unknown-error": "Error message indicating that the service to create citations has returned an error or is temporarily malfunctioning, asking the user to try again later."
 }
+/*
+Note for translators: Do not translate the search-placeholder domain name ("http://www.example.com"). 
+http://www.example.com  is a reserved domain intended to be used as a placeholder and should not be translated.
+*/
