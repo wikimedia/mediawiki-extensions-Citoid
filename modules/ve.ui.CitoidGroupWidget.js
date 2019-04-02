@@ -4,9 +4,9 @@
  * @mixins OO.ui.mixin.GroupWidget
  * @param {Object} config Dialog configuration object
  */
-ve.ui.CiteFromIdGroupWidget = function VeUiCiteFromIdGroupWidget( config ) {
+ve.ui.CitoidGroupWidget = function VeUiCitoidGroupWidget( config ) {
 	// Parent constructor
-	ve.ui.CiteFromIdGroupWidget.super.call( this, config );
+	ve.ui.CitoidGroupWidget.super.call( this, config );
 
 	// Mixin constructors
 	OO.ui.mixin.GroupWidget.call( this, $.extend( {}, config, { $group: this.$element } ) );
@@ -21,32 +21,32 @@ ve.ui.CiteFromIdGroupWidget = function VeUiCiteFromIdGroupWidget( config ) {
 		itemUpdate: 'onItemUpdate'
 	} );
 
-	this.$element.addClass( 've-ui-citeFromIdInspector-preview' );
+	this.$element.addClass( 've-ui-citoidInspector-preview' );
 };
 
 /* Inheritance */
-OO.inheritClass( ve.ui.CiteFromIdGroupWidget, OO.ui.Widget );
-OO.mixinClass( ve.ui.CiteFromIdGroupWidget, OO.ui.mixin.GroupElement );
+OO.inheritClass( ve.ui.CitoidGroupWidget, OO.ui.Widget );
+OO.mixinClass( ve.ui.CitoidGroupWidget, OO.ui.mixin.GroupElement );
 
 /* Methods */
 
 /**
  * Respond to item insert event
  *
- * @param {ve.ui.CiteFromIdReferenceWidget} item Source item
+ * @param {ve.ui.CitoidReferenceWidget} item Source item
  * @fires choose
  */
-ve.ui.CiteFromIdGroupWidget.prototype.onItemInsert = function ( item ) {
+ve.ui.CitoidGroupWidget.prototype.onItemInsert = function ( item ) {
 	this.emit( 'choose', item );
 };
 
 /**
  * Respond to item update event
  *
- * @param {ve.ui.CiteFromIdReferenceWidget} item Source item
+ * @param {ve.ui.CitoidReferenceWidget} item Source item
  * @fires update
  */
-ve.ui.CiteFromIdGroupWidget.prototype.onItemUpdate = function () {
+ve.ui.CitoidGroupWidget.prototype.onItemUpdate = function () {
 	this.emit( 'update' );
 };
 
@@ -58,7 +58,7 @@ ve.ui.CiteFromIdGroupWidget.prototype.onItemUpdate = function () {
  *
  * @chainable
  */
-ve.ui.CiteFromIdGroupWidget.prototype.clearItems = function () {
+ve.ui.CitoidGroupWidget.prototype.clearItems = function () {
 	var i, len;
 
 	for ( i = 0, len = this.items.length; i < len; i++ ) {

@@ -1,0 +1,84 @@
+/*!
+ * VisualEditor UserInterface Citoid styles.
+ */
+
+.ve-ui-citoidInspector-search {
+	min-height: 20em;
+}
+
+.ve-ui-citoidInspector-search .ve-ui-mwReferenceResultWidget {
+	padding: 0.5em;
+}
+
+.ve-ui-citoidInspector-dialog-error,
+.ve-ui-citoidReferenceWidget {
+	line-height: 1.5em;
+}
+
+.ve-ui-citoidReferenceWidget {
+	padding: 0.5em;
+}
+
+.ve-ui-citoidReferenceWidget + .ve-ui-citoidReferenceWidget {
+	margin-top: 0.75em;
+	padding-top: 0.75em;
+	border-top: 1px solid #ccc;
+}
+
+.ve-ui-citoidReferenceWidget.oo-ui-labelElement .oo-ui-labelElement-label {
+	white-space: normal;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.ve-ui-citoidReferenceWidget.oo-ui-iconElement > .oo-ui-iconElement-icon {
+	position: static;
+	display: inline-block;
+	margin-right: 0.5em;
+	vertical-align: middle;
+}
+
+.ve-ui-citoidReferenceWidget .ve-ui-previewElement {
+	margin-top: 0.5em;
+}
+
+.ve-ui-citoidReferenceWidget .ve-ui-previewElement > p:last-child {
+	margin-bottom: 0;
+}
+
+.ve-ui-citoidReferenceWidget-insert-button {
+	float: right;
+	margin: 0 0 1em 1em;
+	/* Position above mw-body-content */
+	position: relative;
+	z-index: 1;
+}
+
+.ve-ui-citoidInspector-credit {
+	font-size: x-small;
+	color: #888;
+	display: block;
+	text-align: right;
+}
+
+.ve-ui-citoidInspector-dialog-error {
+	margin-top: 1em;
+	color: #c00;
+}
+
+.ve-ui-citoidInspector-sourceSelect {
+	margin: -0.5em 0;
+}
+
+.ve-ui-citoidInspector-sourceSelect .oo-ui-optionWidget {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 50%;
+	margin: 0.5em 0;
+}
+
+.ve-ui-citoidInspector-sourceSelect .ve-ui-citeSourceSelectWidget-basic {
+	width: 100%;
+}

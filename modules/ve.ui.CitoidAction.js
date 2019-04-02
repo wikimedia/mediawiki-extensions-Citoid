@@ -45,7 +45,7 @@ ve.ui.CitoidAction.static.methods = [ 'open' ];
  * @return {boolean} Action was executed
  */
 ve.ui.CitoidAction.prototype.open = function ( replace, lookup ) {
-	this.surface.execute( 'window', 'open', 'citefromid', {
+	this.surface.execute( 'window', 'open', 'citoid', {
 		replace: replace,
 		lookup: lookup,
 		inDialog: this.surface.getInDialog()

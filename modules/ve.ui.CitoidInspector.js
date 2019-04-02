@@ -6,9 +6,9 @@
  * @constructor
  * @param {Object} [config] Configuration options
  */
-ve.ui.CiteFromIdInspector = function VeUiCiteFromIdInspector( config ) {
+ve.ui.CitoidInspector = function VeUiCitoidInspector( config ) {
 	// Parent constructor
-	ve.ui.CiteFromIdInspector.super.call( this, ve.extendObject( { padded: false }, config ) );
+	ve.ui.CitoidInspector.super.call( this, ve.extendObject( { padded: false }, config ) );
 
 	this.referenceModel = null;
 	this.staging = false;
@@ -23,22 +23,22 @@ ve.ui.CiteFromIdInspector = function VeUiCiteFromIdInspector( config ) {
 	this.inDialog = '';
 	this.currentAutoProcessPanel = null;
 
-	this.$element.addClass( 've-ui-citeFromIdInspector' );
+	this.$element.addClass( 've-ui-citoidInspector' );
 };
 
 /* Inheritance */
 
-OO.inheritClass( ve.ui.CiteFromIdInspector, ve.ui.NodeInspector );
+OO.inheritClass( ve.ui.CitoidInspector, ve.ui.NodeInspector );
 
 /* Static properties */
 
-ve.ui.CiteFromIdInspector.static.name = 'citefromid';
+ve.ui.CitoidInspector.static.name = 'citoid';
 
-ve.ui.CiteFromIdInspector.static.title = OO.ui.deferMsg( 'citoid-citefromiddialog-title' );
+ve.ui.CitoidInspector.static.title = OO.ui.deferMsg( 'citoid-citoiddialog-title' );
 
-ve.ui.CiteFromIdInspector.static.size = 'large';
+ve.ui.CitoidInspector.static.size = 'large';
 
-ve.ui.CiteFromIdInspector.static.modelClasses = [ ve.dm.MWReferenceNode ];
+ve.ui.CitoidInspector.static.modelClasses = [ ve.dm.MWReferenceNode ];
 
 /**
  * The string used in TemplateData to identify the correct Map object
@@ -47,7 +47,7 @@ ve.ui.CiteFromIdInspector.static.modelClasses = [ ve.dm.MWReferenceNode ];
  * @property {string}
  * @inheritable
  */
-ve.ui.CiteFromIdInspector.static.templateDataName = 'citoid';
+ve.ui.CitoidInspector.static.templateDataName = 'citoid';
 
 /**
  * The requested format from the citoid client, passed as a GET parameter
@@ -56,9 +56,9 @@ ve.ui.CiteFromIdInspector.static.templateDataName = 'citoid';
  * @property {string}
  * @inheritable
  */
-ve.ui.CiteFromIdInspector.static.citoidFormat = 'mediawiki';
+ve.ui.CitoidInspector.static.citoidFormat = 'mediawiki';
 
-ve.ui.CiteFromIdInspector.static.actions = [
+ve.ui.CitoidInspector.static.actions = [
 	{
 		label: OO.ui.deferMsg( 'visualeditor-dialog-action-cancel' ),
 		flags: [ 'safe', 'back' ],
@@ -66,7 +66,7 @@ ve.ui.CiteFromIdInspector.static.actions = [
 	},
 	{
 		action: 'back',
-		label: OO.ui.deferMsg( 'citoid-citefromiddialog-back' ),
+		label: OO.ui.deferMsg( 'citoid-citoiddialog-back' ),
 		flags: [ 'safe', 'back' ],
 		modes: [ 'auto-result' ]
 	}
@@ -77,11 +77,11 @@ ve.ui.CiteFromIdInspector.static.actions = [
 /**
  * @inheritdoc
  */
-ve.ui.CiteFromIdInspector.prototype.initialize = function () {
+ve.ui.CitoidInspector.prototype.initialize = function () {
 	var lookupActionFieldLayout;
 
 	// Parent method
-	ve.ui.CiteFromIdInspector.super.prototype.initialize.call( this );
+	ve.ui.CitoidInspector.super.prototype.initialize.call( this );
 
 	this.templateTypeMap = ve.ui.mwCitoidMap;
 	this.citeTools = ve.ui.mwCitationTools;
@@ -93,7 +93,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 
 	// API config for citoid service if VE is using Restbase
 	if ( this.fullRestbaseUrl ) {
-		this.serviceUrl = this.fullRestbaseUrl + 'v1/data/citation/' + ve.ui.CiteFromIdInspector.static.citoidFormat;
+		this.serviceUrl = this.fullRestbaseUrl + 'v1/data/citation/' + ve.ui.CitoidInspector.static.citoidFormat;
 		this.serviceConfig = {
 			ajax: {
 				// Request content language of wiki from citoid service
@@ -123,22 +123,22 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 
 	this.modePanels = {
 		auto: new OO.ui.TabPanelLayout( 'auto', {
-			label: ve.msg( 'citoid-citefromiddialog-mode-auto' ),
-			classes: [ 'citoid-citeFromIDDialog-panel-auto' ],
+			label: ve.msg( 'citoid-citoiddialog-mode-auto' ),
+			classes: [ 'citoid-citoidDialog-panel-auto' ],
 			padded: true,
 			expanded: false,
 			scrollable: false
 		} ),
 		manual: new OO.ui.TabPanelLayout( 'manual', {
-			label: ve.msg( 'citoid-citefromiddialog-mode-manual' ),
-			classes: [ 'citoid-citeFromIDDialog-panel-manual' ],
+			label: ve.msg( 'citoid-citoiddialog-mode-manual' ),
+			classes: [ 'citoid-citoidDialog-panel-manual' ],
 			padded: true,
 			expanded: false,
 			scrollable: false
 		} ),
 		reuse: new OO.ui.TabPanelLayout( 'reuse', {
-			label: ve.msg( 'citoid-citefromiddialog-mode-reuse' ),
-			classes: [ 'citoid-citeFromIDDialog-panel-reuse' ],
+			label: ve.msg( 'citoid-citoiddialog-mode-reuse' ),
+			classes: [ 'citoid-citoidDialog-panel-reuse' ],
 			expanded: false,
 			scrollable: false
 		} )
@@ -161,12 +161,12 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 
 	this.autoProcessPanels = {
 		lookup: new OO.ui.PanelLayout( {
-			classes: [ 'citoid-citeFromIDDialog-panel-lookup' ],
+			classes: [ 'citoid-citoidDialog-panel-lookup' ],
 			expanded: false,
 			scrollable: false
 		} ),
 		result: new OO.ui.PanelLayout( {
-			classes: [ 'citoid-citeFromIDDialog-panel-result' ],
+			classes: [ 'citoid-citoidDialog-panel-result' ],
 			expanded: false,
 			scrollable: false
 		} )
@@ -174,20 +174,20 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 
 	// Lookup field
 	this.lookupInput = new OO.ui.TextInputWidget( {
-		placeholder: ve.msg( 'citoid-citefromiddialog-search-placeholder' )
+		placeholder: ve.msg( 'citoid-citoiddialog-search-placeholder' )
 	} );
 
 	this.lookupButton = new OO.ui.ButtonWidget( {
-		label: ve.msg( 'citoid-citefromiddialog-lookup-button' )
+		label: ve.msg( 'citoid-citoiddialog-lookup-button' )
 	} );
 	lookupActionFieldLayout = new OO.ui.ActionFieldLayout( this.lookupInput, this.lookupButton, {
 		align: 'top',
-		label: ve.msg( 'citoid-citefromiddialog-search-label' )
+		label: ve.msg( 'citoid-citoiddialog-search-label' )
 	} );
 
 	// Error label
-	this.$noticeLabel = $( '<div>' ).addClass( 've-ui-citeFromIdInspector-dialog-error oo-ui-element-hidden' ).text(
-		ve.msg( 'citoid-citefromiddialog-use-general-error-message' )
+	this.$noticeLabel = $( '<div>' ).addClass( 've-ui-citoidInspector-dialog-error oo-ui-element-hidden' ).text(
+		ve.msg( 'citoid-citoiddialog-use-general-error-message' )
 	);
 
 	this.autoProcessPanels.lookup.$element.append( lookupActionFieldLayout.$element, this.$noticeLabel );
@@ -195,24 +195,24 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 	this.modePanels.auto.$element.append( this.autoProcessStack.$element );
 
 	// Preview fieldset
-	this.previewSelectWidget = new ve.ui.CiteFromIdGroupWidget();
+	this.previewSelectWidget = new ve.ui.CitoidGroupWidget();
 	this.autoProcessPanels.result.$element.append( this.previewSelectWidget.$element );
 
 	// Credit field
 	this.credit = new OO.ui.LabelWidget( {
-		classes: [ 've-ui-citeFromIdInspector-credit' ]
+		classes: [ 've-ui-citoidInspector-credit' ]
 	} );
 	this.previewSelectWidget.$element.append( this.credit.$element );
 
 	// Manual mode
 	this.sourceSelect = new ve.ui.CiteSourceSelectWidget( {
-		classes: [ 've-ui-citeFromIdInspector-sourceSelect' ]
+		classes: [ 've-ui-citoidInspector-sourceSelect' ]
 	} );
 	this.modePanels.manual.$element.append( this.sourceSelect.$element );
 
 	// Re-use mode
 	this.search = new ve.ui.MWReferenceSearchWidget( {
-		classes: [ 've-ui-citeFromIdInspector-search' ]
+		classes: [ 've-ui-citoidInspector-search' ]
 	} );
 	this.modePanels.reuse.$element.append( this.search.$element );
 
@@ -234,7 +234,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
 
 	// Attach
 	this.form.$element
-		.addClass( 've-ui-citeFromIdInspector-form' )
+		.addClass( 've-ui-citoidInspector-form' )
 		.append( this.modeIndex.$element );
 };
 
@@ -243,7 +243,7 @@ ve.ui.CiteFromIdInspector.prototype.initialize = function () {
  *
  * @param {OO.ui.TabPanelLayout} tabPanel Set tab panel
  */
-ve.ui.CiteFromIdInspector.prototype.onModeIndexSet = function ( tabPanel ) {
+ve.ui.CitoidInspector.prototype.onModeIndexSet = function ( tabPanel ) {
 	this.setModePanel( tabPanel.getName(), null, true );
 };
 
@@ -254,7 +254,7 @@ ve.ui.CiteFromIdInspector.prototype.onModeIndexSet = function ( tabPanel ) {
  * @param {string} [processPanelName] Process panel name, 'lookup' or 'result'
  * @param {boolean} [fromSelect] Mode was changed by the select widget
  */
-ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( tabPanelName, processPanelName, fromSelect ) {
+ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processPanelName, fromSelect ) {
 	var inspector = this;
 
 	if ( [ 'auto', 'manual', 'reuse' ].indexOf( tabPanelName ) === -1 ) {
@@ -307,7 +307,7 @@ ve.ui.CiteFromIdInspector.prototype.setModePanel = function ( tabPanelName, proc
  *
  * @param {OO.ui.OptionWidget} item Chosen item
  */
-ve.ui.CiteFromIdInspector.prototype.onSourceSelectChoose = function ( item ) {
+ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
 	var commandName = item.getData(),
 		surface = this.getManager().getSurface();
 
@@ -323,7 +323,7 @@ ve.ui.CiteFromIdInspector.prototype.onSourceSelectChoose = function ( item ) {
  *
  * @param {ve.ui.MWReferenceResultWidget} item Chosen item
  */
-ve.ui.CiteFromIdInspector.prototype.onSearchResultsChoose = function ( item ) {
+ve.ui.CitoidInspector.prototype.onSearchResultsChoose = function ( item ) {
 	var ref = item.getData();
 
 	ref.insertReferenceNode( this.getFragment() );
@@ -337,7 +337,7 @@ ve.ui.CiteFromIdInspector.prototype.onSearchResultsChoose = function ( item ) {
  *
  * @param {ve.ui.MWReferenceResultWidget} item Chosen item
  */
-ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) {
+ve.ui.CitoidInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) {
 	var fragment = this.fragment,
 		surfaceModel = this.getFragment().getSurface(),
 		doc = surfaceModel.getDocument(),
@@ -386,7 +386,7 @@ ve.ui.CiteFromIdInspector.prototype.onPreviewSelectWidgetChoose = function ( ite
  *
  * @param {string} value Current value
  */
-ve.ui.CiteFromIdInspector.prototype.onLookupInputChange = function ( value ) {
+ve.ui.CitoidInspector.prototype.onLookupInputChange = function ( value ) {
 	if ( this.lookupPromise ) {
 		// Abort existing promises
 		this.lookupPromise.abort();
@@ -398,7 +398,7 @@ ve.ui.CiteFromIdInspector.prototype.onLookupInputChange = function ( value ) {
 /**
  * Handle enter events from the lookup input
  */
-ve.ui.CiteFromIdInspector.prototype.onLookupInputEnter = function () {
+ve.ui.CitoidInspector.prototype.onLookupInputEnter = function () {
 	if ( !this.lookupButton.isDisabled() ) {
 		this.onLookupButtonClick();
 	}
@@ -407,15 +407,15 @@ ve.ui.CiteFromIdInspector.prototype.onLookupInputEnter = function () {
 /**
  * Handle click events from the lookup button, perform lookup
  */
-ve.ui.CiteFromIdInspector.prototype.onLookupButtonClick = function () {
+ve.ui.CitoidInspector.prototype.onLookupButtonClick = function () {
 	this.executeAction( 'lookup' );
 };
 
 /**
  * @inheritdoc
  */
-ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
-	return ve.ui.CiteFromIdInspector.super.prototype.getSetupProcess.call( this, data )
+ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
+	return ve.ui.CitoidInspector.super.prototype.getSetupProcess.call( this, data )
 		.next( function () {
 			var fragment;
 
@@ -466,8 +466,8 @@ ve.ui.CiteFromIdInspector.prototype.getSetupProcess = function ( data ) {
 /**
  * @inheritdoc
  */
-ve.ui.CiteFromIdInspector.prototype.getReadyProcess = function ( data ) {
-	return ve.ui.CiteFromIdInspector.super.prototype.getReadyProcess.call( this, data )
+ve.ui.CitoidInspector.prototype.getReadyProcess = function ( data ) {
+	return ve.ui.CitoidInspector.super.prototype.getReadyProcess.call( this, data )
 		.next( function () {
 			// Set the panel after ready as it focuses the input too
 			var mode = data.lookup ? this.defaultPanel : ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel );
@@ -478,8 +478,8 @@ ve.ui.CiteFromIdInspector.prototype.getReadyProcess = function ( data ) {
 /**
  * @inheritdoc
  */
-ve.ui.CiteFromIdInspector.prototype.getTeardownProcess = function ( data ) {
-	return ve.ui.CiteFromIdInspector.super.prototype.getTeardownProcess.call( this, data )
+ve.ui.CitoidInspector.prototype.getTeardownProcess = function ( data ) {
+	return ve.ui.CitoidInspector.super.prototype.getTeardownProcess.call( this, data )
 		.first( function () {
 			if ( this.staging ) {
 				this.fragment.getSurface().popStaging();
@@ -508,7 +508,7 @@ ve.ui.CiteFromIdInspector.prototype.getTeardownProcess = function ( data ) {
 /**
  * Clear the search results
  */
-ve.ui.CiteFromIdInspector.prototype.clearResults = function () {
+ve.ui.CitoidInspector.prototype.clearResults = function () {
 	this.results = [];
 	this.previewSelectWidget.clearItems();
 	this.updateSize();
@@ -517,7 +517,7 @@ ve.ui.CiteFromIdInspector.prototype.clearResults = function () {
 /**
  * @inheritdoc
  */
-ve.ui.CiteFromIdInspector.prototype.getActionProcess = function ( action ) {
+ve.ui.CitoidInspector.prototype.getActionProcess = function ( action ) {
 	if ( action === 'lookup' ) {
 		return new OO.ui.Process( function () {
 			// Clear the results
@@ -535,7 +535,7 @@ ve.ui.CiteFromIdInspector.prototype.getActionProcess = function ( action ) {
 		}, this );
 	}
 	// Fallback to parent handler
-	return ve.ui.CiteFromIdInspector.super.prototype.getActionProcess.call( this, action );
+	return ve.ui.CitoidInspector.super.prototype.getActionProcess.call( this, action );
 };
 
 /**
@@ -543,7 +543,7 @@ ve.ui.CiteFromIdInspector.prototype.getActionProcess = function ( action ) {
  *
  * @return {jQuery.Promise} Lookup promise
  */
-ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
+ve.ui.CitoidInspector.prototype.performLookup = function () {
 	var xhr,
 		search,
 		inspector = this;
@@ -578,7 +578,7 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 		xhr = this.service
 			.get( {
 				search: search,
-				format: ve.ui.CiteFromIdInspector.static.citoidFormat
+				format: ve.ui.CitoidInspector.static.citoidFormat
 			} );
 	}
 
@@ -619,7 +619,7 @@ ve.ui.CiteFromIdInspector.prototype.performLookup = function () {
 /**
  * Set the auto panel to the error-state
  */
-ve.ui.CiteFromIdInspector.prototype.lookupFailed = function () {
+ve.ui.CitoidInspector.prototype.lookupFailed = function () {
 	// Enable the input and lookup button
 	this.$noticeLabel.removeClass( 'oo-ui-element-hidden' );
 	this.lookupInput.once( 'change', function () {
@@ -636,7 +636,7 @@ ve.ui.CiteFromIdInspector.prototype.lookupFailed = function () {
  * @return {jQuery.Promise} Promise that is resolved when the template part is added
  *  or is rejected if there are any problems with the template name or the internal item.
  */
-ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResults ) {
+ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults ) {
 	var i, templateName, citation, result, refWidget,
 		renderPromises = [],
 		partPromises = [],
@@ -666,7 +666,7 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 		partPromises.push(
 			result.transclusionModel.addPart( result.template )
 				// Fill in the details for the individual template
-				.then( ve.ui.CiteFromIdInspector.static.populateTemplate.bind( this, result.template, citation ) )
+				.then( ve.ui.CitoidInspector.static.populateTemplate.bind( this, result.template, citation ) )
 		);
 	}
 
@@ -677,7 +677,7 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 				optionWidgets = [];
 			// Create option widgets
 			for ( i = 0; i < inspector.results.length; i++ ) {
-				refWidget = new ve.ui.CiteFromIdReferenceWidget(
+				refWidget = new ve.ui.CitoidReferenceWidget(
 					inspector.getFragment().getSurface().getDocument(),
 					inspector.results[ i ].transclusionModel,
 					{
@@ -700,9 +700,9 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
 				// Add credit for the first result only to the widget, currently for Zotero & WorldCat only
 				if ( sources[ 0 ] ) {
 					if ( sources[ 0 ].indexOf( 'Zotero' ) !== -1 ) {
-						inspector.credit.setLabel( ve.msg( 'citoid-citefromiddialog-credit', 'Zotero' ) );
+						inspector.credit.setLabel( ve.msg( 'citoid-citoiddialog-credit', 'Zotero' ) );
 					} else if ( sources[ 0 ].indexOf( 'WorldCat' ) !== -1 ) {
-						inspector.credit.setLabel( ve.msg( 'citoid-citefromiddialog-credit', 'WorldCat' ) );
+						inspector.credit.setLabel( ve.msg( 'citoid-citoiddialog-credit', 'WorldCat' ) );
 					} else {
 						inspector.credit.setLabel( null );
 					}
@@ -722,13 +722,13 @@ ve.ui.CiteFromIdInspector.prototype.buildTemplateResults = function ( searchResu
  * @param {ve.dm.MNTemplateModel} template A template model to fill
  * @param {Object} citation An object that contains values to insert into template
  */
-ve.ui.CiteFromIdInspector.static.populateTemplate = function ( template, citation ) {
+ve.ui.CitoidInspector.static.populateTemplate = function ( template, citation ) {
 	var citoidField, templateField, i, j,
 		concatCitoidField, // for storing a concatenated citoid value composed of array elements
 		concat2dField, // for storing elements of a 2d array converted to a 1d element
 		spec = template.getSpec(),
 		maps = spec.getMaps(),
-		map = maps[ ve.ui.CiteFromIdInspector.static.templateDataName ];
+		map = maps[ ve.ui.CitoidInspector.static.templateDataName ];
 
 	for ( citoidField in map ) {
 		templateField = map[ citoidField ];
@@ -827,4 +827,4 @@ ve.ui.CiteFromIdInspector.static.populateTemplate = function ( template, citatio
 
 /* Registration */
 
-ve.ui.windowFactory.register( ve.ui.CiteFromIdInspector );
+ve.ui.windowFactory.register( ve.ui.CitoidInspector );

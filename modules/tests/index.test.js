@@ -1,6 +1,6 @@
 /**
  * Citoid extension unit tests for function
- * ve.ui.CiteFromIdInspector.populateTemplate
+ * ve.ui.CitoidInspector.populateTemplate
  */
 
 QUnit.module( 'ext.citoid' );
@@ -1425,7 +1425,7 @@ QUnit.module( 'ext.citoid' );
 		// Make sure template can be added to transclusion
 		return transclusion.addPart( template ).then( function () {
 			// Test target method
-			ve.ui.CiteFromIdInspector.static.populateTemplate( template, citation );
+			ve.ui.CitoidInspector.static.populateTemplate( template, citation );
 
 			// Make sure serialised template matches expected data
 			assert.deepEqual( template.serialize().template, expected );

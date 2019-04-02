@@ -64,34 +64,34 @@
 	// don't bother registering Citoid at all.
 	if ( !( ve.ui.mwCitoidMap || ve.ui.mwCitationTools.length ) ) {
 		// Unregister the tool
-		ve.ui.toolFactory.unregister( ve.ui.CiteFromIdInspectorTool );
+		ve.ui.toolFactory.unregister( ve.ui.CitoidInspectorTool );
 		return;
 	}
 
 	/* Command */
 	ve.ui.commandRegistry.register(
 		new ve.ui.Command(
-			'citefromid', 'citoid', 'open', { supportedSelections: [ 'linear' ] }
+			'citoid', 'citoid', 'open', { supportedSelections: [ 'linear' ] }
 		)
 	);
 
 	/* Sequence */
 	ve.ui.sequenceRegistry.register(
-		new ve.ui.Sequence( 'wikitextRef', 'citefromid', '<ref', 4 )
+		new ve.ui.Sequence( 'wikitextRef', 'citoid', '<ref', 4 )
 	);
 
 	/* Trigger */
 	// Unregister Cite's trigger
 	ve.ui.triggerRegistry.unregister( 'reference' );
 	ve.ui.triggerRegistry.register(
-		'citefromid', { mac: new ve.ui.Trigger( 'cmd+shift+k' ), pc: new ve.ui.Trigger( 'ctrl+shift+k' ) }
+		'citoid', { mac: new ve.ui.Trigger( 'cmd+shift+k' ), pc: new ve.ui.Trigger( 'ctrl+shift+k' ) }
 	);
 
 	/* Command help */
 	// This will replace Cite's trigger on insert/ref
 	// "register" on commandHelpRegistry is more of an "update", so we don't need to provide label/sequence.
 	ve.ui.commandHelpRegistry.register( 'insert', 'ref', {
-		trigger: 'citefromid'
+		trigger: 'citoid'
 	} );
 
 	// If there is no template map ("auto") don't change the tools
@@ -131,7 +131,7 @@
 			if ( toolGroups[ i ].name === 'cite' ) {
 				toolGroups[ i ] = {
 					name: 'citoid',
-					include: [ 'citefromid' ]
+					include: [ 'citoid' ]
 				};
 				break;
 			}

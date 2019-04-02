@@ -11,7 +11,7 @@
  * @cfg {string} [templateName] Template name
  * @cfg {Object[]} citeTools An array of available citation tool configuration
  */
-ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( documentModel, transclusionModel, config ) {
+ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel, transclusionModel, config ) {
 	var i, len, icon, item, title, doc, node;
 
 	config = config || {};
@@ -22,7 +22,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 	this.renderPromise = $.Deferred();
 
 	// Parent constructor
-	ve.ui.CiteFromIdReferenceWidget.super.call( this, config );
+	ve.ui.CitoidReferenceWidget.super.call( this, config );
 
 	// Mixin constructors
 	OO.ui.mixin.IconElement.call( this, config );
@@ -42,7 +42,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 	// Add insert button
 	this.insertButton = new OO.ui.ButtonWidget( {
 		label: mw.msg( 'citoid-citation-widget-insert-button' ),
-		classes: [ 've-ui-citeFromIdReferenceWidget-insert-button' ],
+		classes: [ 've-ui-citoidReferenceWidget-insert-button' ],
 		flags: [ 'progressive', 'primary' ]
 	} );
 
@@ -79,7 +79,7 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 
 	// Initialization
 	this.$element
-		.addClass( 've-ui-citeFromIdReferenceWidget' )
+		.addClass( 've-ui-citoidReferenceWidget' )
 		.append(
 			this.$icon,
 			title.$element,
@@ -90,15 +90,15 @@ ve.ui.CiteFromIdReferenceWidget = function VeUiCiteFromIdReferenceWidget( docume
 
 /* Inheritance */
 
-OO.inheritClass( ve.ui.CiteFromIdReferenceWidget, OO.ui.Widget );
-OO.mixinClass( ve.ui.CiteFromIdReferenceWidget, OO.ui.mixin.IconElement );
+OO.inheritClass( ve.ui.CitoidReferenceWidget, OO.ui.Widget );
+OO.mixinClass( ve.ui.CitoidReferenceWidget, OO.ui.mixin.IconElement );
 
 /* Methods */
 
 /**
  * Clean up the widget; destroy node and surface.
  */
-ve.ui.CiteFromIdReferenceWidget.prototype.destroy = function () {
+ve.ui.CitoidReferenceWidget.prototype.destroy = function () {
 	this.renderPromise.reject();
 	this.preview.destroy();
 };
@@ -108,14 +108,14 @@ ve.ui.CiteFromIdReferenceWidget.prototype.destroy = function () {
  *
  * @fires insert
  */
-ve.ui.CiteFromIdReferenceWidget.prototype.onInsertButtonClick = function () {
+ve.ui.CitoidReferenceWidget.prototype.onInsertButtonClick = function () {
 	this.emit( 'insert', this.data );
 };
 
 /**
  * Focus the widget
  */
-ve.ui.CiteFromIdReferenceWidget.prototype.focus = function () {
+ve.ui.CitoidReferenceWidget.prototype.focus = function () {
 	this.insertButton.$button[ 0 ].focus();
 };
 
@@ -125,6 +125,6 @@ ve.ui.CiteFromIdReferenceWidget.prototype.focus = function () {
  * @return {jQuery.Promise} Rendering promise resolved when the rendering
  * of the node is completed.
  */
-ve.ui.CiteFromIdReferenceWidget.prototype.getRenderPromise = function () {
+ve.ui.CitoidReferenceWidget.prototype.getRenderPromise = function () {
 	return this.renderPromise;
 };
