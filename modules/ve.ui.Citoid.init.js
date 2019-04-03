@@ -94,13 +94,6 @@
 		trigger: 'citoid'
 	} );
 
-	// If there is no template map ("auto") don't change the tools
-	if ( !ve.ui.mwCitoidMap ) {
-		// Unregister the tool
-		ve.ui.toolFactory.unregister( ve.ui.CitoidInspectorTool );
-		return;
-	}
-
 	/* Setup tools and toolbars */
 
 	// HACK: Find the position of the current citation toolbar definition
