@@ -50,7 +50,6 @@
 				"ext.citoid.visualEditor.data"
 			],
 			"messages": [
-				"citoid-520-error",
 				"citoid-citation-widget-insert-button",
 				"citoid-citefromiddialog-back",
 				"citoid-citefromiddialog-credit",

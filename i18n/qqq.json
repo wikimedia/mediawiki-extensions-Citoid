@@ -13,7 +13,6 @@
 			"Matma Rex"
 		]
 	},
-	"citoid-520-error": "Error message for when citoid service returns a 520 error",
 	"citoid-citation-widget-insert-button": "[[File:Citoid insert button.png]]\n----\nLabel for the button to insert a chosen reference.\n{{Identical|Insert}}",
 	"citoid-citefromiddialog-back": "[[File:Citoid back button.png]]\n----\nLabel for the button to go back to the generate panel in the inspector.\n{{Identical|Back}}",
 	"citoid-citefromiddialog-credit": "[[File:Citoid credit text.png]]\n----\nText giving credit for the source of the retrieved citation; variable is name of source, i.e. 'Zotero'.",
