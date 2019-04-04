@@ -4,7 +4,6 @@
 			"Joetaras"
 		]
 	},
-	"citoid-520-error": "Non ge riesche a pigghià le 'mbormaziune da 'u idendificative date.",
 	"citoid-citation-widget-insert-button": "'Nzerisce",
 	"citoid-citefromiddialog-back": "Rrete",
 	"citoid-citefromiddialog-credit": "Fatte da $1",
@@ -13,7 +12,7 @@
 	"citoid-citefromiddialog-mode-manual": "A màne",
 	"citoid-citefromiddialog-mode-reuse": "Ause arrete",
 	"citoid-citefromiddialog-search": "Cirche",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN o PMC/PMID, titole o citazione",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN o PMC/PMID, QID, titole o citazione",
 	"citoid-citefromiddialog-search-placeholder": "p.e. http://www.esembie.com",
 	"citoid-citefromiddialog-search-progress": "Stoche a cerche, aspitte...",
 	"citoid-citefromiddialog-title": "Aggiunge 'na citazione",
