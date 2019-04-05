@@ -6,7 +6,8 @@
 			"Wehwei",
 			"Cwlin0416",
 			"Shangkuanlc",
-			"Kly"
+			"Kly",
+			"A2093064"
 		]
 	},
 	"citoid-citation-widget-insert-button": "插入",
@@ -17,7 +18,7 @@
 	"citoid-citefromiddialog-mode-manual": "手動",
 	"citoid-citefromiddialog-mode-reuse": "重新使用",
 	"citoid-citefromiddialog-search": "搜尋",
-	"citoid-citefromiddialog-search-label": "URL、DOI、ISBN、PMC/PMID、標題、或參考文獻",
+	"citoid-citefromiddialog-search-label": "URL、DOI、ISBN、PMC/PMID、QID、標題或參考文獻",
 	"citoid-citefromiddialog-search-placeholder": "例如 http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "搜尋中，請稍候...",
 	"citoid-citefromiddialog-title": "新增引用",

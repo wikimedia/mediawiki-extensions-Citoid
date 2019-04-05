@@ -15,7 +15,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manual",
 	"citoid-citefromiddialog-mode-reuse": "Pakai ulang",
 	"citoid-citefromiddialog-search": "Cari",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, judul, atau sitasi",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, judul, atau sitasi",
 	"citoid-citefromiddialog-search-placeholder": "misalnya http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Mencari, silakan menunggu...",
 	"citoid-citefromiddialog-title": "Tambahkan kutipan",

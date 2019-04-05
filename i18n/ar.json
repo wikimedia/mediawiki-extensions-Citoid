@@ -18,7 +18,7 @@
 	"citoid-citefromiddialog-mode-manual": "يدوي",
 	"citoid-citefromiddialog-mode-reuse": "أعد الاستخدام",
 	"citoid-citefromiddialog-search": "ابحث",
-	"citoid-citefromiddialog-search-label": "URL أو DOI أو ISBN أو PMC/PMID أو عنوان أو استشهاد",
+	"citoid-citefromiddialog-search-label": "مسار أو معرف الوثيقة الرقمية أو رقم دولي معياري للكتاب أو معرف بوبميد أو معرف ويكي بيانات أو عنوان أو استشهاد",
 	"citoid-citefromiddialog-search-placeholder": "مثال: http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "البحث جار، برجاء الانتظار...",
 	"citoid-citefromiddialog-title": "إضافة استشهاد",
