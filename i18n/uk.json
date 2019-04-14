@@ -6,7 +6,8 @@
 			"Alex Khimich",
 			"Piramidion",
 			"Vall gorr",
-			"Bunyk"
+			"Bunyk",
+			"Vlad5250"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Вставити",
@@ -17,7 +18,7 @@
 	"citoid-citefromiddialog-mode-manual": "Вручну",
 	"citoid-citefromiddialog-mode-reuse": "Повторно",
 	"citoid-citefromiddialog-search": "Знайти",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN або PMC/PMID, назву або цитату",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, назву або цитату",
 	"citoid-citefromiddialog-search-placeholder": "наприклад http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Пошук, зачекайте, будь ласка…",
 	"citoid-citefromiddialog-title": "Додати джерело",
