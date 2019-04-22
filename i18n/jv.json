@@ -15,7 +15,7 @@
 	"citoid-citefromiddialog-mode-manual": "Manuwal",
 	"citoid-citefromiddialog-mode-reuse": "Anggo manèh",
 	"citoid-citefromiddialog-search": "Golèk",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, sesirah, utawa sitiran",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, sesirah, utawa sitiran",
 	"citoid-citefromiddialog-search-placeholder": "conto http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Tembé nggolèki, nyuwun panjenengan entèni...",
 	"citoid-citefromiddialog-title": "Tambah sitiran",

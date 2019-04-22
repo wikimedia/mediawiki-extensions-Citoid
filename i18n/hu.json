@@ -5,7 +5,8 @@
 			"Misibacsi",
 			"Nyuszika7H",
 			"Elitre (WMF)",
-			"Urbalazs"
+			"Urbalazs",
+			"Bencemac"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Beillesztés",
@@ -16,7 +17,7 @@
 	"citoid-citefromiddialog-mode-manual": "Kézi",
 	"citoid-citefromiddialog-mode-reuse": "Újrafelhasználás",
 	"citoid-citefromiddialog-search": "Keresés",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, cím vagy forráshivatkozás",
+	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, cím vagy forráshivatkozás",
 	"citoid-citefromiddialog-search-placeholder": "pl. http://www.example.com",
 	"citoid-citefromiddialog-search-progress": "Keresés, pillanat…",
 	"citoid-citefromiddialog-title": "Forráshivatkozás hozzáadása",
