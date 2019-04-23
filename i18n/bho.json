@@ -5,16 +5,11 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "इन्सर्ट",
-	"citoid-citefromiddialog-back": "पाछे",
-	"citoid-citefromiddialog-lookup-button": "जनरेट",
-	"citoid-citefromiddialog-mode-auto": "ऑटोमेटिक",
-	"citoid-citefromiddialog-mode-manual": "मैनुअल",
-	"citoid-citefromiddialog-mode-reuse": "दुबारा-इस्तेमाल",
-	"citoid-citefromiddialog-search": "खोज",
-	"citoid-citefromiddialog-search-label": "यूआरऍल, डीऑआइ भा पीऍमआइडी",
-	"citoid-citefromiddialog-search-placeholder": "उदाहरण http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "खोज चालू बा, इंतजार करीं...",
-	"citoid-citefromiddialog-title": "उद्धरण जोड़ीं",
-	"citoid-citefromiddialog-use-general-error-message": "रउवाँ खातिर उद्धरण जोड़े में हमनी के असफल बानी। रउआँ  You can ऊपर के \"{{int:citoid-citefromiddialog-mode-manual}}\" टैब द्वारा मैनुअली बना सकत बानी।",
-	"citoid-citefromidtool-title": "उद्धरण"
+	"citoid-citoiddialog-back": "पाछे",
+	"citoid-citoiddialog-lookup-button": "जनरेट",
+	"citoid-citoiddialog-mode-auto": "ऑटोमेटिक",
+	"citoid-citoiddialog-mode-manual": "मैनुअल",
+	"citoid-citoiddialog-mode-reuse": "दुबारा-इस्तेमाल",
+	"citoid-citoiddialog-search-label": "यूआरऍल, डीऑआइ भा पीऍमआइडी",
+	"citoid-citoiddialog-search-placeholder": "उदाहरण http://www.example.com"
 }

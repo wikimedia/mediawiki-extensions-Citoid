@@ -6,9 +6,7 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Susôp",
-	"citoid-citefromiddialog-back": "Gisa",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN atawa PMC/PMID",
-	"citoid-citefromidtool-title": "Kutép",
-	"citoid-citefromidtool-title-othergroup": "Keunutép",
+	"citoid-citoiddialog-back": "Gisa",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN atawa PMC/PMID",
 	"citoid-referencecontextitem-convert-button": "Ubah"
 }

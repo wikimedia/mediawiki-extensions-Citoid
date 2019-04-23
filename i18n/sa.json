@@ -4,10 +4,9 @@
 			"NehalDaveND"
 		]
 	},
-	"citoid-citefromiddialog-back": "पृष्ठे",
-	"citoid-citefromiddialog-lookup-button": "सर्जकः",
-	"citoid-citefromiddialog-mode-auto": "स्वचालितम्",
-	"citoid-citefromiddialog-mode-manual": "हस्तेन कृतम्",
-	"citoid-citefromiddialog-mode-reuse": "पुनरुपयोगः",
-	"citoid-citefromiddialog-search": "अन्वेषणम्"
+	"citoid-citoiddialog-back": "पृष्ठे",
+	"citoid-citoiddialog-lookup-button": "सर्जकः",
+	"citoid-citoiddialog-mode-auto": "स्वचालितम्",
+	"citoid-citoiddialog-mode-manual": "हस्तेन कृतम्",
+	"citoid-citoiddialog-mode-reuse": "पुनरुपयोगः"
 }

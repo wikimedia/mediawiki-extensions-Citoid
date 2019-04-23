@@ -7,15 +7,11 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Tevlî bike",
-	"citoid-citefromiddialog-back": "Paşve here",
-	"citoid-citefromiddialog-lookup-button": "Çêke",
-	"citoid-citefromiddialog-mode-auto": "Otomatîk",
-	"citoid-citefromiddialog-mode-manual": "Manûel",
-	"citoid-citefromiddialog-mode-reuse": "Dîsa bi kar bîne",
-	"citoid-citefromiddialog-search": "Lêgerîn",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN an jî PMC/PMID",
-	"citoid-citefromiddialog-search-placeholder": "wekî mînak, http://www.mînak.com",
-	"citoid-citefromiddialog-search-progress": "Lê digere, ji kerema xwe re bisekine...",
-	"citoid-citefromiddialog-title": "Çavkaniyek dake",
-	"citoid-citefromidtool-title": "Çavkanî"
+	"citoid-citoiddialog-back": "Paşve here",
+	"citoid-citoiddialog-lookup-button": "Çêke",
+	"citoid-citoiddialog-mode-auto": "Otomatîk",
+	"citoid-citoiddialog-mode-manual": "Manûel",
+	"citoid-citoiddialog-mode-reuse": "Dîsa bi kar bîne",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN an jî PMC/PMID",
+	"citoid-citoiddialog-search-placeholder": "wekî mînak, http://www.mînak.com"
 }

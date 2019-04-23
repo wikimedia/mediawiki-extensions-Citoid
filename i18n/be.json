@@ -6,15 +6,11 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Уставіць",
-	"citoid-citefromiddialog-back": "Назад",
-	"citoid-citefromiddialog-credit": "Пры падтрымцы $1",
-	"citoid-citefromiddialog-lookup-button": "Агульныя",
-	"citoid-citefromiddialog-mode-auto": "Аўтаматычна",
-	"citoid-citefromiddialog-mode-manual": "Уручную",
-	"citoid-citefromiddialog-mode-reuse": "Паўторна выкарыстоўваць",
-	"citoid-citefromiddialog-search": "Шукаць",
-	"citoid-citefromiddialog-search-placeholder": "напрыклад http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "Ідзе пошук, калі ласка, пачакайце...",
-	"citoid-citefromiddialog-title": "Дадаць цытату",
-	"citoid-citefromidtool-title": "Цытаваць"
+	"citoid-citoiddialog-back": "Назад",
+	"citoid-citoiddialog-credit": "Пры падтрымцы $1",
+	"citoid-citoiddialog-lookup-button": "Агульныя",
+	"citoid-citoiddialog-mode-auto": "Аўтаматычна",
+	"citoid-citoiddialog-mode-manual": "Уручную",
+	"citoid-citoiddialog-mode-reuse": "Паўторна выкарыстоўваць",
+	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com"
 }

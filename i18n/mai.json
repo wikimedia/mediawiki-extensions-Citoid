@@ -5,10 +5,9 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "सम्मिलित करु",
-	"citoid-citefromiddialog-back": "पाछां",
-	"citoid-citefromiddialog-lookup-button": "उत्पन्न",
-	"citoid-citefromiddialog-mode-auto": "स्वचालित",
-	"citoid-citefromiddialog-mode-manual": "गाइड",
-	"citoid-citefromiddialog-mode-reuse": "फेर्सs प्रयोग करु",
-	"citoid-citefromiddialog-search": "ताकू"
+	"citoid-citoiddialog-back": "पाछां",
+	"citoid-citoiddialog-lookup-button": "उत्पन्न",
+	"citoid-citoiddialog-mode-auto": "स्वचालित",
+	"citoid-citoiddialog-mode-manual": "गाइड",
+	"citoid-citoiddialog-mode-reuse": "फेर्सs प्रयोग करु"
 }

@@ -4,15 +4,11 @@
 			"Bachounda"
 		]
 	},
-	"citoid-citefromiddialog-lookup-button": "توليد",
-	"citoid-citefromiddialog-mode-auto": "آلي",
-	"citoid-citefromiddialog-mode-manual": "يدوي",
-	"citoid-citefromiddialog-mode-reuse": "عاود استعملها",
-	"citoid-citefromiddialog-search": "تفتاش",
-	"citoid-citefromiddialog-search-label": "URL أولا DOI",
-	"citoid-citefromiddialog-search-placeholder": "مثال: http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "راهم يحوسو ، ماذا بيك تصبر...",
-	"citoid-citefromiddialog-title": "زيد استشهاد",
-	"citoid-citefromidtool-title": "استشهد",
+	"citoid-citoiddialog-lookup-button": "توليد",
+	"citoid-citoiddialog-mode-auto": "آلي",
+	"citoid-citoiddialog-mode-manual": "يدوي",
+	"citoid-citoiddialog-mode-reuse": "عاود استعملها",
+	"citoid-citoiddialog-search-label": "URL أولا DOI",
+	"citoid-citoiddialog-search-placeholder": "مثال: http://www.example.com",
 	"citoid-unknown-error": "خطأ  ماشي معروف راه صرا الشي اللي خلاكم تخلقو الريفرينس\nماذابيك عاود من بعد"
 }

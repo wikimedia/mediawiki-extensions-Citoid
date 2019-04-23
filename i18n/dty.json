@@ -6,15 +6,11 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "थप्दे",
-	"citoid-citefromiddialog-back": "अघिल्लो",
-	"citoid-citefromiddialog-lookup-button": "उत्पन्न",
-	"citoid-citefromiddialog-mode-auto": "आफुई",
-	"citoid-citefromiddialog-mode-manual": "स्वयं",
-	"citoid-citefromiddialog-mode-reuse": "पुनः प्रयोग",
-	"citoid-citefromiddialog-search": "खोज",
-	"citoid-citefromiddialog-search-label": "यूआरएल, डीओआइ, आइएसबीएन या पीएमसी/पीएमआइडी",
-	"citoid-citefromiddialog-search-placeholder": "उदाहरण http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "खोज्जा छ,पख",
-	"citoid-citefromiddialog-title": "सन्दर्भ थप",
-	"citoid-citefromidtool-title": "सन्दर्भ राख्दे"
+	"citoid-citoiddialog-back": "अघिल्लो",
+	"citoid-citoiddialog-lookup-button": "उत्पन्न",
+	"citoid-citoiddialog-mode-auto": "आफुई",
+	"citoid-citoiddialog-mode-manual": "स्वयं",
+	"citoid-citoiddialog-mode-reuse": "पुनः प्रयोग",
+	"citoid-citoiddialog-search-label": "यूआरएल, डीओआइ, आइएसबीएन या पीएमसी/पीएमआइडी",
+	"citoid-citoiddialog-search-placeholder": "उदाहरण http://www.example.com"
 }

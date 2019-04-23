@@ -5,9 +5,7 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ghal",
-	"citoid-citefromiddialog-back": "Fattim",
-	"citoid-citefromiddialog-mode-reuse": "Punorupeog",
-	"citoid-citefromiddialog-search": "Sod",
-	"citoid-citefromiddialog-search-placeholder": "udahoron, http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "Sodta, matxem rav..."
+	"citoid-citoiddialog-back": "Fattim",
+	"citoid-citoiddialog-mode-reuse": "Punorupeog",
+	"citoid-citoiddialog-search-placeholder": "udahoron, http://www.example.com"
 }

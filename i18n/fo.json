@@ -5,13 +5,8 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Innset",
-	"citoid-citefromiddialog-back": "Aftur",
-	"citoid-citefromiddialog-lookup-button": "Leita",
-	"citoid-citefromiddialog-search": "Leita",
-	"citoid-citefromiddialog-search-label": "URL ella DOI",
-	"citoid-citefromiddialog-search-placeholder": "t.d. http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "Leitar, vinarliga bíða...",
-	"citoid-citefromiddialog-title": "Innset eina keldu",
-	"citoid-citefromiddialog-use-general-error-message": "Vit kundu ikki gera eina keldu fyri teg. Tú kanst gera eina við at nýta $1.",
-	"citoid-citefromidtool-title": "Skriva keldu"
+	"citoid-citoiddialog-back": "Aftur",
+	"citoid-citoiddialog-lookup-button": "Leita",
+	"citoid-citoiddialog-search-label": "URL ella DOI",
+	"citoid-citoiddialog-search-placeholder": "t.d. http://www.example.com"
 }

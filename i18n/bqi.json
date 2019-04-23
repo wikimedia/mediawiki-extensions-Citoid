@@ -6,17 +6,12 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "لاهاڌن",
-	"citoid-citefromiddialog-back": "ڤاپوشت",
-	"citoid-citefromiddialog-credit": "کیٛشیاری ڤابیڌاْ ڤا.",
-	"citoid-citefromiddialog-lookup-button": "راس کردن",
-	"citoid-citefromiddialog-mode-auto": "خود ٱنجوم",
-	"citoid-citefromiddialog-mode-manual": "دٱسدی",
-	"citoid-citefromiddialog-mode-reuse": "ز نۉ ب کار ڤٱندن",
-	"citoid-citefromiddialog-search": "پاٛی جۊری",
-	"citoid-citefromiddialog-search-label": "URL, DOI or PMID",
-	"citoid-citefromiddialog-search-placeholder": "هٱمچونو چی... http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "میٛن هال و بال پاٛی جۊری، لوتفٱن دٱس ڤاڌارین....",
-	"citoid-citefromiddialog-title": "اْزاف کردن یٱ ڤیرجا",
-	"citoid-citefromidtool-title": "ڤيرجا",
-	"citoid-citefromidtool-title-othergroup": "جادیارکاری"
+	"citoid-citoiddialog-back": "ڤاپوشت",
+	"citoid-citoiddialog-credit": "کیٛشیاری ڤابیڌاْ ڤا.",
+	"citoid-citoiddialog-lookup-button": "راس کردن",
+	"citoid-citoiddialog-mode-auto": "خود ٱنجوم",
+	"citoid-citoiddialog-mode-manual": "دٱسدی",
+	"citoid-citoiddialog-mode-reuse": "ز نۉ ب کار ڤٱندن",
+	"citoid-citoiddialog-search-label": "URL, DOI or PMID",
+	"citoid-citoiddialog-search-placeholder": "هٱمچونو چی... http://www.example.com"
 }

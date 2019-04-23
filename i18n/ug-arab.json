@@ -6,16 +6,12 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "قىستۇر",
-	"citoid-citefromiddialog-back": "قايت",
-	"citoid-citefromiddialog-credit": "تەمىنلىگۈچى $1",
-	"citoid-citefromiddialog-lookup-button": "ھاسىللىغۇچ",
-	"citoid-citefromiddialog-mode-auto": "ئاپتوماتىك",
-	"citoid-citefromiddialog-mode-manual": "قولدا",
-	"citoid-citefromiddialog-mode-reuse": "تەكرار قوللان",
-	"citoid-citefromiddialog-search": "ئىزدە",
-	"citoid-citefromiddialog-search-label": "URL، DOI، ISBN ياكى PMC/PMID",
-	"citoid-citefromiddialog-search-placeholder": "مەسىلەن http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "ئىزدەۋاتىدۇ، ساقلاڭ ...",
-	"citoid-citefromiddialog-title": "نەقىل قوش",
+	"citoid-citoiddialog-back": "قايت",
+	"citoid-citoiddialog-credit": "تەمىنلىگۈچى $1",
+	"citoid-citoiddialog-lookup-button": "ھاسىللىغۇچ",
+	"citoid-citoiddialog-mode-auto": "ئاپتوماتىك",
+	"citoid-citoiddialog-mode-manual": "قولدا",
+	"citoid-citoiddialog-mode-reuse": "تەكرار قوللان",
+	"citoid-citoiddialog-search-label": "URL، DOI، ISBN ياكى PMC/PMID",
 	"citoid-referencecontextitem-convert-button": "ئۆزگەرت"
 }

@@ -7,15 +7,11 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "تێخستن",
-	"citoid-citefromiddialog-back": "گەڕانەوە",
-	"citoid-citefromiddialog-lookup-button": "دروست کردن",
-	"citoid-citefromiddialog-mode-auto": "ئوتۆماتیک",
-	"citoid-citefromiddialog-mode-manual": "دەستی",
-	"citoid-citefromiddialog-mode-reuse": "بەکارھێنانەوە",
-	"citoid-citefromiddialog-search": "گەڕان",
-	"citoid-citefromiddialog-search-label": "URL، DOI یان PMID",
-	"citoid-citefromiddialog-search-placeholder": "بۆ نموونە: http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "گەڕان، تکایە سەبرت ببێت...",
-	"citoid-citefromiddialog-title": "سەرچاوەیەک زیاد بکە",
-	"citoid-citefromidtool-title": "ئاماژە"
+	"citoid-citoiddialog-back": "گەڕانەوە",
+	"citoid-citoiddialog-lookup-button": "دروست کردن",
+	"citoid-citoiddialog-mode-auto": "ئوتۆماتیک",
+	"citoid-citoiddialog-mode-manual": "دەستی",
+	"citoid-citoiddialog-mode-reuse": "بەکارھێنانەوە",
+	"citoid-citoiddialog-search-label": "URL، DOI یان PMID",
+	"citoid-citoiddialog-search-placeholder": "بۆ نموونە: http://www.example.com"
 }

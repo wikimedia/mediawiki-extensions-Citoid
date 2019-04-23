@@ -7,16 +7,11 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "ᱟᱫᱮᱨ",
-	"citoid-citefromiddialog-back": "ᱯᱟᱹᱪᱷᱞᱟᱹ",
-	"citoid-citefromiddialog-lookup-button": "ᱛᱮᱭᱟᱨ",
-	"citoid-citefromiddialog-mode-auto": "ᱟᱡᱛᱮ",
-	"citoid-citefromiddialog-mode-manual": "ᱟᱢᱛᱮ",
-	"citoid-citefromiddialog-mode-reuse": "ᱵᱮᱵᱷᱟᱨ ᱨᱩᱣᱟᱹᱲ",
-	"citoid-citefromiddialog-search": "ᱯᱟᱱᱛᱮ",
-	"citoid-citefromiddialog-search-label": "URL, DOI, ISBN or PMC/PMID",
-	"citoid-citefromiddialog-search-placeholder": "ᱡᱮᱞᱮᱠᱟ http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "ᱥᱮᱸᱫᱽᱨᱟᱜ ᱠᱟᱱᱟ, ᱛᱟᱺᱜᱤ ᱢᱮ ...",
-	"citoid-citefromidtool-title": "ᱛᱩᱢᱟᱹᱞ",
-	"citoid-citefromidtool-title-othergroup": "ᱛᱩᱢᱟᱹᱞᱟᱜ",
+	"citoid-citoiddialog-back": "ᱯᱟᱹᱪᱷᱞᱟᱹ",
+	"citoid-citoiddialog-lookup-button": "ᱛᱮᱭᱟᱨ",
+	"citoid-citoiddialog-mode-auto": "ᱟᱡᱛᱮ",
+	"citoid-citoiddialog-mode-manual": "ᱟᱢᱛᱮ",
+	"citoid-citoiddialog-mode-reuse": "ᱵᱮᱵᱷᱟᱨ ᱨᱩᱣᱟᱹᱲ",
+	"citoid-citoiddialog-search-label": "!!FUZZY!!URL, DOI, ISBN or PMC/PMID",
 	"citoid-referencecontextitem-convert-button": "ᱵᱚᱫᱚᱞ"
 }

@@ -6,16 +6,12 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Inserir",
-	"citoid-citefromiddialog-back": "Retorn",
-	"citoid-citefromiddialog-lookup-button": "Generar",
-	"citoid-citefromiddialog-mode-auto": "Automatic",
-	"citoid-citefromiddialog-mode-manual": "Manual",
-	"citoid-citefromiddialog-mode-reuse": "Reütilizar",
-	"citoid-citefromiddialog-search": "Cercar",
-	"citoid-citefromiddialog-search-label": "URL, DOI o PMID",
-	"citoid-citefromiddialog-title": "Apondre una referéncia",
-	"citoid-citefromidtool-title": "Citar",
-	"citoid-citefromidtool-title-othergroup": "Citacion",
+	"citoid-citoiddialog-back": "Retorn",
+	"citoid-citoiddialog-lookup-button": "Generar",
+	"citoid-citoiddialog-mode-auto": "Automatic",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Reütilizar",
+	"citoid-citoiddialog-search-label": "URL, DOI o PMID",
 	"citoid-referencecontextitem-convert-button": "Convertir",
 	"citoid-unknown-error": "Una error desconeguda s’es produita ; aquò nos a empachat de crear la referéncia. Reensajatz pus tard."
 }

@@ -6,14 +6,11 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ližiä",
-	"citoid-citefromiddialog-back": "Järilleh",
-	"citoid-citefromiddialog-lookup-button": "Luaji",
-	"citoid-citefromiddialog-mode-auto": "Automuattine",
-	"citoid-citefromiddialog-mode-manual": "Ohjavo",
-	"citoid-citefromiddialog-mode-reuse": "Uvvelleh käyttö",
-	"citoid-citefromiddialog-search": "Eči",
-	"citoid-citefromiddialog-search-label": "URL, DOI libo PMID",
-	"citoid-citefromiddialog-search-placeholder": "ezim. http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "Ečitäh, vuota ole hyvä...",
-	"citoid-citefromiddialog-title": "Ližiä citacii"
+	"citoid-citoiddialog-back": "Järilleh",
+	"citoid-citoiddialog-lookup-button": "Luaji",
+	"citoid-citoiddialog-mode-auto": "Automuattine",
+	"citoid-citoiddialog-mode-manual": "Ohjavo",
+	"citoid-citoiddialog-mode-reuse": "Uvvelleh käyttö",
+	"citoid-citoiddialog-search-label": "URL, DOI libo PMID",
+	"citoid-citoiddialog-search-placeholder": "ezim. http://www.example.com"
 }

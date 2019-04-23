@@ -6,11 +6,8 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ynfoegje",
-	"citoid-citefromiddialog-back": "Foarige",
-	"citoid-citefromiddialog-mode-auto": "Automatysk",
-	"citoid-citefromiddialog-mode-manual": "Hantlieding",
-	"citoid-citefromiddialog-search": "Sykje",
-	"citoid-citefromiddialog-search-label": "URL of DOI",
-	"citoid-citefromidtool-title": "Sitearje",
-	"citoid-citefromidtool-title-othergroup": "Sitaat"
+	"citoid-citoiddialog-back": "Foarige",
+	"citoid-citoiddialog-mode-auto": "Automatysk",
+	"citoid-citoiddialog-mode-manual": "Hantlieding",
+	"citoid-citoiddialog-search-label": "URL of DOI"
 }

@@ -7,14 +7,9 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "ਜੋੜੋ",
-	"citoid-citefromiddialog-back": "ਪਿੱਛੇ",
-	"citoid-citefromiddialog-mode-auto": "ਆਟੋਮੈਟਿਕ",
-	"citoid-citefromiddialog-mode-manual": "ਮੈਨੂਅਲ",
-	"citoid-citefromiddialog-mode-reuse": "ਮੁੜ-ਵਰਤੋਂ",
-	"citoid-citefromiddialog-search": "ਖੋਜ",
-	"citoid-citefromiddialog-search-placeholder": "ਉਦਾਹਰਨ http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "ਲੱਭਿਆ ਜਾ ਰਿਹਾ ਹੈ, ਇੰਤਜ਼ਾਰ ਕਰੋ...",
-	"citoid-citefromiddialog-title": "ਹਵਾਲਾ ਜੋੜੋ",
-	"citoid-citefromidtool-title": "ਹਵਾਲਾ",
-	"citoid-citefromidtool-title-othergroup": "ਹਵਾਲਾ"
+	"citoid-citoiddialog-back": "ਪਿੱਛੇ",
+	"citoid-citoiddialog-mode-auto": "ਆਟੋਮੈਟਿਕ",
+	"citoid-citoiddialog-mode-manual": "ਮੈਨੂਅਲ",
+	"citoid-citoiddialog-mode-reuse": "ਮੁੜ-ਵਰਤੋਂ",
+	"citoid-citoiddialog-search-placeholder": "ਉਦਾਹਰਨ http://www.example.com"
 }

@@ -5,10 +5,9 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Insere",
-	"citoid-citefromiddialog-back": "Torna",
-	"citoid-citefromiddialog-lookup-button": "Genera",
-	"citoid-citefromiddialog-mode-auto": "Automatopœtus",
-	"citoid-citefromiddialog-mode-manual": "manuale",
-	"citoid-citefromiddialog-mode-reuse": "Reutere",
-	"citoid-citefromiddialog-search": "Scisce"
+	"citoid-citoiddialog-back": "Torna",
+	"citoid-citoiddialog-lookup-button": "Genera",
+	"citoid-citoiddialog-mode-auto": "Automatopœtus",
+	"citoid-citoiddialog-mode-manual": "manuale",
+	"citoid-citoiddialog-mode-reuse": "Reutere"
 }

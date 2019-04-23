@@ -5,14 +5,10 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Igsuksok",
-	"citoid-citefromiddialog-back": "Balik",
-	"citoid-citefromiddialog-lookup-button": "Generate",
-	"citoid-citefromiddialog-mode-auto": "Awtomatiko",
-	"citoid-citefromiddialog-mode-manual": "Manwal",
-	"citoid-citefromiddialog-mode-reuse": "Gami-t utro",
-	"citoid-citefromiddialog-search": "Pamilnga",
-	"citoid-citefromiddialog-search-label": "URL, DOI o PMID",
-	"citoid-citefromiddialog-search-placeholder": "e.g. http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "Namimiling, alayon paghulat...",
-	"citoid-citefromiddialog-title": "Dugngi hin citation"
+	"citoid-citoiddialog-back": "Balik",
+	"citoid-citoiddialog-lookup-button": "Generate",
+	"citoid-citoiddialog-mode-auto": "Awtomatiko",
+	"citoid-citoiddialog-mode-manual": "Manwal",
+	"citoid-citoiddialog-mode-reuse": "Gami-t utro",
+	"citoid-citoiddialog-search-label": "URL, DOI o PMID"
 }

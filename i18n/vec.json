@@ -5,14 +5,10 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Inserisi",
-	"citoid-citefromiddialog-back": "Indrìo",
-	"citoid-citefromiddialog-lookup-button": "Xenerale",
-	"citoid-citefromiddialog-mode-auto": "Automàtego",
-	"citoid-citefromiddialog-mode-manual": "A man",
-	"citoid-citefromiddialog-mode-reuse": "Dòpara da novo",
-	"citoid-citefromiddialog-search": "Serca",
-	"citoid-citefromiddialog-search-label": "URL o DOI",
-	"citoid-citefromiddialog-search-placeholder": "presempio http://www.example.com",
-	"citoid-citefromiddialog-search-progress": "So' drio sercar, speta un fià...",
-	"citoid-citefromiddialog-title": "Zonta na citazion"
+	"citoid-citoiddialog-back": "Indrìo",
+	"citoid-citoiddialog-lookup-button": "Xenerale",
+	"citoid-citoiddialog-mode-auto": "Automàtego",
+	"citoid-citoiddialog-mode-manual": "A man",
+	"citoid-citoiddialog-mode-reuse": "Dòpara da novo",
+	"citoid-citoiddialog-search-label": "URL o DOI"
 }
