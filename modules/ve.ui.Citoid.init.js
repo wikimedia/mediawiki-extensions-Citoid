@@ -97,7 +97,7 @@
 	// If there is no template map ("auto") don't change the tools
 	if ( !ve.ui.mwCitoidMap ) {
 		// Unregister the tool
-		ve.ui.toolFactory.unregister( ve.ui.CiteFromIdInspectorTool );
+		ve.ui.toolFactory.unregister( ve.ui.CitoidInspectorTool );
 		return;
 	}
 
