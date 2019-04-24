@@ -11,6 +11,7 @@
 	"citoid-citoiddialog-mode-auto": "Automatesch",
 	"citoid-citoiddialog-mode-manual": "Manuell",
 	"citoid-citoiddialog-mode-reuse": "Nees-benotzen",
+	"citoid-citoiddialog-search": "Sichen",
 	"citoid-citoiddialog-search-label": "URL, DOI ISBN, PMC/PMID; QID, Titel, oder Citatioun",
 	"citoid-citoiddialog-search-placeholder": "z. B. http://www.example.com",
 	"citoid-desc": "Liwwert Zougrëffspunkten tëscht dem citoid-Service a MediaWiki",

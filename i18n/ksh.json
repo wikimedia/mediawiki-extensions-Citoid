@@ -10,7 +10,7 @@
 	"citoid-citoiddialog-mode-auto": "Automattesch",
 	"citoid-citoiddialog-mode-manual": "Vun Hand",
 	"citoid-citoiddialog-mode-reuse": "Widder bruche",
-	"citoid-citoiddialog-search-label": "<i xmk:lang=\"en\" lang=\"en\">URL</i> of <i xmk:lang=\"en\" lang=\"en\">DOI</i>",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
 	"citoid-citoiddialog-search-placeholder": "För e Beischpell: http://www.example.com",
 	"citoid-desc": "Schaff Zohjreffspungkte zwesche däm Deens <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Generate citations given an URL, URI, DOI, …\">Citoid</i> un MedijaWikki.",
 	"citoid-referencecontextitem-convert-button": "Ömwandelle",
