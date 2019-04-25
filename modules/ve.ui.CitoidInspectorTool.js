@@ -37,7 +37,6 @@ ve.ui.CitoidInspectorTool.static.title = OO.ui.deferMsg(
 		'citoid-citoidtool-title-othergroup' :
 		'citoid-citoidtool-title'
 );
-ve.ui.CitoidInspectorTool.static.label = ve.ui.CitoidInspectorTool.static.title;
 ve.ui.CitoidInspectorTool.static.icon = 'quotes';
 ve.ui.CitoidInspectorTool.static.displayBothIconAndLabel = true;
 ve.ui.CitoidInspectorTool.static.group = 'cite';
