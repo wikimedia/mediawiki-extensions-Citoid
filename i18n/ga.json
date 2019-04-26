@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nmacu"
+			"Nmacu",
+			"Smirkybec"
 		]
 	},
-	"citoid-citation-widget-insert-button": "Ionsáigh"
+	"citoid-citation-widget-insert-button": "Ionsáigh",
+	"citoid-citoiddialog-search": "Cuardaigh",
+	"citoid-citoidtool-title": "Luaigh"
 }

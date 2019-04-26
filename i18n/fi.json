@@ -17,6 +17,7 @@
 	"citoid-citoiddialog-mode-auto": "Automaattinen",
 	"citoid-citoiddialog-mode-manual": "Manuaalinen",
 	"citoid-citoiddialog-mode-reuse": "Uudelleenkäyttö",
+	"citoid-citoiddialog-search": "Haku",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, otsikko, tai viittaus",
 	"citoid-citoiddialog-search-placeholder": "esim. http://www.example.com",
 	"citoid-desc": "Mahdollistaa citoid-palvelun käytön MediaWikissä",
