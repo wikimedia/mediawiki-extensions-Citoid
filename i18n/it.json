@@ -8,7 +8,8 @@
 			"Macofe",
 			"Mpiva",
 			"Fringio",
-			"Selven"
+			"Selven",
+			"Senpremì"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Inserisci",
@@ -18,8 +19,14 @@
 	"citoid-citoiddialog-mode-auto": "Automatico",
 	"citoid-citoiddialog-mode-manual": "Manuale",
 	"citoid-citoiddialog-mode-reuse": "Riutilizza",
+	"citoid-citoiddialog-search": "Cerca",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titolo o citazione",
 	"citoid-citoiddialog-search-placeholder": "ad esempio http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Ricerca in corso, attendi...",
+	"citoid-citoiddialog-title": "Aggiungi una citazione",
+	"citoid-citoiddialog-use-general-error-message": "Non siamo riusciti a creare una citazione per te. Puoi crearne una manualmente utilizzando la scheda \"{{int:citoid-citefromiddialog-mode-manual}}\" qui sopra.",
+	"citoid-citoidtool-title": "Cita",
+	"citoid-citoidtool-title-othergroup": "Citazione",
 	"citoid-desc": "Fornisce un punto di accesso tra il servizio citoid e MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converti",
 	"citoid-referencecontextitem-convert-message": "Questo riferimento è costituito solo da un collegamento esterno. Puoi usare il bottone \"{{int:citoid-referencecontextitem-convert-button}}\" qui sotto per generare un riferimento formattato correttamente.",
