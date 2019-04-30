@@ -4,7 +4,8 @@
 			"Yfdyh000",
 			"Liuxinyu970226",
 			"Shizhao",
-			"Nbdd0121"
+			"Nbdd0121",
+			"佛壁灯"
 		]
 	},
 	"citoid-citation-widget-insert-button": "插入",
@@ -14,7 +15,14 @@
 	"citoid-citoiddialog-mode-auto": "自动",
 	"citoid-citoiddialog-mode-manual": "手动",
 	"citoid-citoiddialog-mode-reuse": "复用",
+	"citoid-citoiddialog-search": "搜索",
 	"citoid-citoiddialog-search-label": "URL、DOI、ISBN或PMC/PMID",
+	"citoid-citoiddialog-search-placeholder": "例如：http://www.example.com",
+	"citoid-citoiddialog-search-progress": "搜索中，请稍候…",
+	"citoid-citoiddialog-title": "添加引用",
+	"citoid-citoiddialog-use-general-error-message": "我们无法为您生成引用。您可使用上方的“{{int:citoid-citoiddialog-mode-manual}}”手动手动生成。",
+	"citoid-citoidtool-title": "引用",
+	"citoid-citoidtool-title-othergroup": "引用",
 	"citoid-desc": "在citoid服务和MediaWiki之间提供接入点",
 	"citoid-referencecontextitem-convert-button": "转换",
 	"citoid-referencecontextitem-convert-message": "这条参考文献仅由一个外部链接组成。您可以使用下方的“{{int:citoid-referencecontextitem-convert-button}}”以生成一个正确格式的参考文献。",
