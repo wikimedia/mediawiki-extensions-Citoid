@@ -3,7 +3,8 @@
 		"authors": [
 			"Metalhead64",
 			"Purodha",
-			"DerHexer"
+			"DerHexer",
+			"Elya"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Einfügen",
@@ -17,9 +18,9 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, Titel oder Zitat",
 	"citoid-citoiddialog-search-placeholder": "z.&nbsp;B. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Suche, bitte warten …",
-	"citoid-citoiddialog-title": "Ein Zitat hinzufügen",
+	"citoid-citoiddialog-title": "Einen Beleg hinzufügen",
 	"citoid-citoiddialog-use-general-error-message": "Wir konnten kein Zitat für dich erstellen. Du kannst eines manuell erstellen, indem du den Reiter „{{int:citoid-citoiddialog-mode-manual}}“ oben benutzt.",
-	"citoid-citoidtool-title": "Zitieren",
+	"citoid-citoidtool-title": "Belegen",
 	"citoid-citoidtool-title-othergroup": "Zitat",
 	"citoid-desc": "Schafft Zugriffspunkte zwischen dem Citoid-Dienst und MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konvertieren",

@@ -16,6 +16,7 @@
 	"citoid-citoiddialog-mode-reuse": "Genbrug",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, titel eller citering",
 	"citoid-citoiddialog-search-placeholder": "f.eks. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Søger, vent venligst...",
 	"citoid-desc": "Tilknytter Citoid-tjenesten med MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Omdan",
 	"citoid-referencecontextitem-convert-message": "Denne reference består udelukkende af et eksternt link. Du kan bruge knappen \"{{int:citoid-referencecontextitem-convert-button}}\" nedenfor for at skabe en korrekt formateret reference.",

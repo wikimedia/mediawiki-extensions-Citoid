@@ -15,10 +15,16 @@
 	"citoid-citoiddialog-mode-auto": "Automatisk",
 	"citoid-citoiddialog-mode-manual": "Manuell",
 	"citoid-citoiddialog-mode-reuse": "Gjenbruk",
+	"citoid-citoiddialog-search": "Søk",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tittel eller sitering",
 	"citoid-citoiddialog-search-placeholder": "f.eks. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Søker, vennligst vent…",
+	"citoid-citoiddialog-title": "Legg til en sitering",
+	"citoid-citoiddialog-use-general-error-message": "Klarte ikke å lage en automatisk sitering. Du kan lage en manuelt ved å bruke arkfanen «{{int:citoid-citefromiddialog-mode-manual}}» ovenfor.",
+	"citoid-citoidtool-title": "Sitér",
+	"citoid-citoidtool-title-othergroup": "Sitering",
 	"citoid-desc": "Et aksesspunkt mellom citoid-tjenesten og MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konverter",
 	"citoid-referencecontextitem-convert-message": "Denne referansen består kun av en ekstern lenke. Du kan bruke «{{int:citoid-referencecontextitem-convert-button}}»-knappen under for å lage en korrekt formatert referanse.",
-	"citoid-unknown-error": "Kunne ikke opprette referansen da en ukjent feil oppstod. Prøv på nytt senere."
+	"citoid-unknown-error": "Kunne ikke opprette siteringen da en ukjent feil oppstod. Prøv på nytt senere."
 }
