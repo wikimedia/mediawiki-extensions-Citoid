@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ezagren"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Sisipakan",
+	"citoid-citoiddialog-back": "Bulik",
+	"citoid-citoiddialog-credit": "Didukung ulih $1",
+	"citoid-citoiddialog-lookup-button": "Hasilakan",
+	"citoid-citoiddialog-mode-auto": "Utumatis",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Pakai ulang",
+	"citoid-citoiddialog-search": "Gagai",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, judul, atawa sitasi",
+	"citoid-citoiddialog-search-placeholder": "misalnya http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Manggagai, hadangi satumat...",
+	"citoid-citoiddialog-title": "Tambahakan kutipan",
+	"citoid-citoiddialog-use-general-error-message": "Kami kada kawa maulah kutipan gasan Pian. Pian kawa maulahnya sacara manual mamakai tab \"{{int:citoid-citoiddialog-mode-manual}}\" di atas.",
+	"citoid-citoidtool-title": "Kutip",
+	"citoid-citoidtool-title-othergroup": "Kutipan",
+	"citoid-desc": "Manyediaakan titik aksés antara layanan kutipan wan MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Konvérsi",
+	"citoid-referencecontextitem-convert-message": "Rujukan ngini hanya baisi tautan luar. Pian kawa mamakai picikan \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah gasan maulah rujukan nang sudah diformat.",
+	"citoid-unknown-error": "Galat nang kada dikatahui mambungun kami maulah kutipan. Silakan cuba pulang kaina."
+}

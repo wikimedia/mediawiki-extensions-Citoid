@@ -14,6 +14,9 @@
 	"citoid-citoiddialog-mode-reuse": "Atkārtota izmantošana",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, nosaukums vai atsauce",
 	"citoid-citoiddialog-search-placeholder": "piemēram, http://www.piemers.com",
+	"citoid-citoiddialog-title": "Pievienot atsauci",
+	"citoid-citoidtool-title": "Atsauce",
+	"citoid-citoidtool-title-othergroup": "Atsauce",
 	"citoid-desc": "Nodrošina piekļuves punktus starp citoid pakalpojumu un MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Pārveidot",
 	"citoid-referencecontextitem-convert-message": "Šī atsauce sastāv tikai no ārējās saites. Tu vari izmantot \"{{int:citoid-referencecontextitem-convert-button}}\" pogu, lai izveidotu pareizi noformētu atsauci."

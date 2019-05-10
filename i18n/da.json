@@ -14,6 +14,7 @@
 	"citoid-citoiddialog-mode-auto": "Automatisk",
 	"citoid-citoiddialog-mode-manual": "Manuel",
 	"citoid-citoiddialog-mode-reuse": "Genbrug",
+	"citoid-citoiddialog-search": "Søg",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, titel eller citering",
 	"citoid-citoiddialog-search-placeholder": "f.eks. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Søger, vent venligst...",
