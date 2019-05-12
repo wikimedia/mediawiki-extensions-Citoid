@@ -18,6 +18,8 @@
 	"citoid-citoiddialog-mode-reuse": "Reuze",
 	"citoid-citoiddialog-search-label": "[https://eo.wikipedia.org/wiki/URL URL], [https://eo.wikipedia.org/wiki/Cifereca_objekta_identigilo COI], aŭ PMID (''PubMed identifier'', tio estas identilo de Usona medicina publikigaĵo).",
 	"citoid-citoiddialog-search-placeholder": "ekzemple http://www.ekzemplo.com",
+	"citoid-citoidtool-title": "Citado",
+	"citoid-citoidtool-title-othergroup": "Citaĵo",
 	"citoid-desc": "Provizi alirpunktojn inter la servo Citoid kaj MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Igi",
 	"citoid-referencecontextitem-convert-message": "Ĉi tiu referenco konsistas el nur ekstera ligo. Vi povas uzi la \"{{int:citoid-referencecontextitem-igi-butonon}}\" butonon sube por generi referencon ĝuste formatada.",

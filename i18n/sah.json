@@ -12,6 +12,7 @@
 	"citoid-citoiddialog-mode-reuse": "Хос туттуу",
 	"citoid-citoiddialog-search-label": "URL, DOI биитэр PMID",
 	"citoid-citoiddialog-search-placeholder": "холобур, http://www.example.com",
+	"citoid-citoidtool-title": "Сытаата",
 	"citoid-desc": "Сигэлиир сулууспа уонна MediaWiki ыккардыларыгар ситим олохтуур",
 	"citoid-referencecontextitem-convert-button": "Уларытарга",
 	"citoid-referencecontextitem-convert-message": "Бу сигэ судургу тас сигэттэн турар. Бу тимэҕи «{{int:citoid-referencecontextitem-convert-button}}» баттааҥҥын, сөптөөх сигэни оҥоруоххун сөп.",

@@ -13,5 +13,6 @@
 	"citoid-citoiddialog-mode-manual": "دەستی",
 	"citoid-citoiddialog-mode-reuse": "بەکارھێنانەوە",
 	"citoid-citoiddialog-search-label": "URL، DOI یان PMID",
-	"citoid-citoiddialog-search-placeholder": "بۆ نموونە: http://www.example.com"
+	"citoid-citoiddialog-search-placeholder": "بۆ نموونە: http://www.example.com",
+	"citoid-citoidtool-title": "ئاماژە"
 }

@@ -9,5 +9,7 @@
 	"citoid-citoiddialog-back": "Foarige",
 	"citoid-citoiddialog-mode-auto": "Automatysk",
 	"citoid-citoiddialog-mode-manual": "Hantlieding",
-	"citoid-citoiddialog-search-label": "URL of DOI"
+	"citoid-citoiddialog-search-label": "URL of DOI",
+	"citoid-citoidtool-title": "Sitearje",
+	"citoid-citoidtool-title-othergroup": "Sitaat"
 }

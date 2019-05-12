@@ -14,6 +14,8 @@
 	"citoid-citoiddialog-mode-reuse": "Яңынан ҡулланыу",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN йәки PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "мәҫәлән, http://www.example.com",
+	"citoid-citoidtool-title": "Сығанаҡ",
+	"citoid-citoidtool-title-othergroup": "Цитата",
 	"citoid-desc": " citoid сервисы  һәм Медиавики араһында инеү мөмкинселеген тәьмин итә.",
 	"citoid-referencecontextitem-convert-button": "Формат алмаштырыу",
 	"citoid-referencecontextitem-convert-message": "Был һылтанма ябай эске сығанаҡтарҙан тора. Дөрөҫ һылтанма төҙөү  өсөн, һеҙ ошо «{{int:citoid-referencecontextitem-convert-button}}» кнопканы файҙалана алаһығыҙ.",

@@ -15,6 +15,8 @@
 	"citoid-citoiddialog-mode-reuse": "Refolosire",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN sau PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "de ex.: http://www.example.com",
+	"citoid-citoidtool-title": "Citare",
+	"citoid-citoidtool-title-othergroup": "Referință",
 	"citoid-desc": "Oferă puncte de acces între serviciul citoid și MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Convertește",
 	"citoid-referencecontextitem-convert-message": "Această referință este compusă doar dintr-o legătură externă. Puteți folosi butonul „{{int:citoid-referencecontextitem-convert-button}}” de mai jos pentru a genera o referință formatată adecvat.",

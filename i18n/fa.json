@@ -19,6 +19,8 @@
 	"citoid-citoiddialog-mode-reuse": "استفادهٔ مجدد",
 	"citoid-citoiddialog-search-label": "URL، DOI، ISBN، PMC/PMID عنوان یا یادکرد",
 	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
+	"citoid-citoidtool-title": "یادکرد",
+	"citoid-citoidtool-title-othergroup": "یادکرد",
 	"citoid-desc": "ارتباط بین خدمت citoid و مدیاویکی را برقرار می‌کند",
 	"citoid-referencecontextitem-convert-button": "تبدیل",
 	"citoid-referencecontextitem-convert-message": "این ارجاع فقط شامل یک پیوند بیرونی است. می توانید از \"{{int:citoid-referencecontextitem-convert-button}}\" برای تولید ارجاع مناسب استفاده کنید.",

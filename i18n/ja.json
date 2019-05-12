@@ -18,6 +18,8 @@
 	"citoid-citoiddialog-mode-reuse": "再利用",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN または PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "例 http://www.example.com",
+	"citoid-citoidtool-title": "引用",
+	"citoid-citoidtool-title-othergroup": "引用",
 	"citoid-desc": "citoid サービスとMediaWikiとの間のアクセスポイントを提供する",
 	"citoid-referencecontextitem-convert-button": "変換",
 	"citoid-unknown-error": "出典の作成を妨害する不明なエラーが発生しました。後でやり直してください。"

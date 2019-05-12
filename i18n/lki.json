@@ -12,6 +12,7 @@
 	"citoid-citoiddialog-mode-reuse": "استفادهٔ مجدد",
 	"citoid-citoiddialog-search-label": "URL یا DOI",
 	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
+	"citoid-citoidtool-title": "Cite",
 	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
 	"citoid-referencecontextitem-convert-button": "تبدیل",
 	"citoid-referencecontextitem-convert-message": "This reference consists of just an external link. You can use the \"{{int:citoid-referencecontextitem-convert-button}}\" button below to generate a properly formatted reference.",

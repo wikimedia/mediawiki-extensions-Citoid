@@ -16,6 +16,8 @@
 	"citoid-citoiddialog-mode-reuse": "Ponovo upotrijebi",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN ili PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "npr. http://www.primjer.com",
+	"citoid-citoidtool-title": "Referenca",
+	"citoid-citoidtool-title-othergroup": "Referenca",
 	"citoid-desc": "Pruža tačke pristupa između usluge citoid i MediaWikija",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
 	"citoid-referencecontextitem-convert-message": "Ova referenca se sastoji samo od vanjskog linka. Možete je pretvoriti u pravilno formatiranu referencu klikom na dugme \"{{int:citoid-referencecontextitem-convert-button}}\".",

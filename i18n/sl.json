@@ -13,6 +13,8 @@
 	"citoid-citoiddialog-mode-manual": "Ročno",
 	"citoid-citoiddialog-mode-reuse": "Ponovna uporaba",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, naslov ali citat",
+	"citoid-citoidtool-title": "Navedi",
+	"citoid-citoidtool-title-othergroup": "Navedek",
 	"citoid-desc": "Zagotavlja točke dostopa med storitvama citoid in MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
 	"citoid-referencecontextitem-convert-message": "Sklic vsebuje samo zunanjo povezavo. Uporabite lahko gumb »{{int:citoid-referencecontextitem-convert-button}}« spodaj, da ustvarite ustrezno oblikovan sklic.",

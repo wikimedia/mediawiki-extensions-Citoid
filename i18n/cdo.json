@@ -13,6 +13,7 @@
 	"citoid-citoiddialog-mode-reuse": "複用",
 	"citoid-citoiddialog-search-label": "URL、DOI、ISBN或者PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "比如講 http://www.example.com",
+	"citoid-citoidtool-title": "引用",
 	"citoid-desc": "敆citoid服務共媒體维基之間提供接入點",
 	"citoid-referencecontextitem-convert-button": "轉換",
 	"citoid-referencecontextitem-convert-message": "茲萆參考文獻儷由蜀萆外部鏈接組成。汝會使使下底其「{{int:citoid-referencecontextitem-convert-button}}」按鈕來生成蜀萆正確格式其參考文獻。",

@@ -12,6 +12,8 @@
 	"citoid-citoiddialog-mode-reuse": "Widder bruche",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
 	"citoid-citoiddialog-search-placeholder": "För e Beischpell: http://www.example.com",
+	"citoid-citoidtool-title": "Zėttėhre",
+	"citoid-citoidtool-title-othergroup": "Zetaht",
 	"citoid-desc": "Schaff Zohjreffspungkte zwesche däm Deens <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Generate citations given an URL, URI, DOI, …\">Citoid</i> un MedijaWikki.",
 	"citoid-referencecontextitem-convert-button": "Ömwandelle",
 	"citoid-referencecontextitem-convert-message": "En heh dä Fohßnuhd es blohs ene Lengk dren, Met dämm Knopp „{{int:citoid-referencecontextitem-convert-button}}“ kam_mer ene jannze Saz druß maache.",

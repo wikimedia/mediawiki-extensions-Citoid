@@ -20,6 +20,8 @@
 	"citoid-citoiddialog-search": "Haku",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, otsikko, tai viittaus",
 	"citoid-citoiddialog-search-placeholder": "esim. http://www.example.com",
+	"citoid-citoidtool-title": "Viittaa",
+	"citoid-citoidtool-title-othergroup": "Viite",
 	"citoid-desc": "Mahdollistaa citoid-palvelun käytön MediaWikissä",
 	"citoid-referencecontextitem-convert-button": "Muunna",
 	"citoid-referencecontextitem-convert-message": "Tämä viite koostuu pelkästä linkistä. Voit päivittää sen muoto-ohjeiden mukaiseksi viitteeksi käyttämällä ”{{int:citoid-referencecontextitem-convert-button}}”-toimintoa.",

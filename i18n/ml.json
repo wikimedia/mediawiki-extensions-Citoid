@@ -14,6 +14,8 @@
 	"citoid-citoiddialog-mode-reuse": "പുനരുപയോഗം",
 	"citoid-citoiddialog-search-label": "യു.ആർ.എൽ., ഡി.ഓ.ഐ., ഐ.എസ്.ബി.എൻ., പി.എം.സി./പി.എം.ഐ.ഡി., ക്യു.ഐ.ഡി., തലക്കെട്ട് അല്ലെങ്കിൽ അവലംബം",
 	"citoid-citoiddialog-search-placeholder": "ഉദാ: http://www.example.com",
+	"citoid-citoidtool-title": "ഉദ്ധരിക്കുക",
+	"citoid-citoidtool-title-othergroup": "അവലംബം",
 	"citoid-desc": "സൈറ്റോയിഡ് സേവനവും മീഡിയവിക്കിയും തമ്മിലുള്ള സമ്പർക്കസൗകര്യം ഒരുക്കുന്നു",
 	"citoid-referencecontextitem-convert-button": "പരിവർത്തനം ചെയ്യുക",
 	"citoid-referencecontextitem-convert-message": "ഈ അവലംബത്തിൽ പുറത്തേക്കുള്ള ഒരു കണ്ണി മാത്രമാണുള്ളത്.  താങ്കൾക്ക് താഴെയുള്ള \"{{int:citoid-referencecontextitem-convert-button}}\" ബട്ടൺ ഉപയോഗിച്ച് വേണ്ടവിധത്തിൽ സംസ്കരിച്ചെടുത്ത അവലംബം സൃഷ്ടിക്കാവുന്നതാണ്.",

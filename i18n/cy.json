@@ -14,5 +14,7 @@
 	"citoid-citoiddialog-mode-reuse": "Ailddefnyddio",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN neu PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "e.e. http://www.example.com",
+	"citoid-citoidtool-title": "Cyfeirio",
+	"citoid-citoidtool-title-othergroup": "Cyfeiriad",
 	"citoid-referencecontextitem-convert-button": "Trosi"
 }

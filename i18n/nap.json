@@ -13,6 +13,8 @@
 	"citoid-citoiddialog-mode-reuse": "Re-ausà",
 	"citoid-citoiddialog-search-label": "URL, DOI o PMID",
 	"citoid-citoiddialog-search-placeholder": "p'esempie http://www.example.com",
+	"citoid-citoidtool-title": "Citazione",
+	"citoid-citoidtool-title-othergroup": "Citaziona",
 	"citoid-desc": "Dà punte 'acciesso nfra 'o servizio citoid e MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Scagna",
 	"citoid-referencecontextitem-convert-message": "Stu riferimento è fatto 'a nu cullegamento 'e fore. Putite ausà pure 'o buttóne \"{{int:citoid-referencecontextitem-convert-button}}\" ccà abbascio pe' puté crià nu riferimento furmatato buono.",

@@ -17,6 +17,8 @@
 	"citoid-citoiddialog-mode-reuse": "Повторно използване",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, заглавие или цитат",
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
+	"citoid-citoidtool-title": "Цитиране",
+	"citoid-citoidtool-title-othergroup": "Цитиране",
 	"citoid-desc": "Осигурява връзка между услугата Citoid и МедияУики",
 	"citoid-referencecontextitem-convert-button": "Конвертиране",
 	"citoid-referencecontextitem-convert-message": "Източникът съдържа единствено външна препратка. Можете да ползвате бутона „{{int:citoid-referencecontextitem-convert-button}}“ по-долу за генериране на правилно форматиран източник.",

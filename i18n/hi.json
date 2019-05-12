@@ -17,6 +17,8 @@
 	"citoid-citoiddialog-mode-reuse": "पुन: उपयोग",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN या PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "उदाहरण http://www.example.com",
+	"citoid-citoidtool-title": "उद्धृत करें",
+	"citoid-citoidtool-title-othergroup": "सन्दर्भ",
 	"citoid-desc": "Citoid सेवा और MediaWiki के बीच अभिगम बिंदुअों का प्रदान करता है",
 	"citoid-referencecontextitem-convert-button": "परिवर्तित करें",
 	"citoid-referencecontextitem-convert-message": "सन्दर्भ में केवल बाहरी कड़ी है। आप \"{{int:citoid-referencecontextitem-convert-button}}\" बटन का उपयोग कर सही प्रारूप बना सकते हो।",

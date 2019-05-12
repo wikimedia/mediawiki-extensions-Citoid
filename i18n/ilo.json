@@ -13,6 +13,8 @@
 	"citoid-citoiddialog-mode-reuse": "Usaren manen",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN wenno PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "kas iti http://www.example.com",
+	"citoid-citoidtool-title": "Dakamaten",
+	"citoid-citoidtool-title-othergroup": "Dakamat",
 	"citoid-desc": "Mangited kadagiti pagserrekan a punto a pagbaetan ti serbisio ti citoid ken MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Pagbaliwen",
 	"citoid-referencecontextitem-convert-message": "Daytoy a nagibasaran ket buklen iti maymaysa nga akinruar a silpo. Mabalinmo nga usaren ti buton ti \"{{int:citoid-referencecontextitem-convert-button}}\" dita baba tapno makapataud iti nasayaat a napormat a nagibasaran.",

@@ -12,5 +12,6 @@
 	"citoid-citoiddialog-mode-auto": "Аўтаматычна",
 	"citoid-citoiddialog-mode-manual": "Уручную",
 	"citoid-citoiddialog-mode-reuse": "Паўторна выкарыстоўваць",
-	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com"
+	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com",
+	"citoid-citoidtool-title": "Цытаваць"
 }

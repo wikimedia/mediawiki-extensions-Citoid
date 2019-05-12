@@ -14,6 +14,8 @@
 	"citoid-citoiddialog-mode-manual": "دستی",
 	"citoid-citoiddialog-mode-reuse": "دوبارہ استعمال",
 	"citoid-citoiddialog-search-label": "یو آر ایل، ڈی او آئی، آئی ایس بی این یا پی ایم سی/پی ایم آئی ڈی",
+	"citoid-citoidtool-title": "حوالہ درج کریں",
+	"citoid-citoidtool-title-othergroup": "حوالہ جات",
 	"citoid-referencecontextitem-convert-button": "تبدیل کریں",
 	"citoid-referencecontextitem-convert-message": "اس حوالے میں محض ایک بیرونی ربط موجود ہے۔ آپ \"{{int:citoid-referencecontextitem-convert-button}}\" بٹن کو صحیح طرز کا حوالہ بنانے کے لیے استعمال کر سکتے ہیں۔"
 }

@@ -11,5 +11,7 @@
 	"citoid-citoiddialog-mode-auto": "ਆਟੋਮੈਟਿਕ",
 	"citoid-citoiddialog-mode-manual": "ਮੈਨੂਅਲ",
 	"citoid-citoiddialog-mode-reuse": "ਮੁੜ-ਵਰਤੋਂ",
-	"citoid-citoiddialog-search-placeholder": "ਉਦਾਹਰਨ http://www.example.com"
+	"citoid-citoiddialog-search-placeholder": "ਉਦਾਹਰਨ http://www.example.com",
+	"citoid-citoidtool-title": "ਹਵਾਲਾ",
+	"citoid-citoidtool-title-othergroup": "ਹਵਾਲਾ"
 }

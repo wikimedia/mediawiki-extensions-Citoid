@@ -13,6 +13,8 @@
 	"citoid-citoiddialog-mode-manual": "Ručno",
 	"citoid-citoiddialog-mode-reuse": "Ponovno korišćenje",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, naslov ili citat",
+	"citoid-citoidtool-title": "Referenca",
+	"citoid-citoidtool-title-othergroup": "Referenca",
 	"citoid-desc": "Pruža pristupne tačke između usluge Citoid i MediaWiki-ja",
 	"citoid-referencecontextitem-convert-button": "Konvertuj",
 	"citoid-referencecontextitem-convert-message": "Ova referenca se sastoji samo od spoljašnje veze. Možete da koristite dugme „{{int:citoid-referencecontextitem-convert-button}}” ispod da biste generisali ispravno formatiranu referencu.",

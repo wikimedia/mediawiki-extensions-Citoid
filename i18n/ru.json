@@ -21,6 +21,8 @@
 	"citoid-citoiddialog-mode-reuse": "Повторное использование",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, название или цитата",
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
+	"citoid-citoidtool-title": "Источник",
+	"citoid-citoidtool-title-othergroup": "Источник",
 	"citoid-desc": "Обеспечивает доступ между сервисом Citoid и MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Конвертировать",
 	"citoid-referencecontextitem-convert-message": "Это примечание состоит из простой внешней ссылки. Используйте кнопку «{{int:citoid-referencecontextitem-convert-button}}», чтобы создать правильно сформированное примечание.",

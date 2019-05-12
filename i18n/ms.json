@@ -14,6 +14,8 @@
 	"citoid-citoiddialog-mode-reuse": "Guna semula",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN atau PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "cth. http://www.example.com",
+	"citoid-citoidtool-title": "Petik",
+	"citoid-citoidtool-title-othergroup": "Petikan",
 	"citoid-desc": "Menyediakan titik-titik akses antara khidmat citoid dan MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Tukar",
 	"citoid-referencecontextitem-convert-message": "Rujukan ini terdiri daripada pautan luar sahaja. Anda boleh tekan butang \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah untuk menghasilkan rujukan yang diformatkan dengan betul.",

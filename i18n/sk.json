@@ -14,6 +14,8 @@
 	"citoid-citoiddialog-mode-manual": "Ručne",
 	"citoid-citoiddialog-mode-reuse": "Použiť existujúcu",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN alebo PMC/PMID",
+	"citoid-citoidtool-title": "Citácia",
+	"citoid-citoidtool-title-othergroup": "Citácia",
 	"citoid-desc": "Poskytuje prístupové body medzi službou Citoid a MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Previesť",
 	"citoid-referencecontextitem-convert-message": "Táto referencia obsahuje len externý odkaz. Môžete použiť tlačidlo „{{int:citoid-referencecontextitem-convert-button}}“, aby ste vytvorili správne formátovanú referenciu.",

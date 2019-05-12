@@ -18,6 +18,8 @@
 	"citoid-citoiddialog-mode-reuse": "Újrafelhasználás",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, cím vagy forráshivatkozás",
 	"citoid-citoiddialog-search-placeholder": "pl. http://www.example.com",
+	"citoid-citoidtool-title": "Forrás",
+	"citoid-citoidtool-title-othergroup": "Forráshivatkozás",
 	"citoid-desc": "Összeköttetést biztosít a citoid szolgáltatás és a MediaWiki között",
 	"citoid-referencecontextitem-convert-button": "Konvertálás",
 	"citoid-referencecontextitem-convert-message": "Ez a forráshivatkozás csak egy külső linket tartalmaz. A lenti „{{int:citoid-referencecontextitem-convert-button}}” gombbal átalakíthatod egy jól formázott forráshivatkozássá.",

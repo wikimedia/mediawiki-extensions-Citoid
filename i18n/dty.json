@@ -12,5 +12,6 @@
 	"citoid-citoiddialog-mode-manual": "स्वयं",
 	"citoid-citoiddialog-mode-reuse": "पुनः प्रयोग",
 	"citoid-citoiddialog-search-label": "यूआरएल, डीओआइ, आइएसबीएन या पीएमसी/पीएमआइडी",
-	"citoid-citoiddialog-search-placeholder": "उदाहरण http://www.example.com"
+	"citoid-citoiddialog-search-placeholder": "उदाहरण http://www.example.com",
+	"citoid-citoidtool-title": "सन्दर्भ राख्दे"
 }

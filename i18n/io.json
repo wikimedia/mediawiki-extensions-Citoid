@@ -14,6 +14,8 @@
 	"citoid-citoiddialog-mode-reuse": "Ri-uzo",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN o PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "ex. http://www.example.com",
+	"citoid-citoidtool-title": "Citar",
+	"citoid-citoidtool-title-othergroup": "Citajo",
 	"citoid-desc": "Provizas aces-punti inter la Citoid-servo e MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konvertar",
 	"citoid-referencecontextitem-convert-message": "Ica refero konsistas ek nur extera ligilo. Vu povas uzar la butono \"{{int:citoid-referencecontextitem-convert-button}}\" por produktar refero juste formatizita.",

@@ -14,6 +14,8 @@
 	"citoid-citoiddialog-mode-reuse": "Endurnota",
 	"citoid-citoiddialog-search-label": "Vefslóð, DOI, ISBN, PMC/PMID, titill eða tilvísun",
 	"citoid-citoiddialog-search-placeholder": "t.d. http://www.example.com",
+	"citoid-citoidtool-title": "Heimild",
+	"citoid-citoidtool-title-othergroup": "Tilvísun",
 	"citoid-desc": "Veitir aðgang á milli citoid þjónustunnar og MediaWiki.",
 	"citoid-referencecontextitem-convert-button": "Umbreyta",
 	"citoid-referencecontextitem-convert-message": "Tilvísunin samanstendur einungis af utanaðkomandi tengli. Þú getur notað \"{{int:citoid-referencecontextitem-convert-button}}\"-hnappinn hér fyrir neðan til að útbúa rétt sniðna tilvísun.",

@@ -13,5 +13,7 @@
 	"citoid-citoiddialog-mode-reuse": "ប្រើឡើងវិញ",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN ឬ PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "ឧ៖ http://www.example.com",
+	"citoid-citoidtool-title": "ដាក់ការយោង",
+	"citoid-citoidtool-title-othergroup": "យោង",
 	"citoid-referencecontextitem-convert-button": "បំប្លែង"
 }

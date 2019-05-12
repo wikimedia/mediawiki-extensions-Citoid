@@ -12,6 +12,7 @@
 	"citoid-citoiddialog-mode-reuse": "重來使用",
 	"citoid-citoiddialog-search-label": "URL, DOI 或者 PMID",
 	"citoid-citoiddialog-search-placeholder": "像係 http://www.example.com",
+	"citoid-citoidtool-title": "引用",
 	"citoid-desc": "Citoid服務和維基媒體之間提供存取點",
 	"citoid-referencecontextitem-convert-button": "變換"
 }

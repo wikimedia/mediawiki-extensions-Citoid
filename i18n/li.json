@@ -14,6 +14,8 @@
 	"citoid-citoiddialog-mode-reuse": "Hergebroeke",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN of PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "beveurbeeld http://www.example.com",
+	"citoid-citoidtool-title": "Citere",
+	"citoid-citoidtool-title-othergroup": "Rifferensie",
 	"citoid-desc": "Koppeltj de citoidservice en MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Zèt óm",
 	"citoid-referencecontextitem-convert-message": "Dees rifferensie besteit allein oet 'nen externe link. De kans de knoep \"{{int:citoid-referencecontextitem-convert-button}}\" hie-ónger broeke veur 'n tegooj opgemaakde rifferensie te make.",

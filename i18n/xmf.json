@@ -13,6 +13,8 @@
 	"citoid-citoiddialog-mode-manual": "ხელით",
 	"citoid-citoiddialog-mode-reuse": "ხელახლა გამოყენება",
 	"citoid-citoiddialog-search-label": "URL, DOI ვარდა PMID",
+	"citoid-citoidtool-title": "ციტირაფა",
+	"citoid-citoidtool-title-othergroup": "ციტირაფა",
 	"citoid-desc": "ხეს უნწყუნს citoid-იშ ნინალაშ დო MediaWiki-შ შქას რსხუს",
 	"citoid-referencecontextitem-convert-button": "კონვერტაცია",
 	"citoid-referencecontextitem-convert-message": "თე სქოლიო ლექინი დინოხოლენ რსხუეფშე აკმოდირთუ. თინას გჷმოქიმინელი სქოლიოშ აკაქიმინალო, შეილებუნა გჷმირინუათ კონჭი „{{int:citoid-referencecontextitem-convert-button}}“.",

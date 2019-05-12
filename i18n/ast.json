@@ -13,6 +13,8 @@
 	"citoid-citoiddialog-mode-reuse": "Reutilizar",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN o PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "p.e. http://www.exemplu.com",
+	"citoid-citoidtool-title": "Citar",
+	"citoid-citoidtool-title-othergroup": "Cita",
 	"citoid-desc": "Ufre puntos d'accesu ente'l serviciu Citoid y MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Convertir",
 	"citoid-referencecontextitem-convert-message": "Esta referencia solo contien un enllaz esternu. Puedes utilizar el botón \"{{int:citoid-referencecontextitem-converter-botón}}\" de más abaxo pa xenerar una referencia col formatu correchu.",

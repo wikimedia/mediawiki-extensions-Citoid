@@ -14,6 +14,8 @@
 	"citoid-citoiddialog-mode-reuse": "Doeuvia torna",
 	"citoid-citoiddialog-search-label": "URL, DOI ò PMID",
 	"citoid-citoiddialog-search-placeholder": "presempio http://www.example.com",
+	"citoid-citoidtool-title": "Çitta",
+	"citoid-citoidtool-title-othergroup": "Çitaçion",
 	"citoid-desc": "O fornisce un ponto d'accesso tra o serviççio citoid e MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converti",
 	"citoid-referencecontextitem-convert-message": "Sto rifeimento o l'è constituio solo che da 'n ingancio esterno. Ti pœu dœuviâ o pomello \"{{int:citoid-referencecontextitem-convert-button}}\" chì de sotta pe generâ un rifeimento formattou coretamente.",

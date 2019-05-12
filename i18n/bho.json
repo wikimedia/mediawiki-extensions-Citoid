@@ -11,5 +11,6 @@
 	"citoid-citoiddialog-mode-manual": "मैनुअल",
 	"citoid-citoiddialog-mode-reuse": "दुबारा-इस्तेमाल",
 	"citoid-citoiddialog-search-label": "यूआरऍल, डीऑआइ भा पीऍमआइडी",
-	"citoid-citoiddialog-search-placeholder": "उदाहरण http://www.example.com"
+	"citoid-citoiddialog-search-placeholder": "उदाहरण http://www.example.com",
+	"citoid-citoidtool-title": "उद्धरण"
 }

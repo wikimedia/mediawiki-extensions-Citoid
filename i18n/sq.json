@@ -15,6 +15,8 @@
 	"citoid-citoiddialog-mode-manual": "Dorazi",
 	"citoid-citoiddialog-mode-reuse": "Ripërdoreni",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, titull, ose citim",
+	"citoid-citoidtool-title": "Citoni",
+	"citoid-citoidtool-title-othergroup": "Citim",
 	"citoid-desc": "Furnizon pika hyrjeje mes shërbimit Citoid dhe MediaWiki-t",
 	"citoid-referencecontextitem-convert-button": "Shndërroje",
 	"citoid-referencecontextitem-convert-message": "Kjo referencë përbëhet thjesht nga një lidhje e jashtme. Për të prodhuar një referencë të formatuar si duhet mund të përdorni butonin \"{{int:citoid-referencecontextitem-convert-button}}\" më poshtë.",

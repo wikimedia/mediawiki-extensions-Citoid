@@ -12,6 +12,8 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Reütilizar",
 	"citoid-citoiddialog-search-label": "URL, DOI o PMID",
+	"citoid-citoidtool-title": "Citar",
+	"citoid-citoidtool-title-othergroup": "Citacion",
 	"citoid-referencecontextitem-convert-button": "Convertir",
 	"citoid-unknown-error": "Una error desconeguda s’es produita ; aquò nos a empachat de crear la referéncia. Reensajatz pus tard."
 }

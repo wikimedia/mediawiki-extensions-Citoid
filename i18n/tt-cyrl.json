@@ -12,6 +12,8 @@
 	"citoid-citoiddialog-mode-manual": "Кулдан",
 	"citoid-citoiddialog-mode-reuse": "Кире куллану",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN яисә PMC/PMID",
+	"citoid-citoidtool-title": "Чыганак",
+	"citoid-citoidtool-title-othergroup": "Өзек",
 	"citoid-desc": "Citoid сервисы һәм Медиавики арасында аралашу мөмкинлеген тәэмин итә.",
 	"citoid-referencecontextitem-convert-button": "Формат алмаштыру",
 	"citoid-referencecontextitem-convert-message": "Бу искәрмә гади тышкы сылтамадан тора. Дөрес искәрмә төзү  өчен, «{{int:citoid-referencecontextitem-convert-button}}» төймәсен кулланыгыз.",

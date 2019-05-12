@@ -8,5 +8,6 @@
 	"citoid-citoiddialog-back": "Aftur",
 	"citoid-citoiddialog-lookup-button": "Leita",
 	"citoid-citoiddialog-search-label": "URL ella DOI",
-	"citoid-citoiddialog-search-placeholder": "t.d. http://www.example.com"
+	"citoid-citoiddialog-search-placeholder": "t.d. http://www.example.com",
+	"citoid-citoidtool-title": "Skriva keldu"
 }

@@ -19,6 +19,8 @@
 	"citoid-citoiddialog-mode-manual": "Kılavuz",
 	"citoid-citoiddialog-mode-reuse": "Tekrar kullan",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, başlık veya alıntı",
+	"citoid-citoidtool-title": "Kaynak göster",
+	"citoid-citoidtool-title-othergroup": "Alıntı",
 	"citoid-desc": "Citoid hizmet ve MediaWiki arasında erişim noktaları sağlar",
 	"citoid-referencecontextitem-convert-button": "Çevir",
 	"citoid-referencecontextitem-convert-message": "Bu referans sadece bir harici bağlantıdan oluşmaktadır. Doğru biçimlendirilmiş bir referans oluşturmak için aşağıdaki \"{{int:citoid-referencecontextitem-convert-button}}\" tuşunu kullanabilirsiniz.",
