@@ -9,7 +9,8 @@
 			"NemesisIII",
 			"Mattho69",
 			"Wladek92",
-			"Ash Crow"
+			"Ash Crow",
+			"Lofhi"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Insérer",
@@ -25,7 +26,7 @@
 	"citoid-citoiddialog-search-progress": "Recherche en cours, veuillez patienter...",
 	"citoid-citoiddialog-title": "Ajouter une citation",
 	"citoid-citoiddialog-use-general-error-message": "Nous ne pouvons pas faire une citation pour vous. Vous pouvez en créer une manuellement en utilisant l’onglet « {{int:citoid-citoiddialog-mode-manual}} » ci-dessus.",
-	"citoid-citoidtool-title": "Citation",
+	"citoid-citoidtool-title": "Source",
 	"citoid-citoidtool-title-othergroup": "Citation",
 	"citoid-desc": "Offre des points d'accès entre le service citoid et MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Convertir",
