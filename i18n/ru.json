@@ -9,7 +9,8 @@
 			"Kaganer",
 			"Mailman",
 			"Stjn",
-			"Vlad5250"
+			"Vlad5250",
+			"1233qwer1234qwer4"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Вставить",
@@ -19,6 +20,7 @@
 	"citoid-citoiddialog-mode-auto": "Автоматически",
 	"citoid-citoiddialog-mode-manual": "Вручную",
 	"citoid-citoiddialog-mode-reuse": "Повторное использование",
+	"citoid-citoiddialog-search": "Поиск",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, название или цитата",
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citoidtool-title": "Источник",

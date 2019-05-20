@@ -16,6 +16,7 @@
 	"citoid-citoiddialog-mode-auto": "Automatikus",
 	"citoid-citoiddialog-mode-manual": "Kézi",
 	"citoid-citoiddialog-mode-reuse": "Újrafelhasználás",
+	"citoid-citoiddialog-search": "Keresés",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, cím vagy forráshivatkozás",
 	"citoid-citoiddialog-search-placeholder": "pl. http://www.example.com",
 	"citoid-citoidtool-title": "Forrás",
