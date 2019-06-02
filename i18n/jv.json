@@ -24,6 +24,6 @@
 	"citoid-citoidtool-title-othergroup": "Sitiran",
 	"citoid-desc": "Nyepakaké titik aksès antara paladèn sitiran lan MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Salin",
-	"citoid-referencecontextitem-convert-message": "Réferènsi iki mung dumadi saka pranala njaba siji. Panjenengan bisa nganggo tombol \"{{int:citoid-referencecontextitem-convert-button}}\" ing isor iki kanggo nggawé réferènsi mawa format kang trep.",
+	"citoid-referencecontextitem-convert-message": "Réferènsi iki mung dumadi saka pranala njaba siji. Kowé bisa nganggo tombol \"{{int:citoid-referencecontextitem-convert-button}}\" ing isor iki saperlu nggawé réferènsi mawa format kang trep.",
 	"citoid-unknown-error": "Ana masalah kang ora kaweruhan kang njalari awak dhéwé ora bisa nggawé sitiran. Sumangga panjejengan jajal manèh mengko."
 }
