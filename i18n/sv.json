@@ -6,7 +6,8 @@
 			"Josve05a",
 			"WikiPhoenix",
 			"Lokal Profil",
-			"Jopparn"
+			"Jopparn",
+			"Magol"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Infoga",
@@ -18,7 +19,9 @@
 	"citoid-citoiddialog-mode-reuse": "Återanvänd",
 	"citoid-citoiddialog-search": "Sök",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titel eller referens",
+	"citoid-citoiddialog-search-placeholder": "t.ex. http://www.exempel.se",
 	"citoid-citoiddialog-search-progress": "Söker, var god vänta...",
+	"citoid-citoiddialog-title": "Lägg till ett citat",
 	"citoid-citoidtool-title": "Ange källa",
 	"citoid-citoidtool-title-othergroup": "Referens",
 	"citoid-desc": "Tillhandahåller åtkomstpunkter mellan citiod-tjänsten och MediaWiki",
