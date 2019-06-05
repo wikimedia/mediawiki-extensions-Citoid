@@ -5,7 +5,8 @@
 			"Лорд Бъмбъри",
 			"Vodnokon4e",
 			"Spas.Z.Spasov",
-			"Ted Masters"
+			"Ted Masters",
+			"StanProg"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Вмъкване",
@@ -15,10 +16,10 @@
 	"citoid-citoiddialog-mode-auto": "Автоматично",
 	"citoid-citoiddialog-mode-manual": "Ръчна настройка",
 	"citoid-citoiddialog-mode-reuse": "Повторно използване",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, заглавие или цитат",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, заглавие или цитат",
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citoidtool-title": "Цитиране",
-	"citoid-citoidtool-title-othergroup": "Цитиране",
+	"citoid-citoidtool-title-othergroup": "Цитат",
 	"citoid-desc": "Осигурява връзка между услугата Citoid и МедияУики",
 	"citoid-referencecontextitem-convert-button": "Конвертиране",
 	"citoid-referencecontextitem-convert-message": "Източникът съдържа единствено външна препратка. Можете да ползвате бутона „{{int:citoid-referencecontextitem-convert-button}}“ по-долу за генериране на правилно форматиран източник.",

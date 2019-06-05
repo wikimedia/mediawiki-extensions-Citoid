@@ -7,7 +7,8 @@
 			"الناز",
 			"Ebraminio",
 			"Huji",
-			"درفش کاویانی"
+			"درفش کاویانی",
+			"Ladsgroup"
 		]
 	},
 	"citoid-citation-widget-insert-button": "درج",
@@ -17,8 +18,12 @@
 	"citoid-citoiddialog-mode-auto": "خودکار",
 	"citoid-citoiddialog-mode-manual": "دستی",
 	"citoid-citoiddialog-mode-reuse": "استفادهٔ مجدد",
+	"citoid-citoiddialog-search": "جستجو",
 	"citoid-citoiddialog-search-label": "URL، DOI، ISBN، PMC/PMID عنوان یا یادکرد",
 	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
+	"citoid-citoiddialog-search-progress": "درحال جستجو، لطفاً صبر کنید...",
+	"citoid-citoiddialog-title": "افزودن یک یادکرد",
+	"citoid-citoiddialog-use-general-error-message": "نتوانستیم یادکردی برای شما بسازیم. شما می‌توانید با استفاده از زبانهٔ «{{int:citoid-citefromiddialog-mode-manual}}» به صورت دستی آن را بسازید.",
 	"citoid-citoidtool-title": "یادکرد",
 	"citoid-citoidtool-title-othergroup": "یادکرد",
 	"citoid-desc": "ارتباط بین خدمت citoid و مدیاویکی را برقرار می‌کند",
