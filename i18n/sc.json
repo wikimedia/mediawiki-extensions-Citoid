@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"L2212"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Inserta",
+	"citoid-citoiddialog-back": "In segus",
+	"citoid-citoiddialog-credit": "Realizadu cun $1",
+	"citoid-citoiddialog-lookup-button": "Ingendra",
+	"citoid-citoiddialog-mode-auto": "Automàticu",
+	"citoid-citoiddialog-mode-manual": "Manuale",
+	"citoid-citoiddialog-mode-reuse": "Torra a impreare",
+	"citoid-citoiddialog-search": "Chirca",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tìtulu o tzitatzione",
+	"citoid-citoiddialog-search-placeholder": "es. http://www.esèmpiu.com",
+	"citoid-citoiddialog-search-progress": "Chirchende, pro praghere iseta...",
+	"citoid-citoiddialog-title": "Annanghe una tzitatzione",
+	"citoid-citoiddialog-use-general-error-message": "Non semus resèssidos a creare una tzitatzione pro tene. Nde podes creare una in manera manuale impreende s'ischeda \"{{int:citoid-citoiddialog-mode-manual}}\" inoghe in subra.",
+	"citoid-citoidtool-title": "Tzita",
+	"citoid-citoidtool-title-othergroup": "Tzitatzione",
+	"citoid-desc": "Frunit puntos de atzessu intre su servìtziu citoid e MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Cunverte",
+	"citoid-referencecontextitem-convert-message": "Custu riferimentu (custa nota) est fatu de unu ligàmene esternu ebbia. Podes impreare su \"{{int:citoid-referencecontextitem-convert-button}}\" butone de suta pro ingendare unu riferimentu formatadu in manera curreta.",
+	"citoid-unknown-error": "B'at àpidu una faddina disconnota chi nos at impedidu de creare una tzitatzione. Pro praghere torrade a proare prus a tardu."
+}

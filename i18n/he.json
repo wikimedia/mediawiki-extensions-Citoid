@@ -19,7 +19,7 @@
 	"citoid-citoiddialog-search-placeholder": "למשל http://www.example.com",
 	"citoid-citoiddialog-search-progress": "חיפוש, נא להמתין...",
 	"citoid-citoiddialog-title": "הוספת הערת שוליים",
-	"citoid-citoiddialog-use-general-error-message": "לא הצלחנו ליצור בשבילך הפניה למקור. באפשרותך ליצור אותה ידנית באמצעות הלשונית \"{{int:citoid-citefromiddialog-mode-manual}}\" לעיל.",
+	"citoid-citoiddialog-use-general-error-message": "לא הצלחנו ליצור בשבילך הפניה למקור. באפשרותך ליצור אותה ידנית באמצעות הלשונית \"{{int:citoid-citoiddialog-mode-manual}}\" לעיל.",
 	"citoid-citoidtool-title": "הערת שוליים",
 	"citoid-citoidtool-title-othergroup": "הערות שוליים",
 	"citoid-desc": "אספקת נקודות כניסה בין שירות citoid לבין מדיה־ויקי",
