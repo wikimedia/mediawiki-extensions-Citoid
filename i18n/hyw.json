@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Azniv Stepanian"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Մուտքագրեցէ՛ք",
+	"citoid-citoiddialog-back": "Ետ",
+	"citoid-citoiddialog-mode-reuse": "Վերաօգտագործում",
+	"citoid-citoiddialog-search": "Որոնել",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, վերնագիր կամ մէջբերում",
+	"citoid-citoiddialog-search-placeholder": "օր.՝ http://www.example.com",
+	"citoid-citoidtool-title": "Մէջբերել",
+	"citoid-citoidtool-title-othergroup": "Մէջբերում"
+}

@@ -15,6 +15,7 @@
 	"citoid-citoiddialog-search": "Шукаць",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, загаловак ці цытата",
 	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Ідзе пошук, калі ласка, пачакайце…",
 	"citoid-citoidtool-title": "Цытаваць",
 	"citoid-citoidtool-title-othergroup": "Цытата",
 	"citoid-desc": "Забясьпечвае пункты дасягу між сэрвісам citoid і MediaWiki",
