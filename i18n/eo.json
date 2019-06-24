@@ -18,7 +18,7 @@
 	"citoid-citoiddialog-mode-manual": "Permane",
 	"citoid-citoiddialog-mode-reuse": "Reuze",
 	"citoid-citoiddialog-search": "Serĉi",
-	"citoid-citoiddialog-search-label": "[https://eo.wikipedia.org/wiki/URL URL], [https://eo.wikipedia.org/wiki/Cifereca_objekta_identigilo COI], aŭ PMID (''PubMed identifier'', tio estas identilo de Usona medicina publikigaĵo).",
+	"citoid-citoiddialog-search-label": "[https://eo.wikipedia.org/wiki/URL URL], [https://eo.wikipedia.org/wiki/Cifereca_objekta_identigilo COI], PMC/PMID (''PubMed identifier'', tio estas identilo de Usona medicina publikigaĵo), QID, titolo, aŭ citaĵo",
 	"citoid-citoiddialog-search-placeholder": "ekzemple http://www.ekzemplo.com",
 	"citoid-citoiddialog-search-progress": "Serĉante, bonvolu atendi...",
 	"citoid-citoiddialog-title": "Aldoni citon",

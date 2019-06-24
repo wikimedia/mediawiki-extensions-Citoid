@@ -16,6 +16,8 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, загаловак ці цытата",
 	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ідзе пошук, калі ласка, пачакайце…",
+	"citoid-citoiddialog-title": "Дадаць цытату",
+	"citoid-citoiddialog-use-general-error-message": "У нас не атрымалася зрабіць цытату для вас. Вы можаце стварыць яе самі з дапамогай укладкі «{{int:citoid-citoiddialog-mode-manual}}» вышэй.",
 	"citoid-citoidtool-title": "Цытаваць",
 	"citoid-citoidtool-title-othergroup": "Цытата",
 	"citoid-desc": "Забясьпечвае пункты дасягу між сэрвісам citoid і MediaWiki",

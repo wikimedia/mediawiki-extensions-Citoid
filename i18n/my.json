@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"Dr Lotus Black"
 		]
 	},
-	"citoid-citefromiddialog-search": "ရှာဖွေရန်"
+	"citoid-citation-widget-insert-button": "ထည့်သွင်းရန်"
 }
