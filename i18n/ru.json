@@ -23,6 +23,8 @@
 	"citoid-citoiddialog-search": "Поиск",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, название или цитата",
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Идёт поиск, пожалуйста, подождите…",
+	"citoid-citoiddialog-title": "Добавить ссылку на источник",
 	"citoid-citoidtool-title": "Источник",
 	"citoid-citoidtool-title-othergroup": "Источник",
 	"citoid-desc": "Обеспечивает доступ между сервисом Citoid и MediaWiki",
