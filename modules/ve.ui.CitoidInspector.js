@@ -300,6 +300,10 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 	setTimeout( function () {
 		inspector.updateSize();
 	}, 200 );
+
+	if ( this.isActive ) {
+		ve.track( 'activity.' + this.constructor.static.name, { action: 'panel-switch' } );
+	}
 };
 
 /**
@@ -310,6 +314,8 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
 	var commandName = item.getData(),
 		surface = this.getManager().getSurface();
+
+	ve.track( 'activity.' + this.constructor.static.name, { action: 'manual-choose' } );
 
 	// Close this dialog then open the new dialog
 	this.close().closed.then( function () {
@@ -328,6 +334,8 @@ ve.ui.CitoidInspector.prototype.onSearchResultsChoose = function ( item ) {
 
 	ref.insertReferenceNode( this.getFragment() );
 	this.getFragment().getSurface().applyStaging();
+
+	ve.track( 'activity.' + this.constructor.static.name, { action: 'reuse-choose' } );
 
 	this.close();
 };
@@ -373,6 +381,9 @@ ve.ui.CitoidInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) 
 			surfaceModel.applyStaging();
 			this.staging = false;
 		}
+
+		ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-insert' } );
+
 		// Force a context change to show the correct context item as we may
 		// have changed from a plain reference to a templated citation
 		surfaceModel.emitContextChange();
@@ -409,6 +420,8 @@ ve.ui.CitoidInspector.prototype.onLookupInputEnter = function () {
  */
 ve.ui.CitoidInspector.prototype.onLookupButtonClick = function () {
 	this.executeAction( 'lookup' );
+
+	ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate' } );
 };
 
 /**
@@ -418,6 +431,8 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 	return ve.ui.CitoidInspector.super.prototype.getSetupProcess.call( this, data )
 		.next( function () {
 			var fragment;
+
+			this.isActive = false;
 
 			// Reset
 			this.lookupPromise = null;
@@ -472,6 +487,8 @@ ve.ui.CitoidInspector.prototype.getReadyProcess = function ( data ) {
 			// Set the panel after ready as it focuses the input too
 			var mode = data.lookup ? this.defaultPanel : ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel );
 			this.setModePanel( mode, mode === 'auto' ? 'lookup' : undefined );
+
+			this.isActive = true;
 		}, this );
 };
 
