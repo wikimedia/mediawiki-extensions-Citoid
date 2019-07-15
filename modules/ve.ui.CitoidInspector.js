@@ -61,7 +61,7 @@ ve.ui.CitoidInspector.static.citoidFormat = 'mediawiki';
 ve.ui.CitoidInspector.static.actions = [
 	{
 		label: OO.ui.deferMsg( 'visualeditor-dialog-action-cancel' ),
-		flags: [ 'safe', 'back' ],
+		flags: [ 'safe', 'close' ],
 		modes: [ 'auto-lookup', 'manual', 'reuse' ]
 	},
 	{
