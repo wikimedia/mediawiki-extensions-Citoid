@@ -36,7 +36,7 @@
 	"citoid-wb-referenceview-tabs-automatic": "Label of automatic tab in referenceview in wikibase, used to select mode.",
 	"citoid-wb-referenceview-tabs-search": "Label for the search button",
 	"citoid-wb-referenceview-tabs-search-label": "Label for the search field where users can enter a URL, DOI, ISBN, QID",
-	"citoid-wb-pendingdialog-error":"Error message for the pending dialog if unable to retrieve citation from citoid service",
+	"citoid-wb-pendingdialog-error": "Error message for the pending dialog if unable to retrieve citation from citoid service.\n\n\"Manual\" is {{msg-mw|Citoid-citoiddialog-mode-manual}}.",
 	"citoid-wb-pendingdialog-message": "Message for the pending dialog telling the user to wait for the citation being generated to complete",
 	"citoid-wb-pendingdialog-title": "Title for the pending dialog indicating a citation is being generated"
 }

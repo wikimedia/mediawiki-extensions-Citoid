@@ -27,5 +27,11 @@
 	"citoid-desc": "Fornece pontos de acesso entre o serviço citoid e o MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converter",
 	"citoid-referencecontextitem-convert-message": "Esta referência é constituída apenas por uma hiperligação externa. Pode usar o botão \"{{int:citoid-referencecontextitem-convert-button}}\" abaixo para gerar uma referência devidamente formatada.",
-	"citoid-unknown-error": "Ocorreu um erro desconhecido que impediu a criação de uma citação. Por favor, tente novamente mais tarde."
+	"citoid-unknown-error": "Ocorreu um erro desconhecido que impediu a criação de uma citação. Por favor, tente novamente mais tarde.",
+	"citoid-wb-referenceview-tabs-automatic": "Automático",
+	"citoid-wb-referenceview-tabs-search": "pesquisar",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ou QID:",
+	"citoid-wb-pendingdialog-error": "Não foi possível geral uma referência a partir desta entrada. use o separador manual ou tente novamente.",
+	"citoid-wb-pendingdialog-message": "A gerar uma referência; aguarde, por favor...",
+	"citoid-wb-pendingdialog-title": "A gerar citação"
 }

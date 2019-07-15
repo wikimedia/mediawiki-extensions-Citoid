@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"citoid-wb-pendingdialog-error": "No se pudo generar una referencia a partir de esta entrada. Utilice la pestaña Manual o inténtelo de nuevo.",
+	"citoid-wb-pendingdialog-message": "Le estamos generando una referencia; espere…"
+}

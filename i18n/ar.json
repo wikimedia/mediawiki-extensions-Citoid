@@ -28,5 +28,11 @@
 	"citoid-desc": "يوفر نقطة وصول بين citoid وميدياويكي",
 	"citoid-referencecontextitem-convert-button": "حَوِّلْ",
 	"citoid-referencecontextitem-convert-message": "هذا المرجع يتكون من رابط خارجي فقط. يمكنك استخدام زر\"{{int:citoid-referencecontextitem-convert-button}}\" في الأسفل لتوليد مرجع منسق على نحو مناسب.",
-	"citoid-unknown-error": "حدث خطأ غير معلوم منعنا من إنشاء استشهاد. برجاء المحاولة في وقت لاحق."
+	"citoid-unknown-error": "حدث خطأ غير معلوم منعنا من إنشاء استشهاد. برجاء المحاولة في وقت لاحق.",
+	"citoid-wb-referenceview-tabs-automatic": "تلقائي",
+	"citoid-wb-referenceview-tabs-search": "بحث",
+	"citoid-wb-referenceview-tabs-search-label": "مسار أو معرف الوثيقة الرقمية أو الرقم الدولي المعياري للكتاب أو معرف ويكي بيانات:",
+	"citoid-wb-pendingdialog-error": "غير قادر على إنشاء مرجع من هذا الإدخال، استخدم علامة التبويب اليدوية، أو حاول مرة أخرى.",
+	"citoid-wb-pendingdialog-message": "جارٍ إنشاء مرجع لك ... الرجاء الانتظار ...",
+	"citoid-wb-pendingdialog-title": "جارٍ توليد الاقتباس"
 }

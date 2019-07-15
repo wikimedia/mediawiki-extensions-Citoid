@@ -28,5 +28,9 @@
 	"citoid-desc": "Забезпечує точки доступу між сервісом citoid та MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Конвертувати",
 	"citoid-referencecontextitem-convert-message": "Це посилання на джерело містить лише зовнішнє посилання. Ви можете скористатися кнопкою «{{int:citoid-referencecontextitem-convert-button}}» нижче, щоб згенерувати відповідно відформатоване посилання на джерело.",
-	"citoid-unknown-error": "Сталася невідома помилка, яка не дозволила нам створити посилання на джерело. Будь ласка, спробуйте пізніше."
+	"citoid-unknown-error": "Сталася невідома помилка, яка не дозволила нам створити посилання на джерело. Будь ласка, спробуйте пізніше.",
+	"citoid-wb-referenceview-tabs-automatic": "Автоматично",
+	"citoid-wb-referenceview-tabs-search": "пошук",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN або QID:",
+	"citoid-wb-pendingdialog-title": "Генерування цитати"
 }

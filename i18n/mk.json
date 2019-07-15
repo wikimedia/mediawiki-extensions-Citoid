@@ -22,5 +22,11 @@
 	"citoid-desc": "Овозможува поврзаност помеѓу службата Citoid и МедијаВики",
 	"citoid-referencecontextitem-convert-button": "Претвори",
 	"citoid-referencecontextitem-convert-message": "Овој навод се состои само од надворешна врска. На копчето „{{int:citoid-referencecontextitem-convert-button}}“ подолу направете правилно срочен навод.",
-	"citoid-unknown-error": "Се појави непозната грешка и затоа не можев да го создадам наводот. Обидете се подоцна."
+	"citoid-unknown-error": "Се појави непозната грешка и затоа не можев да го создадам наводот. Обидете се подоцна.",
+	"citoid-wb-referenceview-tabs-automatic": "Автоматски",
+	"citoid-wb-referenceview-tabs-search": "пребарај",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN или QID:",
+	"citoid-wb-pendingdialog-error": "Не можев да создадам навод од зададеното. Послужете се со јазичето за рачно внесување или пробајте повторно.",
+	"citoid-wb-pendingdialog-message": "Го правам наводот... Почекајте...",
+	"citoid-wb-pendingdialog-title": "Создавање на навод"
 }

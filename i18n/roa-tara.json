@@ -22,5 +22,11 @@
 	"citoid-desc": "Dèje punde de accesse 'mbrà 'u servizie citoid e MediaUicchi",
 	"citoid-referencecontextitem-convert-button": "Converte",
 	"citoid-referencecontextitem-convert-message": "Stu referimende jè fatte sulamende da 'nu collegamende de fore. Puè ausà 'u buttone \"{{int:citoid-referencecontextitem-convert-button}}\" aqquà sotte pe ffà 'nu referimende formattate accumme se deve.",
-	"citoid-unknown-error": "Ha assute 'n'errore scanusciute ca non ge te face ccrejà 'na citazione. Pe piacere pruéve arrete."
+	"citoid-unknown-error": "Ha assute 'n'errore scanusciute ca non ge te face ccrejà 'na citazione. Pe piacere pruéve arrete.",
+	"citoid-wb-referenceview-tabs-automatic": "Automateche",
+	"citoid-wb-referenceview-tabs-search": "cirche",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, o QID:",
+	"citoid-wb-pendingdialog-error": "No ge pozze generà 'nu referimende da stu date. Ause 'a schede manuale, o pruève arrete.",
+	"citoid-wb-pendingdialog-message": "Stoche a genere 'nu referimende pe te... aspitte...",
+	"citoid-wb-pendingdialog-title": "Stoche a genere 'na citazione"
 }

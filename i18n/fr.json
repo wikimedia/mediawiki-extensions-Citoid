@@ -31,5 +31,11 @@
 	"citoid-desc": "Offre des points d'accès entre le service citoid et MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Convertir",
 	"citoid-referencecontextitem-convert-message": "Cette référence consiste simplement en un lien externe. Vous pouvez utiliser le bouton « {{int:citoid-referencecontextitem-convert-button}} » ci-dessous pour générer une référence correctement mise en forme.",
-	"citoid-unknown-error": "Une erreur inconnue s’est produite ce qui nous a empêché de créer la référence. Veuillez réessayer plus tard."
+	"citoid-unknown-error": "Une erreur inconnue s’est produite ce qui nous a empêché de créer la référence. Veuillez réessayer plus tard.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatique",
+	"citoid-wb-referenceview-tabs-search": "chercher",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ou QID :",
+	"citoid-wb-pendingdialog-error": "Impossible de générer une référence à partir de cette entrée. Veuillez utiliser l'onglet manuel, ou recommencer.",
+	"citoid-wb-pendingdialog-message": "Génération en cours d'une référence en votre nom... veuillez attendre...",
+	"citoid-wb-pendingdialog-title": "Génération de citation en cours"
 }
