@@ -34,9 +34,9 @@
 	"citoid-template-type-map.json": "{{ignored}}\n\nJSON object containing mapping of different document types to the wiki's template names. Each template must have TemplateData defined to map Citoid's fields to the template's fields. Document types: book, bookSection, journalArticle, magazineArticle, newspaperArticle, thesis, letter, manuscript, interview, film, artwork, webpage, report, bill, hearing, patent, statute, email, map, blogPost, instantMessage, forumPost, audioRecording, presentation, videoRecording, tvBroadcast, radioBroadcast, podcast, computerProgram, conferencePaper, document, encyclopediaArticle, dictionaryEntry",
 	"citoid-unknown-error": "Error message indicating that the service to create citations has returned an error or is temporarily malfunctioning, asking the user to try again later.",
 	"citoid-wb-referenceview-tabs-automatic": "Label of automatic tab in referenceview in wikibase, used to select mode.",
-	"citoid-wb-referenceview-tabs-search": "Label for the search button",
+	"citoid-wb-referenceview-tabs-search": "Label for the search button in wikibase automatic panel",
 	"citoid-wb-referenceview-tabs-search-label": "Label for the search field where users can enter a URL, DOI, ISBN, QID",
-	"citoid-wb-pendingdialog-error": "Error message for the pending dialog if unable to retrieve citation from citoid service.\n\n\"Manual\" is {{msg-mw|Citoid-citoiddialog-mode-manual}}.",
-	"citoid-wb-pendingdialog-message": "Message for the pending dialog telling the user to wait for the citation being generated to complete",
-	"citoid-wb-pendingdialog-title": "Title for the pending dialog indicating a citation is being generated"
+	"citoid-wb-pendingdialog-error": "Error message for the pending dialog in wikibase if unable to retrieve citation from citoid service.\n\n\"Manual\" is {{msg-mw|Wikibase-referenceview-tabs-manual}}.",
+	"citoid-wb-pendingdialog-message": "Message for the pending dialog in wikibase telling the user to wait for the citation being generated to complete",
+	"citoid-wb-pendingdialog-title": "Title for the pending dialog in wikibase indicating a citation is being generated"
 }
