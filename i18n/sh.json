@@ -2,19 +2,33 @@
 	"@metadata": {
 		"authors": [
 			"OC Ripper",
-			"Sf"
+			"Sf",
+			"Vlad5250"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ubaci",
 	"citoid-citoiddialog-back": "Nazad",
+	"citoid-citoiddialog-credit": "Omogućeno $1",
 	"citoid-citoiddialog-lookup-button": "Generiraj",
 	"citoid-citoiddialog-mode-auto": "Automatski",
 	"citoid-citoiddialog-mode-manual": "Ručno",
 	"citoid-citoiddialog-mode-reuse": "Ponovo upotrijebiti",
+	"citoid-citoiddialog-search": "Traži",
 	"citoid-citoiddialog-search-label": "URL, DOI ili PMID",
+	"citoid-citoiddialog-search-placeholder": "npr. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Pretraživanje. Pričekajte...",
+	"citoid-citoiddialog-title": "Dodaj citat",
+	"citoid-citoiddialog-use-general-error-message": "Nisam mogao napraviti citat. Možete ga stvoriti ručno s karticom \"{{int:citoid-citefromiddialog-mode-manual}}\" gore.",
 	"citoid-citoidtool-title": "Citiraj - Цитирај",
+	"citoid-citoidtool-title-othergroup": "Citat",
 	"citoid-desc": "Pruža točke pristupa između službe citoida i  MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
 	"citoid-referencecontextitem-convert-message": "Ova referenca se sastoji samo od vanjskog linka. Možete je pretvoriti u pravilno formatiranu referencu klikom na dugme \"{{int:citoid-referencecontextitem-convert-button}}\".",
-	"citoid-unknown-error": "Nepoznata pogreška se dogodila i spriječila nas da stvorimo citat. Molimo pokušajte kasnije."
+	"citoid-unknown-error": "Nepoznata pogreška se dogodila i spriječila nas da stvorimo citat. Molimo pokušajte kasnije.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatski",
+	"citoid-wb-referenceview-tabs-search": "traži",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ili QID:",
+	"citoid-wb-pendingdialog-error": "Nisam mogao stvoriti referencu od zadanoga. Poslužite s karticom za ručni unos ili pokušajte ponovno.",
+	"citoid-wb-pendingdialog-message": "Je pravim referenciju... Pričekajte...",
+	"citoid-wb-pendingdialog-title": "Stvaranje reference"
 }

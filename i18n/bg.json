@@ -16,6 +16,7 @@
 	"citoid-citoiddialog-mode-auto": "Автоматично",
 	"citoid-citoiddialog-mode-manual": "Ръчна настройка",
 	"citoid-citoiddialog-mode-reuse": "Повторно използване",
+	"citoid-citoiddialog-search": "Търсене",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, заглавие или цитат",
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citoidtool-title": "Цитиране",
@@ -23,5 +24,6 @@
 	"citoid-desc": "Осигурява връзка между услугата Citoid и МедияУики",
 	"citoid-referencecontextitem-convert-button": "Конвертиране",
 	"citoid-referencecontextitem-convert-message": "Източникът съдържа единствено външна препратка. Можете да ползвате бутона „{{int:citoid-referencecontextitem-convert-button}}“ по-долу за генериране на правилно форматиран източник.",
-	"citoid-unknown-error": "Възникна неизвестна грешка, която ни попречи да създадем цитат. Моля, опитайте по-късно."
+	"citoid-unknown-error": "Възникна неизвестна грешка, която ни попречи да създадем цитат. Моля, опитайте по-късно.",
+	"citoid-wb-referenceview-tabs-search": "търсене"
 }
