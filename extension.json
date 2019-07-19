@@ -22,8 +22,7 @@
 	},
 	"AutoloadClasses": {
 		"CitoidHooks": "includes/CitoidHooks.php",
-		"CitoidDataModule": "includes/CitoidDataModule.php",
-		"WBCitoidDataModule": "includes/WBCitoidDataModule.php"
+		"CitoidDataModule": "includes/CitoidDataModule.php"
 	},
 	"ResourceModules": {
 		"ext.citoid.visualEditor": {
@@ -77,18 +76,18 @@
 			"class": "CitoidDataModule"
 		},
 		"ext.citoid.wikibase.init": {
-			"scripts": [
-				"modules/wikibase/wb.Citoid.init.js"
-			],
-			"dependencies": [
-				"ext.citoid.wikibase.data"
+			"localBasePath": "modules/wikibase",
+			"remoteExtPath": "Citoid/modules/wikibase",
+			"packageFiles": [
+				"wb.Citoid.init.js",
+				{
+					"name": "data.json",
+					"callback": "CitoidHooks::getWikibaseInitData"
+				}
 			],
 			"targets": [
 				"desktop"
 			]
-		},
-		"ext.citoid.wikibase.data": {
-			"class": "WBCitoidDataModule"
 		},
 		"ext.citoid.wikibase": {
 			"scripts": [
