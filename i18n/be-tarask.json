@@ -24,5 +24,6 @@
 	"citoid-referencecontextitem-convert-button": "Канвэртаваць",
 	"citoid-referencecontextitem-convert-message": "Гэтая спасылка складаецца з простай вонкавай спасылкі. Вы можаце скарыстацца кнопкай «{{int:citoid-referencecontextitem-convert-button}}», каб сфармаваць правільную спасылку.",
 	"citoid-unknown-error": "Адбылася невядомая памылка, якая не дала магчымасьць стварыць цытату. Калі ласка, паспрабуйце пазьней.",
-	"citoid-wb-referenceview-tabs-automatic": "Аўтаматычна"
+	"citoid-wb-referenceview-tabs-automatic": "Аўтаматычна",
+	"citoid-wb-referenceview-tabs-search": "пошук"
 }

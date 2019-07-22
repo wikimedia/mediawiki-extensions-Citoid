@@ -8,7 +8,8 @@
 			"Romaine",
 			"Dedalus",
 			"Sjoerddebruin",
-			"Mainframe98"
+			"Mainframe98",
+			"Mvolz"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Invoegen",
@@ -23,7 +24,7 @@
 	"citoid-citoiddialog-search-placeholder": "bijvoorbeeld http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Bezig met zoeken. Een moment geduld...",
 	"citoid-citoiddialog-title": "Citaat toevoegen",
-	"citoid-citoiddialog-use-general-error-message": "Het was niet mogelijk een citaat aan te maken. U kunt proberen het handmatig aan te maken via het tabblad \"{{int:citoid-citefromiddialog-mode-manual}}\" hierboven.",
+	"citoid-citoiddialog-use-general-error-message": "Het was niet mogelijk een citaat aan te maken. U kunt proberen het handmatig aan te maken via het tabblad \"{{int:citoid-citoiddialog-mode-manual}}\" hierboven.",
 	"citoid-citoidtool-title": "Citeren",
 	"citoid-citoidtool-title-othergroup": "Referentie",
 	"citoid-desc": "Koppelt de citoidservice en MediaWiki",
