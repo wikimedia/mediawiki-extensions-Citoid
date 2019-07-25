@@ -205,9 +205,14 @@
 			this.$body.append(
 				$( '<div>' )
 					.addClass( 've-ui-citoidReferenceContextItem-convert ve-ui-mwReferenceContextItem-muted' )
-					.text( ve.msg( 'citoid-referencecontextitem-convert-message' ) ),
-				convertButton.$element
+					.text( ve.msg( 'citoid-referencecontextitem-convert-message' ) )
 			);
+
+			if ( this.$foot ) {
+				this.$foot.prepend( convertButton.$element );
+			} else {
+				this.$body.append( convertButton.$element );
+			}
 		}
 	};
 
