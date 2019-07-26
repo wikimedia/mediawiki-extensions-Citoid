@@ -27,5 +27,8 @@
 	"citoid-desc": "Poskytuje přístupové body mezi službou Citoid a MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Převést",
 	"citoid-referencecontextitem-convert-message": "Tato reference obsahuje jen externí odkaz. Pomocí tlačítka „{{int:citoid-referencecontextitem-convert-button}}“ níže můžete vytvořit správně formátovanou referenci.",
-	"citoid-unknown-error": "Jelikož došlo k neznámé chybě, nejsme schopni vytvořit citaci. Zkuste to znovu později."
+	"citoid-unknown-error": "Jelikož došlo k neznámé chybě, nejsme schopni vytvořit citaci. Zkuste to znovu později.",
+	"citoid-wb-referenceview-tabs-automatic": "Automaticky",
+	"citoid-wb-referenceview-tabs-search": "hledat",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, nebo QID:"
 }
