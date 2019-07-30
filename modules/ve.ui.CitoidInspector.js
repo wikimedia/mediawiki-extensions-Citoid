@@ -318,7 +318,7 @@ ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
 	ve.track( 'activity.' + this.constructor.static.name, { action: 'manual-choose' } );
 
 	// Close this dialog then open the new dialog
-	this.close().closed.then( function () {
+	this.close( { action: 'manual-choose' } ).closed.then( function () {
 		var command = ve.ui.commandRegistry.lookup( commandName );
 		command.execute( surface );
 	} );
