@@ -28,5 +28,11 @@
 	"citoid-desc": "Provizi alirpunktojn inter la servo Citoid kaj MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Igi",
 	"citoid-referencecontextitem-convert-message": "Ĉi tiu referenco konsistas el nur ekstera ligo. Vi povas uzi la \"{{int:citoid-referencecontextitem-igi-butonon}}\" butonon sube por generi referencon ĝuste formatada.",
-	"citoid-unknown-error": "Ni ne povis krei la citon pro nekonata eraro. Bonvolu reprovi pli malfrue."
+	"citoid-unknown-error": "Ni ne povis krei la citon pro nekonata eraro. Bonvolu reprovi pli malfrue.",
+	"citoid-wb-referenceview-tabs-automatic": "Aŭtomate",
+	"citoid-wb-referenceview-tabs-search": "serĉi",
+	"citoid-wb-referenceview-tabs-search-label": "Retadreso, DOI, ISBN, aŭ QID:",
+	"citoid-wb-pendingdialog-error": "Ne povas produkti referencon el tiu enigaĵo. Uzu la malaŭtomatan langeton, aŭ reprovu.",
+	"citoid-wb-pendingdialog-message": "Produktante referencon por vi; bonvolu atendi...",
+	"citoid-wb-pendingdialog-title": "Produktante Citaĵon"
 }
