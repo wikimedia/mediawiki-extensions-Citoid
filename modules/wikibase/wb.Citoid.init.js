@@ -2,7 +2,7 @@
  * Lightweight loader for wikibase citoid module
  */
 
-( function ( wb ) {
+( function () {
 
 	var config, citoidUrl, citoidTool, enableTabs, isEditView;
 
@@ -21,11 +21,11 @@
 		if ( enableTabs && citoidUrl && config.zoteroProperties && isEditView ) {
 			// Load required modules; wikibase.datamodel doesn't get registered until too late otherwise
 			mw.loader.using( [ 'ext.citoid.wikibase', 'wikibase.datamodel', 'dataValues' ] ).then( function () {
-				citoidTool = new wb.CitoidTool( config );
+				citoidTool = new wikibase.CitoidTool( config );
 				citoidTool.init();
 			} );
 		}
 
 	} );
 
-}( wikibase ) );
+}() );
