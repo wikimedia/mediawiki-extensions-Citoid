@@ -22,5 +22,11 @@
 	"citoid-desc": "Ufre puntos d'accesu ente'l serviciu Citoid y MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Convertir",
 	"citoid-referencecontextitem-convert-message": "Esta referencia solo contien un enllaz esternu. Puedes utilizar el botón \"{{int:citoid-referencecontextitem-converter-botón}}\" de más abaxo pa xenerar una referencia col formatu correchu.",
-	"citoid-unknown-error": "Hebo un error desconocíu que torgó la creación de la cita. Inténtalo más sero."
+	"citoid-unknown-error": "Hebo un error desconocíu que torgó la creación de la cita. Inténtalo más sero.",
+	"citoid-wb-referenceview-tabs-automatic": "Automáticu",
+	"citoid-wb-referenceview-tabs-search": "buscar",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN o QID:",
+	"citoid-wb-pendingdialog-error": "Non pudo xenerase una referencia a partir d'esta entrada. Usa la llingüeta manual o tenta nuevamente.",
+	"citoid-wb-pendingdialog-message": "Tamos xenerándote una referencia... espera...",
+	"citoid-wb-pendingdialog-title": "Xenerando una cita"
 }
