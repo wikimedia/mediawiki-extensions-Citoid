@@ -26,5 +26,10 @@
 	"citoid-desc": "Et aksesspunkt mellom citoid-tjenesten og MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konverter",
 	"citoid-referencecontextitem-convert-message": "Denne referansen består kun av en ekstern lenke. Du kan bruke «{{int:citoid-referencecontextitem-convert-button}}»-knappen under for å lage en korrekt formatert referanse.",
-	"citoid-unknown-error": "Kunne ikke opprette siteringen da en ukjent feil oppstod. Prøv på nytt senere."
+	"citoid-unknown-error": "Kunne ikke opprette siteringen da en ukjent feil oppstod. Prøv på nytt senere.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatisk",
+	"citoid-wb-referenceview-tabs-search": "søk",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN eller QID:",
+	"citoid-wb-pendingdialog-message": "Generer referanse for deg … vennligst vent …",
+	"citoid-wb-pendingdialog-title": "Genererer sitering"
 }
