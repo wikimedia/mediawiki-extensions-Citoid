@@ -10,7 +10,7 @@
 	mw.hook( 'wikibase.entityPage.entityLoaded' ).add( function () {
 
 		try {
-			config = JSON.parse( mw.message( 'citoid-wikibase-config.json' ).plain() );
+			config = JSON.parse( require( './data.json' ).toolConfig );
 			citoidUrl = mw.config.get( 'wgCitoidConfig' ).wbFullRestbaseUrl;
 			enableTabs = mw.config.get( 'wbRefTabsEnabled' );
 			isEditView = mw.config.get( 'wbIsEditView' );

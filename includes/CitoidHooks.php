@@ -30,6 +30,20 @@ class CitoidHooks {
 	}
 
 	/**
+	 * Virtual data file of 'ext.citoid.wikibase.init' module.
+	 *
+	 * @param ResourceLoaderContext $context
+	 * @return array
+	 */
+	public static function getWikibaseInitData( ResourceLoaderContext $context ) {
+		return [
+			'toolConfig' => $context->msg( 'citoid-wikibase-config.json' )
+				->inContentLanguage()
+				->plain(),
+		];
+	}
+
+	/**
 	 * Loads front-end wikibase citoid module
 	 * @param OutputPage &$out
 	 * @return true
