@@ -3,8 +3,33 @@
 		"authors": [
 			"M phani",
 			"Veeven",
-			"Praveen Illa"
+			"Praveen Illa",
+			"Chaduvari"
 		]
 	},
-	"citoid-citoiddialog-back": "వెనుకకు"
+	"citoid-citation-widget-insert-button": "చొప్పించు",
+	"citoid-citoiddialog-back": "వెనక్కి",
+	"citoid-citoiddialog-credit": "$1 చేత చోదితం",
+	"citoid-citoiddialog-lookup-button": "తయారు చెయ్యి",
+	"citoid-citoiddialog-mode-auto": "ఆటోమాటిగ్గా",
+	"citoid-citoiddialog-mode-manual": "మానవికంగా",
+	"citoid-citoiddialog-mode-reuse": "ఉన్నదాన్నే మళ్ళీ",
+	"citoid-citoiddialog-search": "వెతుకు",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
+	"citoid-citoiddialog-search-placeholder": "ఉదా: http://www.example.com",
+	"citoid-citoiddialog-search-progress": "వెతుకుతున్నాం, ఆగండి...",
+	"citoid-citoiddialog-title": "ఉల్లేఖనను చేర్చండి",
+	"citoid-citoiddialog-use-general-error-message": "ఉల్లేఖనను తయారు చెయ్యలేకపోయాం. పైనున్న \"{{int:citoid-citoiddialog-mode-manual}}\" ట్యాబుకు వెళ్ళి మీరే మానవికంగా తయారు చేసుకోవచ్చు.",
+	"citoid-citoidtool-title": "ఉల్లేఖించండి",
+	"citoid-citoidtool-title-othergroup": "ఉల్లేఖన",
+	"citoid-desc": "సైటాయిడ్, మీడియావికీల మధ్య యాక్సెస్ పాయింట్లను ఇస్తుంది",
+	"citoid-referencecontextitem-convert-button": "మార్చు",
+	"citoid-referencecontextitem-convert-message": "ఈ మూలంలో బయటి లింకు ఒకటి మాత్రమే ఉంది, అంతే. కింద ఉన్న \"{{int:citoid-referencecontextitem-convert-button}}\" బొత్తాన్ని వాడి సరైన మూలాన్ని తయారు చెయ్యవచ్చు.",
+	"citoid-unknown-error": "ఏదో తెలియని లోపం వలన ఉల్లేఖనను తయారు చెయ్యలేకపోయాం. కాసేపాగి మళ్ళీ ప్రయత్నించండి.",
+	"citoid-wb-referenceview-tabs-automatic": "ఆటోమాటిగ్గా",
+	"citoid-wb-referenceview-tabs-search": "వెతుకు",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, లేదా QID:",
+	"citoid-wb-pendingdialog-error": "మీరిచ్చిన ఇన్‌పుట్‌తో మూలాన్ని తయారు చెయ్యలేకపోయాం. మానవిక ట్యాబును వాడి చూడండి, లేదా మళ్ళీ ప్రయత్నించండి.",
+	"citoid-wb-pendingdialog-message": "మూలాన్ని తయారు చేస్తున్నాం... వేచి ఉండండి...",
+	"citoid-wb-pendingdialog-title": "ఉల్లేఖనను తయారు చేస్తున్నాం"
 }

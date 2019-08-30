@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iwan Novirion"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Sisip",
+	"citoid-citoiddialog-back": "Baliak",
+	"citoid-citoiddialog-credit": "Didukuang jo $1",
+	"citoid-citoiddialog-lookup-button": "Hasilkan",
+	"citoid-citoiddialog-mode-auto": "Otomatih",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Pakai ulang",
+	"citoid-citoiddialog-search": "Cari",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, judul, atau sitasi",
+	"citoid-citoiddialog-search-placeholder": "mis. http://www.contoh.com",
+	"citoid-citoiddialog-search-progress": "Mancari, tunggu santa...",
+	"citoid-citoiddialog-title": "Tambahkan kutipan",
+	"citoid-citoidtool-title": "Kutip",
+	"citoid-citoidtool-title-othergroup": "Kutipan",
+	"citoid-referencecontextitem-convert-button": "Konversi",
+	"citoid-wb-referenceview-tabs-automatic": "Otomatih",
+	"citoid-wb-referenceview-tabs-search": "cari",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, atau QID:"
+}

@@ -3,7 +3,8 @@
 		"authors": [
 			"Kusavica",
 			"Teslaton",
-			"TomášPolonec"
+			"TomášPolonec",
+			"Luky001"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Vložiť",
@@ -14,6 +15,7 @@
 	"citoid-citoiddialog-mode-manual": "Ručne",
 	"citoid-citoiddialog-mode-reuse": "Použiť existujúcu",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN alebo PMC/PMID",
+	"citoid-citoiddialog-search-placeholder": "napr. http://www.example.com",
 	"citoid-citoidtool-title": "Citácia",
 	"citoid-citoidtool-title-othergroup": "Citácia",
 	"citoid-desc": "Poskytuje prístupové body medzi službou Citoid a MediaWiki",
