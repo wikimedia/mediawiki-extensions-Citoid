@@ -14,12 +14,19 @@
 	"citoid-citoiddialog-mode-auto": "Automático",
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Reutilizar",
+	"citoid-citoiddialog-search": "Procurar",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, título ou cita",
 	"citoid-citoiddialog-search-placeholder": "por exemplo, http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Procurando, agarde por favor...",
+	"citoid-citoiddialog-title": "Engadir unha referencia",
 	"citoid-citoidtool-title": "Citar",
 	"citoid-citoidtool-title-othergroup": "Cita",
 	"citoid-desc": "Proporciona puntos de acceso entre o servizo Citoid e MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converter",
 	"citoid-referencecontextitem-convert-message": "Esta referencia so contén unha ligazón externa. Podes utilizar o botón \"{{int:citoid-referencecontextitem-converter-botón}}\" embaixo para xerar unha referencia co formato correcto.",
-	"citoid-unknown-error": "Ocorreu un erro descoñecido que impediu crear a cita. Probe de novo máis tarde."
+	"citoid-unknown-error": "Ocorreu un erro descoñecido que impediu crear a cita. Probe de novo máis tarde.",
+	"citoid-wb-referenceview-tabs-automatic": "Automático",
+	"citoid-wb-referenceview-tabs-search": "procura",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ou QID:",
+	"citoid-wb-pendingdialog-title": "Xerando cita"
 }
