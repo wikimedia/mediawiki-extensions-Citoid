@@ -6,7 +6,8 @@
 			"Takot",
 			"Otokoume",
 			"Miya",
-			"Delim"
+			"Delim",
+			"Kkairri"
 		]
 	},
 	"citoid-citation-widget-insert-button": "挿入",
@@ -21,9 +22,15 @@
 	"citoid-citoiddialog-search-placeholder": "例 http://www.example.com",
 	"citoid-citoiddialog-search-progress": "検索しています。しばらくお待ち下さい。",
 	"citoid-citoiddialog-title": "引用を追加",
+	"citoid-citoiddialog-use-general-error-message": "出典を作成できませんでした。上にある「{{int:citoid-citefromiddialog-mode-manual}}」タブを使って、手動で作成することもできます。",
 	"citoid-citoidtool-title": "引用",
 	"citoid-citoidtool-title-othergroup": "引用",
 	"citoid-desc": "citoid サービスとMediaWikiとの間のアクセスポイントを提供する",
 	"citoid-referencecontextitem-convert-button": "変換",
-	"citoid-unknown-error": "出典の作成を妨害する不明なエラーが発生しました。後でやり直してください。"
+	"citoid-unknown-error": "出典の作成を妨害する不明なエラーが発生しました。後でやり直してください。",
+	"citoid-wb-referenceview-tabs-automatic": "自動",
+	"citoid-wb-referenceview-tabs-search": "検索",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBNまたはQID:",
+	"citoid-wb-pendingdialog-error": "この入力から出典を生成できませんでした。手動タブを使うか、もう一度実行してください。",
+	"citoid-wb-pendingdialog-message": "出典を生成しています... しばらくお待ちください..."
 }
