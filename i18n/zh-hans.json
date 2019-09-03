@@ -5,7 +5,8 @@
 			"Liuxinyu970226",
 			"Shizhao",
 			"Nbdd0121",
-			"佛壁灯"
+			"佛壁灯",
+			"A Chinese Wikipedian"
 		]
 	},
 	"citoid-citation-widget-insert-button": "插入",
@@ -26,5 +27,7 @@
 	"citoid-desc": "在citoid服务和MediaWiki之间提供接入点",
 	"citoid-referencecontextitem-convert-button": "转换",
 	"citoid-referencecontextitem-convert-message": "这条参考文献仅由一个外部链接组成。您可以使用下方的“{{int:citoid-referencecontextitem-convert-button}}”以生成一个正确格式的参考文献。",
-	"citoid-unknown-error": "发生了未知错误，以至于我们无法创建引用。请稍后再试。"
+	"citoid-unknown-error": "发生了未知错误，以至于我们无法创建引用。请稍后再试。",
+	"citoid-wb-referenceview-tabs-automatic": "自动",
+	"citoid-wb-referenceview-tabs-search": "搜索"
 }

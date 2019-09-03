@@ -22,6 +22,7 @@
 	"citoid-citoiddialog-search-placeholder": "t.ex. http://www.exempel.se",
 	"citoid-citoiddialog-search-progress": "Söker, var god vänta...",
 	"citoid-citoiddialog-title": "Lägg till ett citat",
+	"citoid-citoiddialog-use-general-error-message": "Vi kunde inte göra en referens åt dig. Du kan göra en manuellt på fliken \"{{int:citoid-citefromiddialog-mode-manual}}\" ovanför.",
 	"citoid-citoidtool-title": "Ange källa",
 	"citoid-citoidtool-title-othergroup": "Referens",
 	"citoid-desc": "Tillhandahåller åtkomstpunkter mellan citiod-tjänsten och MediaWiki",
@@ -32,5 +33,6 @@
 	"citoid-wb-referenceview-tabs-search": "sök",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, eller QID:",
 	"citoid-wb-pendingdialog-error": "Kunde inte generera en referens från denna inmatning. Använd den manuella fliken eller försök igen.",
-	"citoid-wb-pendingdialog-message": "Genererar en referens åt dig... Var god vänta..."
+	"citoid-wb-pendingdialog-message": "Genererar en referens åt dig... Var god vänta...",
+	"citoid-wb-pendingdialog-title": "Skapar referens"
 }
