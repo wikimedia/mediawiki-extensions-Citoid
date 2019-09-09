@@ -13,9 +13,17 @@
 	"citoid-citoiddialog-mode-auto": "خودڪار",
 	"citoid-citoiddialog-mode-manual": "ترتيبوار",
 	"citoid-citoiddialog-mode-reuse": "ٻيهر استعمال ڪريو",
+	"citoid-citoiddialog-search": "ڳوليو",
 	"citoid-citoiddialog-search-label": "يوآرايل، ڊياوآءِ، آءِايسبياين يا پيايمسي/پيايمآءِڊي",
+	"citoid-citoiddialog-search-placeholder": "مثال http://www.example.com",
+	"citoid-citoiddialog-search-progress": "ڳولييندي، مھرباني ڪري انتظار ڪريو…",
+	"citoid-citoiddialog-title": "ڪو حوالو وجھو",
 	"citoid-citoidtool-title": "حوالو",
 	"citoid-citoidtool-title-othergroup": "حوالو",
-	"citoid-referencecontextitem-convert-button": "تبديل ڪريو",
-	"citoid-unknown-error": "ھڪ اڻڄاتل خرابي پيش آئي آھي جنھن اسانکي ڪو حوالو سرجڻ کان روڪيو. براءِ مھرباني بعد ۾ ٻيھر ڪوشش ڪريو."
+	"citoid-referencecontextitem-convert-button": "مٽيو",
+	"citoid-unknown-error": "ھڪ اڻڄاتل خرابي پيش آئي آھي جنھن اسانکي ڪو حوالو سرجڻ کان روڪيو. براءِ مھرباني بعد ۾ ٻيھر ڪوشش ڪريو.",
+	"citoid-wb-referenceview-tabs-automatic": "پاڻمرادو",
+	"citoid-wb-referenceview-tabs-search": "ڳوليو",
+	"citoid-wb-pendingdialog-message": "توھان لاءِ ھڪ حوالو جوڙيندي… مھرباني ڪري انتظار ڪريو…",
+	"citoid-wb-pendingdialog-title": "حوالو جوڙيندي"
 }
