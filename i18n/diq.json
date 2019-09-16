@@ -25,5 +25,8 @@
 	"citoid-desc": "Citoid ra MediaWiki are dı cay irtibat vırazeno",
 	"citoid-referencecontextitem-convert-button": "Açarne",
 	"citoid-referencecontextitem-convert-message": "Enonyew referans tenya grey tebwri vırazeno. Timaryaye mırecet kerdışi rê cér ra \"{{int:citoid-referencecontextitem-convert-button}}\" şenê bıkarnê",
-	"citoid-unknown-error": "Nêzanıyen yew xeta amê meydan u çıme vıraştennrê bena mani. Vanê se fına bıcerebne."
+	"citoid-unknown-error": "Nêzanıyen yew xeta amê meydan u çıme vıraştennrê bena mani. Vanê se fına bıcerebne.",
+	"citoid-wb-referenceview-tabs-automatic": "Otomatik",
+	"citoid-wb-referenceview-tabs-search": "cı geyre",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ya zi QID:"
 }
