@@ -12,7 +12,8 @@
 			"Ash Crow",
 			"Lofhi",
 			"Thibaut120094",
-			"Verdy p"
+			"Verdy p",
+			"Jules78120"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Insérer",
@@ -26,9 +27,9 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titre ou citation",
 	"citoid-citoiddialog-search-placeholder": "par exemple, http://www.example.com/",
 	"citoid-citoiddialog-search-progress": "Recherche en cours, veuillez patienter...",
-	"citoid-citoiddialog-title": "Ajouter une citation",
+	"citoid-citoiddialog-title": "Ajouter une source",
 	"citoid-citoiddialog-use-general-error-message": "Nous ne pouvons pas faire une citation pour vous. Vous pouvez en créer une manuellement en utilisant l’onglet « {{int:citoid-citoiddialog-mode-manual}} » ci-dessus.",
-	"citoid-citoidtool-title": "Citer",
+	"citoid-citoidtool-title": "Sourcer",
 	"citoid-citoidtool-title-othergroup": "Citation",
 	"citoid-desc": "Offre des points d’accès entre le service ''citoid'' et MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Convertir",
