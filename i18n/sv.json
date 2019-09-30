@@ -21,7 +21,7 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titel eller referens",
 	"citoid-citoiddialog-search-placeholder": "t.ex. http://www.exempel.se",
 	"citoid-citoiddialog-search-progress": "Söker, var god vänta...",
-	"citoid-citoiddialog-title": "Lägg till ett citat",
+	"citoid-citoiddialog-title": "Lägg till en källa",
 	"citoid-citoiddialog-use-general-error-message": "Vi kunde inte göra en referens åt dig. Du kan göra en manuellt på fliken \"{{int:citoid-citefromiddialog-mode-manual}}\" ovanför.",
 	"citoid-citoidtool-title": "Ange källa",
 	"citoid-citoidtool-title-othergroup": "Referens",

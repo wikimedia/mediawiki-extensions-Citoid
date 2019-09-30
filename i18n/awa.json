@@ -7,6 +7,7 @@
 	},
 	"citoid-citation-widget-insert-button": "सम्मिलित करा जाए",
 	"citoid-citoiddialog-back": "पीछे",
+	"citoid-citoiddialog-credit": "$1 द्वारा संचालित",
 	"citoid-citoiddialog-lookup-button": "ढूँढा जाय",
 	"citoid-citoiddialog-mode-auto": "स्वतः",
 	"citoid-citoiddialog-mode-manual": "मैन्युअल",
@@ -22,5 +23,6 @@
 	"citoid-referencecontextitem-convert-button": "परिवर्तित करैं",
 	"citoid-unknown-error": "एक अज्ञात त्रुटि ने हमें एक उद्धरण बनाने से हमें रोका हुआ है। कृपया बाद में पुन: प्रयास करें।",
 	"citoid-wb-referenceview-tabs-automatic": "स्वतः",
-	"citoid-wb-referenceview-tabs-search": "खोजा जाय"
+	"citoid-wb-referenceview-tabs-search": "खोजा जाय",
+	"citoid-wb-pendingdialog-title": "उद्धरण बनत अहै"
 }
