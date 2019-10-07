@@ -62,10 +62,9 @@
 
 		// Create automatic tab which links to automatic panel
 		automaticSectionLink = '#' + $automatic.attr( 'id' );
-		$automaticLink = $( '<a>', {
-			href: automaticSectionLink,
-			text: automaticLabel
-		} );
+		$automaticLink = $( '<a>' )
+			.attr( 'href', automaticSectionLink )
+			.text( automaticLabel );
 		$autoLi = $( '<li>' ).append( $automaticLink );
 
 		// Add new tab and citoid panel to reference widget
