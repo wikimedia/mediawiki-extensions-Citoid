@@ -5,7 +5,7 @@
 			"Ерней"
 		]
 	},
-	"citoid-citation-widget-insert-button": "Өстәү",
+	"citoid-citation-widget-insert-button": "Кертеп кую",
 	"citoid-citoiddialog-back": "Кирегә",
 	"citoid-citoiddialog-credit": "$1 тәкъдиме",
 	"citoid-citoiddialog-lookup-button": "Чыгару",
@@ -23,5 +23,6 @@
 	"citoid-referencecontextitem-convert-message": "Бу искәрмә гади тышкы сылтамадан тора. Дөрес искәрмә төзү  өчен, «{{int:citoid-referencecontextitem-convert-button}}» төймәсен кулланыгыз.",
 	"citoid-unknown-error": "Билгесез хата барлыкка килде, шуның аркасында өзекне төзү мөмкин түгел. Зинһар, соңрак кабатлап карагыз.",
 	"citoid-wb-referenceview-tabs-automatic": "Үзлегеннән",
-	"citoid-wb-referenceview-tabs-search": "эзләү"
+	"citoid-wb-referenceview-tabs-search": "эзләү",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN яки QID:"
 }
