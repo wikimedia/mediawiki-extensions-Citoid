@@ -2,6 +2,12 @@
 
 	'use strict';
 
+	function loadWbDataModel() {
+		return mw.loader.using( [ 'wikibase.datamodel' ] ).then( function ( require ) {
+			return require( 'wikibase.datamodel' );
+		} );
+	}
+
 	function CitoidToolReferenceEditor( config, windowManager, pendingDialog ) {
 		this.config = config;
 		this.windowManager = windowManager;
@@ -175,29 +181,30 @@
 	};
 
 	CitoidToolReferenceEditor.prototype.getMonolingualValueSnak = function ( propertyId, val, languageCode ) {
-		var snak = new wb.datamodel.PropertyValueSnak(
-			propertyId,
-			new dv.MonolingualTextValue( languageCode, val )
-		);
-		return $.Deferred().resolve( snak );
+		return loadWbDataModel().then( function ( datamodel ) {
+			return new datamodel.PropertyValueSnak(
+				propertyId,
+				new dv.MonolingualTextValue( languageCode, val )
+			);
+		} );
 	};
 
 	CitoidToolReferenceEditor.prototype.getStringSnak = function ( propertyId, val ) {
-		var snak = new wb.datamodel.PropertyValueSnak(
-			propertyId,
-			new dv.StringValue( val )
-		);
-		return $.Deferred().resolve( snak );
+		return loadWbDataModel().then( function ( datamodel ) {
+			return new datamodel.PropertyValueSnak(
+				propertyId,
+				new dv.StringValue( val )
+			);
+		} );
 	};
 
 	CitoidToolReferenceEditor.prototype.getNumSnak = function ( propertyId, val ) {
-		var snak,
-			value = new dv.QuantityValue( new dv.DecimalValue( val ), 1 ); // Do not add units
-		snak = new wb.datamodel.PropertyValueSnak(
-			propertyId,
-			value
-		);
-		return $.Deferred().resolve( snak );
+		return loadWbDataModel().then( function ( datamodel ) {
+			return new datamodel.PropertyValueSnak(
+				propertyId,
+				new dv.QuantityValue( new dv.DecimalValue( val ), 1 ) // Do not add units
+			);
+		} );
 	};
 
 	// Returns promise
@@ -211,19 +218,23 @@
 			format: 'json'
 		} ).then( function ( result ) {
 			jsonDate = result.results[ 0 ].value;
-			return new wb.datamodel.PropertyValueSnak(
-				propertyId,
-				dv.TimeValue.newFromJSON( jsonDate )
-			);
+
+			return loadWbDataModel().then( function ( datamodel ) {
+				return new datamodel.PropertyValueSnak(
+					propertyId,
+					dv.TimeValue.newFromJSON( jsonDate )
+				);
+			} );
 		} );
 	};
 
 	CitoidToolReferenceEditor.prototype.getWikibaseItemSnak = function ( propertyId, val ) {
-		var snak = new wb.datamodel.PropertyValueSnak(
-			propertyId,
-			new wb.datamodel.EntityId( val )
-		);
-		return $.Deferred().resolve( snak );
+		return loadWbDataModel().then( function ( datamodel ) {
+			return new datamodel.PropertyValueSnak(
+				propertyId,
+				new datamodel.EntityId( val )
+			);
+		} );
 	};
 
 	wb.CitoidToolReferenceEditor = CitoidToolReferenceEditor;
