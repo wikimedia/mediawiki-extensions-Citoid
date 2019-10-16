@@ -28,5 +28,8 @@
 	"citoid-unknown-error": "Nêzanıyen yew xeta amê meydan u çıme vıraştennrê bena mani. Vanê se fına bıcerebne.",
 	"citoid-wb-referenceview-tabs-automatic": "Otomatik",
 	"citoid-wb-referenceview-tabs-search": "cı geyre",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ya zi QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ya zi QID:",
+	"citoid-wb-pendingdialog-error": "Na cıkewtış ra referansi nêvırazeno\nMenuel buton ra bıkerê ya zi fına bıcerebnê",
+	"citoid-wb-pendingdialog-message": "Seba şıma referanso vıraziyeno... Tay bıpawê...",
+	"citoid-wb-pendingdialog-title": "Qısekê vıraştışi"
 }
