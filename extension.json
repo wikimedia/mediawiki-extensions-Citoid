@@ -104,7 +104,7 @@
 			"dependencies": [
 				"ext.citoid.wikibase.init",
 				"oojs-ui",
-				"jquery.ui.tabs"
+				"jquery.ui"
 			],
 			"messages": [
 				"citoid-wb-referenceview-tabs-automatic",
