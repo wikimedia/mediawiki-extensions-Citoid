@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"citoid-citation-widget-insert-button": "แทรก",
+	"citoid-citoiddialog-back": "ย้อนกลับ",
+	"citoid-citoiddialog-credit": "ขับเคลื่อนโดย $1",
+	"citoid-citoiddialog-lookup-button": "สร้าง",
+	"citoid-citoiddialog-mode-auto": "อัตโนมัติ",
+	"citoid-citoiddialog-mode-manual": "กำหนดเอง",
+	"citoid-citoiddialog-mode-reuse": "ใช้ซ้ำ",
+	"citoid-citoiddialog-search": "ค้นหา",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, ชื่อเรื่อง หรือส่วนอ้างอิง",
+	"citoid-citoiddialog-search-placeholder": "เช่น http://www.example.com",
+	"citoid-citoiddialog-search-progress": "กำลังค้นหา โปรดรอสักครู่...",
+	"citoid-citoiddialog-title": "เพิ่มส่วนอ้างอิง",
+	"citoid-citoiddialog-use-general-error-message": "เราไม่สามารถเพิ่มส่วนอ้างอิงให้คุณได้ คุณสามารถสร้างได้ด้วยตนเองโดยใช้แท็บ \"{{int:citoid-citoiddialog-mode-manual}}\" ที่อยู่ด้านบน",
+	"citoid-citoidtool-title": "อ้างอิง",
+	"citoid-citoidtool-title-othergroup": "ส่วนอ้างอิง",
+	"citoid-referencecontextitem-convert-button": "แปลง"
+}

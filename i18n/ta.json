@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Info-farmer",
-			"Dineshkumar Ponnusamy"
+			"Dineshkumar Ponnusamy",
+			"Balajijagadesh"
 		]
 	},
 	"citoid-citation-widget-insert-button": "புகுத்து",
@@ -11,8 +12,17 @@
 	"citoid-citoiddialog-mode-auto": "தானியக்கம்",
 	"citoid-citoiddialog-mode-manual": "கைமுறை",
 	"citoid-citoiddialog-mode-reuse": "மறுபயன்பாடு",
+	"citoid-citoiddialog-search": "தேடுக",
 	"citoid-citoiddialog-search-label": "உரலி அல்லது எண்ணிம ஆவணச் சுட்டி",
+	"citoid-citoiddialog-search-placeholder": "எ. கா. https://www.example.com",
+	"citoid-citoiddialog-search-progress": "தேடுகிறது, பொறுத்திருங்கள்...",
+	"citoid-citoiddialog-title": "தகுதியுரையை இணை",
 	"citoid-citoidtool-title": "குறிப்பிடு",
+	"citoid-citoidtool-title-othergroup": "மேற்கோள்கள்",
 	"citoid-desc": "மீடியாவிக்கிக்கும், தகுதியுரைப்பிச் சேவைக்கும் இடையே அணுகுதலைத் தருகிறது.",
-	"citoid-unknown-error": "தகுதியுரையை உருவாக்குவதில் இடர் ஏற்படுகிறது. மீண்டும் முயற்சிக்கவும்"
+	"citoid-referencecontextitem-convert-button": "மாற்றுக",
+	"citoid-unknown-error": "தகுதியுரையை உருவாக்குவதில் இடர் ஏற்படுகிறது. மீண்டும் முயற்சிக்கவும்",
+	"citoid-wb-referenceview-tabs-automatic": "தன்னியக்கம்",
+	"citoid-wb-referenceview-tabs-search": "தேடுக",
+	"citoid-wb-pendingdialog-title": "மேற்கோள்கள் உருவாக்கப்படுகிறது"
 }
