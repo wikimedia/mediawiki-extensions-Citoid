@@ -9,7 +9,8 @@
 			"Dedalus",
 			"Sjoerddebruin",
 			"Mainframe98",
-			"Mvolz"
+			"Mvolz",
+			"Ciell"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Invoegen",
@@ -25,7 +26,7 @@
 	"citoid-citoiddialog-search-progress": "Bezig met zoeken. Een moment geduld...",
 	"citoid-citoiddialog-title": "Citaat toevoegen",
 	"citoid-citoiddialog-use-general-error-message": "Het was niet mogelijk een citaat aan te maken. U kunt proberen het handmatig aan te maken via het tabblad \"{{int:citoid-citoiddialog-mode-manual}}\" hierboven.",
-	"citoid-citoidtool-title": "Citeren",
+	"citoid-citoidtool-title": "Referentie",
 	"citoid-citoidtool-title-othergroup": "Referentie",
 	"citoid-desc": "Koppelt de citoidservice en MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converteren",
