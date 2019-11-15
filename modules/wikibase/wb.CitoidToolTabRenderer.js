@@ -75,9 +75,9 @@
 	};
 
 	CitoidTabRenderer.prototype.onSearchClick = function ( target ) {
-		var referenceView = $( target ).closest( '.wikibase-referenceview-new' ),
+		var $referenceView = $( target ).closest( '.wikibase-referenceview-new' ),
 			self = this,
-			value = $( referenceView ).find( 'input.citoid-search' ).val();
+			value = $referenceView.find( 'input.citoid-search' ).val();
 
 		this.windowManager.openWindow( self.pendingDialog );
 		this.pendingDialog.pushPending();
@@ -90,10 +90,10 @@
 					if ( data[ 0 ] ) {
 						self.citeToolReferenceEditor.addReferenceSnaksFromCitoidData(
 							data[ 0 ],
-							referenceView
+							$referenceView[ 0 ]
 						);
 					}
-					$( referenceView ).tabs( { active: 0 } );
+					$referenceView.tabs( { active: 0 } );
 				},
 				// failure
 				function () {
@@ -103,7 +103,7 @@
 
 			).always( function () {
 				// Set the manual tab to active, success or not
-				$( referenceView ).tabs( { active: 0 } );
+				$referenceView.tabs( { active: 0 } );
 			} );
 	};
 
