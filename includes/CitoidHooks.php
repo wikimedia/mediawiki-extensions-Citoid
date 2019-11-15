@@ -7,7 +7,6 @@
  */
 
 use MediaWiki\MediaWikiServices;
-/* @phan-suppress-next-line */
 use Wikibase\Repo\WikibaseRepo;
 
 class CitoidHooks {
@@ -49,9 +48,7 @@ class CitoidHooks {
 	 * @return true
 	 */
 	public static function onBeforePageDisplay( OutputPage &$out ) {
-		/* @phan-suppress-next-line PhanUndeclaredClassConstant*/
 		if ( class_exists( WikibaseRepo::class ) ) {
-			/* @phan-suppress-next-line PhanUndeclaredClassMethod*/
 			$lookup = WikibaseRepo::getDefaultInstance()->getEntityNamespaceLookup();
 			if ( $lookup->isEntityNamespace( $out->getTitle()->getNamespace() ) ) {
 				$out->addModules( 'ext.citoid.wikibase.init' );
