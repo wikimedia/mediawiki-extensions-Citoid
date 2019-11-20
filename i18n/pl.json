@@ -20,10 +20,13 @@
 	"citoid-citoiddialog-search-placeholder": "np. http://www.przyklad.com",
 	"citoid-citoiddialog-search-progress": "Wyszukiwanie, proszę czekać…",
 	"citoid-citoiddialog-title": "Dodaj przypis",
+	"citoid-citoiddialog-use-general-error-message": "Nie mogliśmy utworzyć przypisu. Możesz go utworzyć samodzielnie, używając zakładki „{{int:citoid-citoiddialog-mode-manual}}” powyżej.",
 	"citoid-citoidtool-title": "Przypis",
 	"citoid-citoidtool-title-othergroup": "Przypisy",
 	"citoid-desc": "Zapewnia punkty dostępu między Citoidem a MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konwertuj",
 	"citoid-referencecontextitem-convert-message": "Ten odnośnik składa się tylko z linku zewnętrznego. Możesz użyć przycisk „{{int:citoid-referencecontextitem-convert-button}}”, znajdującego się poniżej, aby utworzyć odpowiednio sformatowany odnośnik.",
-	"citoid-unknown-error": "Nieznany błąd uniemożliwił utworzenie przypisu. Spróbuj ponownie później."
+	"citoid-unknown-error": "Nieznany błąd uniemożliwił utworzenie przypisu. Spróbuj ponownie później.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatyczny",
+	"citoid-wb-referenceview-tabs-search": "szukaj"
 }

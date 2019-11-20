@@ -24,6 +24,7 @@
 	"citoid-referencecontextitem-convert-button": "പരിവർത്തനം ചെയ്യുക",
 	"citoid-referencecontextitem-convert-message": "ഈ അവലംബത്തിൽ പുറത്തേക്കുള്ള ഒരു കണ്ണി മാത്രമാണുള്ളത്.  താങ്കൾക്ക് താഴെയുള്ള \"{{int:citoid-referencecontextitem-convert-button}}\" ബട്ടൺ ഉപയോഗിച്ച് വേണ്ടവിധത്തിൽ സംസ്കരിച്ചെടുത്ത അവലംബം സൃഷ്ടിക്കാവുന്നതാണ്.",
 	"citoid-unknown-error": "തിരിച്ചറിയാനാവാത്ത ഒരു പിഴവ് ഉണ്ടായതിനാൽ അവലംബം സൃഷ്ടിക്കാൻ കഴിഞ്ഞില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക.",
+	"citoid-wb-referenceview-tabs-automatic": "സ്വയം പ്രവർത്തിതം",
 	"citoid-wb-referenceview-tabs-search": "തിരയുക",
 	"citoid-wb-referenceview-tabs-search-label": "യു.ആർ.എൽ., ഡി.ഒ.ഐ., ഐ.എസ്.ബി.എൻ. അല്ലെങ്കിൽ ക്യു.ഐ.ഡി.:"
 }
