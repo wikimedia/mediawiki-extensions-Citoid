@@ -84,8 +84,7 @@
 	};
 
 	CitoidToolReferenceEditor.prototype.addReferenceSnaksFromCitoidData = function ( data, referenceView ) {
-		var getSnak, i, propertyId, val,
-			refView = $( referenceView ).data( 'referenceview' ),
+		var refView = $( referenceView ).data( 'referenceview' ),
 			lv = this.getReferenceSnakListView( refView ),
 			items = lv.items(),
 			lang = this.getMVSnakLang( data ),
@@ -101,17 +100,19 @@
 		}
 
 		Object.keys( data ).forEach( function ( key ) {
-			propertyId = self.getPropertyForCitoidData( key );
-			if ( !propertyId ) {
+			var i, getSnak,
+				val = data[ key ],
+				propertyId = self.getPropertyForCitoidData( key );
+
+			if ( !propertyId || !val ) {
 				return;
 			}
+
 			getSnak = self.propertyTypeMap[ propertyId ];
 
 			if ( !getSnak ) {
 				return;
 			}
-
-			val = data[ key ];
 
 			// Add single string values
 			if ( typeof val === 'string' ) {
@@ -138,6 +139,8 @@
 			// Add each snak to listview after promise is complete
 			return snakPromise.then( function ( snak ) {
 				lv.addItem( snak );
+				addSnakProm = true;
+			} ).catch( function () {
 			} );
 		} ) ).then( function () {
 			if ( addSnakProm ) {
