@@ -27,5 +27,8 @@
 	"citoid-desc": "Пружа приступне тачке између услуге Citoid и MediaWiki-ја",
 	"citoid-referencecontextitem-convert-button": "Конвертуј",
 	"citoid-referencecontextitem-convert-message": "Ова референца се састоји само од спољашње везе. Можете да користите дугме „{{int:citoid-referencecontextitem-convert-button}}” испод да бисте генерисали исправно форматирану референцу.",
-	"citoid-unknown-error": "Дошло је до непознате грешке која нас је спречила у прављењу референце. Покушајте поново касније."
+	"citoid-unknown-error": "Дошло је до непознате грешке која нас је спречила у прављењу референце. Покушајте поново касније.",
+	"citoid-wb-referenceview-tabs-automatic": "Аутоматски",
+	"citoid-wb-referenceview-tabs-search": "претрага",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN или QID:"
 }
