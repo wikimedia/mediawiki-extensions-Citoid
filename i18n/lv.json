@@ -17,14 +17,17 @@
 	"citoid-citoiddialog-search-placeholder": "piemēram, http://www.piemers.com",
 	"citoid-citoiddialog-search-progress": "Meklē, lūdzu, uzgaidi...",
 	"citoid-citoiddialog-title": "Pievienot atsauci",
+	"citoid-citoiddialog-use-general-error-message": "Neizdevās izveidot atsauci. Tu vari to izveidot manuāli, izmantojot \"{{int:citoid-citoiddialog-mode-manual}}\" cilni.",
 	"citoid-citoidtool-title": "Atsauce",
 	"citoid-citoidtool-title-othergroup": "Atsauce",
 	"citoid-desc": "Nodrošina piekļuves punktus starp citoid pakalpojumu un MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Pārveidot",
 	"citoid-referencecontextitem-convert-message": "Šī atsauce sastāv tikai no ārējās saites. Tu vari izmantot \"{{int:citoid-referencecontextitem-convert-button}}\" pogu, lai izveidotu pareizi noformētu atsauci.",
+	"citoid-unknown-error": "Notika nezināma kļūda, kas neļāva izveidot atsauci. Lūdzu, vēlāk mēģini vēlreiz.",
 	"citoid-wb-referenceview-tabs-automatic": "Automātiski",
 	"citoid-wb-referenceview-tabs-search": "meklēt",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN vai QID:",
+	"citoid-wb-pendingdialog-error": "No ievadītajiem datiem nav iespējams izveidot atsauci. Izmanto manuālās atsauces cilni vai mēģini vēlreiz.",
 	"citoid-wb-pendingdialog-message": "Veido atsauci... lūdzu, uzgaidi...",
 	"citoid-wb-pendingdialog-title": "Veido atsauci"
 }
