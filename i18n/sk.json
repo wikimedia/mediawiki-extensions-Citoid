@@ -14,12 +14,22 @@
 	"citoid-citoiddialog-mode-auto": "Automaticky",
 	"citoid-citoiddialog-mode-manual": "Ručne",
 	"citoid-citoiddialog-mode-reuse": "Použiť existujúcu",
+	"citoid-citoiddialog-search": "Hľadať",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN alebo PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "napr. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Prebieha vyhľadávanie, prosím, čakajte...",
+	"citoid-citoiddialog-title": "Pridať citáciu",
+	"citoid-citoiddialog-use-general-error-message": "Nemohli sme pre vás vytvoriť citáciu. Môžete ju vytvoriť ručne pomocou záložky „{{int:citoid-citefromiddialog-mode-manual}}“.",
 	"citoid-citoidtool-title": "Citácia",
 	"citoid-citoidtool-title-othergroup": "Citácia",
 	"citoid-desc": "Poskytuje prístupové body medzi službou Citoid a MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Previesť",
 	"citoid-referencecontextitem-convert-message": "Táto referencia obsahuje len externý odkaz. Môžete použiť tlačidlo „{{int:citoid-referencecontextitem-convert-button}}“, aby ste vytvorili správne formátovanú referenciu.",
-	"citoid-unknown-error": "Došlo k neznámej chybe, kvôli ktorej nemôžeme vytvoriť citáciu. Prosím skúste neskôr."
+	"citoid-unknown-error": "Došlo k neznámej chybe, kvôli ktorej nemôžeme vytvoriť citáciu. Prosím skúste neskôr.",
+	"citoid-wb-referenceview-tabs-automatic": "Automaticky",
+	"citoid-wb-referenceview-tabs-search": "hľadať",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN alebo QID:",
+	"citoid-wb-pendingdialog-error": "Nepodarilo sa vytvoriť referenciu z tohto vstupu. Použite manuálnu záložku alebo to skúste znova.",
+	"citoid-wb-pendingdialog-message": "Vytváranie referencie pre vás... prosím, čakajte...",
+	"citoid-wb-pendingdialog-title": "Vytváranie citácie"
 }
