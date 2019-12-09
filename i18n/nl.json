@@ -35,5 +35,6 @@
 	"citoid-wb-referenceview-tabs-automatic": "Automatisch",
 	"citoid-wb-referenceview-tabs-search": "Zoeken",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, of QID:",
+	"citoid-wb-pendingdialog-message": "Een referentie wordt gegenereerd... een ogenblik geduld alstublieft...",
 	"citoid-wb-pendingdialog-title": "Genereer citaat"
 }
