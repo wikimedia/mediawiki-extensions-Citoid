@@ -8,7 +8,8 @@
 			"Arystanbek",
 			"McAang",
 			"Bulgu",
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ekle",
@@ -18,11 +19,22 @@
 	"citoid-citoiddialog-mode-auto": "Otomatik",
 	"citoid-citoiddialog-mode-manual": "Kılavuz",
 	"citoid-citoiddialog-mode-reuse": "Tekrar kullan",
+	"citoid-citoiddialog-search": "Ara",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, başlık veya alıntı",
+	"citoid-citoiddialog-search-placeholder": "ör. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Aranıyor, lütfen bekleyin...",
+	"citoid-citoiddialog-title": "Alıntı Ekle",
+	"citoid-citoiddialog-use-general-error-message": "Sizin için bir alıntı yapamadık. Yukarıdaki \"{{int:citoid-citoiddialog-mode-manual}}\" sekmesini kullanarak elle bir tane oluşturabilirsiniz.",
 	"citoid-citoidtool-title": "Kaynak göster",
 	"citoid-citoidtool-title-othergroup": "Alıntı",
 	"citoid-desc": "Citoid hizmet ve MediaWiki arasında erişim noktaları sağlar",
 	"citoid-referencecontextitem-convert-button": "Çevir",
 	"citoid-referencecontextitem-convert-message": "Bu referans sadece bir harici bağlantıdan oluşmaktadır. Doğru biçimlendirilmiş bir referans oluşturmak için aşağıdaki \"{{int:citoid-referencecontextitem-convert-button}}\" tuşunu kullanabilirsiniz.",
-	"citoid-unknown-error": "Bir kaynak oluşturmamızı engelleyen bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
+	"citoid-unknown-error": "Bir kaynak oluşturmamızı engelleyen bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.",
+	"citoid-wb-referenceview-tabs-automatic": "Otomatik",
+	"citoid-wb-referenceview-tabs-search": "ara",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, veya QID:",
+	"citoid-wb-pendingdialog-error": "Bu girişten referans oluşturulamıyor. Manüel sekmeyi kullanın veya tekrar deneyin.",
+	"citoid-wb-pendingdialog-message": "Sizin için bir referans oluşturuluyor... lütfen bekleyin...",
+	"citoid-wb-pendingdialog-title": "Alıntı Oluşturma"
 }
