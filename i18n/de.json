@@ -25,5 +25,11 @@
 	"citoid-desc": "Schafft Zugriffspunkte zwischen dem Citoid-Dienst und MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konvertieren",
 	"citoid-referencecontextitem-convert-message": "Dieser Einzelnachweis besteht nur aus einem Weblink. Du kannst unten die Schaltfläche „{{int:citoid-referencecontextitem-convert-button}}“ verwenden, um einen korrekt formatierten Einzelnachweis zu erzeugen.",
-	"citoid-unknown-error": "Ein unbekannter Fehler ist aufgetreten, der uns daran hindert, ein Zitat zu erstellen. Bitte später erneut versuchen."
+	"citoid-unknown-error": "Ein unbekannter Fehler ist aufgetreten, der uns daran hindert, ein Zitat zu erstellen. Bitte später erneut versuchen.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatisch",
+	"citoid-wb-referenceview-tabs-search": "Suchen",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN oder QID:",
+	"citoid-wb-pendingdialog-error": "Es war nicht möglich, einen Einzelnachweis aus der Eingabe zu erzeugen. Verwende den Manuell-Tab oder versuche es nochmal.",
+	"citoid-wb-pendingdialog-message": "Erzeuge einen Einzelnachweis für dich ... bitte warten ...",
+	"citoid-wb-pendingdialog-title": "Erzeuge Beleg"
 }

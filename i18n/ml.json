@@ -26,5 +26,6 @@
 	"citoid-unknown-error": "തിരിച്ചറിയാനാവാത്ത ഒരു പിഴവ് ഉണ്ടായതിനാൽ അവലംബം സൃഷ്ടിക്കാൻ കഴിഞ്ഞില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക.",
 	"citoid-wb-referenceview-tabs-automatic": "സ്വയം പ്രവർത്തിതം",
 	"citoid-wb-referenceview-tabs-search": "തിരയുക",
-	"citoid-wb-referenceview-tabs-search-label": "യു.ആർ.എൽ., ഡി.ഒ.ഐ., ഐ.എസ്.ബി.എൻ. അല്ലെങ്കിൽ ക്യു.ഐ.ഡി.:"
+	"citoid-wb-referenceview-tabs-search-label": "യു.ആർ.എൽ., ഡി.ഒ.ഐ., ഐ.എസ്.ബി.എൻ. അല്ലെങ്കിൽ ക്യു.ഐ.ഡി.:",
+	"citoid-wb-pendingdialog-error": "നൽകിയതിൽ നിന്നും അവലംബം സൃഷ്ടിച്ചെടുക്കാൻ കഴിഞ്ഞില്ല. താങ്കൾ തന്നെ ചേർക്കുന്നതിനുള്ള റ്റാബ് ഉപയോഗിക്കുക അല്ലെങ്കിൽ വീണ്ടും ശ്രമിക്കുക."
 }
