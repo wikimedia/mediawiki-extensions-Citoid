@@ -5,7 +5,8 @@
 			"Banjo",
 			"Elisardojm",
 			"Toliño",
-			"Maria zaos"
+			"Maria zaos",
+			"Dgstranz"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Inserir",
@@ -25,7 +26,7 @@
 	"citoid-citoidtool-title-othergroup": "Cita",
 	"citoid-desc": "Proporciona puntos de acceso entre o servizo Citoid e MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converter",
-	"citoid-referencecontextitem-convert-message": "Esta referencia so contén unha ligazón externa. Podes utilizar o botón \"{{int:citoid-referencecontextitem-converter-botón}}\" embaixo para xerar unha referencia co formato correcto.",
+	"citoid-referencecontextitem-convert-message": "Esta referencia so contén unha ligazón externa. Podes utilizar o botón \"{{int:citoid-referencecontextitem-convert-button}}\" embaixo para xerar unha referencia co formato correcto.",
 	"citoid-unknown-error": "Ocorreu un erro descoñecido que impediu crear a cita. Probe de novo máis tarde.",
 	"citoid-wb-referenceview-tabs-automatic": "Automático",
 	"citoid-wb-referenceview-tabs-search": "procura",

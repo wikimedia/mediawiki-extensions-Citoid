@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"Dgstranz"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Inxertar",
@@ -21,7 +22,7 @@
 	"citoid-citoidtool-title-othergroup": "Cita",
 	"citoid-desc": "Ufre puntos d'accesu ente'l serviciu Citoid y MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Convertir",
-	"citoid-referencecontextitem-convert-message": "Esta referencia solo contien un enllaz esternu. Puedes utilizar el botón \"{{int:citoid-referencecontextitem-converter-botón}}\" de más abaxo pa xenerar una referencia col formatu correchu.",
+	"citoid-referencecontextitem-convert-message": "Esta referencia solo contien un enllaz esternu. Puedes utilizar el botón \"{{int:citoid-referencecontextitem-convert-button}}\" de más abaxo pa xenerar una referencia col formatu correchu.",
 	"citoid-unknown-error": "Hebo un error desconocíu que torgó la creación de la cita. Inténtalo más sero.",
 	"citoid-wb-referenceview-tabs-automatic": "Automáticu",
 	"citoid-wb-referenceview-tabs-search": "buscar",
