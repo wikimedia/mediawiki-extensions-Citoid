@@ -11,9 +11,13 @@
 	"citoid-citoiddialog-mode-auto": "ដោយស្វ័យប្រវត្តិ",
 	"citoid-citoiddialog-mode-manual": "ដោយដៃ",
 	"citoid-citoiddialog-mode-reuse": "ប្រើឡើងវិញ",
+	"citoid-citoiddialog-search": "ស្វែងរក",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN ឬ PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "ឧ៖ http://www.example.com",
+	"citoid-citoiddialog-search-progress": "កំពុងស្វែងរក។ សូមរង់ចាំបន្តិច...",
 	"citoid-citoidtool-title": "ដាក់ការយោង",
 	"citoid-citoidtool-title-othergroup": "យោង",
-	"citoid-referencecontextitem-convert-button": "បំប្លែង"
+	"citoid-referencecontextitem-convert-button": "បំប្លែង",
+	"citoid-wb-referenceview-tabs-automatic": "ដោយស្វ័យប្រវត្តិ",
+	"citoid-wb-referenceview-tabs-search": "ស្វែងរក"
 }

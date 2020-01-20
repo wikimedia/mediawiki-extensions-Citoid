@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"1AnuraagPandey",
-			"Ajeetsinghawadh"
+			"Ajeetsinghawadh",
+			"Ajeetsinghawadhi"
 		]
 	},
 	"citoid-citation-widget-insert-button": "सम्मिलित करा जाए",
@@ -10,7 +11,7 @@
 	"citoid-citoiddialog-credit": "$1 द्वारा संचालित",
 	"citoid-citoiddialog-lookup-button": "ढूँढा जाय",
 	"citoid-citoiddialog-mode-auto": "स्वतः",
-	"citoid-citoiddialog-mode-manual": "मैन्युअल",
+	"citoid-citoiddialog-mode-manual": "गाइड",
 	"citoid-citoiddialog-mode-reuse": "पुन: उपयोग",
 	"citoid-citoiddialog-search": "खोज",
 	"citoid-citoiddialog-search-label": "यू.आर.एल",

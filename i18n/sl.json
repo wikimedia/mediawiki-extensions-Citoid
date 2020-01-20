@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Pinky sl",
-			"Dbc334"
+			"Dbc334",
+			"Upwinxp"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Vstavi",
@@ -12,11 +13,18 @@
 	"citoid-citoiddialog-mode-auto": "Samodejno",
 	"citoid-citoiddialog-mode-manual": "Ročno",
 	"citoid-citoiddialog-mode-reuse": "Ponovna uporaba",
+	"citoid-citoiddialog-search": "Išči",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, naslov ali citat",
+	"citoid-citoiddialog-search-placeholder": "npr. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Iskanje, počakajte ...",
+	"citoid-citoiddialog-title": "Dodaj navedek",
 	"citoid-citoidtool-title": "Navedi",
 	"citoid-citoidtool-title-othergroup": "Navedek",
 	"citoid-desc": "Zagotavlja točke dostopa med storitvama citoid in MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
 	"citoid-referencecontextitem-convert-message": "Sklic vsebuje samo zunanjo povezavo. Uporabite lahko gumb »{{int:citoid-referencecontextitem-convert-button}}« spodaj, da ustvarite ustrezno oblikovan sklic.",
-	"citoid-unknown-error": "Pojavila se je neznana napaka, ki je preprečila kreacijo sklica. Prosimo, poskusite znova kasneje."
+	"citoid-unknown-error": "Pojavila se je neznana napaka, ki je preprečila kreacijo sklica. Prosimo, poskusite znova kasneje.",
+	"citoid-wb-referenceview-tabs-automatic": "Samodejno",
+	"citoid-wb-referenceview-tabs-search": "iskanje",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ali QID:"
 }
