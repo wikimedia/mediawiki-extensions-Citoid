@@ -20,6 +20,7 @@
 	"citoid-citoiddialog-search": "Haku",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, otsikko, tai viittaus",
 	"citoid-citoiddialog-search-placeholder": "esim. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Etsitään, odota...",
 	"citoid-citoiddialog-title": "Lisää viittaus",
 	"citoid-citoidtool-title": "Viittaa",
 	"citoid-citoidtool-title-othergroup": "Viite",
