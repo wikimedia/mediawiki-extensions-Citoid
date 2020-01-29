@@ -687,7 +687,7 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 		);
 	}
 
-	return $.when.apply( $, partPromises )
+	return ve.promiseAll( partPromises )
 		.then( function () {
 			var template,
 				sources = [],
@@ -726,7 +726,7 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 					// Move credit to end
 					inspector.previewSelectWidget.$element.append( inspector.credit.$element );
 				}
-				return $.when.apply( $, renderPromises );
+				return ve.promiseAll( renderPromises );
 			}
 			// failed, so go back
 			return $.Deferred().reject();
