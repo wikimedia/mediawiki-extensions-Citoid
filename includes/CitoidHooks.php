@@ -14,7 +14,6 @@ class CitoidHooks {
 	/**
 	 * Adds extra variables to the global config
 	 * @param array &$vars
-	 * @return true
 	 */
 	public static function onResourceLoaderGetConfigVars( array &$vars ) {
 		$config = MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'citoid' );
@@ -24,15 +23,13 @@ class CitoidHooks {
 			'fullRestbaseUrl' => $config->get( 'CitoidFullRestbaseURL' ),
 			'wbFullRestbaseUrl' => $config->get( 'WBCitoidFullRestbaseURL' ),
 		];
-
-		return true;
 	}
 
 	/**
 	 * Virtual data file of 'ext.citoid.wikibase.init' module.
 	 *
 	 * @param ResourceLoaderContext $context
-	 * @return array
+	 * @return string[]
 	 */
 	public static function getWikibaseInitData( ResourceLoaderContext $context ) {
 		return [
@@ -45,7 +42,6 @@ class CitoidHooks {
 	/**
 	 * Loads front-end wikibase citoid module
 	 * @param OutputPage &$out
-	 * @return true
 	 */
 	public static function onBeforePageDisplay( OutputPage &$out ) {
 		if ( class_exists( WikibaseRepo::class ) ) {
@@ -54,24 +50,18 @@ class CitoidHooks {
 				$out->addModules( 'ext.citoid.wikibase.init' );
 			}
 		}
-
-		return true;
 	}
 
 	/**
 	 * Register qunit unit tests
 	 * @param array &$testModules
 	 * @param ResourceLoader &$resourceLoader
-	 * @return true
 	 */
 	public static function onResourceLoaderTestModules(
 		array &$testModules,
 		ResourceLoader &$resourceLoader
 	) {
-		if (
-			isset( $resourceModules[ 'ext.visualEditor.mediawiki' ] ) ||
-			$resourceLoader->isModuleRegistered( 'ext.visualEditor.mediawiki' )
-		) {
+		if ( $resourceLoader->isModuleRegistered( 'ext.visualEditor.mediawiki' ) ) {
 			$testModules['qunit']['ext.citoid.tests'] = [
 				'scripts' => [
 					'modules/tests/index.test.js'
@@ -83,20 +73,15 @@ class CitoidHooks {
 				'remoteExtPath' => 'Citoid',
 			];
 		}
-
-		return true;
 	}
 
 	/**
 	 * @param User $user
 	 * @param array &$preferences
-	 * @return true
 	 */
 	public static function onGetPreferences( User $user, array &$preferences ) {
 		$preferences['citoid-mode'] = [
 			'type' => 'api'
 		];
-
-		return true;
 	}
 }
