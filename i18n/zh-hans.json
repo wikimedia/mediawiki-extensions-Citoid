@@ -7,7 +7,8 @@
 			"Nbdd0121",
 			"佛壁灯",
 			"A Chinese Wikipedian",
-			"VulpesVulpes825"
+			"VulpesVulpes825",
+			"铁桶"
 		]
 	},
 	"citoid-citation-widget-insert-button": "插入",
@@ -31,6 +32,6 @@
 	"citoid-unknown-error": "发生了未知错误，以至于我们无法创建引用。请稍后再试。",
 	"citoid-wb-referenceview-tabs-automatic": "自动",
 	"citoid-wb-referenceview-tabs-search": "搜索",
-	"citoid-wb-referenceview-tabs-search-label": "URL、DOI、ISBN、或 QID：",
+	"citoid-wb-referenceview-tabs-search-label": "URL、DOI、ISBN或QID：",
 	"citoid-wb-pendingdialog-title": "正在生成引用"
 }
