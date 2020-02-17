@@ -5,7 +5,8 @@
 			"Tar Lócesilion",
 			"Woytecr",
 			"Railfail536",
-			"Rail"
+			"Rail",
+			"Matma Rex"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Wstaw",
@@ -28,5 +29,6 @@
 	"citoid-referencecontextitem-convert-message": "Ten odnośnik składa się tylko z linku zewnętrznego. Możesz użyć przycisk „{{int:citoid-referencecontextitem-convert-button}}”, znajdującego się poniżej, aby utworzyć odpowiednio sformatowany odnośnik.",
 	"citoid-unknown-error": "Nieznany błąd uniemożliwił utworzenie przypisu. Spróbuj ponownie później.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatyczny",
-	"citoid-wb-referenceview-tabs-search": "szukaj"
+	"citoid-wb-referenceview-tabs-search": "szukaj",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN lub QID:"
 }

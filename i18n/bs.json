@@ -16,6 +16,7 @@
 	"citoid-citoiddialog-mode-reuse": "Ponovo upotrijebi",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN ili PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "npr. http://www.primjer.com",
+	"citoid-citoiddialog-title": "Dodavanje reference",
 	"citoid-citoidtool-title": "Referenca",
 	"citoid-citoidtool-title-othergroup": "Referenca",
 	"citoid-desc": "Pruža tačke pristupa između usluge citoid i MediaWikija",
