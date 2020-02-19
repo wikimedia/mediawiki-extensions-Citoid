@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Drasetzen",
@@ -14,7 +15,7 @@
 	"citoid-citoiddialog-search": "Sichen",
 	"citoid-citoiddialog-search-label": "URL, DOI ISBN, PMC/PMID; QID, Titel, oder Citatioun",
 	"citoid-citoiddialog-search-placeholder": "z. B. http://www.example.com",
-	"citoid-citoiddialog-search-progress": "Sichen, gedëllegt Iech w.e.g. ...",
+	"citoid-citoiddialog-search-progress": "Sichen, gedëllegt Iech wgl. ...",
 	"citoid-citoiddialog-title": "En Zitat dobäisetzen",
 	"citoid-citoiddialog-use-general-error-message": "Mir konnte fir Iech keng Citatioun maachen. Dir kënnt eng manuell maache wann Dir den Tab \"{{int:citoid-citefromiddialog-mode-manual}}\" hei driwwer benotzt.",
 	"citoid-citoidtool-title": "Zitéieren",
@@ -27,6 +28,6 @@
 	"citoid-wb-referenceview-tabs-search": "sichen",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, oder QID:",
 	"citoid-wb-pendingdialog-error": "Et war net méiglech vun dësem Input eng Referenz ze generéieren. Benotzt de manuellen Tab oder probéiert nach eng Kéier.",
-	"citoid-wb-pendingdialog-message": "Et gëtt eng Referenz fir Iech generéiert...gedëllegt Iech w.e.g. ...",
+	"citoid-wb-pendingdialog-message": "Et gëtt eng Referenz fir Iech generéiert...gedëllegt Iech wgl. ...",
 	"citoid-wb-pendingdialog-title": "Generéiere vun der Citatioun"
 }
