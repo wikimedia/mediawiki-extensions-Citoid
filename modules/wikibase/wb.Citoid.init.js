@@ -4,21 +4,23 @@
 
 ( function () {
 
-	var config, citoidUrl, citoidTool, enableTabs, isEditView;
+	var config, citoidTool, enabled;
 
 	// Only initialise on entity pages
 	mw.hook( 'wikibase.entityPage.entityLoaded' ).add( function () {
 
 		try {
 			config = JSON.parse( require( './data.json' ).toolConfig );
-			citoidUrl = mw.config.get( 'wgCitoidConfig' ).wbFullRestbaseUrl;
-			enableTabs = mw.config.get( 'wbRefTabsEnabled' );
-			isEditView = mw.config.get( 'wbIsEditView' );
+			enabled =
+				config.zoteroProperties &&
+				mw.config.get( 'wgCitoidConfig' ).wbFullRestbaseUrl &&
+				mw.config.get( 'wbRefTabsEnabled' ) &&
+				mw.config.get( 'wbIsEditView' );
 		} catch ( e ) {
 			return;
 		}
 
-		if ( enableTabs && citoidUrl && config.zoteroProperties && isEditView ) {
+		if ( enabled ) {
 			// Load required modules; wikibase.datamodel doesn't get registered until too late otherwise
 			mw.loader.using( [ 'ext.citoid.wikibase', 'wikibase.datamodel', 'dataValues' ] ).then( function () {
 				citoidTool = new wikibase.CitoidTool( config );
