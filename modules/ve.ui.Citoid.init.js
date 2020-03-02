@@ -188,7 +188,7 @@
 
 		origRenderBody.call( this );
 
-		if ( !refNode || this.isReadOnly() ) {
+		if ( !refNode || this.isReadOnly() || !ve.ui.mwCitoidMap ) {
 			return;
 		}
 
