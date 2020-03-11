@@ -124,18 +124,10 @@
 		"remoteExtPath": "Citoid"
 	},
 	"Hooks": {
-		"ResourceLoaderGetConfigVars": [
-			"CitoidHooks::onResourceLoaderGetConfigVars"
-		],
-		"ResourceLoaderTestModules": [
-			"CitoidHooks::onResourceLoaderTestModules"
-		],
-		"BeforePageDisplay": [
-			"CitoidHooks::onBeforePageDisplay"
-		],
-		"GetPreferences": [
-			"CitoidHooks::onGetPreferences"
-		]
+		"ResourceLoaderGetConfigVars": "CitoidHooks::onResourceLoaderGetConfigVars",
+		"ResourceLoaderTestModules": "CitoidHooks::onResourceLoaderTestModules",
+		"BeforePageDisplay": "CitoidHooks::onBeforePageDisplay",
+		"GetPreferences": "CitoidHooks::onGetPreferences"
 	},
 	"attributes": {
 		"VisualEditor": {
