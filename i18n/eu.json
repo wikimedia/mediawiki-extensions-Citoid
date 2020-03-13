@@ -19,11 +19,17 @@
 	"citoid-citoiddialog-search-placeholder": "adib. http://www.adibidea.eus",
 	"citoid-citoiddialog-search-progress": "Bilatzen. Mesedez, itxaron...",
 	"citoid-citoiddialog-title": "Erreferentzia gehitu",
-	"citoid-citoiddialog-use-general-error-message": "Ezin dugu zure aipamena egin. Eskuz sortu dezakezu goiko  \"{{int:citoid-citefromiddialog-mode-manual}}\" fitxa erabiliz.",
+	"citoid-citoiddialog-use-general-error-message": "Ezin dugu zure aipamena egin. Eskuz sortu dezakezu goiko \"{{int:citoid-citoiddialog-mode-manual}}\" fitxa erabiliz.",
 	"citoid-citoidtool-title": "Erreferentzia",
 	"citoid-citoidtool-title-othergroup": "Erreferentzia",
 	"citoid-desc": "Sarbide puntuak eskaintzen ditu citoid zerbitzuaren eta MediaWikiren artean.",
 	"citoid-referencecontextitem-convert-button": "Bihurtu",
 	"citoid-referencecontextitem-convert-message": "Erreferentzia hau kanpo lotura bat da hain justu. Azpiko \"{{int:citoid-referencecontextitem-convert-button}}\" botoia erabili dezakezu egoki formateatutako erreferentzia bat egiteko.",
-	"citoid-unknown-error": "Aipamena sortzen uzten ez digun errore ezezagun bat gertatu da. Saiatu berriro beranduago mesedez."
+	"citoid-unknown-error": "Aipamena sortzen uzten ez digun errore ezezagun bat gertatu da. Saiatu berriro beranduago mesedez.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatikoa",
+	"citoid-wb-referenceview-tabs-search": "bilatu",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN edo QID:",
+	"citoid-wb-pendingdialog-error": "Ezin izan da erreferentzia bat sortu sarrera honekin. Erabil ezazu fitxa manuala, edo saia zaitez berriro ere.",
+	"citoid-wb-pendingdialog-message": "Erreferentzia bat sortzen ari gara... itxoin, mesedez...",
+	"citoid-wb-pendingdialog-title": "Erreferentzia sortzen"
 }
