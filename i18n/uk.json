@@ -22,7 +22,7 @@
 	"citoid-citoiddialog-search-placeholder": "наприклад, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Пошук, зачекайте, будь ласка…",
 	"citoid-citoiddialog-title": "Додати джерело",
-	"citoid-citoiddialog-use-general-error-message": "Ми не змогли створити для Вас посилання на джерело. Ви можете створити його вручну, використовуючи вкладку «{{int:citoid-citefromiddialog-mode-manual}}» вище.",
+	"citoid-citoiddialog-use-general-error-message": "Ми не змогли створити для Вас посилання на джерело. Ви можете створити його вручну, використовуючи вкладку «{{int:citoid-citoiddialog-mode-manual}}» вище.",
 	"citoid-citoidtool-title": "Джерело",
 	"citoid-citoidtool-title-othergroup": "Цитата",
 	"citoid-desc": "Забезпечує точки доступу між сервісом citoid та MediaWiki",
