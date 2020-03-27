@@ -17,10 +17,17 @@
 	"citoid-citoiddialog-search-placeholder": "presempio http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Aproeuv'a sercâ, aspeta...",
 	"citoid-citoiddialog-title": "Azonzi 'na çitassion",
+	"citoid-citoiddialog-use-general-error-message": "No semmo ariescii a creâ 'na sitassion pe tie. Ti poeu creane un-a manualmente doeuviando a scheda \"{{int:citoid-citefromiddialog-mode-manual}}\" chì de d'ato.",
 	"citoid-citoidtool-title": "Çitta",
 	"citoid-citoidtool-title-othergroup": "Çitaçion",
 	"citoid-desc": "O fornisce un ponto d'accesso tra o serviççio citoid e MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converti",
 	"citoid-referencecontextitem-convert-message": "Sto rifeimento o l'è constituio solo che da 'n ingancio esterno. Ti pœu dœuviâ o pomello \"{{int:citoid-referencecontextitem-convert-button}}\" chì de sotta pe generâ un rifeimento formattou coretamente.",
-	"citoid-unknown-error": "Gh'è stæto in aro sconosciuo ch'o l'ha impedio a creaçion de 'na çitaçion. Se prega de provâ torna ciù tardi."
+	"citoid-unknown-error": "Gh'è stæto in aro sconosciuo ch'o l'ha impedio a creaçion de 'na çitaçion. Se prega de provâ torna ciù tardi.",
+	"citoid-wb-referenceview-tabs-automatic": "Aotomattico",
+	"citoid-wb-referenceview-tabs-search": "serca",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ò QID:",
+	"citoid-wb-pendingdialog-error": "Imposcibbile generâ o refeimento a partî da sti dæti chie. Doeuvia a scheda manoâ, ò proeuvighe torna.",
+	"citoid-wb-pendingdialog-message": "Creassion do refeimento... atende prego...",
+	"citoid-wb-pendingdialog-title": "Creassion da Sitassion"
 }
