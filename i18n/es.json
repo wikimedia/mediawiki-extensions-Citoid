@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe",
-			"MadriCR",
-			"Fitoschido",
 			"Chris TR",
-			"Dgstranz"
+			"Dgstranz",
+			"Fitoschido",
+			"Macofe",
+			"MadriCR"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Insertar",

@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pofka",
 			"Albertas",
-			"Zygimantus",
 			"Eitvys200",
 			"Manvydasz",
-			"Tomasdd"
+			"Pofka",
+			"Tomasdd",
+			"Zygimantus"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Įterpti",

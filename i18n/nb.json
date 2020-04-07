@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kingu",
-			"Jeblad",
 			"Danmichaelo",
-			"Telaneo",
-			"Jon Harald Søby"
+			"Jeblad",
+			"Jon Harald Søby",
+			"Kingu",
+			"Telaneo"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Sett inn",

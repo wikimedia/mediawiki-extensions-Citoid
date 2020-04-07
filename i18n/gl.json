@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beninho",
 			"Banjo",
+			"Beninho",
+			"Dgstranz",
 			"Elisardojm",
-			"Toliño",
 			"Maria zaos",
-			"Dgstranz"
+			"Toliño"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Inserir",

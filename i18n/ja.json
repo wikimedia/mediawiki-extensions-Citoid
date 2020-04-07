@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Los688",
-			"Sujiniku",
-			"Takot",
-			"Otokoume",
-			"Miya",
 			"Delim",
-			"Kkairri"
+			"Kkairri",
+			"Los688",
+			"Miya",
+			"Otokoume",
+			"Sujiniku",
+			"Takot"
 		]
 	},
 	"citoid-citation-widget-insert-button": "挿入",

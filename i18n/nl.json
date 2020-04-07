@@ -1,16 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robin0van0der0vliet",
-			"MedShot",
-			"Jdforrester",
-			"Siebrand",
-			"Romaine",
+			"Ciell",
 			"Dedalus",
-			"Sjoerddebruin",
+			"Jdforrester",
 			"Mainframe98",
+			"MedShot",
 			"Mvolz",
-			"Ciell"
+			"Robin0van0der0vliet",
+			"Romaine",
+			"Siebrand",
+			"Sjoerddebruin"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Invoegen",

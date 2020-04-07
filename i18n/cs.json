@@ -2,11 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Aktron",
-			"Mormegil",
-			"Matěj Suchánek",
 			"Dvorapa",
-			"Vojtěch Dostál",
-			"Patriccck"
+			"Matěj Suchánek",
+			"Mormegil",
+			"Patriccck",
+			"Vojtěch Dostál"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Vložit",
