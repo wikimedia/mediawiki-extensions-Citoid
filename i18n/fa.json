@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ebraminio",
+			"FarsiNevis",
 			"Huji",
 			"Ladsgroup",
 			"Leyth",
@@ -21,7 +22,7 @@
 	"citoid-citoiddialog-search": "جستجو",
 	"citoid-citoiddialog-search-label": "URL، DOI، ISBN، PMC/PMID عنوان یا یادکرد",
 	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
-	"citoid-citoiddialog-search-progress": "درحال جستجو، لطفاً صبر کنید...",
+	"citoid-citoiddialog-search-progress": "در حال جستجو؛ لطفاً صبر کنید...",
 	"citoid-citoiddialog-title": "افزودن یک یادکرد",
 	"citoid-citoiddialog-use-general-error-message": "نتوانستیم یادکردی برای شما بسازیم. شما می‌توانید با استفاده از زبانهٔ «{{int:citoid-citefromiddialog-mode-manual}}» به صورت دستی آن را بسازید.",
 	"citoid-citoidtool-title": "یادکرد",
@@ -29,5 +30,9 @@
 	"citoid-desc": "ارتباط بین خدمت citoid و مدیاویکی را برقرار می‌کند",
 	"citoid-referencecontextitem-convert-button": "تبدیل",
 	"citoid-referencecontextitem-convert-message": "این ارجاع فقط شامل یک پیوند بیرونی است. می توانید از \"{{int:citoid-referencecontextitem-convert-button}}\" برای تولید ارجاع مناسب استفاده کنید.",
-	"citoid-unknown-error": "خطای نامشخصی اجازهٔ ساخت یادکرد را نمی‌دهد. لطفاً بعداً تلاش کنید."
+	"citoid-unknown-error": "خطای نامشخصی اجازهٔ ساخت یادکرد را نمی‌دهد. لطفاً بعداً تلاش کنید.",
+	"citoid-wb-referenceview-tabs-automatic": "خودکار",
+	"citoid-wb-referenceview-tabs-search": "جستجو",
+	"citoid-wb-pendingdialog-message": "در حال تولید یک مرجع برای شما... لطفاً صبر کنید...",
+	"citoid-wb-pendingdialog-title": "در حال تولید یادکرد"
 }
