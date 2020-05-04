@@ -21,7 +21,7 @@
 	"citoid-citoiddialog-search-placeholder": "např. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Vyhledávání, prosím vyčkejte...",
 	"citoid-citoiddialog-title": "Přidat citaci",
-	"citoid-citoiddialog-use-general-error-message": "Nemohli jsme pro vás vytvořit citaci. Můžete ji vytvořit ručně pomocí výše zobrazené záložky „{{int:citoid-citefromiddialog-mode-manual}}“.",
+	"citoid-citoiddialog-use-general-error-message": "Nemohli jsme pro vás vytvořit citaci. Můžete ji vytvořit ručně pomocí výše zobrazené záložky „{{int:citoid-citoiddialog-mode-manual}}“.",
 	"citoid-citoidtool-title": "Citace",
 	"citoid-citoidtool-title-othergroup": "Citace",
 	"citoid-desc": "Poskytuje přístupové body mezi službou Citoid a MediaWiki",
