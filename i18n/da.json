@@ -23,5 +23,6 @@
 	"citoid-desc": "Tilknytter Citoid-tjenesten med MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Omdan",
 	"citoid-referencecontextitem-convert-message": "Denne reference består udelukkende af et eksternt link. Du kan bruge knappen \"{{int:citoid-referencecontextitem-convert-button}}\" nedenfor for at skabe en korrekt formateret reference.",
-	"citoid-unknown-error": "Kunne ikke skabe en reference, da der opstod en ukendt fejl. Prøv venligst igen senere."
+	"citoid-unknown-error": "Kunne ikke skabe en reference, da der opstod en ukendt fejl. Prøv venligst igen senere.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatisk"
 }
