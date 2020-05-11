@@ -123,9 +123,18 @@
 		"localBasePath": "",
 		"remoteExtPath": "Citoid"
 	},
+	"QUnitTestModule": {
+		"localBasePath": "",
+		"remoteExtPath": "Citoid",
+		"scripts": [
+			"modules/tests/index.test.js"
+		],
+		"dependencies": [
+			"ext.citoid.visualEditor"
+		]
+	},
 	"Hooks": {
 		"ResourceLoaderGetConfigVars": "CitoidHooks::onResourceLoaderGetConfigVars",
-		"ResourceLoaderTestModules": "CitoidHooks::onResourceLoaderTestModules",
 		"BeforePageDisplay": "CitoidHooks::onBeforePageDisplay",
 		"GetPreferences": "CitoidHooks::onGetPreferences"
 	},

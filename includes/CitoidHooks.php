@@ -53,29 +53,6 @@ class CitoidHooks {
 	}
 
 	/**
-	 * Register qunit unit tests
-	 * @param array &$testModules
-	 * @param ResourceLoader &$resourceLoader
-	 */
-	public static function onResourceLoaderTestModules(
-		array &$testModules,
-		ResourceLoader &$resourceLoader
-	) {
-		if ( $resourceLoader->isModuleRegistered( 'ext.visualEditor.mediawiki' ) ) {
-			$testModules['qunit']['ext.citoid.tests'] = [
-				'scripts' => [
-					'modules/tests/index.test.js'
-				],
-				'dependencies' => [
-					'ext.citoid.visualEditor',
-				],
-				'localBasePath' => __DIR__ . '/..',
-				'remoteExtPath' => 'Citoid',
-			];
-		}
-	}
-
-	/**
 	 * @param User $user
 	 * @param array &$preferences
 	 */
