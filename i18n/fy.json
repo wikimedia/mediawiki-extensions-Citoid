@@ -2,14 +2,29 @@
 	"@metadata": {
 		"authors": [
 			"Jdforrester",
+			"PiefPafPier",
 			"Robin0van0der0vliet"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ynfoegje",
-	"citoid-citoiddialog-back": "Foarige",
+	"citoid-citoiddialog-back": "Werom",
+	"citoid-citoiddialog-credit": "Fieden troch $1",
+	"citoid-citoiddialog-lookup-button": "Generearje",
 	"citoid-citoiddialog-mode-auto": "Automatysk",
-	"citoid-citoiddialog-mode-manual": "Hantlieding",
-	"citoid-citoiddialog-search-label": "URL of DOI",
+	"citoid-citoiddialog-mode-manual": "Hânmjittich",
+	"citoid-citoiddialog-mode-reuse": "Werbrûk",
+	"citoid-citoiddialog-search": "Sykje",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titel as sitaat",
+	"citoid-citoiddialog-search-placeholder": "bgl. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Sykjen, efkes wachtsje ...",
+	"citoid-citoiddialog-title": "In sitaat tafoegje",
 	"citoid-citoidtool-title": "Sitearje",
-	"citoid-citoidtool-title-othergroup": "Sitaat"
+	"citoid-citoidtool-title-othergroup": "Sitaat",
+	"citoid-referencecontextitem-convert-button": "Omsette",
+	"citoid-wb-referenceview-tabs-automatic": "Automatysk",
+	"citoid-wb-referenceview-tabs-search": "sykje",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN as QID:",
+	"citoid-wb-pendingdialog-error": "Kin gjin referinsje generearje fan dizze ynfier. Brûk de hânmjittige tab, of besykje it nochris.",
+	"citoid-wb-pendingdialog-message": "Jo referinsje generearjen ... efkes wachtsje ...",
+	"citoid-wb-pendingdialog-title": "Sitaat generearje"
 }
