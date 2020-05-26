@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aefgh39622"
+			"Aefgh39622",
+			"Horus"
 		]
 	},
 	"citoid-citation-widget-insert-button": "แทรก",
@@ -22,5 +23,8 @@
 	"citoid-desc": "จัดเตรียมจุดเข้าถึงระหว่างบริการ citoid และ MediaWiki",
 	"citoid-referencecontextitem-convert-button": "แปลง",
 	"citoid-referencecontextitem-convert-message": "ส่วนอ้างอิงนี้มีเพียงลิงก์ภายนอกเท่านั้น คุณสามารถกดปุ่ม \"{{int:citoid-referencecontextitem-convert-button}}\" ที่อยู่ด้านล่างเพื่อสร้างส่วนอ้างอิงที่มีการจัดรูปแบบอย่างถูกต้อง",
-	"citoid-unknown-error": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุซึ่งทำให้เราไม่สามารถสร้างการอ้างอิงได้ โปรดลองอีกครั้งในภายหลัง"
+	"citoid-unknown-error": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุซึ่งทำให้เราไม่สามารถสร้างการอ้างอิงได้ โปรดลองอีกครั้งในภายหลัง",
+	"citoid-wb-referenceview-tabs-automatic": "อัตโนมัติ",
+	"citoid-wb-referenceview-tabs-search": "ค้นหา",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, หรือ QID:"
 }
