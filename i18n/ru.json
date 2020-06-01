@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"1233qwer1234qwer4",
+			"Diman Russkov",
 			"Irus",
 			"Kaganer",
 			"Mailman",
@@ -34,5 +35,6 @@
 	"citoid-unknown-error": "Произошла неизвестная ошибка, не позволявшая нам создавать цитату. Пожалуйста, повторите попытку позже.",
 	"citoid-wb-referenceview-tabs-automatic": "Автоматически",
 	"citoid-wb-referenceview-tabs-search": "поиск",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN или QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN или QID:",
+	"citoid-wb-pendingdialog-message": "Создание ссылки для вас... пожалуйста, подождите..."
 }
