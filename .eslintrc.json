@@ -11,8 +11,7 @@
 	"globals": {
 		"ve": "readonly",
 		"wikibase": "readonly",
-		"dataValues": "readonly",
-		"OO": "readonly"
+		"dataValues": "readonly"
 	},
 	"rules": {
 		"max-len": "off"
