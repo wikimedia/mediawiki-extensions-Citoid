@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"A Chinese Wikipedian",
+			"Blackteahamburger",
 			"Liuxinyu970226",
 			"Nbdd0121",
 			"Shizhao",
@@ -33,5 +34,6 @@
 	"citoid-wb-referenceview-tabs-automatic": "自动",
 	"citoid-wb-referenceview-tabs-search": "搜索",
 	"citoid-wb-referenceview-tabs-search-label": "URL、DOI、ISBN或QID：",
+	"citoid-wb-pendingdialog-message": "正在为您生成参考...请稍候...",
 	"citoid-wb-pendingdialog-title": "正在生成引用"
 }
