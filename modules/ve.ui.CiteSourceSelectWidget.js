@@ -10,7 +10,7 @@
  * Creates an ve.ui.CiteSourceSelectWidget object.
  *
  * @class
- * @extends OO.ui.SearchWidget
+ * @extends OO.ui.SelectWidget
  *
  * @constructor
  * @param {Object} [config] Configuration options
@@ -23,9 +23,18 @@ ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
 	// Parent constructor
 	ve.ui.CiteSourceSelectWidget.super.call( this, config );
 
+	// Mixin constructors
+	OO.ui.mixin.TabIndexedElement.call( this, config );
+
+	// Events
+	this.$element.on( {
+		focus: this.bindDocumentKeyDownListener.bind( this ),
+		blur: this.unbindDocumentKeyDownListener.bind( this )
+	} );
+
 	// Go over available tools
 	items = ve.ui.mwCitationTools.map( function ( item ) {
-		return new OO.ui.DecoratedOptionWidget( {
+		return new OO.ui.MenuOptionWidget( {
 			icon: item.icon,
 			label: item.title,
 			// Command name
@@ -34,7 +43,7 @@ ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
 	} );
 
 	// Basic tools
-	this.refBasic = new OO.ui.DecoratedOptionWidget( {
+	this.refBasic = new OO.ui.MenuOptionWidget( {
 		icon: 'reference',
 		label: ve.msg( 'cite-ve-dialogbutton-reference-full-label' ),
 		// Command name
@@ -58,3 +67,4 @@ ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
 /* Inheritance */
 
 OO.inheritClass( ve.ui.CiteSourceSelectWidget, OO.ui.SelectWidget );
+OO.mixinClass( ve.ui.CiteSourceSelectWidget, OO.ui.mixin.TabIndexedElement );
