@@ -6,6 +6,7 @@
 			"Los688",
 			"Miya",
 			"Otokoume",
+			"Shirayuki",
 			"Sujiniku",
 			"Takot"
 		]
@@ -20,7 +21,7 @@
 	"citoid-citoiddialog-search": "検索",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN または PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "例 http://www.example.com",
-	"citoid-citoiddialog-search-progress": "検索しています。しばらくお待ち下さい。",
+	"citoid-citoiddialog-search-progress": "検索しています。お待ちください...",
 	"citoid-citoiddialog-title": "引用を追加",
 	"citoid-citoiddialog-use-general-error-message": "出典を生成できませんでした。上にある「{{int:citoid-citefromiddialog-mode-manual}}」タブを使って、手動で作成することもできます。",
 	"citoid-citoidtool-title": "引用",
