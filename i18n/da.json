@@ -18,13 +18,11 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, titel eller citering",
 	"citoid-citoiddialog-search-placeholder": "f.eks. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Søger, vent venligst...",
-	"citoid-citoiddialog-title": "Tilføj en citering",
 	"citoid-citoidtool-title": "Citér",
 	"citoid-citoidtool-title-othergroup": "Reference",
 	"citoid-desc": "Tilknytter Citoid-tjenesten med MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Omdan",
 	"citoid-referencecontextitem-convert-message": "Denne reference består udelukkende af et eksternt link. Du kan bruge knappen \"{{int:citoid-referencecontextitem-convert-button}}\" nedenfor for at skabe en korrekt formateret reference.",
 	"citoid-unknown-error": "Kunne ikke skabe en reference, da der opstod en ukendt fejl. Prøv venligst igen senere.",
-	"citoid-wb-referenceview-tabs-automatic": "Automatisk",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, eller QID:"
+	"citoid-wb-referenceview-tabs-automatic": "Automatisk"
 }

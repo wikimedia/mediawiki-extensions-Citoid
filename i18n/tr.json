@@ -9,8 +9,7 @@
 			"Hedda",
 			"Mavrikant",
 			"McAang",
-			"Stultiwikia",
-			"Vito Genovese"
+			"Stultiwikia"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ekle",
@@ -18,7 +17,7 @@
 	"citoid-citoiddialog-credit": "$1 tarafından oluşturulmuştur",
 	"citoid-citoiddialog-lookup-button": "Oluştur",
 	"citoid-citoiddialog-mode-auto": "Otomatik",
-	"citoid-citoiddialog-mode-manual": "Elle",
+	"citoid-citoiddialog-mode-manual": "Manüel",
 	"citoid-citoiddialog-mode-reuse": "Tekrar kullan",
 	"citoid-citoiddialog-search": "Ara",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, başlık veya alıntı",
