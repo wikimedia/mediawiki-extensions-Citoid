@@ -736,7 +736,7 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 /**
  * Fills template object parameters with values from the citation object
  *
- * @param {ve.dm.MNTemplateModel} template A template model to fill
+ * @param {ve.dm.MWTemplateModel} template A template model to fill
  * @param {Object} citation An object that contains values to insert into template
  */
 ve.ui.CitoidInspector.static.populateTemplate = function ( template, citation ) {
