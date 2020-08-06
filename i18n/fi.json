@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Alluk.",
+			"Moj",
 			"Nike",
 			"Olimar",
 			"Pyscowicz",
@@ -22,6 +23,7 @@
 	"citoid-citoiddialog-search-placeholder": "esim. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Etsitään, odota...",
 	"citoid-citoiddialog-title": "Lisää viittaus",
+	"citoid-citoiddialog-use-general-error-message": "Viittaustasi ei voitu luoda. Voit luoda sen manuaalisesti käyttämällä ylläolevaa \"{{int:citoid-citoiddialog-mode-manual}}\"-välilehteä.",
 	"citoid-citoidtool-title": "Viittaa",
 	"citoid-citoidtool-title-othergroup": "Viite",
 	"citoid-desc": "Mahdollistaa citoid-palvelun käytön MediaWikissä",
