@@ -30,5 +30,8 @@
 	"citoid-unknown-error": "Jelikož došlo k neznámé chybě, nejsme schopni vytvořit citaci. Zkuste to znovu později.",
 	"citoid-wb-referenceview-tabs-automatic": "Automaticky",
 	"citoid-wb-referenceview-tabs-search": "hledat",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, nebo QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, nebo QID:",
+	"citoid-wb-pendingdialog-error": "Nepodařilo se vytvořit referenci z tohoto vstupu. Použijte manuální záložku nebo to zkuste znovu.",
+	"citoid-wb-pendingdialog-message": "Vytváření reference pro vás… prosíme, čekejte…",
+	"citoid-wb-pendingdialog-title": "Vytváření citace"
 }
