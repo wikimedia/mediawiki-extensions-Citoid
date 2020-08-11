@@ -3,6 +3,7 @@
 		"authors": [
 			"1233qwer1234qwer4",
 			"Diman Russkov",
+			"Iniquity",
 			"Irus",
 			"Kaganer",
 			"Mailman",
@@ -20,7 +21,7 @@
 	"citoid-citoiddialog-lookup-button": "Сгенерировать",
 	"citoid-citoiddialog-mode-auto": "Автоматически",
 	"citoid-citoiddialog-mode-manual": "Вручную",
-	"citoid-citoiddialog-mode-reuse": "Повторное использование",
+	"citoid-citoiddialog-mode-reuse": "Повторно",
 	"citoid-citoiddialog-search": "Поиск",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, название или цитата",
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
