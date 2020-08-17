@@ -4,7 +4,8 @@
 			"DerHexer",
 			"Elya",
 			"Metalhead64",
-			"Purodha"
+			"Purodha",
+			"Umherirrender"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Einfügen",
@@ -30,6 +31,6 @@
 	"citoid-wb-referenceview-tabs-search": "Suchen",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN oder QID:",
 	"citoid-wb-pendingdialog-error": "Es war nicht möglich, einen Einzelnachweis aus der Eingabe zu erzeugen. Verwende den Manuell-Tab oder versuche es nochmal.",
-	"citoid-wb-pendingdialog-message": "Erzeuge einen Einzelnachweis für dich ... bitte warten ...",
+	"citoid-wb-pendingdialog-message": "Erzeuge einen Einzelnachweis für dich … bitte warten …",
 	"citoid-wb-pendingdialog-title": "Erzeuge Beleg"
 }
