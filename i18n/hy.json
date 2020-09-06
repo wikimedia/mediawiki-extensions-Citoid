@@ -3,6 +3,7 @@
 		"authors": [
 			"Beko",
 			"Kareyac",
+			"Mvolz",
 			"Vahe Gharakhanyan",
 			"Դավիթ Սարոյան"
 		]
@@ -19,7 +20,7 @@
 	"citoid-citoiddialog-search-placeholder": "օր.՝ http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Որոնում, սպասեք մի քիչ...",
 	"citoid-citoiddialog-title": "Ավելացնել աղբյուր",
-	"citoid-citoiddialog-use-general-error-message": "Ավտոմատ աղբյուր ավելացնելը չստացվեց: Կարող ես անել ինքնուրույն` օգտվելով «{{int:citoid-citefromiddialog-mode-manual}}» բաժնից:",
+	"citoid-citoiddialog-use-general-error-message": "Ավտոմատ աղբյուր ավելացնելը չստացվեց: Կարող ես անել ինքնուրույն` օգտվելով «{{int:citoid-citoiddialog-mode-manual}}» բաժնից:",
 	"citoid-citoidtool-title": "Աղբյուր",
 	"citoid-desc": "Կապ է հաստատում ծանոթագրության և ՄեդիաՎիքիի միջև:",
 	"citoid-referencecontextitem-convert-button": "Փոխարկել",

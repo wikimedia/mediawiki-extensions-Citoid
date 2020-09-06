@@ -5,6 +5,7 @@
 			"Jeblad",
 			"Jon Harald Søby",
 			"Kingu",
+			"Mvolz",
 			"Telaneo"
 		]
 	},
@@ -20,7 +21,7 @@
 	"citoid-citoiddialog-search-placeholder": "f.eks. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Søker, vennligst vent…",
 	"citoid-citoiddialog-title": "Legg til en sitering",
-	"citoid-citoiddialog-use-general-error-message": "Klarte ikke å lage en automatisk sitering. Du kan lage en manuelt ved å bruke arkfanen «{{int:citoid-citefromiddialog-mode-manual}}» ovenfor.",
+	"citoid-citoiddialog-use-general-error-message": "Klarte ikke å lage en automatisk sitering. Du kan lage en manuelt ved å bruke arkfanen «{{int:citoid-citoiddialog-mode-manual}}» ovenfor.",
 	"citoid-citoidtool-title": "Siter",
 	"citoid-citoidtool-title-othergroup": "Sitering",
 	"citoid-desc": "Et aksesspunkt mellom citoid-tjenesten og MediaWiki",

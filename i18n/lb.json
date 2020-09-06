@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mvolz",
 			"Robby",
 			"Soued031"
 		]
@@ -17,7 +18,7 @@
 	"citoid-citoiddialog-search-placeholder": "z. B. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Sichen, gedëllegt Iech wgl. ...",
 	"citoid-citoiddialog-title": "En Zitat dobäisetzen",
-	"citoid-citoiddialog-use-general-error-message": "Mir konnte fir Iech keen Zitat maachen. Dir kënnt ee manuell maache wann Dir den Tab \"{{int:citoid-citefromiddialog-mode-manual}}\" hei driwwer benotzt.",
+	"citoid-citoiddialog-use-general-error-message": "Mir konnte fir Iech keen Zitat maachen. Dir kënnt ee manuell maache wann Dir den Tab \"{{int:citoid-citoiddialog-mode-manual}}\" hei driwwer benotzt.",
 	"citoid-citoidtool-title": "Zitéieren",
 	"citoid-citoidtool-title-othergroup": "Zitat",
 	"citoid-desc": "Liwwert Zougrëffspunkten tëscht dem citoid-Service a MediaWiki",

@@ -3,6 +3,7 @@
 		"authors": [
 			"Kusavica",
 			"Luky001",
+			"Mvolz",
 			"Teslaton",
 			"TomášPolonec"
 		]
@@ -19,7 +20,7 @@
 	"citoid-citoiddialog-search-placeholder": "napr. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Prebieha vyhľadávanie, prosím, čakajte...",
 	"citoid-citoiddialog-title": "Pridať citáciu",
-	"citoid-citoiddialog-use-general-error-message": "Nemohli sme pre vás vytvoriť citáciu. Môžete ju vytvoriť ručne pomocou záložky „{{int:citoid-citefromiddialog-mode-manual}}“.",
+	"citoid-citoiddialog-use-general-error-message": "Nemohli sme pre vás vytvoriť citáciu. Môžete ju vytvoriť ručne pomocou záložky „{{int:citoid-citoiddialog-mode-manual}}“.",
 	"citoid-citoidtool-title": "Citácia",
 	"citoid-citoidtool-title-othergroup": "Citácia",
 	"citoid-desc": "Poskytuje prístupové body medzi službou Citoid a MediaWiki",

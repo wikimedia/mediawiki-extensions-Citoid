@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mvolz",
 			"OC Ripper",
 			"Sf",
 			"Vlad5250"
@@ -18,7 +19,7 @@
 	"citoid-citoiddialog-search-placeholder": "npr. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Pretraživanje. Pričekajte...",
 	"citoid-citoiddialog-title": "Dodaj citat",
-	"citoid-citoiddialog-use-general-error-message": "Nisam mogao napraviti citat. Možete ga stvoriti ručno s karticom \"{{int:citoid-citefromiddialog-mode-manual}}\" gore.",
+	"citoid-citoiddialog-use-general-error-message": "Nisam mogao napraviti citat. Možete ga stvoriti ručno s karticom \"{{int:citoid-citoiddialog-mode-manual}}\" gore.",
 	"citoid-citoidtool-title": "Citiraj - Цитирај",
 	"citoid-citoidtool-title-othergroup": "Citat",
 	"citoid-desc": "Pruža točke pristupa između službe citoida i  MediaWiki",

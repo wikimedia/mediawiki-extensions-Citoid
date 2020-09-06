@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mvolz",
 			"Njardarlogar",
 			"Ranveig"
 		]
@@ -17,7 +18,7 @@
 	"citoid-citoiddialog-search-placeholder": "t.d. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Søkjer, ver god å venta…",
 	"citoid-citoiddialog-title": "Legg til ei kjelde",
-	"citoid-citoiddialog-use-general-error-message": "Me klarte ikkje å laga ei kjelde til deg. Du kan laga ei manuelt ved å nytta «{{int:citoid-citefromiddialog-mode-manual}}»-fana over.",
+	"citoid-citoiddialog-use-general-error-message": "Me klarte ikkje å laga ei kjelde til deg. Du kan laga ei manuelt ved å nytta «{{int:citoid-citoiddialog-mode-manual}}»-fana over.",
 	"citoid-citoidtool-title": "Siter",
 	"citoid-citoidtool-title-othergroup": "Kjelde",
 	"citoid-desc": "Knyttar Citoid-tenesta til MediaWiki",

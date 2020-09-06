@@ -3,6 +3,7 @@
 		"authors": [
 			"Aftabuzzaman",
 			"Bodhisattwa",
+			"Mvolz",
 			"NahidSultan",
 			"আফতাবুজ্জামান"
 		]
@@ -19,7 +20,7 @@
 	"citoid-citoiddialog-search-placeholder": "উদা. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "অনুসন্ধান করা হচ্ছে, দয়া করে অপেক্ষা করুন...",
 	"citoid-citoiddialog-title": "একটি উদ্ধৃতি যোগ করুন",
-	"citoid-citoiddialog-use-general-error-message": "আমরা আপনার জন্য উদ্ধৃতি তৈরী করে দিতে পারব না। আপনি নিজেই উপরের \"{{int:citoid-citefromiddialog-mode-manual}}\" ট্যাবের মাধ্যমে হাতদ্বারা তৈরী করতে পারেন।",
+	"citoid-citoiddialog-use-general-error-message": "আমরা আপনার জন্য উদ্ধৃতি তৈরী করে দিতে পারব না। আপনি নিজেই উপরের \"{{int:citoid-citoiddialog-mode-manual}}\" ট্যাবের মাধ্যমে হাতদ্বারা তৈরী করতে পারেন।",
 	"citoid-citoidtool-title": "উদ্ধৃত করুন",
 	"citoid-citoidtool-title-othergroup": "উদ্ধৃতি",
 	"citoid-desc": "সাইটয়েড পরিষেবা ও মিডিয়াউইকির মধ্যে প্রবেশাধিকার বিন্দু সরবরাহ করে",
