@@ -14,7 +14,6 @@
 		"dataValues": "readonly"
 	},
 	"rules": {
-		"max-len": "off",
-		"no-shadow": "warn"
+		"max-len": "off"
 	}
 }

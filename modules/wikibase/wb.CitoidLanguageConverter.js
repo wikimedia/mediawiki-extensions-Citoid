@@ -46,10 +46,10 @@
 	// Common to getContentCode and getMonolingualCode
 	function getCode( value, cachedCodes, defaultCode ) {
 		var code,
-			getCodeFallback = function ( code ) {
-				code = code.split( '-' );
-				code = code[ 0 ];
-				return code;
+			getCodeFallback = function ( val ) {
+				val = val.split( '-' );
+				val = val[ 0 ];
+				return val;
 			};
 
 		if ( !value ) {

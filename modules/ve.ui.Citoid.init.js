@@ -135,7 +135,7 @@
 		fixTarget( ve.init.mw.targetFactory.lookup( name ) );
 	}
 
-	ve.init.mw.targetFactory.on( 'register', function ( name, target ) {
+	ve.init.mw.targetFactory.on( 'register', function ( n, target ) {
 		fixTarget( target );
 	} );
 
