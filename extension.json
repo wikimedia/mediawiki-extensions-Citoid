@@ -27,19 +27,19 @@
 	"ResourceModules": {
 		"ext.citoid.visualEditor": {
 			"scripts": [
-				"modules/ve.ui.CiteSourceSelectWidget.js",
-				"modules/ve.ui.CitoidInspectorTool.js",
-				"modules/ve.ui.CitoidGroupWidget.js",
-				"modules/ve.ui.CitoidReferenceWidget.js",
-				"modules/ve.ui.CitoidInspector.js",
-				"modules/ve.ui.CitoidAction.js",
-				"modules/ve.ui.Citoid.init.js"
+				"modules/ve/ve.ui.CiteSourceSelectWidget.js",
+				"modules/ve/ve.ui.CitoidInspectorTool.js",
+				"modules/ve/ve.ui.CitoidGroupWidget.js",
+				"modules/ve/ve.ui.CitoidReferenceWidget.js",
+				"modules/ve/ve.ui.CitoidInspector.js",
+				"modules/ve/ve.ui.CitoidAction.js",
+				"modules/ve/ve.ui.Citoid.init.js"
 			],
 			"styles": [
-				"modules/ve.ui.CiteSourceSelectWidget.css",
-				"modules/ve.ui.CitoidInspectorTool.css",
-				"modules/ve.ui.CitoidInspector.css",
-				"modules/ve.ui.CitoidReferenceContextItem.css"
+				"modules/ve/ve.ui.CiteSourceSelectWidget.css",
+				"modules/ve/ve.ui.CitoidInspectorTool.css",
+				"modules/ve/ve.ui.CitoidInspector.css",
+				"modules/ve/ve.ui.CitoidReferenceContextItem.css"
 			],
 			"dependencies": [
 				"ext.cite.visualEditor",
@@ -127,7 +127,7 @@
 		"localBasePath": "",
 		"remoteExtPath": "Citoid",
 		"scripts": [
-			"modules/tests/index.test.js"
+			"modules/ve/tests/index.test.js"
 		],
 		"dependencies": [
 			"ext.citoid.visualEditor"

@@ -6,9 +6,6 @@
 		"wikimedia/mediawiki",
 		"wikimedia/jsduck"
 	],
-	"globals": {
-		"ve": "readonly"
-	},
 	"rules": {
 		"max-len": "off"
 	}
