@@ -6,13 +6,8 @@
 		"wikimedia/mediawiki",
 		"wikimedia/jsduck"
 	],
-	"env": {
-		"commonjs": true
-	},
 	"globals": {
-		"ve": "readonly",
-		"wikibase": "readonly",
-		"dataValues": "readonly"
+		"ve": "readonly"
 	},
 	"rules": {
 		"max-len": "off"

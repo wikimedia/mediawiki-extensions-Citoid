@@ -1,0 +1,9 @@
+{
+	"globals": {
+		"wikibase": "readonly",
+		"dataValues": "readonly"
+	},
+	"env": {
+		"commonjs": true
+	}
+}
