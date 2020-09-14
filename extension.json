@@ -26,20 +26,22 @@
 	},
 	"ResourceModules": {
 		"ext.citoid.visualEditor": {
+			"localBasePath": "modules/ve",
+			"remoteExtPath": "Citoid/modules/ve",
 			"scripts": [
-				"modules/ve/ve.ui.CiteSourceSelectWidget.js",
-				"modules/ve/ve.ui.CitoidInspectorTool.js",
-				"modules/ve/ve.ui.CitoidGroupWidget.js",
-				"modules/ve/ve.ui.CitoidReferenceWidget.js",
-				"modules/ve/ve.ui.CitoidInspector.js",
-				"modules/ve/ve.ui.CitoidAction.js",
-				"modules/ve/ve.ui.Citoid.init.js"
+				"ve.ui.CiteSourceSelectWidget.js",
+				"ve.ui.CitoidInspectorTool.js",
+				"ve.ui.CitoidGroupWidget.js",
+				"ve.ui.CitoidReferenceWidget.js",
+				"ve.ui.CitoidInspector.js",
+				"ve.ui.CitoidAction.js",
+				"ve.ui.Citoid.init.js"
 			],
 			"styles": [
-				"modules/ve/ve.ui.CiteSourceSelectWidget.css",
-				"modules/ve/ve.ui.CitoidInspectorTool.css",
-				"modules/ve/ve.ui.CitoidInspector.css",
-				"modules/ve/ve.ui.CitoidReferenceContextItem.css"
+				"ve.ui.CiteSourceSelectWidget.css",
+				"ve.ui.CitoidInspectorTool.css",
+				"ve.ui.CitoidInspector.css",
+				"ve.ui.CitoidReferenceContextItem.css"
 			],
 			"dependencies": [
 				"ext.cite.visualEditor",
@@ -90,16 +92,18 @@
 			]
 		},
 		"ext.citoid.wikibase": {
+			"localBasePath": "modules/wikibase",
+			"remoteExtPath": "Citoid/modules/wikibase",
 			"scripts": [
-				"modules/wikibase/wb.CitoidClient.js",
-				"modules/wikibase/wb.CitoidLanguageConverter.js",
-				"modules/wikibase/wb.CitoidPendingDialog.js",
-				"modules/wikibase/wb.CitoidToolReferenceEditor.js",
-				"modules/wikibase/wb.CitoidToolTabRenderer.js",
-				"modules/wikibase/wb.CitoidTool.js"
+				"wb.CitoidClient.js",
+				"wb.CitoidLanguageConverter.js",
+				"wb.CitoidPendingDialog.js",
+				"wb.CitoidToolReferenceEditor.js",
+				"wb.CitoidToolTabRenderer.js",
+				"wb.CitoidTool.js"
 			],
 			"styles": [
-				"modules/wikibase/wb.Citoid.css"
+				"wb.Citoid.css"
 			],
 			"dependencies": [
 				"ext.citoid.wikibase.init",
