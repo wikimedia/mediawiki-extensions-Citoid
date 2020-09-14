@@ -2,7 +2,7 @@
  * Citoid extension citation option widget
  *
  * @class
- * @extends {OO.ui.DecoratedOptionWidget}
+ * @extends OO.ui.DecoratedOptionWidget
  *
  * @constructor
  * @param {ve.dm.Document} documentModel Document model
