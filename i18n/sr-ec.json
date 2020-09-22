@@ -20,7 +20,7 @@
 	"citoid-citoiddialog-search": "Претражи",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, наслов или цитат",
 	"citoid-citoiddialog-search-placeholder": "нпр. http://www.example.com",
-	"citoid-citoiddialog-search-progress": "Претраживање, сачекајте…",
+	"citoid-citoiddialog-search-progress": "Претражујем. Сачекајте…",
 	"citoid-citoiddialog-title": "Додавање референце",
 	"citoid-citoiddialog-use-general-error-message": "Није могуће генерисати референцу. Можете је унети ручно коришћењем картице „{{int:citoid-citoiddialog-mode-manual}}” изнад.",
 	"citoid-citoidtool-title": "Референца",
