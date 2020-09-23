@@ -19,6 +19,7 @@
 	"citoid-citoiddialog-search-placeholder": "de ex.: http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Se caută, vă rugăm să așteptați...",
 	"citoid-citoiddialog-title": "Adaugă o citare",
+	"citoid-citoiddialog-use-general-error-message": "Nu s-a putut face o citare pentru dvs. Puteți crea una manual folosind fila „{{int:citoid-citoiddialog-mode-manual}}” de deasupra.",
 	"citoid-citoidtool-title": "Citare",
 	"citoid-citoidtool-title-othergroup": "Referință",
 	"citoid-desc": "Oferă puncte de acces între serviciul citoid și MediaWiki",
@@ -28,6 +29,7 @@
 	"citoid-wb-referenceview-tabs-automatic": "Automat",
 	"citoid-wb-referenceview-tabs-search": "caută",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN sau QID:",
+	"citoid-wb-pendingdialog-error": "Imposibil de generat o referință din această intrare. Utilizați fila manuală sau încercați din nou.",
 	"citoid-wb-pendingdialog-message": "Se generează o referință pentru dvs... vă rugăm să așteptați...",
 	"citoid-wb-pendingdialog-title": "Se generează citarea"
 }
