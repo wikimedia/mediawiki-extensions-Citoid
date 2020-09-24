@@ -39,7 +39,6 @@
 			],
 			"styles": [
 				"ve.ui.CiteSourceSelectWidget.css",
-				"ve.ui.CitoidInspectorTool.css",
 				"ve.ui.CitoidInspector.css",
 				"ve.ui.CitoidReferenceContextItem.css"
 			],

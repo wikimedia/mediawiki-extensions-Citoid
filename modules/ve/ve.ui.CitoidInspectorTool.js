@@ -4,30 +4,32 @@
  * @class
  * @abstract
  * @extends ve.ui.FragmentInspectorTool
- * @mixins ve.ui.MWEducationPopupTool
  * @constructor
  * @param {OO.ui.ToolGroup} toolGroup
  * @param {Object} [config] Configuration options
  */
 ve.ui.CitoidInspectorTool = function VeUiCitoidInspectorTool() {
+	var educationPopup;
+
 	// Parent constructor
 	ve.ui.CitoidInspectorTool.super.apply( this, arguments );
 
 	// For backwards compatibility with on-wiki gadgets (T219512)
 	this.$element.addClass( 'oo-ui-tool-name-citefromid' );
 
-	// Mixin constructor
-	ve.ui.MWEducationPopupTool.call( this, {
-		title: ve.msg( 'cite-ve-dialogbutton-citation-educationpopup-title' ),
-		text: ve.msg( 'cite-ve-dialogbutton-citation-educationpopup-text' )
+	educationPopup = new ve.ui.MWEducationPopupWidget( this.$link, {
+		popupTitle: ve.msg( 'cite-ve-dialogbutton-citation-educationpopup-title' ),
+		popupText: ve.msg( 'cite-ve-dialogbutton-citation-educationpopup-text' ),
+		popupImage: 'cite',
+		trackingName: 'citoid'
 	} );
+
+	this.$link.after( educationPopup.$element );
 };
 
 /* Inheritance */
 
 OO.inheritClass( ve.ui.CitoidInspectorTool, ve.ui.FragmentInspectorTool );
-
-OO.mixinClass( ve.ui.CitoidInspectorTool, ve.ui.MWEducationPopupTool );
 
 /* Static properties */
 
