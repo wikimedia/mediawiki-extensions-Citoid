@@ -26,5 +26,11 @@
 	"citoid-desc": "Menyediakan titik akses antara layanan kutipan dan MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konversi",
 	"citoid-referencecontextitem-convert-message": "Referensi ini hanya berisi pranala luar. Anda dapat menggunakan tombol \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah untuk membuat referensi yang sudah diformat dengan baik.",
-	"citoid-unknown-error": "Galat yang tidak diketahui menghadang kami membuat kutipan. Silakan coba lagi nanti."
+	"citoid-unknown-error": "Galat yang tidak diketahui menghadang kami membuat kutipan. Silakan coba lagi nanti.",
+	"citoid-wb-referenceview-tabs-automatic": "Otomatis",
+	"citoid-wb-referenceview-tabs-search": "cari",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, atau QID:",
+	"citoid-wb-pendingdialog-error": "Tidak dapat menghasilkan referensi dari masukan ini. Gunakan tab manual atau coba lagi.",
+	"citoid-wb-pendingdialog-message": "Menghasilkan referensi untuk Anda... harap tunggu...",
+	"citoid-wb-pendingdialog-title": "Menghasilkan Kutipan"
 }
