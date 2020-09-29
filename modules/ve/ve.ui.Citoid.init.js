@@ -230,7 +230,8 @@
 			}
 			return getActionProcess.call( this, action );
 		};
-		dialogClass.static.actions.push( {
+		// Clone the array, so that we don't add this action to some unrelated parent class
+		dialogClass.static.actions = dialogClass.static.actions.concat( {
 			action: 'replace',
 			label: OO.ui.deferMsg( 'citoid-action-replace' ),
 			icon: 'quotes',
