@@ -8,6 +8,7 @@
 			"Umherirrender"
 		]
 	},
+	"citoid-action-replace": "Typ des Einzelnachweises ändern",
 	"citoid-citation-widget-insert-button": "Einfügen",
 	"citoid-citoiddialog-back": "Zurück",
 	"citoid-citoiddialog-credit": "Powered by $1",
@@ -20,6 +21,7 @@
 	"citoid-citoiddialog-search-placeholder": "z.&nbsp;B. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Suche, bitte warten …",
 	"citoid-citoiddialog-title": "Einen Beleg hinzufügen",
+	"citoid-citoiddialog-title-replace": "Beleg ersetzen",
 	"citoid-citoiddialog-use-general-error-message": "Wir konnten kein Zitat für dich erstellen. Du kannst eines manuell erstellen, indem du den Reiter „{{int:citoid-citoiddialog-mode-manual}}“ oben benutzt.",
 	"citoid-citoidtool-title": "Belegen",
 	"citoid-citoidtool-title-othergroup": "Zitat",

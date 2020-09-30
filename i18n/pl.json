@@ -9,6 +9,7 @@
 			"Woytecr"
 		]
 	},
+	"citoid-action-replace": "Zmień typ odniesienia",
 	"citoid-citation-widget-insert-button": "Wstaw",
 	"citoid-citoiddialog-back": "Wstecz",
 	"citoid-citoiddialog-credit": "Dostarczone przez $1",
@@ -21,6 +22,7 @@
 	"citoid-citoiddialog-search-placeholder": "np. http://www.przyklad.com",
 	"citoid-citoiddialog-search-progress": "Wyszukiwanie, proszę czekać…",
 	"citoid-citoiddialog-title": "Dodaj przypis",
+	"citoid-citoiddialog-title-replace": "Zastąp przypis",
 	"citoid-citoiddialog-use-general-error-message": "Nie mogliśmy utworzyć przypisu. Możesz go utworzyć samodzielnie, używając zakładki „{{int:citoid-citoiddialog-mode-manual}}” powyżej.",
 	"citoid-citoidtool-title": "Przypis",
 	"citoid-citoidtool-title-othergroup": "Przypisy",

@@ -7,6 +7,7 @@
 			"Mooeypoo"
 		]
 	},
+	"citoid-action-replace": "שינוי סוג הערות השוליים",
 	"citoid-citation-widget-insert-button": "הוספה",
 	"citoid-citoiddialog-back": "חזרה",
 	"citoid-citoiddialog-credit": "מופעל על־ידי $1",
@@ -19,6 +20,7 @@
 	"citoid-citoiddialog-search-placeholder": "למשל http://www.example.com",
 	"citoid-citoiddialog-search-progress": "חיפוש, נא להמתין...",
 	"citoid-citoiddialog-title": "הוספת הערת שוליים",
+	"citoid-citoiddialog-title-replace": "החלפת הערת השוליים",
 	"citoid-citoiddialog-use-general-error-message": "לא הצלחנו ליצור בשבילך הפניה למקור. באפשרותך ליצור אותה ידנית באמצעות הלשונית \"{{int:citoid-citoiddialog-mode-manual}}\" לעיל.",
 	"citoid-citoidtool-title": "הערת שוליים",
 	"citoid-citoidtool-title-othergroup": "הערות שוליים",

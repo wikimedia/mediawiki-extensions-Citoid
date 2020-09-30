@@ -25,7 +25,7 @@
 	"citoid-citoiddialog-search-label": "Label for the search field where users can enter a URL, DOI, ISBN, PMC/PMID, QID, title of the work, or plain text citation.",
 	"citoid-citoiddialog-search-placeholder": "{{doc-important|Do not translate example.com as it is a domain name specifically reserved by IANA for examples.}}\n\nPlaceholder for the search field.",
 	"citoid-citoiddialog-search-progress": "Message for when the search is in progress",
-	"citoid-citoiddialog-title": "The title displayed on the dialog",
+	"citoid-citoiddialog-title": "The title displayed on the dialog when inserting a new reference",
 	"citoid-citoiddialog-title-replace": "The title displayed on the dialog when replacing an existing reference",
 	"citoid-citoiddialog-use-general-error-message": "Label notifying the user there was a problem creating their reference, and offering to use the full citation tool.",
 	"citoid-citoidtool-title": "Label for the button to add a citation in the toolbar\n{{Identical|Cite}}",

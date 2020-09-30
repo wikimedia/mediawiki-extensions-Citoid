@@ -10,6 +10,7 @@
 			"Wehwei"
 		]
 	},
+	"citoid-action-replace": "更改參考類型",
 	"citoid-citation-widget-insert-button": "插入",
 	"citoid-citoiddialog-back": "返回",
 	"citoid-citoiddialog-credit": "由 $1 提供支持",
@@ -22,6 +23,7 @@
 	"citoid-citoiddialog-search-placeholder": "例如：http://www.example.com",
 	"citoid-citoiddialog-search-progress": "搜尋中，請稍候…",
 	"citoid-citoiddialog-title": "新增引用",
+	"citoid-citoiddialog-title-replace": "取代引用",
 	"citoid-citoiddialog-use-general-error-message": "我們無法為您建立引用。您可使用上方 \"{{int:citoid-citoiddialog-mode-manual}}\" 頁籤自行建立。",
 	"citoid-citoidtool-title": "引用",
 	"citoid-citoidtool-title-othergroup": "引用",
