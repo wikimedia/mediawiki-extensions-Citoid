@@ -9,6 +9,7 @@
 			"Telaneo"
 		]
 	},
+	"citoid-action-replace": "Endre referansetype",
 	"citoid-citation-widget-insert-button": "Sett inn",
 	"citoid-citoiddialog-back": "Tilbake",
 	"citoid-citoiddialog-credit": "Drevet av $1",
@@ -21,6 +22,7 @@
 	"citoid-citoiddialog-search-placeholder": "f.eks. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Søker, vennligst vent…",
 	"citoid-citoiddialog-title": "Legg til en sitering",
+	"citoid-citoiddialog-title-replace": "Erstatt sitering",
 	"citoid-citoiddialog-use-general-error-message": "Klarte ikke å lage en automatisk sitering. Du kan lage en manuelt ved å bruke arkfanen «{{int:citoid-citoiddialog-mode-manual}}» ovenfor.",
 	"citoid-citoidtool-title": "Siter",
 	"citoid-citoidtool-title-othergroup": "Sitering",

@@ -4,6 +4,7 @@
 			"Bjankuloski06"
 		]
 	},
+	"citoid-action-replace": "Смени вид навод",
 	"citoid-citation-widget-insert-button": "Вметни",
 	"citoid-citoiddialog-back": "Назад",
 	"citoid-citoiddialog-credit": "Овозможено од $1",
@@ -16,6 +17,7 @@
 	"citoid-citoiddialog-search-placeholder": "на пр. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Пребарувам. Почекајте...",
 	"citoid-citoiddialog-title": "Додај навод",
+	"citoid-citoiddialog-title-replace": "Замени навод",
 	"citoid-citoiddialog-use-general-error-message": "Не можев да го направам наводот. Можете да го создадете рачно со јазичето „{{nt:citoid-citoiddialog-mode-manual}}“ погоре.",
 	"citoid-citoidtool-title": "Наведи",
 	"citoid-citoidtool-title-othergroup": "Навод",

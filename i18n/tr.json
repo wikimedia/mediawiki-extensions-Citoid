@@ -9,10 +9,12 @@
 			"Hedda",
 			"Mavrikant",
 			"McAang",
+			"MuratTheTurkish",
 			"Stultiwikia",
 			"Vito Genovese"
 		]
 	},
+	"citoid-action-replace": "Kaynak türünü değiştir",
 	"citoid-citation-widget-insert-button": "Ekle",
 	"citoid-citoiddialog-back": "Geri",
 	"citoid-citoiddialog-credit": "$1 tarafından oluşturulmuştur",
@@ -25,6 +27,7 @@
 	"citoid-citoiddialog-search-placeholder": "ör. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Aranıyor, lütfen bekleyin...",
 	"citoid-citoiddialog-title": "Kaynak ekle",
+	"citoid-citoiddialog-title-replace": "Kaynağı değiştir",
 	"citoid-citoiddialog-use-general-error-message": "Sizin için bir alıntı yapamadık. Yukarıdaki \"{{int:citoid-citoiddialog-mode-manual}}\" sekmesini kullanarak elle bir tane oluşturabilirsiniz.",
 	"citoid-citoidtool-title": "Kaynak göster",
 	"citoid-citoidtool-title-othergroup": "Alıntı",
