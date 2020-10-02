@@ -3,12 +3,14 @@
 		"authors": [
 			"Bencemac",
 			"Elitre (WMF)",
+			"Hanna Tardos",
 			"Misibacsi",
 			"Nyuszika7H",
 			"Tacsipacsi",
 			"Urbalazs"
 		]
 	},
+	"citoid-action-replace": "Referencia-típus változtatása",
 	"citoid-citation-widget-insert-button": "Beillesztés",
 	"citoid-citoiddialog-back": "Vissza",
 	"citoid-citoiddialog-credit": "Készítette: $1",

@@ -8,6 +8,7 @@
 			"MadriCR"
 		]
 	},
+	"citoid-action-replace": "Cambiar tipo de referencia",
 	"citoid-citation-widget-insert-button": "Insertar",
 	"citoid-citoiddialog-back": "Atrás",
 	"citoid-citoiddialog-credit": "Propulsado por $1",
@@ -20,6 +21,7 @@
 	"citoid-citoiddialog-search-placeholder": "por ejemplo, http://www.ejemplo.com",
 	"citoid-citoiddialog-search-progress": "Buscando; espera un momento…",
 	"citoid-citoiddialog-title": "Añadir una cita",
+	"citoid-citoiddialog-title-replace": "Reemplazar cita",
 	"citoid-citoiddialog-use-general-error-message": "No hemos podido generarte la cita. Puedes crearla manualmente mediante la pestaña «{{int:citoid-citoiddialog-mode-manual}}» en la parte superior.",
 	"citoid-citoidtool-title": "Citar",
 	"citoid-citoidtool-title-othergroup": "Cita",
