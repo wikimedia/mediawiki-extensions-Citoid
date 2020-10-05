@@ -6,6 +6,7 @@
 			"Robin0van0der0vliet"
 		]
 	},
+	"citoid-action-replace": "Referinsjetype wizigje",
 	"citoid-citation-widget-insert-button": "Ynfoegje",
 	"citoid-citoiddialog-back": "Werom",
 	"citoid-citoiddialog-credit": "Fieden troch $1",
@@ -18,6 +19,7 @@
 	"citoid-citoiddialog-search-placeholder": "bgl. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Sykjen, efkes wachtsje ...",
 	"citoid-citoiddialog-title": "In sitaat tafoegje",
+	"citoid-citoiddialog-title-replace": "Sitaat ferfange",
 	"citoid-citoiddialog-use-general-error-message": "Wy koene jo sitaat net oanmeitsje. Jo kinne de tab \"{{int:citoid-citoiddialog-mode-manual}}\" hjirboppe brûke, en meitsje ien mei de hân.",
 	"citoid-citoidtool-title": "Sitearje",
 	"citoid-citoidtool-title-othergroup": "Sitaat",
