@@ -7,6 +7,7 @@
 			"Orbot707"
 		]
 	},
+	"citoid-action-replace": "Tewrê çımey bıvurne",
 	"citoid-citation-widget-insert-button": "Cı ke",
 	"citoid-citoiddialog-back": "Peyser",
 	"citoid-citoiddialog-credit": "Kerdoğ $1",
@@ -19,6 +20,7 @@
 	"citoid-citoiddialog-search-placeholder": "mesela http://www.zazaki.zz",
 	"citoid-citoiddialog-search-progress": "Vêniyeno, tenê bıpawê...",
 	"citoid-citoiddialog-title": "Vateyi cı kerê",
+	"citoid-citoiddialog-title-replace": "Çımey bıvurne",
 	"citoid-citoiddialog-use-general-error-message": "Ma nêşayme qandê şıma gırewtış bıgêrime. Ebe gurenayışê tabloyê corêni \"{{int:citoid-citeiddialog-mode-manuel}}\" ra şenê be dest ra vırazê.",
 	"citoid-citoidtool-title": "Vate",
 	"citoid-citoidtool-title-othergroup": "Vate",
