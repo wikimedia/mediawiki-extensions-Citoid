@@ -7,6 +7,7 @@
 			"Irus",
 			"Kaganer",
 			"Mailman",
+			"Megakott",
 			"Meshkov.a",
 			"Mvolz",
 			"Okras",
@@ -16,6 +17,7 @@
 			"Дмитрий"
 		]
 	},
+	"citoid-action-replace": "Изменить тип примечания",
 	"citoid-citation-widget-insert-button": "Вставить",
 	"citoid-citoiddialog-back": "Назад",
 	"citoid-citoiddialog-credit": "Предоставлено $1",
@@ -28,6 +30,7 @@
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Идёт поиск, пожалуйста, подождите…",
 	"citoid-citoiddialog-title": "Добавить ссылку на источник",
+	"citoid-citoiddialog-title-replace": "Заменить источник",
 	"citoid-citoiddialog-use-general-error-message": "Мы не смогли сформировать для вас цитату. Её можно создать вручную, используя выше вкладку «{{int:citoid-citoiddialog-mode-manual}}».",
 	"citoid-citoidtool-title": "Источник",
 	"citoid-citoidtool-title-othergroup": "Источник",
@@ -38,5 +41,7 @@
 	"citoid-wb-referenceview-tabs-automatic": "Автоматически",
 	"citoid-wb-referenceview-tabs-search": "поиск",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN или QID:",
-	"citoid-wb-pendingdialog-message": "Создание ссылки для вас... пожалуйста, подождите..."
+	"citoid-wb-pendingdialog-error": "Невозможно создать примечание из этого ввода. Воспользуйтесь вкладкой вручную или попробуйте еще раз.",
+	"citoid-wb-pendingdialog-message": "Создание ссылки для вас... пожалуйста, подождите...",
+	"citoid-wb-pendingdialog-title": "Генерация источника"
 }

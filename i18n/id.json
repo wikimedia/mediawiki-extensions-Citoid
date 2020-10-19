@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Arief",
+			"Daud I.F. Argana",
 			"Gombang",
 			"Kenrick95",
 			"Mvolz",
 			"William Surya Permana"
 		]
 	},
+	"citoid-action-replace": "Ubah tipe referensi",
 	"citoid-citation-widget-insert-button": "Sisipkan",
 	"citoid-citoiddialog-back": "Kembali",
 	"citoid-citoiddialog-credit": "Didukung oleh $1",
@@ -20,6 +22,7 @@
 	"citoid-citoiddialog-search-placeholder": "misalnya http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Mencari, harap tunggu...",
 	"citoid-citoiddialog-title": "Tambahkan kutipan",
+	"citoid-citoiddialog-title-replace": "Ganti kutipan",
 	"citoid-citoiddialog-use-general-error-message": "Kami tidak dapat membuat kutipan untuk Anda. Anda dapat membuatnya secara manual dengan tab \"{{int:citoid-citoiddialog-mode-manual}}\" di atas.",
 	"citoid-citoidtool-title": "Kutip",
 	"citoid-citoidtool-title-othergroup": "Kutipan",
