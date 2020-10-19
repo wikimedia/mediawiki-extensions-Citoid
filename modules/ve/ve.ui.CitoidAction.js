@@ -42,12 +42,15 @@ ve.ui.CitoidAction.static.methods = [ 'open' ];
  * @method
  * @param {boolean} [replace] Replace the contents of the selected reference
  * @param {string} [lookup] URL to look up
+ * @param {number} [inStaging] A staged change was mode to the surface as part of opening the inspector.
+ *  e.g. Used to unwrap text in Template:Citation_needed_span
  * @return {boolean} Action was executed
  */
-ve.ui.CitoidAction.prototype.open = function ( replace, lookup ) {
+ve.ui.CitoidAction.prototype.open = function ( replace, lookup, inStaging ) {
 	this.surface.execute( 'window', 'open', 'citoid', {
 		replace: replace,
 		lookup: lookup,
+		inStaging: inStaging,
 		inDialog: this.surface.getInDialog()
 	} );
 	return true;

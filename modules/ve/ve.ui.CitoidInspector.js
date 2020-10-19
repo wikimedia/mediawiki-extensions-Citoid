@@ -11,7 +11,8 @@ ve.ui.CitoidInspector = function VeUiCitoidInspector( config ) {
 	ve.ui.CitoidInspector.super.call( this, ve.extendObject( { padded: false }, config ) );
 
 	this.referenceModel = null;
-	this.staging = false;
+	this.staging = 0;
+	this.stagedReference = false;
 	this.results = [];
 	this.citeTools = [];
 	this.templateTypeMap = null;
@@ -333,7 +334,10 @@ ve.ui.CitoidInspector.prototype.onSearchResultsChoose = function ( item ) {
 	var ref = item.getData();
 
 	ref.insertReferenceNode( this.getFragment() );
-	this.getFragment().getSurface().applyStaging();
+	while ( this.staging ) {
+		this.getFragment().getSurface().applyStaging();
+		this.staging--;
+	}
 
 	ve.track( 'activity.' + this.constructor.static.name, { action: 'reuse-choose' } );
 
@@ -363,7 +367,7 @@ ve.ui.CitoidInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) 
 
 		this.results[ index ].transclusionModel.insertTransclusionNode( fragment, 'inline' );
 
-		if ( this.staging ) {
+		if ( this.stagedReference ) {
 			// Remove placeholder status
 			this.getFragment().changeAttributes( { placeholder: false } );
 
@@ -376,10 +380,13 @@ ve.ui.CitoidInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) 
 				)
 			);
 			this.referenceModel.updateInternalItem( surfaceModel );
+			this.stagedReference = false;
+		}
 
-			// Apply staging
+		// Apply staging
+		while ( this.staging ) {
 			surfaceModel.applyStaging();
-			this.staging = false;
+			this.staging--;
 		}
 
 		ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-insert' } );
@@ -436,11 +443,15 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 
 			// Reset
 			this.lookupPromise = null;
-			this.staging = false;
+			this.staging = 0;
+			this.stagedReference = false;
 			this.results = [];
 			this.lookupButton.setDisabled( true );
 			this.inDialog = data.inDialog || '';
 			this.replaceRefNode = data.replace && this.getSelectedNode();
+			if ( data.inStaging ) {
+				this.staging++;
+			}
 
 			// Collapse returns a new fragment, so update this.fragment
 			if ( !data.replace ) {
@@ -457,7 +468,8 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 				this.referenceModel = new ve.dm.MWReferenceModel( this.fragment.getDocument() );
 
 				if ( this.inDialog !== 'reference' ) {
-					this.staging = true;
+					this.staging++;
+					this.stagedReference = true;
 					fragment = this.getFragment();
 					// Stage an empty reference
 					fragment.getSurface().pushStaging();
@@ -504,8 +516,22 @@ ve.ui.CitoidInspector.prototype.getReadyProcess = function ( data ) {
 ve.ui.CitoidInspector.prototype.getTeardownProcess = function ( data ) {
 	return ve.ui.CitoidInspector.super.prototype.getTeardownProcess.call( this, data )
 		.first( function () {
+			// Always pop the first piece of staging (creating a dummy reference)
 			if ( this.staging ) {
 				this.fragment.getSurface().popStaging();
+				this.staging--;
+			}
+			while ( this.staging ) {
+				// If we are switching to manual mode, apply any pre-dialog staged
+				// changes, such as the citation-needed-inline conversion.
+				// TODO: Ideally we would pass on this staging state to the next dialog
+				// so it could be reverted if the next dialog is closed.
+				if ( data && data.action === 'manual-choose' ) {
+					this.fragment.getSurface().applyStaging();
+				} else {
+					this.fragment.getSurface().popStaging();
+				}
+				this.staging--;
 			}
 
 			// Empty the input
