@@ -9,6 +9,7 @@
 			"Vitorvicentevalente"
 		]
 	},
+	"citoid-action-replace": "Alterar o tipo da referência",
 	"citoid-citation-widget-insert-button": "Inserir",
 	"citoid-citoiddialog-back": "Retroceder",
 	"citoid-citoiddialog-credit": "Fonte disponibilizada por $1",
@@ -21,6 +22,7 @@
 	"citoid-citoiddialog-search-placeholder": "ex: http://www.exemplo.com",
 	"citoid-citoiddialog-search-progress": "A pesquisar, por favor aguarde...",
 	"citoid-citoiddialog-title": "Adicionar uma citação",
+	"citoid-citoiddialog-title-replace": "Substituir a citação",
 	"citoid-citoiddialog-use-general-error-message": "Não conseguimos criar a citação. Pode criar uma manualmente usando o separador \"{{int:citoid-citoiddialog-mode-manual}}\" acima.",
 	"citoid-citoidtool-title": "Citar",
 	"citoid-citoidtool-title-othergroup": "Citação",
