@@ -8,6 +8,7 @@
 			"Srđan"
 		]
 	},
+	"citoid-action-replace": "Promijeni vrstu reference",
 	"citoid-citation-widget-insert-button": "Umetni",
 	"citoid-citoiddialog-back": "Nazad",
 	"citoid-citoiddialog-credit": "Pokreće $1",
@@ -20,6 +21,7 @@
 	"citoid-citoiddialog-search-placeholder": "npr. http://www.primjer.com",
 	"citoid-citoiddialog-search-progress": "Pretražujem. Sačekajte...",
 	"citoid-citoiddialog-title": "Dodavanje reference",
+	"citoid-citoiddialog-title-replace": "Zamjena reference",
 	"citoid-citoidtool-title": "Referenca",
 	"citoid-citoidtool-title-othergroup": "Referenca",
 	"citoid-desc": "Pruža tačke pristupa između usluge citoid i MediaWikija",
