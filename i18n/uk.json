@@ -10,6 +10,7 @@
 			"Ата"
 		]
 	},
+	"citoid-action-replace": "Змінити тип посилання на джерело",
 	"citoid-citation-widget-insert-button": "Вставити",
 	"citoid-citoiddialog-back": "Назад",
 	"citoid-citoiddialog-credit": "Підтримується $1",
@@ -22,6 +23,7 @@
 	"citoid-citoiddialog-search-placeholder": "наприклад, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Пошук, зачекайте, будь ласка…",
 	"citoid-citoiddialog-title": "Додати джерело",
+	"citoid-citoiddialog-title-replace": "Замінити посилання на джерело",
 	"citoid-citoiddialog-use-general-error-message": "Ми не змогли створити для Вас посилання на джерело. Ви можете створити його вручну, використовуючи вкладку «{{int:citoid-citoiddialog-mode-manual}}» вище.",
 	"citoid-citoidtool-title": "Джерело",
 	"citoid-citoidtool-title-othergroup": "Цитата",
