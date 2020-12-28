@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lancine.kounfantoh.fofana"
+		]
+	},
+	"citoid-action-replace": "ߦߟߌߡߊߛߙߋ ߛߎ߯ߦߊ ߡߊߝߊ߬ߟߋ߲߬",
+	"citoid-citation-widget-insert-button": "ߊ߬ ߝߙߊ߬",
+	"citoid-citoiddialog-back": "ߌ ߞߐߛߊ߬ߦߌ߬",
+	"citoid-citoiddialog-credit": "ߊ߬ ߝߊ߲߬ߞߊߘߏ߲߬ߣߍ߲߬ ߦߋ߫ $1 ߟߋ߬ ߓߟߏ߫",
+	"citoid-citoiddialog-mode-auto": "ߞߍߒߖߘߍߦߋ",
+	"citoid-citoiddialog-mode-manual": "ߓߟߏߟߕߊ",
+	"citoid-citoiddialog-mode-reuse": "ߊ߬ ߟߊߓߊ߯ߙߊ߫ ߕߎ߲߯ߣߌ߲߫",
+	"citoid-citoiddialog-search": "ߢߌߣߌ߲ߠߌ߲",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, ߞߎ߲߬ߕߐ߮߸ ߥߟߊ߫ ߟߊߛߙߋߦߊߟߌ",
+	"citoid-citoiddialog-search-placeholder": "ߟߊߒߡߊ߫ ߘߐ߫: http://www.example.com",
+	"citoid-citoiddialog-search-progress": "ߢߌߣߌ߲ߠߌ߲ ߦߴߌ ߘߐ߫߸ ߌ ߟߐ߬ ߖߊ߰ߣߌ߲߫...",
+	"citoid-citoiddialog-title": "ߟߊ߬ߛߙߋ߬ߦߊ߬ߟߌ ߝߙߊ߬",
+	"citoid-citoiddialog-title-replace": "ߟߊ߬ߛߙߋ߬ߦߊ߬ߟߌ ߣߐ߬ߘߐߓߌ߬ߟߊ߬",
+	"citoid-citoiddialog-use-general-error-message": "ߊ߲ ߘߌ߫ ߛߋ߫ ߟߊ߬ߛߙߋ߬ߦߊ߬ߟߌ ߛߌ߲ߘߌ߫ ߟߴߌ ߦߋ߫. ߌ ߘߌ߫ ߛߋ߫ ߘߏ߫ ߛߌ߲ߘߌ߫ ߟߊ߫ ߓߟߏߦߊߟߌ ߘߐ߫ ߞߊ߬ \"{{int:citoid-citoiddialog-mode-manual}}\" ߟߊߓߊ߯ߙߊ߫ ߛߊ߲߲ߝߍ߫ ߘߎ߲ߛߓߍ ߟߊ߫.",
+	"citoid-citoidtool-title": "ߟߊߛߙߋߦߊ߫",
+	"citoid-citoidtool-title-othergroup": "ߟߊ߬ߛߙߋ߬ߦߊ߬ߟߌ",
+	"citoid-wb-referenceview-tabs-automatic": "ߞߍߒߖߘߍߦߋ",
+	"citoid-wb-referenceview-tabs-search": "ߊ߬ ߢߌߣߌ߲߫",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:",
+	"citoid-wb-pendingdialog-message": "ߦߟߌߡߊߛߙߋ ߘߟߊߘߍ߯ߟߌ ߦߴߌ ߘߐ߫ ߌ ߦߋ߫...ߌ ߟߐ߬ ߖߊ߰ߣߌ߲߫...",
+	"citoid-wb-pendingdialog-title": "ߟߊ߬ߛߙߋ߬ߦߊ߬ߟߌ ߘߟߊߘߍ߯ߟߌ ߦߴߊ߬ ߞߊ߲߬"
+}
