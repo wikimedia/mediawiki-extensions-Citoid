@@ -11,6 +11,7 @@
 			"Valtlait"
 		]
 	},
+	"citoid-action-replace": "Vaihda viitteen muotoa",
 	"citoid-citation-widget-insert-button": "Lisää",
 	"citoid-citoiddialog-back": "Takaisin",
 	"citoid-citoiddialog-credit": "Palvelun mahdollistaa $1",
@@ -23,6 +24,7 @@
 	"citoid-citoiddialog-search-placeholder": "esim. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Etsitään, odota...",
 	"citoid-citoiddialog-title": "Lisää viittaus",
+	"citoid-citoiddialog-title-replace": "Korvaa viite",
 	"citoid-citoiddialog-use-general-error-message": "Viittaustasi ei voitu luoda. Voit luoda sen manuaalisesti käyttämällä ylläolevaa \"{{int:citoid-citoiddialog-mode-manual}}\"-välilehteä.",
 	"citoid-citoidtool-title": "Viittaa",
 	"citoid-citoidtool-title-othergroup": "Viite",
