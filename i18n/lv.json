@@ -5,6 +5,7 @@
 			"Silraks"
 		]
 	},
+	"citoid-action-replace": "Mainīt atsauces veidu",
 	"citoid-citation-widget-insert-button": "Ievietot",
 	"citoid-citoiddialog-back": "Atpakaļ",
 	"citoid-citoiddialog-credit": "Nodrošina $1",
@@ -17,6 +18,7 @@
 	"citoid-citoiddialog-search-placeholder": "piemēram, http://www.piemers.com",
 	"citoid-citoiddialog-search-progress": "Meklē, lūdzu, uzgaidi...",
 	"citoid-citoiddialog-title": "Pievienot atsauci",
+	"citoid-citoiddialog-title-replace": "Aizvietot atsauci",
 	"citoid-citoiddialog-use-general-error-message": "Neizdevās izveidot atsauci. Tu vari to izveidot manuāli, izmantojot \"{{int:citoid-citoiddialog-mode-manual}}\" cilni.",
 	"citoid-citoidtool-title": "Atsauce",
 	"citoid-citoidtool-title-othergroup": "Atsauce",
