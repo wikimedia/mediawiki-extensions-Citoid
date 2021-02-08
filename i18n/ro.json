@@ -7,6 +7,7 @@
 			"Strainu"
 		]
 	},
+	"citoid-action-replace": "Schimbă tipul referinței",
 	"citoid-citation-widget-insert-button": "Inserează",
 	"citoid-citoiddialog-back": "Înapoi",
 	"citoid-citoiddialog-credit": "Realizat de $1",
@@ -19,6 +20,7 @@
 	"citoid-citoiddialog-search-placeholder": "de ex.: http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Se caută, vă rugăm să așteptați...",
 	"citoid-citoiddialog-title": "Adaugă o citare",
+	"citoid-citoiddialog-title-replace": "Înlocuiește citarea",
 	"citoid-citoiddialog-use-general-error-message": "Nu s-a putut face o citare pentru dvs. Puteți crea una manual folosind fila „{{int:citoid-citoiddialog-mode-manual}}” de deasupra.",
 	"citoid-citoidtool-title": "Citare",
 	"citoid-citoidtool-title-othergroup": "Referință",
