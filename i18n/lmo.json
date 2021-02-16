@@ -23,12 +23,12 @@
 	"citoid-citoidtool-title-othergroup": "Citazzion",
 	"citoid-desc": "El forniss un pont d'entrada intra il servizzi citoid e MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Trasforma",
-	"citoid-referencecontextitem-convert-message": "Quel riferiment chì l'è fad su doma d'un ligamm de foeura. Te podet drovà el boton \"{{int:citoid-referencecontextitem-convert-button}}\" chì de sota de ingenerà on riferiment formatad ben.",
+	"citoid-referencecontextitem-convert-message": "Quel riferiment chì l'è fad su doma d'un ligamm de foeura. Te podet drovà el boton \"{{int:citoid-referencecontextitem-convert-button}}\" chì de sota de insgenerà on riferiment formatad ben.",
 	"citoid-unknown-error": "A l'è capitad un eror conossud de nissun che 'l n'ha impedid de creà la citazzion. Per piesè prova anmò pussee tard.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatich",
 	"citoid-wb-referenceview-tabs-search": "cerca",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, opur QID:",
-	"citoid-wb-pendingdialog-error": "Impossibil ingenerà un riferiment a partì de sti dati chì. Drova la scheda a man o prova anmò.",
+	"citoid-wb-pendingdialog-error": "Impossibil insgenerà un riferiment a partì de sti dati chì. Drova la scheda a man o prova anmò.",
 	"citoid-wb-pendingdialog-message": "Adree a ingenerà un riferiment...per piesè speta...",
 	"citoid-wb-pendingdialog-title": "Creazzion de la Citazzion"
 }
