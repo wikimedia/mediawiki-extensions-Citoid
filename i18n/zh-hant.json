@@ -5,12 +5,13 @@
 			"Citizen01",
 			"Cwlin0416",
 			"Kly",
+			"LNDDYL",
 			"Liuxinyu970226",
 			"Shangkuanlc",
 			"Wehwei"
 		]
 	},
-	"citoid-action-replace": "更改參考類型",
+	"citoid-action-replace": "變更參考類型",
 	"citoid-citation-widget-insert-button": "插入",
 	"citoid-citoiddialog-back": "返回",
 	"citoid-citoiddialog-credit": "由 $1 提供支持",
