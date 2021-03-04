@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jaroslav.micek",
 			"Kusavica",
 			"Luky001",
 			"Mvolz",
@@ -10,7 +11,7 @@
 	},
 	"citoid-citation-widget-insert-button": "Vložiť",
 	"citoid-citoiddialog-back": "Späť",
-	"citoid-citoiddialog-credit": "Poskytuje $1",
+	"citoid-citoiddialog-credit": "Poháňané cez $1",
 	"citoid-citoiddialog-lookup-button": "Vytvoriť",
 	"citoid-citoiddialog-mode-auto": "Automaticky",
 	"citoid-citoiddialog-mode-manual": "Ručne",
