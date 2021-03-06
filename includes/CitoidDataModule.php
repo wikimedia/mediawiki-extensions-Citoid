@@ -27,7 +27,7 @@ class CitoidDataModule extends ResourceLoaderModule {
 						->inContentLanguage()
 						->plain(),
 			],
-			ResourceLoader::inDebugMode()
+			(bool)ResourceLoader::inDebugMode()
 		) . ');';
 	}
 
