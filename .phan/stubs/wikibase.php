@@ -10,7 +10,7 @@ namespace Wikibase\Repo {
 	class WikibaseRepo {
 		static function getDefaultInstance(): self {
 		}
-		function getEntityNamespaceLookup(): \Wikibase\Lib\Store\EntityNamespaceLookup {
+		static function getEntityNamespaceLookup(): \Wikibase\Lib\Store\EntityNamespaceLookup {
 		}
 	}
 }

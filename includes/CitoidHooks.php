@@ -45,7 +45,7 @@ class CitoidHooks {
 	 */
 	public static function onBeforePageDisplay( OutputPage &$out ) {
 		if ( class_exists( WikibaseRepo::class ) ) {
-			$lookup = WikibaseRepo::getDefaultInstance()->getEntityNamespaceLookup();
+			$lookup = WikibaseRepo::getEntityNamespaceLookup();
 			if ( $lookup->isEntityNamespace( $out->getTitle()->getNamespace() ) ) {
 				$out->addModules( 'ext.citoid.wikibase.init' );
 			}
