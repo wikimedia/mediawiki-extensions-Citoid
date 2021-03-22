@@ -3,16 +3,34 @@
 		"authors": [
 			"Muhammed taha",
 			"Pirehelokan",
-			"Sarchia"
+			"Sarchia",
+			"ئارام بکر"
 		]
 	},
+	"citoid-action-replace": "جۆری سەرچاوە بگۆڕە",
 	"citoid-citation-widget-insert-button": "تێخستن",
 	"citoid-citoiddialog-back": "گەڕانەوە",
-	"citoid-citoiddialog-lookup-button": "دروست کردن",
-	"citoid-citoiddialog-mode-auto": "ئوتۆماتیک",
+	"citoid-citoiddialog-credit": "پشتگیریکراوە لە لایەن $1",
+	"citoid-citoiddialog-lookup-button": "دروستکردن",
+	"citoid-citoiddialog-mode-auto": "ئۆتۆماتیک",
 	"citoid-citoiddialog-mode-manual": "دەستی",
 	"citoid-citoiddialog-mode-reuse": "بەکارھێنانەوە",
-	"citoid-citoiddialog-search-label": "URL، DOI یان PMID",
+	"citoid-citoiddialog-search": "بگەڕێ",
+	"citoid-citoiddialog-search-label": "URL، DOI، ISBN، PMC/PMID، QID، ناونیشان، یان بەڵگەھێنانەوە",
 	"citoid-citoiddialog-search-placeholder": "بۆ نموونە: http://www.example.com",
-	"citoid-citoidtool-title": "ئاماژە"
+	"citoid-citoiddialog-search-progress": "دەگەڕێت، تکایە چاوەڕێ بکە...",
+	"citoid-citoiddialog-title": "سەرچاوەیەک زیاد بکە",
+	"citoid-citoiddialog-title-replace": "جێگۆڕکێکردنی سەرچاوە",
+	"citoid-citoiddialog-use-general-error-message": "نەمانتوانی سەرچاوەکەت بۆ دروست بکەین. دەتوانی بە دەست لەڕێی بەکارھێنانی تابی «{{int:citoid-citoiddialog-mode-manual}}» دروستی بکەیت.",
+	"citoid-citoidtool-title": "ئاماژە",
+	"citoid-citoidtool-title-othergroup": "بەڵگەھێنانەوە",
+	"citoid-referencecontextitem-convert-button": "گۆڕین",
+	"citoid-referencecontextitem-convert-message": "ئەم سەرچاوە تەنیا بەستەرێکی دەرەکی لەخۆدەگرێت. بۆ دروستکردنی سەرچاوەیەکی بێکەموکوڕی دەتوانیت دوگمەی «{{int:citoid-referencecontextitem-convert-button}}» بەکاربێنیت.",
+	"citoid-unknown-error": "ھەڵەیەکی نەناسراو ڕووی دا کە ڕێگریی لە ئێمە کرد تا بەڵگەکەت بۆ بھێنینەوە. تکایە دواتر ھەوڵ بدەرەوە.",
+	"citoid-wb-referenceview-tabs-automatic": "ئۆتۆماتیک",
+	"citoid-wb-referenceview-tabs-search": "گەڕان",
+	"citoid-wb-referenceview-tabs-search-label": "URL، DOI، ISBN، یان QID:",
+	"citoid-wb-pendingdialog-error": "نەتواندرا لەمەوە سەرچاوەکەت بۆ دروست بکرێت. تابی دەستی بەکاربێنە، یان دووبارە ھەوڵ بدەرەوە.",
+	"citoid-wb-pendingdialog-message": "دروستکردنی سەرچاوەیەک بۆ تۆ... تکایە چاوەڕێ بکە...",
+	"citoid-wb-pendingdialog-title": "دروستکردنی بەڵگەھێنانەوە"
 }
