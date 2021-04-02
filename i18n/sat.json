@@ -3,7 +3,8 @@
 		"authors": [
 			"Amire80",
 			"Fagunkoyel Hansdah",
-			"Ramjit Tudu"
+			"Ramjit Tudu",
+			"ᱥᱟᱹᱜᱩᱱ ᱗"
 		]
 	},
 	"citoid-citation-widget-insert-button": "ᱟᱫᱮᱨ",
@@ -15,5 +16,6 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN or PMC/PMID",
 	"citoid-citoidtool-title": "ᱛᱩᱢᱟᱹᱞ",
 	"citoid-citoidtool-title-othergroup": "ᱛᱩᱢᱟᱹᱞᱟᱜ",
-	"citoid-referencecontextitem-convert-button": "ᱵᱚᱫᱚᱞ"
+	"citoid-referencecontextitem-convert-button": "ᱵᱚᱫᱚᱞ",
+	"citoid-wb-referenceview-tabs-search": "ᱥᱮᱸᱫᱽᱨᱟ"
 }
