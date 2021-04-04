@@ -3,21 +3,22 @@
 /**
  * Minimal set of classes necessary to fulfill needs of parts of Citoid relying on
  * the Wikibase extension.
- * @codingStandardsIgnoreFile
+ * phpcs:disable MediaWiki.Files.ClassMatchesFilename,Generic.Files.OneObjectStructurePerFile,MediaWiki.Commenting.FunctionComment
  */
 
 namespace Wikibase\Repo {
 	class WikibaseRepo {
-		static function getDefaultInstance(): self {
+		public static function getDefaultInstance(): self {
 		}
-		static function getEntityNamespaceLookup(): \Wikibase\Lib\Store\EntityNamespaceLookup {
+
+		public static function getEntityNamespaceLookup(): \Wikibase\Lib\Store\EntityNamespaceLookup {
 		}
 	}
 }
 
 namespace Wikibase\Lib\Store {
 	class EntityNamespaceLookup {
-		function isEntityNamespace( int $ns ): bool {
+		public function isEntityNamespace( int $ns ): bool {
 		}
 	}
 }
