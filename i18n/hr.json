@@ -3,7 +3,8 @@
 		"authors": [
 			"Acamicamacaraca",
 			"Bugoslav",
-			"MaGa"
+			"MaGa",
+			"Ponor"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Umetni",
@@ -19,6 +20,6 @@
 	"citoid-citoidtool-title-othergroup": "Citat",
 	"citoid-desc": "Pruža pristupne točke između citoid usluge i MediaWikija",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
-	"citoid-referencecontextitem-convert-message": "Ovaj citat se sastoji samo od vanjske poveznice. U nastavku možete upotrijebiti gumb \"{{int: citoid-referencecontextitem-convert-button}}\" kako biste generirali valjano oblikovanu referenciju.",
+	"citoid-referencecontextitem-convert-message": "Ovaj navod sastoji se samo od vanjske poveznice. U nastavku možete upotrijebiti dugme »{{int:citoid-referencecontextitem-convert-button}}« kako biste upotpunili referenciju.",
 	"citoid-unknown-error": "Došlo je do nepoznate pogreške koja nam je spriječila stvaranje citata. Molimo pokušajte ponovo kasnije."
 }
