@@ -8,11 +8,13 @@
 			"Macofe",
 			"Mpiva",
 			"Mvolz",
+			"Sakretsu",
 			"Selven",
 			"Senpremì",
 			"^musaz"
 		]
 	},
+	"citoid-action-replace": "Cambia tipo di nota",
 	"citoid-citation-widget-insert-button": "Inserisci",
 	"citoid-citoiddialog-back": "Indietro",
 	"citoid-citoiddialog-credit": "Realizzato con $1",
@@ -25,6 +27,7 @@
 	"citoid-citoiddialog-search-placeholder": "ad esempio http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ricerca in corso, attendi...",
 	"citoid-citoiddialog-title": "Aggiungi una citazione",
+	"citoid-citoiddialog-title-replace": "Sostituisci citazione",
 	"citoid-citoiddialog-use-general-error-message": "Non siamo riusciti a creare una citazione per te. Puoi crearne una manualmente utilizzando la scheda \"{{int:citoid-citoiddialog-mode-manual}}\" qui sopra.",
 	"citoid-citoidtool-title": "Cita",
 	"citoid-citoidtool-title-othergroup": "Citazione",
