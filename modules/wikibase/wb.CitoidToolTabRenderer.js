@@ -67,6 +67,12 @@
 			.text( automaticLabel );
 		$autoLi = $( '<li>' ).append( $automaticLink );
 
+		// Sets automatic mode when user selects it after selecting another tab
+		$automaticLink.on( 'click', function () {
+			new mw.Api().saveOption( 'wb-reftabs-mode', 'automatic' ); // for future page views
+			mw.user.options.set( 'wb-reftabs-mode', 'automatic' ); // for this page view
+		} );
+
 		// Add new tab and citoid panel to reference widget
 		$ul.append( $autoLi );
 		$refView.append( $automatic );
