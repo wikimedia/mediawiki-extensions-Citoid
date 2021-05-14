@@ -6,7 +6,18 @@
 	},
 	"citoid-citoiddialog-back": "Walik",
 	"citoid-citoiddialog-credit": "Kawasa olih $1",
+	"citoid-citoiddialog-mode-auto": "Otomatis",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Anggén malih",
+	"citoid-citoiddialog-search": "Rereh",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, murda, utawi anggitan",
+	"citoid-citoiddialog-search-placeholder": "sekadi http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Ngerereh, durus jantos...",
+	"citoid-citoiddialog-title": "Tambah anggit",
+	"citoid-citoiddialog-title-replace": "Gentos anggit",
 	"citoid-citoidtool-title": "Anggit",
+	"citoid-citoidtool-title-othergroup": "Anggit",
+	"citoid-wb-referenceview-tabs-automatic": "Otomatis",
 	"citoid-wb-referenceview-tabs-search": "rereh",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, utawi QID:"
 }
