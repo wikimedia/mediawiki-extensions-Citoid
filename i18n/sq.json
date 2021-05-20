@@ -28,7 +28,7 @@
 	"citoid-citoidtool-title-othergroup": "Citim",
 	"citoid-desc": "Furnizoni pika hyrjeje mes shërbimit Citoid dhe MediaWiki-t",
 	"citoid-referencecontextitem-convert-button": "Shndërrojeni",
-	"citoid-referencecontextitem-convert-message": "Kjo referencë përbëhet thjesht nga një lidhje e jashtme. Për të prodhuar një referencë të formatuar si duhet mund të përdorni butonin \"{{int:citoid-referencecontextitem-convert-button}}\" më poshtë.",
+	"citoid-referencecontextitem-convert-message": "Kjo referencë përbëhet thjesht nga një lidhje e jashtme. Për të prodhuar një referencë të formatuar si duhet mund të përdorni butonin më poshtë \"{{int:citoid-referencecontextitem-convert-button}}\".",
 	"citoid-unknown-error": "Ndodhi një gabim i panjohur që na pengoi krijimin e një citimi. Ju lutemi, riprovoni më vonë.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatik",
 	"citoid-wb-referenceview-tabs-search": "kërkoni",
