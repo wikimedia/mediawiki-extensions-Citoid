@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Geraki"
+			"Geraki",
+			"Giannaras99"
 		]
 	},
-	"citoid-action-replace": "Αλλαγή τύπου παραπομπής",
+	"citoid-action-replace": "Αλλαγή τύπου αναφοράς",
 	"citoid-citation-widget-insert-button": "Εισαγωγή",
 	"citoid-citoiddialog-back": "Πίσω",
 	"citoid-citoiddialog-credit": "Με τη λειτουργία $1",
@@ -27,6 +28,6 @@
 	"citoid-referencecontextitem-convert-message": "Η παραπομπή αυτή αποτελείται από ένα εξωτερικό σύνδεσμο. Μπορείτε να χρησιμοποιήσετε το κουμπί \"{{int:citoid-referencecontextitem-convert-button}}\" παρακάτω για να δημιουργήσετε μια σωστά διαμορφωμένη παραπομπή.",
 	"citoid-unknown-error": "Ένα άγνωστο σφάλμα παρουσιάστηκε που μας απέτρεψε από το να δημιουργηθεί μια παραπομπή. Παρακαλούμε δοκιμάστε ξανά αργότερα.",
 	"citoid-wb-referenceview-tabs-automatic": "Αυτόματα",
-	"citoid-wb-referenceview-tabs-search": "αναζήτηση",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ή QID:"
+	"citoid-wb-referenceview-tabs-search": "Αναζήτηση",
+	"citoid-wb-referenceview-tabs-search-label": "Ενιαίος Εντοπιστής Πόρων(URL), Αναγνωριστικό ψηφιακού αντικειμένου(DOI), Διεθνής Μοναδικός Αριθμός Βιβλίου(ISBN), ή Οθόνη τετραπλών πληροφοριών(QID):"
 }
