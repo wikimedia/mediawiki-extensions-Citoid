@@ -736,7 +736,7 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 					} );
 				template = inspector.results[ i ].template;
 				// T92428: Ignore empty templates
-				if ( template.getParameterNames().length === 0 ) {
+				if ( template.getOrderedParameterNames().length === 0 ) {
 					continue;
 				}
 				sources.push( inspector.results[ i ].source ); // source may be undefined or Array of strings
