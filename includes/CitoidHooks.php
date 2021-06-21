@@ -44,11 +44,12 @@ class CitoidHooks {
 	 * @param OutputPage &$out
 	 */
 	public static function onBeforePageDisplay( OutputPage &$out ) {
-		if ( class_exists( WikibaseRepo::class ) ) {
-			$lookup = WikibaseRepo::getEntityNamespaceLookup();
-			if ( $lookup->isEntityNamespace( $out->getTitle()->getNamespace() ) ) {
-				$out->addModules( 'ext.citoid.wikibase.init' );
-			}
+		if ( !ExtensionRegistry::getInstance()->isLoaded( 'WikibaseRepo' ) ) {
+			return;
+		}
+		$lookup = WikibaseRepo::getEntityNamespaceLookup();
+		if ( $lookup->isEntityNamespace( $out->getTitle()->getNamespace() ) ) {
+			$out->addModules( 'ext.citoid.wikibase.init' );
 		}
 	}
 
