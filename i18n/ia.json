@@ -4,6 +4,7 @@
 			"McDutchie"
 		]
 	},
+	"citoid-action-replace": "Cambiar typo de referentia",
 	"citoid-citation-widget-insert-button": "Inserer",
 	"citoid-citoiddialog-back": "Retornar",
 	"citoid-citoiddialog-credit": "Actionate per $1",
@@ -11,12 +12,23 @@
 	"citoid-citoiddialog-mode-auto": "Automatic",
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Reusar",
+	"citoid-citoiddialog-search": "Cercar",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titulo o citation",
 	"citoid-citoiddialog-search-placeholder": "p.ex. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Recerca in curso, attende…",
+	"citoid-citoiddialog-title": "Adder un citation",
+	"citoid-citoiddialog-title-replace": "Reimplaciar citation",
+	"citoid-citoiddialog-use-general-error-message": "Nos non poteva facer un citation pro te. Tu pote crear manualmente un citation usante le scheda \"{{int:citoid-citoiddialog-mode-manual}}\" hic supra.",
 	"citoid-citoidtool-title": "Citar",
 	"citoid-citoidtool-title-othergroup": "Citation",
 	"citoid-desc": "Forni punctos de accesso inter le servicio Citoid e MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converter",
 	"citoid-referencecontextitem-convert-message": "Iste referentia consiste solmente de un ligamine externe. Tu pote usar le button \"{{int:citoid-referencecontextitem-convert-button}}\" hic infra pro generar un referentia con formato correcte.",
-	"citoid-unknown-error": "Un error incognite ha impedite le creation de un citation. Per favor reproba plus tarde."
+	"citoid-unknown-error": "Un error incognite ha impedite le creation de un citation. Per favor reproba plus tarde.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatic",
+	"citoid-wb-referenceview-tabs-search": "cercar",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN o QID:",
+	"citoid-wb-pendingdialog-error": "Incapace de crear un referentia a partir de iste entrata. Usa le scheda manual o tenta lo de novo.",
+	"citoid-wb-pendingdialog-message": "Generante un referentia pro te… un momento…",
+	"citoid-wb-pendingdialog-title": "Generante citation"
 }
