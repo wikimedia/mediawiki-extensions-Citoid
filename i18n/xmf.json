@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"David1010",
+			"Narazeni",
 			"Silovan"
 		]
 	},
-	"citoid-citation-widget-insert-button": "ჩასმა",
-	"citoid-citoiddialog-back": "უკან",
+	"citoid-citation-widget-insert-button": "ინოხუნაფა",
+	"citoid-citoiddialog-back": "უკახალე",
 	"citoid-citoiddialog-credit": "მოხუჯე $1",
 	"citoid-citoiddialog-lookup-button": "გენერატორი",
 	"citoid-citoiddialog-mode-auto": "ავტომატური",
-	"citoid-citoiddialog-mode-manual": "ხელით",
-	"citoid-citoiddialog-mode-reuse": "ხელახლა გამოყენება",
-	"citoid-citoiddialog-search-label": "URL, DOI ვარდა PMID",
+	"citoid-citoiddialog-mode-manual": "ხეთ",
+	"citoid-citoiddialog-mode-reuse": "კჷნ გჷმორინაფა",
+	"citoid-citoiddialog-search-label": "URL, DOI ვარ-და PMID",
 	"citoid-citoidtool-title": "ციტირაფა",
 	"citoid-citoidtool-title-othergroup": "ციტირაფა",
 	"citoid-desc": "ხეს უნწყუნს citoid-იშ ნინალაშ დო MediaWiki-შ შქას რსხუს",
