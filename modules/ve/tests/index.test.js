@@ -1420,7 +1420,7 @@ QUnit.module( 'ext.citoid' );
 		templateData.maps = maps;
 
 		// Add templateData to the template cache
-		transclusion.fetchRequestDone( [], {}, { pages: { 0: templateData } } );
+		transclusion.fetchRequestDone( { pages: { 0: templateData } } );
 
 		// Make sure template can be added to transclusion
 		return transclusion.addPart( template ).then( function () {
