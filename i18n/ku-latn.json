@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Balyozxane",
 			"Bikarhêner",
 			"George Animal",
 			"Ghybu",
@@ -15,5 +16,6 @@
 	"citoid-citoiddialog-mode-reuse": "Dîsa bi kar bîne",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN an jî PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "wekî mînak, http://www.mînak.com",
+	"citoid-citoiddialog-title": "Çavkaniyekê lê zêde bike",
 	"citoid-citoidtool-title": "Çavkanî"
 }
