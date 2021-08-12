@@ -1419,8 +1419,11 @@ QUnit.module( 'ext.citoid' );
 		// Set maps for this test
 		templateData.maps = maps;
 
-		// Add templateData to the template cache
-		transclusion.fetchRequestDone( { pages: { 0: templateData } } );
+		// TODO: Temporary compatibility hack. Remove when not needed any more.
+		if ( !transclusion.cacheTemplateDataApiResponse ) {
+			transclusion.cacheTemplateDataApiResponse = transclusion.fetchRequestDone;
+		}
+		transclusion.cacheTemplateDataApiResponse( { pages: { 0: templateData } } );
 
 		// Make sure template can be added to transclusion
 		return transclusion.addPart( template ).then( function () {
