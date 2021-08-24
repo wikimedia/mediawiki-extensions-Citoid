@@ -11,6 +11,7 @@
 			"Sakretsu",
 			"Selven",
 			"Senpremì",
+			"Stefano",
 			"^musaz"
 		]
 	},
@@ -36,5 +37,6 @@
 	"citoid-referencecontextitem-convert-message": "Questo riferimento è costituito solo da un collegamento esterno. Puoi usare il bottone \"{{int:citoid-referencecontextitem-convert-button}}\" qui sotto per generare un riferimento formattato correttamente.",
 	"citoid-unknown-error": "Si è verificato un errore sconosciuto che ha impedito la creazione di una citazione. Si prega di riprovare più tardi.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatico",
+	"citoid-wb-referenceview-tabs-search": "cerca",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, o QID:"
 }
