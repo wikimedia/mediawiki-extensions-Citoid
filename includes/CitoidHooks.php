@@ -44,7 +44,7 @@ class CitoidHooks {
 	 * @param OutputPage &$out
 	 */
 	public static function onBeforePageDisplay( OutputPage &$out ) {
-		if ( !ExtensionRegistry::getInstance()->isLoaded( 'WikibaseRepo' ) ) {
+		if ( !ExtensionRegistry::getInstance()->isLoaded( 'WikibaseRepository' ) ) {
 			return;
 		}
 		$lookup = WikibaseRepo::getEntityNamespaceLookup();
