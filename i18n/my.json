@@ -5,5 +5,8 @@
 			"Ninjastrikers"
 		]
 	},
-	"citoid-citation-widget-insert-button": "ထည့်သွင်းရန်"
+	"citoid-citation-widget-insert-button": "ထည့်သွင်းရန်",
+	"citoid-citoiddialog-back": "နောက်သို့",
+	"citoid-citoiddialog-credit": "$1 မှ ပံ့ပိုးထားသည်",
+	"citoid-referencecontextitem-convert-button": "ပြောင်းပါ"
 }

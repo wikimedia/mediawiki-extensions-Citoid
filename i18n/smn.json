@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
-	"citoid-citoiddialog-mode-manual": "Manuaallâš"
+	"citoid-citoiddialog-mode-manual": "Manuaallâš",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, paječaalâ, teikkâ čujottâs",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, teikkâ QID:"
 }
