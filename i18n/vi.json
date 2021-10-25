@@ -4,9 +4,11 @@
 			"Anh88",
 			"Dinhxuanduyet",
 			"Minh Nguyen",
+			"Nghiemtrongdai VN",
 			"Nguyên Lê"
 		]
 	},
+	"citoid-action-replace": "Thay đổi kiểu chú thích",
 	"citoid-citation-widget-insert-button": "Chèn",
 	"citoid-citoiddialog-back": "Quay lại",
 	"citoid-citoiddialog-credit": "Hoạt động do $1",
@@ -14,11 +16,20 @@
 	"citoid-citoiddialog-mode-auto": "Tự động",
 	"citoid-citoiddialog-mode-manual": "Thủ công",
 	"citoid-citoiddialog-mode-reuse": "Tái sử dụng",
+	"citoid-citoiddialog-search": "Tìm kiếm",
 	"citoid-citoiddialog-search-label": "URL, DOI, hoặc PMID",
+	"citoid-citoiddialog-search-placeholder": "ví dụ http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Đang tìm, vui lòng chờ...",
+	"citoid-citoiddialog-title": "Thêm một chú thích",
+	"citoid-citoiddialog-title-replace": "Thay thế chú thích",
+	"citoid-citoiddialog-use-general-error-message": "Chúng tôi không thể tạo chú thích cho bạn. Bạn có thể tạo thủ công bằng cách sử dụng tab \"{{int:citoid-citoiddialog-mode-manual}}\" ở trên.",
 	"citoid-citoidtool-title": "Chú thích",
 	"citoid-citoidtool-title-othergroup": "Trích dẫn",
 	"citoid-desc": "Cung cấp các điểm truy cập giữa dịch vụ citoid và MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Chuyển đổi",
 	"citoid-referencecontextitem-convert-message": "Chú thích này chỉ là một liên kết ngoài. Bấm nút “{{int:citoid-referencecontextitem-convert-button}}” bên dưới để tạo chú thích có định dạng đúng.",
-	"citoid-unknown-error": "Một lỗi không rõ đã xảy ra, khiến chúng tôi không thể tạo được một chú thích. Xin vui lòng thử lại sau."
+	"citoid-unknown-error": "Một lỗi không rõ đã xảy ra, khiến chúng tôi không thể tạo được một chú thích. Xin vui lòng thử lại sau.",
+	"citoid-wb-referenceview-tabs-automatic": "Tự động",
+	"citoid-wb-referenceview-tabs-search": "tìm kiếm",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, hoặc QID:"
 }
