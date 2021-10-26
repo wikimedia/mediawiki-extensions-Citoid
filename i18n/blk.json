@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Khun Kt",
 			"咽頭べさ"
 		]
 	},
@@ -14,7 +15,7 @@
 	"citoid-citoiddialog-search": "ထိုမ်ႏ",
 	"citoid-citoiddialog-title": "ထဲမ်သော့ꩻ အာႏကွိုꩻချက်တဗာႏ",
 	"citoid-citoidtool-title": "အာႏကွိုꩻ",
-	"citoid-referencecontextitem-convert-button": "ပြောင်ꩻဟုဲင်း",
+	"citoid-referencecontextitem-convert-button": "ပြောင်ꩻလုဲင်ႏ",
 	"citoid-wb-referenceview-tabs-automatic": "အဝ်ႏလွိုႏကာႏကာႏ",
 	"citoid-wb-referenceview-tabs-search": "ထိုမ်ႏ"
 }
