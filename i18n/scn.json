@@ -5,5 +5,8 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Nzirisci",
-	"citoid-citoidtool-title-othergroup": "Citazzioni"
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tìtulu o citazzioni",
+	"citoid-citoiddialog-title": "Agghiunci na citazzioni",
+	"citoid-citoidtool-title-othergroup": "Citazzioni",
+	"citoid-wb-referenceview-tabs-automatic": "Automàticu"
 }
