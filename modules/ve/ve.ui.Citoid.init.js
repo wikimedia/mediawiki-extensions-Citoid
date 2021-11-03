@@ -1,7 +1,5 @@
 ( function () {
-	var name, toolClass, toolGroups, map, requireMappings, origRenderBody,
-		missingMappings = [];
-
+	var map;
 	// Don't create tool unless the configuration message is present
 	try {
 		map = JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
@@ -9,7 +7,7 @@
 
 	// Check map has all required keys
 	if ( map ) {
-		requireMappings = [
+		var requiredMappings = [
 			'artwork',
 			'audioRecording',
 			'bill',
@@ -46,10 +44,8 @@
 			'webpage'
 		];
 
-		requireMappings.forEach( function ( key ) {
-			if ( !map[ key ] ) {
-				missingMappings.push( key );
-			}
+		var missingMappings = requiredMappings.filter( function ( key ) {
+			return !map[ key ];
 		} );
 		if ( missingMappings.length ) {
 			mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingMappings.join( ', ' ) );
@@ -100,8 +96,8 @@
 	// and manipulate it.
 
 	// Unregister regular citation tools so they don't end up in catch-all groups
-	for ( name in ve.ui.toolFactory.registry ) {
-		toolClass = ve.ui.toolFactory.lookup( name );
+	for ( var name in ve.ui.toolFactory.registry ) {
+		var toolClass = ve.ui.toolFactory.lookup( name );
 		if (
 			name === 'reference' || name.indexOf( 'reference/' ) === 0 ||
 			toolClass.prototype instanceof ve.ui.MWCitationDialogTool
@@ -111,14 +107,13 @@
 	}
 
 	function fixTarget( target ) {
-		var i, iLen;
-		toolGroups = target.static.toolbarGroups;
+		var toolGroups = target.static.toolbarGroups;
 		// Instead of using the rigid position of the group,
 		// downgrade this hack from horrific to somewhat less horrific by
 		// looking through the object to find what we actually need
 		// to replace. This way, if toolbarGroups are changed in VE code
 		// we won't have to manually change the index here.
-		for ( i = 0, iLen = toolGroups.length; i < iLen; i++ ) {
+		for ( var i = 0, iLen = toolGroups.length; i < iLen; i++ ) {
 			// Replace the previous cite group with the citoid tool.
 			// If there is no cite group, citoid will appear in the catch-all group
 			if ( toolGroups[ i ].name === 'cite' ) {
@@ -131,8 +126,8 @@
 		}
 	}
 
-	for ( name in ve.init.mw.targetFactory.registry ) {
-		fixTarget( ve.init.mw.targetFactory.lookup( name ) );
+	for ( var fixName in ve.init.mw.targetFactory.registry ) {
+		fixTarget( ve.init.mw.targetFactory.lookup( fixName ) );
 	}
 
 	ve.init.mw.targetFactory.on( 'register', function ( n, target ) {
@@ -154,12 +149,12 @@
 	 * @return {string|null} Href, or null if this isn't a plain link reference
 	 */
 	ve.ui.MWReferenceContextItem.static.getConvertibleHref = function ( itemNode ) {
-		var annotation, contentNode,
-			doc = itemNode.getRoot().getDocument(),
+		var doc = itemNode.getRoot().getDocument(),
 			range = itemNode.getRange(),
 			// Get covering annotations
 			annotations = doc.data.getAnnotationsFromRange( range, false );
 
+		var annotation;
 		// The reference consists of one single external link so
 		// offer the user a conversion to citoid-generated reference
 		if (
@@ -168,7 +163,7 @@
 		) {
 			return annotation.getHref();
 		} else if ( range.getLength() === 4 ) {
-			contentNode = ve.getProp( itemNode, 'children', 0, 'children', 0 );
+			var contentNode = ve.getProp( itemNode, 'children', 0, 'children', 0 );
 			if ( contentNode instanceof ve.dm.MWNumberedExternalLinkNode ) {
 				return contentNode.getHref();
 			}
@@ -176,14 +171,13 @@
 		return null;
 	};
 
-	origRenderBody = ve.ui.MWReferenceContextItem.prototype.renderBody;
+	var origRenderBody = ve.ui.MWReferenceContextItem.prototype.renderBody;
 
 	/**
 	 * @inheritdoc
 	 */
 	ve.ui.MWReferenceContextItem.prototype.renderBody = function () {
-		var convertButton, convertibleHref,
-			contextItem = this,
+		var contextItem = this,
 			refNode = this.getReferenceNode();
 
 		origRenderBody.call( this );
@@ -192,10 +186,10 @@
 			return;
 		}
 
-		convertibleHref = this.constructor.static.getConvertibleHref( refNode );
+		var convertibleHref = this.constructor.static.getConvertibleHref( refNode );
 
 		if ( convertibleHref ) {
-			convertButton = new OO.ui.ButtonWidget( {
+			var convertButton = new OO.ui.ButtonWidget( {
 				label: ve.msg( 'citoid-referencecontextitem-convert-button' )
 			} ).on( 'click', function () {
 				var action = ve.ui.actionFactory.create( 'citoid', contextItem.context.getSurface() );

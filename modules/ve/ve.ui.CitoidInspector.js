@@ -79,8 +79,6 @@ ve.ui.CitoidInspector.static.actions = [
  * @inheritdoc
  */
 ve.ui.CitoidInspector.prototype.initialize = function () {
-	var lookupActionFieldLayout;
-
 	// Parent method
 	ve.ui.CitoidInspector.super.prototype.initialize.call( this );
 
@@ -181,7 +179,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	this.lookupButton = new OO.ui.ButtonWidget( {
 		label: ve.msg( 'citoid-citoiddialog-lookup-button' )
 	} );
-	lookupActionFieldLayout = new OO.ui.ActionFieldLayout( this.lookupInput, this.lookupButton, {
+	var lookupActionFieldLayout = new OO.ui.ActionFieldLayout( this.lookupInput, this.lookupButton, {
 		align: 'top',
 		label: ve.msg( 'citoid-citoiddialog-search-label' )
 	} );
@@ -437,8 +435,6 @@ ve.ui.CitoidInspector.prototype.onLookupButtonClick = function () {
 ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 	return ve.ui.CitoidInspector.super.prototype.getSetupProcess.call( this, data )
 		.next( function () {
-			var fragment;
-
 			this.isActive = false;
 
 			// Reset
@@ -470,7 +466,7 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 				if ( this.inDialog !== 'reference' ) {
 					this.staging++;
 					this.stagedReference = true;
-					fragment = this.getFragment();
+					var fragment = this.getFragment();
 					// Stage an empty reference
 					fragment.getSurface().pushStaging();
 
@@ -593,9 +589,7 @@ ve.ui.CitoidInspector.prototype.getActionProcess = function ( action ) {
  * @return {jQuery.Promise} Lookup promise
  */
 ve.ui.CitoidInspector.prototype.performLookup = function () {
-	var xhr,
-		search,
-		inspector = this;
+	var inspector = this;
 
 	// TODO: Add caching for requested urls
 	if ( this.lookupPromise ) {
@@ -608,7 +602,7 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 	this.lookupButton.setDisabled( true );
 	this.lookupInput.setDisabled( true ).pushPending();
 
-	search = this.lookupInput.getValue();
+	var search = this.lookupInput.getValue();
 	// Common case: pasting a URI into this field. Citoid expects
 	// minimally encoded input, so do some speculative decoding here to
 	// avoid 404 fetches. T146539
@@ -618,6 +612,7 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 	// a proper xhr object with "abort" method, so we can
 	// hand off this abort method to the jquery promise
 
+	var xhr;
 	if ( this.fullRestbaseUrl ) {
 		// Use restbase endpoint
 		this.serviceConfig.ajax.url = this.serviceUrl + '/' + encodeURIComponent( search );
@@ -686,63 +681,59 @@ ve.ui.CitoidInspector.prototype.lookupFailed = function () {
  *  or is rejected if there are any problems with the template name or the internal item.
  */
 ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults ) {
-	var i, templateName, citation, result, refWidget,
-		renderPromises = [],
+	var renderPromises = [],
 		partPromises = [],
 		inspector = this;
 
-	for ( i = 0; i < searchResults.length; i++ ) {
-		citation = searchResults[ i ];
-		templateName = this.templateTypeMap[ citation.itemType ];
+	searchResults.forEach( function ( citation ) {
+		var templateName = inspector.templateTypeMap[ citation.itemType ];
 
 		// if TemplateName is undefined, this means that items of this citoid
 		// type does not have a Template defined within the message.
 		if ( !templateName ) {
-			continue;
+			return;
 		}
 
+		var transclusionModel = new ve.dm.MWTransclusionModel();
 		// Create models for this result
-		this.results.push( {
+		var result = {
 			templateName: templateName,
-			template: null,
+			template: ve.dm.MWTemplateModel.newFromName( transclusionModel, templateName ),
 			source: citation.source, // May be undefined or Array
-			transclusionModel: new ve.dm.MWTransclusionModel()
-		} );
-		result = this.results[ this.results.length - 1 ];
-
-		result.template = ve.dm.MWTemplateModel.newFromName( result.transclusionModel, templateName );
+			transclusionModel: transclusionModel
+		};
+		inspector.results.push( result );
 
 		partPromises.push(
 			result.transclusionModel.addPart( result.template )
 				// Fill in the details for the individual template
-				.then( ve.ui.CitoidInspector.static.populateTemplate.bind( this, result.template, citation ) )
+				.then( ve.ui.CitoidInspector.static.populateTemplate.bind( inspector, result.template, citation ) )
 		);
-	}
+	} );
 
 	return ve.promiseAll( partPromises )
 		.then( function () {
-			var template,
-				sources = [],
+			var sources = [],
 				optionWidgets = [];
 			// Create option widgets
-			for ( i = 0; i < inspector.results.length; i++ ) {
-				refWidget = new ve.ui.CitoidReferenceWidget(
+			inspector.results.forEach( function ( result, i ) {
+				var refWidget = new ve.ui.CitoidReferenceWidget(
 					inspector.getFragment().getSurface().getDocument(),
-					inspector.results[ i ].transclusionModel,
+					result.transclusionModel,
 					{
 						data: i,
-						templateName: inspector.results[ i ].templateName,
+						templateName: result.templateName,
 						citeTools: inspector.citeTools
 					} );
-				template = inspector.results[ i ].template;
+				var template = result.template;
 				// T92428: Ignore empty templates
 				if ( ve.isEmptyObject( template.getParameters() ) ) {
-					continue;
+					return;
 				}
-				sources.push( inspector.results[ i ].source ); // source may be undefined or Array of strings
+				sources.push( result.source ); // source may be undefined or Array of strings
 				optionWidgets.push( refWidget );
 				renderPromises.push( refWidget.getRenderPromise() );
-			}
+			} );
 			if ( optionWidgets.length > 0 ) {
 				// Add citations to the select widget
 				inspector.previewSelectWidget.addItems( optionWidgets );
@@ -772,16 +763,13 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
  * @param {Object} citation An object that contains values to insert into template
  */
 ve.ui.CitoidInspector.static.populateTemplate = function ( template, citation ) {
-	var citoidField, templateField, i, j,
-		concatCitoidField, // for storing a concatenated citoid value composed of array elements
-		concat2dField, // for storing elements of a 2d array converted to a 1d element
-		spec = template.getSpec(),
+	var spec = template.getSpec(),
 		maps = spec.getMaps(),
 		map = maps[ ve.ui.CitoidInspector.static.templateDataName ];
 
-	for ( citoidField in map ) {
-		templateField = map[ citoidField ];
-		concatCitoidField = null; // Wipe field from previous iteration
+	for ( var citoidField in map ) {
+		var templateField = map[ citoidField ];
+		var concatCitoidField = null; // for storing a concatenated citoid value composed of array elements
 
 		// Construct parameters
 
@@ -795,7 +783,7 @@ ve.ui.CitoidInspector.static.populateTemplate = function ( template, citation ) 
 		// Case: Citoid parameter contains a 1 or 2D Array
 		} else if ( citation[ citoidField ] && Array.isArray( citation[ citoidField ] ) ) {
 			// Iterate through first dimension of array
-			for ( i = 0; i < citation[ citoidField ].length; i++ ) {
+			for ( var i = 0; i < citation[ citoidField ].length; i++ ) {
 				// Case: Citoid parameter equivalent to 1D Array of TD parameters
 				if ( citation[ citoidField ][ i ] && typeof citation[ citoidField ][ i ] === 'string' ) {
 					// Case: Citoid parameter equivalent to TD parameter
@@ -814,10 +802,10 @@ ve.ui.CitoidInspector.static.populateTemplate = function ( template, citation ) 
 					}
 				// Case: Citoid parameter equivalent to 2D Array of TD parameters
 				} else if ( citation[ citoidField ][ i ] && Array.isArray( citation[ citoidField ][ i ] ) ) {
-					concat2dField = null; // Wipe field from previous iteration
+					var concat2dField = null; // for storing elements of a 2d array converted to a 1d element
 
 					// Iterate through inner dimension of array
-					for ( j = 0; j < citation[ citoidField ][ i ].length; j++ ) {
+					for ( var j = 0; j < citation[ citoidField ][ i ].length; j++ ) {
 						// Case: 2nd degree parameter exists
 						if ( citation[ citoidField ][ i ][ j ] && typeof citation[ citoidField ][ i ][ j ] === 'string' ) {
 							// Case: Citoid parameter equivalent to TD parameter
