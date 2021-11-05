@@ -16,8 +16,6 @@
  * @param {Object} [config] Configuration options
  */
 ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
-	var items;
-
 	config = config || {};
 
 	// Parent constructor
@@ -33,7 +31,7 @@ ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
 	} );
 
 	// Go over available tools
-	items = ve.ui.mwCitationTools.map( function ( item ) {
+	var items = ve.ui.mwCitationTools.map( function ( item ) {
 		return new OO.ui.MenuOptionWidget( {
 			icon: item.icon,
 			label: item.title,

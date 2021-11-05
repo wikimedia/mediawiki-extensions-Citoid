@@ -59,9 +59,7 @@ ve.ui.CitoidGroupWidget.prototype.onItemUpdate = function () {
  * @chainable
  */
 ve.ui.CitoidGroupWidget.prototype.clearItems = function () {
-	var i, len;
-
-	for ( i = 0, len = this.items.length; i < len; i++ ) {
+	for ( var i = 0, len = this.items.length; i < len; i++ ) {
 		this.items[ i ].destroy();
 	}
 

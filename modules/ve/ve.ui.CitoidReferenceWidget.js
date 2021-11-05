@@ -12,8 +12,6 @@
  * @cfg {Object[]} citeTools An array of available citation tool configuration
  */
 ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel, transclusionModel, config ) {
-	var i, len, icon, item, title, doc, node;
-
 	config = config || {};
 
 	this.transclusionModel = transclusionModel;
@@ -28,9 +26,10 @@ ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel,
 	OO.ui.mixin.IconElement.call( this, config );
 
 	// Set the icon
+	var icon;
 	if ( Array.isArray( config.citeTools ) ) {
-		for ( i = 0, len = config.citeTools.length; i < len; i++ ) {
-			item = config.citeTools[ i ];
+		for ( var i = 0, len = config.citeTools.length; i < len; i++ ) {
+			var item = config.citeTools[ i ];
 			if ( item.template === this.templateName ) {
 				this.title = item.title;
 				icon = item.icon;
@@ -47,7 +46,7 @@ ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel,
 	} );
 
 	// Create the citation preview
-	doc = documentModel.cloneWithData( [
+	var doc = documentModel.cloneWithData( [
 		{ type: 'paragraph' },
 		{
 			type: 'mwTransclusionInline',
@@ -61,7 +60,7 @@ ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel,
 		{ type: '/internalList' }
 	] );
 
-	node = doc.getDocumentNode().getChildren()[ 0 ];
+	var node = doc.getDocumentNode().getChildren()[ 0 ];
 	this.preview = new ve.ui.MWPreviewElement( node );
 	if ( this.preview.isGenerating() ) {
 		this.preview.once( 'render', this.renderPromise.resolve );
@@ -70,7 +69,7 @@ ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel,
 	}
 
 	// Display the preview
-	title = new OO.ui.LabelWidget( {
+	var title = new OO.ui.LabelWidget( {
 		label: this.title
 	} );
 
