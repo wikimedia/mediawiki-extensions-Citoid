@@ -10,6 +10,7 @@
 			"Mavrikant",
 			"McAang",
 			"MuratTheTurkish",
+			"SaldırganSincap",
 			"Stultiwikia",
 			"Vito Genovese"
 		]
@@ -33,12 +34,12 @@
 	"citoid-citoidtool-title-othergroup": "Kaynak",
 	"citoid-desc": "Citoid hizmeti ile MediaWiki arasında erişim noktaları oluşturur",
 	"citoid-referencecontextitem-convert-button": "Çevir",
-	"citoid-referencecontextitem-convert-message": "Bu kaynak sadece bir harici bağlantıdan oluşmaktadır. Doğru biçimlendirilmiş bir referans oluşturmak için aşağıdaki \"{{int:citoid-referencecontextitem-convert-button}}\" tuşunu kullanabilirsiniz.",
+	"citoid-referencecontextitem-convert-message": "Bu kaynak yalnızca bir harici bağlantıdan oluşmaktadır. Doğru biçimlendirilmiş bir kaynak oluşturmak için aşağıdaki \"{{int:citoid-referencecontextitem-convert-button}}\" tuşunu kullanabilirsiniz.",
 	"citoid-unknown-error": "Kaynak oluşturmamızı engelleyen bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.",
 	"citoid-wb-referenceview-tabs-automatic": "Otomatik",
 	"citoid-wb-referenceview-tabs-search": "ara",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, veya QID:",
-	"citoid-wb-pendingdialog-error": "Bu girdiden kaynak oluşturulamıyor. Manuel sekmesini kullanın veya tekrar deneyin.",
+	"citoid-wb-pendingdialog-error": "Bu girişten kaynak oluşturulamıyor. El sekmesini kullanın veya tekrar deneyin.",
 	"citoid-wb-pendingdialog-message": "Sizin için bir kaynak oluşturuluyor... lütfen bekleyin...",
 	"citoid-wb-pendingdialog-title": "Kaynak Oluşturuluyor"
 }
