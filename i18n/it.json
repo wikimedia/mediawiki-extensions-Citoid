@@ -10,9 +10,12 @@
 			"Mvolz",
 			"Selven",
 			"Senpremì",
-			"^musaz"
+			"^musaz",
+			"Sakretsu",
+			"Stefano"
 		]
 	},
+	"citoid-action-replace": "Cambia tipo di nota",
 	"citoid-citation-widget-insert-button": "Inserisci",
 	"citoid-citoiddialog-back": "Indietro",
 	"citoid-citoiddialog-credit": "Realizzato con $1",
@@ -25,6 +28,7 @@
 	"citoid-citoiddialog-search-placeholder": "ad esempio http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ricerca in corso, attendi...",
 	"citoid-citoiddialog-title": "Aggiungi una citazione",
+	"citoid-citoiddialog-title-replace": "Sostituisci citazione",
 	"citoid-citoiddialog-use-general-error-message": "Non siamo riusciti a creare una citazione per te. Puoi crearne una manualmente utilizzando la scheda \"{{int:citoid-citoiddialog-mode-manual}}\" qui sopra.",
 	"citoid-citoidtool-title": "Cita",
 	"citoid-citoidtool-title-othergroup": "Citazione",
@@ -33,5 +37,6 @@
 	"citoid-referencecontextitem-convert-message": "Questo riferimento è costituito solo da un collegamento esterno. Puoi usare il bottone \"{{int:citoid-referencecontextitem-convert-button}}\" qui sotto per generare un riferimento formattato correttamente.",
 	"citoid-unknown-error": "Si è verificato un errore sconosciuto che ha impedito la creazione di una citazione. Si prega di riprovare più tardi.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatico",
+	"citoid-wb-referenceview-tabs-search": "cerca",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, o QID:"
 }

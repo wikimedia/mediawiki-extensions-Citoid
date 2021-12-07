@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Khun Kt",
+			"咽頭べさ"
+		]
+	},
+	"citoid-citation-widget-insert-button": "ဒင်ႏသွင်ꩻသော့ꩻ",
+	"citoid-citoiddialog-back": "သဲင်ꩻချာ",
+	"citoid-citoiddialog-credit": "$1 စွဲးကမ်းခါꩻဒျာႏသွူ",
+	"citoid-citoiddialog-lookup-button": "ထေမာꩻတာႏ",
+	"citoid-citoiddialog-mode-auto": "အဝ်ႏလွိုႏကာႏကာႏ",
+	"citoid-citoiddialog-mode-manual": "တောမ်ႏစူ",
+	"citoid-citoiddialog-mode-reuse": "သွုံꩻချာယင်း",
+	"citoid-citoiddialog-search": "ထိုမ်ႏ",
+	"citoid-citoiddialog-title": "ထဲမ်သော့ꩻ အာႏကွိုꩻချက်တဗာႏ",
+	"citoid-citoidtool-title": "အာႏကွိုꩻ",
+	"citoid-referencecontextitem-convert-button": "ပြောင်ꩻလုဲင်ႏ",
+	"citoid-wb-referenceview-tabs-automatic": "အဝ်ႏလွိုႏကာႏကာႏ",
+	"citoid-wb-referenceview-tabs-search": "ထိုမ်ႏ"
+}
