@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby (WMNO)"
+		]
+	},
+	"citoid-citoiddialog-mode-auto": "Automáhtalaččat",
+	"citoid-citoiddialog-mode-manual": "Manuálalaš",
+	"citoid-citoiddialog-mode-reuse": "Nuppádasatnu",
+	"citoid-citoiddialog-title": "Lasit sitáhta",
+	"citoid-citoidtool-title": "Sitere"
+}

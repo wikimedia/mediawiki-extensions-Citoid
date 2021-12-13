@@ -11,7 +11,10 @@
 			"Stjn",
 			"Sunpriat",
 			"Vlad5250",
-			"Дмитрий"
+			"Дмитрий",
+			"Iniquity",
+			"Megakott",
+			"Mvolz"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Вставить",
@@ -20,13 +23,13 @@
 	"citoid-citoiddialog-lookup-button": "Сгенерировать",
 	"citoid-citoiddialog-mode-auto": "Автоматически",
 	"citoid-citoiddialog-mode-manual": "Вручную",
-	"citoid-citoiddialog-mode-reuse": "Повторное использование",
+	"citoid-citoiddialog-mode-reuse": "Повторно",
 	"citoid-citoiddialog-search": "Поиск",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, название или цитата",
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Идёт поиск, пожалуйста, подождите…",
 	"citoid-citoiddialog-title": "Добавить ссылку на источник",
-	"citoid-citoiddialog-use-general-error-message": "Мы не смогли сформировать для вас цитату. Её можно создать вручную, используя выше вкладку «{{int:citoid-citefromiddialog-mode-manual}}».",
+	"citoid-citoiddialog-use-general-error-message": "Мы не смогли сформировать для вас цитату. Её можно создать вручную, используя выше вкладку «{{int:citoid-citoiddialog-mode-manual}}».",
 	"citoid-citoidtool-title": "Источник",
 	"citoid-citoidtool-title-othergroup": "Источник",
 	"citoid-desc": "Обеспечивает доступ между сервисом Citoid и MediaWiki",
@@ -36,5 +39,7 @@
 	"citoid-wb-referenceview-tabs-automatic": "Автоматически",
 	"citoid-wb-referenceview-tabs-search": "поиск",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN или QID:",
-	"citoid-wb-pendingdialog-message": "Создание ссылки для вас... пожалуйста, подождите..."
+	"citoid-wb-pendingdialog-error": "Невозможно создать примечание из этого ввода. Воспользуйтесь вкладкой вручную или попробуйте еще раз.",
+	"citoid-wb-pendingdialog-message": "Создание ссылки для вас... пожалуйста, подождите...",
+	"citoid-wb-pendingdialog-title": "Генерация источника"
 }

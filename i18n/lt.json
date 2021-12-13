@@ -18,6 +18,8 @@
 	"citoid-citoiddialog-mode-reuse": "Naudoti pakartotinai",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN arba PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "pvz. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Ieškoma, prašom palaukti...",
+	"citoid-citoiddialog-title": "Pridėti citatą",
 	"citoid-citoidtool-title": "Cituoti",
 	"citoid-citoidtool-title-othergroup": "Citata",
 	"citoid-desc": "Suteikia prieigos taškų tarp citoid paslaugos ir MediaWiki",

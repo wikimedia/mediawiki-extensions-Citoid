@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Iyuqciyang"
+			"Iyuqciyang",
+			"Akamycoco"
 		]
 	},
-	"citoid-citefromiddialog-search": "miying"
+	"citoid-citoiddialog-search": "miying",
+	"citoid-wb-referenceview-tabs-search": "miying"
 }

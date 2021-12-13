@@ -4,7 +4,8 @@
 			"Acamicamacaraca",
 			"DzWiki",
 			"Emir Mujadzic",
-			"Srdjan m"
+			"Srdjan m",
+			"Srđan"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Umetni",
@@ -14,13 +15,16 @@
 	"citoid-citoiddialog-mode-auto": "Automatski",
 	"citoid-citoiddialog-mode-manual": "Ručno",
 	"citoid-citoiddialog-mode-reuse": "Ponovo upotrijebi",
+	"citoid-citoiddialog-search": "Pretraži",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN ili PMC/PMID",
-	"citoid-citoiddialog-search-placeholder": "npr. http://www.primjer.com",
+	"citoid-citoiddialog-search-placeholder": "npr. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Pretražujem. Sačekajte...",
 	"citoid-citoiddialog-title": "Dodavanje reference",
 	"citoid-citoidtool-title": "Referenca",
 	"citoid-citoidtool-title-othergroup": "Referenca",
 	"citoid-desc": "Pruža tačke pristupa između usluge citoid i MediaWikija",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
 	"citoid-referencecontextitem-convert-message": "Ova referenca se sastoji samo od vanjskog linka. Možete je pretvoriti u pravilno formatiranu referencu klikom na dugme \"{{int:citoid-referencecontextitem-convert-button}}\".",
-	"citoid-unknown-error": "Pojavila se nepoznata greška i spriječila nas u stvaranju reference. Pokušajte ponovo kasnije."
+	"citoid-unknown-error": "Pojavila se nepoznata greška i spriječila nas u stvaranju reference. Pokušajte ponovo kasnije.",
+	"citoid-wb-pendingdialog-message": "Stvaram referencu... Sačekajte..."
 }

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nrowe"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Ynworra",
+	"citoid-citoiddialog-back": "War-dhelergh",
+	"citoid-citoiddialog-credit": "Nerthys gans $1",
+	"citoid-citoiddialog-lookup-button": "Dinythi",
+	"citoid-citoiddialog-mode-auto": "Awtomatek",
+	"citoid-citoiddialog-mode-manual": "Dre dhorn",
+	"citoid-citoiddialog-mode-reuse": "Dasusya",
+	"citoid-citoiddialog-search": "Hwilas",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titel, po devyn",
+	"citoid-citoiddialog-search-placeholder": "rag ensampel http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Ow hwilas, gwrewgh gortos...",
+	"citoid-citoiddialog-title": "Keworra devyn",
+	"citoid-citoiddialog-use-general-error-message": "Ny yllsyn gul devyn dhywgh. Hwi a yll gul onan dre dorn yn unn usya an tabb \"{{int:citoid-citoiddialog-mode-manual}}\" a-ugh.",
+	"citoid-citoidtool-title": "Devynna",
+	"citoid-citoidtool-title-othergroup": "Devyn",
+	"citoid-referencecontextitem-convert-button": "Ketreylya",
+	"citoid-wb-referenceview-tabs-automatic": "Awtomatek",
+	"citoid-wb-referenceview-tabs-search": "hwilas",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, po QID:"
+}

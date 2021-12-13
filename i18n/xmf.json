@@ -2,21 +2,30 @@
 	"@metadata": {
 		"authors": [
 			"David1010",
-			"Silovan"
+			"Silovan",
+			"Narazeni"
 		]
 	},
-	"citoid-citation-widget-insert-button": "ჩასმა",
-	"citoid-citoiddialog-back": "უკან",
+	"citoid-citation-widget-insert-button": "ინოხუნაფა",
+	"citoid-citoiddialog-back": "უკახალე",
 	"citoid-citoiddialog-credit": "მოხუჯე $1",
 	"citoid-citoiddialog-lookup-button": "გენერატორი",
 	"citoid-citoiddialog-mode-auto": "ავტომატური",
-	"citoid-citoiddialog-mode-manual": "ხელით",
-	"citoid-citoiddialog-mode-reuse": "ხელახლა გამოყენება",
-	"citoid-citoiddialog-search-label": "URL, DOI ვარდა PMID",
+	"citoid-citoiddialog-mode-manual": "ხეთ",
+	"citoid-citoiddialog-mode-reuse": "კჷნ გჷმორინაფა",
+	"citoid-citoiddialog-search": "გორუა",
+	"citoid-citoiddialog-search-label": "URL, DOI ვარ-და PMID",
+	"citoid-citoiddialog-search-placeholder": "სამანგ. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "იგორჷ, ქორთხინთ ქუჯინათ...",
+	"citoid-citoiddialog-title": "წყუშა რსხილიშ გეძინა",
+	"citoid-citoiddialog-use-general-error-message": "თქვანო ციტატაშ ფორმირაფაქ ვეშმალებეს. თიშ კეთება ხეთ შილებე, გჷმირინეთ ჟილე აშნადვუ „{{int:citoid-citoiddialog-mode-manual}}“.",
 	"citoid-citoidtool-title": "ციტირაფა",
 	"citoid-citoidtool-title-othergroup": "ციტირაფა",
 	"citoid-desc": "ხეს უნწყუნს citoid-იშ ნინალაშ დო MediaWiki-შ შქას რსხუს",
 	"citoid-referencecontextitem-convert-button": "კონვერტაცია",
 	"citoid-referencecontextitem-convert-message": "თე სქოლიო ლექინი დინოხოლენ რსხუეფშე აკმოდირთუ. თინას გჷმოქიმინელი სქოლიოშ აკაქიმინალო, შეილებუნა გჷმირინუათ კონჭი „{{int:citoid-referencecontextitem-convert-button}}“.",
-	"citoid-unknown-error": "უჩინებუ ჩილათა ვერძენდჷ ციტატაშ აკოქიმინუაშ ასა-გასას. ქორთხინთ, მოგვიანეთ ქეცადით."
+	"citoid-unknown-error": "უჩინებუ ჩილათა ვერძენდჷ ციტატაშ აკოქიმინუაშ ასა-გასას. ქორთხინთ, მოგვიანეთ ქეცადით.",
+	"citoid-wb-referenceview-tabs-automatic": "ავტომატური",
+	"citoid-wb-referenceview-tabs-search": "გორუა",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ვარ-და QID:"
 }

@@ -25,7 +25,7 @@
 	"citoid-desc": "אספקת נקודות כניסה בין שירות citoid לבין מדיה־ויקי",
 	"citoid-referencecontextitem-convert-button": "להמיר",
 	"citoid-referencecontextitem-convert-message": "הערת השוליים הזאת מכילה רק קישור חיצוני. אפשר להשתמש בכפתור \"{{int:citoid-referencecontextitem-convert-button}}\" להלן כדי ליצור הערת שוליים שמעוצבת כראוי.",
-	"citoid-unknown-error": "אירעה שגיאה בלתי־ידועה שמנעה מאתנו ליצור הפניה למקור.\nנא לנסות שוב מאוחר יותר.",
+	"citoid-unknown-error": "אירעה שגיאה בלתי־ידועה שמנעה מאיתנו ליצור הפניה למקור.\nנא לנסות שוב מאוחר יותר.",
 	"citoid-wb-referenceview-tabs-automatic": "אוטומטית",
 	"citoid-wb-referenceview-tabs-search": "חיפוש",
 	"citoid-wb-referenceview-tabs-search-label": "URL‏, DOI‏, ISBN, או QID:",

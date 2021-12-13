@@ -30,5 +30,7 @@
 	"citoid-unknown-error": "알 수 없는 오류가 발생하여 인용을 만드는 것을 막았습니다. 나중에 다시 시도하세요.",
 	"citoid-wb-referenceview-tabs-automatic": "자동",
 	"citoid-wb-referenceview-tabs-search": "검색",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, 또는 QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, 또는 QID:",
+	"citoid-wb-pendingdialog-message": "참고문헌을 생성하고 있으니 기다려 주십시오...",
+	"citoid-wb-pendingdialog-title": "인용 생성 중"
 }

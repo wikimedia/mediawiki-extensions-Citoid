@@ -4,7 +4,9 @@
 			"Arief",
 			"Gombang",
 			"Kenrick95",
-			"William Surya Permana"
+			"William Surya Permana",
+			"Daud I.F. Argana",
+			"Mvolz"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Sisipkan",
@@ -19,11 +21,17 @@
 	"citoid-citoiddialog-search-placeholder": "misalnya http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Mencari, harap tunggu...",
 	"citoid-citoiddialog-title": "Tambahkan kutipan",
-	"citoid-citoiddialog-use-general-error-message": "Kami tidak dapat membuat kutipan untuk Anda. Anda dapat membuatnya secara manual dengan tab \"{{int:citoid-citefromiddialog-mode-manual}}\" di atas.",
+	"citoid-citoiddialog-use-general-error-message": "Kami tidak dapat membuat kutipan untuk Anda. Anda dapat membuatnya secara manual dengan tab \"{{int:citoid-citoiddialog-mode-manual}}\" di atas.",
 	"citoid-citoidtool-title": "Kutip",
 	"citoid-citoidtool-title-othergroup": "Kutipan",
 	"citoid-desc": "Menyediakan titik akses antara layanan kutipan dan MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konversi",
 	"citoid-referencecontextitem-convert-message": "Referensi ini hanya berisi pranala luar. Anda dapat menggunakan tombol \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah untuk membuat referensi yang sudah diformat dengan baik.",
-	"citoid-unknown-error": "Galat yang tidak diketahui menghadang kami membuat kutipan. Silakan coba lagi nanti."
+	"citoid-unknown-error": "Galat yang tidak diketahui menghadang kami membuat kutipan. Silakan coba lagi nanti.",
+	"citoid-wb-referenceview-tabs-automatic": "Otomatis",
+	"citoid-wb-referenceview-tabs-search": "cari",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, atau QID:",
+	"citoid-wb-pendingdialog-error": "Tidak dapat menghasilkan referensi dari masukan ini. Gunakan tab manual atau coba lagi.",
+	"citoid-wb-pendingdialog-message": "Menghasilkan referensi untuk Anda... harap tunggu...",
+	"citoid-wb-pendingdialog-title": "Menghasilkan Kutipan"
 }

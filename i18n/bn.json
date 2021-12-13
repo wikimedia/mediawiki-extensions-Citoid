@@ -4,7 +4,9 @@
 			"Aftabuzzaman",
 			"Bodhisattwa",
 			"NahidSultan",
-			"আফতাবুজ্জামান"
+			"আফতাবুজ্জামান",
+			"Al Riaz Uddin Ripon",
+			"Mvolz"
 		]
 	},
 	"citoid-citation-widget-insert-button": "যোগ করুন",
@@ -19,11 +21,15 @@
 	"citoid-citoiddialog-search-placeholder": "উদা. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "অনুসন্ধান করা হচ্ছে, দয়া করে অপেক্ষা করুন...",
 	"citoid-citoiddialog-title": "একটি উদ্ধৃতি যোগ করুন",
-	"citoid-citoiddialog-use-general-error-message": "আমরা আপনার জন্য উদ্ধৃতি তৈরী করে দিতে পারব না। আপনি নিজেই উপরের \"{{int:citoid-citefromiddialog-mode-manual}}\" ট্যাবের মাধ্যমে হাতদ্বারা তৈরী করতে পারেন।",
+	"citoid-citoiddialog-use-general-error-message": "আমরা আপনার জন্য উদ্ধৃতি তৈরী করে দিতে পারব না। আপনি নিজেই উপরের \"{{int:citoid-citoiddialog-mode-manual}}\" ট্যাবের মাধ্যমে হাতদ্বারা তৈরী করতে পারেন।",
 	"citoid-citoidtool-title": "উদ্ধৃত করুন",
 	"citoid-citoidtool-title-othergroup": "উদ্ধৃতি",
 	"citoid-desc": "সাইটয়েড পরিষেবা ও মিডিয়াউইকির মধ্যে প্রবেশাধিকার বিন্দু সরবরাহ করে",
 	"citoid-referencecontextitem-convert-button": "রূপান্তর করুন",
 	"citoid-referencecontextitem-convert-message": "এই তথ্যসূত্র শুধু একটি বাহ্যিক লিঙ্ক নিয়ে গঠিত। সঠিকভাবে বিন্যস্ত তথ্যসূত্র উৎপন্ন করতে আপনি নিচের  \"{{int:citoid-referencecontextitem-convert-button}}\" বোতাম ব্যবহার করতে পারেন।",
-	"citoid-unknown-error": "একটি অজানা ত্রুটি যা আমাদের তথ্যসূত্র তৈরী করতে বাধা দিচ্ছে। অনুগ্রহ করে পুনরায় চেষ্টা করুন।"
+	"citoid-unknown-error": "একটি অজানা ত্রুটি যা আমাদের তথ্যসূত্র তৈরী করতে বাধা দিচ্ছে। অনুগ্রহ করে পুনরায় চেষ্টা করুন।",
+	"citoid-wb-referenceview-tabs-automatic": "স্বয়ংক্রিয়",
+	"citoid-wb-referenceview-tabs-search": "অনুসন্ধান",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, বা QID:",
+	"citoid-wb-pendingdialog-title": "উদ্ধৃতি উৎপন্ন করা হচ্ছে"
 }

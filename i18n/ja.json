@@ -8,7 +8,9 @@
 			"Otokoume",
 			"Shirayuki",
 			"Sujiniku",
-			"Takot"
+			"Takot",
+			"LaMagiaaa",
+			"Mvolz"
 		]
 	},
 	"citoid-citation-widget-insert-button": "挿入",
@@ -23,7 +25,7 @@
 	"citoid-citoiddialog-search-placeholder": "例 http://www.example.com",
 	"citoid-citoiddialog-search-progress": "検索しています。お待ちください...",
 	"citoid-citoiddialog-title": "引用を追加",
-	"citoid-citoiddialog-use-general-error-message": "出典を生成できませんでした。上にある「{{int:citoid-citefromiddialog-mode-manual}}」タブを使って、手動で作成することもできます。",
+	"citoid-citoiddialog-use-general-error-message": "出典を生成できませんでした。上にある「{{int:citoid-citoiddialog-mode-manual}}」タブを使って、手動で作成することもできます。",
 	"citoid-citoidtool-title": "引用",
 	"citoid-citoidtool-title-othergroup": "引用",
 	"citoid-desc": "citoid サービスとMediaWikiとの間のアクセスポイントを提供する",

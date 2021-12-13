@@ -7,7 +7,8 @@
 			"Shbib Al-Subaie",
 			"ديفيد",
 			"فلورانس",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Mvolz"
 		]
 	},
 	"citoid-citation-widget-insert-button": "أدرج",
@@ -22,7 +23,7 @@
 	"citoid-citoiddialog-search-placeholder": "مثال: http://www.example.com",
 	"citoid-citoiddialog-search-progress": "جارٍ البحث، برجاء الانتظار...",
 	"citoid-citoiddialog-title": "إضافة استشهاد",
-	"citoid-citoiddialog-use-general-error-message": "لم نتمكن من صنع الاقتباس لك، يمكنك إنشاء واحد يدويا باستخدام التبويب \"{{int:citoid-citefromiddialog-mode-manual}}\" أعلاه.",
+	"citoid-citoiddialog-use-general-error-message": "لم نتمكن من صنع الاقتباس لك، يمكنك إنشاء واحد يدويا باستخدام التبويب \"{{int:citoid-citoiddialog-mode-manual}}\" أعلاه.",
 	"citoid-citoidtool-title": "استشهاد",
 	"citoid-citoidtool-title-othergroup": "اقتباس",
 	"citoid-desc": "يوفر نقطة وصول بين citoid وميدياويكي",

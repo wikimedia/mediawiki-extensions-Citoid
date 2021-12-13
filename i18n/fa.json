@@ -10,7 +10,10 @@
 			"Maspadana",
 			"Reza1615",
 			"الناز",
-			"درفش کاویانی"
+			"درفش کاویانی",
+			"Darafsh",
+			"Jeeputer",
+			"Mvolz"
 		]
 	},
 	"citoid-citation-widget-insert-button": "درج",
@@ -25,7 +28,7 @@
 	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
 	"citoid-citoiddialog-search-progress": "در حال جستجو؛ لطفاً صبر کنید...",
 	"citoid-citoiddialog-title": "افزودن یادکرد",
-	"citoid-citoiddialog-use-general-error-message": "نتوانستیم یادکردی برای شما بسازیم. شما می‌توانید با استفاده از زبانهٔ «{{int:citoid-citefromiddialog-mode-manual}}» به صورت دستی آن را بسازید.",
+	"citoid-citoiddialog-use-general-error-message": "نتوانستیم یادکردی برای شما بسازیم. شما می‌توانید با استفاده از زبانهٔ «{{int:citoid-citoiddialog-mode-manual}}» به صورت دستی آن را بسازید.",
 	"citoid-citoidtool-title": "یادکرد",
 	"citoid-citoidtool-title-othergroup": "یادکرد",
 	"citoid-desc": "ارتباط بین خدمت citoid و مدیاویکی را برقرار می‌کند",
@@ -34,6 +37,8 @@
 	"citoid-unknown-error": "خطای نامشخصی اجازهٔ ساخت یادکرد را نمی‌دهد. لطفاً بعداً تلاش کنید.",
 	"citoid-wb-referenceview-tabs-automatic": "خودکار",
 	"citoid-wb-referenceview-tabs-search": "جستجو",
+	"citoid-wb-referenceview-tabs-search-label": "نشانی اینترنتی، شبر، شابک یا شناسه ویکی‌داده",
+	"citoid-wb-pendingdialog-error": "ناتوان در ایجاد ارجاع از این ورودی. از زبانهٔ دستی استفاده کنید یا دوباره تلاش کنید.",
 	"citoid-wb-pendingdialog-message": "در حال تولید یک مرجع برای شما... لطفاً صبر کنید...",
 	"citoid-wb-pendingdialog-title": "در حال تولید یادکرد"
 }

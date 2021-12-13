@@ -2,7 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Oromoo",
-			"Tumsaa"
+			"Tumsaa",
+			"Abbaabiyyummaa",
+			"Maammee",
+			"Oromoom"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Galchi",
@@ -10,10 +13,10 @@
 	"citoid-citoiddialog-lookup-button": "Barbaadi",
 	"citoid-citoiddialog-mode-auto": "Ofumaa",
 	"citoid-citoiddialog-mode-manual": "Harkaan",
-	"citoid-citoiddialog-mode-reuse": "Kan duraan jiru fayyadami",
-	"citoid-citoiddialog-search-label": "URL, DOI ykn PMID",
+	"citoid-citoiddialog-mode-reuse": "Irra deebi'ii fayyadami",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, mata duree, ykn eeruu",
 	"citoid-citoiddialog-search-placeholder": "fkn http://www.fakkeenya.com",
 	"citoid-citoidtool-title": "Eeri",
 	"citoid-referencecontextitem-convert-button": "Jijjiiri",
-	"citoid-unknown-error": "Dogoggorri hin beekkamne uummamee eera akka hin uumne dhorke. Mee, boodarra itti deebi'ii yaali."
+	"citoid-unknown-error": "Dogoggorri hin beekkamne ta'eet eeruu akka hin uumne dhorke. Maaloo booda irra deebi'ii yaali."
 }

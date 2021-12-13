@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Giromin Cangiaxo",
-			"S4b1nuz E.656"
+			"S4b1nuz E.656",
+			"Mvolz"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Inseisci",
@@ -17,7 +18,7 @@
 	"citoid-citoiddialog-search-placeholder": "presempio http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Aproeuv'a sercâ, aspeta...",
 	"citoid-citoiddialog-title": "Azonzi 'na çitassion",
-	"citoid-citoiddialog-use-general-error-message": "No semmo ariescii a creâ 'na sitassion pe tie. Ti poeu creane un-a manualmente doeuviando a scheda \"{{int:citoid-citefromiddialog-mode-manual}}\" chì de d'ato.",
+	"citoid-citoiddialog-use-general-error-message": "No semmo ariescii a creâ 'na sitassion pe tie. Ti poeu creane un-a manualmente doeuviando a scheda \"{{int:citoid-citoiddialog-mode-manual}}\" chì de d'ato.",
 	"citoid-citoidtool-title": "Çitta",
 	"citoid-citoidtool-title-othergroup": "Çitaçion",
 	"citoid-desc": "O fornisce un ponto d'accesso tra o serviççio citoid e MediaWiki",

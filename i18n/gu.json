@@ -13,11 +13,22 @@
 	"citoid-citoiddialog-mode-auto": "આપોઆપ",
 	"citoid-citoiddialog-mode-manual": "માનવ ચાલિત",
 	"citoid-citoiddialog-mode-reuse": "ફરી ઉપયોગ",
+	"citoid-citoiddialog-search": "શોધો",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN અથવા PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "દા.ત. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "શોધી રહ્યું છે, રાહ જુઓ...",
+	"citoid-citoiddialog-title": "સંદર્ભ ઉમેરો",
+	"citoid-citoiddialog-use-general-error-message": "તમારા માટે અમે સંદર્ભ બનાવી શક્યા નથી. તમે \"{{int:citoid-citoiddialog-mode-manual}}\"નો ઉપયોગ કરીને જાતે સંદર્ભ ઉમેરી શકો છો.",
 	"citoid-citoidtool-title": "ટાંકો",
 	"citoid-citoidtool-title-othergroup": "સંદર્ભ",
 	"citoid-desc": "citoid સેવા અને મિડિયાવિકિ વચ્ચે માર્ગ બિંદુઓ પૂરા પાડે છે",
 	"citoid-referencecontextitem-convert-button": "રુપાંતર",
-	"citoid-unknown-error": "એક અજ્ઞાન ત્રુટિને કારણે અમે અવતરણ બનાવી શક્યા નથી. કૃપા કરી ઘડીક રહીને ફરી પ્રયત્ન કરશો."
+	"citoid-referencecontextitem-convert-message": "આ સંદર્ભ માત્ર બાહ્ય કડી જ ધરાવે છે. તમે \"{{int:citoid-referencecontextitem-convert-button}}\" બટનનો ઉપયો કરીને યોગ્ય સંદર્ભ બનાવી શકો છો.",
+	"citoid-unknown-error": "એક અજ્ઞાન ત્રુટિને કારણે અમે અવતરણ બનાવી શક્યા નથી. કૃપા કરી ઘડીક રહીને ફરી પ્રયત્ન કરશો.",
+	"citoid-wb-referenceview-tabs-automatic": "આપમેળે",
+	"citoid-wb-referenceview-tabs-search": "શોધો",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, અથવા QID:",
+	"citoid-wb-pendingdialog-error": "આ માહિતીમાંથી સંદર્ભ બનાવી શકાયો નહી. જાતે બનાવો અથવા ફરી પ્રયત્ન કરો.",
+	"citoid-wb-pendingdialog-message": "તમારા માટે સંદર્ભ બની રહ્યો છે...રાહ જુઓ...",
+	"citoid-wb-pendingdialog-title": "સંદર્ભ બની રહ્યો છે"
 }

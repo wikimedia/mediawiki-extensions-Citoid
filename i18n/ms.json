@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
-			"Muhdnurhidayat"
+			"Muhdnurhidayat",
+			"Tofeiku"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Sisipkan",
@@ -12,12 +13,18 @@
 	"citoid-citoiddialog-mode-auto": "Automatik",
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Guna semula",
+	"citoid-citoiddialog-search": "Cari",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN atau PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "cth. http://www.example.com",
+	"citoid-citoiddialog-title": "Tambah petikan",
 	"citoid-citoidtool-title": "Petik",
 	"citoid-citoidtool-title-othergroup": "Petikan",
 	"citoid-desc": "Menyediakan titik-titik akses antara khidmat citoid dan MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Tukar",
 	"citoid-referencecontextitem-convert-message": "Rujukan ini terdiri daripada pautan luar sahaja. Anda boleh tekan butang \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah untuk menghasilkan rujukan yang diformatkan dengan betul.",
-	"citoid-unknown-error": "Terjadinya ralat tidak dikenali yang telah mengganggu kami daripada menghasilkan petikan. Sila cuba lagi kemudian."
+	"citoid-unknown-error": "Terjadinya ralat tidak dikenali yang telah mengganggu kami daripada menghasilkan petikan. Sila cuba lagi kemudian.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatik",
+	"citoid-wb-referenceview-tabs-search": "cari",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, atau QID:",
+	"citoid-wb-pendingdialog-title": "Menjana Petikan"
 }

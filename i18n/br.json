@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fulup",
-			"Y-M D"
+			"Y-M D",
+			"Adriendelucca"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ensoc'hañ",
@@ -12,9 +13,14 @@
 	"citoid-citoiddialog-mode-auto": "Emgefre",
 	"citoid-citoiddialog-mode-manual": "Dre zorn",
 	"citoid-citoiddialog-mode-reuse": "Adimplijout",
+	"citoid-citoiddialog-search": "Klask",
 	"citoid-citoiddialog-search-label": "URL, DOI pe PMID",
 	"citoid-citoiddialog-search-placeholder": "da sk. http://www.example.com",
+	"citoid-citoiddialog-title": "Ouzhpennañ ur meneg",
 	"citoid-citoidtool-title": "Menegiñ",
 	"citoid-citoidtool-title-othergroup": "Arroud",
-	"citoid-referencecontextitem-convert-button": "Amdreiñ"
+	"citoid-referencecontextitem-convert-button": "Amdreiñ",
+	"citoid-wb-referenceview-tabs-automatic": "Emgefre",
+	"citoid-wb-referenceview-tabs-search": "klask",
+	"citoid-wb-pendingdialog-title": "O genel ur meneg"
 }

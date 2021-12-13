@@ -4,12 +4,15 @@
 			"Kusavica",
 			"Luky001",
 			"Teslaton",
-			"TomášPolonec"
+			"TomášPolonec",
+			"Jaroslav.micek",
+			"Mvolz",
+			"Yardom78"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Vložiť",
 	"citoid-citoiddialog-back": "Späť",
-	"citoid-citoiddialog-credit": "Poskytuje $1",
+	"citoid-citoiddialog-credit": "Poháňané cez $1",
 	"citoid-citoiddialog-lookup-button": "Vytvoriť",
 	"citoid-citoiddialog-mode-auto": "Automaticky",
 	"citoid-citoiddialog-mode-manual": "Ručne",
@@ -19,7 +22,7 @@
 	"citoid-citoiddialog-search-placeholder": "napr. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Prebieha vyhľadávanie, prosím, čakajte...",
 	"citoid-citoiddialog-title": "Pridať citáciu",
-	"citoid-citoiddialog-use-general-error-message": "Nemohli sme pre vás vytvoriť citáciu. Môžete ju vytvoriť ručne pomocou záložky „{{int:citoid-citefromiddialog-mode-manual}}“.",
+	"citoid-citoiddialog-use-general-error-message": "Nemohli sme pre vás vytvoriť citáciu. Môžete ju vytvoriť ručne pomocou záložky „{{int:citoid-citoiddialog-mode-manual}}“.",
 	"citoid-citoidtool-title": "Citácia",
 	"citoid-citoidtool-title-othergroup": "Citácia",
 	"citoid-desc": "Poskytuje prístupové body medzi službou Citoid a MediaWiki",

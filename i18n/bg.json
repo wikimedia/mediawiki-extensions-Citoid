@@ -6,7 +6,8 @@
 			"StanProg",
 			"Ted Masters",
 			"Vodnokon4e",
-			"Лорд Бъмбъри"
+			"Лорд Бъмбъри",
+			"Mvolz"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Вмъкване",
@@ -21,7 +22,7 @@
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Търсене, моля изчакайте...",
 	"citoid-citoiddialog-title": "Добавяне на цитат",
-	"citoid-citoiddialog-use-general-error-message": "Не успяхме на създадем цитат. Можете да създадете такъв ръчно като ползвате  „{{int:citoid-citefromiddialog-mode-manual}}“ по-горе.",
+	"citoid-citoiddialog-use-general-error-message": "Не успяхме да създадем цитат. Можете да създадете такъв ръчно като ползвате  „{{int:citoid-citoiddialog-mode-manual}}“ по-горе.",
 	"citoid-citoidtool-title": "Цитиране",
 	"citoid-citoidtool-title-othergroup": "Цитат",
 	"citoid-desc": "Осигурява връзка между услугата Citoid и МедияУики",

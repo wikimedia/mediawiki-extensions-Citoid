@@ -6,7 +6,8 @@
 			"Ktchankt",
 			"Shinjiman",
 			"William915",
-			"Yueman"
+			"Yueman",
+			"Z423x5c6"
 		]
 	},
 	"citoid-citation-widget-insert-button": "插入",
@@ -26,5 +27,9 @@
 	"citoid-desc": "提供喺 citoid 服務同 MediaWiki 之間嘅存取點",
 	"citoid-referencecontextitem-convert-button": "轉換",
 	"citoid-referencecontextitem-convert-message": "呢項參考只係個出面網頁，你可以用下面 \"{{int:citoid-referencecontextitem-convert-button}}\" 掣去整啱格式嘅參考。",
-	"citoid-unknown-error": "發生咗未知錯誤，所以建立唔到引用，麻煩遲啲再試過。"
+	"citoid-unknown-error": "發生咗未知錯誤，所以建立唔到引用，麻煩遲啲再試過。",
+	"citoid-wb-referenceview-tabs-automatic": "自動",
+	"citoid-wb-referenceview-tabs-search": "搵嘢",
+	"citoid-wb-referenceview-tabs-search-label": "URL，DOI，ISBN或者QID：",
+	"citoid-wb-pendingdialog-title": "整緊引用"
 }

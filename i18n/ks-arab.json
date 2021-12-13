@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iflaq"
+		]
+	},
+	"citoid-citation-widget-insert-button": "دَرٕج کٔرِو",
+	"citoid-citoiddialog-back": "واپَس گٔژھِو",
+	"citoid-citoiddialog-credit": "دٕستِیاب تھاوَن وٲلؠ $1",
+	"citoid-citoiddialog-lookup-button": "پٲدٕ کٔرِو",
+	"citoid-citoiddialog-mode-auto": "خودکار",
+	"citoid-citoiddialog-mode-reuse": "بیٚیِہ اِستِمال",
+	"citoid-citoiddialog-search": "ژھانٛڈُن",
+	"citoid-citoiddialog-search-label": "یو آر ایل، ڈی او آے، آے ایس بی این، پی ایم سی/پی ایم آئی ڈی یا حَوالہٕ",
+	"citoid-citoiddialog-search-placeholder": "مِثال۔ http://www.example.com",
+	"citoid-citoiddialog-search-progress": "ژھانٛڈان، مہربٲنی کرتھ پیٲرِو...",
+	"citoid-citoidtool-title": "حَوالہٕ",
+	"citoid-citoidtool-title-othergroup": "حَوالہٕ",
+	"citoid-referencecontextitem-convert-button": "تَبدیٖل کٔرِو",
+	"citoid-wb-referenceview-tabs-automatic": "خودکار",
+	"citoid-wb-referenceview-tabs-search": "ژھانٛڈُن"
+}
