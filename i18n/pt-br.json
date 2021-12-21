@@ -7,7 +7,8 @@
 			"Felipe L. Ewald",
 			"TheEduGobi",
 			"TheGabrielZaum",
-			"WikiUser22222"
+			"WikiUser22222",
+			"SaldırganSincap"
 		]
 	},
 	"citoid-action-replace": "Alterar o tipo de referência",
@@ -20,8 +21,8 @@
 	"citoid-citoiddialog-mode-reuse": "Reusar",
 	"citoid-citoiddialog-search": "Pesquisar",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID título ou citação",
-	"citoid-citoiddialog-search-placeholder": "por exemplo, http://www.exemplo.com",
-	"citoid-citoiddialog-search-progress": "Pesquisando, aguarde...",
+	"citoid-citoiddialog-search-placeholder": "por exemplo, http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Pesquisando, por favor aguarde...",
 	"citoid-citoiddialog-title": "Adicionar uma citação",
 	"citoid-citoiddialog-title-replace": "Substituir citação",
 	"citoid-citoiddialog-use-general-error-message": "Não podemos fazer uma citação para você. Pode criá-la manualmente usando a aba \"{{int:citoid-citoiddialog-mode-manual}}\" acima.",
