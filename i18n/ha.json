@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bashir Gwanki"
+		]
+	},
+	"citoid-action-replace": "Canja nau'in tunani",
+	"citoid-citation-widget-insert-button": "Sanya",
+	"citoid-citoiddialog-back": "Baya",
+	"citoid-citoiddialog-credit": "An ƙarfafa shi ta $1",
+	"citoid-citoiddialog-lookup-button": "Ƙirƙira",
+	"citoid-citoiddialog-mode-auto": "Na atomatik",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Sake amfani",
+	"citoid-citoiddialog-search": "Bincike",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
+	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Ana nema, da fatan za a jira...",
+	"citoid-citoiddialog-title": "Ƙara Manazarta",
+	"citoid-citoiddialog-title-replace": "Sauya ambato",
+	"citoid-citoiddialog-use-general-error-message": "Ba za mu iya yi maka magana ba. Kuna iya ƙirƙirar ɗaya da hannu ta amfani da shafin \"{{int:citoid-citoiddialog-mode-manual}}\" na sama.",
+	"citoid-citoidtool-title": "ambata",
+	"citoid-citoidtool-title-othergroup": "Magana",
+	"citoid-desc": "Yana ba da wuraren shiga tsakanin sabis na citoid da MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Tuba",
+	"citoid-referencecontextitem-convert-message": "Wannan bayanin ya ƙunshi hanyar haɗin waje kawai. Kuna iya amfani da maɓallin \"{{int:citoid-referencecontextitem-convert-button}}\" da ke ƙasa don samar da ingantaccen tsari.",
+	"citoid-unknown-error": "An sami kuskuren da ba a san shi ba wanda ya hana mu ƙirƙira ambato. Da fatan za a sake gwadawa daga baya.",
+	"citoid-wb-referenceview-tabs-automatic": "Atomatik",
+	"citoid-wb-referenceview-tabs-search": "Bincike",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:",
+	"citoid-wb-pendingdialog-error": "An kasa samar da tunani daga wannan shigarwar. Yi amfani da shafin jagora, ko sake gwadawa.",
+	"citoid-wb-pendingdialog-message": "Samar da bayani a gare ku... da fatan za a jira...",
+	"citoid-wb-pendingdialog-title": "Ƙirƙirar Magana"
+}
