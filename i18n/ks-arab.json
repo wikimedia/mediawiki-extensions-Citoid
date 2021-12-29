@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Iflaq"
+			"Iflaq",
+			"Teashae"
 		]
 	},
 	"citoid-action-replace": "حَوالہٕ قسٕم بَدلٲوِو",
 	"citoid-citation-widget-insert-button": "دَرٕج کٔرِو",
-	"citoid-citoiddialog-back": "واپَس گٔژھِو",
+	"citoid-citoiddialog-back": "واپَس",
 	"citoid-citoiddialog-credit": "دٕستِیاب تھاوَن وٲلؠ $1",
 	"citoid-citoiddialog-lookup-button": "پٲدٕ کٔرِو",
 	"citoid-citoiddialog-mode-auto": "خودکار",
