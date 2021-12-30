@@ -4,14 +4,8 @@
 			"Skyllful"
 		]
 	},
-	"citoid-citation-widget-insert-button": "Insert",
-	"citoid-citoiddialog-back": "Back",
 	"citoid-citoiddialog-lookup-button": "Create",
-	"citoid-citoiddialog-mode-auto": "Automatic",
-	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Reuse",
 	"citoid-citoiddialog-search-label": "URL or DOI",
-	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.ca",
-	"citoid-citoidtool-title": "Cite",
-	"citoid-desc": "Provides access points between the citoid service and MediaWiki"
+	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.ca"
 }
