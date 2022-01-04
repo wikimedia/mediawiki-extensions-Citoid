@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bashir Gwanki"
+			"Bashir Gwanki",
+			"Bello Na'im"
 		]
 	},
 	"citoid-action-replace": "Canja nau'in tunani",
@@ -9,12 +10,12 @@
 	"citoid-citoiddialog-back": "Baya",
 	"citoid-citoiddialog-credit": "An ƙarfafa shi ta $1",
 	"citoid-citoiddialog-lookup-button": "Ƙirƙira",
-	"citoid-citoiddialog-mode-auto": "Na atomatik",
+	"citoid-citoiddialog-mode-auto": "Atomatik",
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Sake amfani",
 	"citoid-citoiddialog-search": "Bincike",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
-	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
+	"citoid-citoiddialog-search-placeholder": "e.g. http://www.misali.com",
 	"citoid-citoiddialog-search-progress": "Ana nema, da fatan za a jira...",
 	"citoid-citoiddialog-title": "Ƙara Manazarta",
 	"citoid-citoiddialog-title-replace": "Sauya ambato",
