@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reda Benkhadra"
+		]
+	},
+	"citoid-citation-widget-insert-button": "زيد",
+	"citoid-citoiddialog-mode-auto": "ؤطوماتيك",
+	"citoid-citoiddialog-mode-reuse": "عاود تخدام",
+	"citoid-citoiddialog-search-label": "ليان، محدد ستون رقمي (DOI)، رقم دولي معياري د لكتاب (ISBN)، محدد پابميد (PMC/PMID)، محدد ويكي داطا، عنوان ولا قتيباس"
+}
