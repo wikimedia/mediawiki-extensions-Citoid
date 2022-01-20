@@ -19,7 +19,7 @@ ve.ui.CitoidInspectorTool = function VeUiCitoidInspectorTool() {
 
 	educationPopup = new ve.ui.MWEducationPopupWidget( this.$link, {
 		popupTitle: ve.msg( 'cite-ve-dialogbutton-citation-educationpopup-title' ),
-		popupText: ve.msg( 'cite-ve-dialogbutton-citation-educationpopup-text' ),
+		popupText: mw.message( 'cite-ve-dialogbutton-citation-educationpopup-text' ).parseDom(),
 		popupImage: 'cite',
 		trackingName: 'citoid'
 	} );
