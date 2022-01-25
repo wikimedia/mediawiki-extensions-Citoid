@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Goshaproject",
-			"Mechanizatar"
+			"Mechanizatar",
+			"Chadyka"
 		]
 	},
+	"citoid-action-replace": "Змяніць тып крыніцы",
 	"citoid-citation-widget-insert-button": "Уставіць",
 	"citoid-citoiddialog-back": "Назад",
 	"citoid-citoiddialog-credit": "Пры падтрымцы $1",
@@ -12,6 +14,23 @@
 	"citoid-citoiddialog-mode-auto": "Аўтаматычна",
 	"citoid-citoiddialog-mode-manual": "Уручную",
 	"citoid-citoiddialog-mode-reuse": "Паўторна выкарыстоўваць",
+	"citoid-citoiddialog-search": "Пошук",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, назва ці цытата",
 	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com",
-	"citoid-citoidtool-title": "Цытаваць"
+	"citoid-citoiddialog-search-progress": "Ідзе пошук, калі ласка, пачакайце...",
+	"citoid-citoiddialog-title": "Дадаць цытаванне",
+	"citoid-citoiddialog-title-replace": "Замяніць цытаванне",
+	"citoid-citoiddialog-use-general-error-message": "У нас не атрымалася зрабіць цытату для вас. Вы можаце стварыць яе самі з дапамогай укладкі «{{int:citoid-citoiddialog-mode-manual}}» вышэй.",
+	"citoid-citoidtool-title": "Цытаваць",
+	"citoid-citoidtool-title-othergroup": "Цытата",
+	"citoid-desc": "Забяспечвае пункты доступу між сэрвісам citoid і MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Пераўтварыць",
+	"citoid-referencecontextitem-convert-message": "Гэтая цытата складаецца з простай вонкавай спасылкі. Вы можаце скарыстацца кнопкай «{{int:citoid-referencecontextitem-convert-button}}» ніжэй, каб стварыць слушнае цытаванне.",
+	"citoid-unknown-error": "Адбылася невядомая памылка, якая не дала магчымасць стварыць цытату. Калі ласка, паспрабуйце пазней.",
+	"citoid-wb-referenceview-tabs-automatic": "Аўтаматычная",
+	"citoid-wb-referenceview-tabs-search": "пошук",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ці QID:",
+	"citoid-wb-pendingdialog-error": "Немагчыма стварыць цытаванне з гэтага ўводу. Выкарыстоўвайце ўкладку Ўручную або паспрабуйце зноў.",
+	"citoid-wb-pendingdialog-message": "Стварэнне цытавання для вас... калі ласка, пачакайце...",
+	"citoid-wb-pendingdialog-title": "Стварэнне Цытавання"
 }
