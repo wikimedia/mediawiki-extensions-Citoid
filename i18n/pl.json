@@ -30,5 +30,8 @@
 	"citoid-unknown-error": "Nieznany błąd uniemożliwił utworzenie przypisu. Spróbuj ponownie później.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatyczny",
 	"citoid-wb-referenceview-tabs-search": "szukaj",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN lub QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN lub QID:",
+	"citoid-wb-pendingdialog-error": "Nie udało się wygenerować przypisu z podanych danych. Użyj trybu ręcznego lub spróbuj ponownie.",
+	"citoid-wb-pendingdialog-message": "Generowanie przypisu... proszę czekać...",
+	"citoid-wb-pendingdialog-title": "Generowanie przypisu"
 }
