@@ -5,12 +5,14 @@
 			"JoyfulEditing",
 			"Meno25",
 			"Mvolz",
+			"SaldırganSincap",
 			"Shbib Al-Subaie",
 			"ديفيد",
 			"فلورانس",
 			"محمد أحمد عبد الفتاح"
 		]
 	},
+	"citoid-action-replace": "تغيير نوع المرجع",
 	"citoid-citation-widget-insert-button": "أدرج",
 	"citoid-citoiddialog-back": "رجوع",
 	"citoid-citoiddialog-credit": "مدعوم من $1",
