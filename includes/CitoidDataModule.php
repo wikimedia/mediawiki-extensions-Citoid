@@ -10,6 +10,13 @@
  * @license MIT
  */
 
+namespace MediaWiki\Extension\Citoid;
+
+use FormatJson;
+use ResourceLoader;
+use ResourceLoaderContext;
+use ResourceLoaderModule;
+
 class CitoidDataModule extends ResourceLoaderModule {
 
 	/** @var string[] */
