@@ -25,6 +25,7 @@
 	"citoid-citoiddialog-search-placeholder": "bijvoorbeeld http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Bezig met zoeken. Een moment geduld...",
 	"citoid-citoiddialog-title": "Citaat toevoegen",
+	"citoid-citoiddialog-title-replace": "Vervang referentie",
 	"citoid-citoiddialog-use-general-error-message": "Het was niet mogelijk een citaat aan te maken. U kunt proberen het handmatig aan te maken via het tabblad \"{{int:citoid-citoiddialog-mode-manual}}\" hierboven.",
 	"citoid-citoidtool-title": "Referentie",
 	"citoid-citoidtool-title-othergroup": "Referentie",
