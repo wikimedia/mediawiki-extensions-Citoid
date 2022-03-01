@@ -6,10 +6,16 @@
  * @ingroup Extensions
  */
 
+namespace MediaWiki\Extension\Citoid;
+
+use ExtensionRegistry;
 use MediaWiki\MediaWikiServices;
+use OutputPage;
+use ResourceLoaderContext;
+use User;
 use Wikibase\Repo\WikibaseRepo;
 
-class CitoidHooks {
+class Hooks {
 
 	/**
 	 * Adds extra variables to the global config

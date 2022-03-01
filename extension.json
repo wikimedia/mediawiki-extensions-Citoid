@@ -20,9 +20,8 @@
 			"i18n"
 		]
 	},
-	"AutoloadClasses": {
-		"CitoidHooks": "includes/CitoidHooks.php",
-		"CitoidDataModule": "includes/CitoidDataModule.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Citoid\\": "includes/"
 	},
 	"ResourceModules": {
 		"ext.citoid.visualEditor": {
@@ -76,7 +75,7 @@
 			]
 		},
 		"ext.citoid.visualEditor.data": {
-			"class": "CitoidDataModule"
+			"class": "MediaWiki\\Extension\\Citoid\\CitoidDataModule"
 		},
 		"ext.citoid.wikibase.init": {
 			"localBasePath": "modules/wikibase",
@@ -85,7 +84,7 @@
 				"wb.Citoid.init.js",
 				{
 					"name": "data.json",
-					"callback": "CitoidHooks::getWikibaseInitData"
+					"callback": "MediaWiki\\Extension\\Citoid\\Hooks::getWikibaseInitData"
 				}
 			],
 			"targets": [
@@ -139,9 +138,9 @@
 		]
 	},
 	"Hooks": {
-		"ResourceLoaderGetConfigVars": "CitoidHooks::onResourceLoaderGetConfigVars",
-		"BeforePageDisplay": "CitoidHooks::onBeforePageDisplay",
-		"GetPreferences": "CitoidHooks::onGetPreferences"
+		"ResourceLoaderGetConfigVars": "MediaWiki\\Extension\\Citoid\\Hooks::onResourceLoaderGetConfigVars",
+		"BeforePageDisplay": "MediaWiki\\Extension\\Citoid\\Hooks::onBeforePageDisplay",
+		"GetPreferences": "MediaWiki\\Extension\\Citoid\\Hooks::onGetPreferences"
 	},
 	"attributes": {
 		"VisualEditor": {
