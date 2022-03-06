@@ -11,9 +11,7 @@
 	"license-name": "MIT",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.34.0",
-		"extensions": {
-		}
+		"MediaWiki": ">= 1.34.0"
 	},
 	"MessagesDirs": {
 		"Citoid": [
