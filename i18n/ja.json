@@ -10,7 +10,8 @@
 			"Sujiniku",
 			"Takot",
 			"LaMagiaaa",
-			"Mvolz"
+			"Mvolz",
+			"Sou0012"
 		]
 	},
 	"citoid-citation-widget-insert-button": "挿入",
@@ -36,5 +37,6 @@
 	"citoid-wb-referenceview-tabs-search": "検索",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBNまたはQID:",
 	"citoid-wb-pendingdialog-error": "この入力から出典を生成できませんでした。手動タブを使うか、もう一度実行してください。",
-	"citoid-wb-pendingdialog-message": "出典を生成しています... しばらくお待ちください..."
+	"citoid-wb-pendingdialog-message": "出典を生成しています... しばらくお待ちください...",
+	"citoid-wb-pendingdialog-title": "引用の作成"
 }
