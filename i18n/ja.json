@@ -10,7 +10,8 @@
 			"Otokoume",
 			"Shirayuki",
 			"Sujiniku",
-			"Takot"
+			"Takot",
+			"Sou0012"
 		]
 	},
 	"citoid-action-replace": "参考資料タイプを変更",
@@ -26,6 +27,7 @@
 	"citoid-citoiddialog-search-placeholder": "例 http://www.example.com",
 	"citoid-citoiddialog-search-progress": "検索しています。お待ちください...",
 	"citoid-citoiddialog-title": "引用を追加",
+	"citoid-citoiddialog-title-replace": "引用の置き換え",
 	"citoid-citoiddialog-use-general-error-message": "出典を生成できませんでした。上にある「{{int:citoid-citoiddialog-mode-manual}}」タブを使って、手動で作成することもできます。",
 	"citoid-citoidtool-title": "引用",
 	"citoid-citoidtool-title-othergroup": "引用",
@@ -37,5 +39,6 @@
 	"citoid-wb-referenceview-tabs-search": "検索",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBNまたはQID:",
 	"citoid-wb-pendingdialog-error": "この入力から出典を生成できませんでした。手動タブを使うか、もう一度実行してください。",
-	"citoid-wb-pendingdialog-message": "出典を生成しています... しばらくお待ちください..."
+	"citoid-wb-pendingdialog-message": "出典を生成しています... しばらくお待ちください...",
+	"citoid-wb-pendingdialog-title": "引用の作成"
 }
