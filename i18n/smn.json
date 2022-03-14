@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Muotâ",
 			"Seipinne",
 			"Yupik"
 		]
@@ -17,7 +18,7 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, paječaalâ, teikkâ čujottâs",
 	"citoid-citoiddialog-search-placeholder": "om. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ucâmin, vyerdi...",
-	"citoid-citoiddialog-title": "Lasseet käldeečujos",
+	"citoid-citoiddialog-title": "Lasseet käldeečuijoos",
 	"citoid-citoiddialog-title-replace": "Sajanpyevti käldeečuijoos",
 	"citoid-citoiddialog-use-general-error-message": "Tuu käldeečuijoos ij puáhtám rähtiđ. Puávtáh rähtiđ tom manuaallávt kevttimáin paijeen leijee \"{{int:citoid-citoiddialog-mode-manual}}\"-koskâloostâ.",
 	"citoid-citoidtool-title": "Čuujoot",
