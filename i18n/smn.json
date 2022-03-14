@@ -5,9 +5,25 @@
 			"Yupik"
 		]
 	},
+	"citoid-citation-widget-insert-button": "Lasseet",
+	"citoid-citoiddialog-back": "Maassâd",
+	"citoid-citoiddialog-credit": "Falâlduv taha máhđulâžžân $1",
+	"citoid-citoiddialog-lookup-button": "Räähti",
+	"citoid-citoiddialog-mode-auto": "Automaatlâš",
 	"citoid-citoiddialog-mode-manual": "Manuaallâš",
+	"citoid-citoiddialog-mode-reuse": "Uđđâsistkevttim",
 	"citoid-citoiddialog-search": "Uusâ",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, paječaalâ, teikkâ čujottâs",
+	"citoid-citoiddialog-search-placeholder": "om. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Ucâmin, vyerdi...",
+	"citoid-citoiddialog-title": "Lasseet käldeečujos",
+	"citoid-citoiddialog-use-general-error-message": "Tuu käldeečuijoos ij puáhtám rähtiđ. Puávtáh rähtiđ tom manuaallávt kevttimáin paijeen leijee \"{{int:citoid-citoiddialog-mode-manual}}\"-koskâloostâ.",
+	"citoid-citoidtool-title": "Čuujoot",
+	"citoid-citoidtool-title-othergroup": "Käldeečujos",
+	"citoid-desc": "Taha máhđulâžžân citoid-palvâlus kevttim MediaWikist",
+	"citoid-referencecontextitem-convert-button": "Nubásmit",
+	"citoid-wb-referenceview-tabs-automatic": "Automaatlâš",
 	"citoid-wb-referenceview-tabs-search": "uusâ",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, teikkâ QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, teikkâ QID:",
+	"citoid-wb-pendingdialog-error": "Käldeečuijoos rähtim ij luhostum. Keevti koskâloostâ manuaallâš teikkâ keččâl uđđâsist."
 }
