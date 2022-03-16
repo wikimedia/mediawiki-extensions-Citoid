@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Anh88",
+			"Bluetpp",
 			"Dinhxuanduyet",
 			"Minh Nguyen",
 			"Nghiemtrongdai VN",
@@ -17,7 +18,7 @@
 	"citoid-citoiddialog-mode-manual": "Thủ công",
 	"citoid-citoiddialog-mode-reuse": "Tái sử dụng",
 	"citoid-citoiddialog-search": "Tìm kiếm",
-	"citoid-citoiddialog-search-label": "URL, DOI, hoặc PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tiêu đề, hoặc chú thích",
 	"citoid-citoiddialog-search-placeholder": "ví dụ http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Đang tìm, vui lòng chờ...",
 	"citoid-citoiddialog-title": "Thêm một chú thích",
