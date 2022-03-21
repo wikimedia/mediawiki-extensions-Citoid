@@ -5,18 +5,19 @@
 			"Dinhxuanduyet",
 			"Minh Nguyen",
 			"Nguyên Lê",
-			"Nghiemtrongdai VN"
+			"Nghiemtrongdai VN",
+			"Bluetpp"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Chèn",
 	"citoid-citoiddialog-back": "Quay lại",
 	"citoid-citoiddialog-credit": "Hoạt động do $1",
-	"citoid-citoiddialog-lookup-button": "Phát sinh",
+	"citoid-citoiddialog-lookup-button": "Tạo",
 	"citoid-citoiddialog-mode-auto": "Tự động",
 	"citoid-citoiddialog-mode-manual": "Thủ công",
 	"citoid-citoiddialog-mode-reuse": "Tái sử dụng",
 	"citoid-citoiddialog-search": "Tìm kiếm",
-	"citoid-citoiddialog-search-label": "URL, DOI, hoặc PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tiêu đề, hoặc chú thích",
 	"citoid-citoiddialog-search-placeholder": "ví dụ http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Đang tìm, vui lòng chờ...",
 	"citoid-citoiddialog-title": "Thêm một chú thích",
