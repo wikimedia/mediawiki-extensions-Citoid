@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beginneruser",
 			"Darafsh",
 			"Ebraminio",
 			"FarsiNevis",
@@ -30,7 +31,7 @@
 	"citoid-citoiddialog-search-progress": "در حال جستجو؛ لطفاً صبر کنید...",
 	"citoid-citoiddialog-title": "افزودن یادکرد",
 	"citoid-citoiddialog-title-replace": "جایگزینی یادکرد",
-	"citoid-citoiddialog-use-general-error-message": "نتوانستیم یادکردی برای شما بسازیم. شما می‌توانید با استفاده از زبانهٔ «{{int:citoid-citoiddialog-mode-manual}}» به صورت دستی آن را بسازید.",
+	"citoid-citoiddialog-use-general-error-message": "نتوانستیم یادکردی برای شما ایجاد کنیم. شما می‌توانید با استفاده از زبانهٔ «{{int:citoid-citoiddialog-mode-manual}}» به صورت دستی آن را ایجاد کنید.",
 	"citoid-citoidtool-title": "یادکرد",
 	"citoid-citoidtool-title-othergroup": "یادکرد",
 	"citoid-desc": "ارتباط بین خدمت citoid و مدیاویکی را برقرار می‌کند",
