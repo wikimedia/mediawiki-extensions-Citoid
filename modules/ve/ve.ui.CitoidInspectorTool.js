@@ -40,6 +40,9 @@ ve.ui.CitoidInspectorTool.static.title = OO.ui.deferMsg(
 		'citoid-citoidtool-title'
 );
 ve.ui.CitoidInspectorTool.static.icon = 'quotes';
+ve.ui.CitoidInspectorTool.static.narrowConfig = {
+	title: null
+};
 ve.ui.CitoidInspectorTool.static.displayBothIconAndLabel = true;
 ve.ui.CitoidInspectorTool.static.group = 'cite';
 ve.ui.CitoidInspectorTool.static.commandName = 'citoid';
