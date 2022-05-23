@@ -1,17 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Celestinesucess",
-			"Ed g2s"
+			"Ed g2s",
+			"Merlin266"
 		]
 	},
+	"citoid-action-replace": "Sesa mmoa nwoma korɔ",
 	"citoid-citation-widget-insert-button": "De hyɛ mu",
 	"citoid-citoiddialog-back": "Akyi",
 	"citoid-citoiddialog-credit": "$1 na ɔtaa ekyi",
+	"citoid-citoiddialog-lookup-button": "Yɛ",
 	"citoid-citoiddialog-mode-auto": "No ankasa tumi",
 	"citoid-citoiddialog-mode-manual": "W’ankasa woyɛ",
 	"citoid-citoiddialog-mode-reuse": "Fayɛ adeɛ bio",
+	"citoid-citoiddialog-search": "Hwehwɛ",
+	"citoid-citoiddialog-search-progress": "Ɛhwehwɛ, yɛsre wo twen...",
 	"citoid-citoidtool-title": "Bɔ bebea nsɛm no fri",
 	"citoid-citoidtool-title-othergroup": "Bebea nsɛm no fri",
-	"citoid-referencecontextitem-convert-button": "Dan"
+	"citoid-referencecontextitem-convert-button": "Dan",
+	"citoid-wb-referenceview-tabs-search": "hwehwɛ"
 }
