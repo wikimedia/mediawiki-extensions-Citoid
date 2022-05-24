@@ -13,20 +13,19 @@
 namespace MediaWiki\Extension\Citoid;
 
 use FormatJson;
-use ResourceLoader;
-use ResourceLoaderContext;
-use ResourceLoaderModule;
+use MediaWiki\ResourceLoader as RL;
+use MediaWiki\ResourceLoader\ResourceLoader;
 
-class CitoidDataModule extends ResourceLoaderModule {
+class CitoidDataModule extends RL\Module {
 
 	/** @var string[] */
 	protected $targets = [ 'desktop', 'mobile' ];
 
 	/**
-	 * @param ResourceLoaderContext $context
+	 * @param RL\Context $context
 	 * @return string
 	 */
-	public function getScript( ResourceLoaderContext $context ) {
+	public function getScript( RL\Context $context ) {
 		return 've.init.platform.addMessages(' . FormatJson::encode(
 			[
 				'citoid-template-type-map.json' =>
@@ -39,10 +38,10 @@ class CitoidDataModule extends ResourceLoaderModule {
 	}
 
 	/**
-	 * @param ResourceLoaderContext|null $context
+	 * @param RL\Context|null $context
 	 * @return string[]
 	 */
-	public function getDependencies( ResourceLoaderContext $context = null ) {
+	public function getDependencies( RL\Context $context = null ) {
 		return [
 			'ext.visualEditor.base',
 			'ext.visualEditor.mediawiki',

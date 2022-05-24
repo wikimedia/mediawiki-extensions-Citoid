@@ -10,8 +10,8 @@ namespace MediaWiki\Extension\Citoid;
 
 use ExtensionRegistry;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\ResourceLoader as RL;
 use OutputPage;
-use ResourceLoaderContext;
 use User;
 use Wikibase\Repo\WikibaseRepo;
 
@@ -34,10 +34,10 @@ class Hooks {
 	/**
 	 * Virtual data file of 'ext.citoid.wikibase.init' module.
 	 *
-	 * @param ResourceLoaderContext $context
+	 * @param RL\Context $context
 	 * @return string[]
 	 */
-	public static function getWikibaseInitData( ResourceLoaderContext $context ) {
+	public static function getWikibaseInitData( RL\Context $context ) {
 		return [
 			'toolConfig' => $context->msg( 'citoid-wikibase-config.json' )
 				->inContentLanguage()
