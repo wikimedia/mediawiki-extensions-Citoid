@@ -10,7 +10,8 @@
 			"Pikne",
 			"Purodha",
 			"Raymond",
-			"Umherirrender"
+			"Umherirrender",
+			"Verdy p"
 		]
 	},
 	"citoid-action-replace": "Label for button in reference dialog to change a reference type by replacing the contents of an existing reference using Citoid",
@@ -33,7 +34,7 @@
 	"citoid-desc": "{{desc|name=Citoid|url=https://www.mediawiki.org/wiki/Citoid}}",
 	"citoid-referencecontextitem-convert-button": "Label for the button to convert a plain reference to a Citoid reference.\n{{Identical|Convert}}",
 	"citoid-referencecontextitem-convert-message": "Message explaining the functionality of the button to convert a plain reference to a Citoid reference.",
-	"citoid-template-type-map.json": "{{ignored}}\n\nJSON object containing mapping of different document types to the wiki's template names. Each template must have TemplateData defined to map Citoid's fields to the template's fields. Document types: book, bookSection, journalArticle, magazineArticle, newspaperArticle, thesis, letter, manuscript, interview, film, artwork, webpage, report, bill, hearing, patent, statute, email, map, blogPost, instantMessage, forumPost, audioRecording, presentation, videoRecording, tvBroadcast, radioBroadcast, podcast, computerProgram, conferencePaper, document, encyclopediaArticle, dictionaryEntry",
+	"citoid-template-type-map.json": "{{ignored}}\nJSON object containing mapping of different document types to the wiki's template names.\n\nEach template must have TemplateData defined to map Citoid's fields to the template's fields.\n\nDocument types: book, bookSection, journalArticle, magazineArticle, newspaperArticle, thesis, letter, manuscript, interview, film, artwork, webpage, report, bill, hearing, patent, statute, email, map, blogPost, instantMessage, forumPost, audioRecording, presentation, videoRecording, tvBroadcast, radioBroadcast, podcast, computerProgram, conferencePaper, document, encyclopediaArticle, dictionaryEntry",
 	"citoid-unknown-error": "Error message indicating that the service to create citations has returned an error or is temporarily malfunctioning, asking the user to try again later.",
 	"citoid-wb-referenceview-tabs-automatic": "Label of automatic tab in referenceview in wikibase, used to select mode.",
 	"citoid-wb-referenceview-tabs-search": "Label for the search button in wikibase automatic panel",

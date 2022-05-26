@@ -32,5 +32,8 @@
 	"citoid-unknown-error": "Một lỗi không rõ đã xảy ra, khiến chúng tôi không thể tạo được một chú thích. Xin vui lòng thử lại sau.",
 	"citoid-wb-referenceview-tabs-automatic": "Tự động",
 	"citoid-wb-referenceview-tabs-search": "tìm kiếm",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, hoặc QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, hoặc QID:",
+	"citoid-wb-pendingdialog-error": "Không thể tạo một chú thích từ nội dung nhập này. Hãy sử dụng tab thủ công, hoặc thử lại.",
+	"citoid-wb-pendingdialog-message": "Đang tạo một chú thích cho bạn... Xin chờ một chút...",
+	"citoid-wb-pendingdialog-title": "Tạo Chú thích"
 }
