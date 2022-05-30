@@ -7,6 +7,7 @@
 	"citoid-citation-widget-insert-button": "ߊ߬ ߝߙߊ߬",
 	"citoid-citoiddialog-back": "ߌ ߞߐߛߊ߬ߦߌ߬",
 	"citoid-citoiddialog-credit": "ߊ߬ ߝߊ߲߬ߞߊߘߏ߲߬ߣߍ߲߬ ߦߋ߫ $1 ߟߋ߬ ߓߟߏ߫",
+	"citoid-citoiddialog-lookup-button": "ߟߊߥߟߏ߫",
 	"citoid-citoiddialog-mode-auto": "ߞߍߒߖߘߍߦߋ",
 	"citoid-citoiddialog-mode-manual": "ߓߟߏߟߕߊ",
 	"citoid-citoiddialog-mode-reuse": "ߊ߬ ߟߊߓߊ߯ߙߊ߫ ߕߎ߲߯ߣߌ߲߫",
@@ -18,9 +19,14 @@
 	"citoid-citoiddialog-use-general-error-message": "ߊ߲ ߘߌ߫ ߛߋ߫ ߟߊ߬ߛߙߋ߬ߦߊ߬ߟߌ ߛߌ߲ߘߌ߫ ߟߴߌ ߦߋ߫. ߌ ߘߌ߫ ߛߋ߫ ߘߏ߫ ߛߌ߲ߘߌ߫ ߟߊ߫ ߓߟߏߦߊߟߌ ߘߐ߫ ߞߊ߬ \"{{int:citoid-citoiddialog-mode-manual}}\" ߟߊߓߊ߯ߙߊ߫ ߛߊ߲߲ߝߍ߫ ߘߎ߲ߛߓߍ ߟߊ߫.",
 	"citoid-citoidtool-title": "ߟߊߛߙߋߦߊ߫",
 	"citoid-citoidtool-title-othergroup": "ߟߊ߬ߛߙߋ߬ߦߊ߬ߟߌ",
+	"citoid-desc": "ߡߊ߬ߛߐ߬ߘߐ߲߬ߠߌ߲߫ ߘߊߞߎ߲ ߘߏ߫ ߡߊߛߐ߫ ߛߌߕߏߌߘ ߣߌ߫ ߡߋߘߌߦߊߥߞߌ ߟߎ߫ ߕߍ߫",
+	"citoid-referencecontextitem-convert-button": "ߦߟߍ߬ߡߊ߲߫",
+	"citoid-referencecontextitem-convert-message": "ߦߟߌߡߊߛߙߋ ߣߌ߲߬ ߛߏ߯ߙߏߣߍ߲߫ ߦߋ߫ ߞߐߞߊ߲߫ ߛߘߌߜߋ߲ ߘߐߙߐ߲߫ ߠߋ߬ ߟߊ߫. ߌ ߘߌ߫ ߛߋ߫ ߞߎ߬ߘߎ \"{{int:citoid-referencecontextitem-convert-button}}\" ߟߊߓߊ߯ߙߊ߫ ߟߊ߫ ߘߎ߰ߟߊ ߘߐ߫ ߞߊ߬ ߦߟߌߡߊߛߙߋ ߟߊߥߟߏ߫ ߟߴߊ߬ ߢߊ߫ ߓߘߍ ߡߊ߬.",
+	"citoid-unknown-error": "ߝߎ߬ߕߎ߲߬ߕߌ߫ ߡߊߟߐ߲ߓߊߟߌ ߘߏ߫ ߓߘߊ߫ ߓߌ߬ߟߵߊ߬ ߘߐ߫ ߡߍ߲ ߣߴߊ߲ ߓߊ߬ߟߌ߬ ߟߊ߫ ߦߟߌߡߊߛߙߋ ߟߊߘߊ߲߫ ߠߊ߫. ߊ߬ ߡߊߝߍߣߍ߲߫ ߞߐߝߍ߬ ߖߊ߰ߣߌ߲߫.",
 	"citoid-wb-referenceview-tabs-automatic": "ߞߍߒߖߘߍߦߋ",
 	"citoid-wb-referenceview-tabs-search": "ߊ߬ ߢߌߣߌ߲߫",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:",
+	"citoid-wb-pendingdialog-error": "ߦߟߌߡߊߛߙߋ ߡߊ߫ ߛߐ߲߬ ߠߊߥߟߏ߫ ߟߊ߫ ߟߊ߬ߘߏ߲߬ߣߍ߲ ߏ߬ ߟߊ߫. ߊ߬ ߞߍ߫ ߓߟߏߟߕߊ ߟߊ߫ ߖߊ߰ߣߌ߲߫߸ ߥߟߊ߫ ߞߵߊ߬ ߡߊߝߍߣߍ߲߫ ߌߞߐ߫ ߕߎ߲߯.",
 	"citoid-wb-pendingdialog-message": "ߦߟߌߡߊߛߙߋ ߘߟߊߘߍ߯ߟߌ ߦߴߌ ߘߐ߫ ߌ ߦߋ߫...ߌ ߟߐ߬ ߖߊ߰ߣߌ߲߫...",
 	"citoid-wb-pendingdialog-title": "ߟߊ߬ߛߙߋ߬ߦߊ߬ߟߌ ߘߟߊߘߍ߯ߟߌ ߦߴߊ߬ ߞߊ߲߬"
 }
