@@ -30,6 +30,7 @@
 				"ve.ui.CitoidInspectorTool.js",
 				"ve.ui.CitoidGroupWidget.js",
 				"ve.ui.CitoidReferenceWidget.js",
+				"ve.ui.CitoidReferenceContextItem.js",
 				"ve.ui.CitoidInspector.js",
 				"ve.ui.CitoidAction.js",
 				"ve.ui.Citoid.init.js"
