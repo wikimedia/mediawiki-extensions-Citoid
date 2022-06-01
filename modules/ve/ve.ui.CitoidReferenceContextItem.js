@@ -15,23 +15,27 @@ OO.inheritClass( ve.ui.CitoidReferenceContextItem, ve.ui.MWReferenceContextItem 
  */
 ve.ui.CitoidReferenceContextItem.static.getConvertibleHref = function ( itemNode ) {
 	var doc = itemNode.getRoot().getDocument(),
-		range = itemNode.getRange(),
-		// Get covering annotations
-		annotations = doc.data.getAnnotationsFromRange( range, false );
+		range = itemNode.getRange();
 
-	var annotation;
-	// The reference consists of one single external link so
-	// offer the user a conversion to citoid-generated reference
-	if (
-		annotations.getLength() === 1 &&
-		( annotation = annotations.get( 0 ) ) instanceof ve.dm.MWExternalLinkAnnotation
-	) {
-		return annotation.getHref();
-	} else if ( range.getLength() === 4 ) {
-		var contentNode = ve.getProp( itemNode, 'children', 0, 'children', 0 );
-		if ( contentNode instanceof ve.dm.MWNumberedExternalLinkNode ) {
-			return contentNode.getHref();
+	// Get all annotations
+	var annotations = doc.data.getAnnotationsFromRange( range, true );
+	var externalLinks = annotations.get().filter( function ( ann ) {
+		return ann instanceof ve.dm.MWExternalLinkAnnotation;
+	} ).map( function ( ann ) {
+		return ann.getHref();
+	} );
+
+	// Find numbered external link nodes
+	itemNode.traverse( function ( node ) {
+		if ( node instanceof ve.dm.MWNumberedExternalLinkNode ) {
+			externalLinks.push( node.getHref() );
 		}
+	} );
+
+	// The reference contains one external link so offer the user
+	// a conversion to citoid-generated reference
+	if ( externalLinks.length === 1 ) {
+		return externalLinks[ 0 ];
 	}
 	return null;
 };
