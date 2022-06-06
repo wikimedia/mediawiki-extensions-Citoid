@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kjeanclaude"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Fa wlou noun",
+	"citoid-citoiddialog-back": "Bé si'n salè",
+	"citoid-citoiddialog-credit": "$1 yô yéli ô",
+	"citoid-citoiddialog-lookup-button": "Yi",
+	"citoid-citoiddialog-mode-auto": "Kpêkoungba",
+	"citoid-citoiddialog-mode-manual": "Bé yé i ni bé sa",
+	"citoid-citoiddialog-mode-reuse": "Fa i ékoun",
+	"citoid-citoiddialog-search": "Kounndè",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, douman, annzè sran nouan noun ndè",
+	"citoid-citoiddialog-search-placeholder": "liké kè nga sa, http://www.example.com/",
+	"citoid-citoiddialog-search-progress": "Bé sou kounndè, amoun yatchi amoun midè...",
+	"citoid-citoiddialog-title": "Fa sran nouan noun ndè koun goua sou",
+	"citoid-citoiddialog-use-general-error-message": "E kloua yiman sran nouan noun ndè koun man man amoun. Amoun kloua fa \"{{int:citoid-citoiddialog-mode-manual}}\" onglet nga ô wo nglo wa, nan amoun a fa yi koun amoun sa noun.",
+	"citoid-citoidtool-title": "Fa sran nouan noun ndè koun goua sou",
+	"citoid-citoidtool-title-othergroup": "Sran nouan noun ndè",
+	"citoid-referencecontextitem-convert-button": "Katchi",
+	"citoid-wb-referenceview-tabs-automatic": "Kpêkoungba",
+	"citoid-wb-referenceview-tabs-search": "kounndè",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, annzè QID:",
+	"citoid-wb-pendingdialog-title": "Yi Sran nouan noun ndè"
+}
