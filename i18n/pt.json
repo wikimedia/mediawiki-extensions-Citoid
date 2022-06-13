@@ -6,7 +6,8 @@
 			"Imperadeiro90",
 			"Macofe",
 			"Nokostya",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Mansil alfalb"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Inserir",
@@ -19,9 +20,9 @@
 	"citoid-citoiddialog-search": "Pesquisar",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, título ou citação",
 	"citoid-citoiddialog-search-placeholder": "ex: http://www.exemplo.com",
-	"citoid-citoiddialog-search-progress": "A pesquisar, por favor aguarde...",
+	"citoid-citoiddialog-search-progress": "Por favor, aguarde, a pesquisar...",
 	"citoid-citoiddialog-title": "Adicionar uma citação",
-	"citoid-citoiddialog-use-general-error-message": "Não conseguimos criar a citação. Pode criar uma manualmente usando o separador \"{{int:citoid-citoiddialog-mode-manual}}\" acima.",
+	"citoid-citoiddialog-use-general-error-message": "Nós não conseguimos criar a citação para si. Pode criar uma manualmente utilizando o separador \"{{int:citoid-citoiddialog-mode-manual}}\" acima.",
 	"citoid-citoidtool-title": "Citar",
 	"citoid-citoidtool-title-othergroup": "Citação",
 	"citoid-desc": "Fornece pontos de acesso entre o serviço citoid e o MediaWiki",
@@ -31,7 +32,7 @@
 	"citoid-wb-referenceview-tabs-automatic": "Automático",
 	"citoid-wb-referenceview-tabs-search": "pesquisar",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ou QID:",
-	"citoid-wb-pendingdialog-error": "Não foi possível geral uma referência a partir desta entrada. use o separador manual ou tente novamente.",
-	"citoid-wb-pendingdialog-message": "A gerar uma referência; aguarde, por favor...",
-	"citoid-wb-pendingdialog-title": "A gerar citação"
+	"citoid-wb-pendingdialog-error": "Não é possível geral uma referência a partir desta entrada. utilize o separador manual, ou tente novamente.",
+	"citoid-wb-pendingdialog-message": "Aguarde, por favor, a gerar uma referência...",
+	"citoid-wb-pendingdialog-title": "Criação da Citação"
 }
