@@ -273,7 +273,7 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 			this.autoProcessStack.setItem( this.autoProcessPanels[ processPanelName ] );
 			switch ( processPanelName ) {
 				case 'lookup':
-					this.lookupInput.setDisabled( false ).focus().select();
+					this.lookupInput.setDisabled( false ).select();
 					break;
 				case 'result':
 					this.previewSelectWidget.items[ 0 ].focus();
@@ -645,14 +645,16 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 					return $.Deferred().reject();
 				}
 				inspector.lookupFailed();
+				// Restore focus to the input field.
+				// Definitely don't do this on success and focusing a hidden input causes jQuery
+				// to prevent it from being focused the next time the inspector is opened (T285626)
+				inspector.lookupInput
+					.setDisabled( false ).focus();
 				return $.Deferred().resolve();
 			} )
 		.always( function () {
-			inspector
-				.lookupInput
+			inspector.lookupInput
 				.setDisabled( false )
-				// restore focus to the input field
-				.focus()
 				.popPending();
 			inspector.lookupButton.setDisabled( false );
 		} )
