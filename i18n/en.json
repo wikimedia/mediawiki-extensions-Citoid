@@ -21,7 +21,7 @@
 	"citoid-citoidtool-title-othergroup": "Citation",
 	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Convert",
-	"citoid-referencecontextitem-convert-message": "This reference consists of just an external link. You can use the \"{{int:citoid-referencecontextitem-convert-button}}\" button below to generate a properly formatted reference.",
+	"citoid-referencecontextitem-convert-message": "You can use the \"{{int:citoid-referencecontextitem-convert-button}}\" button below to generate a properly formatted reference from the external link.",
 	"citoid-template-type-map.json": "null",
 	"citoid-unknown-error": "An unknown error has occurred that prevented us from creating a citation. Please try again later.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatic",
