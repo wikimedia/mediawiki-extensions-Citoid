@@ -27,7 +27,7 @@
 	"citoid-citoidtool-title-othergroup": "Zitat",
 	"citoid-desc": "Schafft Zugriffspunkte zwischen dem Citoid-Dienst und MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konvertieren",
-	"citoid-referencecontextitem-convert-message": "Dieser Einzelnachweis besteht nur aus einem Weblink. Du kannst unten die Schaltfläche „{{int:citoid-referencecontextitem-convert-button}}“ verwenden, um einen korrekt formatierten Einzelnachweis zu erzeugen.",
+	"citoid-referencecontextitem-convert-message": "Du kannst unten die Schaltfläche „{{int:citoid-referencecontextitem-convert-button}}“ verwenden, um einen korrekt formatierten Einzelnachweis von dem externen Link zu erzeugen.",
 	"citoid-unknown-error": "Ein unbekannter Fehler ist aufgetreten, der uns daran hindert, ein Zitat zu erstellen. Bitte später erneut versuchen.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatisch",
 	"citoid-wb-referenceview-tabs-search": "Suchen",
