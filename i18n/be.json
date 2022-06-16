@@ -3,7 +3,8 @@
 		"authors": [
 			"Chadyka",
 			"Goshaproject",
-			"Mechanizatar"
+			"Mechanizatar",
+			"No Sleep till Krupki"
 		]
 	},
 	"citoid-action-replace": "Змяніць тып крыніцы",
@@ -25,7 +26,7 @@
 	"citoid-citoidtool-title-othergroup": "Цытата",
 	"citoid-desc": "Забяспечвае пункты доступу між сэрвісам citoid і MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Пераўтварыць",
-	"citoid-referencecontextitem-convert-message": "Гэтая цытата складаецца з простай вонкавай спасылкі. Вы можаце скарыстацца кнопкай «{{int:citoid-referencecontextitem-convert-button}}» ніжэй, каб стварыць слушнае цытаванне.",
+	"citoid-referencecontextitem-convert-message": "Вы можаце скарыстацца кнопкай «{{int:citoid-referencecontextitem-convert-button}}» ніжэй, каб стварыць слушнае цытаванне з вонкавай спасылкі.",
 	"citoid-unknown-error": "Адбылася невядомая памылка, якая не дала магчымасць стварыць цытату. Калі ласка, паспрабуйце пазней.",
 	"citoid-wb-referenceview-tabs-automatic": "Аўтаматычная",
 	"citoid-wb-referenceview-tabs-search": "пошук",
