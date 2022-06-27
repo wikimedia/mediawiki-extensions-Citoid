@@ -1,8 +1,32 @@
 {
 	"@metadata": {
 		"authors": [
-			"Malikxan"
+			"Malikxan",
+			"Nataev"
 		]
 	},
-	"citoid-citoiddialog-title": "Manba qoʻshish"
+	"citoid-citation-widget-insert-button": "Kiritish",
+	"citoid-citoiddialog-back": "Ortga",
+	"citoid-citoiddialog-credit": "$1 tomonidan qoʻllab-quvvatlanadi",
+	"citoid-citoiddialog-lookup-button": "Yaratish",
+	"citoid-citoiddialog-mode-auto": "Avtomatik",
+	"citoid-citoiddialog-mode-manual": "Qoʻlda",
+	"citoid-citoiddialog-mode-reuse": "Takror foydalanish",
+	"citoid-citoiddialog-search": "Qidiruv",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, sarlavha yoki iqtibos",
+	"citoid-citoiddialog-search-placeholder": "masalan, http://www.misol.com",
+	"citoid-citoiddialog-search-progress": "Izlanmoqda, kuting...",
+	"citoid-citoiddialog-title": "Manba qoʻshish",
+	"citoid-citoiddialog-use-general-error-message": "Siz uchun manba yarata olmadik. Uni yuqoridagi \"{{int:citoid-citoiddialog-mode-manual}}\" vkladkasi bilan qoʻlda yaratishingiz mumkin.",
+	"citoid-citoidtool-title": "Manba",
+	"citoid-citoidtool-title-othergroup": "Manba",
+	"citoid-desc": "Citoid xizmati hamda MediaWiki oʻrtasidagi aloqani taʼminlaydi",
+	"citoid-referencecontextitem-convert-button": "Kovertatsiya qilish",
+	"citoid-unknown-error": "Nomaʼlum xato sodir boʻlgani uchun manba yarata olmadik. Iltimos, keyinroq qaytadan urinib koʻring.",
+	"citoid-wb-referenceview-tabs-automatic": "Avtomatik",
+	"citoid-wb-referenceview-tabs-search": "qidiruv",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN yoki QID:",
+	"citoid-wb-pendingdialog-error": "Kiritgan maʼlumotingiz asosida manba yaratib boʻlmadi. Qoʻlda yarating yoki keyinroq qaytadan urinib koʻring.",
+	"citoid-wb-pendingdialog-message": "Siz uchun manba yaratilyapti... Iltimos, kuting...",
+	"citoid-wb-pendingdialog-title": "Manba yaratilyapti"
 }
