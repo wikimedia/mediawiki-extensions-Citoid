@@ -22,7 +22,7 @@
 	"citoid-citoidtool-title-othergroup": "Navedek",
 	"citoid-desc": "Zagotavlja točke dostopa med storitvama citoid in MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
-	"citoid-referencecontextitem-convert-message": "Sklic vsebuje samo zunanjo povezavo. Uporabite lahko gumb »{{int:citoid-referencecontextitem-convert-button}}« spodaj, da ustvarite ustrezno oblikovan sklic.",
+	"citoid-referencecontextitem-convert-message": "Uporabite lahko gumb »{{int:citoid-referencecontextitem-convert-button}}« spodaj, da ustvarite ustrezno oblikovan sklic iz zunanje povezave.",
 	"citoid-unknown-error": "Pojavila se je neznana napaka, ki je preprečila kreacijo sklica. Prosimo, poskusite znova kasneje.",
 	"citoid-wb-referenceview-tabs-automatic": "Samodejno",
 	"citoid-wb-referenceview-tabs-search": "iskanje",
