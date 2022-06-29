@@ -14,7 +14,9 @@
 			"Stjn",
 			"Sunpriat",
 			"Vlad5250",
-			"Дмитрий"
+			"Дмитрий",
+			"Kareyac",
+			"Pacha Tchernof"
 		]
 	},
 	"citoid-action-replace": "Изменить тип примечания",
@@ -37,7 +39,7 @@
 	"citoid-desc": "Обеспечивает доступ между сервисом Citoid и MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Конвертировать",
 	"citoid-referencecontextitem-convert-message": "Это примечание состоит из простой внешней ссылки. Используйте кнопку «{{int:citoid-referencecontextitem-convert-button}}», чтобы создать правильно сформированное примечание.",
-	"citoid-unknown-error": "Произошла неизвестная ошибка, не позволявшая нам создавать цитату. Пожалуйста, повторите попытку позже.",
+	"citoid-unknown-error": "Возникла неизвестная ошибка, котроая не позволила нам создать цитату. Пожалуйста, попробуйте ещё раз позднее.",
 	"citoid-wb-referenceview-tabs-automatic": "Автоматически",
 	"citoid-wb-referenceview-tabs-search": "поиск",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN или QID:",
