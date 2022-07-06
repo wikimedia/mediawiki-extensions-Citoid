@@ -24,7 +24,7 @@
 	"citoid-citoidtool-title-othergroup": "Zitat",
 	"citoid-desc": "Liwwert Zougrëffspunkten tëscht dem citoid-Service a MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Ëmwandelen",
-	"citoid-referencecontextitem-convert-message": "Dës Referenz besteet just aus engem externe Link. Dir kënnt den \"{{int:citoid-referencecontextitem-convert-button}}\"-Knäppche hei drënner benotze fir eng korrekt formatéiert Referenz ze generéieren.",
+	"citoid-referencecontextitem-convert-message": "Dir kënnt den \"{{int:citoid-referencecontextitem-convert-button}}\"-Knäppche hei drënner benotze fir eng korrekt formatéiert Referenz vum externe Link ze generéieren.",
 	"citoid-unknown-error": "En onbekannte Feeler ass geschitt an deen huet eis et net erlaabt fir en Zitat unzeleeën. Probéiert et méi spéit nach eng Kéier.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatesch",
 	"citoid-wb-referenceview-tabs-search": "sichen",
