@@ -23,6 +23,6 @@
 	"citoid-citoidtool-title-othergroup": "Viide",
 	"citoid-desc": "Tagab teenuse Citoid ja MediaWiki vahelised pääsupunktid.",
 	"citoid-referencecontextitem-convert-button": "Teisenda",
-	"citoid-referencecontextitem-convert-message": "See viide koosneb vaid välislingist. Saad kasutada alljärgnevat nuppu \"{{int:citoid-referencecontextitem-convert-button}}\", et genereerida korralikult vormistatud viide.",
+	"citoid-referencecontextitem-convert-message": "Saad kasutada alljärgnevat nuppu \"{{int:citoid-referencecontextitem-convert-button}}\", et genereerida välislingist korralikult vormistatud viide.",
 	"citoid-unknown-error": "Ilmnes tundmatu tõrge, mis takistas viite loomist. Palun proovi hiljem uuesti."
 }
