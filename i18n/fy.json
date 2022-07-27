@@ -25,7 +25,7 @@
 	"citoid-citoidtool-title-othergroup": "Sitaat",
 	"citoid-desc": "Jout tagongspunten tusken de citoid-tsjinst en MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Omsette",
-	"citoid-referencecontextitem-convert-message": "Dizze referinsje is allinnich mar in eksterne ferwizing. Jo kinne de knop \"{{int:citoid-referencecontextitem-convert-button}}\" hjirûnder brûke om in referinsje mei de goede opmaak te generearjen.",
+	"citoid-referencecontextitem-convert-message": "Jo kinne de knop \"{{int:citoid-referencecontextitem-convert-button}}\" hjirûnder brûke om út 'e eksterne ferwizing in referinsje mei de goede opmaak te generearjen.",
 	"citoid-unknown-error": "In ûnbekende flater die him foar, dy't ús it oanmeitsjen fan 't sitaat behindere. Besykje it letter nochris.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatysk",
 	"citoid-wb-referenceview-tabs-search": "sykje",
