@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"TayfunEt."
+		]
+	},
+	"citoid-citation-widget-insert-button": "Goýmak",
+	"citoid-citoiddialog-back": "Yzyna",
+	"citoid-citoiddialog-credit": "$1 bilen işleýär",
+	"citoid-citoiddialog-lookup-button": "Dörediň",
+	"citoid-citoiddialog-mode-auto": "Awtomat",
+	"citoid-citoiddialog-mode-manual": "El bilen",
+	"citoid-citoiddialog-mode-reuse": "Gaýtadan ulanyň",
+	"citoid-citoiddialog-search": "Gözle",
+	"citoid-citoiddialog-search-progress": "Gözleýärsiňiz, garaşyň...",
+	"citoid-citoiddialog-title": "Sitata goşuň"
+}

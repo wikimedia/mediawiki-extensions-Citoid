@@ -17,7 +17,7 @@
 	"citoid-citoiddialog-search-placeholder": "masalan, http://www.misol.com",
 	"citoid-citoiddialog-search-progress": "Izlanmoqda, kuting...",
 	"citoid-citoiddialog-title": "Manba qoʻshish",
-	"citoid-citoiddialog-use-general-error-message": "Siz uchun manba yarata olmadik. Uni yuqoridagi \"{{int:citoid-citoiddialog-mode-manual}}\" vkladkasi bilan qoʻlda yaratishingiz mumkin.",
+	"citoid-citoiddialog-use-general-error-message": "Siz uchun manba yarata olmadik. Uni yuqoridagi „{{int:citoid-citoiddialog-mode-manual}}“ varagʻi bilan qoʻlda yaratishingiz mumkin.",
 	"citoid-citoidtool-title": "Manba",
 	"citoid-citoidtool-title-othergroup": "Manba",
 	"citoid-desc": "Citoid xizmati hamda MediaWiki oʻrtasidagi aloqani taʼminlaydi",

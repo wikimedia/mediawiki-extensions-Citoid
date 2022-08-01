@@ -9,7 +9,8 @@
 			"Magol",
 			"WikiPhoenix",
 			"Mvolz",
-			"Sabelöga"
+			"Sabelöga",
+			"Yupik"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Infoga",
@@ -33,7 +34,7 @@
 	"citoid-unknown-error": "Ett okänt fel har inträffat som hindrade oss från att skapa en referens. Vänligen försök igen senare.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatisk",
 	"citoid-wb-referenceview-tabs-search": "sök",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, eller QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN eller QID:",
 	"citoid-wb-pendingdialog-error": "Kunde inte generera en referens från denna inmatning. Använd den manuella fliken eller försök igen.",
 	"citoid-wb-pendingdialog-message": "Genererar en referens åt dig... Var god vänta...",
 	"citoid-wb-pendingdialog-title": "Skapar referens"
