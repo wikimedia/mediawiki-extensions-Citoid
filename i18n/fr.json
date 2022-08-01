@@ -31,7 +31,7 @@
 	"citoid-citoiddialog-search-progress": "Recherche en cours, veuillez patienter...",
 	"citoid-citoiddialog-title": "Ajouter une source",
 	"citoid-citoiddialog-title-replace": "Remplacer la citation",
-	"citoid-citoiddialog-use-general-error-message": "Nous ne pouvons pas faire une citation pour vous. Vous pouvez en créer une manuellement en utilisant l’onglet « {{int:citoid-citoiddialog-mode-manual}} » ci-dessus.",
+	"citoid-citoiddialog-use-general-error-message": "Nous n’avons pu créer de référence pour vous. Vous pouvez en créer une manuellement en utilisant l’onglet « {{int:citoid-citoiddialog-mode-manual}} » ci-dessus.",
 	"citoid-citoidtool-title": "Sourcer",
 	"citoid-citoidtool-title-othergroup": "Citation",
 	"citoid-desc": "Offre des points d’accès entre le service ''citoid'' et MediaWiki",
