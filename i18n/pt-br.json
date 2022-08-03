@@ -8,7 +8,8 @@
 			"SaldırganSincap",
 			"TheEduGobi",
 			"TheGabrielZaum",
-			"WikiUser22222"
+			"WikiUser22222",
+			"YuriNikolai"
 		]
 	},
 	"citoid-action-replace": "Alterar o tipo de referência",
@@ -30,7 +31,7 @@
 	"citoid-citoidtool-title-othergroup": "Citação",
 	"citoid-desc": "Fornece pontos de acesso entre o serviço citoid e o MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Converter",
-	"citoid-referencecontextitem-convert-message": "Esta referência consiste apenas em um link externo. Você pode usar o botão \"{{int:citoid-referencecontextitem-convert-button}}\" abaixo para gerar uma referência corretamente formatada.",
+	"citoid-referencecontextitem-convert-message": "Você pode usar o botão \"{{int:citoid-referencecontextitem-convert-button}}\" abaixo para gerar uma referência corretamente formatada a partir do link externo.",
 	"citoid-unknown-error": "Ocorreu um erro desconhecido que nos impediu de criar uma citação. Tente de novo mais tarde.",
 	"citoid-wb-referenceview-tabs-automatic": "Automático",
 	"citoid-wb-referenceview-tabs-search": "Pesquisar",
