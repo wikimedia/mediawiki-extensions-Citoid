@@ -3,7 +3,8 @@
 		"authors": [
 			"Fulup",
 			"Y-M D",
-			"Adriendelucca"
+			"Adriendelucca",
+			"Huñvreüs"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ensoc'hañ",
@@ -23,5 +24,6 @@
 	"citoid-referencecontextitem-convert-button": "Amdreiñ",
 	"citoid-wb-referenceview-tabs-automatic": "Emgefre",
 	"citoid-wb-referenceview-tabs-search": "klask",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, pe QID:",
 	"citoid-wb-pendingdialog-title": "O genel ur meneg"
 }
