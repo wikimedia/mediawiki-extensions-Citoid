@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bada Kaji",
 			"Nirajan pant",
 			"Nirjal stha",
 			"जनक राज भट्ट",
@@ -26,5 +27,6 @@
 	"citoid-desc": "मेडियाविकी र साइटोइड सेवाको पहुँचत विन्दु प्रदान गर्दछ",
 	"citoid-referencecontextitem-convert-button": "रूपान्तरण गर्नुहोस्",
 	"citoid-referencecontextitem-convert-message": "यस सन्दर्भमा बाहिरी लिङ्क मात्र छ You can use the \"{{int:citoid-referencecontextitem-convert-button}}\" button below to generate a properly formatted reference.",
-	"citoid-wb-referenceview-tabs-automatic": "स्वचालित"
+	"citoid-wb-referenceview-tabs-automatic": "स्वचालित",
+	"citoid-wb-referenceview-tabs-search": "खोज्नुहोस्"
 }
