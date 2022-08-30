@@ -7,6 +7,7 @@
 			"Huñvreüs"
 		]
 	},
+	"citoid-action-replace": "Kemmañ seurt an daveenn",
 	"citoid-citation-widget-insert-button": "Ensoc'hañ",
 	"citoid-citoiddialog-back": "Distreiñ",
 	"citoid-citoiddialog-credit": "O vont en-dro gant $1",
@@ -20,11 +21,13 @@
 	"citoid-citoiddialog-search-progress": "O klask, gortozit mar plij...",
 	"citoid-citoiddialog-title": "Ouzhpennañ ur meneg",
 	"citoid-citoiddialog-title-replace": "Erlec'hiañ ar meneg",
+	"citoid-citoiddialog-use-general-error-message": "N’eo ket bet posubl aozañ un daveenn evitoc’h. Gallout a rit krouiñ unan dre zorn en un ober gant ar steudenn \"{{int:citoid-citoiddialog-mode-manual}}\" a-us.",
 	"citoid-citoidtool-title": "Menegiñ",
 	"citoid-citoidtool-title-othergroup": "Arroud",
 	"citoid-referencecontextitem-convert-button": "Amdreiñ",
 	"citoid-wb-referenceview-tabs-automatic": "Emgefre",
 	"citoid-wb-referenceview-tabs-search": "klask",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, pe QID:",
+	"citoid-wb-pendingdialog-message": "Oc’h aozañ un daveenn evitoc’h… gortozit mar plij…",
 	"citoid-wb-pendingdialog-title": "O genel ur meneg"
 }
