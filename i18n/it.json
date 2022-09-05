@@ -13,6 +13,7 @@
 			"Selven",
 			"Senpremì",
 			"Stefano",
+			"Vivbod",
 			"^musaz"
 		]
 	},
@@ -39,5 +40,8 @@
 	"citoid-unknown-error": "Si è verificato un errore sconosciuto che ha impedito la creazione di una citazione. Si prega di riprovare più tardi.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatico",
 	"citoid-wb-referenceview-tabs-search": "cerca",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, o QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, o QID:",
+	"citoid-wb-pendingdialog-error": "Impossibile generare un riferimento da questo input. Usa il manuale o prova di nuovo.",
+	"citoid-wb-pendingdialog-message": "Generazione di un riferimento per te... per favore attendi...",
+	"citoid-wb-pendingdialog-title": "Generando Citazione"
 }
