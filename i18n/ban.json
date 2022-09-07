@@ -23,7 +23,7 @@
 	"citoid-citoidtool-title-othergroup": "Anggit",
 	"citoid-desc": "Nyadiayang titik aksés riantara layanan anggitan tur MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konvérsi",
-	"citoid-referencecontextitem-convert-message": "Pustaka puniki wantah madaging pranala jaba. Ragané prasida nganggén tombol \"{{int:citoid-referencecontextitem-convert-button}}\" ring sor antuk antuk pustaka sané sampun kaformat becik.",
+	"citoid-referencecontextitem-convert-message": "Ragané prasida nganggén tombol \"{{int:citoid-referencecontextitem-convert-button}}\" ring sor antuk antuk pustaka sané sampun kaformat becik saking pranala jaba",
 	"citoid-unknown-error": "Galat sané nénten kauningin sané ngempetin iraga ngardi anggitan. Durus ingayang malih jebos.",
 	"citoid-wb-referenceview-tabs-automatic": "Otomatis",
 	"citoid-wb-referenceview-tabs-search": "rereh",
