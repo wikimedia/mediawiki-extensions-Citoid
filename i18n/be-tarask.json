@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Red Winged Duck",
-			"Renessaince"
+			"Renessaince",
+			"Vlad5250"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Уставіць",
@@ -25,5 +26,6 @@
 	"citoid-referencecontextitem-convert-message": "Гэтая спасылка складаецца з простай вонкавай спасылкі. Вы можаце скарыстацца кнопкай «{{int:citoid-referencecontextitem-convert-button}}», каб сфармаваць правільную спасылку.",
 	"citoid-unknown-error": "Адбылася невядомая памылка, якая не дала магчымасьць стварыць цытату. Калі ласка, паспрабуйце пазьней.",
 	"citoid-wb-referenceview-tabs-automatic": "Аўтаматычна",
-	"citoid-wb-referenceview-tabs-search": "пошук"
+	"citoid-wb-referenceview-tabs-search": "пошук",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ці QID:"
 }
