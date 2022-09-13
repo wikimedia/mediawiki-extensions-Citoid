@@ -6,9 +6,11 @@
 			"जनक राज भट्ट",
 			"बिप्लब आनन्द",
 			"सरोज कुमार ढकाल",
-			"Bada Kaji"
+			"Bada Kaji",
+			"बडा काजी"
 		]
 	},
+	"citoid-action-replace": "सन्दर्भ प्रकार परिवर्तन गर्नुहोस्",
 	"citoid-citation-widget-insert-button": "घुसाउनुहोस्",
 	"citoid-citoiddialog-back": "पछाडि",
 	"citoid-citoiddialog-credit": "$1 द्वारा प्रवर्धित",
@@ -21,6 +23,7 @@
 	"citoid-citoiddialog-search-placeholder": "उदाहरण http://www.example.com",
 	"citoid-citoiddialog-search-progress": "खोज्दै , पर्खनुहोस् ....",
 	"citoid-citoiddialog-title": "सन्दर्भ थप्नुहोस्",
+	"citoid-citoiddialog-title-replace": "सन्दर्भ बदल्नुहोस्",
 	"citoid-citoiddialog-use-general-error-message": "तपाईँको लागि सन्दर्भ बनाउन सकिएन माथिको \"{{int:citoid-citoiddialog-mode-manual}}\" ट्याब प्रयोग गरेर आफैँ सिर्जना गर्न सक्नुहुन्छ।",
 	"citoid-citoidtool-title": "सन्दर्भ राख्ने",
 	"citoid-citoidtool-title-othergroup": "सन्दर्भहरू",
