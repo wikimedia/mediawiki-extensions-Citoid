@@ -1,12 +1,34 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vlad5250"
+			"Vlad5250",
+			"Keresturec"
 		]
 	},
+	"citoid-action-replace": "Пременїц файту референци",
 	"citoid-citation-widget-insert-button": "Уруц",
 	"citoid-citoiddialog-back": "Назад",
+	"citoid-citoiddialog-credit": "Порушане з боку $1",
+	"citoid-citoiddialog-lookup-button": "Ґенеруй",
+	"citoid-citoiddialog-mode-auto": "Автоматски",
+	"citoid-citoiddialog-mode-manual": "Ручни",
+	"citoid-citoiddialog-mode-reuse": "Повторне",
 	"citoid-citoiddialog-search": "Глєдай",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, наслов, або цитат",
+	"citoid-citoiddialog-search-placeholder": "наприклад, http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Преглєдованє, модлїм вас причекайце...",
+	"citoid-citoiddialog-title": "Додаванє референци",
+	"citoid-citoiddialog-title-replace": "Заменїц референцу",
+	"citoid-citoiddialog-use-general-error-message": "Нє можлїве ґенеровац референцу. Можеце ю унєсц ручно хаснуюци карточку „{{int:citoid-citoiddialog-mode-manual}}” на табу понад.",
+	"citoid-citoidtool-title": "Референца",
 	"citoid-citoidtool-title-othergroup": "Цитированє",
-	"citoid-wb-referenceview-tabs-search": "глєдай"
+	"citoid-desc": "Оможлївює повязаносц  медзи сервисом citoid и MediaWiki-йом",
+	"citoid-referencecontextitem-convert-button": "Конвертовац",
+	"citoid-unknown-error": "Пришло до нєпознатей гришки хтора онєможлївює ґенерованє референци. Пробуйце ознова познєйше.",
+	"citoid-wb-referenceview-tabs-automatic": "Автоматски",
+	"citoid-wb-referenceview-tabs-search": "глєдай",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN або QID:",
+	"citoid-wb-pendingdialog-error": "Нє можлїве ґенеровац референцу з того уносу. Похаснуйце карточку „Ручно” або попробуйце ознова познєйше.",
+	"citoid-wb-pendingdialog-message": "Ґенеруєме референцу...модлїм, причекайце...",
+	"citoid-wb-pendingdialog-title": "Ґенерованє референци"
 }
