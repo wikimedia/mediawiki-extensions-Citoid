@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Red Winged Duck",
-			"Renessaince"
+			"Renessaince",
+			"Vlad5250"
 		]
 	},
+	"citoid-action-replace": "Зьмяніць тып спасылкі",
 	"citoid-citation-widget-insert-button": "Уставіць",
 	"citoid-citoiddialog-back": "Назад",
 	"citoid-citoiddialog-credit": "Пры падтрымцы $1",
@@ -17,13 +19,15 @@
 	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ідзе пошук, калі ласка, пачакайце…",
 	"citoid-citoiddialog-title": "Дадаць цытату",
+	"citoid-citoiddialog-title-replace": "Замяніць цытаваньне",
 	"citoid-citoiddialog-use-general-error-message": "У нас не атрымалася зрабіць цытату для вас. Вы можаце стварыць яе самі з дапамогай укладкі «{{int:citoid-citoiddialog-mode-manual}}» вышэй.",
 	"citoid-citoidtool-title": "Цытаваць",
 	"citoid-citoidtool-title-othergroup": "Цытата",
 	"citoid-desc": "Забясьпечвае пункты дасягу між сэрвісам citoid і MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Канвэртаваць",
-	"citoid-referencecontextitem-convert-message": "Гэтая спасылка складаецца з простай вонкавай спасылкі. Вы можаце скарыстацца кнопкай «{{int:citoid-referencecontextitem-convert-button}}», каб сфармаваць правільную спасылку.",
+	"citoid-referencecontextitem-convert-message": "Вы можаце скарыстацца кнопкай «{{int:citoid-referencecontextitem-convert-button}}» ніжэй, каб сфармаваць слушнае цытаваньне з вонкавай спасылкі.",
 	"citoid-unknown-error": "Адбылася невядомая памылка, якая не дала магчымасьць стварыць цытату. Калі ласка, паспрабуйце пазьней.",
 	"citoid-wb-referenceview-tabs-automatic": "Аўтаматычна",
-	"citoid-wb-referenceview-tabs-search": "пошук"
+	"citoid-wb-referenceview-tabs-search": "пошук",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ці QID:"
 }
