@@ -29,7 +29,7 @@
 	"citoid-citoidtool-title-othergroup": "उद्धरण",
 	"citoid-desc": "Citoid सेवा और मीडियाविकि के बीच अभिगम बिंदुएँ का प्रदान करता है",
 	"citoid-referencecontextitem-convert-button": "बदलें",
-	"citoid-referencecontextitem-convert-message": "सन्दर्भ में सिर्फ बाहरी कड़ी है। आप \"{{int:citoid-referencecontextitem-convert-button}}\" बटन की मदद से सही प्रारूप वाला सन्दर्भ बना सकते हैं।",
+	"citoid-referencecontextitem-convert-message": "आप \"{{int:citoid-referencecontextitem-convert-button}}\" बटन की मदद से सही बाहरी कड़ी से प्रारूपित सन्दर्भ बना सकते हैं।",
 	"citoid-unknown-error": "एक अज्ञात त्रुटि की मदद से हम उद्धरण नहीं बना पाए। कृपया कुछ समय बाद कोशिश करें।",
 	"citoid-wb-referenceview-tabs-automatic": "स्वचालित",
 	"citoid-wb-referenceview-tabs-search": "खोजें",
