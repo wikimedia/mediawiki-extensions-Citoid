@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
+			"Eleassar",
 			"Pinky sl",
 			"Upwinxp"
 		]
@@ -23,7 +24,7 @@
 	"citoid-desc": "Zagotavlja točke dostopa med storitvama citoid in MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
 	"citoid-referencecontextitem-convert-message": "Uporabite lahko gumb »{{int:citoid-referencecontextitem-convert-button}}« spodaj, da ustvarite ustrezno oblikovan sklic iz zunanje povezave.",
-	"citoid-unknown-error": "Pojavila se je neznana napaka, ki je preprečila kreacijo sklica. Prosimo, poskusite znova kasneje.",
+	"citoid-unknown-error": "Prišlo je do neznane napake, ki je preprečila ustvaritev sklica. Prosimo, poskusite znova pozneje.",
 	"citoid-wb-referenceview-tabs-automatic": "Samodejno",
 	"citoid-wb-referenceview-tabs-search": "iskanje",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ali QID:"
