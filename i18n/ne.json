@@ -25,7 +25,7 @@
 	"citoid-citoiddialog-title": "सन्दर्भ थप्नुहोस्",
 	"citoid-citoiddialog-title-replace": "सन्दर्भ बदल्नुहोस्",
 	"citoid-citoiddialog-use-general-error-message": "तपाईँको लागि सन्दर्भ बनाउन सकिएन माथिको \"{{int:citoid-citoiddialog-mode-manual}}\" ट्याब प्रयोग गरेर आफैँ सिर्जना गर्न सक्नुहुन्छ।",
-	"citoid-citoidtool-title": "सन्दर्भ राख्ने",
+	"citoid-citoidtool-title": "सन्दर्भ थप्नुहोस्",
 	"citoid-citoidtool-title-othergroup": "सन्दर्भहरू",
 	"citoid-desc": "मेडियाविकी र साइटोइड सेवाको पहुँचत विन्दु प्रदान गर्दछ",
 	"citoid-referencecontextitem-convert-button": "रूपान्तरण गर्नुहोस्",
