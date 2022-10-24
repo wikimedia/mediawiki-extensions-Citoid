@@ -19,7 +19,7 @@
 	"citoid-citoiddialog-search": "Søk",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tittel eller sitering",
 	"citoid-citoiddialog-search-placeholder": "f.eks. http://www.example.com",
-	"citoid-citoiddialog-search-progress": "Søker, vennligst vent…",
+	"citoid-citoiddialog-search-progress": "Søker, vennligst vent …",
 	"citoid-citoiddialog-title": "Legg til en sitering",
 	"citoid-citoiddialog-use-general-error-message": "Klarte ikke å lage en automatisk sitering. Du kan lage en manuelt ved å bruke arkfanen «{{int:citoid-citoiddialog-mode-manual}}» ovenfor.",
 	"citoid-citoidtool-title": "Siter",
