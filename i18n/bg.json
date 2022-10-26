@@ -27,7 +27,7 @@
 	"citoid-citoidtool-title-othergroup": "Цитат",
 	"citoid-desc": "Осигурява връзка между услугата Citoid и МедияУики",
 	"citoid-referencecontextitem-convert-button": "Конвертиране",
-	"citoid-referencecontextitem-convert-message": "Източникът съдържа единствено външна препратка. Можете да ползвате бутона „{{int:citoid-referencecontextitem-convert-button}}“ по-долу за генериране на правилно форматиран източник.",
+	"citoid-referencecontextitem-convert-message": "Можете да ползвате бутона „{{int:citoid-referencecontextitem-convert-button}}“ по-долу за генериране на правилно форматиран източник от външната препратка.",
 	"citoid-unknown-error": "Възникна неизвестна грешка, която ни попречи да създадем цитат. Моля, опитайте по-късно.",
 	"citoid-wb-referenceview-tabs-automatic": "Автоматично",
 	"citoid-wb-referenceview-tabs-search": "търсене",
