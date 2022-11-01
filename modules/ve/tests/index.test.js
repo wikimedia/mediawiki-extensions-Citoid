@@ -1866,6 +1866,18 @@ QUnit.module( 'ext.citoid' );
 					},
 					last2: {
 						wt: 'First2 Last2'
+					},
+					last3: {
+						wt: 'First3 Last3'
+					},
+					last4: {
+						wt: 'First4 Last4'
+					},
+					last5: {
+						wt: 'First5 Last5'
+					},
+					last6: {
+						wt: 'First6 Last6'
 					}
 				},
 				i: 0
@@ -1881,7 +1893,11 @@ QUnit.module( 'ext.citoid' );
 				],
 				author: [
 					[ 'First', 'Last' ],
-					[ 'First2', 'Last2' ]
+					[ 'First2', 'Last2' ],
+					[ 'First3', 'Last3' ],
+					[ 'First4', 'Last4' ],
+					[ 'First5', 'Last5' ],
+					[ 'First6', 'Last6' ]
 				]
 			},
 			maps = {
@@ -1902,7 +1918,11 @@ QUnit.module( 'ext.citoid' );
 					author: [ // Mismatched template data - should be 2D Array
 						'last',
 						'last2',
-						'last3'
+						'last3',
+						'last4',
+						'last5',
+						'last6',
+						'last7'
 					],
 					editor: [
 						[ 'editor-first', 'editor-last' ]
@@ -1936,7 +1956,7 @@ QUnit.module( 'ext.citoid' );
 						wt: '978-3-16-148410-0'
 					},
 					last: {
-						wt: 'First Last, First2 Last2'
+						wt: 'First Last, First2 Last2, First3 Last3, First4 Last4, First5 Last5, First6 Last6, First7 Last7, First8 Last8'
 					}
 				},
 				i: 0
@@ -1952,7 +1972,13 @@ QUnit.module( 'ext.citoid' );
 				],
 				author: [
 					[ 'First', 'Last' ],
-					[ 'First2', 'Last2' ]
+					[ 'First2', 'Last2' ],
+					[ 'First3', 'Last3' ],
+					[ 'First4', 'Last4' ],
+					[ 'First5', 'Last5' ],
+					[ 'First6', 'Last6' ],
+					[ 'First7', 'Last7' ],
+					[ 'First8', 'Last8' ]
 				]
 			},
 			maps = {
@@ -1970,7 +1996,7 @@ QUnit.module( 'ext.citoid' );
 					DOI: 'doi',
 					language: 'language',
 					isbn: [ 'isbn' ],
-					author: 'last', // Bad line of template data - should be 2D array
+					author: 'last', // Allowed flat line of template data - can be 2D array
 					editor: [
 						[ 'editor-first', 'editor-last' ]
 					]
