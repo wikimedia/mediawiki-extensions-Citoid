@@ -820,7 +820,7 @@ ve.ui.CitoidInspector.static.populateTemplate = function ( template, citation ) 
 									)
 								);
 							// Case: Citoid parameter deeper than TD parameter
-							} else if ( templateField[ i ] && typeof templateField[ i ] === 'string' ) {
+							} else {
 								if ( !concat2dField ) {
 									concat2dField = citation[ citoidField ][ i ][ j ];
 								} else {
@@ -849,7 +849,7 @@ ve.ui.CitoidInspector.static.populateTemplate = function ( template, citation ) 
 					}
 				}
 			}
-			// Done iterating; add final citoidConcatValue to TD
+			// Done iterating; add final concatenated field to TD
 			if ( concatCitoidField ) {
 				// Case: Concat value is equivalent to flat templateField value
 				if ( templateField && typeof templateField === 'string' ) {
