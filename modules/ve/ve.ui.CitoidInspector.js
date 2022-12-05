@@ -567,6 +567,14 @@ ve.ui.CitoidInspector.prototype.getActionProcess = function ( action ) {
 		return new OO.ui.Process( function () {
 			// Clear the results
 			this.clearResults();
+			// Common case: entering a number here and assuming it'll work to reuse an existing citation:
+			var search = this.lookupInput.getValue();
+			if ( !isNaN( search ) && parseInt( search, 10 ) < 1000 ) {
+				// Fairly arbitrary limitation assuming that numbers below 1000 aren't going to refer to anything else.
+				this.setModePanel( 'reuse' );
+				this.search.query.setValue( search );
+				return;
+			}
 			// Look up
 			return this.performLookup();
 		}, this );
