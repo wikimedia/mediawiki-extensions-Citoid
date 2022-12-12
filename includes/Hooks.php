@@ -55,7 +55,12 @@ class Hooks {
 		}
 		$lookup = WikibaseRepo::getEntityNamespaceLookup();
 		if ( $lookup->isEntityNamespace( $out->getTitle()->getNamespace() ) ) {
-			$out->addModules( 'ext.citoid.wikibase.init' );
+			$services = MediaWikiServices::getInstance();
+			$isMobileView = ExtensionRegistry::getInstance()->isLoaded( 'MobileFrontend' ) &&
+				$services->getService( 'MobileFrontend.Context' )->shouldDisplayMobileView();
+			if ( !$isMobileView ) {
+				$out->addModules( 'ext.citoid.wikibase.init' );
+			}
 		}
 	}
 
