@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Ernác",
-			"Iltever"
+			"Iltever",
+			"Къарачайлы"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Сал",
-	"citoid-citoiddialog-back": "Артха",
+	"citoid-citoiddialog-back": "Кери",
 	"citoid-citoiddialog-lookup-button": "Джарат",
 	"citoid-citoiddialog-mode-auto": "Автомат халда",
 	"citoid-citoiddialog-mode-manual": "Къол режим",
