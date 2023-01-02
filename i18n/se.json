@@ -1,12 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jon Harald Søby (WMNO)"
+			"Jon Harald Søby (WMNO)",
+			"Kimberli Mäkäräinen (WMNO)"
 		]
 	},
+	"citoid-citation-widget-insert-button": "Lasit",
+	"citoid-citoiddialog-back": "Ruovttoluotta",
 	"citoid-citoiddialog-mode-auto": "Automáhtalaččat",
 	"citoid-citoiddialog-mode-manual": "Manuálalaš",
 	"citoid-citoiddialog-mode-reuse": "Nuppádasatnu",
+	"citoid-citoiddialog-search": "Oza",
 	"citoid-citoiddialog-title": "Lasit sitáhta",
-	"citoid-citoidtool-title": "Sitere"
+	"citoid-citoidtool-title": "Sitere",
+	"citoid-wb-referenceview-tabs-automatic": "Automáhtalaš",
+	"citoid-wb-referenceview-tabs-search": "oza",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN dahje QID:"
 }
