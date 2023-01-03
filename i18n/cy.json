@@ -3,7 +3,8 @@
 		"authors": [
 			"Ed g2s",
 			"Jdforrester",
-			"Robin Owain"
+			"Robin Owain",
+			"Afalau"
 		]
 	},
 	"citoid-action-replace": "Newid y math o gyfeiriad",
@@ -14,10 +15,16 @@
 	"citoid-citoiddialog-mode-auto": "Awtomatig",
 	"citoid-citoiddialog-mode-manual": "Wrth law",
 	"citoid-citoiddialog-mode-reuse": "Ailddefnyddio",
+	"citoid-citoiddialog-search": "Chwilio",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN neu PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "e.e. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Wrthi'n chwilio, arhoswch...",
+	"citoid-citoiddialog-title": "Ychwanegu dyfyniad",
 	"citoid-citoiddialog-title-replace": "Ailosod y dyfyniad",
 	"citoid-citoidtool-title": "Cyfeirio",
 	"citoid-citoidtool-title-othergroup": "Cyfeiriad",
-	"citoid-referencecontextitem-convert-button": "Trosi"
+	"citoid-referencecontextitem-convert-button": "Trosi",
+	"citoid-wb-referenceview-tabs-automatic": "Awtomatig",
+	"citoid-wb-referenceview-tabs-search": "chwilio",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, neu QID:"
 }
