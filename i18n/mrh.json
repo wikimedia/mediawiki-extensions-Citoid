@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chhithai"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Khô",
+	"citoid-citoiddialog-back": "Kua",
+	"citoid-citoiddialog-credit": "$1 ta a vao",
+	"citoid-citoiddialog-lookup-button": "Tao papua",
+	"citoid-citoiddialog-mode-auto": "Anotata",
+	"citoid-citoiddialog-mode-manual": "Ku ta",
+	"citoid-citoiddialog-mode-reuse": "Hmâh heih",
+	"citoid-citoiddialog-search": "Tlua",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, chôtlâhpi, cvk atlychakana",
+	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "A tlua hai, hâ chy bei teh...",
+	"citoid-citoiddialog-title": "Atlychakana sâkha khô",
+	"citoid-citoiddialog-use-general-error-message": "Nâma châta atlychakana tao thei mapi. A chô lia hmie la, \"{{int:citoid-citoiddialog-mode-manual}}\" he hmâpa ta nâma tlaita nâ tao thei.",
+	"citoid-citoidtool-title": "Atlychaka",
+	"citoid-citoidtool-title-othergroup": "Atlychakana",
+	"citoid-desc": "Citiod chakaona nata Mediawihi liakah lia access point-zy zy pie teh",
+	"citoid-referencecontextitem-convert-button": "Pathlai",
+	"citoid-unknown-error": "Atlychakana sâ kha taona tawh miah pakhâ khâh hawpa pahno leipa pâna a chhichâ haw. He tawhta azaoh via bei mah y.",
+	"citoid-wb-referenceview-tabs-automatic": "Anotata",
+	"citoid-wb-referenceview-tabs-search": "tlua",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, cvk QID:",
+	"citoid-wb-pendingdialog-error": "He khôna tawh atlychakana a tao thei vei. pôhpa tab hmâh teh, cvk azaoh via teh.",
+	"citoid-wb-pendingdialog-message": "Atlychakana eima cha taopa hai... hâ chy bei teh...",
+	"citoid-wb-pendingdialog-title": "Atlychakana Taona"
+}
