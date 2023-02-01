@@ -22,6 +22,7 @@
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Търсене, моля изчакайте...",
 	"citoid-citoiddialog-title": "Добавяне на цитат",
+	"citoid-citoiddialog-title-replace": "Замяна на цитиране",
 	"citoid-citoiddialog-use-general-error-message": "Не успяхме да създадем цитат. Можете да създадете такъв ръчно като ползвате  „{{int:citoid-citoiddialog-mode-manual}}“ по-горе.",
 	"citoid-citoidtool-title": "Цитиране",
 	"citoid-citoidtool-title-othergroup": "Цитат",
