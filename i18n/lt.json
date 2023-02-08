@@ -16,6 +16,7 @@
 	"citoid-citoiddialog-mode-auto": "Automatinis",
 	"citoid-citoiddialog-mode-manual": "Instrukcija",
 	"citoid-citoiddialog-mode-reuse": "Naudoti pakartotinai",
+	"citoid-citoiddialog-search": "Ieškoti",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN arba PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "pvz. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ieškoma, prašom palaukti...",
@@ -26,5 +27,6 @@
 	"citoid-referencecontextitem-convert-button": "Konvertuoti",
 	"citoid-referencecontextitem-convert-message": "Šis šaltinis susideda tik iš išorinės nuorodos. Jūs galite naudoti \"{{int:citoid-referencecontextitem-convert-button}}\" mygtuką, esantį žemiau, norėdami sugeneruoti tinkamai suformatuotą šaltinį.",
 	"citoid-unknown-error": "Įvyko nežinoma klaida, dėl kurios nepavyko sukurti citatos. Prašome vėliau pabandyti dar kartą.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatinis",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:"
 }
