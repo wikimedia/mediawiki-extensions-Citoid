@@ -5,8 +5,14 @@
 		]
 	},
 	"citoid-citation-widget-insert-button": "Nzirisci",
+	"citoid-citoiddialog-back": "N'arreri",
+	"citoid-citoiddialog-mode-manual": "Manuali",
+	"citoid-citoiddialog-search": "Arricerca",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tìtulu o citazzioni",
+	"citoid-citoiddialog-search-placeholder": "p'asempiu http://www.example.com",
 	"citoid-citoiddialog-title": "Agghiunci na citazzioni",
 	"citoid-citoidtool-title-othergroup": "Citazzioni",
-	"citoid-wb-referenceview-tabs-automatic": "Automàticu"
+	"citoid-wb-referenceview-tabs-automatic": "Automàticu",
+	"citoid-wb-referenceview-tabs-search": "arricerca",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, o QID:"
 }
