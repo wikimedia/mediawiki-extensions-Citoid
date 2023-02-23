@@ -58,7 +58,10 @@ ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel,
 		{ type: '/paragraph' },
 		{ type: 'internalList' },
 		{ type: '/internalList' }
-	] );
+	// There are no nested references, and this doc is never
+	// merged with another doc, so set copyInternalList=false
+	// and detachedCopy=true
+	], false, true );
 
 	var node = doc.getDocumentNode().getChildren()[ 0 ];
 	this.preview = new ve.ui.MWPreviewElement( node );
