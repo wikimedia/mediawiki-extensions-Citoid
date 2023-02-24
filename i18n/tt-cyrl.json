@@ -29,5 +29,8 @@
 	"citoid-unknown-error": "Билгесез хата барлыкка килде, шуның аркасында өзекне төзү мөмкин түгел. Зинһар, соңрак кабатлап карагыз.",
 	"citoid-wb-referenceview-tabs-automatic": "Үзлегеннән",
 	"citoid-wb-referenceview-tabs-search": "эзләү",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN яки QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN яки QID:",
+	"citoid-wb-pendingdialog-error": "Бу кертемнән искәрмә төзеп булмый. Кыстыргычны кулдан кулланыгыз яки тагын бер тапкыр эшләп карагыз.",
+	"citoid-wb-pendingdialog-message": "Сезнең өчен сылтама төзү... бераз гына көтегез, зинһар...",
+	"citoid-wb-pendingdialog-title": "Чыганакны төзү"
 }
