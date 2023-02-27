@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ерней",
-			"Ильнар"
+			"Ильнар",
+			"Ильгиз"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Кертеп кую",
@@ -17,6 +18,7 @@
 	"citoid-citoiddialog-search-placeholder": "мәсәлән, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Эзләү бара, көтегез әле…",
 	"citoid-citoiddialog-title": "Чыганакка сылтама өстәү",
+	"citoid-citoiddialog-use-general-error-message": "Без сезнең өчен өзекне төзи алмадык. Аны, югарыдагы «{{int:citoid-citoiddialog-mode-manual}}» чыгартманы кулланып, кулдан ясарга була.",
 	"citoid-citoidtool-title": "Чыганакка җибәрү",
 	"citoid-citoidtool-title-othergroup": "Чыганакка җибәрү",
 	"citoid-desc": "Citoid сервисы һәм Медиавики арасында аралашу мөмкинлеген тәэмин итә.",
@@ -25,5 +27,8 @@
 	"citoid-unknown-error": "Билгесез хата барлыкка килде, шуның аркасында өзекне төзү мөмкин түгел. Зинһар, соңрак кабатлап карагыз.",
 	"citoid-wb-referenceview-tabs-automatic": "Үзлегеннән",
 	"citoid-wb-referenceview-tabs-search": "эзләү",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN яки QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN яки QID:",
+	"citoid-wb-pendingdialog-error": "Бу кертемнән искәрмә төзеп булмый. Кыстыргычны кулдан кулланыгыз яки тагын бер тапкыр эшләп карагыз.",
+	"citoid-wb-pendingdialog-message": "Сезнең өчен сылтама төзү... бераз гына көтегез, зинһар...",
+	"citoid-wb-pendingdialog-title": "Чыганакны төзү"
 }
