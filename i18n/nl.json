@@ -14,6 +14,7 @@
 			"Sjoerddebruin"
 		]
 	},
+	"citoid-action-replace": "Referentietype wijzigen",
 	"citoid-citation-widget-insert-button": "Invoegen",
 	"citoid-citoiddialog-back": "Terug",
 	"citoid-citoiddialog-credit": "Aangedreven door $1",
@@ -37,6 +38,7 @@
 	"citoid-wb-referenceview-tabs-automatic": "Automatisch",
 	"citoid-wb-referenceview-tabs-search": "Zoeken",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, of QID:",
+	"citoid-wb-pendingdialog-error": "Kan geen referentie genereren op basis van deze invoer. Gebruik het tabblad voor handmatige generatie of probeer het opnieuw.",
 	"citoid-wb-pendingdialog-message": "Een referentie wordt gegenereerd... een ogenblik geduld alstublieft...",
 	"citoid-wb-pendingdialog-title": "Genereer citaat"
 }
