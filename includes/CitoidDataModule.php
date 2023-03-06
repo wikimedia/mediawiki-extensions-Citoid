@@ -12,9 +12,7 @@
 
 namespace MediaWiki\Extension\Citoid;
 
-use FormatJson;
 use MediaWiki\ResourceLoader as RL;
-use MediaWiki\ResourceLoader\ResourceLoader;
 
 class CitoidDataModule extends RL\Module {
 
@@ -26,14 +24,13 @@ class CitoidDataModule extends RL\Module {
 	 * @return string
 	 */
 	public function getScript( RL\Context $context ) {
-		return 've.init.platform.addMessages(' . FormatJson::encode(
+		return 've.init.platform.addMessages(' . $context->encodeJson(
 			[
 				'citoid-template-type-map.json' =>
 					$context->msg( 'citoid-template-type-map.json' )
 						->inContentLanguage()
 						->plain(),
-			],
-			(bool)ResourceLoader::inDebugMode()
+			]
 		) . ');';
 	}
 
