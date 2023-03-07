@@ -11,7 +11,8 @@
 			"Shirayuki",
 			"Sou0012",
 			"Sujiniku",
-			"Takot"
+			"Takot",
+			"Omotecho"
 		]
 	},
 	"citoid-action-replace": "参考資料タイプを変更",
@@ -33,7 +34,7 @@
 	"citoid-citoidtool-title-othergroup": "引用",
 	"citoid-desc": "citoid サービスとMediaWikiとの間のアクセスポイントを提供する",
 	"citoid-referencecontextitem-convert-button": "変換",
-	"citoid-referencecontextitem-convert-message": "この出典は外部リンクのみで構成されています。下にある「{{int:citoid-referencecontextitem-convert-button}}」ボタンを押して、適切に成形された出典が生成できます。",
+	"citoid-referencecontextitem-convert-message": "下にある「{{int:citoid-referencecontextitem-convert-button}}」ボタンを押すと、外部リンクから適切に成形された出典が生成できます。",
 	"citoid-unknown-error": "不明なエラーが発生したため出典が生成できませんでした。後でやり直してください。",
 	"citoid-wb-referenceview-tabs-automatic": "自動",
 	"citoid-wb-referenceview-tabs-search": "検索",
