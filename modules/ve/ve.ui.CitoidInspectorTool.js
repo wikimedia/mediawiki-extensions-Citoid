@@ -41,7 +41,7 @@ ve.ui.CitoidInspectorTool.static.title = OO.ui.deferMsg(
 );
 ve.ui.CitoidInspectorTool.static.icon = 'quotes';
 ve.ui.CitoidInspectorTool.static.narrowConfig = {
-	title: null
+	displayBothIconAndLabel: false
 };
 ve.ui.CitoidInspectorTool.static.displayBothIconAndLabel = true;
 ve.ui.CitoidInspectorTool.static.group = 'cite';
