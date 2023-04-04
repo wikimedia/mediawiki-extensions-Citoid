@@ -32,7 +32,7 @@
 	"citoid-citoidtool-title-othergroup": "Referens",
 	"citoid-desc": "Tillhandahåller åtkomstpunkter mellan citiod-tjänsten och MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konvertera",
-	"citoid-referencecontextitem-convert-message": "Denna referens består enbart av en extern länk. Du kan använda \"{{int:citoid-referencecontextitem-convert-button}}\"-knappen nedan för att generera en korrekt formaterad referens.",
+	"citoid-referencecontextitem-convert-message": "Du kan använda \"{{int:citoid-referencecontextitem-convert-button}}\"-knappen nedan för att generera en korrekt formaterad referens från den externa länken.",
 	"citoid-unknown-error": "Ett okänt fel har inträffat som hindrade oss från att skapa en referens. Vänligen försök igen senare.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatisk",
 	"citoid-wb-referenceview-tabs-search": "sök",
