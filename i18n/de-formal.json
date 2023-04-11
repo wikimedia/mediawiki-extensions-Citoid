@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"ThisCarthing"
+		]
+	},
+	"citoid-citoiddialog-use-general-error-message": "Wir konnten kein Zitat für Sie erstellen. Sie können eines manuell erstellen, indem Sie den Reiter „{{int:citoid-citoiddialog-mode-manual}}“ oben benutzen.",
+	"citoid-referencecontextitem-convert-message": "Sie können unten die Schaltfläche „{{int:citoid-referencecontextitem-convert-button}}“ verwenden, um einen korrekt formatierten Einzelnachweis von dem externen Link zu erzeugen.",
+	"citoid-wb-pendingdialog-error": "Es war nicht möglich, einen Einzelnachweis aus der Eingabe zu erzeugen. Verwenden Sie den Manuell-Tab oder versuchen Sie es noch einmal.",
+	"citoid-wb-pendingdialog-message": "Erzeuge einen Einzelnachweis für Sie … bitte warten …"
+}
