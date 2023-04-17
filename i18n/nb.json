@@ -32,6 +32,6 @@
 	"citoid-wb-referenceview-tabs-search": "søk",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN eller QID:",
 	"citoid-wb-pendingdialog-error": "Kunne ikke generere en referanse ut fra dette. Bruk den manuelle fanen, eller prøv igjen.",
-	"citoid-wb-pendingdialog-message": "Generer referanse for deg … vennligst vent …",
+	"citoid-wb-pendingdialog-message": "Genererer referanse for deg … vennligst vent …",
 	"citoid-wb-pendingdialog-title": "Genererer sitering"
 }
