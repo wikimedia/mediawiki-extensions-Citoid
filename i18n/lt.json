@@ -6,9 +6,11 @@
 			"Manvydasz",
 			"Pofka",
 			"Tomasdd",
-			"Zygimantus"
+			"Zygimantus",
+			"Nokeoo"
 		]
 	},
+	"citoid-action-replace": "Keisti nuorodos tipą",
 	"citoid-citation-widget-insert-button": "Įterpti",
 	"citoid-citoiddialog-back": "Atgal",
 	"citoid-citoiddialog-credit": "Palaiko $1",
@@ -21,12 +23,18 @@
 	"citoid-citoiddialog-search-placeholder": "pvz. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ieškoma, prašom palaukti...",
 	"citoid-citoiddialog-title": "Pridėti citatą",
+	"citoid-citoiddialog-title-replace": "Pakeisti citatą",
+	"citoid-citoiddialog-use-general-error-message": "Negalėjome pateikti citatos. Galite sukurti ją rankiniu būdu naudodami aukščiau esantį skirtuką „{{int:citoid-citoiddialog-mode-manual}}“.",
 	"citoid-citoidtool-title": "Cituoti",
 	"citoid-citoidtool-title-othergroup": "Citata",
 	"citoid-desc": "Suteikia prieigos taškų tarp citoid paslaugos ir MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Konvertuoti",
-	"citoid-referencecontextitem-convert-message": "Šis šaltinis susideda tik iš išorinės nuorodos. Jūs galite naudoti \"{{int:citoid-referencecontextitem-convert-button}}\" mygtuką, esantį žemiau, norėdami sugeneruoti tinkamai suformatuotą šaltinį.",
+	"citoid-referencecontextitem-convert-message": "Galite naudoti žemiau esantį mygtuką „{{int:citoid-referencecontextitem-convert-button}}“, kad sugeneruotumėte tinkamai suformatuotą nuorodą iš išorinės nuorodos.",
 	"citoid-unknown-error": "Įvyko nežinoma klaida, dėl kurios nepavyko sukurti citatos. Prašome vėliau pabandyti dar kartą.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatinis",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:"
+	"citoid-wb-referenceview-tabs-search": "ieškoti",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:",
+	"citoid-wb-pendingdialog-error": "Nepavyko sugeneruoti nuorodos iš šios įvesties. Naudokite rankinį skirtuką arba bandykite dar kartą.",
+	"citoid-wb-pendingdialog-message": "Generuojama nuoroda... palaukite...",
+	"citoid-wb-pendingdialog-title": "Citata generuojama"
 }
