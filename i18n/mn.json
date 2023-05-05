@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chinneeb",
 			"Munkhzaya.E"
 		]
 	},
@@ -8,10 +9,16 @@
 	"citoid-citoiddialog-back": "Буцах",
 	"citoid-citoiddialog-lookup-button": "Үүсгэх",
 	"citoid-citoiddialog-mode-auto": "Автоматаар",
-	"citoid-citoiddialog-mode-manual": "гараар",
-	"citoid-citoiddialog-mode-reuse": "Цааш нь хэрэглэх",
-	"citoid-citoiddialog-search-label": "URL, DOI эсвэл PMID",
+	"citoid-citoiddialog-mode-manual": "Гараар",
+	"citoid-citoiddialog-mode-reuse": "Дахин ашиглах",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, гарчиг, эшлэл",
 	"citoid-citoiddialog-search-placeholder": "Жнь.: http://www.example.com",
-	"citoid-citoidtool-title": "Баримтжуулах",
-	"citoid-referencecontextitem-convert-button": "хөрвүүлэх"
+	"citoid-citoiddialog-title": "Эш татах",
+	"citoid-citoiddialog-title-replace": "Эшлэлийг орлуулах",
+	"citoid-citoiddialog-use-general-error-message": "Эш татахад алдаа гарлаа. Дээрх \"{{int:citoid-citoiddialog-mode-manual}}\" товч дээр дарж эшлэлээ оруулна уу.",
+	"citoid-citoidtool-title": "Эш татах",
+	"citoid-citoidtool-title-othergroup": "Эшлэл",
+	"citoid-referencecontextitem-convert-button": "Хөрвүүлэх",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, эсвэл QID:",
+	"citoid-wb-pendingdialog-title": "Эш татаж байна"
 }
