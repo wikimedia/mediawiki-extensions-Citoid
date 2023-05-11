@@ -16,7 +16,7 @@
 	"citoid-citoiddialog-mode-manual": "మానవికంగా",
 	"citoid-citoiddialog-mode-reuse": "ఉన్నదాన్నే మళ్ళీ",
 	"citoid-citoiddialog-search": "వెతుకు",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, title, or citation",
 	"citoid-citoiddialog-search-placeholder": "ఉదా: http://www.example.com",
 	"citoid-citoiddialog-search-progress": "వెతుకుతున్నాం, ఆగండి...",
 	"citoid-citoiddialog-title": "ఉల్లేఖనను చేర్చండి",
@@ -29,7 +29,7 @@
 	"citoid-unknown-error": "ఏదో తెలియని లోపం వలన ఉల్లేఖనను తయారు చెయ్యలేకపోయాం. కాసేపాగి మళ్ళీ ప్రయత్నించండి.",
 	"citoid-wb-referenceview-tabs-automatic": "ఆటోమాటిగ్గా",
 	"citoid-wb-referenceview-tabs-search": "వెతుకు",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, లేదా QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, లేదా QID:",
 	"citoid-wb-pendingdialog-error": "మీరిచ్చిన ఇన్‌పుట్‌తో మూలాన్ని తయారు చెయ్యలేకపోయాం. మానవిక ట్యాబును వాడి చూడండి, లేదా మళ్ళీ ప్రయత్నించండి.",
 	"citoid-wb-pendingdialog-message": "మూలాన్ని తయారు చేస్తున్నాం... వేచి ఉండండి...",
 	"citoid-wb-pendingdialog-title": "ఉల్లేఖనను తయారు చేస్తున్నాం"

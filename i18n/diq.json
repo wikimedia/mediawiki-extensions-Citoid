@@ -16,7 +16,7 @@
 	"citoid-citoiddialog-mode-manual": "Manuel",
 	"citoid-citoiddialog-mode-reuse": "Fına bıkarn",
 	"citoid-citoiddialog-search": "Cı geyre",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, sername ya ki vatış",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, sername ya ki vatış",
 	"citoid-citoiddialog-search-placeholder": "mesela http://www.zazaki.zz",
 	"citoid-citoiddialog-search-progress": "Vêniyeno, tenê bıpawê...",
 	"citoid-citoiddialog-title": "Vateyi cı kerê",
@@ -30,7 +30,7 @@
 	"citoid-unknown-error": "Nêzanıyen yew xeta amê meydan u çıme vıraştennrê bena mani. Vanê se fına bıcerebne.",
 	"citoid-wb-referenceview-tabs-automatic": "Otomatik",
 	"citoid-wb-referenceview-tabs-search": "cı geyre",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ya zi QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ya zi QID:",
 	"citoid-wb-pendingdialog-error": "Na cıkewtış ra referansi nêvırazeno\nMenuel buton ra bıkerê ya zi fına bıcerebnê",
 	"citoid-wb-pendingdialog-message": "Seba şıma referanso vıraziyeno... Tay bıpawê...",
 	"citoid-wb-pendingdialog-title": "Qısekê vıraştışi"

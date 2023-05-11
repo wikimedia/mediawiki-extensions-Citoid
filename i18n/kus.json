@@ -13,7 +13,7 @@
 	"citoid-citoiddialog-mode-manual": "Nu'ugtʋʋma",
 	"citoid-citoiddialog-mode-reuse": "Lɛn-nɔki tʋm",
 	"citoid-citoiddialog-search": "Ieem",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, pian'azug bɛɛ kasɛta",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, pian'azug bɛɛ kasɛta",
 	"citoid-citoiddialog-search-placeholder": "e.g. http://www.titʋʋnli.com",
 	"citoid-citoiddialog-search-progress": "Ieednɛ, bɛllimnɛ gʋ'ʋsim...",
 	"citoid-citoiddialog-title": "Paasim tʋʋma tienr",
@@ -27,7 +27,7 @@
 	"citoid-unknown-error": "Yɛlsi'a gbirigi naam n kɛ ka li pʋ keŋ sʋŋaa ka linɛ kɛ ka ti pʋ nyaŋi maal kasɛta la. Bɛllimnɛ lɛm mɔ gɔs ya'as.",
 	"citoid-wb-referenceview-tabs-automatic": "Li mɛŋi tʋm",
 	"citoid-wb-referenceview-tabs-search": "Ieem",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, bɛɛ QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, bɛɛ QID:",
 	"citoid-wb-pendingdialog-error": "Pʋ nyaŋi di'e labaar la yi kpɛn'esʋg kaŋa nii. Nɔkim mɛŋ paŋ tʋʋma tab la tʋm, bɛɛ lɛm mɔ ya'as.",
 	"citoid-wb-pendingdialog-message": "Li di'egidnɛ labaar ye li tisif... bɛllimnɛ gu'usim",
 	"citoid-wb-pendingdialog-title": "Paamim tʋʋma tienr"

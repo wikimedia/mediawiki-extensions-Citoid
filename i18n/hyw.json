@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-manual": "Ձեռային",
 	"citoid-citoiddialog-mode-reuse": "Վերաօգտագործում",
 	"citoid-citoiddialog-search": "Որոնել",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, վերնագիր կամ մէջբերում",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, վերնագիր կամ մէջբերում",
 	"citoid-citoiddialog-search-placeholder": "օր.՝ http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Կ’որոնէ, կը խնդրուի սպասել...",
 	"citoid-citoiddialog-title": "Աղբիւր աւելցնել",
@@ -21,6 +21,6 @@
 	"citoid-referencecontextitem-convert-button": "Փոխարկել",
 	"citoid-wb-referenceview-tabs-automatic": "Ինքնագործ",
 	"citoid-wb-referenceview-tabs-search": "որոնել",
-	"citoid-wb-referenceview-tabs-search-label": "\nURL, DOI, ISBN, կամ QID:",
+	"citoid-wb-referenceview-tabs-search-label": "\nURL, DOI, կամ QID:",
 	"citoid-wb-pendingdialog-title": "Աղբիւր կը ստեղծէ"
 }

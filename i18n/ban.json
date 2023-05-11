@@ -13,7 +13,7 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Anggén malih",
 	"citoid-citoiddialog-search": "Rereh",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, murda, utawi anggitan",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, murda, utawi anggitan",
 	"citoid-citoiddialog-search-placeholder": "sekadi http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ngerereh, durus jantos...",
 	"citoid-citoiddialog-title": "Tambah anggit",
@@ -27,7 +27,7 @@
 	"citoid-unknown-error": "Galat sané nénten kauningin sané ngempetin iraga ngardi anggitan. Durus ingayang malih jebos.",
 	"citoid-wb-referenceview-tabs-automatic": "Otomatis",
 	"citoid-wb-referenceview-tabs-search": "rereh",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, utawi QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, utawi QID:",
 	"citoid-wb-pendingdialog-error": "Tan sida ngasilang pustaka saking manjingan niki. Anggén tab manual utawi indayang malih.",
 	"citoid-wb-pendingdialog-message": "Ngasilanng pustaka antuk ragané... durus jantos...",
 	"citoid-wb-pendingdialog-title": "Asilang Anggitan"

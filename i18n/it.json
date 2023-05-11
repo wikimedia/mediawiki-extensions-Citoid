@@ -27,7 +27,7 @@
 	"citoid-citoiddialog-mode-manual": "Manuale",
 	"citoid-citoiddialog-mode-reuse": "Riutilizza",
 	"citoid-citoiddialog-search": "Cerca",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titolo o citazione",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, titolo o citazione",
 	"citoid-citoiddialog-search-placeholder": "ad esempio http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ricerca in corso, attendi...",
 	"citoid-citoiddialog-title": "Aggiungi una citazione",
@@ -41,7 +41,7 @@
 	"citoid-unknown-error": "Si è verificato un errore sconosciuto che ha impedito la creazione di una citazione. Si prega di riprovare più tardi.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatico",
 	"citoid-wb-referenceview-tabs-search": "cerca",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, o QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, o QID:",
 	"citoid-wb-pendingdialog-error": "Impossibile generare un riferimento da questo input. Usa la scheda manuale o prova di nuovo.",
 	"citoid-wb-pendingdialog-message": "Generazione di un riferimento per te... per favore attendi...",
 	"citoid-wb-pendingdialog-title": "Generando Citazione"

@@ -18,7 +18,7 @@
 	"citoid-citoiddialog-mode-manual": "Manuell",
 	"citoid-citoiddialog-mode-reuse": "Weiterverwenden",
 	"citoid-citoiddialog-search": "Suchen",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, Titel oder Zitat",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, Titel oder Zitat",
 	"citoid-citoiddialog-search-placeholder": "z.&nbsp;B. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Suche, bitte warten …",
 	"citoid-citoiddialog-title": "Einen Beleg hinzufügen",
@@ -32,7 +32,7 @@
 	"citoid-unknown-error": "Ein unbekannter Fehler ist aufgetreten, der uns daran hindert, ein Zitat zu erstellen. Bitte später erneut versuchen.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatisch",
 	"citoid-wb-referenceview-tabs-search": "Suchen",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN oder QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI oder QID:",
 	"citoid-wb-pendingdialog-error": "Es war nicht möglich, einen Einzelnachweis aus der Eingabe zu erzeugen. Verwende den Manuell-Tab oder versuche es noch einmal.",
 	"citoid-wb-pendingdialog-message": "Erzeuge einen Einzelnachweis für dich … bitte warten …",
 	"citoid-wb-pendingdialog-title": "Erzeuge Beleg"

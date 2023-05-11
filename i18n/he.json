@@ -16,7 +16,7 @@
 	"citoid-citoiddialog-mode-manual": "ידנית",
 	"citoid-citoiddialog-mode-reuse": "שימוש חוזר",
 	"citoid-citoiddialog-search": "חיפוש",
-	"citoid-citoiddialog-search-label": "URL‏, DOI‏, ISBN‏, PMC/PMID‏, QID, כותרת, או ציטוט.",
+	"citoid-citoiddialog-search-label": "URL‏, DOI‏, PMC/PMID‏, QID, כותרת או ציטוט",
 	"citoid-citoiddialog-search-placeholder": "למשל http://www.example.com",
 	"citoid-citoiddialog-search-progress": "חיפוש, נא להמתין...",
 	"citoid-citoiddialog-title": "הוספת הערת שוליים",
@@ -30,7 +30,7 @@
 	"citoid-unknown-error": "אירעה שגיאה בלתי־ידועה שמנעה מאיתנו ליצור הפניה למקור.\nנא לנסות שוב מאוחר יותר.",
 	"citoid-wb-referenceview-tabs-automatic": "אוטומטית",
 	"citoid-wb-referenceview-tabs-search": "חיפוש",
-	"citoid-wb-referenceview-tabs-search-label": "URL‏, DOI‏, ISBN, או QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL‏, DOI, או QID:",
 	"citoid-wb-pendingdialog-error": "לא היה אפשר ליצור הערת שוליים מהקלט הזה. נא להשתמש בלשונית \"ידנית\" או לנסות שוב.",
 	"citoid-wb-pendingdialog-message": "מייצרים בשבילך הערת שוליים... נא להמתין...",
 	"citoid-wb-pendingdialog-title": "יצירת הערת שוליים"

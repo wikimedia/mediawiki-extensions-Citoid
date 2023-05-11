@@ -14,7 +14,7 @@
 	"citoid-citoiddialog-mode-manual": "Əllə",
 	"citoid-citoiddialog-mode-reuse": "Təkrar istifadə",
 	"citoid-citoiddialog-search": "Axtar",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, başlıq, və ya mənbə",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, başlıq, və ya mənbə",
 	"citoid-citoiddialog-search-placeholder": "məs. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Axtarılır, zəhmət olmasa gözləyin...",
 	"citoid-citoiddialog-title": "İstinad əlavə et",
@@ -28,7 +28,7 @@
 	"citoid-unknown-error": "İstinad yaratmağımıza mane olan bilinməyən bir səhv baş verdi. Zəhmət olmasa bir az sonra yenidən cəhd edin.",
 	"citoid-wb-referenceview-tabs-automatic": "Avtomatik",
 	"citoid-wb-referenceview-tabs-search": "axtar",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, və ya QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, və ya QID:",
 	"citoid-wb-pendingdialog-error": "İstinad yaratmaq mümkün olmadı. Manual nişandan istifadə edin və ya yenidən cəhd edin.",
 	"citoid-wb-pendingdialog-message": "Sizin üçün istinad yaradılır... zəhmət olmasa gözləyin...",
 	"citoid-wb-pendingdialog-title": "İstinad yaradılır"

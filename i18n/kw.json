@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-manual": "Dre dhorn",
 	"citoid-citoiddialog-mode-reuse": "Dasusya",
 	"citoid-citoiddialog-search": "Hwilas",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titel, po devyn",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, titel, po devyn",
 	"citoid-citoiddialog-search-placeholder": "rag ensampel http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ow hwilas, gwrewgh gortos...",
 	"citoid-citoiddialog-title": "Keworra devyn",
@@ -22,5 +22,5 @@
 	"citoid-referencecontextitem-convert-button": "Ketreylya",
 	"citoid-wb-referenceview-tabs-automatic": "Awtomatek",
 	"citoid-wb-referenceview-tabs-search": "hwilas",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, po QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, po QID:"
 }

@@ -16,7 +16,7 @@
 	"citoid-citoiddialog-mode-manual": "Χειροκίνητα",
 	"citoid-citoiddialog-mode-reuse": "Επαναχρησιμοποίηση",
 	"citoid-citoiddialog-search": "Αναζήτηση",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN ή PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI ή PMID",
 	"citoid-citoiddialog-search-placeholder": "π.χ. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Γίνεται αναζήτηση, παρακαλούμε περιμένετε...",
 	"citoid-citoiddialog-title": "Προσθήκη παραπομπής",
@@ -30,5 +30,5 @@
 	"citoid-unknown-error": "Ένα άγνωστο σφάλμα παρουσιάστηκε που μας απέτρεψε από το να δημιουργηθεί μια παραπομπή. Παρακαλούμε δοκιμάστε ξανά αργότερα.",
 	"citoid-wb-referenceview-tabs-automatic": "Αυτόματα",
 	"citoid-wb-referenceview-tabs-search": "αναζήτηση",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ή QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ή QID:"
 }

@@ -21,7 +21,7 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Reutilitza",
 	"citoid-citoiddialog-search": "Cerca",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, títol o citació",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, títol o citació",
 	"citoid-citoiddialog-search-placeholder": "p. ex., http://www.exemple.com",
 	"citoid-citoiddialog-search-progress": "Espereu mentre cerquem…",
 	"citoid-citoiddialog-title": "Afegeix una citació",

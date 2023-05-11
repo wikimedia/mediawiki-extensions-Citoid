@@ -13,7 +13,7 @@
 	"citoid-citoiddialog-mode-manual": "Bé yé i ni bé sa",
 	"citoid-citoiddialog-mode-reuse": "Fa i ékoun",
 	"citoid-citoiddialog-search": "Kounndè",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, douman, annzè sran nouan noun ndè",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, douman, annzè sran nouan noun ndè",
 	"citoid-citoiddialog-search-placeholder": "liké kè nga sa, http://www.example.com/",
 	"citoid-citoiddialog-search-progress": "Bé sou kounndè, amoun yatchi amoun midè...",
 	"citoid-citoiddialog-title": "Fa sran nouan noun ndè koun goua sou",
@@ -24,6 +24,6 @@
 	"citoid-referencecontextitem-convert-button": "Katchi",
 	"citoid-wb-referenceview-tabs-automatic": "Kpêkoungba",
 	"citoid-wb-referenceview-tabs-search": "kounndè",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, annzè QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, annzè QID:",
 	"citoid-wb-pendingdialog-title": "Yi Sran nouan noun ndè"
 }

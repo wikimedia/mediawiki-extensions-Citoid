@@ -13,7 +13,7 @@
 	"citoid-citoiddialog-mode-manual": "A man",
 	"citoid-citoiddialog-mode-reuse": "Drova an'mò",
 	"citoid-citoiddialog-search": "Cerca",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titol o citazzion",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, titol o citazzion",
 	"citoid-citoiddialog-search-placeholder": "compagn che http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Adrée a cercà, speta...",
 	"citoid-citoiddialog-title": "Sgionta una citazzion",
@@ -27,7 +27,7 @@
 	"citoid-unknown-error": "A l'è capitad un eror conossud de nissun che 'l n'ha impedid de creà la citazzion. Per piesè prova anmò pussee tard.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatich",
 	"citoid-wb-referenceview-tabs-search": "cerca",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, opur QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, opur QID:",
 	"citoid-wb-pendingdialog-error": "Impossibil insgenerà un riferiment a partì de sti dati chì. Drova la scheda a man o prova anmò.",
 	"citoid-wb-pendingdialog-message": "Adree a ingenerà un riferiment...per piesè speta...",
 	"citoid-wb-pendingdialog-title": "Creazzion de la Citazzion"

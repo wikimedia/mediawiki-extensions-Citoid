@@ -19,7 +19,7 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Reutilizar",
 	"citoid-citoiddialog-search": "Pesquisar",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, título ou citação",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, título ou citação",
 	"citoid-citoiddialog-search-placeholder": "ex: http://www.exemplo.com",
 	"citoid-citoiddialog-search-progress": "A pesquisar, por favor aguarde...",
 	"citoid-citoiddialog-title": "Adicionar uma citação",
@@ -33,7 +33,7 @@
 	"citoid-unknown-error": "Ocorreu um erro desconhecido que impediu a criação de uma citação. Por favor, tente novamente mais tarde.",
 	"citoid-wb-referenceview-tabs-automatic": "Automático",
 	"citoid-wb-referenceview-tabs-search": "pesquisar",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ou QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI ou QID:",
 	"citoid-wb-pendingdialog-error": "Não foi possível geral uma referência a partir desta entrada. Use o separador manual ou tente novamente.",
 	"citoid-wb-pendingdialog-message": "A gerar uma referência; aguarde, por favor...",
 	"citoid-wb-pendingdialog-title": "A gerar citação"
