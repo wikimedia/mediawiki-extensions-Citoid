@@ -24,7 +24,7 @@
 	"citoid-citoiddialog-mode-manual": "マニュアル",
 	"citoid-citoiddialog-mode-reuse": "再利用",
 	"citoid-citoiddialog-search": "検索",
-	"citoid-citoiddialog-search-label": "URL, DOI または PMC/PMID",
+	"citoid-citoiddialog-search-label": "URL、DOI、PMC/PMID、QID、タイトル、または引用を使用。",
 	"citoid-citoiddialog-search-placeholder": "例 http://www.example.com",
 	"citoid-citoiddialog-search-progress": "検索しています。お待ちください...",
 	"citoid-citoiddialog-title": "引用を追加",
