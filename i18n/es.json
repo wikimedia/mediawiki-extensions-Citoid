@@ -5,7 +5,8 @@
 			"Dgstranz",
 			"Fitoschido",
 			"Macofe",
-			"MadriCR"
+			"MadriCR",
+			"MarcoAurelio"
 		]
 	},
 	"citoid-action-replace": "Cambiar tipo de referencia",
@@ -27,7 +28,7 @@
 	"citoid-citoidtool-title-othergroup": "Cita",
 	"citoid-desc": "Proporciona puntos de acceso entre el servicio Citoid y MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Convertir",
-	"citoid-referencecontextitem-convert-message": "Esta referencia se compone únicamente de un enlace externo. Puedes usar el botón \"{{int:citoid-referencecontextitem-convert-button}}\" de abajo para generar una referencia correctamente formateada.",
+	"citoid-referencecontextitem-convert-message": "Puedes usar el botón «{{int:citoid-referencecontextitem-convert-button}}» de abajo para generar una referencia correctamente formateada del enlace externo.",
 	"citoid-unknown-error": "Ocurrió un error desconocido que nos impidió crear la cita. Inténtalo de nuevo más tarde.",
 	"citoid-wb-referenceview-tabs-automatic": "Automático",
 	"citoid-wb-referenceview-tabs-search": "buscar",

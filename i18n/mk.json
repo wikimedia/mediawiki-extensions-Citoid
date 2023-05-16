@@ -23,7 +23,7 @@
 	"citoid-citoidtool-title-othergroup": "Навод",
 	"citoid-desc": "Овозможува поврзаност помеѓу службата Citoid и МедијаВики",
 	"citoid-referencecontextitem-convert-button": "Претвори",
-	"citoid-referencecontextitem-convert-message": "Овој навод се состои само од надворешна врска. На копчето „{{int:citoid-referencecontextitem-convert-button}}“ подолу направете правилно срочен навод.",
+	"citoid-referencecontextitem-convert-message": "Можете да се послужите со долуприкажаното копче „{{int:citoid-referencecontextitem-convert-button}}“ за да направите правилно срочен навод од надворешна врска.",
 	"citoid-unknown-error": "Се појави непозната грешка и затоа не можев да го создадам наводот. Обидете се подоцна.",
 	"citoid-wb-referenceview-tabs-automatic": "Автоматски",
 	"citoid-wb-referenceview-tabs-search": "пребарај",
