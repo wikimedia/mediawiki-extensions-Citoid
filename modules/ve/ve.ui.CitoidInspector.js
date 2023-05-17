@@ -339,7 +339,7 @@ ve.ui.CitoidInspector.prototype.onSearchResultsChoose = function ( item ) {
 
 	ve.track( 'activity.' + this.constructor.static.name, { action: 'reuse-choose' } );
 
-	this.close();
+	this.close( { action: 'reuse-choose' } );
 };
 
 /**
@@ -393,7 +393,7 @@ ve.ui.CitoidInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) 
 		// have changed from a plain reference to a templated citation
 		surfaceModel.emitContextChange();
 		// Close the inspector
-		this.close();
+		this.close( { action: 'automatic-insert' } );
 	}
 };
 
