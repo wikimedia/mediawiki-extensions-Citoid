@@ -23,7 +23,7 @@
 	"citoid-citoiddialog-mode-manual": "Label of tab in citation dialog, used to select mode. An adjective describing {{msg-mw|Citoid-citoidtool-title}}. The other tabs are {{msg-mw|Citoid-citoiddialog-mode-auto}} and {{msg-mw|Citoid-citoiddialog-mode-reuse}}.\n{{Identical|Manual}}",
 	"citoid-citoiddialog-mode-reuse": "Label of tab in citation dialog, used to select mode. The other tabs are {{msg-mw|Citoid-citoiddialog-mode-auto}} and {{msg-mw|Citoid-citoiddialog-mode-manual}}.\n{{Identical|Re-use}}",
 	"citoid-citoiddialog-search": "Text for the search button.\n{{Identical|Search}}",
-	"citoid-citoiddialog-search-label": "Label for the search field where users can enter a URL, DOI, PMC/PMID, QID, title of the work, or plain text citation.",
+	"citoid-citoiddialog-search-label": "Label for the search field where users can enter a URL, DOI, ISBN, PMC/PMID, QID, title of the work, or plain text citation.",
 	"citoid-citoiddialog-search-placeholder": "{{doc-important|Do not translate example.com as it is a domain name specifically reserved by IANA for examples.}}\n\nPlaceholder for the search field.",
 	"citoid-citoiddialog-search-progress": "Message for when the search is in progress",
 	"citoid-citoiddialog-title": "The title displayed on the dialog when inserting a new reference",
@@ -38,7 +38,7 @@
 	"citoid-unknown-error": "Error message indicating that the service to create citations has returned an error or is temporarily malfunctioning, asking the user to try again later.",
 	"citoid-wb-referenceview-tabs-automatic": "Label of automatic tab in referenceview in wikibase, used to select mode.",
 	"citoid-wb-referenceview-tabs-search": "Label for the search button in wikibase automatic panel",
-	"citoid-wb-referenceview-tabs-search-label": "Label for the search field where users can enter a URL, DOI, or QID",
+	"citoid-wb-referenceview-tabs-search-label": "Label for the search field where users can enter a URL, DOI, ISBN, QID",
 	"citoid-wb-pendingdialog-error": "Error message for the pending dialog in wikibase if unable to retrieve citation from citoid service.\n\n\"Manual\" is {{msg-mw|Wikibase-referenceview-tabs-manual}}.",
 	"citoid-wb-pendingdialog-message": "Message for the pending dialog in wikibase telling the user to wait for the citation being generated to complete",
 	"citoid-wb-pendingdialog-title": "Title for the pending dialog in wikibase indicating a citation is being generated"
