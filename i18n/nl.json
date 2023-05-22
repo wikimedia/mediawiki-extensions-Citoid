@@ -22,7 +22,7 @@
 	"citoid-citoiddialog-mode-manual": "Handmatig",
 	"citoid-citoiddialog-mode-reuse": "Hergebruiken",
 	"citoid-citoiddialog-search": "Zoeken",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN of PMC/PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, titel of citaat",
 	"citoid-citoiddialog-search-placeholder": "bijvoorbeeld http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Bezig met zoeken. Een moment geduld...",
 	"citoid-citoiddialog-title": "Referentie invoegen",
@@ -35,7 +35,7 @@
 	"citoid-unknown-error": "Er is een onbekende fout opgetreden waardoor de referentie niet aangemaakt kon worden. Probeer het later opnieuw.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatisch",
 	"citoid-wb-referenceview-tabs-search": "Zoeken",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, of QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI of QID:",
 	"citoid-wb-pendingdialog-error": "Kan geen referentie genereren op basis van deze invoer. Gebruik het tabblad voor handmatige generatie of probeer het opnieuw.",
 	"citoid-wb-pendingdialog-message": "Een referentie wordt gegenereerd... een ogenblik geduld alstublieft...",
 	"citoid-wb-pendingdialog-title": "Genereer referentie"

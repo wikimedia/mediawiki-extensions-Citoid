@@ -13,7 +13,7 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Sake amfani",
 	"citoid-citoiddialog-search": "Bincike",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, title, or citation",
 	"citoid-citoiddialog-search-placeholder": "e.g. http://www.misali.com",
 	"citoid-citoiddialog-search-progress": "Ana nema, da fatan za a jira...",
 	"citoid-citoiddialog-title": "Ƙara Manazarta",
@@ -26,7 +26,7 @@
 	"citoid-unknown-error": "An sami kuskuren da ba a san shi ba wanda ya hana mu ƙirƙira ambato. Da fatan za a sake gwadawa daga baya.",
 	"citoid-wb-referenceview-tabs-automatic": "Atomatik",
 	"citoid-wb-referenceview-tabs-search": "Bincike",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, or QID:",
 	"citoid-wb-pendingdialog-error": "An kasa samar da tunani daga wannan shigarwar. Yi amfani da shafin jagora, ko sake gwadawa.",
 	"citoid-wb-pendingdialog-message": "Samar da bayani a gare ku... da fatan za a jira...",
 	"citoid-wb-pendingdialog-title": "Ƙirƙirar Magana"

@@ -14,7 +14,7 @@
 	"citoid-citoiddialog-mode-manual": "Кулдан",
 	"citoid-citoiddialog-mode-reuse": "Яңадан куллану",
 	"citoid-citoiddialog-search": "Эзләү",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, исем яки чыганакка җибәрү",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, исем яки чыганакка җибәрү",
 	"citoid-citoiddialog-search-placeholder": "мәсәлән, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Эзләү бара, көтегез әле…",
 	"citoid-citoiddialog-title": "Чыганакка сылтама өстәү",
@@ -27,7 +27,7 @@
 	"citoid-unknown-error": "Билгесез хата барлыкка килде, шуның аркасында өзекне төзү мөмкин түгел. Зинһар, соңрак кабатлап карагыз.",
 	"citoid-wb-referenceview-tabs-automatic": "Үзлегеннән",
 	"citoid-wb-referenceview-tabs-search": "эзләү",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN яки QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI яки QID:",
 	"citoid-wb-pendingdialog-error": "Бу кертемнән искәрмә төзеп булмый. Кыстыргычны кулдан кулланыгыз яки тагын бер тапкыр эшләп карагыз.",
 	"citoid-wb-pendingdialog-message": "Сезнең өчен сылтама төзү... бераз гына көтегез, зинһар...",
 	"citoid-wb-pendingdialog-title": "Чыганакны төзү"

@@ -10,7 +10,8 @@
 			"Yfdyh000",
 			"佛壁灯",
 			"铁桶",
-			"Gerongfenh"
+			"Gerongfenh",
+			"GuoPC"
 		]
 	},
 	"citoid-citation-widget-insert-button": "插入",
@@ -21,7 +22,7 @@
 	"citoid-citoiddialog-mode-manual": "手动",
 	"citoid-citoiddialog-mode-reuse": "复用",
 	"citoid-citoiddialog-search": "搜索",
-	"citoid-citoiddialog-search-label": "网址、DOI、ISBN、PMC/PMID、QID、标题或纯文本引用",
+	"citoid-citoiddialog-search-label": "URL、DOI、PMC/PMID、QID、标题或纯文本引用",
 	"citoid-citoiddialog-search-placeholder": "例如：http://www.example.com",
 	"citoid-citoiddialog-search-progress": "搜索中，请稍候…",
 	"citoid-citoiddialog-title": "添加引用",
@@ -34,7 +35,7 @@
 	"citoid-unknown-error": "发生了一个未知的错误，导致我们无法创建引用。请稍后再试。",
 	"citoid-wb-referenceview-tabs-automatic": "自动",
 	"citoid-wb-referenceview-tabs-search": "搜索",
-	"citoid-wb-referenceview-tabs-search-label": "URL、DOI、ISBN或QID：",
+	"citoid-wb-referenceview-tabs-search-label": "URL、DOI或QID：",
 	"citoid-wb-pendingdialog-error": "无法根据输入的内容生成一则参考。请使用“手动”选项卡，或者重试。",
 	"citoid-wb-pendingdialog-message": "正在为您生成一条参考资料...请稍候...",
 	"citoid-wb-pendingdialog-title": "正在生成引用"

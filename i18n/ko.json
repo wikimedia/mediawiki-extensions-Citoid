@@ -8,7 +8,8 @@
 			"SeoJeongHo",
 			"Ykhwong",
 			"아라",
-			"Kwj2772"
+			"Kwj2772",
+			"Bluehill"
 		]
 	},
 	"citoid-citation-widget-insert-button": "넣기",
@@ -19,7 +20,7 @@
 	"citoid-citoiddialog-mode-manual": "수동",
 	"citoid-citoiddialog-mode-reuse": "재사용",
 	"citoid-citoiddialog-search": "검색",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, 제목 또는 인용",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, 제목 또는 인용",
 	"citoid-citoiddialog-search-placeholder": "예 http://www.example.com",
 	"citoid-citoiddialog-search-progress": "검색 중이니 기다려 주십시오...",
 	"citoid-citoiddialog-title": "인용 추가",
@@ -32,7 +33,7 @@
 	"citoid-unknown-error": "알 수 없는 오류가 발생하여 인용을 만드는 것을 막았습니다. 나중에 다시 시도하세요.",
 	"citoid-wb-referenceview-tabs-automatic": "자동",
 	"citoid-wb-referenceview-tabs-search": "검색",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, 또는 QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, 또는 QID:",
 	"citoid-wb-pendingdialog-error": "이 입력 값으로부터 참고 문헌을 생성하지 못했습니다. 수동 탭을 이용하거나, 다시 시도해 보십시오.",
 	"citoid-wb-pendingdialog-message": "참고문헌을 생성하고 있으니 기다려 주십시오...",
 	"citoid-wb-pendingdialog-title": "인용 생성 중"

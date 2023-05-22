@@ -17,7 +17,7 @@
 	"citoid-citoiddialog-mode-manual": "Dorazi",
 	"citoid-citoiddialog-mode-reuse": "Ripërdoreni",
 	"citoid-citoiddialog-search": "Kërkoni",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, titull ose citim",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, titull ose citim",
 	"citoid-citoiddialog-search-placeholder": "p.sh.: htttp://www.example.com",
 	"citoid-citoiddialog-search-progress": "Po kërkohet, ju lutemi, pritni…",
 	"citoid-citoiddialog-title": "Shtoni një citim",
@@ -30,7 +30,7 @@
 	"citoid-unknown-error": "Ndodhi një gabim i panjohur që na pengoi krijimin e një citimi. Ju lutemi, riprovoni më vonë.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatik",
 	"citoid-wb-referenceview-tabs-search": "kërkoni",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ose QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI ose QID:",
 	"citoid-wb-pendingdialog-error": "S’arrihet të prodhohet një referencë nga sa u dha. Përdorni skedën për dorazi, ose riprovoni.",
 	"citoid-wb-pendingdialog-message": "Po prodhohet një referencë për ju… ju lutemi, prisni…",
 	"citoid-wb-pendingdialog-title": "Duke krijuar citimin"

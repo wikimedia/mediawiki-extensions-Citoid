@@ -14,7 +14,7 @@
 	"citoid-citoiddialog-mode-manual": "માનવ ચાલિત",
 	"citoid-citoiddialog-mode-reuse": "ફરી ઉપયોગ",
 	"citoid-citoiddialog-search": "શોધો",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN અથવા PMC/PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI અથવા PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "દા.ત. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "શોધી રહ્યું છે, રાહ જુઓ...",
 	"citoid-citoiddialog-title": "સંદર્ભ ઉમેરો",
@@ -27,7 +27,7 @@
 	"citoid-unknown-error": "એક અજ્ઞાન ત્રુટિને કારણે અમે અવતરણ બનાવી શક્યા નથી. કૃપા કરી ઘડીક રહીને ફરી પ્રયત્ન કરશો.",
 	"citoid-wb-referenceview-tabs-automatic": "આપમેળે",
 	"citoid-wb-referenceview-tabs-search": "શોધો",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, અથવા QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, અથવા QID:",
 	"citoid-wb-pendingdialog-error": "આ માહિતીમાંથી સંદર્ભ બનાવી શકાયો નહી. જાતે બનાવો અથવા ફરી પ્રયત્ન કરો.",
 	"citoid-wb-pendingdialog-message": "તમારા માટે સંદર્ભ બની રહ્યો છે...રાહ જુઓ...",
 	"citoid-wb-pendingdialog-title": "સંદર્ભ બની રહ્યો છે"

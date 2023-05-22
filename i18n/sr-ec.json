@@ -8,7 +8,8 @@
 			"Prevodim",
 			"Zoranzoki21",
 			"Kizule",
-			"Srđan"
+			"Srđan",
+			"Vlad5250"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Уметни",
@@ -19,7 +20,7 @@
 	"citoid-citoiddialog-mode-manual": "Ручно",
 	"citoid-citoiddialog-mode-reuse": "Поновна употреба",
 	"citoid-citoiddialog-search": "Претражи",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, наслов или цитат",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, наслов или цитат",
 	"citoid-citoiddialog-search-placeholder": "нпр. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Претражујем. Сачекајте…",
 	"citoid-citoiddialog-title": "Додавање референце",
@@ -32,7 +33,7 @@
 	"citoid-unknown-error": "Дошло је до непознате грешке која спречава генерисање референце. Покушајте поново касније.",
 	"citoid-wb-referenceview-tabs-automatic": "Аутоматски",
 	"citoid-wb-referenceview-tabs-search": "претрага",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN или QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI или QID:",
 	"citoid-wb-pendingdialog-error": "Није могуће генерисати референцу из овог уноса. Користите картицу „Ручно” или покушајте поново.",
 	"citoid-wb-pendingdialog-message": "Генерисање референце… Сачекајте…",
 	"citoid-wb-pendingdialog-title": "Генерисање референце"

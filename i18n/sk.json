@@ -18,7 +18,7 @@
 	"citoid-citoiddialog-mode-manual": "Ručne",
 	"citoid-citoiddialog-mode-reuse": "Použiť existujúcu",
 	"citoid-citoiddialog-search": "Hľadať",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN alebo PMC/PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI alebo PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "napr. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Prebieha vyhľadávanie, prosím, čakajte...",
 	"citoid-citoiddialog-title": "Pridať citáciu",
@@ -31,7 +31,7 @@
 	"citoid-unknown-error": "Došlo k neznámej chybe, kvôli ktorej nemôžeme vytvoriť citáciu. Prosím skúste neskôr.",
 	"citoid-wb-referenceview-tabs-automatic": "Automaticky",
 	"citoid-wb-referenceview-tabs-search": "hľadať",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN alebo QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI alebo QID:",
 	"citoid-wb-pendingdialog-error": "Nepodarilo sa vytvoriť referenciu z tohto vstupu. Použite manuálnu záložku alebo to skúste znova.",
 	"citoid-wb-pendingdialog-message": "Vytváranie referencie pre vás... prosím, čakajte...",
 	"citoid-wb-pendingdialog-title": "Vytváranie citácie"

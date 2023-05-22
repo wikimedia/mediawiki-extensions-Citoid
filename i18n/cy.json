@@ -15,7 +15,7 @@
 	"citoid-citoiddialog-mode-manual": "Wrth law",
 	"citoid-citoiddialog-mode-reuse": "Ailddefnyddio",
 	"citoid-citoiddialog-search": "Chwilio",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN neu PMC/PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI neu PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "e.e. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Wrthi'n chwilio, arhoswch...",
 	"citoid-citoiddialog-title": "Ychwanegu dyfyniad",
@@ -24,5 +24,5 @@
 	"citoid-referencecontextitem-convert-button": "Trosi",
 	"citoid-wb-referenceview-tabs-automatic": "Awtomatig",
 	"citoid-wb-referenceview-tabs-search": "chwilio",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, neu QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, neu QID:"
 }

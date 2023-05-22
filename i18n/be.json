@@ -3,7 +3,8 @@
 		"authors": [
 			"Goshaproject",
 			"Mechanizatar",
-			"Chadyka"
+			"Chadyka",
+			"No Sleep till Krupki"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Уставіць",
@@ -14,7 +15,7 @@
 	"citoid-citoiddialog-mode-manual": "Уручную",
 	"citoid-citoiddialog-mode-reuse": "Паўторна выкарыстоўваць",
 	"citoid-citoiddialog-search": "Пошук",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, назва ці цытата",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, назва ці цытата",
 	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ідзе пошук, калі ласка, пачакайце...",
 	"citoid-citoiddialog-title": "Дадаць цытаванне",
@@ -27,7 +28,7 @@
 	"citoid-unknown-error": "Адбылася невядомая памылка, якая не дала магчымасць стварыць цытату. Калі ласка, паспрабуйце пазней.",
 	"citoid-wb-referenceview-tabs-automatic": "Аўтаматычная",
 	"citoid-wb-referenceview-tabs-search": "пошук",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ці QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI ці QID:",
 	"citoid-wb-pendingdialog-error": "Немагчыма стварыць цытаванне з гэтага ўводу. Выкарыстоўвайце ўкладку Ўручную або паспрабуйце зноў.",
 	"citoid-wb-pendingdialog-message": "Стварэнне цытавання для вас... калі ласка, пачакайце...",
 	"citoid-wb-pendingdialog-title": "Стварэнне Цытавання"

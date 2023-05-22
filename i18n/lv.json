@@ -13,7 +13,7 @@
 	"citoid-citoiddialog-mode-manual": "Manuāli",
 	"citoid-citoiddialog-mode-reuse": "Atkārtota izmantošana",
 	"citoid-citoiddialog-search": "Meklēt",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, nosaukums vai atsauce",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, nosaukums vai atsauce",
 	"citoid-citoiddialog-search-placeholder": "piemēram, http://www.piemers.com",
 	"citoid-citoiddialog-search-progress": "Meklē, lūdzu, uzgaidi...",
 	"citoid-citoiddialog-title": "Pievienot atsauci",
@@ -26,7 +26,7 @@
 	"citoid-unknown-error": "Notika nezināma kļūda, kas neļāva izveidot atsauci. Lūdzu, vēlāk mēģini vēlreiz.",
 	"citoid-wb-referenceview-tabs-automatic": "Automātiski",
 	"citoid-wb-referenceview-tabs-search": "meklēt",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN vai QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI vai QID:",
 	"citoid-wb-pendingdialog-error": "No ievadītajiem datiem nav iespējams izveidot atsauci. Izmanto manuālās atsauces cilni vai mēģini vēlreiz.",
 	"citoid-wb-pendingdialog-message": "Veido atsauci... lūdzu, uzgaidi...",
 	"citoid-wb-pendingdialog-title": "Veido atsauci"

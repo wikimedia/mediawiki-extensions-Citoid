@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Pakai ulang",
 	"citoid-citoiddialog-search": "Gagai",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, judul, atawa sitasi",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, judul, atawa sitasi",
 	"citoid-citoiddialog-search-placeholder": "misalnya http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Manggagai, hadangi satumat...",
 	"citoid-citoiddialog-title": "Tambahakan kutipan",

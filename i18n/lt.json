@@ -18,7 +18,7 @@
 	"citoid-citoiddialog-mode-manual": "Instrukcija",
 	"citoid-citoiddialog-mode-reuse": "Naudoti pakartotinai",
 	"citoid-citoiddialog-search": "Ieškoti",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN arba PMC/PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI arba PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "pvz. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ieškoma, prašom palaukti...",
 	"citoid-citoiddialog-title": "Pridėti citatą",
@@ -31,7 +31,7 @@
 	"citoid-unknown-error": "Įvyko nežinoma klaida, dėl kurios nepavyko sukurti citatos. Prašome vėliau pabandyti dar kartą.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatinis",
 	"citoid-wb-referenceview-tabs-search": "ieškoti",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, or QID:",
 	"citoid-wb-pendingdialog-error": "Nepavyko sugeneruoti nuorodos iš šios įvesties. Naudokite rankinį skirtuką arba bandykite dar kartą.",
 	"citoid-wb-pendingdialog-message": "Generuojama nuoroda... palaukite...",
 	"citoid-wb-pendingdialog-title": "Citata generuojama"

@@ -18,7 +18,7 @@
 	"citoid-citoiddialog-mode-manual": "Вручну",
 	"citoid-citoiddialog-mode-reuse": "Повторно",
 	"citoid-citoiddialog-search": "Пошук",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, назву або цитату",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, назву або цитату",
 	"citoid-citoiddialog-search-placeholder": "наприклад, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Пошук, зачекайте, будь ласка…",
 	"citoid-citoiddialog-title": "Додати джерело",
@@ -31,7 +31,7 @@
 	"citoid-unknown-error": "Сталася невідома помилка, яка не дозволила нам створити посилання на джерело. Будь ласка, спробуйте пізніше.",
 	"citoid-wb-referenceview-tabs-automatic": "Автоматично",
 	"citoid-wb-referenceview-tabs-search": "пошук",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN або QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI або QID:",
 	"citoid-wb-pendingdialog-error": "Не вдалося згенерувати посилання з цього введення. Скористайтеся вкладкою «Вручну» або спробуйте ще раз.",
 	"citoid-wb-pendingdialog-message": "Генеруємо примітку для вас… зачекайте, будь ласка…",
 	"citoid-wb-pendingdialog-title": "Генерування цитати"

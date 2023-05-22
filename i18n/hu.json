@@ -6,7 +6,8 @@
 			"Misibacsi",
 			"Nyuszika7H",
 			"Tacsipacsi",
-			"Urbalazs"
+			"Urbalazs",
+			"Hanna Tardos"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Beillesztés",
@@ -17,7 +18,7 @@
 	"citoid-citoiddialog-mode-manual": "Kézi",
 	"citoid-citoiddialog-mode-reuse": "Újrafelhasználás",
 	"citoid-citoiddialog-search": "Keresés",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, cím vagy forráshivatkozás",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, cím vagy forráshivatkozás",
 	"citoid-citoiddialog-search-placeholder": "pl. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Keresés, kis türelmet…",
 	"citoid-citoiddialog-title": "Forráshivatkozás hozzáadása",
@@ -30,7 +31,7 @@
 	"citoid-unknown-error": "Egy ismeretlen hiba lépett fel, ami megakadályozott minket a forráshivatkozás létrehozásában. Próbáld újra később.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatikus",
 	"citoid-wb-referenceview-tabs-search": "keresés",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN vagy QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI vagy QID:",
 	"citoid-wb-pendingdialog-error": "Nem sikerült elkészíteni a forráshivatkozást ebből a bemenetből. Használd a kézi fület, vagy próbáld újra.",
 	"citoid-wb-pendingdialog-message": "A forráshivatkozásod elkészítése folyamatban, egy kis türelmet…",
 	"citoid-wb-pendingdialog-title": "Hivatkozás készítése folyamatban"

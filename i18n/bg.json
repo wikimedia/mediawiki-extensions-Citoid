@@ -18,7 +18,7 @@
 	"citoid-citoiddialog-mode-manual": "Ръчна настройка",
 	"citoid-citoiddialog-mode-reuse": "Повторно използване",
 	"citoid-citoiddialog-search": "Търсене",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, заглавие или цитат",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, заглавие или цитат",
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Търсене, моля изчакайте...",
 	"citoid-citoiddialog-title": "Добавяне на цитат",
@@ -31,7 +31,7 @@
 	"citoid-unknown-error": "Възникна неизвестна грешка, която ни попречи да създадем цитат. Моля, опитайте по-късно.",
 	"citoid-wb-referenceview-tabs-automatic": "Автоматично",
 	"citoid-wb-referenceview-tabs-search": "търсене",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN или QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI или QID:",
 	"citoid-wb-pendingdialog-error": "Не може да се генерира цитиране от тези данни. Използвайте таба за ръчно добавяне или опитайте отново.",
 	"citoid-wb-pendingdialog-message": "Генериране на бележки... моля изчакайте...",
 	"citoid-wb-pendingdialog-title": "Създаване на цитиране"

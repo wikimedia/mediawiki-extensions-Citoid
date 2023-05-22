@@ -17,7 +17,7 @@
 	"citoid-citoiddialog-mode-manual": "Manuell",
 	"citoid-citoiddialog-mode-reuse": "Gjenbruk",
 	"citoid-citoiddialog-search": "Søk",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tittel eller sitering",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, tittel eller sitering",
 	"citoid-citoiddialog-search-placeholder": "f.eks. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Søker, vennligst vent …",
 	"citoid-citoiddialog-title": "Legg til en sitering",
@@ -30,7 +30,7 @@
 	"citoid-unknown-error": "Kunne ikke opprette siteringen da en ukjent feil oppstod. Prøv på nytt senere.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatisk",
 	"citoid-wb-referenceview-tabs-search": "søk",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN eller QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI eller QID:",
 	"citoid-wb-pendingdialog-error": "Kunne ikke generere en referanse ut fra dette. Bruk den manuelle fanen, eller prøv igjen.",
 	"citoid-wb-pendingdialog-message": "Genererer referanse for deg … vennligst vent …",
 	"citoid-wb-pendingdialog-title": "Genererer sitering"

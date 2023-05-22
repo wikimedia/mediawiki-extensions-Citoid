@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-manual": "Рачно",
 	"citoid-citoiddialog-mode-reuse": "Повторна употреба",
 	"citoid-citoiddialog-search": "Пребарај",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, наслов или навод",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, наслов или навод",
 	"citoid-citoiddialog-search-placeholder": "на пр. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Пребарувам. Почекајте...",
 	"citoid-citoiddialog-title": "Додај навод",
@@ -25,7 +25,7 @@
 	"citoid-unknown-error": "Се појави непозната грешка и затоа не можев да го создадам наводот. Обидете се подоцна.",
 	"citoid-wb-referenceview-tabs-automatic": "Автоматски",
 	"citoid-wb-referenceview-tabs-search": "пребарај",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN или QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI или QID:",
 	"citoid-wb-pendingdialog-error": "Не можев да создадам навод од зададеното. Послужете се со јазичето за рачно внесување или пробајте повторно.",
 	"citoid-wb-pendingdialog-message": "Го правам наводот... Почекајте...",
 	"citoid-wb-pendingdialog-title": "Создавање на навод"

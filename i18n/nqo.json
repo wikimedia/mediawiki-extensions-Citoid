@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-manual": "ߓߟߏߟߕߊ",
 	"citoid-citoiddialog-mode-reuse": "ߊ߬ ߟߊߓߊ߯ߙߊ߫ ߕߎ߲߯ߣߌ߲߫",
 	"citoid-citoiddialog-search": "ߢߌߣߌ߲ߠߌ߲",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, ߞߎ߲߬ߕߐ߮߸ ߥߟߊ߫ ߟߊߛߙߋߦߊߟߌ",
+	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, ߞߎ߲߬ߕߐ߮߸ ߥߟߊ߫ ߟߊߛߙߋߦߊߟߌ",
 	"citoid-citoiddialog-search-placeholder": "ߟߊߒߡߊ߫ ߘߐ߫: http://www.example.com",
 	"citoid-citoiddialog-search-progress": "ߢߌߣߌ߲ߠߌ߲ ߦߴߌ ߘߐ߫߸ ߌ ߟߐ߬ ߖߊ߰ߣߌ߲߫...",
 	"citoid-citoiddialog-title": "ߟߊ߬ߛߙߋ߬ߦߊ߬ߟߌ ߝߙߊ߬",
@@ -25,7 +25,7 @@
 	"citoid-unknown-error": "ߝߎ߬ߕߎ߲߬ߕߌ߫ ߡߊߟߐ߲ߓߊߟߌ ߘߏ߫ ߓߘߊ߫ ߓߌ߬ߟߵߊ߬ ߘߐ߫ ߡߍ߲ ߣߴߊ߲ ߓߊ߬ߟߌ߬ ߟߊ߫ ߦߟߌߡߊߛߙߋ ߟߊߘߊ߲߫ ߠߊ߫. ߊ߬ ߡߊߝߍߣߍ߲߫ ߞߐߝߍ߬ ߖߊ߰ߣߌ߲߫.",
 	"citoid-wb-referenceview-tabs-automatic": "ߞߍߒߖߘߍߦߋ",
 	"citoid-wb-referenceview-tabs-search": "ߊ߬ ߢߌߣߌ߲߫",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ߥߟߊ߫ QID:",
 	"citoid-wb-pendingdialog-error": "ߦߟߌߡߊߛߙߋ ߡߊ߫ ߛߐ߲߬ ߠߊߥߟߏ߫ ߟߊ߫ ߟߊ߬ߘߏ߲߬ߣߍ߲ ߏ߬ ߟߊ߫. ߊ߬ ߞߍ߫ ߓߟߏߟߕߊ ߟߊ߫ ߖߊ߰ߣߌ߲߫߸ ߥߟߊ߫ ߞߵߊ߬ ߡߊߝߍߣߍ߲߫ ߌߞߐ߫ ߕߎ߲߯.",
 	"citoid-wb-pendingdialog-message": "ߦߟߌߡߊߛߙߋ ߘߟߊߘߍ߯ߟߌ ߦߴߌ ߘߐ߫ ߌ ߦߋ߫...ߌ ߟߐ߬ ߖߊ߰ߣߌ߲߫...",
 	"citoid-wb-pendingdialog-title": "ߟߊ߬ߛߙߋ߬ߦߊ߬ߟߌ ߘߟߊߘߍ߯ߟߌ ߦߴߊ߬ ߞߊ߲߬"
