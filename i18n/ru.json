@@ -28,7 +28,7 @@
 	"citoid-citoiddialog-mode-manual": "Вручную",
 	"citoid-citoiddialog-mode-reuse": "Повторно",
 	"citoid-citoiddialog-search": "Поиск",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, название или цитата",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, название или цитата",
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Идёт поиск, пожалуйста, подождите…",
 	"citoid-citoiddialog-title": "Добавить ссылку на источник",

@@ -14,7 +14,7 @@
 	"citoid-citoiddialog-mode-manual": "Manuāli",
 	"citoid-citoiddialog-mode-reuse": "Atkārtota izmantošana",
 	"citoid-citoiddialog-search": "Meklēt",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, nosaukums vai atsauce",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, nosaukums vai atsauce",
 	"citoid-citoiddialog-search-placeholder": "piemēram, http://www.piemers.com",
 	"citoid-citoiddialog-search-progress": "Meklē, lūdzu, uzgaidi...",
 	"citoid-citoiddialog-title": "Pievienot atsauci",

@@ -19,7 +19,7 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Pakai ulang",
 	"citoid-citoiddialog-search": "Cari",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, judul, atau sitasi",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, judul, atau sitasi",
 	"citoid-citoiddialog-search-placeholder": "misalnya http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Mencari, harap tunggu...",
 	"citoid-citoiddialog-title": "Tambahkan kutipan",
@@ -33,7 +33,7 @@
 	"citoid-unknown-error": "Galat yang tidak diketahui menghadang kami membuat kutipan. Silakan coba lagi nanti.",
 	"citoid-wb-referenceview-tabs-automatic": "Otomatis",
 	"citoid-wb-referenceview-tabs-search": "cari",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, atau QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, atau QID:",
 	"citoid-wb-pendingdialog-error": "Tidak dapat menghasilkan referensi dari masukan ini. Gunakan tab manual atau coba lagi.",
 	"citoid-wb-pendingdialog-message": "Menghasilkan referensi untuk Anda... harap tunggu...",
 	"citoid-wb-pendingdialog-title": "Menghasilkan Kutipan"

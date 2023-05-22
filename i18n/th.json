@@ -13,7 +13,7 @@
 	"citoid-citoiddialog-mode-manual": "กำหนดเอง",
 	"citoid-citoiddialog-mode-reuse": "ใช้ซ้ำ",
 	"citoid-citoiddialog-search": "ค้นหา",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, ชื่อเรื่อง หรือส่วนอ้างอิง",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, ชื่อเรื่อง หรือส่วนอ้างอิง",
 	"citoid-citoiddialog-search-placeholder": "เช่น http://www.example.com",
 	"citoid-citoiddialog-search-progress": "กำลังค้นหา โปรดรอสักครู่...",
 	"citoid-citoiddialog-title": "เพิ่มส่วนอ้างอิง",
@@ -26,5 +26,5 @@
 	"citoid-unknown-error": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุซึ่งทำให้เราไม่สามารถสร้างการอ้างอิงได้ โปรดลองอีกครั้งในภายหลัง",
 	"citoid-wb-referenceview-tabs-automatic": "อัตโนมัติ",
 	"citoid-wb-referenceview-tabs-search": "ค้นหา",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, หรือ QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, หรือ QID:"
 }

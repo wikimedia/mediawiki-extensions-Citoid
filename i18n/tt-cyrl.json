@@ -15,7 +15,7 @@
 	"citoid-citoiddialog-mode-manual": "Кулдан",
 	"citoid-citoiddialog-mode-reuse": "Яңадан куллану",
 	"citoid-citoiddialog-search": "Эзләү",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, исем яки чыганакка җибәрү",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, исем яки чыганакка җибәрү",
 	"citoid-citoiddialog-search-placeholder": "мәсәлән, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Эзләү бара, көтегез әле…",
 	"citoid-citoiddialog-title": "Чыганакка сылтама өстәү",

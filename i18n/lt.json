@@ -33,7 +33,7 @@
 	"citoid-unknown-error": "Įvyko nežinoma klaida, dėl kurios nepavyko sukurti citatos. Prašome vėliau pabandyti dar kartą.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatinis",
 	"citoid-wb-referenceview-tabs-search": "ieškoti",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, or QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:",
 	"citoid-wb-pendingdialog-error": "Nepavyko sugeneruoti nuorodos iš šios įvesties. Naudokite rankinį skirtuką arba bandykite dar kartą.",
 	"citoid-wb-pendingdialog-message": "Generuojama nuoroda... palaukite...",
 	"citoid-wb-pendingdialog-title": "Citata generuojama"

@@ -13,7 +13,7 @@
 	"citoid-citoiddialog-mode-auto": "Sjálfvirkt",
 	"citoid-citoiddialog-mode-manual": "Handvirkt",
 	"citoid-citoiddialog-mode-reuse": "Endurnota",
-	"citoid-citoiddialog-search-label": "Vefslóð, DOI, PMC/PMID, titill eða tilvísun",
+	"citoid-citoiddialog-search-label": "Vefslóð, DOI, ISBN, PMC/PMID, titill eða tilvísun",
 	"citoid-citoiddialog-search-placeholder": "t.d. http://www.example.com",
 	"citoid-citoiddialog-title": "Bæta við heimild",
 	"citoid-citoidtool-title": "Heimild",

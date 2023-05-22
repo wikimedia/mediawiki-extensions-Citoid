@@ -14,7 +14,7 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Bruk om att",
 	"citoid-citoiddialog-search": "Søk",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, tittel eller referanse",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, tittel eller referanse",
 	"citoid-citoiddialog-search-placeholder": "t.d. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Søkjer, ver god å venta…",
 	"citoid-citoiddialog-title": "Legg til ei kjelde",

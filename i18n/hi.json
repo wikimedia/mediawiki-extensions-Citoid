@@ -19,7 +19,7 @@
 	"citoid-citoiddialog-mode-manual": "मैन्युअल",
 	"citoid-citoiddialog-mode-reuse": "पुनः उपयोग करें",
 	"citoid-citoiddialog-search": "खोजें",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, शीर्षक, या उद्धरण",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, शीर्षक, या उद्धरण",
 	"citoid-citoiddialog-search-placeholder": "जैसे http://www.example.com",
 	"citoid-citoiddialog-search-progress": "खोजा जा रहा है, कृपया इंतज़ार करें...",
 	"citoid-citoiddialog-title": "उद्धरण जोड़ें",
@@ -33,7 +33,7 @@
 	"citoid-unknown-error": "एक अज्ञात त्रुटि की मदद से हम उद्धरण नहीं बना पाए। कृपया कुछ समय बाद कोशिश करें।",
 	"citoid-wb-referenceview-tabs-automatic": "स्वचालित",
 	"citoid-wb-referenceview-tabs-search": "खोजें",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, या QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, या QID:",
 	"citoid-wb-pendingdialog-error": "इस इनपुट से सन्दर्भ न बनाया जा सका। 'मैन्युअल' टैब का इस्तेमाल करें या फिर दोबारा कोशिश करें।",
 	"citoid-wb-pendingdialog-message": "आपके लिए सन्दर्भ बनाया जा रहा है... कृपया इंतज़ार करें...",
 	"citoid-wb-pendingdialog-title": "उद्धरण बन रहा है"

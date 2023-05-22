@@ -19,7 +19,7 @@
 	"citoid-citoiddialog-mode-manual": "Kézi",
 	"citoid-citoiddialog-mode-reuse": "Újrafelhasználás",
 	"citoid-citoiddialog-search": "Keresés",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, cím vagy forráshivatkozás",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, cím vagy forráshivatkozás",
 	"citoid-citoiddialog-search-placeholder": "pl. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Keresés, kis türelmet…",
 	"citoid-citoiddialog-title": "Forráshivatkozás hozzáadása",

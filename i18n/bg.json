@@ -18,7 +18,7 @@
 	"citoid-citoiddialog-mode-manual": "Ръчна настройка",
 	"citoid-citoiddialog-mode-reuse": "Повторно използване",
 	"citoid-citoiddialog-search": "Търсене",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, заглавие или цитат",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, заглавие или цитат",
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Търсене, моля изчакайте...",
 	"citoid-citoiddialog-title": "Добавяне на цитат",
