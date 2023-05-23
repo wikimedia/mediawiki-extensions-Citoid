@@ -15,7 +15,7 @@
 	"citoid-citoiddialog-mode-manual": "Eskuz",
 	"citoid-citoiddialog-mode-reuse": "Berrerabili",
 	"citoid-citoiddialog-search": "Bilatu",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN edo PMC/PMID, izenburua, testu soila edo Wikidata itema",
+	"citoid-citoiddialog-search-label": "URL, DOI edo PMC/PMID, izenburua, testu soila edo Wikidata itema",
 	"citoid-citoiddialog-search-placeholder": "adib. http://www.adibidea.eus",
 	"citoid-citoiddialog-search-progress": "Bilatzen. Mesedez, itxaron...",
 	"citoid-citoiddialog-title": "Erreferentzia gehitu",
@@ -28,7 +28,7 @@
 	"citoid-unknown-error": "Aipamena sortzen uzten ez digun errore ezezagun bat gertatu da. Saiatu berriro beranduago mesedez.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatikoa",
 	"citoid-wb-referenceview-tabs-search": "bilatu",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN edo QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI edo QID:",
 	"citoid-wb-pendingdialog-error": "Ezin izan da erreferentzia bat sortu sarrera honekin. Erabil ezazu fitxa manuala, edo saia zaitez berriro ere.",
 	"citoid-wb-pendingdialog-message": "Erreferentzia bat sortzen ari gara... itxoin, mesedez...",
 	"citoid-wb-pendingdialog-title": "Erreferentzia sortzen"
