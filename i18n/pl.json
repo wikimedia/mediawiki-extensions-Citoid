@@ -6,7 +6,8 @@
 			"Rail",
 			"Railfail536",
 			"Tar Lócesilion",
-			"Woytecr"
+			"Woytecr",
+			"Msz2001"
 		]
 	},
 	"citoid-action-replace": "Zmień typ odniesienia",
@@ -18,7 +19,7 @@
 	"citoid-citoiddialog-mode-manual": "Ręcznie",
 	"citoid-citoiddialog-mode-reuse": "Użyj istniejącego",
 	"citoid-citoiddialog-search": "Szukaj",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, tytuł lub cytat",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tytuł lub cytat",
 	"citoid-citoiddialog-search-placeholder": "np. http://www.przyklad.com",
 	"citoid-citoiddialog-search-progress": "Wyszukiwanie, proszę czekać…",
 	"citoid-citoiddialog-title": "Dodaj przypis",
@@ -32,7 +33,7 @@
 	"citoid-unknown-error": "Nieznany błąd uniemożliwił utworzenie przypisu. Spróbuj ponownie później.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatyczny",
 	"citoid-wb-referenceview-tabs-search": "szukaj",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN lub QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI lub QID:",
 	"citoid-wb-pendingdialog-error": "Nie udało się wygenerować przypisu z podanych danych. Użyj trybu ręcznego lub spróbuj ponownie.",
 	"citoid-wb-pendingdialog-message": "Generowanie przypisu... proszę czekać...",
 	"citoid-wb-pendingdialog-title": "Generowanie przypisu"

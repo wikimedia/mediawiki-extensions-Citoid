@@ -31,7 +31,7 @@
 	"citoid-unknown-error": "Došlo je do nepoznate greške koja je spriječila generiranje reference. Pokušajte ponovo kasnije.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatski",
 	"citoid-wb-referenceview-tabs-search": "traži",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ili QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI ili QID:",
 	"citoid-wb-pendingdialog-error": "Ne mogu da generiram referencu iz unesenih podataka. Upotrijebite karticu „Ručno” ili pokušajte ponovno.",
 	"citoid-wb-pendingdialog-message": "Generiram referencu…",
 	"citoid-wb-pendingdialog-title": "Generiranje reference"

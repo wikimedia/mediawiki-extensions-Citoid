@@ -16,7 +16,7 @@
 	"citoid-citoiddialog-mode-manual": "ידנית",
 	"citoid-citoiddialog-mode-reuse": "שימוש חוזר",
 	"citoid-citoiddialog-search": "חיפוש",
-	"citoid-citoiddialog-search-label": "URL‏, DOI‏, ISBN‏, PMC/PMID‏, QID, כותרת, או ציטוט.",
+	"citoid-citoiddialog-search-label": "URL‏, DOI‏, ISBN‏, PMC/PMID‏, QID, כותרת או ציטוט",
 	"citoid-citoiddialog-search-placeholder": "למשל http://www.example.com",
 	"citoid-citoiddialog-search-progress": "חיפוש, נא להמתין...",
 	"citoid-citoiddialog-title": "הוספת הערת שוליים",

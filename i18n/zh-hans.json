@@ -10,7 +10,8 @@
 			"VulpesVulpes825",
 			"Yfdyh000",
 			"佛壁灯",
-			"铁桶"
+			"铁桶",
+			"GuoPC"
 		]
 	},
 	"citoid-action-replace": "更改参考类型",
@@ -22,7 +23,7 @@
 	"citoid-citoiddialog-mode-manual": "手动",
 	"citoid-citoiddialog-mode-reuse": "复用",
 	"citoid-citoiddialog-search": "搜索",
-	"citoid-citoiddialog-search-label": "网址、DOI、ISBN、PMC/PMID、QID、标题或纯文本引用",
+	"citoid-citoiddialog-search-label": "URL、DOI、ISBN、PMC/PMID、QID、标题或纯文本引用",
 	"citoid-citoiddialog-search-placeholder": "例如：http://www.example.com",
 	"citoid-citoiddialog-search-progress": "搜索中，请稍候…",
 	"citoid-citoiddialog-title": "添加引用",

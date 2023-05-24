@@ -40,7 +40,7 @@
 	"citoid-unknown-error": "خطای نامشخصی اجازهٔ ساخت یادکرد را نمی‌دهد. لطفاً بعداً تلاش کنید.",
 	"citoid-wb-referenceview-tabs-automatic": "خودکار",
 	"citoid-wb-referenceview-tabs-search": "جستجو",
-	"citoid-wb-referenceview-tabs-search-label": "نشانی اینترنتی، شبر، شابک یا شناسه ویکی‌داده",
+	"citoid-wb-referenceview-tabs-search-label": "نشانی اینترنتی، شبر، شابک یا شناسه ویکی‌داده:",
 	"citoid-wb-pendingdialog-error": "ناتوان در ایجاد ارجاع از این ورودی. از زبانهٔ دستی استفاده کنید یا دوباره تلاش کنید.",
 	"citoid-wb-pendingdialog-message": "در حال تولید یک مرجع برای شما... لطفاً صبر کنید...",
 	"citoid-wb-pendingdialog-title": "در حال تولید یادکرد"

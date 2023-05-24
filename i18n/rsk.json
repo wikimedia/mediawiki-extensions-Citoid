@@ -27,7 +27,7 @@
 	"citoid-unknown-error": "Пришло до нєпознатей гришки хтора онєможлївює ґенерованє референци. Пробуйце ознова познєйше.",
 	"citoid-wb-referenceview-tabs-automatic": "Автоматски",
 	"citoid-wb-referenceview-tabs-search": "глєдай",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN або QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI або QID:",
 	"citoid-wb-pendingdialog-error": "Нє можлїве ґенеровац референцу з того уносу. Похаснуйце карточку „Ручно” або попробуйце ознова познєйше.",
 	"citoid-wb-pendingdialog-message": "Ґенеруєме референцу...модлїм, причекайце...",
 	"citoid-wb-pendingdialog-title": "Ґенерованє референци"

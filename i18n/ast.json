@@ -13,7 +13,7 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Reutilizar",
 	"citoid-citoiddialog-search": "Buscar",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN o PMC/PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI o PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "p.e. http://www.exemplu.com",
 	"citoid-citoiddialog-search-progress": "Buscando, espera...",
 	"citoid-citoiddialog-title": "Amestar una cita",
@@ -26,7 +26,7 @@
 	"citoid-unknown-error": "Hebo un error desconocíu que torgó la creación de la cita. Inténtalo más sero.",
 	"citoid-wb-referenceview-tabs-automatic": "Automáticu",
 	"citoid-wb-referenceview-tabs-search": "buscar",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN o QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI o QID:",
 	"citoid-wb-pendingdialog-error": "Non pudo xenerase una referencia a partir d'esta entrada. Usa la llingüeta manual o tenta nuevamente.",
 	"citoid-wb-pendingdialog-message": "Tamos xenerándote una referencia... espera...",
 	"citoid-wb-pendingdialog-title": "Xenerando una cita"

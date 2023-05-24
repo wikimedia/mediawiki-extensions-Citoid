@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-manual": "ដោយដៃ",
 	"citoid-citoiddialog-mode-reuse": "ប្រើឡើងវិញ",
 	"citoid-citoiddialog-search": "ស្វែងរក",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN ឬ PMC/PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI ឬ PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "ឧ៖ http://www.example.com",
 	"citoid-citoiddialog-search-progress": "កំពុងស្វែងរក។ សូមរង់ចាំបន្តិច...",
 	"citoid-citoidtool-title": "ដាក់ការយោង",

@@ -5,7 +5,8 @@
 			"Dgstranz",
 			"Fitoschido",
 			"Macofe",
-			"MadriCR"
+			"MadriCR",
+			"MarcoAurelio"
 		]
 	},
 	"citoid-action-replace": "Cambiar tipo de referencia",
@@ -17,7 +18,7 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Reusar",
 	"citoid-citoiddialog-search": "Buscar",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, título o cita",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, ISBN, PMC/PMID, QID, título o cita",
 	"citoid-citoiddialog-search-placeholder": "por ejemplo, http://www.ejemplo.com",
 	"citoid-citoiddialog-search-progress": "Buscando; espera un momento…",
 	"citoid-citoiddialog-title": "Añadir una cita",
@@ -31,7 +32,7 @@
 	"citoid-unknown-error": "Ocurrió un error desconocido que nos impidió crear la cita. Inténtalo de nuevo más tarde.",
 	"citoid-wb-referenceview-tabs-automatic": "Automático",
 	"citoid-wb-referenceview-tabs-search": "buscar",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN o QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI o QID:",
 	"citoid-wb-pendingdialog-error": "No se pudo generar una referencia a partir de esta entrada. Utiliza la pestaña Manual o inténtalo de nuevo.",
 	"citoid-wb-pendingdialog-message": "Te estamos generando una referencia; espera…",
 	"citoid-wb-pendingdialog-title": "Generando cita"
