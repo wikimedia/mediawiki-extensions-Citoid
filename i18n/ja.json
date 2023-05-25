@@ -24,7 +24,7 @@
 	"citoid-citoiddialog-mode-manual": "マニュアル",
 	"citoid-citoiddialog-mode-reuse": "再利用",
 	"citoid-citoiddialog-search": "検索",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN または PMC/PMID",
+	"citoid-citoiddialog-search-label": "URL、DOI、ISBN、PMC/PMID、QID、タイトル、または引用を使用。",
 	"citoid-citoiddialog-search-placeholder": "例 http://www.example.com",
 	"citoid-citoiddialog-search-progress": "検索しています。お待ちください...",
 	"citoid-citoiddialog-title": "引用を追加",
@@ -38,7 +38,7 @@
 	"citoid-unknown-error": "不明なエラーが発生したため出典が生成できませんでした。後でやり直してください。",
 	"citoid-wb-referenceview-tabs-automatic": "自動",
 	"citoid-wb-referenceview-tabs-search": "検索",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBNまたはQID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI、ISBN、QID:",
 	"citoid-wb-pendingdialog-error": "この入力から出典を生成できませんでした。手動タブを使うか、もう一度実行してください。",
 	"citoid-wb-pendingdialog-message": "出典を生成しています... しばらくお待ちください...",
 	"citoid-wb-pendingdialog-title": "引用の作成"

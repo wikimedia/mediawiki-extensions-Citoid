@@ -30,7 +30,7 @@
 	"citoid-unknown-error": "Došlo je do nepoznate pogreške koja je spriječila stvaranje citata. Molimo pokušajte ponovo kasnije.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatski",
 	"citoid-wb-referenceview-tabs-search": "Pretraži",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ili QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI ili QID:",
 	"citoid-wb-pendingdialog-error": "Referenciju nije moguće stvoriti iz unesenih podataka. Poslužite se karticom za ručno dodavanje izvora ili pokušajte ponovo unoseći drugačije podatke.",
 	"citoid-wb-pendingdialog-message": "Stvaramo referenciju, molimo pričekajte..."
 }

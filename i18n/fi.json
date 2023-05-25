@@ -36,7 +36,7 @@
 	"citoid-unknown-error": "Viitteen luominen epäonnistui tuntemattomasta syystä. Yritä myöhemmin uudelleen.",
 	"citoid-wb-referenceview-tabs-automatic": "Automaattinen",
 	"citoid-wb-referenceview-tabs-search": "haku",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN tai QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI tai QID:",
 	"citoid-wb-pendingdialog-error": "Viitteen luominen epäonnistui. Käytä välilehteä Manuaalinen tai yritä uudelleen.",
 	"citoid-wb-pendingdialog-message": "Luodaan viitettä... odota...",
 	"citoid-wb-pendingdialog-title": "Viitteen luonti"

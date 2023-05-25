@@ -13,7 +13,7 @@
 	"citoid-citoiddialog-mode-manual": "Рачно",
 	"citoid-citoiddialog-mode-reuse": "Повторна употреба",
 	"citoid-citoiddialog-search": "Пребарај",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, наслов или навод",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, наслов или навод",
 	"citoid-citoiddialog-search-placeholder": "на пр. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Пребарувам. Почекајте...",
 	"citoid-citoiddialog-title": "Додај навод",

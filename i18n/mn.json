@@ -11,7 +11,7 @@
 	"citoid-citoiddialog-mode-auto": "Автоматаар",
 	"citoid-citoiddialog-mode-manual": "Гараар",
 	"citoid-citoiddialog-mode-reuse": "Дахин ашиглах",
-	"citoid-citoiddialog-search-label": "URL, DOI эсвэл PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, гарчиг, эшлэл",
 	"citoid-citoiddialog-search-placeholder": "Жнь.: http://www.example.com",
 	"citoid-citoiddialog-title": "Эш татах",
 	"citoid-citoiddialog-title-replace": "Эшлэлийг орлуулах",
@@ -19,5 +19,6 @@
 	"citoid-citoidtool-title": "Эш татах",
 	"citoid-citoidtool-title-othergroup": "Эшлэл",
 	"citoid-referencecontextitem-convert-button": "Хөрвүүлэх",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, эсвэл QID:",
 	"citoid-wb-pendingdialog-title": "Эш татаж байна"
 }
