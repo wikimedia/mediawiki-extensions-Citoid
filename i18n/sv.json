@@ -21,7 +21,7 @@
 	"citoid-citoiddialog-mode-manual": "Manuell",
 	"citoid-citoiddialog-mode-reuse": "Återanvänd",
 	"citoid-citoiddialog-search": "Sök",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, titel eller referens",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titel eller referens",
 	"citoid-citoiddialog-search-placeholder": "t.ex. http://www.exempel.se",
 	"citoid-citoiddialog-search-progress": "Söker, var god vänta...",
 	"citoid-citoiddialog-title": "Lägg till en källa",

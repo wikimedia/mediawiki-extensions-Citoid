@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"פוילישער"
+			"פוילישער",
+			"Pacha Tchernof"
 		]
 	},
 	"citoid-citation-widget-insert-button": "צולייגן",
@@ -10,7 +11,7 @@
 	"citoid-citoiddialog-mode-auto": "אויטאמאטיש",
 	"citoid-citoiddialog-mode-manual": "האַנטלעך",
 	"citoid-citoiddialog-mode-reuse": "ווידערניצן",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID טיטל, אדער ציטאט",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, טיטל, אדער ציטאט",
 	"citoid-citoidtool-title": "ציטירן",
 	"citoid-citoidtool-title-othergroup": "ציטירונג",
 	"citoid-desc": "פארזארגט צוטריט פונקטן צווישן דער citoid־דינסט און מעדיעוויקי",

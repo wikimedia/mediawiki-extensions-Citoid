@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-manual": "imfashanyigisho",
 	"citoid-citoiddialog-mode-reuse": "ongera ukoreshe",
 	"citoid-citoiddialog-search": "Shakira aha",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, umutwe, cyangwa ibisobanuro",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, umutwe, cyangwa ibisobanuro",
 	"citoid-citoiddialog-search-placeholder": "e.g. http://www.urugero.com",
 	"citoid-citoiddialog-search-progress": "shakisha, tegereza...",
 	"citoid-citoiddialog-title": "ongeraho ibisobanuro",
@@ -25,7 +25,7 @@
 	"citoid-unknown-error": "ikosa ritazwi ryabayeho ryatubujije gukora inyandiko. wongere ugerageze nyuma.",
 	"citoid-wb-referenceview-tabs-automatic": "byikora",
 	"citoid-wb-referenceview-tabs-search": "shakira aha",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, or QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:",
 	"citoid-wb-pendingdialog-error": "ntibishoboka kugaragaza ibyatanzwe muri iyi nyandiko. koresha uburyo busanzwe,cyangwa wongere nyuma",
 	"citoid-wb-pendingdialog-message": "kugaragaza ibisobanuro kuri wowe... tegereza...",
 	"citoid-wb-pendingdialog-title": "kugena ibiganiro"

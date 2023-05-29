@@ -15,7 +15,7 @@
 	"citoid-citoiddialog-mode-manual": "Уручную",
 	"citoid-citoiddialog-mode-reuse": "Паўторна выкарыстоўваць",
 	"citoid-citoiddialog-search": "Пошук",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, назва ці цытата",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, назва ці цытата",
 	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Ідзе пошук, калі ласка, пачакайце...",
 	"citoid-citoiddialog-title": "Дадаць цытаванне",

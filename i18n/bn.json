@@ -17,7 +17,7 @@
 	"citoid-citoiddialog-mode-manual": "হস্তচালিত",
 	"citoid-citoiddialog-mode-reuse": "পুনঃব্যবহার",
 	"citoid-citoiddialog-search": "অনুসন্ধান",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, শিরোনাম বা উদ্ধৃতি",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, শিরোনাম বা উদ্ধৃতি",
 	"citoid-citoiddialog-search-placeholder": "উদা. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "অনুসন্ধান করা হচ্ছে, দয়া করে অপেক্ষা করুন...",
 	"citoid-citoiddialog-title": "একটি উদ্ধৃতি যোগ করুন",
@@ -30,6 +30,6 @@
 	"citoid-unknown-error": "একটি অজানা ত্রুটি যা আমাদের তথ্যসূত্র তৈরী করতে বাধা দিচ্ছে। অনুগ্রহ করে পুনরায় চেষ্টা করুন।",
 	"citoid-wb-referenceview-tabs-automatic": "স্বয়ংক্রিয়",
 	"citoid-wb-referenceview-tabs-search": "অনুসন্ধান",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, বা QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, বা QID:",
 	"citoid-wb-pendingdialog-title": "উদ্ধৃতি উৎপন্ন করা হচ্ছে"
 }

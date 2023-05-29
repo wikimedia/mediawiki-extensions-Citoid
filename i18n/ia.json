@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Reusar",
 	"citoid-citoiddialog-search": "Cercar",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, titulo o citation",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titulo o citation",
 	"citoid-citoiddialog-search-placeholder": "p.ex. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Recerca in curso, attende…",
 	"citoid-citoiddialog-title": "Adder un citation",
@@ -25,7 +25,7 @@
 	"citoid-unknown-error": "Un error incognite ha impedite le creation de un citation. Per favor reproba plus tarde.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatic",
 	"citoid-wb-referenceview-tabs-search": "cercar",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI o QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN o QID:",
 	"citoid-wb-pendingdialog-error": "Incapace de crear un referentia a partir de iste entrata. Usa le scheda manual o tenta lo de novo.",
 	"citoid-wb-pendingdialog-message": "Generante un referentia pro te… un momento…",
 	"citoid-wb-pendingdialog-title": "Generante citation"

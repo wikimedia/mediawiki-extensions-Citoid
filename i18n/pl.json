@@ -18,7 +18,7 @@
 	"citoid-citoiddialog-mode-manual": "Ręcznie",
 	"citoid-citoiddialog-mode-reuse": "Użyj istniejącego",
 	"citoid-citoiddialog-search": "Szukaj",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, tytuł lub cytat",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tytuł lub cytat",
 	"citoid-citoiddialog-search-placeholder": "np. http://www.przyklad.com",
 	"citoid-citoiddialog-search-progress": "Wyszukiwanie, proszę czekać…",
 	"citoid-citoiddialog-title": "Dodaj przypis",

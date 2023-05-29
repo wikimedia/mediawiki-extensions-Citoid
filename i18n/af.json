@@ -13,7 +13,7 @@
 	"citoid-citoiddialog-mode-auto": "Outomaties",
 	"citoid-citoiddialog-mode-manual": "Handmatig",
 	"citoid-citoiddialog-mode-reuse": "Hergebruik",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, titel, of aanhaling",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, titel, of aanhaling",
 	"citoid-citoiddialog-search-placeholder": "bv. http://www.example.com",
 	"citoid-citoidtool-title": "Haal aan",
 	"citoid-citoidtool-title-othergroup": "Aanhaling",

@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-manual": "Käsitsi",
 	"citoid-citoiddialog-mode-reuse": "Korduv",
 	"citoid-citoiddialog-search": "Otsi",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, pealkiri või viide",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, pealkiri või viide",
 	"citoid-citoiddialog-search-placeholder": "nt http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Otsimine, palun oota...",
 	"citoid-citoiddialog-title": "Viite lisamine",

@@ -8,7 +8,7 @@
 	"citoid-citation-widget-insert-button": "Innset",
 	"citoid-citoiddialog-back": "Aftur",
 	"citoid-citoiddialog-lookup-button": "Leita",
-	"citoid-citoiddialog-search-label": "URL, DOI, PMC/PMID, QID, heitið ella sitera",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, heitið ella sitera",
 	"citoid-citoiddialog-search-placeholder": "t.d. http://www.example.com",
 	"citoid-citoidtool-title": "Skriva keldu"
 }
