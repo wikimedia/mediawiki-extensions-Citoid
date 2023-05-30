@@ -42,7 +42,7 @@
 	"citoid-unknown-error": "Возникла неизвестная ошибка, котроая не позволила нам создать цитату. Пожалуйста, попробуйте ещё раз позднее.",
 	"citoid-wb-referenceview-tabs-automatic": "Автоматически",
 	"citoid-wb-referenceview-tabs-search": "поиск",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI или QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN или QID:",
 	"citoid-wb-pendingdialog-error": "Невозможно создать примечание из этого ввода. Воспользуйтесь вкладкой вручную или попробуйте еще раз.",
 	"citoid-wb-pendingdialog-message": "Создание ссылки для вас... пожалуйста, подождите...",
 	"citoid-wb-pendingdialog-title": "Генерация источника"
