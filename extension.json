@@ -26,6 +26,8 @@
 			"localBasePath": "modules/ve",
 			"remoteExtPath": "Citoid/modules/ve",
 			"scripts": [
+				"ve.ui.ISBNScannerButtonWidget.js",
+				"ve.ui.ISBNScannerDialog.js",
 				"ve.ui.CiteSourceSelectWidget.js",
 				"ve.ui.CitoidInspectorTool.js",
 				"ve.ui.CitoidGroupWidget.js",
@@ -36,6 +38,7 @@
 				"ve.ui.Citoid.init.js"
 			],
 			"styles": [
+				"ve.ui.ISBNScannerDialog.css",
 				"ve.ui.CiteSourceSelectWidget.css",
 				"ve.ui.CitoidInspector.css",
 				"ve.ui.CitoidReferenceContextItem.css"
@@ -44,7 +47,8 @@
 				"ext.cite.visualEditor",
 				"ext.visualEditor.mediawiki",
 				"mediawiki.api",
-				"ext.citoid.visualEditor.data"
+				"ext.citoid.visualEditor.data",
+				"ext.citoid.visualEditor.icons"
 			],
 			"messages": [
 				"citoid-action-replace",
@@ -64,6 +68,7 @@
 				"citoid-citoiddialog-use-general-error-message",
 				"citoid-citoidtool-title",
 				"citoid-citoidtool-title-othergroup",
+				"citoid-isbnscannerdialog-title",
 				"citoid-referencecontextitem-convert-button",
 				"citoid-referencecontextitem-convert-message",
 				"citoid-unknown-error"
@@ -72,6 +77,42 @@
 				"desktop",
 				"mobile"
 			]
+		},
+		"quagga2": {
+			"scripts": [
+				"lib/quagga2/quagga.min.js"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.citoid.visualEditor.icons": {
+			"class": "ResourceLoaderImageModule",
+			"selectorWithoutVariant": ".oo-ui-icon-{name}",
+			"selectorWithVariant": ".oo-ui-image-{variant}.oo-ui-icon-{name}",
+			"variants": {
+				"progressive": {
+					"color": "#36c"
+				},
+				"invert": {
+					"color": "#fff"
+				}
+			},
+			"images": {
+				"switchCamera": {
+					"file": "modules/icons/switchCamera.svg",
+					"variants": [ "invert" ]
+				},
+				"cameraFlash": {
+					"file": "modules/icons/cameraFlash.svg",
+					"variants": [ "invert" ]
+				},
+				"barcode": {
+					"file": "modules/icons/barcode.svg",
+					"variants": [ "invert" ]
+				}
+			}
 		},
 		"ext.citoid.visualEditor.data": {
 			"class": "MediaWiki\\Extension\\Citoid\\CitoidDataModule"
@@ -122,6 +163,7 @@
 			]
 		}
 	},
+	"ForeignResourcesDir": "lib",
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
 		"remoteExtPath": "Citoid"
@@ -156,6 +198,10 @@
 		"CitoidFullRestbaseURL": {
 			"value": false,
 			"description": "Full url to use a citoid service running behind restbase, i.e. https://en.wikipedia.org/api/rest_. Overwrites default, which is to use VisualEditorFullRestbaseURL."
+		},
+		"CitoidISBNScannerDesktopEnable": {
+			"value": false,
+			"description": "Enable the ISBN scanner on desktop."
 		},
 		"WBCitoidFullRestbaseURL": {
 			"value": false,

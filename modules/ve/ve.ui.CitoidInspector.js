@@ -184,12 +184,35 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		label: ve.msg( 'citoid-citoiddialog-search-label' )
 	} );
 
+	var isbnEnabled = OO.ui.isMobile() || mw.config.get( 'wgCitoidConfig' ).ISBNScannerDesktopEnable;
+	var isbnSupported =
+		// Reflects browser security policy
+		// eslint-disable-next-line compat/compat
+		( location.protocol === 'https:' || location.hostname === 'localhost' ) &&
+		// eslint-disable-next-line compat/compat
+		navigator.mediaDevices && navigator.mediaDevices.getUserMedia;
+
+	this.isbnButton = new ve.ui.ISBNScannerButtonWidget( { disabled: !isbnSupported } );
+	this.isbnButton.on( 'detected', function ( isbn ) {
+		this.fromScan = true;
+		this.lookupInput.setValue( isbn );
+		this.lookupInput.once( 'change', function () {
+			this.fromScan = false;
+		}.bind( this ) );
+		this.executeAction( 'lookup' );
+	}.bind( this ) );
+	var isbnButtonFieldLayout = new OO.ui.FieldLayout( this.isbnButton );
+
 	// Error label
 	this.$noticeLabel = $( '<div>' ).addClass( 've-ui-citoidInspector-dialog-error oo-ui-element-hidden' ).text(
 		ve.msg( 'citoid-citoiddialog-use-general-error-message' )
 	);
 
-	this.autoProcessPanels.lookup.$element.append( lookupActionFieldLayout.$element, this.$noticeLabel );
+	this.autoProcessPanels.lookup.$element.append(
+		lookupActionFieldLayout.$element,
+		isbnEnabled ? isbnButtonFieldLayout.$element : undefined,
+		this.$noticeLabel
+	);
 
 	this.modePanels.auto.$element.append( this.autoProcessStack.$element );
 
@@ -388,6 +411,9 @@ ve.ui.CitoidInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) 
 		}
 
 		ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-insert' } );
+		if ( this.fromScan ) {
+			ve.track( 'activity.' + ve.ui.ISBNScannerDialog.static.name, { action: 'result-inserted' } );
+		}
 
 		// Force a context change to show the correct context item as we may
 		// have changed from a plain reference to a templated citation
@@ -445,6 +471,7 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 			this.lookupButton.setDisabled( true );
 			this.inDialog = data.inDialog || '';
 			this.replaceRefNode = data.replace && this.getSelectedNode();
+			this.fromScan = false;
 			if ( data.inStaging ) {
 				this.staging++;
 			}
