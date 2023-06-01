@@ -35,6 +35,7 @@
 	"citoid-citoidtool-title": "Sourcer",
 	"citoid-citoidtool-title-othergroup": "Citation",
 	"citoid-desc": "Offre des points d’accès entre le service ''citoid'' et MediaWiki",
+	"citoid-isbnscannerdialog-title": "Scanner le code barre ISBN",
 	"citoid-referencecontextitem-convert-button": "Convertir",
 	"citoid-referencecontextitem-convert-message": "Vous pouvez utiliser le bouton « {{int:citoid-referencecontextitem-convert-button}} » ci-dessous pour générer une référence correctement mise en forme du lien externe.",
 	"citoid-unknown-error": "Une erreur inconnue s’est produite ce qui nous a empêché de créer la référence. Veuillez réessayer plus tard.",

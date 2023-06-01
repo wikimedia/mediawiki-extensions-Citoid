@@ -25,6 +25,7 @@
 	"citoid-citoidtool-title": "Navedi",
 	"citoid-citoidtool-title-othergroup": "Sklic",
 	"citoid-desc": "Zagotavlja točke dostopa med storitvama citoid in MediaWiki",
+	"citoid-isbnscannerdialog-title": "Skeniranje črtne kode ISBN",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
 	"citoid-referencecontextitem-convert-message": "Uporabite lahko gumb »{{int:citoid-referencecontextitem-convert-button}}« spodaj, da ustvarite ustrezno oblikovan sklic iz zunanje povezave.",
 	"citoid-unknown-error": "Prišlo je do neznane napake, ki je preprečila ustvaritev sklica. Prosimo, poskusite znova pozneje.",
