@@ -22,6 +22,7 @@
 	"citoid-citoidtool-title": "Наведи",
 	"citoid-citoidtool-title-othergroup": "Навод",
 	"citoid-desc": "Овозможува поврзаност помеѓу службата Citoid и МедијаВики",
+	"citoid-isbnscannerdialog-title": "Читање на ISBN-линиски код",
 	"citoid-referencecontextitem-convert-button": "Претвори",
 	"citoid-referencecontextitem-convert-message": "Можете да се послужите со долуприкажаното копче „{{int:citoid-referencecontextitem-convert-button}}“ за да направите правилно срочен навод од надворешна врска.",
 	"citoid-unknown-error": "Се појави непозната грешка и затоа не можев да го создадам наводот. Обидете се подоцна.",

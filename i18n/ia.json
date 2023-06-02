@@ -22,6 +22,7 @@
 	"citoid-citoidtool-title": "Citar",
 	"citoid-citoidtool-title-othergroup": "Citation",
 	"citoid-desc": "Forni punctos de accesso inter le servicio Citoid e MediaWiki",
+	"citoid-isbnscannerdialog-title": "Scanna le codice a barras ISDN",
 	"citoid-referencecontextitem-convert-button": "Converter",
 	"citoid-referencecontextitem-convert-message": "Tu pote usar le button \"{{int:citoid-referencecontextitem-convert-button}}\" hic infra pro generar un referentia con formato correcte a partir del ligamine externe.",
 	"citoid-unknown-error": "Un error incognite ha impedite le creation de un citation. Per favor reproba plus tarde.",

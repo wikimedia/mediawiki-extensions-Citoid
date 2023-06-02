@@ -34,6 +34,7 @@
 	"citoid-citoidtool-title": "Kaynak ekle",
 	"citoid-citoidtool-title-othergroup": "Kaynak",
 	"citoid-desc": "Citoid hizmeti ile MediaWiki arasında erişim noktaları oluşturur",
+	"citoid-isbnscannerdialog-title": "ISBN barkodunu tara",
 	"citoid-referencecontextitem-convert-button": "Çevir",
 	"citoid-referencecontextitem-convert-message": "Harici bağlantıdan düzgün biçimlendirilmiş bir kaynak oluşturmak için aşağıdaki \"{{int:citoid-referencecontextitem-convert-button}}\" düğmesini kullanabilirsiniz.",
 	"citoid-unknown-error": "Kaynak oluşturmamızı engelleyen bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.",

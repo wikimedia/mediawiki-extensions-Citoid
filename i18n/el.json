@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Dogogos123",
 			"Geraki",
 			"Giannaras99",
 			"Αντιγόνη"
@@ -25,6 +26,7 @@
 	"citoid-citoidtool-title": "Παραπομπή",
 	"citoid-citoidtool-title-othergroup": "Παραπομπή",
 	"citoid-desc": "Παρέχει σημεία πρόσβασης μεταξύ της υπηρεσίας citoid και του MediaWiki",
+	"citoid-isbnscannerdialog-title": "Σάρωση γραμμικού κώδικα ISBN",
 	"citoid-referencecontextitem-convert-button": "Μετατροπή",
 	"citoid-referencecontextitem-convert-message": "Η παραπομπή αυτή αποτελείται από ένα εξωτερικό σύνδεσμο. Μπορείτε να χρησιμοποιήσετε το κουμπί \"{{int:citoid-referencecontextitem-convert-button}}\" παρακάτω για να δημιουργήσετε μια σωστά διαμορφωμένη παραπομπή.",
 	"citoid-unknown-error": "Ένα άγνωστο σφάλμα παρουσιάστηκε που μας απέτρεψε από το να δημιουργηθεί μια παραπομπή. Παρακαλούμε δοκιμάστε ξανά αργότερα.",

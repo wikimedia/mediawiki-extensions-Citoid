@@ -25,6 +25,7 @@
 	"citoid-citoidtool-title": "הערת שוליים",
 	"citoid-citoidtool-title-othergroup": "הערות שוליים",
 	"citoid-desc": "אספקת נקודות כניסה בין שירות citoid לבין מדיה־ויקי",
+	"citoid-isbnscannerdialog-title": "סריקת ברקוד של מסת\"ב",
 	"citoid-referencecontextitem-convert-button": "להמיר",
 	"citoid-referencecontextitem-convert-message": "אפשר להשתמש בכפתור \"{{int:citoid-referencecontextitem-convert-button}}\" להלן כדי ליצור הערת שוליים שמעוצבת כראוי מקישור חיצוני.",
 	"citoid-unknown-error": "אירעה שגיאה בלתי־ידועה שמנעה מאיתנו ליצור הפניה למקור.\nנא לנסות שוב מאוחר יותר.",

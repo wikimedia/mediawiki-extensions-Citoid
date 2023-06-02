@@ -23,6 +23,7 @@
 	"citoid-citoidtool-title": "İstinad",
 	"citoid-citoidtool-title-othergroup": "İstinad",
 	"citoid-desc": "Citoid xidməti ilə MediaWiki arasında giriş nöqtələri təmin edir",
+	"citoid-isbnscannerdialog-title": "ISBN ştrix kodunu skan edin",
 	"citoid-referencecontextitem-convert-button": "Çevir",
 	"citoid-referencecontextitem-convert-message": "Xarici keçiddən düzgün formatlandırılmış istinad yaratmaq üçün aşağıdakı \"{{int:citoid-referencecontextitem-convert-button}}\" düyməsini istifadə edə bilərsiniz.",
 	"citoid-unknown-error": "İstinad yaratmağımıza mane olan bilinməyən bir səhv baş verdi. Zəhmət olmasa bir az sonra yenidən cəhd edin.",
