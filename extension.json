@@ -199,9 +199,12 @@
 			"value": false,
 			"description": "Full url to use a citoid service running behind restbase, i.e. https://en.wikipedia.org/api/rest_. Overwrites default, which is to use VisualEditorFullRestbaseURL."
 		},
-		"CitoidISBNScannerDesktopEnable": {
-			"value": false,
-			"description": "Enable the ISBN scanner on desktop."
+		"CitoidIsbnScannerEnabled": {
+			"value": {
+				"mobile": true,
+				"desktop": false
+			},
+			"description": "Enable the ISBN scanner, per platform."
 		},
 		"WBCitoidFullRestbaseURL": {
 			"value": false,

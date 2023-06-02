@@ -27,7 +27,7 @@ class Hooks {
 		$vars['wgCitoidConfig'] = [
 			'citoidServiceUrl' => $config->get( 'CitoidServiceUrl' ),
 			'fullRestbaseUrl' => $config->get( 'CitoidFullRestbaseURL' ),
-			'ISBNScannerDesktopEnable' => $config->get( 'CitoidISBNScannerDesktopEnable' ),
+			'isbnScannerEnabled' => $config->get( 'CitoidIsbnScannerEnabled' ),
 			'wbFullRestbaseUrl' => $config->get( 'WBCitoidFullRestbaseURL' ),
 		];
 	}

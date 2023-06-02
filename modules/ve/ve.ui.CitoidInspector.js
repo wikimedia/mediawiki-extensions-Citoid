@@ -184,7 +184,8 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		label: ve.msg( 'citoid-citoiddialog-search-label' )
 	} );
 
-	var isbnEnabled = OO.ui.isMobile() || mw.config.get( 'wgCitoidConfig' ).ISBNScannerDesktopEnable;
+	var isbnEnabledPlatforms = mw.config.get( 'wgCitoidConfig' ).isbnScannerEnabled || {};
+	var isbnEnabled = !!isbnEnabledPlatforms[ OO.ui.isMobile() ? 'mobile' : 'desktop' ];
 	var isbnSupported =
 		// Reflects browser security policy
 		// eslint-disable-next-line compat/compat
