@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-manual": "Käsitsi",
 	"citoid-citoiddialog-mode-reuse": "Korduv",
 	"citoid-citoiddialog-search": "Otsi",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, pealkiri või viide",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, pealkiri või viide",
 	"citoid-citoiddialog-search-placeholder": "nt http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Otsimine, palun oota...",
 	"citoid-citoiddialog-title": "Viite lisamine",
@@ -22,5 +22,11 @@
 	"citoid-desc": "Tagab teenuse Citoid ja MediaWiki vahelised pääsupunktid.",
 	"citoid-referencecontextitem-convert-button": "Teisenda",
 	"citoid-referencecontextitem-convert-message": "See viide koosneb vaid välislingist. Saad kasutada alljärgnevat nuppu \"{{int:citoid-referencecontextitem-convert-button}}\", et genereerida korralikult vormistatud viide.",
-	"citoid-unknown-error": "Ilmnes tundmatu tõrge, mis takistas viite loomist. Palun proovi hiljem uuesti."
+	"citoid-unknown-error": "Ilmnes tundmatu tõrge, mis takistas viite loomist. Palun proovi hiljem uuesti.",
+	"citoid-wb-referenceview-tabs-automatic": "Automaatne",
+	"citoid-wb-referenceview-tabs-search": "otsi",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN või QID:",
+	"citoid-wb-pendingdialog-error": "Selle sisendi põhjal ei ole võimalik viidet koostada. Kasuta käsitsi koostamise kaarti või proovi uuesti.",
+	"citoid-wb-pendingdialog-message": "Viite koostamine... palun oota...",
+	"citoid-wb-pendingdialog-title": "Viite koostamine"
 }
