@@ -27,6 +27,7 @@
 	"citoid-citoidtool-title": "Siter",
 	"citoid-citoidtool-title-othergroup": "Sitering",
 	"citoid-desc": "Et aksesspunkt mellom citoid-tjenesten og MediaWiki",
+	"citoid-isbnscannerdialog-title": "Skann ISBN-strekkode",
 	"citoid-referencecontextitem-convert-button": "Konverter",
 	"citoid-referencecontextitem-convert-message": "Du kan bruke «{{int:citoid-referencecontextitem-convert-button}}»-knappen under for å lage en korrekt formatert referanse fra den eksterne lenken.",
 	"citoid-unknown-error": "Kunne ikke opprette siteringen da en ukjent feil oppstod. Prøv på nytt senere.",
