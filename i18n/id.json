@@ -3,6 +3,7 @@
 		"authors": [
 			"Arief",
 			"Daud I.F. Argana",
+			"David Wadie Fisher-Freberg",
 			"Gombang",
 			"Kenrick95",
 			"Mvolz",
@@ -19,7 +20,7 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Pakai ulang",
 	"citoid-citoiddialog-search": "Cari",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, judul, atau sitasi",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, judul, atau kutipan",
 	"citoid-citoiddialog-search-placeholder": "misalnya http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Mencari, harap tunggu...",
 	"citoid-citoiddialog-title": "Tambahkan kutipan",
