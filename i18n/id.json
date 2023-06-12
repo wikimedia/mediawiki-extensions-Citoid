@@ -7,7 +7,8 @@
 			"William Surya Permana",
 			"Daud I.F. Argana",
 			"Mvolz",
-			"Rex"
+			"Rex",
+			"David Wadie Fisher-Freberg"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Sisipkan",
@@ -18,7 +19,7 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Pakai ulang",
 	"citoid-citoiddialog-search": "Cari",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, judul, atau sitasi",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, judul, atau kutipan",
 	"citoid-citoiddialog-search-placeholder": "misalnya http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Mencari, harap tunggu...",
 	"citoid-citoiddialog-title": "Tambahkan kutipan",
