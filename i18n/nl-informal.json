@@ -11,7 +11,6 @@
 	"citoid-citoiddialog-mode-auto": "Automatisch",
 	"citoid-citoiddialog-mode-manual": "Handmatig",
 	"citoid-citoiddialog-mode-reuse": "Hergebruiken",
-	"citoid-citoiddialog-search-label": "URL of DOI",
 	"citoid-citoiddialog-search-placeholder": "bijv. http://www.example.com",
 	"citoid-referencecontextitem-convert-message": "Met de knop \"{{int:citoid-referencecontextitem-convert-button}}\" hieronder kun je van de externe koppeling een goed opgemaakte referentie maken."
 }
