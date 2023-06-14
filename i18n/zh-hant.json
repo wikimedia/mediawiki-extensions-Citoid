@@ -20,7 +20,7 @@
 	"citoid-citoiddialog-mode-manual": "手動",
 	"citoid-citoiddialog-mode-reuse": "重新使用",
 	"citoid-citoiddialog-search": "搜尋",
-	"citoid-citoiddialog-search-label": "URL、DOI、ISBN、PMC/PMID、QID、標題或參考文獻",
+	"citoid-citoiddialog-search-label": "URL、DOI、ISBN、PMC/PMID、QID、標題或引用",
 	"citoid-citoiddialog-search-placeholder": "例如：http://www.example.com",
 	"citoid-citoiddialog-search-progress": "搜尋中，請稍候…",
 	"citoid-citoiddialog-title": "新增引用",
