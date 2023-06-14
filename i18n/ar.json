@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Asma",
 			"Jdforrester",
 			"JoyfulEditing",
 			"Meno25",
@@ -30,6 +31,7 @@
 	"citoid-citoidtool-title": "استشهاد",
 	"citoid-citoidtool-title-othergroup": "اقتباس",
 	"citoid-desc": "يوفر نقطة وصول بين citoid وميدياويكي",
+	"citoid-isbnscannerdialog-title": "مسح الرمز الشريطي لـ ISBN",
 	"citoid-referencecontextitem-convert-button": "حَوِّلْ",
 	"citoid-referencecontextitem-convert-message": "هذا المرجع يتكون من رابط خارجي فقط. يمكنك استخدام زر\"{{int:citoid-referencecontextitem-convert-button}}\" في الأسفل لتوليد مرجع منسق على نحو مناسب.",
 	"citoid-unknown-error": "حدث خطأ غير معلوم منعنا من إنشاء استشهاد. برجاء المحاولة في وقت لاحق.",
