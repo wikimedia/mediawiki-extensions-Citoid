@@ -28,6 +28,7 @@
 	"citoid-citoidtool-title": "Джерело",
 	"citoid-citoidtool-title-othergroup": "Цитата",
 	"citoid-desc": "Забезпечує точки доступу між сервісом citoid та MediaWiki",
+	"citoid-isbnscannerdialog-title": "Сканувати штрих-код ISBN",
 	"citoid-referencecontextitem-convert-button": "Конвертувати",
 	"citoid-referencecontextitem-convert-message": "Ви можете скористатися кнопкою «{{int:citoid-referencecontextitem-convert-button}}» нижче, щоб згенерувати відповідно відформатоване посилання на джерело з зовнішнього посилання.",
 	"citoid-unknown-error": "Сталася невідома помилка, яка не дозволила нам створити посилання на джерело. Будь ласка, спробуйте пізніше.",

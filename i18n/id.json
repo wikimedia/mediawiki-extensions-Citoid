@@ -8,6 +8,7 @@
 			"Kenrick95",
 			"Mvolz",
 			"Rex",
+			"Veracious",
 			"William Surya Permana"
 		]
 	},
@@ -29,6 +30,7 @@
 	"citoid-citoidtool-title": "Kutip",
 	"citoid-citoidtool-title-othergroup": "Kutipan",
 	"citoid-desc": "Menyediakan titik akses antara layanan kutipan dan MediaWiki",
+	"citoid-isbnscannerdialog-title": "Pindai kode batang ISBN",
 	"citoid-referencecontextitem-convert-button": "Konversi",
 	"citoid-referencecontextitem-convert-message": "Anda dapat menggunakan tombol \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah ini untuk membuat referensi yang sudah sesuai format.",
 	"citoid-unknown-error": "Galat yang tidak diketahui menghadang kami membuat kutipan. Silakan coba lagi nanti.",

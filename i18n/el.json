@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"DesVaMan",
 			"Dogogos123",
 			"Geraki",
 			"Giannaras99",
@@ -17,7 +18,7 @@
 	"citoid-citoiddialog-mode-manual": "Χειροκίνητα",
 	"citoid-citoiddialog-mode-reuse": "Επαναχρησιμοποίηση",
 	"citoid-citoiddialog-search": "Αναζήτηση",
-	"citoid-citoiddialog-search-label": "URL, DOI ή PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, τίτλος ή αναφορά",
 	"citoid-citoiddialog-search-placeholder": "π.χ. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Γίνεται αναζήτηση, παρακαλούμε περιμένετε...",
 	"citoid-citoiddialog-title": "Προσθήκη παραπομπής",
@@ -28,9 +29,12 @@
 	"citoid-desc": "Παρέχει σημεία πρόσβασης μεταξύ της υπηρεσίας citoid και του MediaWiki",
 	"citoid-isbnscannerdialog-title": "Σάρωση γραμμικού κώδικα ISBN",
 	"citoid-referencecontextitem-convert-button": "Μετατροπή",
-	"citoid-referencecontextitem-convert-message": "Η παραπομπή αυτή αποτελείται από ένα εξωτερικό σύνδεσμο. Μπορείτε να χρησιμοποιήσετε το κουμπί \"{{int:citoid-referencecontextitem-convert-button}}\" παρακάτω για να δημιουργήσετε μια σωστά διαμορφωμένη παραπομπή.",
+	"citoid-referencecontextitem-convert-message": "Μπορείτε να χρησιμοποιήσετε το κουμπί \"{{int:citoid-referencecontextitem-convert-button}}\" παρακάτω για να δημιουργήσετε μια σωστά διαμορφωμένη παραπομπή.",
 	"citoid-unknown-error": "Ένα άγνωστο σφάλμα παρουσιάστηκε που μας απέτρεψε από το να δημιουργηθεί μια παραπομπή. Παρακαλούμε δοκιμάστε ξανά αργότερα.",
 	"citoid-wb-referenceview-tabs-automatic": "Αυτόματα",
 	"citoid-wb-referenceview-tabs-search": "αναζήτηση",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ή QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ή QID:",
+	"citoid-wb-pendingdialog-error": "Δεν είναι δυνατή η δημιουργία αναφοράς από αυτήν την είσοδο. Χρησιμοποιήστε την καρτέλα μη αυτόματο ή δοκιμάστε ξανά.",
+	"citoid-wb-pendingdialog-message": "Δημιουργία αναφοράς για εσάς... Παρακαλώ περιμένετε...",
+	"citoid-wb-pendingdialog-title": "Δημιουργία αναφοράς"
 }
