@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bangrapip"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Selesepin",
+	"citoid-citoiddialog-back": "Kombali",
+	"citoid-citoiddialog-credit": "Didukung ama $1",
+	"citoid-citoiddialog-lookup-button": "Buat",
+	"citoid-citoiddialog-mode-auto": "Otomatis",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Paké lagi",
+	"citoid-citoiddialog-search": "Cari",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, judul, atawa tukilan",
+	"citoid-citoiddialog-search-placeholder": "tulad: http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Nyari, tunggu bentaran...",
+	"citoid-citoiddialog-title": "Tambah tukilan",
+	"citoid-citoiddialog-use-general-error-message": "Kita kaga' bisa ngeja tukilan bakal lu. Lu bisa keja sendiri manual paké lembaran \"{{int:citoid-citoiddialog-mode-manual}}\" di atas.",
+	"citoid-citoidtool-title": "Tukil",
+	"citoid-citoidtool-title-othergroup": "Tukilan",
+	"citoid-desc": "Nyediain titik aksès antara layanan citoid èn MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Tuker",
+	"citoid-unknown-error": "Kaga' tau dah ngapa ngablu nyang ngalingin kita ngeja tukilan. Padol dah, jal lagi entaran.",
+	"citoid-wb-referenceview-tabs-automatic": "Otomatis",
+	"citoid-wb-referenceview-tabs-search": "cari",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, atawa QID:",
+	"citoid-wb-pendingdialog-error": "Kaga' bisa ngebuat ruju'an deri ni masupan. Paké lembaran manual, atawa jal lagi.",
+	"citoid-wb-pendingdialog-message": "Ngebuat ruju'an bakal li... tunggu bentaran...",
+	"citoid-wb-pendingdialog-title": "Ngebuat Tukilan"
+}
