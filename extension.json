@@ -126,9 +126,6 @@
 					"name": "data.json",
 					"callback": "MediaWiki\\Extension\\Citoid\\Hooks::getWikibaseInitData"
 				}
-			],
-			"targets": [
-				"desktop"
 			]
 		},
 		"ext.citoid.wikibase": {
@@ -157,9 +154,6 @@
 				"citoid-wb-pendingdialog-error",
 				"citoid-wb-pendingdialog-message",
 				"citoid-wb-pendingdialog-title"
-			],
-			"targets": [
-				"desktop"
 			]
 		}
 	},
