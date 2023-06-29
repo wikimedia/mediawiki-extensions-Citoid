@@ -4,8 +4,10 @@
 			"Saraiki"
 		]
 	},
+	"citoid-action-replace": "حوالہ قسم وٹاؤ",
 	"citoid-citation-widget-insert-button": "درج کرو",
 	"citoid-citoiddialog-back": "پچھوں",
+	"citoid-citoiddialog-credit": "$1 ولوں تکڑا تھیا",
 	"citoid-citoiddialog-lookup-button": "تولید",
 	"citoid-citoiddialog-mode-auto": "خودکار",
 	"citoid-citoiddialog-mode-manual": "دستی",
@@ -13,6 +15,7 @@
 	"citoid-citoiddialog-search": "ڳولو",
 	"citoid-citoiddialog-search-label": "یو آر ایل، ڈی او آئی، آئی ایس بی این،  پی ایم سی/پی ایم آئی ڈی، کیو آئی ڈی عنوان، یا حوالہ ݙیوݨ",
 	"citoid-citoiddialog-search-placeholder": "مثال دے طور تے http://www.example.com",
+	"citoid-citoiddialog-search-progress": "ڳولیندا پئے، سوہݨا، انتظار کرو۔۔۔",
 	"citoid-citoiddialog-title": "حوالہ شامل کرو",
 	"citoid-citoidtool-title": "حوالہ درج کرو",
 	"citoid-citoidtool-title-othergroup": "حوالہ جات",
