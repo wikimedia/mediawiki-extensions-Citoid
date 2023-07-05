@@ -19,10 +19,16 @@
 	CitoidPendingDialog.prototype.initialize = function () {
 		CitoidPendingDialog.super.prototype.initialize.apply( this, arguments );
 
-		this.waitingPanel = new OO.ui.PanelLayout( { padded: true, expanded: false } );
-		this.waitingPanel.$element.append( OO.ui.deferMsg( 'citoid-wb-pendingdialog-message' ) );
-		this.errorPanel = new OO.ui.PanelLayout( { padded: true, expanded: false } );
-		this.errorPanel.$element.append( OO.ui.deferMsg( 'citoid-wb-pendingdialog-error' ) );
+		this.waitingPanel = new OO.ui.PanelLayout( {
+			padded: true,
+			expanded: false,
+			text: mw.msg( 'citoid-wb-pendingdialog-message' )
+		} );
+		this.errorPanel = new OO.ui.PanelLayout( {
+			padded: true,
+			expanded: false,
+			text: mw.msg( 'citoid-wb-pendingdialog-error' )
+		} );
 
 		this.stackLayout = new OO.ui.StackLayout( {
 			items: [ this.waitingPanel, this.errorPanel ]
