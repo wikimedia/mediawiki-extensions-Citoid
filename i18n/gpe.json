@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"DaSupremo"
+		]
+	},
+	"citoid-action-replace": "Change reference type",
+	"citoid-citation-widget-insert-button": "Insert",
+	"citoid-citoiddialog-back": "Back",
+	"citoid-citoiddialog-credit": "$1 power am",
+	"citoid-citoiddialog-lookup-button": "Generate",
+	"citoid-citoiddialog-mode-auto": "Automatic",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Re-use",
+	"citoid-citoiddialog-search": "Searche",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, anaa citation",
+	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Dey search, we beg wait...",
+	"citoid-citoiddialog-title": "Add citation",
+	"citoid-citoiddialog-title-replace": "Replace citation",
+	"citoid-citoiddialog-use-general-error-message": "We no fi make citation give you. You fi create one manually dey use de \"{{int:citoid-citoiddialog-mode-manual}}\" tab above.",
+	"citoid-citoidtool-title": "Cite",
+	"citoid-citoidtool-title-othergroup": "Citation",
+	"citoid-desc": "Dey provide access points between de citoid service den MediaWiki",
+	"citoid-isbnscannerdialog-title": "Scan ISBN barcode",
+	"citoid-referencecontextitem-convert-button": "Convert",
+	"citoid-referencecontextitem-convert-message": "You fi use de \"{{int:citoid-referencecontextitem-convert-button}}\" button below make you generate properly reference dem format from de external link.",
+	"citoid-unknown-error": "Unknown error occur wey prevent we from make we create citation. We beg try again later.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatic",
+	"citoid-wb-referenceview-tabs-search": "searche",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, anaa QID:",
+	"citoid-wb-pendingdialog-error": "Unable make we generate reference from dis input. Use de manual tab, anaa try again.",
+	"citoid-wb-pendingdialog-message": "Dey generate reference give you... we beg wait...",
+	"citoid-wb-pendingdialog-title": "Dey generate Citation"
+}
