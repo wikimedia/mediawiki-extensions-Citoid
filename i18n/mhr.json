@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lifeway"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Пурташ",
+	"citoid-citoiddialog-back": "Шеҥгек",
+	"citoid-citoiddialog-mode-auto": "Вигак",
+	"citoid-citoiddialog-mode-manual": "Кид дене",
+	"citoid-citoiddialog-mode-reuse": "Уэш кучылтмаш",
+	"citoid-citoiddialog-search": "Кычалаш",
+	"citoid-referencecontextitem-convert-button": "Конвертироватлаш",
+	"citoid-wb-referenceview-tabs-automatic": "Вигак",
+	"citoid-wb-referenceview-tabs-search": "кычалаш",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, але QID:"
+}
