@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Artsiom91",
 			"Chadyka",
 			"Goshaproject",
 			"Mechanizatar",
@@ -11,10 +12,10 @@
 	"citoid-citation-widget-insert-button": "Уставіць",
 	"citoid-citoiddialog-back": "Назад",
 	"citoid-citoiddialog-credit": "Пры падтрымцы $1",
-	"citoid-citoiddialog-lookup-button": "Агульныя",
+	"citoid-citoiddialog-lookup-button": "Згенераваць",
 	"citoid-citoiddialog-mode-auto": "Аўтаматычна",
 	"citoid-citoiddialog-mode-manual": "Уручную",
-	"citoid-citoiddialog-mode-reuse": "Паўторна выкарыстоўваць",
+	"citoid-citoiddialog-mode-reuse": "Паўторна",
 	"citoid-citoiddialog-search": "Пошук",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, назва ці цытата",
 	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com",
@@ -22,7 +23,7 @@
 	"citoid-citoiddialog-title": "Дадаць цытаванне",
 	"citoid-citoiddialog-title-replace": "Замяніць цытаванне",
 	"citoid-citoiddialog-use-general-error-message": "У нас не атрымалася зрабіць цытату для вас. Вы можаце стварыць яе самі з дапамогай укладкі «{{int:citoid-citoiddialog-mode-manual}}» вышэй.",
-	"citoid-citoidtool-title": "Цытаваць",
+	"citoid-citoidtool-title": "Крыніца",
 	"citoid-citoidtool-title-othergroup": "Цытата",
 	"citoid-desc": "Забяспечвае пункты доступу між сэрвісам citoid і MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Пераўтварыць",
