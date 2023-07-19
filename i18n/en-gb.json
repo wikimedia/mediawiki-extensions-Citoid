@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piano1forte2"
+		]
+	},
+	"citoid-citoiddialog-use-general-error-message": "We couldn't make a citation for you. You can create one manually using the '{{int:citoid-citoiddialog-mode-manual}}' tab above."
+}
