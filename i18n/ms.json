@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
+			"Hakimi97",
 			"Muhdnurhidayat",
 			"Tofeiku"
 		]
 	},
+	"citoid-action-replace": "Tukar jenis rujukan",
 	"citoid-citation-widget-insert-button": "Sisipkan",
 	"citoid-citoiddialog-back": "Kembali",
 	"citoid-citoiddialog-credit": "Dikuasakan oleh $1",
@@ -14,18 +16,23 @@
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Guna semula",
 	"citoid-citoiddialog-search": "Cari",
-	"citoid-citoiddialog-search-label": "URL, DOI atau PMC/PMID",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tajuk, atau petikan rujukan",
 	"citoid-citoiddialog-search-placeholder": "cth. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Mencari, sila tunggu...",
 	"citoid-citoiddialog-title": "Tambah petikan",
 	"citoid-citoiddialog-title-replace": "Ganti petikan",
+	"citoid-citoiddialog-use-general-error-message": "Kami tidak dapat membuat petikan untuk anda. Anda boleh menciptanya secara manual menggunakan tab \"{{int:citoid-citoiddialog-mode-manual}}\" di atas.",
 	"citoid-citoidtool-title": "Petik",
 	"citoid-citoidtool-title-othergroup": "Petikan",
 	"citoid-desc": "Menyediakan titik-titik akses antara khidmat citoid dan MediaWiki",
+	"citoid-isbnscannerdialog-title": "Imbas kod bar ISBN",
 	"citoid-referencecontextitem-convert-button": "Tukar",
-	"citoid-referencecontextitem-convert-message": "Rujukan ini terdiri daripada pautan luar sahaja. Anda boleh tekan butang \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah untuk menghasilkan rujukan yang diformatkan dengan betul.",
-	"citoid-unknown-error": "Terjadinya ralat tidak dikenali yang telah mengganggu kami daripada menghasilkan petikan. Sila cuba lagi kemudian.",
+	"citoid-referencecontextitem-convert-message": "Anda boleh menggunakan butang \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah untuk menjana rujukan yang diformatkan dengan betul daripada pautan luaran.",
+	"citoid-unknown-error": "Ralat yang tidak diketahui telah berlaku yang menghalang kami daripada membuat petikan. Sila cuba sebentar lagi.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatik",
 	"citoid-wb-referenceview-tabs-search": "cari",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, atau QID:",
+	"citoid-wb-pendingdialog-error": "Tidak dapat menjana rujukan daripada input ini. Gunakan tab manual atau cuba lagi.",
+	"citoid-wb-pendingdialog-message": "Menjana rujukan untuk anda... sila tunggu...",
 	"citoid-wb-pendingdialog-title": "Menjana Petikan"
 }
