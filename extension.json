@@ -11,7 +11,7 @@
 	"license-name": "MIT",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.39.0"
+		"MediaWiki": ">= 1.40.0"
 	},
 	"MessagesDirs": {
 		"Citoid": [
@@ -72,19 +72,11 @@
 				"citoid-referencecontextitem-convert-button",
 				"citoid-referencecontextitem-convert-message",
 				"citoid-unknown-error"
-			],
-			"targets": [
-				"desktop",
-				"mobile"
 			]
 		},
 		"quagga2": {
 			"scripts": [
 				"lib/quagga2/quagga.min.js"
-			],
-			"targets": [
-				"desktop",
-				"mobile"
 			]
 		},
 		"ext.citoid.visualEditor.icons": {
