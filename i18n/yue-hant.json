@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"citoid-citation-widget-insert-button": "插入",
+	"citoid-citoiddialog-back": "返轉頭",
+	"citoid-citoiddialog-credit": "由 $1 背後撐住",
+	"citoid-citoiddialog-lookup-button": "生成",
+	"citoid-citoiddialog-mode-auto": "自動",
+	"citoid-citoiddialog-mode-manual": "手動",
+	"citoid-citoiddialog-mode-reuse": "翻用",
+	"citoid-citoiddialog-search": "搵",
+	"citoid-citoiddialog-search-label": "URL、DOI、ISBN或者PMC/PMID",
+	"citoid-citoiddialog-search-placeholder": "例如 http://www.example.com",
+	"citoid-citoiddialog-search-progress": "搵緊，請等陣……",
+	"citoid-citoiddialog-title": "加引用",
+	"citoid-citoidtool-title": "引用",
+	"citoid-citoidtool-title-othergroup": "引用",
+	"citoid-desc": "提供喺 citoid 服務同 MediaWiki 之間嘅存取點",
+	"citoid-referencecontextitem-convert-button": "轉換",
+	"citoid-unknown-error": "發生咗未知錯誤，所以建立唔到引用，麻煩遲啲再試過。",
+	"citoid-wb-referenceview-tabs-automatic": "自動",
+	"citoid-wb-referenceview-tabs-search": "搵嘢",
+	"citoid-wb-referenceview-tabs-search-label": "URL，DOI，ISBN或者QID：",
+	"citoid-wb-pendingdialog-title": "整緊引用"
+}
