@@ -23,6 +23,7 @@
 	"citoid-citoidtool-title": "Референца",
 	"citoid-citoidtool-title-othergroup": "Цитированє",
 	"citoid-desc": "Оможлївює повязаносц  медзи сервисом citoid и MediaWiki-йом",
+	"citoid-isbnscannerdialog-title": "Сканируй ISBN баркод",
 	"citoid-referencecontextitem-convert-button": "Конвертовац",
 	"citoid-referencecontextitem-convert-message": "Кликнїце на ґомбичку „{{int:citoid-referencecontextitem-convert-button}}” же бисце ґенеровали правилно оформену референцу зоз вонкашнєй вязи.",
 	"citoid-unknown-error": "Пришло до нєпознатей гришки хтора онєможлївює ґенерованє референци. Пробуйце ознова познєйше.",
