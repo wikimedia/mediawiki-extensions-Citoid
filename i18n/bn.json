@@ -6,7 +6,8 @@
 			"Bodhisattwa",
 			"Mvolz",
 			"NahidSultan",
-			"আফতাবুজ্জামান"
+			"আফতাবুজ্জামান",
+			"Yahya"
 		]
 	},
 	"citoid-action-replace": "তথ্যসূত্রের ধরন পরিবর্তন করুন",
@@ -15,7 +16,7 @@
 	"citoid-citoiddialog-credit": "$1 দ্বারা চালিত",
 	"citoid-citoiddialog-lookup-button": "উৎপন্ন করুন",
 	"citoid-citoiddialog-mode-auto": "স্বয়ংক্রিয়",
-	"citoid-citoiddialog-mode-manual": "হস্তচালিত",
+	"citoid-citoiddialog-mode-manual": "নিজ হাতে",
 	"citoid-citoiddialog-mode-reuse": "পুনঃব্যবহার",
 	"citoid-citoiddialog-search": "অনুসন্ধান",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, শিরোনাম বা উদ্ধৃতি",
@@ -23,15 +24,17 @@
 	"citoid-citoiddialog-search-progress": "অনুসন্ধান করা হচ্ছে, দয়া করে অপেক্ষা করুন...",
 	"citoid-citoiddialog-title": "একটি উদ্ধৃতি যোগ করুন",
 	"citoid-citoiddialog-title-replace": "উদ্ধৃতি প্রতিস্থাপন",
-	"citoid-citoiddialog-use-general-error-message": "আমরা আপনার জন্য উদ্ধৃতি তৈরী করে দিতে পারব না। আপনি নিজেই উপরের \"{{int:citoid-citoiddialog-mode-manual}}\" ট্যাবের মাধ্যমে হাতদ্বারা তৈরী করতে পারেন।",
+	"citoid-citoiddialog-use-general-error-message": "দুঃখিত, উদ্ধৃতি তৈরি করা যাচ্ছে না। অনুগ্রহ করে উপরের \"{{int:citoid-citoiddialog-mode-manual}}\" ট্যাবের মাধ্যমে এটি তৈরি করতে চেষ্টা করুন।",
 	"citoid-citoidtool-title": "উদ্ধৃত করুন",
 	"citoid-citoidtool-title-othergroup": "উদ্ধৃতি",
 	"citoid-desc": "সাইটয়েড পরিষেবা ও মিডিয়াউইকির মধ্যে প্রবেশাধিকার বিন্দু সরবরাহ করে",
 	"citoid-referencecontextitem-convert-button": "রূপান্তর করুন",
-	"citoid-referencecontextitem-convert-message": "এই তথ্যসূত্র শুধু একটি বাহ্যিক লিঙ্ক নিয়ে গঠিত। সঠিকভাবে বিন্যস্ত তথ্যসূত্র উৎপন্ন করতে আপনি নিচের  \"{{int:citoid-referencecontextitem-convert-button}}\" বোতাম ব্যবহার করতে পারেন।",
+	"citoid-referencecontextitem-convert-message": "বহিঃসংযোগ থেকে সঠিকভাবে বিন্যস্ত তথ্যসূত্র উৎপন্ন করতে আপনি নিচের \"{{int:citoid-referencecontextitem-convert-button}}\" বোতামটি ব্যবহার করতে পারেন।",
 	"citoid-unknown-error": "একটি অজানা ত্রুটি যা আমাদের তথ্যসূত্র তৈরী করতে বাধা দিচ্ছে। অনুগ্রহ করে পুনরায় চেষ্টা করুন।",
 	"citoid-wb-referenceview-tabs-automatic": "স্বয়ংক্রিয়",
 	"citoid-wb-referenceview-tabs-search": "অনুসন্ধান",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, বা QID:",
+	"citoid-wb-pendingdialog-error": "এই ইনপুট থেকে তথ্যসূত্র তৈরি করা যাচ্ছে না। \"নিজ হাতে\" ট্যাবটি ব্যবহার করুন বা আবার চেষ্টা করুন।",
+	"citoid-wb-pendingdialog-message": "আপনার জন্য একটি তথ্যসূত্র তৈরি করা হচ্ছে... অনুগ্রহ করে অপেক্ষা করুন...",
 	"citoid-wb-pendingdialog-title": "উদ্ধৃতি উৎপন্ন করা হচ্ছে"
 }
