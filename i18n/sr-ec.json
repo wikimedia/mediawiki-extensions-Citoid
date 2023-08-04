@@ -30,6 +30,7 @@
 	"citoid-citoidtool-title": "Референца",
 	"citoid-citoidtool-title-othergroup": "Референца",
 	"citoid-desc": "Омогућава повезаност између услуге citoid и MediaWiki-ја",
+	"citoid-isbnscannerdialog-title": "Скенирање ISBN бар-кода",
 	"citoid-referencecontextitem-convert-button": "Претвори",
 	"citoid-referencecontextitem-convert-message": "Кликните на дугме „{{int:citoid-referencecontextitem-convert-button}}” да бисте генерисали правилно форматирану референцу од спољашње везе.",
 	"citoid-unknown-error": "Дошло је до непознате грешке која спречава генерисање референце. Покушајте поново касније.",
