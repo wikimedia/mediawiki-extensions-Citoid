@@ -30,7 +30,7 @@
 	"citoid-unknown-error": "Ocorreu un erro descoñecido que impediu crear a cita. Probe de novo máis tarde.",
 	"citoid-wb-referenceview-tabs-automatic": "Automático",
 	"citoid-wb-referenceview-tabs-search": "procura",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI ou QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ou QID:",
 	"citoid-wb-pendingdialog-error": "Non é posible xerar unha referencia con estes datos. Use a lapela manual ou ténteo de novo.",
 	"citoid-wb-pendingdialog-message": "Creando a súa referencia...por favor, agarde...",
 	"citoid-wb-pendingdialog-title": "Xerando cita"
