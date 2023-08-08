@@ -4,6 +4,7 @@
 			"Гусейн"
 		]
 	},
+	"citoid-action-replace": "Ǧejdi tispiri ovaxte",
 	"citoid-citation-widget-insert-button": "Dəǧande",
 	"citoid-citoiddialog-back": "Bə dumo",
 	"citoid-citoiddialog-credit": "$1 doəše",
@@ -17,13 +18,18 @@
 	"citoid-citoiddialog-search-progress": "Nəvejdə, zəhmət nybu, čəš bykən...",
 	"citoid-citoiddialog-title": "Bə səvoni link varde",
 	"citoid-citoiddialog-title-replace": "Səvoni əvəz karde",
+	"citoid-citoiddialog-use-general-error-message": "Əmə nyzynəmone bo šymə sitot soxte. Əj bəbe de dasti soxte oko doj «{{int:citoid-citoiddialog-mode-manual}}» ym zijodə vərəǧi.",
 	"citoid-citoidtool-title": "Səvon",
 	"citoid-citoidtool-title-othergroup": "Səvon",
+	"citoid-desc": "Dastrəs dojdə ce Citoid ijən MediaWiki xydməton mijono",
 	"citoid-isbnscannerdialog-title": "ISBN štrix kodi skan bykən",
 	"citoid-referencecontextitem-convert-button": "Pegordynije",
+	"citoid-referencecontextitem-convert-message": "Egətədygmə «{{int:citoid-referencecontextitem-convert-button}}» oko doj ce bešemonə linkiku rostə ǧejdi soxtejro.",
+	"citoid-unknown-error": "Noməlumə xəto beše kom bo əmə nydoše sitoti soxte. Zəhmət nybu, pešo sənibəton dəvinə bykənən.",
 	"citoid-wb-referenceview-tabs-automatic": "Avtomətik",
 	"citoid-wb-referenceview-tabs-search": "bynəv",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ja QID:",
+	"citoid-wb-pendingdialog-error": "Ǧejd soxtə nybe. De dasti zijodə vərəǧi oko bydən ja i kərən dəvinə bykən.",
 	"citoid-wb-pendingdialog-message": "Bo šymə link soxtejdə... zəhmət nybu, čəš bykən...",
 	"citoid-wb-pendingdialog-title": "Səvoni soxtejdə"
 }
