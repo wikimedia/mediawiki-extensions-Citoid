@@ -188,9 +188,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	var isbnEnabled = !!isbnEnabledPlatforms[ OO.ui.isMobile() ? 'mobile' : 'desktop' ];
 	var isbnSupported =
 		// Reflects browser security policy
-		// eslint-disable-next-line compat/compat
 		( location.protocol === 'https:' || location.hostname === 'localhost' ) &&
-		// eslint-disable-next-line compat/compat
 		navigator.mediaDevices && navigator.mediaDevices.getUserMedia;
 
 	this.isbnButton = new ve.ui.ISBNScannerButtonWidget( { disabled: !isbnSupported } );
