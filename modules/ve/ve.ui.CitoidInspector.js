@@ -86,9 +86,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	this.citeTools = ve.ui.mwCitationTools;
 
 	// Restbase URL, also used as Bool to determine whether or not to use Restbase for citoid
-	// By default this will use the URL set in the VE config, but can be overwritten in the citoid config
-	this.fullRestbaseUrl = mw.config.get( 'wgCitoidConfig' ).fullRestbaseUrl ||
-		mw.config.get( 'wgVisualEditorConfig' ).fullRestbaseUrl;
+	this.fullRestbaseUrl = mw.config.get( 'wgCitoidConfig' ).fullRestbaseUrl;
 
 	// API config for citoid service if VE is using Restbase
 	if ( this.fullRestbaseUrl ) {

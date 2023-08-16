@@ -179,11 +179,11 @@
 	"config": {
 		"CitoidServiceUrl": {
 			"value": false,
-			"description": "Full url to use the native citoid api, i.e. http://localhost:1970/api. Only used if VisualEditorFullRestbaseURL is null."
+			"description": "Full url to use the native citoid api, i.e. http://localhost:1970/api."
 		},
 		"CitoidFullRestbaseURL": {
 			"value": false,
-			"description": "Full url to use a citoid service running behind restbase, i.e. https://en.wikipedia.org/api/rest_. Overwrites default, which is to use VisualEditorFullRestbaseURL."
+			"description": "Full url to use a citoid service running behind restbase, i.e. https://en.wikipedia.org/api/rest_."
 		},
 		"CitoidIsbnScannerEnabled": {
 			"value": {
