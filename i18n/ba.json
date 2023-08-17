@@ -19,6 +19,6 @@
 	"citoid-citoidtool-title-othergroup": "Цитата",
 	"citoid-desc": " citoid сервисы  һәм Медиавики араһында инеү мөмкинселеген тәьмин итә.",
 	"citoid-referencecontextitem-convert-button": "Формат алмаштырыу",
-	"citoid-referencecontextitem-convert-message": "Был һылтанма ябай эске сығанаҡтарҙан тора. Дөрөҫ һылтанма төҙөү  өсөн, һеҙ ошо «{{int:citoid-referencecontextitem-convert-button}}» кнопканы файҙалана алаһығыҙ.",
+	"citoid-referencecontextitem-convert-message": "Тышҡы һылтанмаларҙан дөрөҫ иҫкәрмә булдырыу өсөн ошо «{{int:citoid-referencecontextitem-convert-button}}» төймәһен файҙалана алаһығыҙ.",
 	"citoid-unknown-error": "Цитата барлыҡҡа килтерә алмаҫлыҡ билдаһеҙ хата барлыҡҡа килде. Зинһар, һуңғараҡ тағы эшләп ҡарағыҙ."
 }

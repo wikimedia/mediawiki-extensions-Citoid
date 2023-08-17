@@ -7,6 +7,7 @@
 			"Flyplanevn27",
 			"Minh Nguyen",
 			"Nghiemtrongdai VN",
+			"NguyenHung",
 			"Nguyên Lê"
 		]
 	},
@@ -29,7 +30,7 @@
 	"citoid-citoidtool-title-othergroup": "Trích dẫn",
 	"citoid-desc": "Cung cấp các điểm truy cập giữa dịch vụ citoid và MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Chuyển đổi",
-	"citoid-referencecontextitem-convert-message": "Chú thích này chỉ là một liên kết ngoài. Bấm nút “{{int:citoid-referencecontextitem-convert-button}}” bên dưới để tạo chú thích có định dạng đúng.",
+	"citoid-referencecontextitem-convert-message": "Bạn có thể sử dụng “{{int:citoid-referencecontextitem-convert-button}}” bên dưới để tạo chú thích có định dạng đúng từ liên kết ngoài.",
 	"citoid-unknown-error": "Một lỗi không rõ đã xảy ra, khiến chúng tôi không thể tạo được một chú thích. Xin vui lòng thử lại sau.",
 	"citoid-wb-referenceview-tabs-automatic": "Tự động",
 	"citoid-wb-referenceview-tabs-search": "tìm kiếm",
