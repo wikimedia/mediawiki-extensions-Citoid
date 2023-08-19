@@ -11,7 +11,7 @@
 	"license-name": "MIT",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.40.0"
+		"MediaWiki": ">= 1.41"
 	},
 	"MessagesDirs": {
 		"Citoid": [
@@ -94,15 +94,21 @@
 			"images": {
 				"switchCamera": {
 					"file": "modules/icons/switchCamera.svg",
-					"variants": [ "invert" ]
+					"variants": [
+						"invert"
+					]
 				},
 				"cameraFlash": {
 					"file": "modules/icons/cameraFlash.svg",
-					"variants": [ "invert" ]
+					"variants": [
+						"invert"
+					]
 				},
 				"barcode": {
 					"file": "modules/icons/barcode.svg",
-					"variants": [ "invert" ]
+					"variants": [
+						"invert"
+					]
 				}
 			}
 		},
