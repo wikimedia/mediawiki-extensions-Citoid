@@ -3,20 +3,21 @@
 		"authors": [
 			"Sagan",
 			"Азат Хәлилов",
-			"Ләйсән"
+			"Ләйсән",
+			"З. ӘЙЛЕ"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Өҫтәү",
 	"citoid-citoiddialog-back": "Артҡа",
-	"citoid-citoiddialog-lookup-button": "Генератор",
+	"citoid-citoiddialog-lookup-button": "Булдырыу",
 	"citoid-citoiddialog-mode-auto": "Автоматик",
 	"citoid-citoiddialog-mode-manual": "Ҡулдан",
-	"citoid-citoiddialog-mode-reuse": "Яңынан ҡулланыу",
-	"citoid-citoiddialog-search-label": "URL, DOI йәки PMC/PMID",
+	"citoid-citoiddialog-mode-reuse": "Ҡабаттан ҡулланырға",
+	"citoid-citoiddialog-search-label": "URL-адрес, DOI, ISBN, PMC/PMID, QID, атама йәки өҙөмтә",
 	"citoid-citoiddialog-search-placeholder": "мәҫәлән, http://www.example.com",
-	"citoid-citoidtool-title": "Сығанаҡ",
-	"citoid-citoidtool-title-othergroup": "Цитата",
-	"citoid-desc": " citoid сервисы  һәм Медиавики араһында инеү мөмкинселеген тәьмин итә.",
+	"citoid-citoidtool-title": "Өҙөмтә өҫтәргә",
+	"citoid-citoidtool-title-othergroup": "Өҙөмтә",
+	"citoid-desc": "citoid сервисы һәм Медиавики араһында инеү мөмкинлеген тәьмин итә.",
 	"citoid-referencecontextitem-convert-button": "Формат алмаштырыу",
 	"citoid-referencecontextitem-convert-message": "Был һылтанма ябай эске сығанаҡтарҙан тора. Дөрөҫ һылтанма төҙөү  өсөн, һеҙ ошо «{{int:citoid-referencecontextitem-convert-button}}» кнопканы файҙалана алаһығыҙ.",
 	"citoid-unknown-error": "Цитата барлыҡҡа килтерә алмаҫлыҡ билдаһеҙ хата барлыҡҡа килде. Зинһар, һуңғараҡ тағы эшләп ҡарағыҙ."
