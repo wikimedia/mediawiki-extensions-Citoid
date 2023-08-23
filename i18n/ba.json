@@ -7,9 +7,9 @@
 			"Ләйсән"
 		]
 	},
-	"citoid-citation-widget-insert-button": "Өҫтәү",
+	"citoid-citation-widget-insert-button": "Өҫтәргә",
 	"citoid-citoiddialog-back": "Артҡа",
-	"citoid-citoiddialog-lookup-button": "Булдырыу",
+	"citoid-citoiddialog-lookup-button": "Туплау",
 	"citoid-citoiddialog-mode-auto": "Автоматик",
 	"citoid-citoiddialog-mode-manual": "Ҡулдан",
 	"citoid-citoiddialog-mode-reuse": "Ҡабаттан ҡулланырға",
@@ -17,8 +17,8 @@
 	"citoid-citoiddialog-search-placeholder": "мәҫәлән, http://www.example.com",
 	"citoid-citoidtool-title": "Өҙөмтә өҫтәргә",
 	"citoid-citoidtool-title-othergroup": "Өҙөмтә",
-	"citoid-desc": "citoid сервисы һәм Медиавики араһында инеү мөмкинлеген тәьмин итә.",
+	"citoid-desc": "Citoid сервисы һәм Медиавики араһында инеү мөмкинлеген тәьмин итә.",
 	"citoid-referencecontextitem-convert-button": "Формат алмаштырыу",
-	"citoid-referencecontextitem-convert-message": "Тышҡы һылтанмаларҙан дөрөҫ иҫкәрмә булдырыу өсөн ошо «{{int:citoid-referencecontextitem-convert-button}}» төймәһен файҙалана алаһығыҙ.",
-	"citoid-unknown-error": "Цитата барлыҡҡа килтерә алмаҫлыҡ билдаһеҙ хата барлыҡҡа килде. Зинһар, һуңғараҡ тағы эшләп ҡарағыҙ."
+	"citoid-referencecontextitem-convert-message": "Тышҡы һылтанмаларҙан дөрөҫ иҫкәрмә булдырыу өсөн «{{int:citoid-referencecontextitem-convert-button}}» төймәһен файҙалана алаһығыҙ.",
+	"citoid-unknown-error": "Өҙөмтә булдырыуға ҡамасаулаған билдәһеҙ хата килеп сыҡты. Зинһар, һуңғараҡ тағы ҡабатлап ҡарағыҙ."
 }
