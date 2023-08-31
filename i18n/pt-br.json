@@ -9,7 +9,8 @@
 			"TheEduGobi",
 			"TheGabrielZaum",
 			"WikiUser22222",
-			"YuriNikolai"
+			"YuriNikolai",
+			"Stephanyb76"
 		]
 	},
 	"citoid-action-replace": "Alterar o tipo de referência",
@@ -35,7 +36,7 @@
 	"citoid-unknown-error": "Ocorreu um erro desconhecido que nos impediu de criar uma citação. Tente de novo mais tarde.",
 	"citoid-wb-referenceview-tabs-automatic": "Automático",
 	"citoid-wb-referenceview-tabs-search": "Pesquisar",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI ou QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ou QID:",
 	"citoid-wb-pendingdialog-error": "Não foi possível gerar uma referência a partir desta entrada. Use a aba manual, ou tente novamente.",
 	"citoid-wb-pendingdialog-message": "Gerando uma referência; aguarde, por favor...",
 	"citoid-wb-pendingdialog-title": "Gerando citação"
