@@ -32,6 +32,7 @@
 	"citoid-citoidtool-title": "Refereer",
 	"citoid-citoidtool-title-othergroup": "Referentie",
 	"citoid-desc": "Koppelt de citoidservice en MediaWiki",
+	"citoid-isbnscannerdialog-title": "ISBN-barcode scannen",
 	"citoid-referencecontextitem-convert-button": "Omzetten",
 	"citoid-referencecontextitem-convert-message": "Met de knop \"{{int:citoid-referencecontextitem-convert-button}}\" hieronder kunt u van de externe koppeling een correct opgemaakte referentie maken.",
 	"citoid-unknown-error": "Er is een onbekende fout opgetreden waardoor de referentie niet aangemaakt kon worden. Probeer het later opnieuw.",
