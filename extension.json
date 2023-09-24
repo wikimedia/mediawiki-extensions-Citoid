@@ -171,9 +171,14 @@
 		]
 	},
 	"Hooks": {
-		"ResourceLoaderGetConfigVars": "MediaWiki\\Extension\\Citoid\\Hooks::onResourceLoaderGetConfigVars",
-		"BeforePageDisplay": "MediaWiki\\Extension\\Citoid\\Hooks::onBeforePageDisplay",
-		"GetPreferences": "MediaWiki\\Extension\\Citoid\\Hooks::onGetPreferences"
+		"ResourceLoaderGetConfigVars": "main",
+		"BeforePageDisplay": "main",
+		"GetPreferences": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\Citoid\\Hooks"
+		}
 	},
 	"attributes": {
 		"VisualEditor": {

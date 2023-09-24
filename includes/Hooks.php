@@ -9,19 +9,30 @@
 namespace MediaWiki\Extension\Citoid;
 
 use ExtensionRegistry;
+use MediaWiki\Config\Config;
+use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\ResourceLoader as RL;
+use MediaWiki\ResourceLoader\Hook\ResourceLoaderGetConfigVarsHook;
 use OutputPage;
+use Skin;
 use User;
 use Wikibase\Repo\WikibaseRepo;
 
-class Hooks {
+class Hooks implements
+	ResourceLoaderGetConfigVarsHook,
+	BeforePageDisplayHook,
+	GetPreferencesHook
+{
 
 	/**
 	 * Adds extra variables to the global config
 	 * @param array &$vars
+	 * @param string $skin
+	 * @param Config $config
 	 */
-	public static function onResourceLoaderGetConfigVars( array &$vars ) {
+	public function onResourceLoaderGetConfigVars( array &$vars, $skin, Config $config ): void {
 		$config = MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'citoid' );
 
 		$vars['wgCitoidConfig'] = [
@@ -48,9 +59,10 @@ class Hooks {
 
 	/**
 	 * Loads front-end wikibase citoid module
-	 * @param OutputPage &$out
+	 * @param OutputPage $out
+	 * @param Skin $skin
 	 */
-	public static function onBeforePageDisplay( OutputPage &$out ) {
+	public function onBeforePageDisplay( $out, $skin ): void {
 		if ( !ExtensionRegistry::getInstance()->isLoaded( 'WikibaseRepository' ) ) {
 			return;
 		}
@@ -69,7 +81,7 @@ class Hooks {
 	 * @param User $user
 	 * @param array &$preferences
 	 */
-	public static function onGetPreferences( User $user, array &$preferences ) {
+	public function onGetPreferences( $user, &$preferences ) {
 		$preferences['citoid-mode'] = [
 			'type' => 'api'
 		];
