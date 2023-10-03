@@ -7,6 +7,7 @@
 	"citoid-action-replace": "Билгалдаккхаран тайпа хийца",
 	"citoid-citation-widget-insert-button": "Чуйилла",
 	"citoid-citoiddialog-back": "Йуха",
+	"citoid-citoiddialog-credit": "$1 йелла",
 	"citoid-citoiddialog-lookup-button": "Генераци йан",
 	"citoid-citoiddialog-mode-auto": "Авто",
 	"citoid-citoiddialog-mode-manual": "Куьйгаца",
@@ -23,5 +24,7 @@
 	"citoid-referencecontextitem-convert-button": "Конвертйан",
 	"citoid-wb-referenceview-tabs-automatic": "Авто",
 	"citoid-wb-referenceview-tabs-search": "лахар",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN йа QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN йа QID:",
+	"citoid-wb-pendingdialog-message": "Хьуна хьажорг кхуллуш йу... дехар до, собар де...",
+	"citoid-wb-pendingdialog-title": "Хьостан генераци"
 }
