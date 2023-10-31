@@ -24,13 +24,11 @@ ve.ui.ISBNScannerButtonWidget = function VeUiISBNScannerButtonWidget( config ) {
 	// Parent constructor
 	ve.ui.ISBNScannerButtonWidget.super.call( this, config );
 
-	this.overlay = new ve.ui.Overlay( { classes: [ 've-ui-overlay-global' ] } );
 	this.dialogs = config.dialogManager || new ve.ui.WindowManager( { factory: ve.ui.windowFactory } );
 
 	this.on( 'click', this.openScanner.bind( this ) );
 
-	this.overlay.$element.append( this.dialogs.$element );
-	$( document.body ).append( this.overlay.$element );
+	$( OO.ui.getTeleportTarget() ).append( this.dialogs.$element );
 };
 
 /* Inheritance */
