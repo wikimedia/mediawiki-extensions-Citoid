@@ -6,7 +6,8 @@
 			"Fitoschido",
 			"Macofe",
 			"MadriCR",
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"Rodney Araujo"
 		]
 	},
 	"citoid-action-replace": "Cambiar tipo de referencia",
@@ -25,6 +26,7 @@
 	"citoid-citoidtool-title": "Citar",
 	"citoid-citoidtool-title-othergroup": "Cita",
 	"citoid-desc": "Proporciona puntos de acceso entre el servicio Citoid y MediaWiki",
+	"citoid-isbnscannerdialog-title": "Escanear un código de barras ISBN",
 	"citoid-referencecontextitem-convert-button": "Convertir",
 	"citoid-referencecontextitem-convert-message": "Puedes usar el botón «{{int:citoid-referencecontextitem-convert-button}}» de abajo para generar una referencia correctamente formateada del enlace externo.",
 	"citoid-unknown-error": "Ocurrió un error desconocido que nos impidió crear la cita. Inténtalo de nuevo más tarde.",
