@@ -27,7 +27,7 @@
 	"citoid-unknown-error": "Došlo je do nepoznate greške koja sprečava generisanje reference. Pokušajte ponovo kasnije.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatski",
 	"citoid-wb-referenceview-tabs-search": "pretraga",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI ili QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ili QID:",
 	"citoid-wb-pendingdialog-error": "Nije moguće generisati referencu iz ovog unosa. Koristite karticu „Ručno” ili pokušajte ponovo.",
 	"citoid-wb-pendingdialog-message": "Generisanje reference… Sačekajte…",
 	"citoid-wb-pendingdialog-title": "Generisanje reference"
