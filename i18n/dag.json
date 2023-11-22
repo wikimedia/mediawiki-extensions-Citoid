@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bashiru Nurideen Pona"
+		]
+	},
+	"citoid-action-replace": "Taɣimi kundivihira balibu",
+	"citoid-citation-widget-insert-button": "Kpɛhima",
+	"citoid-citoiddialog-back": "Nyaaŋa",
+	"citoid-citoiddialog-credit": "$1 n-kpaŋsi li",
+	"citoid-citoiddialog-lookup-button": "Niŋ ka di niŋ",
+	"citoid-citoiddialog-mode-auto": "Otomatiki",
+	"citoid-citoiddialog-mode-manual": "Sodoligu buku",
+	"citoid-citoiddialog-mode-reuse": "Labi zaŋ tum tuma",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
+	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
+	"citoid-citoiddialog-title": "Pahimi kundivihirili",
+	"citoid-citoiddialog-title-replace": "Tahimi kundivihirili",
+	"citoid-wb-referenceview-tabs-automatic": "Otomatiki",
+	"citoid-wb-referenceview-tabs-search": "Vihima",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:"
+}
