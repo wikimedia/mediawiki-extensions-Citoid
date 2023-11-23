@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zakaria Tunsung"
+		]
+	},
+	"citoid-action-replace": "Kyili sommo yizie parɛɛ",
+	"citoid-citation-widget-insert-button": "Eŋ",
+	"citoid-citoiddialog-back": "Puori",
+	"citoid-citoiddialog-credit": "Fɔŋɔ kuubu yi $1",
+	"citoid-citoiddialog-lookup-button": "bɔ a nyɛ",
+	"citoid-citoiddialog-mode-auto": "Otomatiki",
+	"citoid-citoiddialog-mode-manual": "Meŋa nu toma",
+	"citoid-citoiddialog-mode-reuse": "Leɛ toŋ neŋ",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
+	"citoid-citoiddialog-search-placeholder": "Aseŋ, http://www.example.com",
+	"citoid-citoiddialog-title": "Paahi yizie",
+	"citoid-citoiddialog-title-replace": "Leɛ eŋ neŋ yizie"
+}
