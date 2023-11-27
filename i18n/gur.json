@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Akakiiri"
+			"Akakiiri",
+			"Atalata Gumah"
 		]
 	},
 	"citoid-action-replace": "Tee viisegɔ lɔgerɔ buuri",
@@ -9,9 +10,25 @@
 	"citoid-citoiddialog-back": "Pooren",
 	"citoid-citoiddialog-credit": "Paŋa dɔla $1",
 	"citoid-citoiddialog-lookup-button": "Maalɛ",
+	"citoid-citoiddialog-mode-auto": "puti'irɛ",
+	"citoid-citoiddialog-mode-manual": "Sɛla n ani woo gɔŋɔ la",
 	"citoid-citoiddialog-mode-reuse": "Malum dikɛ tum",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tile, or citation",
 	"citoid-citoiddialog-search-placeholder": "Me g. Ahttp://www.example.com",
 	"citoid-citoiddialog-title": "Dikɛ citation pa'asɛ",
-	"citoid-citoiddialog-title-replace": "Malum tee \"citation\""
+	"citoid-citoiddialog-title-replace": "Malum tee \"citation\"",
+	"citoid-citoiddialog-use-general-error-message": "Tu ma kan nyaŋɛ iŋɛ satasi bo fu. Fu wa nyaŋɛ iŋɛ ayima tari tuna \"{{int:citoid-citoiddialog-mode-manual}}\" tab saazuo",
+	"citoid-citoidtool-title": "yɛta",
+	"citoid-citoidtool-title-othergroup": "Saatasini",
+	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
+	"citoid-isbnscannerdialog-title": "ve'e ISBIN baakooti la",
+	"citoid-referencecontextitem-convert-button": "Tee",
+	"citoid-referencecontextitem-convert-message": "Fu ta'am dikɛ tumint:citoid-referencecontextitem-convert-button}}\"  tiŋa la ita la saalum viisegɔ lɔgerɔ ze'ele yiŋa liki la.",
+	"citoid-unknown-error": "Sɛla ti ka mina la n iŋɛ base ti tu ka nyaŋɛ iŋɛ saatasi la. N belum fu mɛ le iŋa pooren",
+	"citoid-wb-referenceview-tabs-automatic": "puti'irɛ",
+	"citoid-wb-referenceview-tabs-search": "ɛɛra",
+	"citoid-wb-referenceview-tabs-search-label": "URL,DOI,ISBN, bii QID:",
+	"citoid-wb-pendingdialog-error": "La ka nyaŋɛ iŋɛ viisegɔ lɔgerɔ ze'ele puan. Dikɛ tum gɔŋɔ la puan, bii fu le iŋɛ.",
+	"citoid-wb-pendingdialog-message": "Digesɛ viisegɔ lɔgerɔ bo fu miŋa. .. n belum fu mɛ ze'ele....",
+	"citoid-wb-pendingdialog-title": "Digesɛ saatesine"
 }

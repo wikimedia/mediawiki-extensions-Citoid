@@ -15,5 +15,19 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
 	"citoid-citoiddialog-search-placeholder": "Aseŋ, http://www.example.com",
 	"citoid-citoiddialog-title": "Paahi yizie",
-	"citoid-citoiddialog-title-replace": "Leɛ eŋ neŋ yizie"
+	"citoid-citoiddialog-title-replace": "Leɛ eŋ neŋ yizie",
+	"citoid-citoiddialog-use-general-error-message": "Te koŋ baŋ nyɛ yizie ko fo. Fo na baŋ maale la kaŋa ne fo nuuri a yi a \"{{int:citoid-citoiddialog-mode-manual}}\" tɔ a sazu ŋa.",
+	"citoid-citoidtool-title": "ko a yizie gyeremɛ",
+	"citoid-citoidtool-title-othergroup": "yizie",
+	"citoid-desc": "Ko a viili goɔle zie a yi a citoid toma aneŋ MediaWiki",
+	"citoid-isbnscannerdialog-title": "Sikaane ISBN baakoodi",
+	"citoid-referencecontextitem-convert-button": "Leɛre eŋ",
+	"citoid-referencecontextitem-convert-message": "Fo na baŋ de la a \"{{int:citoid-referencecontextitem-convert-button}}\" a tɔ zie ŋa naŋ be a paree a maale nyɛ sommo yizie a yi a liŋki yuo ŋa.",
+	"citoid-unknown-error": "Ɛɛrɔ kaŋa te naŋ ba baŋ yie la, ka lɛ vɛŋ ka te kombaŋ maale yizie. Gaafera leɛ wa nyɛ wɔgre kaŋaŋ.",
+	"citoid-wb-referenceview-tabs-automatic": "Otomatiki",
+	"citoid-wb-referenceview-tabs-search": "bɔ",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, bee QID:",
+	"citoid-wb-pendingdialog-error": "Kombaŋ maale nyɛ sommo yizie a yi emmo ŋaŋ. De a manoɔle tɔmbiri, bee leɛ nyɛ wɔgre kaŋaŋ.",
+	"citoid-wb-pendingdialog-message": "Maala la sommo yizie na ko fo...gaafera kyɛlɛ...",
+	"citoid-wb-pendingdialog-title": "Maala la yizie"
 }
