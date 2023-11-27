@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Soumaya"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Ningi",
+	"citoid-citoiddialog-back": "D leb n kẽnga poorẽ",
+	"citoid-citoiddialog-credit": "A $1 sẽn kõ-a pãng",
+	"citoid-citoiddialog-lookup-button": "D sẽn na n tall",
+	"citoid-citoiddialog-mode-auto": "Dɩtma",
+	"citoid-citoiddialog-mode-manual": "Maan a toore",
+	"citoid-citoiddialog-mode-reuse": "B sẽn da wa n lebs n dɩkd b teedã",
+	"citoid-citoiddialog-search-label": "D sẽn tõe n maan bũmb ning fãa, bɩ d maan bũmb ning sẽn tõe n sõng-d tɩ d bãng d sẽn segd n maan bũmb ningã.",
+	"citoid-citoiddialog-search-placeholder": "B sẽn na n wilg tɩ b sẽn yãk b sẽn na n maan bũmb ningã yaa sõma, b na n wilga rẽ.",
+	"citoid-citoiddialog-title": "Add a quote",
+	"citoid-citoiddialog-use-general-error-message": "Tõnd pa tõe n wilg tɩ d yaa ned sẽn na n kõ-a koe-moonegã ye. Y tõe n maana a yembr ne nus n tũnug ne \"{{int:citoid-citoiddialog-mode-manual}}\" tabã sẽn be yĩngrã.",
+	"citoid-citoidtool-title": "D sẽn wilg tɩ",
+	"citoid-citoidtool-title-othergroup": "Sõsg sõss",
+	"citoid-desc": "Yaa sẽn na yɩl n paam n paam n bãng tɩ b tõe n paama bũmb ning b sẽn dat n maane.",
+	"citoid-referencecontextitem-convert-button": "Tʋʋm-kãng",
+	"citoid-unknown-error": "D pa tõe n tall gom-biis n wilg tɩ d pa tõe n maan bũmb ye. Bas-y tɩ b le maan dẽ poore.",
+	"citoid-wb-referenceview-tabs-automatic": "Dɩtma",
+	"citoid-wb-referenceview-tabs-search": "bao",
+	"citoid-wb-referenceview-tabs-search-label": "D sẽn tõe n maan bũmb ning sẽn yaa to-to wã:",
+	"citoid-wb-pendingdialog-error": "Pa tõe n tall tagsgo n yiis ye. Sõng-y ne tab-rɩtgã, bɩ y leoke.",
+	"citoid-wb-pendingdialog-message": "Mam sẽn na n tall tagsgo n kõ-y... D gũus-y lame.",
+	"citoid-wb-pendingdialog-title": "D sẽn tõe n paam n paam n deeg sõssã"
+}

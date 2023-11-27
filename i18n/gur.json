@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akakiiri"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Kɛ'ɛsɛ",
+	"citoid-citoiddialog-back": "Pooren",
+	"citoid-citoiddialog-credit": "Paŋa dɔla $1",
+	"citoid-citoiddialog-lookup-button": "Maalɛ",
+	"citoid-citoiddialog-mode-reuse": "Malum dikɛ tum",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tile, or citation",
+	"citoid-citoiddialog-search-placeholder": "Me g. Ahttp://www.example.com",
+	"citoid-citoiddialog-title": "Dikɛ citation pa'asɛ"
+}

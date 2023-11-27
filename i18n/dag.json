@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bashiru Nurideen Pona"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Kpɛhima",
+	"citoid-citoiddialog-back": "Nyaaŋa",
+	"citoid-citoiddialog-credit": "$1 n-kpaŋsi li",
+	"citoid-citoiddialog-lookup-button": "Niŋ ka di niŋ",
+	"citoid-citoiddialog-mode-auto": "Otomatiki",
+	"citoid-citoiddialog-mode-manual": "Sodoligu buku",
+	"citoid-citoiddialog-mode-reuse": "Labi zaŋ tum tuma",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
+	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
+	"citoid-citoiddialog-title": "Pahimi kundivihirili",
+	"citoid-citoiddialog-use-general-error-message": "Ti bi tooi nam ti a, A ni tooi zaŋ\"{{int:citoid-citoiddialog-mode-manual}}\" dihibu daliŋ din be zuɣusaa ŋɔ n-kpɛhi amaŋmaŋa.",
+	"citoid-citoidtool-title": "Wuhi",
+	"citoid-citoidtool-title-othergroup": "Zaŋ wuhi",
+	"citoid-desc": "Bomi din yɛn sɔŋ citoid tuma mini Mediawiki sunsuuni",
+	"citoid-referencecontextitem-convert-button": "Tahi",
+	"citoid-unknown-error": "Muɣisigu shɛli din bi baŋ niŋya n-yɛn gu ti ka che zaŋ wuhi nambu. Dimi suɣilo labi kpɛhi saha biɛla",
+	"citoid-wb-referenceview-tabs-automatic": "Otomatiki",
+	"citoid-wb-referenceview-tabs-search": "Vihima",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:",
+	"citoid-wb-pendingdialog-error": "Kundivihirili bi tooi nam kpe. Dihi niŋ bo, bee ka a labi kpɛhi di saha biɛla",
+	"citoid-wb-pendingdialog-message": "Di namdila kundivihirili tiri a maa… dimi suɣilo ka kuhima...",
+	"citoid-wb-pendingdialog-title": "Zaŋ wuhi Nambu"
+}
