@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Foxj",
-			"Jdforrester"
+			"Jdforrester",
+			"CiphriusKane"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Pit in",
@@ -14,5 +15,5 @@
 	"citoid-citoiddialog-search-label": "URL, DOI or PMID",
 	"citoid-citoidtool-title": "Soorce",
 	"citoid-desc": "Provides ingangs atween the citoid service and MediaWiki",
-	"citoid-unknown-error": "An unbekent mistak his occurit and we cannae mak a reference for ye. Please hae anither gae."
+	"citoid-unknown-error": "An unbekent mistak haes occurt that stappt us fae makin ae citation. Please try again."
 }
