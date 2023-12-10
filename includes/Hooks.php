@@ -12,12 +12,12 @@ use ExtensionRegistry;
 use MediaWiki\Config\Config;
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Output\OutputPage;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\ResourceLoader as RL;
 use MediaWiki\ResourceLoader\Hook\ResourceLoaderGetConfigVarsHook;
-use OutputPage;
+use MediaWiki\User\User;
 use Skin;
-use User;
 use Wikibase\Repo\WikibaseRepo;
 
 class Hooks implements
