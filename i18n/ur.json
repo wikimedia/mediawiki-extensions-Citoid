@@ -6,16 +6,26 @@
 			"امین اکبر"
 		]
 	},
+	"citoid-action-replace": "حوالہ کی نوعیت تبدیل کریں",
 	"citoid-citation-widget-insert-button": "درج کریں",
 	"citoid-citoiddialog-back": "پیچھے",
-	"citoid-citoiddialog-credit": "تقویت یافتہ از $1",
-	"citoid-citoiddialog-lookup-button": "تولید",
+	"citoid-citoiddialog-credit": "$1 کی مدد سے",
+	"citoid-citoiddialog-lookup-button": "بنائیں",
 	"citoid-citoiddialog-mode-auto": "خودکار",
 	"citoid-citoiddialog-mode-manual": "دستی",
 	"citoid-citoiddialog-mode-reuse": "دوبارہ استعمال",
-	"citoid-citoiddialog-search-label": "یو آر ایل، ڈی او آئی، آئی ایس بی این یا پی ایم سی/پی ایم آئی ڈی",
+	"citoid-citoiddialog-search-label": "یو آر ایل، ڈی او آئی، آئی ایس بی این یا پی ایم سی/پی ایم آئی ڈی، عنوان یا حوالہ",
+	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
+	"citoid-citoiddialog-title": "حوالہ درج کریں",
+	"citoid-citoiddialog-title-replace": "حوالہ تبدیل کریں",
+	"citoid-citoiddialog-use-general-error-message": "ہم حوالہ تیار نہیں کر سکے۔ تاہم آپ اسے \"{{int:citoid-citoiddialog-mode-manual}}\" ٹیب کی مدد سے دستی طور پر تیار کر سکتے ہیں۔",
 	"citoid-citoidtool-title": "حوالہ درج کریں",
 	"citoid-citoidtool-title-othergroup": "حوالہ جات",
+	"citoid-isbnscannerdialog-title": "ISBN بارکوڈ اسکین کریں",
 	"citoid-referencecontextitem-convert-button": "تبدیل کریں",
-	"citoid-referencecontextitem-convert-message": "اس حوالے میں محض ایک بیرونی ربط موجود ہے۔ آپ \"{{int:citoid-referencecontextitem-convert-button}}\" بٹن کو صحیح طرز کا حوالہ بنانے کے لیے استعمال کر سکتے ہیں۔"
+	"citoid-referencecontextitem-convert-message": "اس حوالے میں محض ایک بیرونی ربط موجود ہے۔ آپ \"{{int:citoid-referencecontextitem-convert-button}}\" بٹن کو صحیح طرز کا حوالہ بنانے کے لیے استعمال کر سکتے ہیں۔",
+	"citoid-wb-referenceview-tabs-automatic": "خودکار",
+	"citoid-wb-referenceview-tabs-search": "تلاش کریں",
+	"citoid-wb-pendingdialog-message": "حوالہ تیار کیا جا رہا ہے۔۔۔۔ براہ کرم انتظار کریں۔۔۔",
+	"citoid-wb-pendingdialog-title": "حوالہ تیار کیا جا رہا ہے"
 }

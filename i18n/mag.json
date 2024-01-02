@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"ऐक्टिवेटेड्"
+		]
+	},
+	"citoid-action-replace": "सन्दर्भ प्रकार बदली",
+	"citoid-citation-widget-insert-button": "जोड़ी",
+	"citoid-citoiddialog-back": "पाछे",
+	"citoid-citoiddialog-credit": "$1 द्वारा सञ्चालित",
+	"citoid-citoiddialog-lookup-button": "बनावी",
+	"citoid-citoiddialog-mode-auto": "स्वचालित",
+	"citoid-citoiddialog-mode-manual": "नियमाबली",
+	"citoid-citoiddialog-mode-reuse": "पुनरुपयोग",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, शीर्षक, वा उद्धरण",
+	"citoid-citoiddialog-search-placeholder": "उदाहरण http://www.example.com",
+	"citoid-citoiddialog-title": "उद्धरण जोड़ी",
+	"citoid-citoiddialog-title-replace": "उद्धरण बदली",
+	"citoid-citoiddialog-use-general-error-message": "हम अपनेला उद्धरण न बना पाइली । अपने ऊपरेके \"{{int:citoid-citoiddialog-mode-manual}}\" टॅब् के प्रयोगसे एकरा अपने बना सकही ।",
+	"citoid-citoidtool-title": "उद्धृत करी",
+	"citoid-citoidtool-title-othergroup": "उद्धरण",
+	"citoid-desc": "Citoid सेवा आउ मीडियाबिकि के बीचे अभिगम बिन्दु प्रदान करहे",
+	"citoid-referencecontextitem-convert-button": "बदली",
+	"citoid-wb-referenceview-tabs-automatic": "स्वचालित",
+	"citoid-wb-referenceview-tabs-search": "खोजी"
+}
