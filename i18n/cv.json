@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Astahar"
+		]
+	},
+	"citoid-action-replace": "Ӑнлантару тӗсне улӑштар",
+	"citoid-citation-widget-insert-button": "Кӗртсе ларт",
+	"citoid-citoiddialog-back": "Каялла",
+	"citoid-citoiddialog-credit": "$1 тивӗҫтернӗ",
+	"citoid-citoiddialog-lookup-button": "Генерациле",
+	"citoid-citoiddialog-mode-auto": "Хӑй тӗллӗн",
+	"citoid-citoiddialog-mode-manual": "Алӑпа",
+	"citoid-citoiddialog-mode-reuse": "Тепӗр хут",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, ят е цитата",
+	"citoid-citoiddialog-search-placeholder": "тӗслӗхорен, http://www.example.com",
+	"citoid-citoiddialog-title": "Ҫӑлкуҫ ҫине каҫӑ хуш",
+	"citoid-citoiddialog-title-replace": "Ҫӑлкуҫа улӑштар",
+	"citoid-citoiddialog-use-general-error-message": "Эпир сире валли цитата хатӗрлеймерӗмӗр. Ҫӳлерех вырнаҫнӑ «{{int:citoid-citoiddialog-mode-manual}}» вкладкӑпа уҫӑ курса ӑна алӑпа тума май пур.",
+	"citoid-citoidtool-title": "Ҫӑлкуҫ",
+	"citoid-citoidtool-title-othergroup": "Цитата",
+	"citoid-desc": "Citoid сервиспа MediaWiki хушшинче ҫыхӑну йӗркелет",
+	"citoid-isbnscannerdialog-title": "ISBN barcode сканерла",
+	"citoid-referencecontextitem-convert-button": "Конвертла",
+	"citoid-referencecontextitem-convert-message": "Тулаш каҫӑран тӗрӗс Ӑнлантару хатӗрлемешкӗн «{{int:citoid-referencecontextitem-convert-button}}» пускӑчпа усӑ курӑр.",
+	"citoid-unknown-error": "Паллӑ мар йӑнӑш сиксе тухрӗ, вӑл пире цитатӑна тӗрӗс йӗркелеме май памарӗ. Тархасшӑн, каярах тепре туса пӑхӑр.",
+	"citoid-wb-referenceview-tabs-automatic": "Хӑй тӗллӗн",
+	"citoid-wb-referenceview-tabs-search": "шырав",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN е QID:",
+	"citoid-wb-pendingdialog-error": "Ку кӗртнӗ информацирен цитата хатӗрлеме май ҫук. Владкӑпа алӑпа усӑ курӑр та тепре хӑтланса пӑхӑр.",
+	"citoid-wb-pendingdialog-message": "Сирӗн валли каҫӑ хатӗрленет... тархасшӑн, кӗтӗр...",
+	"citoid-wb-pendingdialog-title": "Цитатӑна хатӗрлени"
+}
