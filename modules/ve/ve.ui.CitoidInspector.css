@@ -54,6 +54,10 @@
 	z-index: 1;
 }
 
+.ve-ui-citoidInspector-preview-single .ve-ui-citoidReferenceWidget-insert-button {
+	display: none;
+}
+
 .ve-ui-citoidInspector-credit {
 	font-size: x-small;
 	color: #888;
