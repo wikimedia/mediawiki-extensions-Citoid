@@ -58,6 +58,12 @@
 	display: none;
 }
 
+.ve-ui-citoidInspector-resultError {
+	margin: 0.5em -0.75em -0.75em -0.75em;
+	/* stylelint-disable-next-line declaration-no-important */
+	border: 0 !important;
+}
+
 .ve-ui-citoidInspector-credit {
 	font-size: x-small;
 	color: #888;
