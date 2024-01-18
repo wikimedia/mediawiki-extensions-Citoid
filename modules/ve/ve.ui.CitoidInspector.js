@@ -352,6 +352,10 @@ ve.ui.CitoidInspector.prototype.onSearchResultsChoose = function ( item ) {
 	var ref = item.getData();
 
 	ref.insertReferenceNode( this.getFragment() );
+	// The insertion above collapses the document selection around the placeholder.
+	// As inspector's don't auto-select when closing, we need to manually re-select here.
+	// TODO: This should probably be fixed upstream.
+	this.getFragment().select();
 	while ( this.staging ) {
 		this.getFragment().getSurface().applyStaging();
 		this.staging--;
