@@ -16,9 +16,6 @@ use MediaWiki\ResourceLoader as RL;
 
 class CitoidDataModule extends RL\Module {
 
-	/** @var string[] */
-	protected $targets = [ 'desktop', 'mobile' ];
-
 	/**
 	 * @param RL\Context $context
 	 * @return string
