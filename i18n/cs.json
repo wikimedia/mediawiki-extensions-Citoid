@@ -18,7 +18,7 @@
 	"citoid-citoiddialog-mode-auto": "Automaticky",
 	"citoid-citoiddialog-mode-manual": "Ručně",
 	"citoid-citoiddialog-mode-reuse": "Použít existující",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, název nebo citace",
+	"citoid-citoiddialog-search-label": "Pro vytvoření citace vložte odkaz nebo kód reference (ISBN, DOI aj.)",
 	"citoid-citoiddialog-search-placeholder": "např. http://www.example.com",
 	"citoid-citoiddialog-title": "Přidat citaci",
 	"citoid-citoiddialog-title-replace": "Nahradit citaci",

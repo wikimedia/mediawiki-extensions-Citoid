@@ -15,7 +15,7 @@
 	"citoid-citoiddialog-mode-auto": "אוטומטית",
 	"citoid-citoiddialog-mode-manual": "ידנית",
 	"citoid-citoiddialog-mode-reuse": "שימוש חוזר",
-	"citoid-citoiddialog-search-label": "URL‏, DOI‏, ISBN‏, PMC/PMID‏, QID, כותרת או ציטוט",
+	"citoid-citoiddialog-search-label": "יש להזין קישור או קוד הפניה (ISBN‏, DOI או אחר) כדי ליצור הערת שוליים",
 	"citoid-citoiddialog-search-placeholder": "למשל http://www.example.com",
 	"citoid-citoiddialog-title": "הוספת הערת שוליים",
 	"citoid-citoiddialog-title-replace": "החלפת הערת השוליים",

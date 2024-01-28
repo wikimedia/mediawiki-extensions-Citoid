@@ -15,7 +15,7 @@
 	"citoid-citoiddialog-mode-auto": "Samodejno",
 	"citoid-citoiddialog-mode-manual": "Ročno",
 	"citoid-citoiddialog-mode-reuse": "Ponovna uporaba",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, naslov ali citat",
+	"citoid-citoiddialog-search-label": "Vnesite povezavo ali referenčno kodo (ISBN, DOI ali drugo), da ustvarite sklic",
 	"citoid-citoiddialog-search-placeholder": "npr. http://www.example.com",
 	"citoid-citoiddialog-title": "Dodaj sklic",
 	"citoid-citoiddialog-title-replace": "Zamenjava sklica",

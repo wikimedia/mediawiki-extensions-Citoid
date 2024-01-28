@@ -24,7 +24,7 @@
 	"citoid-citoiddialog-mode-auto": "Otomatik",
 	"citoid-citoiddialog-mode-manual": "Elle",
 	"citoid-citoiddialog-mode-reuse": "Tekrar kullan",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, başlık ya da alıntı",
+	"citoid-citoiddialog-search-label": "Bir alıntı oluşturmak için bir bağlantı ya da kaynak kodu (ISBN, DOI ya da başkası) girin",
 	"citoid-citoiddialog-search-placeholder": "ör. http://www.example.com",
 	"citoid-citoiddialog-title": "Kaynak ekle",
 	"citoid-citoiddialog-title-replace": "Kaynağı değiştir",
