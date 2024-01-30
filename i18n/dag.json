@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bashiru Nurideen Pona",
-			"Kalakpagh"
+			"Kalakpagh",
+			"Reedy"
 		]
 	},
 	"citoid-action-replace": "Taɣimi kundivihira balibu",
@@ -20,7 +21,7 @@
 	"citoid-citoiddialog-use-general-error-message": "Ti bi tooi nam ti a, A ni tooi zaŋ\"{{int:citoid-citoiddialog-mode-manual}}\" dihibu daliŋ din be zuɣusaa ŋɔ n-kpɛhi amaŋmaŋa.",
 	"citoid-citoidtool-title": "Wuhi",
 	"citoid-citoidtool-title-othergroup": "Zaŋ wuhi",
-	"citoid-desc": "Bomi din yɛn sɔŋ citoid tuma mini Mediawiki sunsuuni",
+	"citoid-desc": "Bomi din yɛn sɔŋ citoid tuma mini MediaWiki sunsuuni",
 	"citoid-isbnscannerdialog-title": "Zaŋ kpa n-nyaa ISBN",
 	"citoid-referencecontextitem-convert-button": "Tahi",
 	"citoid-referencecontextitem-convert-message": "A ni tooi zaŋ \"{{int:citoid-referencecontextitem-convert-button}}\" dihibu daliŋ din dolina ŋɔ n-nam kundinvihir’ suŋ linki din kani",
