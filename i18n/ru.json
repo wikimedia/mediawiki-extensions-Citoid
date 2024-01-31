@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"1233qwer1234qwer4",
+			"Butko",
 			"Diman Russkov",
 			"Iniquity",
 			"Irus",
@@ -23,7 +24,7 @@
 	"citoid-citation-widget-insert-button": "Вставить",
 	"citoid-citoiddialog-back": "Назад",
 	"citoid-citoiddialog-credit": "Предоставлено $1",
-	"citoid-citoiddialog-lookup-button": "Сгенерировать",
+	"citoid-citoiddialog-lookup-button": "Создать",
 	"citoid-citoiddialog-mode-auto": "Автоматически",
 	"citoid-citoiddialog-mode-manual": "Вручную",
 	"citoid-citoiddialog-mode-reuse": "Повторно",
