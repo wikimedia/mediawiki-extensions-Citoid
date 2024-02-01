@@ -26,7 +26,7 @@
 	"citoid-citoiddialog-mode-auto": "Automatique",
 	"citoid-citoiddialog-mode-manual": "Manuel",
 	"citoid-citoiddialog-mode-reuse": "Réutiliser",
-	"citoid-citoiddialog-search-label": "Saisissez un lien ou un code de référence (ISBN, DOI ou autre) pour créer une citation",
+	"citoid-citoiddialog-search-label": "Saisissez un lien ou un code de référence (ISBN, DOI ou autre) pour créer une référence",
 	"citoid-citoiddialog-search-placeholder": "par exemple, http://www.example.com/",
 	"citoid-citoiddialog-title": "Ajouter une source",
 	"citoid-citoiddialog-title-replace": "Remplacer la citation",

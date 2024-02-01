@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-auto": "Automaatne",
 	"citoid-citoiddialog-mode-manual": "Käsitsi",
 	"citoid-citoiddialog-mode-reuse": "Korduv",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, pealkiri või viide",
+	"citoid-citoiddialog-search-label": "Sisesta link või viitekood (ISBN, DOI või muu), et koostada viide",
 	"citoid-citoiddialog-search-placeholder": "nt http://www.example.com",
 	"citoid-citoiddialog-title": "Viite lisamine",
 	"citoid-citoiddialog-title-replace": "Viite asendamine",
