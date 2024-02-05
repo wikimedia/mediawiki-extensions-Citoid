@@ -8,18 +8,19 @@
 			"LNDDYL",
 			"Liuxinyu970226",
 			"Shangkuanlc",
-			"Wehwei"
+			"Wehwei",
+			"Winston Sung"
 		]
 	},
 	"citoid-action-replace": "變更參考類型",
 	"citoid-citation-widget-insert-button": "插入",
 	"citoid-citoiddialog-back": "返回",
 	"citoid-citoiddialog-credit": "由 $1 提供支持",
-	"citoid-citoiddialog-lookup-button": "產生",
+	"citoid-citoiddialog-lookup-button": "新增",
 	"citoid-citoiddialog-mode-auto": "自動",
 	"citoid-citoiddialog-mode-manual": "手動",
 	"citoid-citoiddialog-mode-reuse": "重新使用",
-	"citoid-citoiddialog-search-label": "URL、DOI、ISBN、PMC/PMID、QID、標題或引用",
+	"citoid-citoiddialog-search-label": "輸入連結或參考代碼（ISBN、DOI或其他代碼）以新增引註",
 	"citoid-citoiddialog-search-placeholder": "例如：http://www.example.com",
 	"citoid-citoiddialog-title": "新增引用",
 	"citoid-citoiddialog-title-replace": "取代引用",
