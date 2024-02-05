@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Akudugu"
+			"Akudugu",
+			"Poasana Anabah",
+			"Reedy"
 		]
 	},
 	"citoid-action-replace": "tiakim pa'alʋg kaŋa",
@@ -21,7 +23,7 @@
 	"citoid-citoiddialog-use-general-error-message": "Ti pʋ nyaŋi maal kasɛta la tisifo. Fʋ tun'e nyaŋi maal yinne tisi fʋ mɛŋ n dɔl \"{{int:citoid-citoiddialog-mode-manual}}\" si'isim agɔl",
 	"citoid-citoidtool-title": "Pʋdim",
 	"citoid-citoidtool-title-othergroup": "Tʋʋma tienr",
-	"citoid-desc": "Tisim pian'azut linɛ na yɔ'ɔg suor citoid tʋʋma nɛ Mediawiki tensug",
+	"citoid-desc": "Tisim pian'azut linɛ na yɔ'ɔg suor citoid tʋʋma nɛ MediaWiki tensug",
 	"citoid-referencecontextitem-convert-button": "Tiakim",
 	"citoid-referencecontextitem-convert-message": "Fʋ tun'e tʋm nɛ {{int :citoid -referencecontextitem -convert -button}}\"linɛ be gbinnin la n paam  labakanɛ la'as sʋŋa n yi yiŋ nwiig la ni.",
 	"citoid-unknown-error": "Yɛlsi'a gbirigi naam n kɛ ka li pʋ keŋ sʋŋaa ka linɛ kɛ ka ti pʋ nyaŋi maal kasɛta la. Bɛllimnɛ lɛm mɔ gɔs ya'as.",
