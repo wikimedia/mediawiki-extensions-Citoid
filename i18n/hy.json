@@ -5,9 +5,11 @@
 			"Kareyac",
 			"Mvolz",
 			"Vahe Gharakhanyan",
+			"Աշոտ1997",
 			"Դավիթ Սարոյան"
 		]
 	},
+	"citoid-action-replace": "Փոխել ծանոթագրության տեսակը",
 	"citoid-citation-widget-insert-button": "Ավելացնել",
 	"citoid-citoiddialog-back": "Հետ",
 	"citoid-citoiddialog-credit": "$1-ի միջոցով",
@@ -24,5 +26,8 @@
 	"citoid-desc": "Կապ է հաստատում ծանոթագրության և ՄեդիաՎիքիի միջև:",
 	"citoid-referencecontextitem-convert-button": "Փոխարկել",
 	"citoid-referencecontextitem-convert-message": "Ծանոթագրությունը միայն արտաքին հղում է։ Դուք կարող եք օգտագործել {{int:citoid-referencecontextitem-convert-button}} կոճակը՝ ճիշտ ձևավորված ծանոթագրություն ստանալու համար։",
-	"citoid-unknown-error": "Ինչ-որ բան խանգարեց ծանոթագրությունը ստեղծել: Խնդրում ենք, փորձեք մի փոքր ուշ:"
+	"citoid-unknown-error": "Ինչ-որ բան խանգարեց ծանոթագրությունը ստեղծել: Խնդրում ենք, փորձեք մի փոքր ուշ:",
+	"citoid-wb-referenceview-tabs-automatic": "Ավտոմատ",
+	"citoid-wb-referenceview-tabs-search": "որոնել",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, կամ QID՝"
 }
