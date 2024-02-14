@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-auto": "Автоматски",
 	"citoid-citoiddialog-mode-manual": "Рачно",
 	"citoid-citoiddialog-mode-reuse": "Повторна употреба",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, наслов или навод",
+	"citoid-citoiddialog-search-label": "Внесете врска или код на наводот (ISBN, DOI или др.) за да создадете навод",
 	"citoid-citoiddialog-search-placeholder": "на пр. http://www.example.com",
 	"citoid-citoiddialog-title": "Додај навод",
 	"citoid-citoiddialog-title-replace": "Замени навод",
