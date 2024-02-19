@@ -69,7 +69,13 @@ ve.ui.CitoidInspector.static.actions = [
 		action: 'back',
 		label: OO.ui.deferMsg( 'citoid-citoiddialog-back' ),
 		flags: [ 'safe', 'back' ],
-		modes: [ 'auto-result' ]
+		modes: [ 'auto-result-single', 'auto-result-multi' ]
+	},
+	{
+		action: 'insert',
+		label: OO.ui.deferMsg( 'citoid-citation-widget-insert-button' ),
+		flags: [ 'progressive', 'primary' ],
+		modes: [ 'auto-result-single' ]
 	}
 ];
 
@@ -287,6 +293,8 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 	if ( !fromSelect ) {
 		this.modeIndex.setTabPanel( tabPanelName );
 	}
+	var panelNameModifier;
+	var focusTarget;
 	switch ( tabPanelName ) {
 		case 'auto':
 			processPanelName = processPanelName || this.currentAutoProcessPanel || 'lookup';
@@ -296,7 +304,12 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 					this.lookupInput.setDisabled( false ).select();
 					break;
 				case 'result':
-					this.previewSelectWidget.items[ 0 ].focus();
+					var isSingle = this.previewSelectWidget.items.length === 1;
+					panelNameModifier = isSingle ? 'single' : 'multi';
+					this.previewSelectWidget.$element.toggleClass( 've-ui-citoidInspector-preview-single', isSingle );
+					focusTarget = isSingle ?
+						this.actions.get( { flags: 'primary' } )[ 0 ] :
+						this.previewSelectWidget.items[ 0 ];
 					break;
 			}
 			this.currentAutoProcessPanel = processPanelName;
@@ -306,19 +319,27 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 			// Don't auto-focus on mobile as the keyboard
 			// covers the search results.
 			if ( !OO.ui.isMobile() ) {
-				this.search.getQuery().focus();
+				focusTarget = this.search.getQuery();
 			}
 			break;
 	}
 	// Result tab panel goes 'fullscreen' by hiding the tab widget
 	// TODO: Do this in a less hacky way
 	this.modeIndex.toggleMenu( !( processPanelName && processPanelName === 'result' ) );
-	this.actions.setMode( tabPanelName + ( processPanelName ? '-' + processPanelName : '' ) );
+	this.actions.setMode(
+		tabPanelName +
+		( processPanelName ? '-' + processPanelName : '' ) +
+		( panelNameModifier ? '-' + panelNameModifier : '' )
+	);
 	this.updateSize();
 	// Hiding the menu is a 200ms transition, so resize again
 	setTimeout( function () {
 		inspector.updateSize();
 	}, 200 );
+
+	if ( focusTarget ) {
+		focusTarget.focus();
+	}
 
 	if ( this.isActive ) {
 		ve.track( 'activity.' + this.constructor.static.name, { action: 'panel-switch' } );
@@ -613,6 +634,12 @@ ve.ui.CitoidInspector.prototype.getActionProcess = function ( action ) {
 			this.setModePanel( 'auto', 'lookup' );
 			// Clear credit line
 			this.credit.setLabel( null );
+		}, this );
+	}
+	if ( action === 'insert' ) {
+		return new OO.ui.Process( function () {
+			// The 'insert' option when only one result is shown
+			this.onPreviewSelectWidgetChoose( this.previewSelectWidget.items[ 0 ] );
 		}, this );
 	}
 	// Fallback to parent handler
