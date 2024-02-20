@@ -3,7 +3,8 @@
 		"authors": [
 			"Snævar",
 			"Sveinn í Felli",
-			"Þjarkur"
+			"Þjarkur",
+			"Stefán Örvar Sigmundsson"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Setja inn",
@@ -21,5 +22,5 @@
 	"citoid-desc": "Veitir aðgang á milli citoid þjónustunnar og MediaWiki.",
 	"citoid-referencecontextitem-convert-button": "Umbreyta",
 	"citoid-referencecontextitem-convert-message": "Tilvísunin samanstendur einungis af utanaðkomandi tengli. Þú getur notað \"{{int:citoid-referencecontextitem-convert-button}}\"-hnappinn hér fyrir neðan til að útbúa rétt sniðna tilvísun.",
-	"citoid-unknown-error": "Óþekkt villa átti sér stað sem kom í veg fyrir að heimildin væri búin til. Vinsamlegast reyndu aftur síðar."
+	"citoid-unknown-error": "Óþekkt villa kom upp sem kom í veg fyrir að við gætum búið til tilvitnun. Vinsamlegast reyndu aftur síðar."
 }
