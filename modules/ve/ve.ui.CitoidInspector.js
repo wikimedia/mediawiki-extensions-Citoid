@@ -69,7 +69,7 @@ ve.ui.CitoidInspector.static.actions = [
 		action: 'back',
 		label: OO.ui.deferMsg( 'citoid-citoiddialog-back' ),
 		flags: [ 'safe', 'back' ],
-		modes: [ 'auto-result-single', 'auto-result-multi' ]
+		modes: [ 'auto-result-single', 'auto-result-multi', 'auto-result-error' ]
 	},
 	{
 		action: 'insert',
@@ -206,7 +206,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	}.bind( this ) );
 	var isbnButtonFieldLayout = new OO.ui.FieldLayout( this.isbnButton );
 
-	// Error label
+	// Citoid API error message
 	this.$noticeLabel = $( '<div>' ).addClass( 've-ui-citoidInspector-dialog-error oo-ui-element-hidden' ).text(
 		ve.msg( 'citoid-citoiddialog-use-general-error-message' )
 	);
@@ -221,7 +221,15 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 
 	// Preview fieldset
 	this.previewSelectWidget = new ve.ui.CitoidGroupWidget();
-	this.autoProcessPanels.result.$element.append( this.previewSelectWidget.$element );
+	this.resultError = new OO.ui.MessageWidget( {
+		$label: $( '<div>' ),
+		classes: [ 've-ui-citoidInspector-resultError' ],
+		type: 'error'
+	} ).toggle( false );
+	this.autoProcessPanels.result.$element.append(
+		this.previewSelectWidget.$element,
+		this.resultError.$element
+	);
 
 	// Credit field
 	this.credit = new OO.ui.LabelWidget( {
@@ -278,8 +286,9 @@ ve.ui.CitoidInspector.prototype.onModeIndexSet = function ( tabPanel ) {
  * @param {string} tabPanelName Panel name, 'auto', 'manual' or 'reuse'
  * @param {string} [processPanelName] Process panel name, 'lookup' or 'result'
  * @param {boolean} [fromSelect] Mode was changed by the select widget
+ * @param {Object} [config] Mode-specific config
  */
-ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processPanelName, fromSelect ) {
+ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processPanelName, fromSelect, config ) {
 	var inspector = this;
 
 	if ( [ 'auto', 'manual', 'reuse' ].indexOf( tabPanelName ) === -1 ) {
@@ -305,7 +314,11 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 					break;
 				case 'result':
 					var isSingle = this.previewSelectWidget.items.length === 1;
-					panelNameModifier = isSingle ? 'single' : 'multi';
+					if ( config.hasError ) {
+						panelNameModifier = 'error';
+					} else {
+						panelNameModifier = isSingle ? 'single' : 'multi';
+					}
 					this.previewSelectWidget.$element.toggleClass( 've-ui-citoidInspector-preview-single', isSingle );
 					focusTarget = isSingle ?
 						this.actions.get( { flags: 'primary' } )[ 0 ] :
@@ -675,28 +688,61 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 	// a proper xhr object with "abort" method, so we can
 	// hand off this abort method to the jquery promise
 
-	var xhr;
+	var citoidXhr;
 	if ( this.fullRestbaseUrl ) {
 		// Use restbase endpoint
 		this.serviceConfig.ajax.url = this.serviceUrl + '/' + encodeURIComponent( search );
-		xhr = new mw.Api( this.serviceConfig ).get();
+		citoidXhr = new mw.Api( this.serviceConfig ).get();
 	} else {
 		// Use standalone citoid service
-		xhr = this.service
+		citoidXhr = this.service
 			.get( {
 				search: search,
 				format: ve.ui.CitoidInspector.static.citoidFormat
 			} );
 	}
 
-	this.lookupPromise = xhr
+	// TODO: Filter our queries that are not URLs
+	var reliabilityXhr = new mw.Api().get( {
+		action: 'editcheckreferenceurl',
+		url: search,
+		formatversion: 2
+	} );
+
+	this.lookupPromise = $.when( citoidXhr, reliabilityXhr )
 		.then(
 			// Success
-			function ( searchResults ) {
+			function ( searchResponse, reliablityResponse ) {
+				var searchResults = searchResponse[ 0 ];
+				var reliablityResults = reliablityResponse[ 0 ];
+				var hasError = false;
+
+				if ( reliablityResults.editcheckreferenceurl[ search ] === 'blocked' ) {
+					var backButton = new OO.ui.ButtonWidget( {
+						flags: [ 'primary', 'progressive' ],
+						label: ve.msg( 'citoid-citoiddialog-reliability-back' )
+					} ).on( 'click', function () {
+						inspector.executeAction( 'back' );
+						ve.track( 'activity.editCheckReliability', { action: 'edit-check-confirm' } );
+					} );
+
+					inspector.resultError.setLabel( $( '<div>' ).append(
+						$( '<strong>' ).text( ve.msg( 'citoid-citoiddialog-reliability-unreliable-title' ) ),
+						$( '<p>' )
+							.text( ve.msg( 'citoid-citoiddialog-reliability-unreliable-description' ) ),
+						backButton.$element
+					) );
+					inspector.resultError.toggle( true );
+					hasError = true;
+
+					ve.track( 'activity.editCheckReliability', { action: 'citation-blocked' } );
+				} else {
+					inspector.resultError.toggle( false );
+				}
 				// Build results
 				return inspector.buildTemplateResults( searchResults )
 					.then( function () {
-						inspector.setModePanel( 'auto', 'result' );
+						inspector.setModePanel( 'auto', 'result', false, { hasError: hasError } );
 					}, function () {
 						inspector.lookupFailed();
 						return $.Deferred().resolve();
@@ -721,7 +767,14 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 				.popPending();
 			inspector.lookupButton.setDisabled( false );
 		} )
-		.promise( { abort: xhr.abort } );
+		.promise( {
+			abort: function () {
+				citoidXhr.abort();
+				if ( reliabilityXhr.abort ) {
+					reliabilityXhr.abort();
+				}
+			}
+		} );
 	return this.lookupPromise;
 };
 
