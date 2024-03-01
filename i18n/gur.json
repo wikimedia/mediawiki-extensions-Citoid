@@ -18,6 +18,7 @@
 	"citoid-citoiddialog-title": "Dikɛ citation pa'asɛ",
 	"citoid-citoiddialog-title-replace": "Malum tee \"citation\"",
 	"citoid-citoiddialog-use-general-error-message": "Tu ma kan nyaŋɛ iŋɛ satasi bo fu. Fu wa nyaŋɛ iŋɛ ayima tari tuna \"{{int:citoid-citoiddialog-mode-manual}}\" tab saazuo",
+	"citoid-citoiddialog-reliability-back": "Tiregɛ bisɛ zipaalega",
 	"citoid-citoidtool-title": "yɛta",
 	"citoid-citoidtool-title-othergroup": "Saatasini",
 	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
