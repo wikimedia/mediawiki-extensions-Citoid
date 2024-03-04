@@ -22,7 +22,7 @@
 	"citoid-citoidtool-title-othergroup": "Saatasini",
 	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Tee",
-	"citoid-referencecontextitem-convert-message": "Fu ta'am dikɛ tumint:citoid-referencecontextitem-convert-button}}\"  tiŋa la ita la saalum viisegɔ lɔgerɔ ze'ele yiŋa liki la.",
+	"citoid-referencecontextitem-convert-message": "Fu ta'am dikɛ {{tumint:citoid-referencecontextitem-convert-button}}\" tiŋa la ita la saalum viisegɔ lɔgerɔ ze'ele yiŋa liki la.",
 	"citoid-unknown-error": "Sɛla ti ka mina la n iŋɛ base ti tu ka nyaŋɛ iŋɛ saatasi la. N belum fu mɛ le iŋa pooren",
 	"citoid-wb-referenceview-tabs-automatic": "puti'irɛ",
 	"citoid-wb-referenceview-tabs-search": "ɛɛra",
