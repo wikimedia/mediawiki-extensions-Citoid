@@ -702,51 +702,56 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 			} );
 	}
 
-	// TODO: Filter our queries that are not URLs
-	var reliabilityXhr = new mw.Api().get( {
-		action: 'editcheckreferenceurl',
-		url: search,
-		formatversion: 2
-	} );
-
-	this.lookupPromise = $.when( citoidXhr, reliabilityXhr )
+	var reliabilityXhr;
+	this.lookupPromise = citoidXhr
 		.then(
 			// Success
-			function ( searchResponse, reliablityResponse ) {
-				var searchResults = searchResponse[ 0 ];
-				var reliablityResults = reliablityResponse[ 0 ];
-				var hasError = false;
-
-				if ( reliablityResults.editcheckreferenceurl[ search ] === 'blocked' ) {
-					var backButton = new OO.ui.ButtonWidget( {
-						flags: [ 'primary', 'progressive' ],
-						label: ve.msg( 'citoid-citoiddialog-reliability-back' )
-					} ).on( 'click', function () {
-						inspector.executeAction( 'back' );
-						ve.track( 'activity.editCheckReliability', { action: 'edit-check-confirm' } );
+			function ( searchResults ) {
+				var url = OO.getProp( searchResults, 0, 'url' );
+				// TODO: Handle multiple results (not currently returned by our providers)
+				if ( url ) {
+					reliabilityXhr = new mw.Api().get( {
+						action: 'editcheckreferenceurl',
+						url: url,
+						formatversion: 2
 					} );
-
-					inspector.resultError.setLabel( $( '<div>' ).append(
-						$( '<strong>' ).text( ve.msg( 'citoid-citoiddialog-reliability-unreliable-title' ) ),
-						$( '<p>' )
-							.text( ve.msg( 'citoid-citoiddialog-reliability-unreliable-description' ) ),
-						backButton.$element
-					) );
-					inspector.resultError.toggle( true );
-					hasError = true;
-
-					ve.track( 'activity.editCheckReliability', { action: 'citation-blocked' } );
 				} else {
-					inspector.resultError.toggle( false );
+					reliabilityXhr = $.Deferred().resolve().promise();
 				}
-				// Build results
-				return inspector.buildTemplateResults( searchResults )
-					.then( function () {
-						inspector.setModePanel( 'auto', 'result', false, { hasError: hasError } );
-					}, function () {
-						inspector.lookupFailed();
-						return $.Deferred().resolve();
-					} );
+				return reliabilityXhr.then( function ( reliablityResults ) {
+					var hasError = false;
+
+					if ( reliablityResults && reliablityResults.editcheckreferenceurl[ url ] === 'blocked' ) {
+						var backButton = new OO.ui.ButtonWidget( {
+							flags: [ 'primary', 'progressive' ],
+							label: ve.msg( 'citoid-citoiddialog-reliability-back' )
+						} ).on( 'click', function () {
+							inspector.executeAction( 'back' );
+							ve.track( 'activity.editCheckReliability', { action: 'edit-check-confirm' } );
+						} );
+
+						inspector.resultError.setLabel( $( '<div>' ).append(
+							$( '<strong>' ).text( ve.msg( 'citoid-citoiddialog-reliability-unreliable-title' ) ),
+							$( '<p>' )
+								.text( ve.msg( 'citoid-citoiddialog-reliability-unreliable-description' ) ),
+							backButton.$element
+						) );
+						inspector.resultError.toggle( true );
+						hasError = true;
+
+						ve.track( 'activity.editCheckReliability', { action: 'citation-blocked' } );
+					} else {
+						inspector.resultError.toggle( false );
+					}
+					// Build results
+					return inspector.buildTemplateResults( searchResults )
+						.then( function () {
+							inspector.setModePanel( 'auto', 'result', false, { hasError: hasError } );
+						}, function () {
+							inspector.lookupFailed();
+							return $.Deferred().resolve();
+						} );
+				} );
 			},
 			// Fail
 			function ( type, response ) {
