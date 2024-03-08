@@ -775,7 +775,7 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 		.promise( {
 			abort: function () {
 				citoidXhr.abort();
-				if ( reliabilityXhr.abort ) {
+				if ( reliabilityXhr && reliabilityXhr.abort ) {
 					reliabilityXhr.abort();
 				}
 			}
