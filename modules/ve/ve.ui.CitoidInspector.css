@@ -44,6 +44,7 @@
 
 .ve-ui-citoidReferenceWidget .ve-ui-previewElement > p:last-child {
 	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .ve-ui-citoidReferenceWidget-insert-button {
