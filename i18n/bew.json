@@ -23,7 +23,7 @@
 	"citoid-citoidtool-title-othergroup": "Tukilan",
 	"citoid-desc": "Nyediain titik aksès antara ladènan citoid èn MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Tuker",
-	"citoid-referencecontextitem-convert-message": "Lu bisa paké tombol \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah bakal ngebuat ruju'an nyang pas pormatnya deri sènggètan luar.",
+	"citoid-referencecontextitem-convert-message": "Lu bisa paké tombol \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah bakal ngebuat ruju'an nyang pas pèpèlannya deri sènggètan luar.",
 	"citoid-unknown-error": "Kaga' tau dah ngapa ngablu nyang ngalingin kita ngeja tukilan. Padol dah, jal lagi entaran.",
 	"citoid-wb-referenceview-tabs-automatic": "Otomatis",
 	"citoid-wb-referenceview-tabs-search": "cari",
