@@ -36,7 +36,7 @@
 	"citoid-citoidtool-title-othergroup": "یادکرد",
 	"citoid-desc": "ارتباط بین خدمت citoid و مدیاویکی را برقرار می‌کند",
 	"citoid-referencecontextitem-convert-button": "تبدیل",
-	"citoid-referencecontextitem-convert-message": "شما می توانید از «{{int:citoid-referencecontextitem-convert-button}}» برای تولید یک ارجاع مناسب از این پیوند بیرونی استفاده کنید.",
+	"citoid-referencecontextitem-convert-message": "شما می‌توانید از «{{int:citoid-referencecontextitem-convert-button}}» برای تولید یک ارجاع مناسب از این پیوند بیرونی استفاده کنید.",
 	"citoid-unknown-error": "خطای نامشخصی اجازهٔ ساخت یادکرد را نمی‌دهد. لطفاً بعداً تلاش کنید.",
 	"citoid-wb-referenceview-tabs-automatic": "خودکار",
 	"citoid-wb-referenceview-tabs-search": "جستجو",
