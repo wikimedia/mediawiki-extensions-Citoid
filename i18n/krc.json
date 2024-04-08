@@ -8,11 +8,11 @@
 	},
 	"citoid-citation-widget-insert-button": "Сал",
 	"citoid-citoiddialog-back": "Кери",
-	"citoid-citoiddialog-lookup-button": "Джарат",
+	"citoid-citoiddialog-lookup-button": "Къура",
 	"citoid-citoiddialog-mode-auto": "Автомат халда",
 	"citoid-citoiddialog-mode-manual": "Къол режим",
 	"citoid-citoiddialog-mode-reuse": "Джангыдан хайырландырыу",
-	"citoid-citoiddialog-search-label": "URL неда DOI",
+	"citoid-citoiddialog-search-label": "Цитата болдурур ючюн джибериу неда къайнакъ код (ISBN, DOI неда башхасын) джазыгъыз",
 	"citoid-citoiddialog-search-placeholder": "сёз ючюн, http://www.example.com",
 	"citoid-citoidtool-title": "Цитата этиу",
 	"citoid-desc": "Citoid сервис бла MediaWiki'ни арасында байламны баджарады"
