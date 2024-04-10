@@ -30,6 +30,7 @@
 	"citoid-citoidtool-title": "인용",
 	"citoid-citoidtool-title-othergroup": "인용",
 	"citoid-desc": "Citoid 서비스와 미디어위키 사이의 액세스 포인트를 제공합니다",
+	"citoid-isbnscannerdialog-title": "ISBN 바코드 스캔",
 	"citoid-referencecontextitem-convert-button": "변환",
 	"citoid-referencecontextitem-convert-message": "아래의 \"{{int:citoid-referencecontextitem-convert-button}}\" 버튼을 사용하여 외부 링크에서 올바른 형식의 참고 문헌을 만들 수 있습니다.",
 	"citoid-unknown-error": "알 수 없는 오류가 발생하여 인용을 만드는 것을 막았습니다. 나중에 다시 시도하세요.",
