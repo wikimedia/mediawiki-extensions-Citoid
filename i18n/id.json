@@ -9,14 +9,15 @@
 			"Mvolz",
 			"Rex",
 			"Veracious",
-			"William Surya Permana"
+			"William Surya Permana",
+			"MarioMS"
 		]
 	},
 	"citoid-action-replace": "Ubah tipe referensi",
 	"citoid-citation-widget-insert-button": "Sisipkan",
 	"citoid-citoiddialog-back": "Kembali",
 	"citoid-citoiddialog-credit": "Didukung oleh $1",
-	"citoid-citoiddialog-lookup-button": "Hasilkan",
+	"citoid-citoiddialog-lookup-button": "Buat",
 	"citoid-citoiddialog-mode-auto": "Otomatis",
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Pakai ulang",

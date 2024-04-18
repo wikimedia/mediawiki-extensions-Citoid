@@ -16,8 +16,11 @@
 	"citoid-citoiddialog-search-placeholder": "omd. http://www.example.com",
 	"citoid-citoiddialog-title": "Lasit gáldočujuhusa",
 	"citoid-citoiddialog-title-replace": "Buhtte gáldočujuhusa",
+	"citoid-citoiddialog-reliability-back": "Geahččal ođđa gáldu",
+	"citoid-citoiddialog-reliability-unreliable-title": "Dát neahttasiidu lea hehttejuvvon",
 	"citoid-citoidtool-title": "Sitere",
 	"citoid-citoidtool-title-othergroup": "Gáldočujuhus",
+	"citoid-isbnscannerdialog-title": "Skánne ISBN-sáhcokoda",
 	"citoid-wb-referenceview-tabs-automatic": "Automáhtalaš",
 	"citoid-wb-referenceview-tabs-search": "oza",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN dahje QID:"
