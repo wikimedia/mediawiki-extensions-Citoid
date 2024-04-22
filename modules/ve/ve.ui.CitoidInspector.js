@@ -356,6 +356,12 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 
 	if ( this.isActive ) {
 		ve.track( 'activity.' + this.constructor.static.name, { action: 'panel-switch' } );
+
+		// https://phabricator.wikimedia.org/T362347
+		ve.track(
+			'activity.' + this.constructor.static.name,
+			{ action: 'panel-switch-' + tabPanelName }
+		);
 	}
 };
 
