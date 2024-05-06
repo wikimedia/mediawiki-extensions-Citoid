@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chqaz",
 			"Delim",
 			"Kkairri",
 			"LaMagiaaa",
@@ -19,7 +20,7 @@
 	"citoid-citation-widget-insert-button": "挿入",
 	"citoid-citoiddialog-back": "戻る",
 	"citoid-citoiddialog-credit": "$1の提供",
-	"citoid-citoiddialog-lookup-button": "生成",
+	"citoid-citoiddialog-lookup-button": "作成",
 	"citoid-citoiddialog-mode-auto": "自動",
 	"citoid-citoiddialog-mode-manual": "マニュアル",
 	"citoid-citoiddialog-mode-reuse": "再利用",
