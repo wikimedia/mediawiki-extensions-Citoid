@@ -748,6 +748,9 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 						.then( function () {
 							inspector.setModePanel( 'auto', 'result', false, { hasError: hasError } );
 						}, function () {
+							// Phabricator T363292
+							ve.track( 'activity.CitoidInspector', { action: 'automatic-generate-fail-searchResults' } );
+
 							inspector.lookupFailed();
 							return $.Deferred().resolve();
 						} );
@@ -758,6 +761,9 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 				if ( response && response.textStatus === 'abort' ) {
 					return $.Deferred().reject();
 				}
+				// Phabricator T363292
+				ve.track( 'activity.CitoidInspector', { action: 'automatic-generate-fail-network' } );
+
 				inspector.lookupFailed();
 				// Restore focus to the input field.
 				// Definitely don't do this on success and focusing a hidden input causes jQuery
@@ -794,6 +800,9 @@ ve.ui.CitoidInspector.prototype.lookupFailed = function () {
 		this.updateSize();
 	}.bind( this ) ).setValidityFlag( false );
 	this.updateSize();
+
+	// Phabricator T363292
+	ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-fail' } );
 };
 
 /**
