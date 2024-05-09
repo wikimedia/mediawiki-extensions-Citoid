@@ -20,7 +20,7 @@
 	"citoid-citoiddialog-mode-auto": "Tự động",
 	"citoid-citoiddialog-mode-manual": "Thủ công",
 	"citoid-citoiddialog-mode-reuse": "Tái sử dụng",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tiêu đề, hoặc chú thích",
+	"citoid-citoiddialog-search-label": "Nhập liên kết hoặc mã tham khảo (ISBN, DOI hoặc mã khác) để tạo một chú thích",
 	"citoid-citoiddialog-search-placeholder": "ví dụ http://www.example.com",
 	"citoid-citoiddialog-title": "Thêm một chú thích",
 	"citoid-citoiddialog-title-replace": "Thay thế chú thích",
