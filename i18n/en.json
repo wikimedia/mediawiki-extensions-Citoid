@@ -2,7 +2,7 @@
 	"@metadata": {
 		"authors": []
 	},
-	"citoid-action-replace": "Change reference type",
+	"citoid-action-replace": "Replace citation",
 	"citoid-citation-widget-insert-button": "Insert",
 	"citoid-citoiddialog-back": "Back",
 	"citoid-citoiddialog-credit": "Powered by $1",
