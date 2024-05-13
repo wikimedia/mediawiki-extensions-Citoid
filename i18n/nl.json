@@ -15,7 +15,7 @@
 			"Sjoerddebruin"
 		]
 	},
-	"citoid-action-replace": "Referentietype wijzigen",
+	"citoid-action-replace": "Referentie vervangen",
 	"citoid-citation-widget-insert-button": "Invoegen",
 	"citoid-citoiddialog-back": "Terug",
 	"citoid-citoiddialog-credit": "Aangedreven door $1",
@@ -28,6 +28,8 @@
 	"citoid-citoiddialog-title": "Referentie invoegen",
 	"citoid-citoiddialog-title-replace": "Vervang referentie",
 	"citoid-citoiddialog-use-general-error-message": "Het was niet mogelijk een referentie aan te maken. U kunt proberen het handmatig aan te maken via het tabblad \"{{int:citoid-citoiddialog-mode-manual}}\" hierboven.",
+	"citoid-citoiddialog-reliability-back": "Een nieuwe bron proberen",
+	"citoid-citoiddialog-reliability-unreliable-description": "Deze bron wordt door onze gemeenschap als onbetrouwbaar beschouwd en is daarom niet toegestaan. Kies een andere betrouwbare bron.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Deze site is geblokkeerd",
 	"citoid-citoidtool-title": "Refereer",
 	"citoid-citoidtool-title-othergroup": "Referentie",
