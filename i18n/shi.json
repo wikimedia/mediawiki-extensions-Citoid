@@ -2,8 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Amara-Amaziɣ",
-			"Ayour2002"
+			"Ayour2002",
+			"AguzulH"
 		]
 	},
-	"citoid-citoiddialog-mode-manual": "Awfus"
+	"citoid-citation-widget-insert-button": "Sskcm",
+	"citoid-citoiddialog-back": "Urri",
+	"citoid-citoiddialog-mode-manual": "Awfus",
+	"citoid-citoiddialog-mode-reuse": "Ssmrs daɣ",
+	"citoid-citoiddialog-search-placeholder": "amdya: http://www.example.com/",
+	"citoid-citoidtool-title-othergroup": "Abdar",
+	"citoid-wb-referenceview-tabs-search": "siggl"
 }
