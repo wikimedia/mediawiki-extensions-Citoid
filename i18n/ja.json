@@ -16,7 +16,7 @@
 			"Takot"
 		]
 	},
-	"citoid-action-replace": "参考資料タイプを変更",
+	"citoid-action-replace": "引用の置き換え",
 	"citoid-citation-widget-insert-button": "挿入",
 	"citoid-citoiddialog-back": "戻る",
 	"citoid-citoiddialog-credit": "$1の提供",
@@ -24,7 +24,7 @@
 	"citoid-citoiddialog-mode-auto": "自動",
 	"citoid-citoiddialog-mode-manual": "マニュアル",
 	"citoid-citoiddialog-mode-reuse": "再利用",
-	"citoid-citoiddialog-search-label": "URL、DOI、ISBN、PMC/PMID、QID、タイトル、または引用を使用。",
+	"citoid-citoiddialog-search-label": "入力を作成するには、リンクまたは引用コード（ISBN、DOIその他）を入力",
 	"citoid-citoiddialog-search-placeholder": "例 http://www.example.com",
 	"citoid-citoiddialog-title": "引用を追加",
 	"citoid-citoiddialog-title-replace": "引用の置き換え",
