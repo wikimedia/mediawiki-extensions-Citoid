@@ -5,6 +5,7 @@
 			"Blackteahamburger",
 			"Gerongfenh",
 			"GuoPC",
+			"LittlePaw365",
 			"Liuxinyu970226",
 			"Nbdd0121",
 			"Shizhao",
@@ -15,7 +16,7 @@
 			"铁桶"
 		]
 	},
-	"citoid-action-replace": "更改参考类型",
+	"citoid-action-replace": "替换引用",
 	"citoid-citation-widget-insert-button": "插入",
 	"citoid-citoiddialog-back": "返回",
 	"citoid-citoiddialog-credit": "由$1提供支持",
@@ -25,7 +26,7 @@
 	"citoid-citoiddialog-mode-reuse": "复用",
 	"citoid-citoiddialog-search-label": "输入链接或参考代码（ISBN、DOI或其他）来创建引用",
 	"citoid-citoiddialog-search-placeholder": "例如：http://www.example.com",
-	"citoid-citoiddialog-title": "添加引用",
+	"citoid-citoiddialog-title": "添加引证",
 	"citoid-citoiddialog-title-replace": "替换引用",
 	"citoid-citoiddialog-use-general-error-message": "我们无法为您生成一则引用。您可进入上方的“{{int:citoid-citoiddialog-mode-manual}}”选项卡手动生成。",
 	"citoid-citoiddialog-reliability-back": "尝试新来源",

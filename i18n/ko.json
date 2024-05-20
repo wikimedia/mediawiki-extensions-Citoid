@@ -5,6 +5,7 @@
 			"Kwj2772",
 			"Lefion",
 			"Libattery",
+			"Markingdots",
 			"Namoroka",
 			"Revi",
 			"SeoJeongHo",
@@ -12,7 +13,7 @@
 			"아라"
 		]
 	},
-	"citoid-action-replace": "참고 자료 종류 바꾸기",
+	"citoid-action-replace": "인용 바꾸기",
 	"citoid-citation-widget-insert-button": "넣기",
 	"citoid-citoiddialog-back": "뒤로",
 	"citoid-citoiddialog-credit": "$1에 의해 제공",
