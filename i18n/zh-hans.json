@@ -11,7 +11,9 @@
 			"VulpesVulpes825",
 			"Yfdyh000",
 			"佛壁灯",
-			"铁桶"
+			"铁桶",
+			"LittlePaw365",
+			"沈澄心"
 		]
 	},
 	"citoid-action-replace": "更改参考类型",
@@ -26,7 +28,7 @@
 	"citoid-citoiddialog-search-label": "URL、DOI、ISBN、PMC/PMID、QID、标题或纯文本引用",
 	"citoid-citoiddialog-search-placeholder": "例如：http://www.example.com",
 	"citoid-citoiddialog-search-progress": "搜索中，请稍候…",
-	"citoid-citoiddialog-title": "添加引用",
+	"citoid-citoiddialog-title": "添加引证",
 	"citoid-citoiddialog-title-replace": "替换引用",
 	"citoid-citoiddialog-use-general-error-message": "我们无法为您生成一则引用。您可进入上方的“{{int:citoid-citoiddialog-mode-manual}}”选项卡手动生成。",
 	"citoid-citoidtool-title": "引用",
