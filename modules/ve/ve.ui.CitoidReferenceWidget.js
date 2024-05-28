@@ -2,14 +2,14 @@
  * Citoid extension citation option widget
  *
  * @class
- * @extends OO.ui.DecoratedOptionWidget
+ * @extends OO.ui.Widget
  *
  * @constructor
  * @param {ve.dm.Document} documentModel Document model
  * @param {ve.dm.MWTransclusionModel} transclusionModel Transclusion model used for this template
- * @param {Object} config Configuration object
- * @cfg {string} [templateName] Template name
- * @cfg {Object[]} citeTools An array of available citation tool configuration
+ * @param {Object} [config]
+ * @param {string} [config.templateName="Cite web"]
+ * @param {Object[]} [config.citeTools] An array of available citation tool configuration
  */
 ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel, transclusionModel, config ) {
 	config = config || {};
