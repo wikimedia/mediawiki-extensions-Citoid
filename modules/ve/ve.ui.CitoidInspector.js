@@ -207,14 +207,17 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	const isbnButtonFieldLayout = new OO.ui.FieldLayout( this.isbnButton );
 
 	// Citoid API error message
-	this.$noticeLabel = $( '<div>' ).addClass( 've-ui-citoidInspector-dialog-error oo-ui-element-hidden' ).text(
-		ve.msg( 'citoid-citoiddialog-use-general-error-message' )
-	);
+	this.errorMessage = new OO.ui.MessageWidget( {
+		classes: [ 've-ui-citoidInspector-error' ],
+		type: 'error',
+		inline: true,
+		label: ve.msg( 'citoid-citoiddialog-use-general-error-message' )
+	} ).toggle( false );
 
 	this.autoProcessPanels.lookup.$element.append(
 		lookupActionFieldLayout.$element,
 		isbnEnabled ? isbnButtonFieldLayout.$element : undefined,
-		this.$noticeLabel
+		this.errorMessage.$element
 	);
 
 	this.modePanels.auto.$element.append( this.autoProcessStack.$element );
@@ -798,12 +801,15 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
  */
 ve.ui.CitoidInspector.prototype.lookupFailed = function () {
 	// Enable the input and lookup button
-	this.$noticeLabel.removeClass( 'oo-ui-element-hidden' );
+	this.errorMessage.toggle( true );
 	this.lookupInput.once( 'change', () => {
-		this.$noticeLabel.addClass( 'oo-ui-element-hidden' );
+		this.errorMessage.toggle( false );
 		this.updateSize();
 	} ).setValidityFlag( false );
 	this.updateSize();
+	setTimeout( () => {
+		OO.ui.Element.static.reconsiderScrollbars( this.$body[ 0 ] );
+	} );
 
 	// Phabricator T363292
 	ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-fail' } );
