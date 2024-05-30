@@ -149,12 +149,15 @@
 			return getActionProcess.call( this, action );
 		};
 		// Clone the array, so that we don't add this action to some unrelated parent class
-		dialogClass.static.actions = dialogClass.static.actions.concat( {
-			action: 'replace',
-			label: OO.ui.deferMsg( 'citoid-action-replace' ),
-			icon: 'quotes',
-			modes: [ 'edit' ]
-		} );
+		dialogClass.static.actions = [
+			...dialogClass.static.actions,
+			{
+				action: 'replace',
+				label: OO.ui.deferMsg( 'citoid-action-replace' ),
+				icon: 'quotes',
+				modes: [ 'edit' ]
+			}
+		];
 	}
 	extendDialog( ve.ui.MWReferenceDialog );
 	extendDialog( ve.ui.MWCitationDialog );
