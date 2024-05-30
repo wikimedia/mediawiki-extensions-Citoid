@@ -214,6 +214,16 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		label: ve.msg( 'citoid-citoiddialog-use-general-error-message' )
 	} ).toggle( false );
 
+	const manualButton = new OO.ui.ButtonWidget( {
+		label: ve.msg( 'citoid-citoiddialog-manual-button' ),
+		flags: [ 'progressive' ]
+	} );
+	manualButton.on( 'click', () => {
+		this.modeIndex.setTabPanel( 'manual' );
+	} );
+
+	this.errorMessage.$label.append( $( '<p>' ).append( manualButton.$element ) );
+
 	this.autoProcessPanels.lookup.$element.append(
 		lookupActionFieldLayout.$element,
 		isbnEnabled ? isbnButtonFieldLayout.$element : undefined,
