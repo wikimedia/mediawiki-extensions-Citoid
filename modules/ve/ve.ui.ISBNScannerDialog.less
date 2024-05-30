@@ -2,23 +2,25 @@
  * VisualEditor UserInterface ISBNScannerDialog styles.
  */
 
-.ve-ui-ISBNScannerDialog-viewport {
-	position: relative;
-}
+.ve-ui-ISBNScannerDialog {
+	&-viewport {
+		position: relative;
 
-.ve-ui-ISBNScannerDialog-viewport video {
-	width: 100%;
-}
+		video {
+			width: 100%;
+		}
 
-.ve-ui-ISBNScannerDialog-viewport canvas {
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
+		canvas {
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
 
-.ve-ui-ISBNScannerDialog-tools {
-	position: absolute;
-	top: 1em;
-	right: 1em;
+	&-tools {
+		position: absolute;
+		top: 1em;
+		right: 1em;
+	}
 }
