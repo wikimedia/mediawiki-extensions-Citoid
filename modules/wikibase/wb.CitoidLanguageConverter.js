@@ -9,7 +9,6 @@
 	}
 
 	CitoidLanguageConverter.prototype.init = function () {
-		var self = this;
 		this.service = new mw.Api();
 
 		// Cache multilingual codes
@@ -21,9 +20,9 @@
 				formatversion: '2',
 				wbclcontext: 'monolingualtext'
 			} )
-			.then( function ( results ) {
+			.then( ( results ) => {
 				if ( results && results.query && results.query.wbcontentlanguages ) {
-					self.monolingualCodes = results.query.wbcontentlanguages;
+					this.monolingualCodes = results.query.wbcontentlanguages;
 				}
 			} );
 
@@ -36,9 +35,9 @@
 				formatversion: '2',
 				wbclcontext: 'term'
 			} )
-			.then( function ( results ) {
+			.then( ( results ) => {
 				if ( results && results.query && results.query.wbcontentlanguages ) {
-					self.contentCodes = results.query.wbcontentlanguages;
+					this.contentCodes = results.query.wbcontentlanguages;
 				}
 			} );
 	};

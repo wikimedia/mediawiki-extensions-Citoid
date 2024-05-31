@@ -19,14 +19,10 @@ ve.ui.CitoidReferenceContextItem.static.getConvertibleHref = function ( itemNode
 
 	// Get all annotations
 	var annotations = doc.data.getAnnotationsFromRange( range, true );
-	var externalLinks = annotations.get().filter( function ( ann ) {
-		return ann instanceof ve.dm.MWExternalLinkAnnotation;
-	} ).map( function ( ann ) {
-		return ann.getHref();
-	} );
+	var externalLinks = annotations.get().filter( ( ann ) => ann instanceof ve.dm.MWExternalLinkAnnotation ).map( ( ann ) => ann.getHref() );
 
 	// Find numbered external link nodes
-	itemNode.traverse( function ( node ) {
+	itemNode.traverse( ( node ) => {
 		if ( node instanceof ve.dm.MWNumberedExternalLinkNode ) {
 			externalLinks.push( node.getHref() );
 		}
@@ -44,8 +40,7 @@ ve.ui.CitoidReferenceContextItem.static.getConvertibleHref = function ( itemNode
  * @inheritdoc
  */
 ve.ui.CitoidReferenceContextItem.prototype.renderBody = function () {
-	var contextItem = this,
-		refNode = this.getReferenceNode();
+	var refNode = this.getReferenceNode();
 
 	// Parent method
 	ve.ui.CitoidReferenceContextItem.super.prototype.renderBody.call( this );
@@ -59,8 +54,8 @@ ve.ui.CitoidReferenceContextItem.prototype.renderBody = function () {
 	if ( convertibleHref ) {
 		var convertButton = new OO.ui.ButtonWidget( {
 			label: ve.msg( 'citoid-referencecontextitem-convert-button' )
-		} ).on( 'click', function () {
-			var action = ve.ui.actionFactory.create( 'citoid', contextItem.context.getSurface() );
+		} ).on( 'click', () => {
+			var action = ve.ui.actionFactory.create( 'citoid', this.context.getSurface() );
 			action.open( true, convertibleHref );
 		} );
 

@@ -39,14 +39,13 @@ OO.inheritClass( ve.ui.ISBNScannerButtonWidget, OO.ui.ButtonWidget );
  * Open the ISBN scanner dialog
  */
 ve.ui.ISBNScannerButtonWidget.prototype.openScanner = function () {
-	var widget = this;
 	this.dialogs.openWindow( 'isbnScanner', {
 		availableLanguages: this.availableLanguages,
 		$returnFocusTo: null
-	} ).closing.then( function ( data ) {
+	} ).closing.then( ( data ) => {
 		data = data || {};
 		if ( data.action === 'apply' ) {
-			widget.emit( 'detected', data.code );
+			this.emit( 'detected', data.code );
 		}
 	} );
 };

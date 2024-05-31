@@ -12,7 +12,6 @@
 
 	CitoidTabRenderer.prototype.renderTab = function ( referenceView ) {
 		var $searchButton, $searchLabel, $searchField, $automatic, automaticSectionLink, $automaticLink, $autoLi,
-			self = this,
 			$refView = $( referenceView ),
 			buttonLabel = mw.msg( 'citoid-wb-referenceview-tabs-search' ),
 			automaticLabel = mw.msg( 'citoid-wb-referenceview-tabs-automatic' ),
@@ -32,9 +31,9 @@
 		$searchField = $( '<input>' ).addClass( 'citoid-search' );
 		$searchButton = $( '<span>' )
 			.toolbarbutton( options )
-			.on( 'click', function ( e ) {
+			.on( 'click', ( e ) => {
 				e.preventDefault();
-				self.onSearchClick( e.target );
+				this.onSearchClick( e.target );
 			} );
 		$searchButton.find( '.wb-icon' ).addClass( 'oo-ui-icon-search' ); // Add search icon to search button span
 		$automatic = $( '<div>' ).addClass( 'wikibase-referencepanel-citoid ' ).uniqueId()
@@ -43,15 +42,15 @@
 			.append( $searchButton );
 
 		// Search on enter
-		$searchField.on( 'keypress', function ( e ) {
+		$searchField.on( 'keypress', ( e ) => {
 			if ( e.key === 'Enter' ) {
 				e.preventDefault();
-				self.onSearchClick( e.target );
+				this.onSearchClick( e.target );
 			}
 		} );
 
 		// Disable button if field is empty
-		$searchField.on( 'input', function ( e ) {
+		$searchField.on( 'input', ( e ) => {
 			e.preventDefault();
 			if ( $searchField.val() ) {
 				$searchButton.toolbarbutton( 'enable' );
@@ -68,7 +67,7 @@
 		$autoLi = $( '<li>' ).append( $automaticLink );
 
 		// Sets automatic mode when user selects it after selecting another tab
-		$automaticLink.on( 'click', function () {
+		$automaticLink.on( 'click', () => {
 			new mw.Api().saveOption( 'wb-reftabs-mode', 'automatic' ); // for future page views
 			mw.user.options.set( 'wb-reftabs-mode', 'automatic' ); // for this page view
 		} );
@@ -82,19 +81,18 @@
 
 	CitoidTabRenderer.prototype.onSearchClick = function ( target ) {
 		var $referenceView = $( target ).closest( '.wikibase-referenceview-new' ),
-			self = this,
 			value = $referenceView.find( 'input.citoid-search' ).val();
 
-		this.windowManager.openWindow( self.pendingDialog );
+		this.windowManager.openWindow( this.pendingDialog );
 		this.pendingDialog.pushPending();
 		this.pendingDialog.executeAction( 'waiting' );
 
 		this.citoidClient.search( value )
 			.then(
 				// success
-				function ( data ) {
+				( data ) => {
 					if ( data[ 0 ] ) {
-						self.citeToolReferenceEditor.addReferenceSnaksFromCitoidData(
+						this.citeToolReferenceEditor.addReferenceSnaksFromCitoidData(
 							data[ 0 ],
 							$referenceView[ 0 ]
 						);
@@ -102,12 +100,12 @@
 					$referenceView.tabs( { active: 0 } );
 				},
 				// failure
-				function () {
-					self.pendingDialog.popPending();
-					self.pendingDialog.executeAction( 'error' );
+				() => {
+					this.pendingDialog.popPending();
+					this.pendingDialog.executeAction( 'error' );
 				}
 
-			).always( function () {
+			).always( () => {
 				// Set the manual tab to active, success or not
 				$referenceView.tabs( { active: 0 } );
 			} );

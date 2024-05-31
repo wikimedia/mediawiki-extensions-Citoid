@@ -128,9 +128,7 @@ ve.ui.ISBNScannerDialog.prototype.onProcessed = function ( result ) {
 				0, 0,
 				+drawingCanvas.getAttribute( 'width' ), +drawingCanvas.getAttribute( 'height' )
 			);
-			result.boxes.filter( function ( box ) {
-				return box !== result.box;
-			} ).forEach( function ( box ) {
+			result.boxes.filter( ( box ) => box !== result.box ).forEach( ( box ) => {
 				Quagga.ImageDebug.drawPath( box, { x: 0, y: 1 }, drawingCtx, { color: '#ccc', lineWidth: 2 } );
 			} );
 		}
@@ -151,28 +149,26 @@ ve.ui.ISBNScannerDialog.prototype.onProcessed = function ( result ) {
 ve.ui.ISBNScannerDialog.prototype.getSetupProcess = function ( data ) {
 	// Parent method
 	return ve.ui.ISBNScannerDialog.super.prototype.getSetupProcess.call( this, data )
-		.next( function () {
-			var dialog = this;
-
+		.next( () => {
 			ve.track( 'activity.' + this.constructor.static.name, { action: 'dialog-open' } );
 
 			this.torchToggle.setDisabled( true );
 			this.switchCameraButton.setDisabled( true );
 
-			this.setupPromise = mw.loader.using( 'quagga2' ).then( function () {
-				Quagga.CameraAccess.enumerateVideoDevices().then( function ( devices ) {
-					dialog.devices = devices;
+			this.setupPromise = mw.loader.using( 'quagga2' ).then( () => {
+				Quagga.CameraAccess.enumerateVideoDevices().then( ( devices ) => {
+					this.devices = devices;
 
-					dialog.initCamera();
+					this.initCamera();
 
-					Quagga.onDetected( dialog.onDetectedListener );
-					Quagga.onProcessed( dialog.onProcessedListener );
+					Quagga.onDetected( this.onDetectedListener );
+					Quagga.onProcessed( this.onProcessedListener );
 
-					dialog.switchCameraButton.setDisabled( dialog.devices.length < 2 );
+					this.switchCameraButton.setDisabled( this.devices.length < 2 );
 
 				} );
 			} );
-		}, this );
+		} );
 };
 
 /**
@@ -180,9 +176,7 @@ ve.ui.ISBNScannerDialog.prototype.getSetupProcess = function ( data ) {
  */
 ve.ui.ISBNScannerDialog.prototype.getReadyProcess = function ( data ) {
 	return ve.ui.ISBNScannerDialog.super.prototype.getReadyProcess.call( this, data )
-		.next( function () {
-			return this.setupPromise;
-		}, this );
+		.next( () => this.setupPromise );
 };
 
 /**
@@ -199,11 +193,10 @@ ve.ui.ISBNScannerDialog.prototype.stopCamera = function () {
  * Initialise the camera
  */
 ve.ui.ISBNScannerDialog.prototype.initCamera = function () {
-	var dialog = this,
-		constraints = {
-			width: 1280,
-			height: 720
-		};
+	var constraints = {
+		width: 1280,
+		height: 720
+	};
 
 	if ( this.deviceIndex !== null ) {
 		constraints.deviceId = this.devices[ this.deviceIndex ].deviceId;
@@ -233,27 +226,27 @@ ve.ui.ISBNScannerDialog.prototype.initCamera = function () {
 		decoder: {
 			readers: [ { format: 'ean_reader', config: {} } ]
 		}
-	}, function ( err ) {
-		dialog.started = true;
+	}, ( err ) => {
+		this.started = true;
 		if ( err ) {
-			OO.ui.alert( err ).then( function () {
-				dialog.close();
+			OO.ui.alert( err ).then( () => {
+				this.close();
 			} );
 			return;
 		}
 		Quagga.start();
-		setTimeout( function () {
+		setTimeout( () => {
 			var track = Quagga.CameraAccess.getActiveTrack();
 			var capabilities = {};
 			if ( typeof track.getCapabilities === 'function' ) {
 				capabilities = track.getCapabilities();
 			}
-			dialog.torchToggle.setDisabled( !capabilities.torch );
-			if ( dialog.canCycleDevices && dialog.deviceIndex === null ) {
+			this.torchToggle.setDisabled( !capabilities.torch );
+			if ( this.canCycleDevices && this.deviceIndex === null ) {
 				// Detect the first selected camera index
-				dialog.devices.some( function ( device, index ) {
+				this.devices.some( ( device, index ) => {
 					if ( device.label === track.label ) {
-						dialog.deviceIndex = index;
+						this.deviceIndex = index;
 						return true;
 					}
 					return false;
@@ -268,11 +261,11 @@ ve.ui.ISBNScannerDialog.prototype.initCamera = function () {
  */
 ve.ui.ISBNScannerDialog.prototype.getTeardownProcess = function ( data ) {
 	return ve.ui.ISBNScannerDialog.super.prototype.getTeardownProcess.call( this, data )
-		.next( function () {
+		.next( () => {
 			this.stopCamera();
 			Quagga.offDetected( this.onDetectedListener );
 			Quagga.offDetected( this.onProcessedListener );
-		}, this );
+		} );
 };
 
 /**

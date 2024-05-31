@@ -196,14 +196,14 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		navigator.mediaDevices && navigator.mediaDevices.getUserMedia;
 
 	this.isbnButton = new ve.ui.ISBNScannerButtonWidget( { disabled: !isbnSupported } );
-	this.isbnButton.on( 'detected', function ( isbn ) {
+	this.isbnButton.on( 'detected', ( isbn ) => {
 		this.fromScan = true;
 		this.lookupInput.setValue( isbn );
-		this.lookupInput.once( 'change', function () {
+		this.lookupInput.once( 'change', () => {
 			this.fromScan = false;
-		}.bind( this ) );
+		} );
 		this.executeAction( 'lookup' );
-	}.bind( this ) );
+	} );
 	var isbnButtonFieldLayout = new OO.ui.FieldLayout( this.isbnButton );
 
 	// Citoid API error message
@@ -289,8 +289,6 @@ ve.ui.CitoidInspector.prototype.onModeIndexSet = function ( tabPanel ) {
  * @param {Object} [config] Mode-specific config
  */
 ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processPanelName, fromSelect, config ) {
-	var inspector = this;
-
 	if ( [ 'auto', 'manual', 'reuse' ].indexOf( tabPanelName ) === -1 ) {
 		tabPanelName = this.defaultPanel;
 	} else if ( this.modeIndex.getTabPanel( tabPanelName ).tabItem.isDisabled() ) {
@@ -346,8 +344,8 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 	);
 	this.updateSize();
 	// Hiding the menu is a 200ms transition, so resize again
-	setTimeout( function () {
-		inspector.updateSize();
+	setTimeout( () => {
+		this.updateSize();
 	}, 200 );
 
 	if ( focusTarget ) {
@@ -377,7 +375,7 @@ ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
 	ve.track( 'activity.' + this.constructor.static.name, { action: 'manual-choose' } );
 
 	// Close this dialog then open the new dialog
-	this.close( { action: 'manual-choose' } ).closed.then( function () {
+	this.close( { action: 'manual-choose' } ).closed.then( () => {
 		var command = ve.ui.commandRegistry.lookup( commandName );
 		command.execute( surface );
 	} );
@@ -501,7 +499,7 @@ ve.ui.CitoidInspector.prototype.onLookupButtonClick = function () {
  */
 ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 	return ve.ui.CitoidInspector.super.prototype.getSetupProcess.call( this, data )
-		.next( function () {
+		.next( () => {
 			this.isActive = false;
 
 			// Reset
@@ -557,7 +555,7 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 			}
 
 			this.modeIndex.setTabPanel( data.lookup ? this.defaultPanel : ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel ) );
-		}, this );
+		} );
 };
 
 /**
@@ -565,13 +563,13 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
  */
 ve.ui.CitoidInspector.prototype.getReadyProcess = function ( data ) {
 	return ve.ui.CitoidInspector.super.prototype.getReadyProcess.call( this, data )
-		.next( function () {
+		.next( () => {
 			// Set the panel after ready as it focuses the input too
 			var mode = data.lookup ? this.defaultPanel : ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel );
 			this.setModePanel( mode, mode === 'auto' ? 'lookup' : undefined );
 
 			this.isActive = true;
-		}, this );
+		} );
 };
 
 /**
@@ -579,7 +577,7 @@ ve.ui.CitoidInspector.prototype.getReadyProcess = function ( data ) {
  */
 ve.ui.CitoidInspector.prototype.getTeardownProcess = function ( data ) {
 	return ve.ui.CitoidInspector.super.prototype.getTeardownProcess.call( this, data )
-		.first( function () {
+		.first( () => {
 			// Always pop the first piece of staging (creating a dummy reference)
 			if ( this.staging ) {
 				this.fragment.getSurface().popStaging();
@@ -615,7 +613,7 @@ ve.ui.CitoidInspector.prototype.getTeardownProcess = function ( data ) {
 			this.clearResults();
 			this.referenceModel = null;
 			this.currentAutoProcessPanel = null;
-		}, this );
+		} );
 };
 
 /**
@@ -632,7 +630,7 @@ ve.ui.CitoidInspector.prototype.clearResults = function () {
  */
 ve.ui.CitoidInspector.prototype.getActionProcess = function ( action ) {
 	if ( action === 'lookup' ) {
-		return new OO.ui.Process( function () {
+		return new OO.ui.Process( () => {
 			// Clear the results
 			this.clearResults();
 			// Common case: entering a number here and assuming it'll work to reuse an existing citation:
@@ -645,21 +643,21 @@ ve.ui.CitoidInspector.prototype.getActionProcess = function ( action ) {
 			}
 			// Look up
 			return this.performLookup();
-		}, this );
+		} );
 	}
 	if ( action === 'back' ) {
-		return new OO.ui.Process( function () {
+		return new OO.ui.Process( () => {
 			// Clear the results
 			this.setModePanel( 'auto', 'lookup' );
 			// Clear credit line
 			this.credit.setLabel( null );
-		}, this );
+		} );
 	}
 	if ( action === 'insert' ) {
-		return new OO.ui.Process( function () {
+		return new OO.ui.Process( () => {
 			// The 'insert' option when only one result is shown
 			this.onPreviewSelectWidgetChoose( this.previewSelectWidget.items[ 0 ] );
-		}, this );
+		} );
 	}
 	// Fallback to parent handler
 	return ve.ui.CitoidInspector.super.prototype.getActionProcess.call( this, action );
@@ -671,8 +669,6 @@ ve.ui.CitoidInspector.prototype.getActionProcess = function ( action ) {
  * @return {jQuery.Promise} Lookup promise
  */
 ve.ui.CitoidInspector.prototype.performLookup = function () {
-	var inspector = this;
-
 	// TODO: Add caching for requested urls
 	if ( this.lookupPromise ) {
 		// Abort existing lookup
@@ -712,7 +708,7 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 	this.lookupPromise = citoidXhr
 		.then(
 			// Success
-			function ( searchResults ) {
+			( searchResults ) => {
 				var url = OO.getProp( searchResults, 0, 'url' );
 				// TODO: Handle multiple results (not currently returned by our providers)
 				if ( url ) {
@@ -724,68 +720,68 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 				} else {
 					reliabilityXhr = $.Deferred().resolve().promise();
 				}
-				return reliabilityXhr.then( function ( reliablityResults ) {
+				return reliabilityXhr.then( ( reliablityResults ) => {
 					var hasError = false;
 
 					if ( reliablityResults && reliablityResults.editcheckreferenceurl[ url ] === 'blocked' ) {
 						var backButton = new OO.ui.ButtonWidget( {
 							flags: [ 'primary', 'progressive' ],
 							label: ve.msg( 'citoid-citoiddialog-reliability-back' )
-						} ).on( 'click', function () {
-							inspector.executeAction( 'back' );
+						} ).on( 'click', () => {
+							this.executeAction( 'back' );
 							ve.track( 'activity.editCheckReliability', { action: 'edit-check-confirm' } );
 						} );
 
-						inspector.resultError.setLabel( $( '<div>' ).append(
+						this.resultError.setLabel( $( '<div>' ).append(
 							$( '<strong>' ).text( ve.msg( 'citoid-citoiddialog-reliability-unreliable-title' ) ),
 							$( '<p>' )
 								.text( ve.msg( 'citoid-citoiddialog-reliability-unreliable-description' ) ),
 							backButton.$element
 						) );
-						inspector.resultError.toggle( true );
+						this.resultError.toggle( true );
 						hasError = true;
 
 						ve.track( 'activity.editCheckReliability', { action: 'citation-blocked' } );
 					} else {
-						inspector.resultError.toggle( false );
+						this.resultError.toggle( false );
 					}
 					// Build results
-					return inspector.buildTemplateResults( searchResults )
-						.then( function () {
-							inspector.setModePanel( 'auto', 'result', false, { hasError: hasError } );
-						}, function () {
+					return this.buildTemplateResults( searchResults )
+						.then( () => {
+							this.setModePanel( 'auto', 'result', false, { hasError: hasError } );
+						}, () => {
 							// Phabricator T363292
 							ve.track( 'activity.CitoidInspector', { action: 'automatic-generate-fail-searchResults' } );
 
-							inspector.lookupFailed();
+							this.lookupFailed();
 							return $.Deferred().resolve();
 						} );
 				} );
 			},
 			// Fail
-			function ( type, response ) {
+			( type, response ) => {
 				if ( response && response.textStatus === 'abort' ) {
 					return $.Deferred().reject();
 				}
 				// Phabricator T363292
 				ve.track( 'activity.CitoidInspector', { action: 'automatic-generate-fail-network' } );
 
-				inspector.lookupFailed();
+				this.lookupFailed();
 				// Restore focus to the input field.
 				// Definitely don't do this on success and focusing a hidden input causes jQuery
 				// to prevent it from being focused the next time the inspector is opened (T285626)
-				inspector.lookupInput
+				this.lookupInput
 					.setDisabled( false ).focus();
 				return $.Deferred().resolve();
 			} )
-		.always( function () {
-			inspector.lookupInput
+		.always( () => {
+			this.lookupInput
 				.setDisabled( false )
 				.popPending();
-			inspector.lookupButton.setDisabled( false );
+			this.lookupButton.setDisabled( false );
 		} )
 		.promise( {
-			abort: function () {
+			abort: () => {
 				citoidXhr.abort();
 				if ( reliabilityXhr && reliabilityXhr.abort ) {
 					reliabilityXhr.abort();
@@ -801,10 +797,10 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 ve.ui.CitoidInspector.prototype.lookupFailed = function () {
 	// Enable the input and lookup button
 	this.$noticeLabel.removeClass( 'oo-ui-element-hidden' );
-	this.lookupInput.once( 'change', function () {
+	this.lookupInput.once( 'change', () => {
 		this.$noticeLabel.addClass( 'oo-ui-element-hidden' );
 		this.updateSize();
-	}.bind( this ) ).setValidityFlag( false );
+	} ).setValidityFlag( false );
 	this.updateSize();
 
 	// Phabricator T363292
@@ -820,11 +816,10 @@ ve.ui.CitoidInspector.prototype.lookupFailed = function () {
  */
 ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults ) {
 	var renderPromises = [],
-		partPromises = [],
-		inspector = this;
+		partPromises = [];
 
-	searchResults.forEach( function ( citation ) {
-		var templateName = inspector.templateTypeMap[ citation.itemType ];
+	searchResults.forEach( ( citation ) => {
+		var templateName = this.templateTypeMap[ citation.itemType ];
 
 		// if TemplateName is undefined, this means that items of this citoid
 		// type does not have a Template defined within the message.
@@ -840,28 +835,28 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 			source: citation.source, // May be undefined or Array
 			transclusionModel: transclusionModel
 		};
-		inspector.results.push( result );
+		this.results.push( result );
 
 		partPromises.push(
 			result.transclusionModel.addPart( result.template )
 				// Fill in the details for the individual template
-				.then( ve.ui.CitoidInspector.static.populateTemplate.bind( inspector, result.template, citation ) )
+				.then( ve.ui.CitoidInspector.static.populateTemplate.bind( this, result.template, citation ) )
 		);
 	} );
 
 	return ve.promiseAll( partPromises )
-		.then( function () {
+		.then( () => {
 			var sources = [],
 				optionWidgets = [];
 			// Create option widgets
-			inspector.results.forEach( function ( result, i ) {
+			this.results.forEach( ( result, i ) => {
 				var refWidget = new ve.ui.CitoidReferenceWidget(
-					inspector.getFragment().getSurface().getDocument(),
+					this.getFragment().getSurface().getDocument(),
 					result.transclusionModel,
 					{
 						data: i,
 						templateName: result.templateName,
-						citeTools: inspector.citeTools
+						citeTools: this.citeTools
 					} );
 				var template = result.template;
 				// T92428: Ignore empty templates
@@ -874,18 +869,18 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 			} );
 			if ( optionWidgets.length > 0 ) {
 				// Add citations to the select widget
-				inspector.previewSelectWidget.addItems( optionWidgets );
+				this.previewSelectWidget.addItems( optionWidgets );
 				// Add credit for the first result only to the widget, currently for Zotero & WorldCat only
 				if ( sources[ 0 ] ) {
 					if ( sources[ 0 ].indexOf( 'Zotero' ) !== -1 ) {
-						inspector.credit.setLabel( ve.msg( 'citoid-citoiddialog-credit', 'Zotero' ) );
+						this.credit.setLabel( ve.msg( 'citoid-citoiddialog-credit', 'Zotero' ) );
 					} else if ( sources[ 0 ].indexOf( 'WorldCat' ) !== -1 ) {
-						inspector.credit.setLabel( ve.msg( 'citoid-citoiddialog-credit', 'WorldCat' ) );
+						this.credit.setLabel( ve.msg( 'citoid-citoiddialog-credit', 'WorldCat' ) );
 					} else {
-						inspector.credit.setLabel( null );
+						this.credit.setLabel( null );
 					}
 					// Move credit to end
-					inspector.previewSelectWidget.$element.append( inspector.credit.$element );
+					this.previewSelectWidget.$element.append( this.credit.$element );
 				}
 				return ve.promiseAll( renderPromises );
 			}

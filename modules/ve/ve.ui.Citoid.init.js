@@ -44,9 +44,7 @@
 			'webpage'
 		];
 
-		var missingMappings = requiredMappings.filter( function ( key ) {
-			return !map[ key ];
-		} );
+		var missingMappings = requiredMappings.filter( ( key ) => !map[ key ] );
 		if ( missingMappings.length ) {
 			mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingMappings.join( ', ' ) );
 			map = undefined;
@@ -130,7 +128,7 @@
 		fixTarget( ve.init.mw.targetFactory.lookup( fixName ) );
 	}
 
-	ve.init.mw.targetFactory.on( 'register', function ( n, target ) {
+	ve.init.mw.targetFactory.on( 'register', ( n, target ) => {
 		fixTarget( target );
 	} );
 
@@ -139,12 +137,12 @@
 		var getActionProcess = dialogClass.prototype.getActionProcess;
 		dialogClass.prototype.getActionProcess = function ( action ) {
 			if ( action === 'replace' ) {
-				return new OO.ui.Process( function () {
-					this.close( { action: action } ).closed.then( function () {
+				return new OO.ui.Process( () => {
+					this.close( { action: action } ).closed.then( () => {
 						var surface = this.getManager().getSurface();
 						surface.execute( 'citoid', 'open', true );
-					}.bind( this ) );
-				}, this );
+					} );
+				} );
 			}
 			return getActionProcess.call( this, action );
 		};
