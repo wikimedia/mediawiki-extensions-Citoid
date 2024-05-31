@@ -51,7 +51,7 @@
 	 */
 	CitoidTool.prototype.getTabIDFromMode = function ( mode ) {
 		if ( mode ) {
-			var tabID = this.tabNames.indexOf( mode );
+			const tabID = this.tabNames.indexOf( mode );
 			return ( tabID > -1 ) ? tabID : null;
 		} else {
 			return null;
@@ -74,7 +74,7 @@
 	 * @return {string} mode name, i.e. 'manual' or 'automatic'
 	 */
 	CitoidTool.prototype.getModePreference = function () {
-		var mode = mw.user.options.get( 'wb-reftabs-mode' );
+		const mode = mw.user.options.get( 'wb-reftabs-mode' );
 		return mode;
 	};
 
@@ -88,8 +88,7 @@
 	};
 
 	CitoidTool.prototype.initAutomaticTab = function ( referenceView ) {
-		var mode, tabID,
-			$refView = $( referenceView ),
+		const $refView = $( referenceView ),
 			reference = this.getReferenceFromView( referenceView );
 
 		this.citoidTabRenderer.renderTab( referenceView );
@@ -105,14 +104,14 @@
 			$refView.tabs( 'enable', 1 );
 
 			// Check user preference for preferred active tab, otherwise use automatic
-			mode = this.getModePreference();
+			let mode = this.getModePreference();
 			if ( !mode ) {
 				mode = 'automatic';
 				this.setModePreference( mode );
 			}
 
 			// Set active tab according to user preference
-			tabID = this.getTabIDFromMode( mode );
+			const tabID = this.getTabIDFromMode( mode );
 			$refView.tabs( { active: tabID } );
 
 			if ( mode === 'automatic' ) {
@@ -123,13 +122,12 @@
 	};
 
 	CitoidTool.prototype.getReferenceFromView = function ( referenceView ) {
-		var refView;
 		// not a reference view change
 		if ( !referenceView ) {
 			return null;
 		}
 
-		refView = $( referenceView ).data( 'referenceview' );
+		const refView = $( referenceView ).data( 'referenceview' );
 
 		return refView.value();
 	};

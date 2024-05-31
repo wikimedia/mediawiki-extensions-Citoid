@@ -63,7 +63,7 @@ ve.ui.ISBNScannerDialog.prototype.initialize = function () {
 		icon: 'cameraFlash'
 	} );
 
-	var cameraTools = new OO.ui.ButtonGroupWidget( {
+	const cameraTools = new OO.ui.ButtonGroupWidget( {
 		classes: [ 've-ui-ISBNScannerDialog-tools' ],
 		items: [ this.switchCameraButton, this.torchToggle ]
 	} );
@@ -93,7 +93,7 @@ ve.ui.ISBNScannerDialog.prototype.onSwitchCameraButtonClick = function () {
  * @param {boolean} value Toggle state
  */
 ve.ui.ISBNScannerDialog.prototype.onTorchToggleChange = function ( value ) {
-	var track = Quagga.CameraAccess.getActiveTrack();
+	const track = Quagga.CameraAccess.getActiveTrack();
 	track.applyConstraints( { advanced: [ { torch: value } ] } );
 };
 
@@ -103,7 +103,7 @@ ve.ui.ISBNScannerDialog.prototype.onTorchToggleChange = function ( value ) {
  * @param {Object} result Detection result
  */
 ve.ui.ISBNScannerDialog.prototype.onDetected = function ( result ) {
-	var code = result.codeResult.code;
+	const code = result.codeResult.code;
 	if ( code.match( /^97[89]/ ) ) {
 		ve.track( 'activity.' + this.constructor.static.name, { action: 'dialog-detected' } );
 		this.close( {
@@ -120,8 +120,8 @@ ve.ui.ISBNScannerDialog.prototype.onDetected = function ( result ) {
  */
 ve.ui.ISBNScannerDialog.prototype.onProcessed = function ( result ) {
 	if ( result ) {
-		var drawingCtx = Quagga.canvas.ctx.overlay;
-		var drawingCanvas = Quagga.canvas.dom.overlay;
+		const drawingCtx = Quagga.canvas.ctx.overlay;
+		const drawingCanvas = Quagga.canvas.dom.overlay;
 
 		if ( result.boxes ) {
 			drawingCtx.clearRect(
@@ -193,7 +193,7 @@ ve.ui.ISBNScannerDialog.prototype.stopCamera = function () {
  * Initialise the camera
  */
 ve.ui.ISBNScannerDialog.prototype.initCamera = function () {
-	var constraints = {
+	const constraints = {
 		width: 1280,
 		height: 720
 	};
@@ -236,8 +236,8 @@ ve.ui.ISBNScannerDialog.prototype.initCamera = function () {
 		}
 		Quagga.start();
 		setTimeout( () => {
-			var track = Quagga.CameraAccess.getActiveTrack();
-			var capabilities = {};
+			const track = Quagga.CameraAccess.getActiveTrack();
+			let capabilities = {};
 			if ( typeof track.getCapabilities === 'function' ) {
 				capabilities = track.getCapabilities();
 			}

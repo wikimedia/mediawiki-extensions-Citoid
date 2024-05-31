@@ -1,5 +1,5 @@
 ( function () {
-	var map;
+	let map;
 	// Don't create tool unless the configuration message is present
 	try {
 		map = JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
@@ -7,7 +7,7 @@
 
 	// Check map has all required keys
 	if ( map ) {
-		var requiredMappings = [
+		const requiredMappings = [
 			'artwork',
 			'audioRecording',
 			'bill',
@@ -44,7 +44,7 @@
 			'webpage'
 		];
 
-		var missingMappings = requiredMappings.filter( ( key ) => !map[ key ] );
+		const missingMappings = requiredMappings.filter( ( key ) => !map[ key ] );
 		if ( missingMappings.length ) {
 			mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingMappings.join( ', ' ) );
 			map = undefined;
@@ -94,8 +94,8 @@
 	// and manipulate it.
 
 	// Unregister regular citation tools so they don't end up in catch-all groups
-	for ( var name in ve.ui.toolFactory.registry ) {
-		var toolClass = ve.ui.toolFactory.lookup( name );
+	for ( const name in ve.ui.toolFactory.registry ) {
+		const toolClass = ve.ui.toolFactory.lookup( name );
 		if (
 			name === 'reference' || name.indexOf( 'reference/' ) === 0 ||
 			toolClass.prototype instanceof ve.ui.MWCitationDialogTool
@@ -105,13 +105,13 @@
 	}
 
 	function fixTarget( target ) {
-		var toolGroups = target.static.toolbarGroups;
+		const toolGroups = target.static.toolbarGroups;
 		// Instead of using the rigid position of the group,
 		// downgrade this hack from horrific to somewhat less horrific by
 		// looking through the object to find what we actually need
 		// to replace. This way, if toolbarGroups are changed in VE code
 		// we won't have to manually change the index here.
-		for ( var i = 0, iLen = toolGroups.length; i < iLen; i++ ) {
+		for ( let i = 0, iLen = toolGroups.length; i < iLen; i++ ) {
 			// Replace the previous cite group with the citoid tool.
 			// If there is no cite group, citoid will appear in the catch-all group
 			if ( toolGroups[ i ].name === 'cite' ) {
@@ -124,7 +124,7 @@
 		}
 	}
 
-	for ( var fixName in ve.init.mw.targetFactory.registry ) {
+	for ( const fixName in ve.init.mw.targetFactory.registry ) {
 		fixTarget( ve.init.mw.targetFactory.lookup( fixName ) );
 	}
 
@@ -134,12 +134,12 @@
 
 	// Add a "Replace reference" action to reference and citation dialogs
 	function extendDialog( dialogClass ) {
-		var getActionProcess = dialogClass.prototype.getActionProcess;
+		const getActionProcess = dialogClass.prototype.getActionProcess;
 		dialogClass.prototype.getActionProcess = function ( action ) {
 			if ( action === 'replace' ) {
 				return new OO.ui.Process( () => {
 					this.close( { action: action } ).closed.then( () => {
-						var surface = this.getManager().getSurface();
+						const surface = this.getManager().getSurface();
 						surface.execute( 'citoid', 'open', true );
 					} );
 				} );

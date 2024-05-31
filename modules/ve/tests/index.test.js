@@ -20,7 +20,7 @@ QUnit.module( 'ext.citoid' );
 	 * @return {Object} a Promise for the transclusion with added template
 	 */
 	function testMaps( maps, citation, expected, assert ) {
-		var data = {
+		const data = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -1435,7 +1435,7 @@ QUnit.module( 'ext.citoid' );
 	/* Tests */
 
 	QUnit.test( 'Create template with using valid templateData', ( assert ) => {
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -1519,7 +1519,7 @@ QUnit.module( 'ext.citoid' );
 		// This test mismatches a flat field in the citation data (title) with an Array in the
 		// TemplateData. Expected result is for the field to be skipped in the resulting template,
 		// and for no VE errors to be thrown.
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -1600,7 +1600,7 @@ QUnit.module( 'ext.citoid' );
 		// This test mismatches a flat field in the citation data (title) with a 2D Array in the TemplateData
 		// Expected result is for the field to be skipped in the resulting template, and for no VE
 		// errors to be thrown.
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -1681,7 +1681,7 @@ QUnit.module( 'ext.citoid' );
 		// This test mismatches an Array in the citation data (isbn) with a flat field in the TemplateData
 		// Expected result is for the array to be turned into a string with the fields separated by
 		// a comma, and for no VE errors to be thrown.
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -1765,7 +1765,7 @@ QUnit.module( 'ext.citoid' );
 		// This test mismatches a Array in the citation data (isbn) with a flat field in the TemplateData
 		// Expected result is for the field to be skipped in the resulting template, and for no VE
 		// errors to be thrown.
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -1846,7 +1846,7 @@ QUnit.module( 'ext.citoid' );
 		// This test mismatches a 2D Array in the citation data (author) with a 1D array in the
 		// TemplateData. Expected result is for the inner fields to be concatenated with a space divider,
 		// and for no VE errors to be thrown.
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -1940,7 +1940,7 @@ QUnit.module( 'ext.citoid' );
 		// and the outer fields to be separated by a comma.
 
 		// No VE errors should be thrown.
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -2008,7 +2008,7 @@ QUnit.module( 'ext.citoid' );
 	} );
 
 	QUnit.test( 'Unbalanced templateData; mixed String and Array', ( assert ) => {
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -2080,7 +2080,7 @@ QUnit.module( 'ext.citoid' );
 	} );
 
 	QUnit.test( 'Unbalanced templateData; jagged Array', ( assert ) => {
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -2152,7 +2152,7 @@ QUnit.module( 'ext.citoid' );
 	} );
 
 	QUnit.test( 'Unbalanced citation; mixed String and Array', ( assert ) => {
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -2221,7 +2221,7 @@ QUnit.module( 'ext.citoid' );
 
 	QUnit.test( 'Empty strings in citation; Flat parameter', ( assert ) => {
 		// Test should not add parameters where the citation value is an empty string
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -2275,7 +2275,7 @@ QUnit.module( 'ext.citoid' );
 
 	QUnit.test( 'Empty strings in citation; 1D Array', ( assert ) => {
 		// Test should not add parameters where the citation value is an empty string
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -2342,7 +2342,7 @@ QUnit.module( 'ext.citoid' );
 	QUnit.test( 'Empty strings in citation; 2D Array', ( assert ) => {
 		// Test should not add parameters where the citation value is an empty string
 		// Empty strings are expected in the authors field occasionally from citoid
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'
@@ -2423,7 +2423,7 @@ QUnit.module( 'ext.citoid' );
 		//
 		// Expected result is for the fields to be skipped in the resulting template, and for no VE
 		// errors to be thrown.
-		var expected = {
+		const expected = {
 				target: {
 					wt: 'Cite web',
 					href: './Template:Cite_web'

@@ -11,8 +11,7 @@
 	}
 
 	CitoidTabRenderer.prototype.renderTab = function ( referenceView ) {
-		var $searchButton, $searchLabel, $searchField, $automatic, automaticSectionLink, $automaticLink, $autoLi,
-			$refView = $( referenceView ),
+		const $refView = $( referenceView ),
 			buttonLabel = mw.msg( 'citoid-wb-referenceview-tabs-search' ),
 			automaticLabel = mw.msg( 'citoid-wb-referenceview-tabs-automatic' ),
 			options = {
@@ -27,16 +26,16 @@
 			$ul = $( referenceView ).find( 'ul' );
 
 		// Create automatic panel with unique id
-		$searchLabel = $( '<label>' ).text( mw.msg( 'citoid-wb-referenceview-tabs-search-label' ) );
-		$searchField = $( '<input>' ).addClass( 'citoid-search' );
-		$searchButton = $( '<span>' )
+		const $searchLabel = $( '<label>' ).text( mw.msg( 'citoid-wb-referenceview-tabs-search-label' ) );
+		const $searchField = $( '<input>' ).addClass( 'citoid-search' );
+		const $searchButton = $( '<span>' )
 			.toolbarbutton( options )
 			.on( 'click', ( e ) => {
 				e.preventDefault();
 				this.onSearchClick( e.target );
 			} );
 		$searchButton.find( '.wb-icon' ).addClass( 'oo-ui-icon-search' ); // Add search icon to search button span
-		$automatic = $( '<div>' ).addClass( 'wikibase-referencepanel-citoid ' ).uniqueId()
+		const $automatic = $( '<div>' ).addClass( 'wikibase-referencepanel-citoid ' ).uniqueId()
 			.append( $searchLabel )
 			.append( $searchField )
 			.append( $searchButton );
@@ -60,11 +59,11 @@
 		} );
 
 		// Create automatic tab which links to automatic panel
-		automaticSectionLink = '#' + $automatic.attr( 'id' );
-		$automaticLink = $( '<a>' )
+		const automaticSectionLink = '#' + $automatic.attr( 'id' );
+		const $automaticLink = $( '<a>' )
 			.attr( 'href', automaticSectionLink )
 			.text( automaticLabel );
-		$autoLi = $( '<li>' ).append( $automaticLink );
+		const $autoLi = $( '<li>' ).append( $automaticLink );
 
 		// Sets automatic mode when user selects it after selecting another tab
 		$automaticLink.on( 'click', () => {
@@ -80,7 +79,7 @@
 	};
 
 	CitoidTabRenderer.prototype.onSearchClick = function ( target ) {
-		var $referenceView = $( target ).closest( '.wikibase-referenceview-new' ),
+		const $referenceView = $( target ).closest( '.wikibase-referenceview-new' ),
 			value = $referenceView.find( 'input.citoid-search' ).val();
 
 		this.windowManager.openWindow( this.pendingDialog );

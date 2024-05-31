@@ -7,7 +7,7 @@
 	}
 
 	CitoidClient.prototype.search = function ( value ) {
-		var baseUrl = mw.config.get( 'wgCitoidConfig' ).wbFullRestbaseUrl,
+		const baseUrl = mw.config.get( 'wgCitoidConfig' ).wbFullRestbaseUrl,
 			version = 'v1/data/citation',
 			format = 'mediawiki-basefields',
 			url = baseUrl + version + '/' + format + '/' + encodeURIComponent( value );

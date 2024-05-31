@@ -31,7 +31,7 @@ ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
 	} );
 
 	// Go over available tools
-	var items = ve.ui.mwCitationTools.map( ( item ) => new OO.ui.MenuOptionWidget( {
+	const items = ve.ui.mwCitationTools.map( ( item ) => new OO.ui.MenuOptionWidget( {
 		icon: item.icon,
 		label: item.title,
 		// Command name

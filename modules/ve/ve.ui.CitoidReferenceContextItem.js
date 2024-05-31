@@ -14,12 +14,12 @@ OO.inheritClass( ve.ui.CitoidReferenceContextItem, ve.ui.MWReferenceContextItem 
  * @return {string|null} Href, or null if this isn't a plain link reference
  */
 ve.ui.CitoidReferenceContextItem.static.getConvertibleHref = function ( itemNode ) {
-	var doc = itemNode.getRoot().getDocument(),
+	const doc = itemNode.getRoot().getDocument(),
 		range = itemNode.getRange();
 
 	// Get all annotations
-	var annotations = doc.data.getAnnotationsFromRange( range, true );
-	var externalLinks = annotations.get().filter( ( ann ) => ann instanceof ve.dm.MWExternalLinkAnnotation ).map( ( ann ) => ann.getHref() );
+	const annotations = doc.data.getAnnotationsFromRange( range, true );
+	const externalLinks = annotations.get().filter( ( ann ) => ann instanceof ve.dm.MWExternalLinkAnnotation ).map( ( ann ) => ann.getHref() );
 
 	// Find numbered external link nodes
 	itemNode.traverse( ( node ) => {
@@ -40,7 +40,7 @@ ve.ui.CitoidReferenceContextItem.static.getConvertibleHref = function ( itemNode
  * @inheritdoc
  */
 ve.ui.CitoidReferenceContextItem.prototype.renderBody = function () {
-	var refNode = this.getReferenceNode();
+	const refNode = this.getReferenceNode();
 
 	// Parent method
 	ve.ui.CitoidReferenceContextItem.super.prototype.renderBody.call( this );
@@ -49,13 +49,13 @@ ve.ui.CitoidReferenceContextItem.prototype.renderBody = function () {
 		return;
 	}
 
-	var convertibleHref = this.constructor.static.getConvertibleHref( refNode );
+	const convertibleHref = this.constructor.static.getConvertibleHref( refNode );
 
 	if ( convertibleHref ) {
-		var convertButton = new OO.ui.ButtonWidget( {
+		const convertButton = new OO.ui.ButtonWidget( {
 			label: ve.msg( 'citoid-referencecontextitem-convert-button' )
 		} ).on( 'click', () => {
-			var action = ve.ui.actionFactory.create( 'citoid', this.context.getSurface() );
+			const action = ve.ui.actionFactory.create( 'citoid', this.context.getSurface() );
 			action.open( true, convertibleHref );
 		} );
 

@@ -18,7 +18,7 @@
 	}
 
 	CitoidToolReferenceEditor.prototype.cachePropertyTypes = function () {
-		var idsQueryValue = '';
+		let idsQueryValue = '';
 
 		this.propertyTypeMap = {};
 		this.dataTypes = mw.config.get( 'wbDataTypes' );
@@ -34,7 +34,7 @@
 
 		// Construct query parameter idsQueryValue - request all properties at once
 		Object.keys( this.config.zoteroProperties ).forEach( ( zotProp ) => {
-			var wbProp = this.config.zoteroProperties[ zotProp ];
+			const wbProp = this.config.zoteroProperties[ zotProp ];
 			if ( wbProp ) {
 				if ( idsQueryValue ) {
 					idsQueryValue = idsQueryValue + '|' + wbProp; // i.e. |P1234
@@ -54,7 +54,7 @@
 			} ).then(
 				( data ) => {
 					Object.keys( data.entities ).forEach( ( wbProp ) => {
-						var entity = data.entities[ wbProp ];
+						const entity = data.entities[ wbProp ];
 						if ( Object.prototype.hasOwnProperty.call( entity, 'missing' ) ) {
 							mw.log.warn( 'Entity ' + entity.id + ' is missing.' );
 						} else if ( entity.type !== 'property' ) {
@@ -81,11 +81,10 @@
 	};
 
 	CitoidToolReferenceEditor.prototype.addReferenceSnaksFromCitoidData = function ( data, referenceView ) {
-		var refView = $( referenceView ).data( 'referenceview' ),
+		const refView = $( referenceView ).data( 'referenceview' ),
 			lv = this.getReferenceSnakListView( refView ),
 			items = lv.items(),
 			lang = this.getMVSnakLang( data ),
-			addSnakProm = false,
 			snakPromises = [];
 
 		// Clear manual tab of existing snaks - we should ideally ask user for permission to do this
@@ -95,16 +94,16 @@
 			} );
 		}
 
+		let addSnakProm = false;
 		Object.keys( data ).forEach( ( key ) => {
-			var i, getSnak,
-				val = data[ key ],
+			const val = data[ key ],
 				propertyId = this.getPropertyForCitoidData( key );
 
 			if ( !propertyId || !val ) {
 				return;
 			}
 
-			getSnak = this.propertyTypeMap[ propertyId ];
+			const getSnak = this.propertyTypeMap[ propertyId ];
 
 			if ( !getSnak ) {
 				return;
@@ -116,7 +115,7 @@
 				addSnakProm = true;
 
 			} else if ( Array.isArray( val ) ) {
-				for ( i = 0; i < val.length; i++ ) {
+				for ( let i = 0; i < val.length; i++ ) {
 					// Array of array of strings - authors in this case, typically. Concatonate.
 					if ( Array.isArray( val[ i ] ) ) {
 						snakPromises.push(
@@ -158,7 +157,7 @@
 	};
 
 	CitoidToolReferenceEditor.prototype.getReferenceSnakListView = function ( refView ) {
-		var refListView = refView.$listview.data( 'listview' ),
+		const refListView = refView.$listview.data( 'listview' ),
 			snakListView = refListView.items(),
 			snakListViewData = snakListView.data( 'snaklistview' ),
 			listView = snakListViewData.$listview.data( 'listview' );
@@ -201,15 +200,13 @@
 
 	// Returns promise
 	CitoidToolReferenceEditor.prototype.getDateSnak = function ( propertyId, val ) {
-		var jsonDate;
-
 		return new mw.Api().get( {
 			values: val,
 			action: 'wbparsevalue',
 			datatype: 'time',
 			format: 'json'
 		} ).then( ( result ) => {
-			jsonDate = result.results[ 0 ].value;
+			const jsonDate = result.results[ 0 ].value;
 
 			return loadWbDataModel().then( ( datamodel ) => new datamodel.PropertyValueSnak(
 				propertyId,

@@ -9,15 +9,13 @@
  * @param {Object} [config] Configuration options
  */
 ve.ui.CitoidInspectorTool = function VeUiCitoidInspectorTool() {
-	var educationPopup;
-
 	// Parent constructor
 	ve.ui.CitoidInspectorTool.super.apply( this, arguments );
 
 	// For backwards compatibility with on-wiki gadgets (T219512)
 	this.$element.addClass( 'oo-ui-tool-name-citefromid' );
 
-	educationPopup = new ve.ui.MWEducationPopupWidget( this.$link, {
+	const educationPopup = new ve.ui.MWEducationPopupWidget( this.$link, {
 		popupTitle: ve.msg( 'cite-ve-dialogbutton-citation-educationpopup-title' ),
 		popupText: mw.message( 'cite-ve-dialogbutton-citation-educationpopup-text' ).parseDom(),
 		popupImage: 'cite',

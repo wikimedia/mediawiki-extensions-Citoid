@@ -183,14 +183,14 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	this.lookupButton = new OO.ui.ButtonWidget( {
 		label: ve.msg( 'citoid-citoiddialog-lookup-button' )
 	} );
-	var lookupActionFieldLayout = new OO.ui.ActionFieldLayout( this.lookupInput, this.lookupButton, {
+	const lookupActionFieldLayout = new OO.ui.ActionFieldLayout( this.lookupInput, this.lookupButton, {
 		align: 'top',
 		label: ve.msg( 'citoid-citoiddialog-search-label' )
 	} );
 
-	var isbnEnabledPlatforms = mw.config.get( 'wgCitoidConfig' ).isbnScannerEnabled || {};
-	var isbnEnabled = !!isbnEnabledPlatforms[ OO.ui.isMobile() ? 'mobile' : 'desktop' ];
-	var isbnSupported =
+	const isbnEnabledPlatforms = mw.config.get( 'wgCitoidConfig' ).isbnScannerEnabled || {};
+	const isbnEnabled = !!isbnEnabledPlatforms[ OO.ui.isMobile() ? 'mobile' : 'desktop' ];
+	const isbnSupported =
 		// Reflects browser security policy
 		( location.protocol === 'https:' || location.hostname === 'localhost' ) &&
 		navigator.mediaDevices && navigator.mediaDevices.getUserMedia;
@@ -204,7 +204,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		} );
 		this.executeAction( 'lookup' );
 	} );
-	var isbnButtonFieldLayout = new OO.ui.FieldLayout( this.isbnButton );
+	const isbnButtonFieldLayout = new OO.ui.FieldLayout( this.isbnButton );
 
 	// Citoid API error message
 	this.$noticeLabel = $( '<div>' ).addClass( 've-ui-citoidInspector-dialog-error oo-ui-element-hidden' ).text(
@@ -300,8 +300,8 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 	if ( !fromSelect ) {
 		this.modeIndex.setTabPanel( tabPanelName );
 	}
-	var panelNameModifier;
-	var focusTarget;
+	let panelNameModifier;
+	let focusTarget;
 	switch ( tabPanelName ) {
 		case 'auto':
 			processPanelName = processPanelName || this.currentAutoProcessPanel || 'lookup';
@@ -310,8 +310,8 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 				case 'lookup':
 					this.lookupInput.setDisabled( false ).select();
 					break;
-				case 'result':
-					var isSingle = this.previewSelectWidget.items.length === 1;
+				case 'result': {
+					const isSingle = this.previewSelectWidget.items.length === 1;
 					if ( config.hasError ) {
 						panelNameModifier = 'error';
 					} else {
@@ -322,6 +322,7 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 						this.actions.get( { flags: 'primary' } )[ 0 ] :
 						this.previewSelectWidget.items[ 0 ];
 					break;
+				}
 			}
 			this.currentAutoProcessPanel = processPanelName;
 			break;
@@ -369,14 +370,14 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
  * @param {OO.ui.OptionWidget} item Chosen item
  */
 ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
-	var commandName = item.getData(),
+	const commandName = item.getData(),
 		surface = this.getManager().getSurface();
 
 	ve.track( 'activity.' + this.constructor.static.name, { action: 'manual-choose' } );
 
 	// Close this dialog then open the new dialog
 	this.close( { action: 'manual-choose' } ).closed.then( () => {
-		var command = ve.ui.commandRegistry.lookup( commandName );
+		const command = ve.ui.commandRegistry.lookup( commandName );
 		command.execute( surface );
 	} );
 };
@@ -387,7 +388,7 @@ ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
  * @param {ve.ui.MWReferenceResultWidget} item Chosen item
  */
 ve.ui.CitoidInspector.prototype.onSearchResultsChoose = function ( item ) {
-	var ref = item.getData();
+	const ref = item.getData();
 
 	ref.insertReferenceNode( this.getFragment() );
 	// The insertion above collapses the document selection around the placeholder.
@@ -410,12 +411,12 @@ ve.ui.CitoidInspector.prototype.onSearchResultsChoose = function ( item ) {
  * @param {ve.ui.MWReferenceResultWidget} item Chosen item
  */
 ve.ui.CitoidInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) {
-	var fragment = this.fragment,
-		surfaceModel = this.getFragment().getSurface(),
+	const surfaceModel = this.getFragment().getSurface(),
 		doc = surfaceModel.getDocument(),
 		internalList = doc.getInternalList(),
 		index = item.getData();
 
+	let fragment = this.fragment;
 	if ( this.results[ index ] ) {
 		// Gets back contents of <ref> tag
 		if ( this.inDialog !== 'reference' ) {
@@ -532,7 +533,7 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 				if ( this.inDialog !== 'reference' ) {
 					this.staging++;
 					this.stagedReference = true;
-					var fragment = this.getFragment();
+					const fragment = this.getFragment();
 					// Stage an empty reference
 					fragment.getSurface().pushStaging();
 
@@ -565,7 +566,7 @@ ve.ui.CitoidInspector.prototype.getReadyProcess = function ( data ) {
 	return ve.ui.CitoidInspector.super.prototype.getReadyProcess.call( this, data )
 		.next( () => {
 			// Set the panel after ready as it focuses the input too
-			var mode = data.lookup ? this.defaultPanel : ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel );
+			const mode = data.lookup ? this.defaultPanel : ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel );
 			this.setModePanel( mode, mode === 'auto' ? 'lookup' : undefined );
 
 			this.isActive = true;
@@ -634,7 +635,7 @@ ve.ui.CitoidInspector.prototype.getActionProcess = function ( action ) {
 			// Clear the results
 			this.clearResults();
 			// Common case: entering a number here and assuming it'll work to reuse an existing citation:
-			var search = this.lookupInput.getValue();
+			const search = this.lookupInput.getValue();
 			if ( !isNaN( search ) && parseInt( search, 10 ) < 1000 ) {
 				// Fairly arbitrary limitation assuming that numbers below 1000 aren't going to refer to anything else.
 				this.setModePanel( 'reuse' );
@@ -680,17 +681,18 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 	this.lookupButton.setDisabled( true );
 	this.lookupInput.setDisabled( true ).pushPending();
 
-	var search = this.lookupInput.getValue();
 	// Common case: pasting a URI into this field. Citoid expects
 	// minimally encoded input, so do some speculative decoding here to
 	// avoid 404 fetches. T146539
-	search = ve.safeDecodeURIComponent( search );
+	const search = ve.safeDecodeURIComponent(
+		this.lookupInput.getValue()
+	);
 
 	// We have to first set up a get response so we can have
 	// a proper xhr object with "abort" method, so we can
 	// hand off this abort method to the jquery promise
 
-	var citoidXhr;
+	let citoidXhr;
 	if ( this.fullRestbaseUrl ) {
 		// Use restbase endpoint
 		this.serviceConfig.ajax.url = this.serviceUrl + '/' + encodeURIComponent( search );
@@ -704,12 +706,12 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 			} );
 	}
 
-	var reliabilityXhr;
+	let reliabilityXhr;
 	this.lookupPromise = citoidXhr
 		.then(
 			// Success
 			( searchResults ) => {
-				var url = OO.getProp( searchResults, 0, 'url' );
+				const url = OO.getProp( searchResults, 0, 'url' );
 				// TODO: Handle multiple results (not currently returned by our providers)
 				if ( url ) {
 					reliabilityXhr = new mw.Api().get( {
@@ -721,10 +723,10 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 					reliabilityXhr = $.Deferred().resolve().promise();
 				}
 				return reliabilityXhr.then( ( reliablityResults ) => {
-					var hasError = false;
+					let hasError = false;
 
 					if ( reliablityResults && reliablityResults.editcheckreferenceurl[ url ] === 'blocked' ) {
-						var backButton = new OO.ui.ButtonWidget( {
+						const backButton = new OO.ui.ButtonWidget( {
 							flags: [ 'primary', 'progressive' ],
 							label: ve.msg( 'citoid-citoiddialog-reliability-back' )
 						} ).on( 'click', () => {
@@ -815,11 +817,11 @@ ve.ui.CitoidInspector.prototype.lookupFailed = function () {
  *  or is rejected if there are any problems with the template name or the internal item.
  */
 ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults ) {
-	var renderPromises = [],
+	const renderPromises = [],
 		partPromises = [];
 
 	searchResults.forEach( ( citation ) => {
-		var templateName = this.templateTypeMap[ citation.itemType ];
+		const templateName = this.templateTypeMap[ citation.itemType ];
 
 		// if TemplateName is undefined, this means that items of this citoid
 		// type does not have a Template defined within the message.
@@ -827,9 +829,9 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 			return;
 		}
 
-		var transclusionModel = new ve.dm.MWTransclusionModel();
+		const transclusionModel = new ve.dm.MWTransclusionModel();
 		// Create models for this result
-		var result = {
+		const result = {
 			templateName: templateName,
 			template: ve.dm.MWTemplateModel.newFromName( transclusionModel, templateName ),
 			source: citation.source, // May be undefined or Array
@@ -846,11 +848,11 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 
 	return ve.promiseAll( partPromises )
 		.then( () => {
-			var sources = [],
+			const sources = [],
 				optionWidgets = [];
 			// Create option widgets
 			this.results.forEach( ( result, i ) => {
-				var refWidget = new ve.ui.CitoidReferenceWidget(
+				const refWidget = new ve.ui.CitoidReferenceWidget(
 					this.getFragment().getSurface().getDocument(),
 					result.transclusionModel,
 					{
@@ -858,7 +860,7 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 						templateName: result.templateName,
 						citeTools: this.citeTools
 					} );
-				var template = result.template;
+				const template = result.template;
 				// T92428: Ignore empty templates
 				if ( ve.isEmptyObject( template.getParameters() ) ) {
 					return;
@@ -896,13 +898,12 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
  * @param {Object} citation An object that contains values to insert into template
  */
 ve.ui.CitoidInspector.static.populateTemplate = function ( template, citation ) {
-	var spec = template.getSpec(),
+	const spec = template.getSpec(),
 		maps = spec.getMaps(),
 		map = maps[ ve.ui.CitoidInspector.static.templateDataName ];
 
-	for ( var citoidField in map ) {
-		var templateField = map[ citoidField ];
-		var concatCitoidField = null; // for storing a concatenated citoid value composed of array elements
+	for ( const citoidField in map ) {
+		const templateField = map[ citoidField ];
 
 		// Construct parameters
 
@@ -915,8 +916,9 @@ ve.ui.CitoidInspector.static.populateTemplate = function ( template, citation ) 
 			);
 		// Case: Citoid parameter contains a 1 or 2D Array
 		} else if ( citation[ citoidField ] && Array.isArray( citation[ citoidField ] ) ) {
+			let concatCitoidField = null; // for storing a concatenated citoid value composed of array elements
 			// Iterate through first dimension of array
-			for ( var i = 0; i < citation[ citoidField ].length; i++ ) {
+			for ( let i = 0; i < citation[ citoidField ].length; i++ ) {
 				// Case: Citoid parameter equivalent to 1D Array of TD parameters
 				if ( citation[ citoidField ][ i ] && typeof citation[ citoidField ][ i ] === 'string' ) {
 					// Case: Citoid parameter equivalent to TD parameter
@@ -935,10 +937,10 @@ ve.ui.CitoidInspector.static.populateTemplate = function ( template, citation ) 
 					}
 				// Case: Citoid parameter equivalent to 2D Array of TD parameters
 				} else if ( citation[ citoidField ][ i ] && Array.isArray( citation[ citoidField ][ i ] ) ) {
-					var concat2dField = null; // for storing elements of a 2d array converted to a 1d element
+					let concat2dField = null; // for storing elements of a 2d array converted to a 1d element
 
 					// Iterate through inner dimension of array
-					for ( var j = 0; j < citation[ citoidField ][ i ].length; j++ ) {
+					for ( let j = 0; j < citation[ citoidField ][ i ].length; j++ ) {
 						// Case: 2nd degree parameter exists
 						if ( citation[ citoidField ][ i ][ j ] && typeof citation[ citoidField ][ i ][ j ] === 'string' ) {
 							// Case: Citoid parameter equivalent to TD parameter

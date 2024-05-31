@@ -26,10 +26,10 @@ ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel,
 	OO.ui.mixin.IconElement.call( this, config );
 
 	// Set the icon
-	var icon;
+	let icon;
 	if ( Array.isArray( config.citeTools ) ) {
-		for ( var i = 0, len = config.citeTools.length; i < len; i++ ) {
-			var item = config.citeTools[ i ];
+		for ( let i = 0, len = config.citeTools.length; i < len; i++ ) {
+			const item = config.citeTools[ i ];
 			if ( item.template === this.templateName ) {
 				this.title = item.title;
 				icon = item.icon;
@@ -46,7 +46,7 @@ ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel,
 	} );
 
 	// Create the citation preview
-	var doc = documentModel.cloneWithData( [
+	const doc = documentModel.cloneWithData( [
 		{ type: 'paragraph' },
 		{
 			type: 'mwTransclusionInline',
@@ -63,7 +63,7 @@ ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel,
 	// and detachedCopy=true
 	], false, true );
 
-	var node = doc.getDocumentNode().getChildren()[ 0 ];
+	const node = doc.getDocumentNode().getChildren()[ 0 ];
 	this.preview = new ve.ui.MWPreviewElement( node );
 	if ( this.preview.isGenerating() ) {
 		this.preview.once( 'render', this.renderPromise.resolve );
@@ -72,7 +72,7 @@ ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel,
 	}
 
 	// Display the preview
-	var title = new OO.ui.LabelWidget( {
+	const title = new OO.ui.LabelWidget( {
 		label: this.title
 	} );
 

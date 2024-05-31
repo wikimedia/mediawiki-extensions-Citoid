@@ -44,12 +44,11 @@
 
 	// Common to getContentCode and getMonolingualCode
 	function getCode( value, cachedCodes, defaultCode ) {
-		var code,
-			getCodeFallback = function ( val ) {
-				val = val.split( '-' );
-				val = val[ 0 ];
-				return val;
-			};
+		const getCodeFallback = function ( val ) {
+			val = val.split( '-' );
+			val = val[ 0 ];
+			return val;
+		};
 
 		if ( !value ) {
 			return defaultCode;
@@ -60,7 +59,7 @@
 		}
 
 		value = value.toLowerCase();
-		code = cachedCodes[ value ];
+		let code = cachedCodes[ value ];
 
 		if ( !code ) {
 			code = getCodeFallback( value );
