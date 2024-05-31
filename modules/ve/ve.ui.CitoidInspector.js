@@ -227,8 +227,10 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		classes: [ 've-ui-citoidInspector-error' ],
 		type: 'error',
 		inline: true,
-		label: ve.msg( 'citoid-citoiddialog-use-general-error-message' )
+		label: ve.msg( 'citoid-citoiddialog-use-general-error-message-title' )
 	} ).toggle( false );
+
+	this.errorMessage.$label.append( $( '<p>' ).text( ve.msg( 'citoid-citoiddialog-use-general-error-message-body' ) ) );
 
 	const manualButton = new OO.ui.ButtonWidget( {
 		label: ve.msg( 'citoid-citoiddialog-manual-button' ),

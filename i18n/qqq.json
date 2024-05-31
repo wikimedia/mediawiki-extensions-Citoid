@@ -27,7 +27,6 @@
 	"citoid-citoiddialog-search-placeholder": "{{doc-important|Do not translate example.com as it is a domain name specifically reserved by IANA for examples.}}\n\nPlaceholder for the search field.",
 	"citoid-citoiddialog-title": "The title displayed on the dialog when inserting a new reference",
 	"citoid-citoiddialog-title-replace": "The title displayed on the dialog when replacing an existing reference",
-	"citoid-citoiddialog-use-general-error-message": "Label notifying the user there was a problem creating their reference, and offering to use the full citation tool.",
 	"citoid-citoiddialog-use-general-error-message-title": "Title of message notifying the user there was a problem creating their reference, and offering to use the full citation tool.\nWas previously one message: {{msg-mw|citoid-citoiddialog-use-general-error-message}}.",
 	"citoid-citoiddialog-use-general-error-message-body": "Body of message notifying the user there was a problem creating their reference, and offering to use the full citation tool.\nWas previously one message: {{msg-mw|citoid-citoiddialog-use-general-error-message}}.",
 	"citoid-citoiddialog-reliability-back": "Button label for going back to the search form to try to input a different source.",

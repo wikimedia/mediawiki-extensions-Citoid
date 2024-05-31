@@ -15,7 +15,6 @@
 	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
 	"citoid-citoiddialog-title": "Add a citation",
 	"citoid-citoiddialog-title-replace": "Replace citation",
-	"citoid-citoiddialog-use-general-error-message": "We couldn't make a citation for you. You can create one manually using the \"{{int:citoid-citoiddialog-mode-manual}}\" tab above.",
 	"citoid-citoiddialog-use-general-error-message-title": "We couldn't make a citation for you.",
 	"citoid-citoiddialog-use-general-error-message-body": "Try another source or create one manually using the \"{{int:citoid-citoiddialog-mode-manual}}\" tab above.",
 	"citoid-citoiddialog-reliability-back": "Try a new source",
