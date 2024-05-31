@@ -1,7 +1,7 @@
 /**
  * Citoid extension citation group widget
  *
- * @mixins OO.ui.mixin.GroupWidget
+ * @mixes OO.ui.mixin.GroupWidget
  * @param {Object} config Dialog configuration object
  */
 ve.ui.CitoidGroupWidget = function VeUiCitoidGroupWidget( config ) {
