@@ -9,7 +9,7 @@ ve.ui.CitoidGroupWidget = function VeUiCitoidGroupWidget( config ) {
 	ve.ui.CitoidGroupWidget.super.call( this, config );
 
 	// Mixin constructors
-	OO.ui.mixin.GroupWidget.call( this, $.extend( {}, config, { $group: this.$element } ) );
+	OO.ui.mixin.GroupWidget.call( this, Object.assign( {}, config, { $group: this.$element } ) );
 
 	// Aggregate events
 	this.aggregate( {
