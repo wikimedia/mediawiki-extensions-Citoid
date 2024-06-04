@@ -7,7 +7,7 @@
 	var config, citoidTool, enabled;
 
 	// Only initialise on entity pages
-	mw.hook( 'wikibase.entityPage.entityLoaded' ).add( function () {
+	mw.hook( 'wikibase.entityPage.entityLoaded' ).add( () => {
 
 		try {
 			config = JSON.parse( require( './data.json' ).toolConfig );
@@ -22,7 +22,7 @@
 
 		if ( enabled ) {
 			// Load required modules; wikibase.datamodel doesn't get registered until too late otherwise
-			mw.loader.using( [ 'ext.citoid.wikibase', 'wikibase.datamodel', 'dataValues' ] ).then( function () {
+			mw.loader.using( [ 'ext.citoid.wikibase', 'wikibase.datamodel', 'dataValues' ] ).then( () => {
 				citoidTool = new wikibase.CitoidTool( config );
 				citoidTool.init();
 			} );

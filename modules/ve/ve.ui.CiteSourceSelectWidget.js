@@ -31,14 +31,12 @@ ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
 	} );
 
 	// Go over available tools
-	var items = ve.ui.mwCitationTools.map( function ( item ) {
-		return new OO.ui.MenuOptionWidget( {
-			icon: item.icon,
-			label: item.title,
-			// Command name
-			data: 'cite-' + item.name
-		} );
-	} );
+	var items = ve.ui.mwCitationTools.map( ( item ) => new OO.ui.MenuOptionWidget( {
+		icon: item.icon,
+		label: item.title,
+		// Command name
+		data: 'cite-' + item.name
+	} ) );
 
 	// Basic tools
 	this.refBasic = new OO.ui.MenuOptionWidget( {

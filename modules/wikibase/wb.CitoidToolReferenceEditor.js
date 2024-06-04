@@ -3,9 +3,7 @@
 	'use strict';
 
 	function loadWbDataModel() {
-		return mw.loader.using( [ 'wikibase.datamodel' ] ).then( function ( require ) {
-			return require( 'wikibase.datamodel' );
-		} );
+		return mw.loader.using( [ 'wikibase.datamodel' ] ).then( ( require ) => require( 'wikibase.datamodel' ) );
 	}
 
 	function CitoidToolReferenceEditor( config, windowManager, pendingDialog ) {
@@ -20,8 +18,7 @@
 	}
 
 	CitoidToolReferenceEditor.prototype.cachePropertyTypes = function () {
-		var self = this,
-			idsQueryValue = '';
+		var idsQueryValue = '';
 
 		this.propertyTypeMap = {};
 		this.dataTypes = mw.config.get( 'wbDataTypes' );
@@ -36,8 +33,8 @@
 		};
 
 		// Construct query parameter idsQueryValue - request all properties at once
-		Object.keys( this.config.zoteroProperties ).forEach( function ( zotProp ) {
-			var wbProp = self.config.zoteroProperties[ zotProp ];
+		Object.keys( this.config.zoteroProperties ).forEach( ( zotProp ) => {
+			var wbProp = this.config.zoteroProperties[ zotProp ];
 			if ( wbProp ) {
 				if ( idsQueryValue ) {
 					idsQueryValue = idsQueryValue + '|' + wbProp; // i.e. |P1234
@@ -55,8 +52,8 @@
 				formatversion: 1, // Doesn't currently work, see T212069
 				props: 'datatype'
 			} ).then(
-				function ( data ) {
-					Object.keys( data.entities ).forEach( function ( wbProp ) {
+				( data ) => {
+					Object.keys( data.entities ).forEach( ( wbProp ) => {
 						var entity = data.entities[ wbProp ];
 						if ( Object.prototype.hasOwnProperty.call( entity, 'missing' ) ) {
 							mw.log.warn( 'Entity ' + entity.id + ' is missing.' );
@@ -64,16 +61,16 @@
 							mw.log.warn( 'Invalid entity type "' + entity.type + '"' );
 						} else {
 							// Hand appropriate snak adder function to each property in the config
-							if ( self.dataTypes[ entity.datatype ] ) {
-								if ( self.typeToMethodMap[ self.dataTypes[ entity.datatype ].dataValueType ] ) {
-									self.propertyTypeMap[ wbProp ] = self.typeToMethodMap[ self.dataTypes[ entity.datatype ].dataValueType ];
+							if ( this.dataTypes[ entity.datatype ] ) {
+								if ( this.typeToMethodMap[ this.dataTypes[ entity.datatype ].dataValueType ] ) {
+									this.propertyTypeMap[ wbProp ] = this.typeToMethodMap[ this.dataTypes[ entity.datatype ].dataValueType ];
 								}
 							}
 						}
 					} );
 				},
 				// Failure
-				function ( type, response ) {
+				( type, response ) => {
 					mw.log.warn( response.error.info );
 				}
 			);
@@ -88,27 +85,26 @@
 			lv = this.getReferenceSnakListView( refView ),
 			items = lv.items(),
 			lang = this.getMVSnakLang( data ),
-			self = this,
 			addSnakProm = false,
 			snakPromises = [];
 
 		// Clear manual tab of existing snaks - we should ideally ask user for permission to do this
 		if ( items.length ) {
-			items.each( function ( key ) {
+			items.each( ( key ) => {
 				lv.removeItem( $( items[ key ] ) );
 			} );
 		}
 
-		Object.keys( data ).forEach( function ( key ) {
+		Object.keys( data ).forEach( ( key ) => {
 			var i, getSnak,
 				val = data[ key ],
-				propertyId = self.getPropertyForCitoidData( key );
+				propertyId = this.getPropertyForCitoidData( key );
 
 			if ( !propertyId || !val ) {
 				return;
 			}
 
-			getSnak = self.propertyTypeMap[ propertyId ];
+			getSnak = this.propertyTypeMap[ propertyId ];
 
 			if ( !getSnak ) {
 				return;
@@ -135,29 +131,28 @@
 
 		} );
 
-		$.when.apply( $, snakPromises.map( function ( snakPromise ) {
-			// Add each snak to listview after promise is complete
-			return snakPromise.then( function ( snak ) {
+		// Add each snak to listview after promise is complete
+		$.when.apply( $, snakPromises.map(
+			( snakPromise ) => snakPromise.then( ( snak ) => {
 				lv.addItem( snak );
 				addSnakProm = true;
-			} ).catch( function () {
-			} );
-		} ) ).then( function () {
+			} ).catch( () => {} )
+		) ).then( () => {
 			if ( addSnakProm ) {
-				lv.startEditing().then( function () {
+				lv.startEditing().then( () => {
 					// Trigger change to enable save button for new snaks
 					$( referenceView ).trigger( 'statementviewchange' );
-					self.pendingDialog.popPending();
-					self.windowManager.closeWindow( self.pendingDialog );
+					this.pendingDialog.popPending();
+					this.windowManager.closeWindow( this.pendingDialog );
 				} );
 			} else {
 				// On failure, add any old items back into the manual tab
-				items.each( function ( key ) {
+				items.each( ( key ) => {
 					lv.addItem( $( items[ key ] ) );
 				} );
-				self.pendingDialog.popPending();
-				self.pendingDialog.executeAction( 'error' );
-				self.pendingDialog.updateSize();
+				this.pendingDialog.popPending();
+				this.pendingDialog.executeAction( 'error' );
+				this.pendingDialog.updateSize();
 			}
 		} );
 	};
@@ -184,30 +179,24 @@
 	};
 
 	CitoidToolReferenceEditor.prototype.getMonolingualValueSnak = function ( propertyId, val, languageCode ) {
-		return loadWbDataModel().then( function ( datamodel ) {
-			return new datamodel.PropertyValueSnak(
-				propertyId,
-				new dv.MonolingualTextValue( languageCode, val )
-			);
-		} );
+		return loadWbDataModel().then( ( datamodel ) => new datamodel.PropertyValueSnak(
+			propertyId,
+			new dv.MonolingualTextValue( languageCode, val )
+		) );
 	};
 
 	CitoidToolReferenceEditor.prototype.getStringSnak = function ( propertyId, val ) {
-		return loadWbDataModel().then( function ( datamodel ) {
-			return new datamodel.PropertyValueSnak(
-				propertyId,
-				new dv.StringValue( val )
-			);
-		} );
+		return loadWbDataModel().then( ( datamodel ) => new datamodel.PropertyValueSnak(
+			propertyId,
+			new dv.StringValue( val )
+		) );
 	};
 
 	CitoidToolReferenceEditor.prototype.getNumSnak = function ( propertyId, val ) {
-		return loadWbDataModel().then( function ( datamodel ) {
-			return new datamodel.PropertyValueSnak(
-				propertyId,
-				new dv.QuantityValue( new dv.DecimalValue( val ), 1 ) // Do not add units
-			);
-		} );
+		return loadWbDataModel().then( ( datamodel ) => new datamodel.PropertyValueSnak(
+			propertyId,
+			new dv.QuantityValue( new dv.DecimalValue( val ), 1 ) // Do not add units
+		) );
 	};
 
 	// Returns promise
@@ -219,25 +208,21 @@
 			action: 'wbparsevalue',
 			datatype: 'time',
 			format: 'json'
-		} ).then( function ( result ) {
+		} ).then( ( result ) => {
 			jsonDate = result.results[ 0 ].value;
 
-			return loadWbDataModel().then( function ( datamodel ) {
-				return new datamodel.PropertyValueSnak(
-					propertyId,
-					dv.TimeValue.newFromJSON( jsonDate )
-				);
-			} );
+			return loadWbDataModel().then( ( datamodel ) => new datamodel.PropertyValueSnak(
+				propertyId,
+				dv.TimeValue.newFromJSON( jsonDate )
+			) );
 		} );
 	};
 
 	CitoidToolReferenceEditor.prototype.getWikibaseItemSnak = function ( propertyId, val ) {
-		return loadWbDataModel().then( function ( datamodel ) {
-			return new datamodel.PropertyValueSnak(
-				propertyId,
-				new datamodel.EntityId( val )
-			);
-		} );
+		return loadWbDataModel().then( ( datamodel ) => new datamodel.PropertyValueSnak(
+			propertyId,
+			new datamodel.EntityId( val )
+		) );
 	};
 
 	wb.CitoidToolReferenceEditor = CitoidToolReferenceEditor;

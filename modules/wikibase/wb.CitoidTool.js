@@ -13,16 +13,14 @@
 	}
 
 	CitoidTool.prototype.init = function () {
-		var self = this;
-
 		if ( !mw.config.exists( 'wbEntityId' ) ) {
 			return;
 		}
 
 		// eslint-disable-next-line no-jquery/no-global-selector
 		$( '.wikibase-entityview' )
-			.on( 'referenceviewafterstartediting', function ( e ) {
-				self.initAutomaticTab( e.target );
+			.on( 'referenceviewafterstartediting', ( e ) => {
+				this.initAutomaticTab( e.target );
 			} );
 
 		this.pendingDialog = new wb.CitoidPendingDialog( {
@@ -35,13 +33,13 @@
 
 		this.windowManager.addWindows( [ this.pendingDialog ] );
 
-		this.citoidToolReferenceEditor = new wb.CitoidToolReferenceEditor( self.config, self.windowManager, self.pendingDialog );
+		this.citoidToolReferenceEditor = new wb.CitoidToolReferenceEditor( this.config, this.windowManager, this.pendingDialog );
 		this.citoidTabRenderer = new wb.CitoidTabRenderer(
-			self.config,
-			self.citoidClient,
-			self.citoidToolReferenceEditor,
-			self.windowManager,
-			self.pendingDialog
+			this.config,
+			this.citoidClient,
+			this.citoidToolReferenceEditor,
+			this.windowManager,
+			this.pendingDialog
 		);
 	};
 
