@@ -18,6 +18,7 @@
 	"citoid-citoiddialog-search-progress": "Ohcame, vuorddes...",
 	"citoid-citoiddialog-title": "Lasit gáldočujuhusa",
 	"citoid-citoiddialog-title-replace": "Buhtte gáldočujuhusa",
+	"citoid-citoiddialog-use-general-error-message": "Gáldočujuhusa ii sáhttán ráhkadit. Juos háliidat dan ráhkadit, geavat \"{{int:citoid-citoiddialog-mode-manual}}\"-leavgga dás badjelis vai beasat dan ráhkadit manuálalaččat.",
 	"citoid-citoidtool-title": "Sitere",
 	"citoid-citoidtool-title-othergroup": "Gáldočujuhus",
 	"citoid-isbnscannerdialog-title": "Skánne ISBN-sáhcokoda",
