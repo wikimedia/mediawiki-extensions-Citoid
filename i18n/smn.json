@@ -18,7 +18,7 @@
 	"citoid-citoiddialog-search-placeholder": "om. http://www.example.com",
 	"citoid-citoiddialog-title": "Lasseet käldeečuijoos",
 	"citoid-citoiddialog-title-replace": "Sajanpyevti käldeečuijoos",
-	"citoid-citoiddialog-use-general-error-message": "Tuu käldeečuijoos ij puáhtám rähtiđ. Tun puávtáh rähtiđ tom manuaallávt kevttimáin paijeen leijee \"{{int:citoid-citoiddialog-mode-manual}}\"-koskâloostâ.",
+	"citoid-citoiddialog-use-general-error-message": "Käldeečuijoos ij puáhtám rähtiđ. Tun puávtáh rähtiđ tom manuaallávt kevttimáin paijeen leijee \"{{int:citoid-citoiddialog-mode-manual}}\"-koskâloostâ.",
 	"citoid-citoidtool-title": "Čuujoot",
 	"citoid-citoidtool-title-othergroup": "Käldeečujos",
 	"citoid-desc": "Taha máhđulâžžân citoid-palvâlus kevttim MediaWikist",
