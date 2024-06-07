@@ -4,11 +4,12 @@
 			"Bjankuloski06"
 		]
 	},
-	"citoid-action-replace": "Смени вид на навод",
+	"citoid-action-replace": "Замени навод",
 	"citoid-citation-widget-insert-button": "Вметни",
 	"citoid-citoiddialog-back": "Назад",
 	"citoid-citoiddialog-credit": "Овозможено од $1",
 	"citoid-citoiddialog-lookup-button": "Создај",
+	"citoid-citoiddialog-manual-button": "Додај рачно",
 	"citoid-citoiddialog-mode-auto": "Автоматски",
 	"citoid-citoiddialog-mode-manual": "Рачно",
 	"citoid-citoiddialog-mode-reuse": "Повторна употреба",
