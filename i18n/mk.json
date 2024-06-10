@@ -18,6 +18,8 @@
 	"citoid-citoiddialog-title": "Додај навод",
 	"citoid-citoiddialog-title-replace": "Замени навод",
 	"citoid-citoiddialog-use-general-error-message": "Не можев да го направам наводот. Можете да го создадете рачно со јазичето „{{nt:citoid-citoiddialog-mode-manual}}“ погоре.",
+	"citoid-citoiddialog-use-general-error-message-title": "Не можев да ви направам навод.",
+	"citoid-citoiddialog-use-general-error-message-body": "Пробајте со друг извор или создајте рачен навод користејќи го јазичето „{{int:citoid-citoiddialog-mode-manual}}“ погоре.",
 	"citoid-citoiddialog-reliability-back": "Пробај со нов извор",
 	"citoid-citoiddialog-reliability-unreliable-description": "Овој изворе се смета за недоверлив од нашата заедница, па затоа не е дозволен. Изберете поинаков доверлив извор.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Ова мрежно место е блокирано",

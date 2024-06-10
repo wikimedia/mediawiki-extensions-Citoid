@@ -7,11 +7,12 @@
 			"Tofeiku"
 		]
 	},
-	"citoid-action-replace": "Tukar jenis rujukan",
+	"citoid-action-replace": "Gantikan petikan",
 	"citoid-citation-widget-insert-button": "Sisipkan",
 	"citoid-citoiddialog-back": "Kembali",
 	"citoid-citoiddialog-credit": "Dikuasakan oleh $1",
 	"citoid-citoiddialog-lookup-button": "Cipta",
+	"citoid-citoiddialog-manual-button": "Tambah secara manual",
 	"citoid-citoiddialog-mode-auto": "Automatik",
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Guna semula",
@@ -20,6 +21,8 @@
 	"citoid-citoiddialog-title": "Tambah petikan",
 	"citoid-citoiddialog-title-replace": "Ganti petikan",
 	"citoid-citoiddialog-use-general-error-message": "Kami tidak dapat membuat petikan untuk anda. Anda boleh menciptanya secara manual menggunakan tab \"{{int:citoid-citoiddialog-mode-manual}}\" di atas.",
+	"citoid-citoiddialog-use-general-error-message-title": "Kami tidak dapat membuat petikan untuk anda.",
+	"citoid-citoiddialog-use-general-error-message-body": "Cuba sumber lain atau buat satu secara manual menggunakan tab \"{{int:citoid-citoiddialog-mode-manual}}\" di atas.",
 	"citoid-citoiddialog-reliability-back": "Cuba sumber baharu",
 	"citoid-citoiddialog-reliability-unreliable-description": "Sumber ini dianggap tidak boleh dipercayai oleh komuniti kami, oleh itu penggunaan sumber ini tidak dibenarkan. Sila pilih sumber lain yang boleh dipercayai.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Laman ini telah disekat",
