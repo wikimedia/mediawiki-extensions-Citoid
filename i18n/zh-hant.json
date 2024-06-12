@@ -8,13 +8,16 @@
 			"LNDDYL",
 			"Liuxinyu970226",
 			"Shangkuanlc",
-			"Wehwei"
+			"Wehwei",
+			"Arielyurusova",
+			"Cookai1205",
+			"Winston Sung"
 		]
 	},
 	"citoid-action-replace": "變更參考類型",
 	"citoid-citation-widget-insert-button": "插入",
 	"citoid-citoiddialog-back": "返回",
-	"citoid-citoiddialog-credit": "由 $1 提供支持",
+	"citoid-citoiddialog-credit": "由 $1 提供技術支援",
 	"citoid-citoiddialog-lookup-button": "產生",
 	"citoid-citoiddialog-mode-auto": "自動",
 	"citoid-citoiddialog-mode-manual": "手動",
@@ -25,7 +28,7 @@
 	"citoid-citoiddialog-search-progress": "搜尋中，請稍候…",
 	"citoid-citoiddialog-title": "新增引用",
 	"citoid-citoiddialog-title-replace": "取代引用",
-	"citoid-citoiddialog-use-general-error-message": "我們無法為您建立引用。您可使用上方 \"{{int:citoid-citoiddialog-mode-manual}}\" 頁籤自行建立。",
+	"citoid-citoiddialog-use-general-error-message": "我們無法為您建立引用。您可使用上方「{{int:citoid-citoiddialog-mode-manual}}」頁籤自行建立。",
 	"citoid-citoidtool-title": "引用",
 	"citoid-citoidtool-title-othergroup": "引用",
 	"citoid-desc": "提供於 citoid 服務與 MediaWiki 間的存取點",
