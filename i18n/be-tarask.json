@@ -6,7 +6,7 @@
 			"Vlad5250"
 		]
 	},
-	"citoid-action-replace": "Зьмяніць тып спасылкі",
+	"citoid-action-replace": "Зьмяніць цытату",
 	"citoid-citation-widget-insert-button": "Уставіць",
 	"citoid-citoiddialog-back": "Назад",
 	"citoid-citoiddialog-credit": "Пры падтрымцы $1",
@@ -14,7 +14,7 @@
 	"citoid-citoiddialog-mode-auto": "Аўтаматычна",
 	"citoid-citoiddialog-mode-manual": "Уручную",
 	"citoid-citoiddialog-mode-reuse": "Паўторнае ўжываньне",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, загаловак ці цытата",
+	"citoid-citoiddialog-search-label": "Для стварэньня крыніцы ўвядзіце спасылку або код крыніцы (ISBN, DOI ці іншае)",
 	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com",
 	"citoid-citoiddialog-title": "Дадаць цытату",
 	"citoid-citoiddialog-title-replace": "Замяніць цытаваньне",
@@ -27,5 +27,5 @@
 	"citoid-unknown-error": "Адбылася невядомая памылка, якая не дала магчымасьць стварыць цытату. Калі ласка, паспрабуйце пазьней.",
 	"citoid-wb-referenceview-tabs-automatic": "Аўтаматычна",
 	"citoid-wb-referenceview-tabs-search": "пошук",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI ці QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ці QID:"
 }
