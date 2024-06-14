@@ -35,7 +35,8 @@
 				"ve.ui.CitoidReferenceContextItem.js",
 				"ve.ui.CitoidInspector.js",
 				"ve.ui.CitoidAction.js",
-				"ve.ui.Citoid.init.js"
+				"ve.ui.Citoid.init.js",
+				"ve.ui.SetExtendsContentDialog.js"
 			],
 			"styles": [
 				"ve.ui.ISBNScannerDialog.less",
