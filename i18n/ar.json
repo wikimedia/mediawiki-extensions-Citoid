@@ -10,6 +10,7 @@
 			"SaldırganSincap",
 			"Shbib Al-Subaie",
 			"ديفيد",
+			"علاء",
 			"فلورانس",
 			"محمد أحمد عبد الفتاح"
 		]
@@ -22,7 +23,7 @@
 	"citoid-citoiddialog-mode-auto": "آلي",
 	"citoid-citoiddialog-mode-manual": "يدوي",
 	"citoid-citoiddialog-mode-reuse": "أعد الاستخدام",
-	"citoid-citoiddialog-search-label": "ادخل رابطا او رمزا مرجعيا(ISBN, DOI او غير ذلك) لانشاء الاقتباس.",
+	"citoid-citoiddialog-search-label": "أدخل مسارًا أو رمزًا مرجعيًّا (ردمك، دُوِي، وغيرها) لإنشاء الاستشهاد.",
 	"citoid-citoiddialog-search-placeholder": "مثال: http://www.example.com",
 	"citoid-citoiddialog-title": "إضافة استشهاد",
 	"citoid-citoiddialog-title-replace": "استبدال الاستشهاد",
