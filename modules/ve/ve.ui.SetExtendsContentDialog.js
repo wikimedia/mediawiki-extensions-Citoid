@@ -61,6 +61,13 @@ ve.ui.SetExtendsContentDialog.prototype.initialize = function () {
 		scrollable: true, padded: true
 	} );
 
+	// Icon message widget
+	this.extendsWarning = new OO.ui.MessageWidget( {
+		icon: 'alert',
+		inline: true,
+		classes: [ 've-ui-setExtendsContentDialog-warning' ]
+	} );
+
 	this.referenceTarget = ve.init.target.createTargetWidget(
 		{
 			includeCommands: ve.ui.MWReferenceDialog.static.includeCommands,
@@ -72,12 +79,10 @@ ve.ui.SetExtendsContentDialog.prototype.initialize = function () {
 		}
 	);
 
-	this.$editNotice = $( '<p>' );
-
 	this.contentFieldset = new OO.ui.FieldsetLayout();
 	this.contentFieldset.$element.append( this.referenceTarget.$element );
 
-	this.editPanel.$element.append( this.$editNotice, this.contentFieldset.$element );
+	this.editPanel.$element.append( this.extendsWarning.$element, this.contentFieldset.$element );
 
 	this.$body.append( this.editPanel.$element );
 };
@@ -94,7 +99,8 @@ ve.ui.SetExtendsContentDialog.prototype.getSetupProcess = function ( data ) {
 			const originalItemNode = data.internalList.getItemNode( this.originalRef.getListIndex() );
 			const originalRefText = new ve.ui.MWPreviewElement( originalItemNode, { useView: true } ).$element.text();
 			// TODO extends i18n
-			this.$editNotice.text( 'Extending: ' + originalRefText );
+			const warningMessage = `This is an extension of another reference "${ originalRefText }".`;
+			this.extendsWarning.setLabel( warningMessage );
 
 			this.referenceTarget.setDocument( this.newRef.getDocument() );
 		} );

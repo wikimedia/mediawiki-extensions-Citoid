@@ -42,7 +42,8 @@
 				"ve.ui.ISBNScannerDialog.less",
 				"ve.ui.CiteSourceSelectWidget.less",
 				"ve.ui.CitoidInspector.less",
-				"ve.ui.CitoidReferenceContextItem.less"
+				"ve.ui.CitoidReferenceContextItem.less",
+				"ve.ui.SetExtendsContentDialog.less"
 			],
 			"dependencies": [
 				"ext.cite.visualEditor",
