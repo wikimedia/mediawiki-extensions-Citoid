@@ -10,7 +10,8 @@
 			"Susannaanas",
 			"Valtlait",
 			"Yupik",
-			"Valtlai"
+			"Valtlai",
+			"Samoasambia"
 		]
 	},
 	"citoid-action-replace": "Vaihda viitteen muotoa",
@@ -26,13 +27,13 @@
 	"citoid-citoiddialog-search-placeholder": "esim. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Etsitään, odota...",
 	"citoid-citoiddialog-title": "Lisää viittaus",
-	"citoid-citoiddialog-title-replace": "Korvaa viite",
+	"citoid-citoiddialog-title-replace": "Korvaa viittaus",
 	"citoid-citoiddialog-use-general-error-message": "Viittaustasi ei voitu luoda. Voit luoda sen manuaalisesti käyttämällä ylläolevaa \"{{int:citoid-citoiddialog-mode-manual}}\"-välilehteä.",
 	"citoid-citoidtool-title": "Viittaa",
 	"citoid-citoidtool-title-othergroup": "Viite",
 	"citoid-desc": "Mahdollistaa citoid-palvelun käytön MediaWikissä",
 	"citoid-referencecontextitem-convert-button": "Muunna",
-	"citoid-referencecontextitem-convert-message": "Tämä viite koostuu pelkästä linkistä. Voit päivittää sen muoto-ohjeiden mukaiseksi viitteeksi käyttämällä ”{{int:citoid-referencecontextitem-convert-button}}”-toimintoa.",
+	"citoid-referencecontextitem-convert-message": "Voit käyttää alhaalla olevaa ”{{int:citoid-referencecontextitem-convert-button}}”-painiketta päivittääksesi viitteen ulkoisesta linkistä muoto-ohjeiden mukaiseksi viitteeksi.",
 	"citoid-unknown-error": "Viitteen luominen epäonnistui tuntemattomasta syystä. Yritä myöhemmin uudelleen.",
 	"citoid-wb-referenceview-tabs-automatic": "Automaattinen",
 	"citoid-wb-referenceview-tabs-search": "haku",
