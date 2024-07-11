@@ -99,8 +99,9 @@ ve.ui.SetExtendsContentDialog.prototype.getSetupProcess = function ( data ) {
 			const originalItemNode = data.internalList.getItemNode( this.originalRef.getListIndex() );
 			const originalRefText = new ve.ui.MWPreviewElement( originalItemNode, { useView: true } ).$element.text();
 			// TODO extends i18n
-			const warningMessage = `This is an extension of another reference "${ originalRefText }".`;
-			this.extendsWarning.setLabel( warningMessage );
+			this.extendsWarning.setLabel( new OO.ui.HtmlSnippet(
+				`${ mw.msg( 'cite-ve-dialog-reference-editing-extends' ) }</br>${ originalRefText }`
+			) );
 
 			this.referenceTarget.setDocument( this.newRef.getDocument() );
 		} );
