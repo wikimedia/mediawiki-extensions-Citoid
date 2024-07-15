@@ -19,7 +19,6 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, sesirah, utawa sitiran",
 	"citoid-citoiddialog-search-placeholder": "conto http://www.example.com",
 	"citoid-citoiddialog-title": "Wuwuh sitiran",
-	"citoid-citoiddialog-use-general-error-message": "Awak dhéwé ora bisa nggawékaké kowé sitiran. Kowé bisa nggawé dhéwé nganggo tab \"{{int:citoid-citoiddialog-mode-manual}}\" ing ndhuwur.",
 	"citoid-citoidtool-title": "Sitir",
 	"citoid-citoidtool-title-othergroup": "Sitiran",
 	"citoid-desc": "Nyepakaké titik aksès antara paladèn sitiran lan MediaWiki",

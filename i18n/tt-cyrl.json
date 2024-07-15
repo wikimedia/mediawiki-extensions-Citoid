@@ -18,7 +18,6 @@
 	"citoid-citoiddialog-search-placeholder": "мәсәлән, http://www.example.com",
 	"citoid-citoiddialog-title": "Чыганакка сылтама өстәү",
 	"citoid-citoiddialog-title-replace": "Чыганакны алыштырырга",
-	"citoid-citoiddialog-use-general-error-message": "Без сезнең өчен өзекне төзи алмадык. Аны, югарыдагы «{{int:citoid-citoiddialog-mode-manual}}» чыгартманы кулланып, кулдан ясарга була.",
 	"citoid-citoidtool-title": "Чыганакка җибәрү",
 	"citoid-citoidtool-title-othergroup": "Чыганакка җибәрү",
 	"citoid-desc": "Citoid сервисы һәм Медиавики арасында аралашу мөмкинлеген тәэмин итә.",

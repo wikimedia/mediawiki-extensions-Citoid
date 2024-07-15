@@ -15,7 +15,6 @@
 	"citoid-citoiddialog-search-placeholder": "مثال: http://www.example.com",
 	"citoid-citoiddialog-title": "اضافة استشهاد",
 	"citoid-citoiddialog-title-replace": "استبدال الاستشهاد",
-	"citoid-citoiddialog-use-general-error-message": "مقدرناش نعمل الاقتباس, تقدر تعمل واحد بشكل يدوى عن طريق التبويب \"{{int:citoid-citoiddialog-mode-manual}}\" فوق.",
 	"citoid-citoidtool-title": "مرجع",
 	"citoid-citoidtool-title-othergroup": "اقتباس",
 	"citoid-desc": "بيوفر نقطة وصول بين citoid و ميدياويكى",

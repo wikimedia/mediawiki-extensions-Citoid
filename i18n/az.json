@@ -19,7 +19,6 @@
 	"citoid-citoiddialog-search-placeholder": "məs. http://www.example.com",
 	"citoid-citoiddialog-title": "İstinad əlavə et",
 	"citoid-citoiddialog-title-replace": "İstinadı dəyiş",
-	"citoid-citoiddialog-use-general-error-message": "Sənin üçün istinad yarada bilmədik. Yuxarıdakı \"{{int:citoid-citoiddialog-mode-manual}}\" bölməsindən özünüz əllə yarada bilərsiniz.",
 	"citoid-citoiddialog-use-general-error-message-title": "Sizin üçün istinad yarada bilmədik.",
 	"citoid-citoiddialog-use-general-error-message-body": "Başqa mənbəni sınayın və ya yuxarıdakı \"{{int:citoid-citoiddialog-mode-manual}}\" bölməsindən istifadə edərək manual olaraq yaradın.",
 	"citoid-citoiddialog-reliability-back": "Yeni mənbə cəhd edin",

@@ -23,7 +23,6 @@
 	"citoid-citoiddialog-search-placeholder": "ekzemple http://www.ekzemplo.com",
 	"citoid-citoiddialog-title": "Aldoni citon",
 	"citoid-citoiddialog-title-replace": "Anstataŭigi citaĵon",
-	"citoid-citoiddialog-use-general-error-message": "Ni ne povis krei citaĵon por vi. Vi povas krei la citaĵon permane per la supra langeto \"{{int:citoid-citoiddialog-mode-manual}}\".",
 	"citoid-citoidtool-title": "Citado",
 	"citoid-citoidtool-title-othergroup": "Citaĵo",
 	"citoid-desc": "Provizi alirpunktojn inter la servo Citoid kaj MediaWiki",

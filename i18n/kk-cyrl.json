@@ -16,7 +16,6 @@
 	"citoid-citoiddialog-search-placeholder": "мысалы http://www.example.com",
 	"citoid-citoiddialog-title": "Дереккөз қосу",
 	"citoid-citoiddialog-title-replace": "Дереккөзі ауыстыру",
-	"citoid-citoiddialog-use-general-error-message": "Сіз үшін дереккөз жасай алмадық. \"{{int:citoid-citoiddialog-mode-manual}}\" қолданып қолмен жасай аласыз.",
 	"citoid-citoidtool-title": "Дереккөзін көрсету",
 	"citoid-citoidtool-title-othergroup": "Дереккөз көрсету",
 	"citoid-referencecontextitem-convert-button": "Түрлендіру",

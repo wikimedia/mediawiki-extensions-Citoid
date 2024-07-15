@@ -16,7 +16,6 @@
 	"citoid-citoiddialog-search-placeholder": "тӗслӗхорен, http://www.example.com",
 	"citoid-citoiddialog-title": "Ҫӑлкуҫ ҫине каҫӑ хуш",
 	"citoid-citoiddialog-title-replace": "Ҫӑлкуҫа улӑштар",
-	"citoid-citoiddialog-use-general-error-message": "Эпир сире валли цитата хатӗрлеймерӗмӗр. Ҫӳлерех вырнаҫнӑ «{{int:citoid-citoiddialog-mode-manual}}» вкладкӑпа уҫӑ курса ӑна алӑпа тума май пур.",
 	"citoid-citoiddialog-reliability-back": "Тепӗр ҫӑлкуҫпа усӑ курса пӑхӑр",
 	"citoid-citoiddialog-reliability-unreliable-description": "Пирӗн пӗрлӗхре ку ҫӑлкуҫ шанчӑксӑрри шутне кӗрет, ҫавна май унпа усӑ курма юрамасть. Тархасшӑн, урӑх ҫӑлкуҫа, шанчӑклӑраххине, кӑтартӑр.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Ку сайта блокласа хунӑ",

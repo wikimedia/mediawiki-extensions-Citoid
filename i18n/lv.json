@@ -17,7 +17,6 @@
 	"citoid-citoiddialog-search-placeholder": "piemēram, http://www.piemers.com",
 	"citoid-citoiddialog-title": "Pievienot atsauci",
 	"citoid-citoiddialog-title-replace": "Aizvietot atsauci",
-	"citoid-citoiddialog-use-general-error-message": "Neizdevās izveidot atsauci. Tu vari to izveidot manuāli, izmantojot \"{{int:citoid-citoiddialog-mode-manual}}\" cilni.",
 	"citoid-citoiddialog-reliability-back": "Izmēģini jaunu avotu",
 	"citoid-citoiddialog-reliability-unreliable-description": "Mūsu kopiena šo avotu uzskata par neuzticamu, tāpēc tas nav atļauts. Lūdzu, izvēlies citu uzticamu avotu.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Šī vietne ir bloķēta",

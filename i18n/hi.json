@@ -22,7 +22,6 @@
 	"citoid-citoiddialog-search-placeholder": "जैसे http://www.example.com",
 	"citoid-citoiddialog-title": "उद्धरण जोड़ें",
 	"citoid-citoiddialog-title-replace": "उद्धरण को बदलें",
-	"citoid-citoiddialog-use-general-error-message": "हम आपके लिए उद्धरण नहीं बना पाए। आप ऊपर के \"{{int:citoid-citoiddialog-mode-manual}}\" टैब का इस्तेमाल करके इसे खुद बना सकते हैं।",
 	"citoid-citoidtool-title": "उद्धृत करें",
 	"citoid-citoidtool-title-othergroup": "उद्धरण",
 	"citoid-desc": "Citoid सेवा और मीडियाविकि के बीच अभिगम बिंदुएँ का प्रदान करता है",

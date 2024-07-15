@@ -28,7 +28,6 @@
 	"citoid-citoiddialog-search-placeholder": "例 http://www.example.com",
 	"citoid-citoiddialog-title": "引用を追加",
 	"citoid-citoiddialog-title-replace": "引用の置き換え",
-	"citoid-citoiddialog-use-general-error-message": "出典を生成できませんでした。上にある「{{int:citoid-citoiddialog-mode-manual}}」タブを使って、手動で作成することもできます。",
 	"citoid-citoidtool-title": "引用",
 	"citoid-citoidtool-title-othergroup": "引用",
 	"citoid-desc": "citoid サービスとMediaWikiとの間のアクセスポイントを提供する",

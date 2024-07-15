@@ -29,7 +29,6 @@
 	"citoid-citoiddialog-search-placeholder": "ör. http://www.example.com",
 	"citoid-citoiddialog-title": "Kaynak ekle",
 	"citoid-citoiddialog-title-replace": "Kaynağı değiştir",
-	"citoid-citoiddialog-use-general-error-message": "Sizin için bir kaynak oluşturamadık. Yukarıdaki \"{{int:citoid-citoiddialog-mode-manual}}\" sekmesini kullanarak elle bir tane oluşturabilirsiniz.",
 	"citoid-citoiddialog-use-general-error-message-title": "Sizin için bir alıntı oluşturamadık.",
 	"citoid-citoiddialog-use-general-error-message-body": "Başka bir kaynağı deneyin ya da yukarıdaki \"{{int:citoid-citoiddialog-mode-manual}}\" sekmesini kullanarak elle bir tane oluşturun.",
 	"citoid-citoiddialog-reliability-back": "Yeni bir kaynak deneyin",

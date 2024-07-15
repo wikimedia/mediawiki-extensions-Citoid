@@ -19,7 +19,6 @@
 	"citoid-citoiddialog-search-placeholder": "npr. http://www.example.com",
 	"citoid-citoiddialog-title": "Dodaj sklic",
 	"citoid-citoiddialog-title-replace": "Zamenjava sklica",
-	"citoid-citoiddialog-use-general-error-message": "Za vas nismo mogli ustvariti sklica. Ustvarite ga lahko ročno z zgornjim zavihkom »{{int:citoid-citoiddialog-mode-manual}}«.",
 	"citoid-citoidtool-title": "Navedi",
 	"citoid-citoidtool-title-othergroup": "Sklic",
 	"citoid-desc": "Zagotavlja točke dostopa med storitvama citoid in MediaWiki",

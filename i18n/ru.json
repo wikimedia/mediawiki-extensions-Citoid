@@ -34,7 +34,6 @@
 	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
 	"citoid-citoiddialog-title": "Добавить ссылку на источник",
 	"citoid-citoiddialog-title-replace": "Заменить ссылку на источник",
-	"citoid-citoiddialog-use-general-error-message": "Мы не смогли сформировать для вас ссылку цитирования. Её можно создать вручную, используя вкладку «{{int:citoid-citoiddialog-mode-manual}}» выше.",
 	"citoid-citoiddialog-reliability-back": "Попробуйте другой источник",
 	"citoid-citoiddialog-reliability-unreliable-description": "Этот источник считается ненадёжным в нашем сообществе и потому не допускается. Пожалуйста, выберите другой более надёжный источник.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Этот сайт заблокирован",

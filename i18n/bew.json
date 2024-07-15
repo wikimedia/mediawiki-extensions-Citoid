@@ -16,7 +16,6 @@
 	"citoid-citoiddialog-search-placeholder": "tulad: http://www.example.com",
 	"citoid-citoiddialog-title": "Tambah tukilan",
 	"citoid-citoiddialog-title-replace": "Ganti tukilan",
-	"citoid-citoiddialog-use-general-error-message": "Kita kaga' bisa ngeja tukilan bakal lu. Lu bisa keja sendiri manual paké lembaran \"{{int:citoid-citoiddialog-mode-manual}}\" di atas.",
 	"citoid-citoidtool-title": "Tukil",
 	"citoid-citoidtool-title-othergroup": "Tukilan",
 	"citoid-desc": "Nyediain titik aksès antara ladènan citoid èn MediaWiki",

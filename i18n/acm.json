@@ -16,7 +16,6 @@
 	"citoid-citoiddialog-search-placeholder": "مثال: http://www.example.com",
 	"citoid-citoiddialog-title": "حط استشهاد",
 	"citoid-citoiddialog-title-replace": "بدل استشهاد",
-	"citoid-citoiddialog-use-general-error-message": "ما كدرنه نسوي الاقتباس الك، تكدر تسوي واحد يدويا باستخدام التبويب \"{{int:citoid-citoiddialog-mode-manual}}\" اللي فوك.",
 	"citoid-citoidtool-title": "استشهد",
 	"citoid-citoidtool-title-othergroup": "استشهاد",
 	"citoid-desc": "يوفر نقطة وصول بين سيتويد وميدياويكي",

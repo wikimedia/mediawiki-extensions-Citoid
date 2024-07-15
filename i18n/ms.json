@@ -20,7 +20,6 @@
 	"citoid-citoiddialog-search-placeholder": "cth. http://www.example.com",
 	"citoid-citoiddialog-title": "Tambah petikan",
 	"citoid-citoiddialog-title-replace": "Ganti petikan",
-	"citoid-citoiddialog-use-general-error-message": "Kami tidak dapat membuat petikan untuk anda. Anda boleh menciptanya secara manual menggunakan tab \"{{int:citoid-citoiddialog-mode-manual}}\" di atas.",
 	"citoid-citoiddialog-use-general-error-message-title": "Kami tidak dapat membuat petikan untuk anda.",
 	"citoid-citoiddialog-use-general-error-message-body": "Cuba sumber lain atau buat satu secara manual menggunakan tab \"{{int:citoid-citoiddialog-mode-manual}}\" di atas.",
 	"citoid-citoiddialog-reliability-back": "Cuba sumber baharu",

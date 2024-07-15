@@ -27,7 +27,6 @@
 	"citoid-citoiddialog-search-placeholder": "esim. http://www.example.com",
 	"citoid-citoiddialog-title": "Lisää viittaus",
 	"citoid-citoiddialog-title-replace": "Korvaa viittaus",
-	"citoid-citoiddialog-use-general-error-message": "Viittaustasi ei voitu luoda. Voit luoda sen manuaalisesti käyttämällä ylläolevaa \"{{int:citoid-citoiddialog-mode-manual}}\"-välilehteä.",
 	"citoid-citoiddialog-use-general-error-message-title": "Viittaustasi ei voitu luoda.",
 	"citoid-citoiddialog-use-general-error-message-body": "Kokeile toista lähdettä tai luo viittaus manuaalisesti käyttämällä ylläolevaa \"{{int:citoid-citoiddialog-mode-manual}}\"-välilehteä.",
 	"citoid-citoiddialog-reliability-back": "Kokeile uutta lähdettä",

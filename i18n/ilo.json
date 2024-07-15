@@ -14,7 +14,6 @@
 	"citoid-citoiddialog-search-label": "URL, DOI wenno PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "kas iti http://www.example.com",
 	"citoid-citoiddialog-title": "Aginayon iti dakamat",
-	"citoid-citoiddialog-use-general-error-message": "Saankami a makaaramid iti dakamat para kenka. Mabalinmo ti manual nga agpartuat babaen ti panagusar iti etiketa ti \"{{int:citoid-citoiddialog-mode-manual}}\" dita ngato.",
 	"citoid-citoidtool-title": "Dakamaten",
 	"citoid-citoidtool-title-othergroup": "Dakamat",
 	"citoid-desc": "Mangited kadagiti pagserrekan a punto a pagbaetan ti serbisio ti citoid ken MediaWiki",

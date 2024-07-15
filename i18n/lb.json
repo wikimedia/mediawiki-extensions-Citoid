@@ -21,7 +21,6 @@
 	"citoid-citoiddialog-search-placeholder": "z. B. http://www.example.com",
 	"citoid-citoiddialog-title": "En Zitat derbäisetzen",
 	"citoid-citoiddialog-title-replace": "Zitat ersetzen",
-	"citoid-citoiddialog-use-general-error-message": "Mir konnte fir Iech keen Zitat maachen. Dir kënnt ee manuell maache wann Dir den Tab \"{{int:citoid-citoiddialog-mode-manual}}\" hei driwwer benotzt.",
 	"citoid-citoidtool-title": "Zitéieren",
 	"citoid-citoidtool-title-othergroup": "Zitat",
 	"citoid-desc": "Liwwert Zougrëffspunkten tëscht dem citoid-Service a MediaWiki",

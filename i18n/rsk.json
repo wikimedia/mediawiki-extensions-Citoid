@@ -17,7 +17,6 @@
 	"citoid-citoiddialog-search-placeholder": "наприклад, http://www.example.com",
 	"citoid-citoiddialog-title": "Додаванє референци",
 	"citoid-citoiddialog-title-replace": "Заменїц референцу",
-	"citoid-citoiddialog-use-general-error-message": "Нє можлїве ґенеровац референцу. Можеце ю унєсц ручно хаснуюци карточку „{{int:citoid-citoiddialog-mode-manual}}” на табу понад.",
 	"citoid-citoidtool-title": "Референца",
 	"citoid-citoidtool-title-othergroup": "Цитированє",
 	"citoid-desc": "Оможлївює повязаносц  медзи сервисом citoid и MediaWiki-йом",

@@ -15,7 +15,6 @@
 	"citoid-citoiddialog-search-label": "URL, DOI o PMC/PMID",
 	"citoid-citoiddialog-search-placeholder": "p.e. http://www.exemplu.com",
 	"citoid-citoiddialog-title": "Amestar una cita",
-	"citoid-citoiddialog-use-general-error-message": "Nun pudimos crear la cita por ti. Puedes crear una manualmente usando la llingüeta «{{int:citoid-citoiddialog-mode-manual}}» de más arriba.",
 	"citoid-citoidtool-title": "Citar",
 	"citoid-citoidtool-title-othergroup": "Cita",
 	"citoid-desc": "Ufre puntos d'accesu ente'l serviciu Citoid y MediaWiki",

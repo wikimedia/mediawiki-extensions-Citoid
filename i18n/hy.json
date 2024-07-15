@@ -22,7 +22,6 @@
 	"citoid-citoiddialog-search-placeholder": "օր.՝ http://www.example.com",
 	"citoid-citoiddialog-title": "Ավելացնել աղբյուր",
 	"citoid-citoiddialog-title-replace": "Փոխարինեք մեջբերումը",
-	"citoid-citoiddialog-use-general-error-message": "Ավտոմատ աղբյուր ավելացնելը չստացվեց: Կարող ես անել ինքնուրույն` օգտվելով «{{int:citoid-citoiddialog-mode-manual}}» բաժնից:",
 	"citoid-citoidtool-title": "Աղբյուր",
 	"citoid-desc": "Կապ է հաստատում ծանոթագրության և ՄեդիաՎիքիի միջև:",
 	"citoid-referencecontextitem-convert-button": "Փոխարկել",

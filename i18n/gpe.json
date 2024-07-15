@@ -16,7 +16,6 @@
 	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
 	"citoid-citoiddialog-title": "Add citation",
 	"citoid-citoiddialog-title-replace": "Replace citation",
-	"citoid-citoiddialog-use-general-error-message": "We no fi make citation give you. You fi create one manually dey use de \"{{int:citoid-citoiddialog-mode-manual}}\" tab above.",
 	"citoid-citoidtool-title": "Cite",
 	"citoid-citoidtool-title-othergroup": "Citation",
 	"citoid-desc": "Dey provide access points between de citoid service den MediaWiki",

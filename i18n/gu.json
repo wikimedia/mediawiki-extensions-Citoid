@@ -18,7 +18,6 @@
 	"citoid-citoiddialog-search-placeholder": "દા.ત. http://www.example.com",
 	"citoid-citoiddialog-title": "સંદર્ભ ઉમેરો",
 	"citoid-citoiddialog-title-replace": "સંદર્ભ બદલો",
-	"citoid-citoiddialog-use-general-error-message": "તમારા માટે અમે સંદર્ભ બનાવી શક્યા નથી. તમે \"{{int:citoid-citoiddialog-mode-manual}}\"નો ઉપયોગ કરીને જાતે સંદર્ભ ઉમેરી શકો છો.",
 	"citoid-citoidtool-title": "ટાંકો",
 	"citoid-citoidtool-title-othergroup": "સંદર્ભ",
 	"citoid-desc": "citoid સેવા અને મિડિયાવિકિ વચ્ચે માર્ગ બિંદુઓ પૂરા પાડે છે",

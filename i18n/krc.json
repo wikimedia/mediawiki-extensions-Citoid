@@ -18,7 +18,6 @@
 	"citoid-citoiddialog-search-placeholder": "сёз ючюн, http://www.example.com",
 	"citoid-citoiddialog-title": "Цитата къош",
 	"citoid-citoiddialog-title-replace": "Цитатаны тюрлендир",
-	"citoid-citoiddialog-use-general-error-message": "Сизни ючюн цитата болдуралмадыкъ. Ёргедеги \"{{int:citoid-citoiddialog-mode-manual}}\" салгъычны хайырланыб, къол бла кесигиз этерчады.",
 	"citoid-citoiddialog-reliability-back": "Джангы къайнакъ сынагъыз",
 	"citoid-citoiddialog-reliability-unreliable-description": "Бу къайнакъ, джамагъатыбызда ышанырчагъа саналмайды, ол себебден эркинлик берилмейди. Тилейбиз, башха ышангылы къайнакъ сайлагъыз.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Бу сайт блокдады",

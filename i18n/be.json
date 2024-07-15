@@ -20,7 +20,6 @@
 	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com",
 	"citoid-citoiddialog-title": "Дадаць цытаванне",
 	"citoid-citoiddialog-title-replace": "Замяніць цытаванне",
-	"citoid-citoiddialog-use-general-error-message": "У нас не атрымалася зрабіць цытату для вас. Вы можаце стварыць яе самі з дапамогай укладкі «{{int:citoid-citoiddialog-mode-manual}}» вышэй.",
 	"citoid-citoidtool-title": "Крыніца",
 	"citoid-citoidtool-title-othergroup": "Цытата",
 	"citoid-desc": "Забяспечвае пункты доступу між сэрвісам citoid і MediaWiki",

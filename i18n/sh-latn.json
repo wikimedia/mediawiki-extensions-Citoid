@@ -16,7 +16,6 @@
 	"citoid-citoiddialog-search-placeholder": "npr. http://www.example.com",
 	"citoid-citoiddialog-title": "Dodavanje reference",
 	"citoid-citoiddialog-title-replace": "Zamjena reference",
-	"citoid-citoiddialog-use-general-error-message": "Ne mogu da generiram referencu. Možete je unijeti ručno upotrebom kartice „{{int:citoid-citoiddialog-mode-manual}}” iznad.",
 	"citoid-citoidtool-title": "Referenca",
 	"citoid-citoidtool-title-othergroup": "Referenca",
 	"citoid-desc": "Pruža tačke pristupa između usluge Citoid i MediaWikija",

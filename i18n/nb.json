@@ -22,7 +22,6 @@
 	"citoid-citoiddialog-search-placeholder": "f.eks. http://www.example.com",
 	"citoid-citoiddialog-title": "Legg til en sitering",
 	"citoid-citoiddialog-title-replace": "Erstatt sitering",
-	"citoid-citoiddialog-use-general-error-message": "Klarte ikke å lage en automatisk sitering. Du kan lage en manuelt ved å bruke arkfanen «{{int:citoid-citoiddialog-mode-manual}}» ovenfor.",
 	"citoid-citoiddialog-use-general-error-message-title": "Vi kunne ikke lage en sitering for deg.",
 	"citoid-citoiddialog-use-general-error-message-body": "Prøv en annen kilde, eller opprett en manuelt ved å bruke fanen «{{int:citoid-citoiddialog-mode-manual}}» ovenfor.",
 	"citoid-citoiddialog-reliability-back": "Prøv en ny kilde",

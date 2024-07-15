@@ -15,7 +15,6 @@
 	"citoid-citoiddialog-search-placeholder": "Жнь.: http://www.example.com",
 	"citoid-citoiddialog-title": "Эш татах",
 	"citoid-citoiddialog-title-replace": "Эшлэлийг орлуулах",
-	"citoid-citoiddialog-use-general-error-message": "Эш татахад алдаа гарлаа. Дээрх \"{{int:citoid-citoiddialog-mode-manual}}\" товч дээр дарж эшлэлээ оруулна уу.",
 	"citoid-citoidtool-title": "Эш татах",
 	"citoid-citoidtool-title-othergroup": "Эшлэл",
 	"citoid-referencecontextitem-convert-button": "Хөрвүүлэх",

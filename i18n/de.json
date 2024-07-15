@@ -22,7 +22,6 @@
 	"citoid-citoiddialog-search-placeholder": "z.&nbsp;B. http://www.example.com",
 	"citoid-citoiddialog-title": "Einen Beleg hinzufügen",
 	"citoid-citoiddialog-title-replace": "Beleg ersetzen",
-	"citoid-citoiddialog-use-general-error-message": "Wir konnten kein Zitat für dich erstellen. Du kannst eines manuell erstellen, indem du den Reiter „{{int:citoid-citoiddialog-mode-manual}}“ oben benutzt.",
 	"citoid-citoiddialog-use-general-error-message-title": "Es konnte kein Einzelnachweis erstellt werden.",
 	"citoid-citoiddialog-use-general-error-message-body": "{{#FORMAL:Versuche|Versuchen Sie}} es mit einer anderen Quelle oder {{#FORMAL:Versuche|erstelle|erstellen Sie}} manuell eine mithilfe der Registerkarte „{{int:citoid-citoiddialog-mode-manual}}“ oberhalb.",
 	"citoid-citoiddialog-reliability-back": "Versuche es mit einem neuen Beleg",

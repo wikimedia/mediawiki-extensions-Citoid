@@ -18,7 +18,6 @@
 	"citoid-citoiddialog-search-placeholder": "bgl. http://www.example.com",
 	"citoid-citoiddialog-title": "In sitaat tafoegje",
 	"citoid-citoiddialog-title-replace": "Sitaat ferfange",
-	"citoid-citoiddialog-use-general-error-message": "Wy koene jo sitaat net oanmeitsje. Jo kinne de tab \"{{int:citoid-citoiddialog-mode-manual}}\" hjirboppe brûke om der hânmjittich ien te meitsjen.",
 	"citoid-citoidtool-title": "Sitearje",
 	"citoid-citoidtool-title-othergroup": "Sitaat",
 	"citoid-desc": "Jout tagongspunten tusken de citoid-tsjinst en MediaWiki",

@@ -24,7 +24,6 @@
 	"citoid-citoiddialog-search-placeholder": "ví dụ http://www.example.com",
 	"citoid-citoiddialog-title": "Thêm một chú thích",
 	"citoid-citoiddialog-title-replace": "Thay thế chú thích",
-	"citoid-citoiddialog-use-general-error-message": "Chúng tôi không thể tạo chú thích cho bạn. Bạn có thể tạo thủ công bằng cách sử dụng thẻ “{{int:citoid-citoiddialog-mode-manual}}” ở trên.",
 	"citoid-citoidtool-title": "Chú thích",
 	"citoid-citoidtool-title-othergroup": "Trích dẫn",
 	"citoid-desc": "Cung cấp các điểm truy cập giữa dịch vụ citoid và MediaWiki",

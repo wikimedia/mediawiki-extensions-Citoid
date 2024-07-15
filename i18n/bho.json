@@ -15,7 +15,6 @@
 	"citoid-citoiddialog-search-label": "यूआरऍल, डीऑआइ भा पीऍमआइडी",
 	"citoid-citoiddialog-search-placeholder": "उदाहरण http://www.example.com",
 	"citoid-citoiddialog-title": "उद्धरण जोड़ीं",
-	"citoid-citoiddialog-use-general-error-message": "रउवाँ खातिर उद्धरण जोड़े में हमनी के असफल बानी। रउआँ ऊपर के \"{{int:citoid-citoiddialog-mode-manual}}\" टैब द्वारा मैनुअली बना सकत बानी।",
 	"citoid-citoidtool-title": "उद्धरण",
 	"citoid-citoidtool-title-othergroup": "उद्धरण",
 	"citoid-desc": "citoid सर्विस आ MediaWiki के बीचा में एक्सेस प्वाइंट उपलब्ध करावे ला",

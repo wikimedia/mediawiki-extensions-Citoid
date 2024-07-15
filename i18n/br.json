@@ -20,7 +20,6 @@
 	"citoid-citoiddialog-search-placeholder": "da sk. http://www.example.com",
 	"citoid-citoiddialog-title": "Ouzhpennañ ur meneg",
 	"citoid-citoiddialog-title-replace": "Erlec'hiañ ar meneg",
-	"citoid-citoiddialog-use-general-error-message": "N’eo ket bet posubl aozañ un daveenn evitoc’h. Gallout a rit krouiñ unan dre zorn en un ober gant ar steudenn \"{{int:citoid-citoiddialog-mode-manual}}\" a-us.",
 	"citoid-citoiddialog-use-general-error-message-title": "N’omp ket deuet a-benn da aozañ ur veneg evitoc’h.",
 	"citoid-citoiddialog-use-general-error-message-body": "Grit gant ur vammenn all pe krouit unan gant ar steudenn \"{{int:citoid-citoiddialog-mode-manual}}\" a-is.",
 	"citoid-citoiddialog-reliability-back": "Esaeit ur vammenn nevez",

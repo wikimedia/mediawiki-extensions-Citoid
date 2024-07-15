@@ -20,7 +20,6 @@
 	"citoid-citoiddialog-search-placeholder": "بۆ نموونە: http://www.example.com",
 	"citoid-citoiddialog-title": "سەرچاوەیەک زیاد بکە",
 	"citoid-citoiddialog-title-replace": "جێگۆڕکێکردنی سەرچاوە",
-	"citoid-citoiddialog-use-general-error-message": "نەمانتوانی سەرچاوەکەت بۆ دروست بکەین. دەتوانی بە دەست لەڕێی بەکارھێنانی تابی «{{int:citoid-citoiddialog-mode-manual}}» دروستی بکەیت.",
 	"citoid-citoidtool-title": "ئاماژە",
 	"citoid-citoidtool-title-othergroup": "بەڵگەھێنانەوە",
 	"citoid-referencecontextitem-convert-button": "گۆڕین",

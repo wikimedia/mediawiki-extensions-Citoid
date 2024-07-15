@@ -18,7 +18,6 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
 	"citoid-citoiddialog-search-placeholder": "ఉదా: http://www.example.com",
 	"citoid-citoiddialog-title": "ఉల్లేఖనను చేర్చండి",
-	"citoid-citoiddialog-use-general-error-message": "ఉల్లేఖనను తయారు చెయ్యలేకపోయాం. పైనున్న \"{{int:citoid-citoiddialog-mode-manual}}\" ట్యాబుకు వెళ్ళి మీరే మానవికంగా తయారు చేసుకోవచ్చు.",
 	"citoid-citoidtool-title": "ఉల్లేఖించండి",
 	"citoid-citoidtool-title-othergroup": "ఉల్లేఖన",
 	"citoid-desc": "సైటాయిడ్, మీడియావికీల మధ్య యాక్సెస్ పాయింట్లను ఇస్తుంది",

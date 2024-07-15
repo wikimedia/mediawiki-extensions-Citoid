@@ -14,7 +14,6 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, tìtulu o tzitatzione",
 	"citoid-citoiddialog-search-placeholder": "es. http://www.esèmpiu.com",
 	"citoid-citoiddialog-title": "Annanghe una tzitatzione",
-	"citoid-citoiddialog-use-general-error-message": "Non semus resèssidos a creare una tzitatzione pro tene. Nde podes creare una in manera manuale impreende s'ischeda \"{{int:citoid-citoiddialog-mode-manual}}\" inoghe in subra.",
 	"citoid-citoidtool-title": "Tzita",
 	"citoid-citoidtool-title-othergroup": "Tzitatzione",
 	"citoid-desc": "Frunit puntos de atzessu intre su servìtziu citoid e MediaWiki",

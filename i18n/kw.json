@@ -14,7 +14,6 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titel, po devyn",
 	"citoid-citoiddialog-search-placeholder": "rag ensampel http://www.example.com",
 	"citoid-citoiddialog-title": "Keworra devyn",
-	"citoid-citoiddialog-use-general-error-message": "Ny yllsyn gul devyn dhywgh. Hwi a yll gul onan dre dorn yn unn usya an tabb \"{{int:citoid-citoiddialog-mode-manual}}\" a-ugh.",
 	"citoid-citoidtool-title": "Devynna",
 	"citoid-citoidtool-title-othergroup": "Devyn",
 	"citoid-referencecontextitem-convert-button": "Ketreylya",

@@ -24,7 +24,6 @@
 	"citoid-citoiddialog-search-placeholder": "উদা. http://www.example.com",
 	"citoid-citoiddialog-title": "একটি উদ্ধৃতি যোগ করুন",
 	"citoid-citoiddialog-title-replace": "উদ্ধৃতি প্রতিস্থাপন",
-	"citoid-citoiddialog-use-general-error-message": "দুঃখিত, উদ্ধৃতি তৈরি করা যাচ্ছে না। অনুগ্রহ করে উপরের \"{{int:citoid-citoiddialog-mode-manual}}\" ট্যাবের মাধ্যমে এটি তৈরি করতে চেষ্টা করুন।",
 	"citoid-citoidtool-title": "উদ্ধৃত করুন",
 	"citoid-citoidtool-title-othergroup": "উদ্ধৃতি",
 	"citoid-desc": "সাইটয়েড পরিষেবা ও মিডিয়াউইকির মধ্যে প্রবেশাধিকার বিন্দু সরবরাহ করে",

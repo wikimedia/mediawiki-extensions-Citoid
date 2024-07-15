@@ -30,7 +30,6 @@
 	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
 	"citoid-citoiddialog-title": "افزودن یادکرد",
 	"citoid-citoiddialog-title-replace": "جایگزینی یادکرد",
-	"citoid-citoiddialog-use-general-error-message": "نتوانستیم یادکردی برای شما ایجاد کنیم. شما می‌توانید با استفاده از زبانهٔ «{{int:citoid-citoiddialog-mode-manual}}» به صورت دستی آن را ایجاد کنید.",
 	"citoid-citoiddialog-reliability-back": "یک منبع جدید را امتحان کنید",
 	"citoid-citoiddialog-reliability-unreliable-title": "این وبگاه مسدود شده است",
 	"citoid-citoidtool-title": "یادکرد",

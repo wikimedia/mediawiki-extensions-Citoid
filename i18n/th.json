@@ -18,7 +18,6 @@
 	"citoid-citoiddialog-search-placeholder": "เช่น http://www.example.com",
 	"citoid-citoiddialog-title": "เพิ่มส่วนอ้างอิง",
 	"citoid-citoiddialog-title-replace": "แทนที่อ้างอิง",
-	"citoid-citoiddialog-use-general-error-message": "เราไม่สามารถเพิ่มส่วนอ้างอิงให้คุณได้ คุณสามารถสร้างได้ด้วยตนเองโดยใช้แท็บ \"{{int:citoid-citoiddialog-mode-manual}}\" ที่อยู่ด้านบน",
 	"citoid-citoidtool-title": "อ้างอิง",
 	"citoid-citoidtool-title-othergroup": "ส่วนอ้างอิง",
 	"citoid-desc": "จัดเตรียมจุดเข้าถึงระหว่างบริการ citoid และ MediaWiki",

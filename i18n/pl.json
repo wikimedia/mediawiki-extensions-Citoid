@@ -23,7 +23,6 @@
 	"citoid-citoiddialog-search-placeholder": "np. http://www.przyklad.com",
 	"citoid-citoiddialog-title": "Dodaj przypis",
 	"citoid-citoiddialog-title-replace": "Zastąp przypis",
-	"citoid-citoiddialog-use-general-error-message": "Nie mogliśmy utworzyć przypisu. Możesz go utworzyć samodzielnie, używając zakładki „{{int:citoid-citoiddialog-mode-manual}}” powyżej.",
 	"citoid-citoiddialog-use-general-error-message-title": "Nie udało nam się przygotować przypisu dla ciebie.",
 	"citoid-citoiddialog-use-general-error-message-body": "Spróbuj wykorzystać inne źródło albo utwórz przypis ręcznie, korzystając z zakładki „{{int:citoid-citoiddialog-mode-manual}}” powyżej.",
 	"citoid-citoiddialog-reliability-back": "Wypróbuj nowe źródło",

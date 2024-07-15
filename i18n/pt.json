@@ -22,7 +22,6 @@
 	"citoid-citoiddialog-search-placeholder": "ex: http://www.exemplo.com",
 	"citoid-citoiddialog-title": "Adicionar uma citação",
 	"citoid-citoiddialog-title-replace": "Substituir a citação",
-	"citoid-citoiddialog-use-general-error-message": "Não conseguimos criar a citação. Pode criar uma manualmente usando o separador \"{{int:citoid-citoiddialog-mode-manual}}\" acima.",
 	"citoid-citoidtool-title": "Citar",
 	"citoid-citoidtool-title-othergroup": "Citação",
 	"citoid-desc": "Fornece pontos de acesso entre o serviço citoid e o MediaWiki",

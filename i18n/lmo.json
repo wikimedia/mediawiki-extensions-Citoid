@@ -16,7 +16,6 @@
 	"citoid-citoiddialog-search-placeholder": "compagn che http://www.example.com",
 	"citoid-citoiddialog-title": "Sgionta una citazzion",
 	"citoid-citoiddialog-title-replace": "Sotituiss una citazzion",
-	"citoid-citoiddialog-use-general-error-message": "A hemm stad minga bon de creà una citazzion per ti. te podet creala a man cont el drovà la scheda \"{{int:citoid-citoiddialog-mode-manual}}\" chì de sora.",
 	"citoid-citoidtool-title": "Cita",
 	"citoid-citoidtool-title-othergroup": "Citazzion",
 	"citoid-desc": "El forniss un pont d'entrada intra il servizzi citoid e MediaWiki",

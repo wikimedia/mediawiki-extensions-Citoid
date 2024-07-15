@@ -14,7 +14,6 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, judul, atawa sitasi",
 	"citoid-citoiddialog-search-placeholder": "misalnya http://www.example.com",
 	"citoid-citoiddialog-title": "Tambahakan kutipan",
-	"citoid-citoiddialog-use-general-error-message": "Kami kada kawa maulah kutipan gasan Pian. Pian kawa maulahnya sacara manual mamakai tab \"{{int:citoid-citoiddialog-mode-manual}}\" di atas.",
 	"citoid-citoidtool-title": "Kutip",
 	"citoid-citoidtool-title-othergroup": "Kutipan",
 	"citoid-desc": "Manyediaakan titik aksés antara layanan kutipan wan MediaWiki",

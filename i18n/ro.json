@@ -19,7 +19,6 @@
 	"citoid-citoiddialog-search-placeholder": "de ex.: http://www.example.com",
 	"citoid-citoiddialog-title": "Adaugă o citare",
 	"citoid-citoiddialog-title-replace": "Înlocuiește citarea",
-	"citoid-citoiddialog-use-general-error-message": "Nu s-a putut face o citare pentru dvs. Puteți crea una manual folosind fila „{{int:citoid-citoiddialog-mode-manual}}” de deasupra.",
 	"citoid-citoidtool-title": "Citare",
 	"citoid-citoidtool-title-othergroup": "Referință",
 	"citoid-desc": "Oferă puncte de acces între serviciul citoid și MediaWiki",

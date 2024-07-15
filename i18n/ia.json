@@ -17,7 +17,6 @@
 	"citoid-citoiddialog-search-placeholder": "p.ex. http://www.example.com",
 	"citoid-citoiddialog-title": "Adder un citation",
 	"citoid-citoiddialog-title-replace": "Reimplaciar citation",
-	"citoid-citoiddialog-use-general-error-message": "Nos non poteva facer un citation pro te. Tu pote crear manualmente un citation usante le scheda \"{{int:citoid-citoiddialog-mode-manual}}\" hic supra.",
 	"citoid-citoiddialog-use-general-error-message-title": "Nos non poteva facer un citation pro te.",
 	"citoid-citoiddialog-use-general-error-message-body": "Tenta un altere fonte o crea manualmente un citation usante le scheda “{{int:citoid-citoiddialog-mode-manual}}” hic supra.",
 	"citoid-citoiddialog-reliability-back": "Essayar un nove fonte",

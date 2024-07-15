@@ -19,7 +19,6 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, título ou cita",
 	"citoid-citoiddialog-search-placeholder": "por exemplo, http://www.example.com",
 	"citoid-citoiddialog-title": "Engadir unha referencia",
-	"citoid-citoiddialog-use-general-error-message": "Non puidemos crear a súa cita. Pode crear unha cita manualmente usando a lapela \"{{int:citoid-citoiddialog-mode-manual}}\" de arriba",
 	"citoid-citoidtool-title": "Citar",
 	"citoid-citoidtool-title-othergroup": "Cita",
 	"citoid-desc": "Proporciona puntos de acceso entre o servizo Citoid e MediaWiki",
