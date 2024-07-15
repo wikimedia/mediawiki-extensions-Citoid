@@ -700,6 +700,8 @@ ve.ui.CitoidInspector.prototype.getTeardownProcess = function ( data ) {
 			}
 			this.lookupPromise = null;
 			this.clearResults();
+			this.extendsSearch.getQuery().setValue( '' );
+			this.reuseSearch.getQuery().setValue( '' );
 			this.referenceModel = null;
 			this.currentAutoProcessPanel = null;
 		} );
