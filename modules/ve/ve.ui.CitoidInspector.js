@@ -700,8 +700,10 @@ ve.ui.CitoidInspector.prototype.getTeardownProcess = function ( data ) {
 			}
 			this.lookupPromise = null;
 			this.clearResults();
+			// TODO should also use clearSearch() just need to make sure to track
+			//  a different activity.
 			this.extendsSearch.getQuery().setValue( '' );
-			this.reuseSearch.getQuery().setValue( '' );
+			this.reuseSearch.clearSearch();
 			this.referenceModel = null;
 			this.currentAutoProcessPanel = null;
 		} );
