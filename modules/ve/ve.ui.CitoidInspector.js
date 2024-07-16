@@ -275,10 +275,10 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	this.modePanels.manual.$element.append( this.sourceSelect.$element );
 
 	// Re-use mode
-	this.search = new ve.ui.MWReferenceSearchWidget( {
+	this.reuseSearch = new ve.ui.MWReferenceSearchWidget( {
 		classes: [ 've-ui-citoidInspector-search' ]
 	} );
-	this.modePanels.reuse.$element.append( this.search.$element );
+	this.modePanels.reuse.$element.append( this.reuseSearch.$element );
 
 	// Extends mode
 	this.extendsSearch = new ve.ui.MWReferenceSearchWidget( {
@@ -295,7 +295,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	this.lookupButton.connect( this, { click: 'onLookupButtonClick' } );
 	this.previewSelectWidget.connect( this, { choose: 'onPreviewSelectWidgetChoose' } );
 	this.sourceSelect.connect( this, { choose: 'onSourceSelectChoose' } );
-	this.search.getResults().connect( this, { choose: 'onSearchResultsChoose' } );
+	this.reuseSearch.getResults().connect( this, { choose: 'onReuseSearchResultsChoose' } );
 	this.extendsSearch.getResults().connect( this, { choose: 'onExtendsSearchResultsChoose' } );
 
 	this.autoProcessStack.addItems( [
@@ -365,11 +365,11 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 			this.currentAutoProcessPanel = processPanelName;
 			break;
 		case 'reuse':
-			this.search.buildIndex();
+			this.reuseSearch.buildIndex();
 			// Don't auto-focus on mobile as the keyboard
 			// covers the search results.
 			if ( !OO.ui.isMobile() ) {
-				focusTarget = this.search.getQuery();
+				focusTarget = this.reuseSearch.getQuery();
 			}
 			break;
 		case 'extends':
@@ -429,11 +429,11 @@ ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
 };
 
 /**
- * Handle search results choose events.
+ * Handle reuse search results choose events.
  *
  * @param {ve.ui.MWReferenceResultWidget} item Chosen item
  */
-ve.ui.CitoidInspector.prototype.onSearchResultsChoose = function ( item ) {
+ve.ui.CitoidInspector.prototype.onReuseSearchResultsChoose = function ( item ) {
 	const ref = item.getData();
 
 	ref.insertReferenceNode( this.getFragment() );
@@ -483,7 +483,7 @@ ve.ui.CitoidInspector.prototype.onExtendsSearchResultsChoose = function ( item )
 					this.staging--;
 				}
 
-				this.close( { action: 'extend-choose' } );
+				this.close( { action: 'extends-choose' } );
 			}
 		} );
 };
@@ -604,9 +604,9 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 				this.fragment = this.getFragment().collapseToEnd().select();
 			}
 
-			this.search.setInternalList( this.getFragment().getDocument().getInternalList() );
+			this.reuseSearch.setInternalList( this.getFragment().getDocument().getInternalList() );
 			this.extendsSearch.setInternalList( this.getFragment().getDocument().getInternalList() );
-			this.modeIndex.getTabPanel( 'reuse' ).tabItem.setDisabled( this.search.isIndexEmpty() );
+			this.modeIndex.getTabPanel( 'reuse' ).tabItem.setDisabled( this.reuseSearch.isIndexEmpty() );
 
 			if ( mw.config.get( 'wgCiteBookReferencing' ) ) {
 				this.modeIndex.getTabPanel( 'extends' ).tabItem.setDisabled( this.extendsSearch.isIndexEmpty() );
@@ -727,7 +727,7 @@ ve.ui.CitoidInspector.prototype.getActionProcess = function ( action ) {
 			if ( !isNaN( search ) && parseInt( search, 10 ) < 1000 ) {
 				// Fairly arbitrary limitation assuming that numbers below 1000 aren't going to refer to anything else.
 				this.setModePanel( 'reuse' );
-				this.search.query.setValue( search );
+				this.reuseSearch.query.setValue( search );
 				return;
 			}
 			// Look up
