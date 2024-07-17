@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Chhah-ji̍p",
+	"citoid-citoiddialog-back": "Tó-thè",
+	"citoid-citoiddialog-mode-auto": "Chū-tōng",
+	"citoid-citoiddialog-mode-manual": "Chhiú-tōng",
+	"citoid-citoiddialog-mode-reuse": "Chài-sú-iōng",
+	"citoid-citoiddialog-search-placeholder": "pí-lūn",
+	"citoid-citoidtool-title": "Ín-iōng",
+	"citoid-desc": "Thê-kiong citoid ho̍k-bū kap MediaWiki chi kan ê thong-lō͘ tiám",
+	"citoid-referencecontextitem-convert-button": "Choán-ōaⁿ",
+	"citoid-referencecontextitem-convert-message": "Pún chham-chiàu taⁿ hâm chi̍t-ê tùi-gōa liân-kiat. Lí ē-sài jī ē-té ê \"{{int:citoid-referencecontextitem-convert-button}}\" khai-koan lâi sán-seng thò-tòng ê chham-chiàu keh-sek.",
+	"citoid-unknown-error": "Ū 1-ê put-bêng ê chhò-ngō͘ hoat-seng, chó͘-tòng lán kiān-li̍p ín-chiàu. Chhiáⁿ sió-tán leh koh chhì 1-piàn."
+}
