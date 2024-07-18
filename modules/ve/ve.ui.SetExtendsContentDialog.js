@@ -54,9 +54,6 @@ ve.ui.SetExtendsContentDialog.prototype.initialize = function () {
 	// Parent method
 	ve.ui.SetExtendsContentDialog.super.prototype.initialize.apply( this, arguments );
 
-	const citeCommands = Object.keys( ve.init.target.getSurface().commandRegistry.registry )
-		.filter( ( command ) => command.indexOf( 'cite-' ) !== -1 );
-
 	this.editPanel = new OO.ui.PanelLayout( {
 		scrollable: true, padded: true
 	} );
@@ -70,9 +67,9 @@ ve.ui.SetExtendsContentDialog.prototype.initialize = function () {
 
 	this.referenceTarget = ve.init.target.createTargetWidget(
 		{
-			includeCommands: ve.ui.MWReferenceDialog.static.includeCommands,
-			excludeCommands: ve.ui.MWReferenceDialog.static.excludeCommands.concat( citeCommands ),
-			importRules: ve.ui.MWReferenceDialog.static.getImportRules(),
+			includeCommands: null,
+			excludeCommands: ve.ui.MWReferenceEditPanel.static.getExcludeCommands(),
+			importRules: ve.ui.MWReferenceEditPanel.static.getImportRules(),
 			inDialog: this.constructor.static.name,
 			// TODO extends i18n
 			placeholder: 'Write or paste the content for the extension here'
