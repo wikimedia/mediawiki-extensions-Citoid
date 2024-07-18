@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-auto": "Авто",
 	"citoid-citoiddialog-mode-manual": "Куьйгаца",
 	"citoid-citoiddialog-mode-reuse": "Йуха а",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, цӀе йа цитата",
+	"citoid-citoiddialog-search-label": "Цитатин хьажорг кхолла, хьажорг йа хьажорган код йазйе (ISBN, DOI, йа кхин)",
 	"citoid-citoiddialog-search-placeholder": "ала дешан, http://www.example.com",
 	"citoid-citoiddialog-title": "Хьост тӀе хьажорг тӀетоха",
 	"citoid-citoiddialog-title-replace": "Хийца хьост",
