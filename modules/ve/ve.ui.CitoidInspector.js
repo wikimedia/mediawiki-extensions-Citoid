@@ -63,7 +63,7 @@ ve.ui.CitoidInspector.static.actions = [
 	{
 		label: OO.ui.deferMsg( 'visualeditor-dialog-action-cancel' ),
 		flags: [ 'safe', 'close' ],
-		modes: [ 'auto-lookup', 'manual', 'reuse' ]
+		modes: [ 'auto-lookup', 'manual', 'reuse', 'extends' ]
 	},
 	{
 		action: 'back',
