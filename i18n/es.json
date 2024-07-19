@@ -8,6 +8,7 @@
 			"Macofe",
 			"MadriCR",
 			"MarcoAurelio",
+			"Qwrop",
 			"Rodney Araujo"
 		]
 	},
@@ -23,6 +24,7 @@
 	"citoid-citoiddialog-search-placeholder": "por ejemplo, http://www.ejemplo.com",
 	"citoid-citoiddialog-title": "Añadir una cita",
 	"citoid-citoiddialog-title-replace": "Reemplazar cita",
+	"citoid-citoiddialog-use-general-error-message-title": "No hemos podido generarte la cita.",
 	"citoid-citoidtool-title": "Citar",
 	"citoid-citoidtool-title-othergroup": "Cita",
 	"citoid-desc": "Proporciona puntos de acceso entre el servicio Citoid y MediaWiki",
