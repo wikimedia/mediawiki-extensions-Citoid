@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Don Alessandro",
 			"Ерней",
 			"Ильгиз",
 			"Ильнар"
@@ -17,7 +18,7 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, исем яки чыганакка җибәрү",
 	"citoid-citoiddialog-search-placeholder": "мәсәлән, http://www.example.com",
 	"citoid-citoiddialog-title": "Чыганакка сылтама өстәү",
-	"citoid-citoiddialog-title-replace": "Чыганакны алыштырырга",
+	"citoid-citoiddialog-title-replace": "Чыганакны алыштыру",
 	"citoid-citoidtool-title": "Чыганакка җибәрү",
 	"citoid-citoidtool-title-othergroup": "Чыганакка җибәрү",
 	"citoid-desc": "Citoid сервисы һәм Медиавики арасында аралашу мөмкинлеген тәэмин итә.",
