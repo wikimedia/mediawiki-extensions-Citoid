@@ -237,6 +237,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		flags: [ 'progressive' ]
 	} );
 	manualButton.on( 'click', () => {
+		ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-manual-fallback' } );
 		this.modeIndex.setTabPanel( 'manual' );
 	} );
 
@@ -315,7 +316,12 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
  * @param {OO.ui.TabPanelLayout} tabPanel Set tab panel
  */
 ve.ui.CitoidInspector.prototype.onModeIndexSet = function ( tabPanel ) {
-	this.setModePanel( tabPanel.getName(), null, true );
+	// Switching tabs by directly calling this.modeIndex.setTabPanel will
+	// double-fire this event, so filter out the second call:
+	if ( tabPanel.getName() !== this.lastModePanelName ) {
+		this.setModePanel( tabPanel.getName(), null, true );
+		this.lastModePanelName = tabPanel.getName();
+	}
 };
 
 /**
