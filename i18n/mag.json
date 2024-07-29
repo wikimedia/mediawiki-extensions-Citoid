@@ -19,14 +19,14 @@
 	"citoid-citoiddialog-use-general-error-message": "हम अपनेला उद्धरण न बना पाइली । अपने ऊपरेके \"{{int:citoid-citoiddialog-mode-manual}}\" टॅब् के प्रयोगसे एकरा अपने बना सकही ।",
 	"citoid-citoidtool-title": "उद्धृत करी",
 	"citoid-citoidtool-title-othergroup": "उद्धरण",
-	"citoid-desc": "Citoid सेवा आउ मीडियाबिकि के बीचे अभिगम बिन्दु प्रदान करहे",
+	"citoid-desc": "Citoid सेवा आउ मीडियाविकि के बीचे अभिगम बिन्दु प्रदान करहे",
 	"citoid-referencecontextitem-convert-button": "बदली",
-	"citoid-referencecontextitem-convert-message": "अपने \"{{int:citoid-referencecontextitem-convert-button}}\" बटन् के सहायतासे सही बाहरी कड़ीसे प्रारूपित सन्दर्भ बना सकही ।",
+	"citoid-referencecontextitem-convert-message": "अपने \"{{int:citoid-referencecontextitem-convert-button}}\" बटनके सहायतासे सही बाहरी कड़ीसे प्रारूपित सन्दर्भ बना सकही ।",
 	"citoid-unknown-error": "एगो अज्ञात त्रुटिके चलते हमनीके उद्धरण न बना पैली । कृपया कुछ समय बाद प्रयास करी ।",
 	"citoid-wb-referenceview-tabs-automatic": "स्वचालित",
 	"citoid-wb-referenceview-tabs-search": "खोजी",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN अथवा QID:",
-	"citoid-wb-pendingdialog-error": "ई इन्पुट् से सन्दर्भ न बनावल जा सकहे । 'नियमाबली' टैब् के प्रयोग करी अथवा फिन दुबारा प्रयास करी ।",
+	"citoid-wb-pendingdialog-error": "ई इनपुटसे सन्दर्भ न बनावल जा सकहे । 'नियमाबली' टैबके प्रयोग करी अथवा फेर दुबारा प्रयास करी ।",
 	"citoid-wb-pendingdialog-message": "अपने लागि सन्दर्भ बनावल जाइत हे... कृपया प्रतिक्षा करी...",
 	"citoid-wb-pendingdialog-title": "उद्धरण बनैत"
 }
