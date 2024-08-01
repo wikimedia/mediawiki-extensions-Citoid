@@ -93,12 +93,13 @@ ve.ui.SetExtendsContentDialog.prototype.getSetupProcess = function ( data ) {
 			this.originalRef = data.originalRef;
 			this.newRef = data.newRef;
 
-			const originalItemNode = data.internalList.getItemNode( this.originalRef.getListIndex() );
-			const originalRefText = new ve.ui.MWPreviewElement( originalItemNode, { useView: true } ).$element.text();
-			// TODO extends i18n
-			this.extendsWarning.setLabel( new OO.ui.HtmlSnippet(
-				`${ mw.msg( 'cite-ve-dialog-reference-editing-extends' ) }</br>${ originalRefText }`
-			) );
+			const parentItemNode = data.internalList.getItemNode( this.originalRef.getListIndex() );
+			const $parentRefPreview = new ve.ui.MWPreviewElement( parentItemNode, { useView: true } ).$element;
+			this.extendsWarning.setLabel(
+				$( '<p>' )
+					.text( mw.msg( 'cite-ve-dialog-reference-editing-extends' ) )
+					.append( $parentRefPreview )
+			);
 
 			this.referenceTarget.setDocument( this.newRef.getDocument() );
 		} );
