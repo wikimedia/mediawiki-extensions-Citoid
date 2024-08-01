@@ -16,7 +16,7 @@
 	"citoid-citoiddialog-mode-auto": "Automático",
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Reutilizar",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, título ou cita",
+	"citoid-citoiddialog-search-label": "Insire unha ligazón ou código de referencia (ISBN, DOI ou outro) para creares unha cita",
 	"citoid-citoiddialog-search-placeholder": "por exemplo, http://www.example.com",
 	"citoid-citoiddialog-title": "Engadir unha referencia",
 	"citoid-citoiddialog-use-general-error-message": "Non puidemos crear a súa cita. Pode crear unha cita manualmente usando a lapela \"{{int:citoid-citoiddialog-mode-manual}}\" de arriba",
