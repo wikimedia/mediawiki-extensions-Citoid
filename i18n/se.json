@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Jon Harald Søby (WMNO)",
-			"Kimberli Mäkäräinen (WMNO)"
+			"Kimberli Mäkäräinen (WMNO)",
+			"WMNO sámeprošeakta"
 		]
 	},
 	"citoid-action-replace": "Molsso gáldočujuhusa hámi",
@@ -19,11 +20,19 @@
 	"citoid-citoiddialog-title-replace": "Buhtte gáldočujuhusa",
 	"citoid-citoiddialog-use-general-error-message": "Gáldočujuhusa ii sáhttán ráhkadit. Juos háliidat dan ráhkadit, geavat \"{{int:citoid-citoiddialog-mode-manual}}\"-leavgga dás badjelis vai beasat dan ráhkadit manuálalaččat.",
 	"citoid-citoiddialog-reliability-back": "Geahččal ođđa gáldu",
+	"citoid-citoiddialog-reliability-unreliable-description": "Min neahttaservodat ii ane dán gáldo luohtehattin, ja dan dihte dat ii dohkkehuvvo. Vállje eará luohtehahtti gáldo.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Dát neahttasiidu lea hehttejuvvon",
 	"citoid-citoidtool-title": "Sitere",
 	"citoid-citoidtool-title-othergroup": "Gáldočujuhus",
+	"citoid-desc": "Sisabeassanbáiki gaskal citoid-bálvalusa ja MediaWiki",
 	"citoid-isbnscannerdialog-title": "Skánne ISBN-sáhcokoda",
+	"citoid-referencecontextitem-convert-button": "Jorgal",
+	"citoid-referencecontextitem-convert-message": "Sáhtát geavahit «{{int:citoid-referencecontextitem-convert-button}}»-boalu vuolde ráhkadit rievttes formatterejuvvon gáldo olgguldas liŋkkas.",
+	"citoid-unknown-error": "Ii sáhttán ráhkadit bájuhusa dannego čuožžilii dovdameahttun meattáhus. Geahččal ođđasit maŋŋelaš.",
 	"citoid-wb-referenceview-tabs-automatic": "Automáhtalaš",
 	"citoid-wb-referenceview-tabs-search": "oza",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN dahje QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN dahje QID:",
+	"citoid-wb-pendingdialog-error": "Ii sáhttán ráhkadit gáldo dán vuođul. Geavat manuealla leavgga dahje geahččal ođđasit.",
+	"citoid-wb-pendingdialog-message": "Ráhkada gáldo dutnje ... vuordil mat ...",
+	"citoid-wb-pendingdialog-title": "Ráhkat bájuhusa"
 }
