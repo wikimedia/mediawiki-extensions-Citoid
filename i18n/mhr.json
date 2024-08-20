@@ -1,16 +1,27 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lifeway"
+			"Lifeway",
+			"Mxalexandrov86"
 		]
 	},
+	"citoid-action-replace": "Цитатым алмашташ",
 	"citoid-citation-widget-insert-button": "Пурташ",
 	"citoid-citoiddialog-back": "Шеҥгек",
+	"citoid-citoiddialog-lookup-button": "Ышташ",
+	"citoid-citoiddialog-manual-button": "Кид ден ешараш",
 	"citoid-citoiddialog-mode-auto": "Вигак",
 	"citoid-citoiddialog-mode-manual": "Кид дене",
 	"citoid-citoiddialog-mode-reuse": "Уэш кучылтмаш",
+	"citoid-citoiddialog-title": "Цитатым ешараш",
+	"citoid-citoiddialog-title-replace": "Цитатым алмашташ",
+	"citoid-citoiddialog-use-general-error-message-title": "Ме тыланет цитатым ыштен огына керт.",
+	"citoid-citoiddialog-reliability-back": "У источникым кучылт ончо",
+	"citoid-citoiddialog-reliability-unreliable-title": "Тудын сайтшым чарыме",
+	"citoid-citoidtool-title": "Цитате",
 	"citoid-referencecontextitem-convert-button": "Весемдаш",
 	"citoid-wb-referenceview-tabs-automatic": "Вигак",
 	"citoid-wb-referenceview-tabs-search": "кычалаш",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, але QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, але QID:",
+	"citoid-wb-pendingdialog-title": "Цитатым ыштымаш"
 }
