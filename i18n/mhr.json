@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lifeway"
+			"Lifeway",
+			"Mxalexandrov86"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Пурташ",
@@ -10,8 +11,12 @@
 	"citoid-citoiddialog-mode-manual": "Кид дене",
 	"citoid-citoiddialog-mode-reuse": "Уэш кучылтмаш",
 	"citoid-citoiddialog-search": "Кычалаш",
+	"citoid-citoiddialog-title": "Цитатым ешараш",
+	"citoid-citoiddialog-title-replace": "Цитатым алмашташ",
+	"citoid-citoidtool-title": "Цитате",
 	"citoid-referencecontextitem-convert-button": "Весемдаш",
 	"citoid-wb-referenceview-tabs-automatic": "Вигак",
 	"citoid-wb-referenceview-tabs-search": "кычалаш",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, але QID:"
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, але QID:",
+	"citoid-wb-pendingdialog-title": "Цитатым ыштымаш"
 }
