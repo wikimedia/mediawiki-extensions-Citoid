@@ -12,7 +12,8 @@
 			"ديفيد",
 			"فلورانس",
 			"محمد أحمد عبد الفتاح",
-			"علاء"
+			"علاء",
+			"Mohammed Qays"
 		]
 	},
 	"citoid-action-replace": "تغيير نوع المرجع",
@@ -28,6 +29,9 @@
 	"citoid-citoiddialog-title": "إضافة استشهاد",
 	"citoid-citoiddialog-title-replace": "استبدال الاستشهاد",
 	"citoid-citoiddialog-use-general-error-message": "لم نتمكن من صنع الاقتباس لك، يمكنك إنشاء واحد يدويا باستخدام التبويب \"{{int:citoid-citoiddialog-mode-manual}}\" أعلاه.",
+	"citoid-citoiddialog-reliability-back": "جرب مصدر جديد",
+	"citoid-citoiddialog-reliability-unreliable-description": "يعتبر هذا المصدر غير موثوق به، وبالتالي لا يُسمح به. يرجى اختيار مصدر موثوق آخر.",
+	"citoid-citoiddialog-reliability-unreliable-title": "هذا الموقع ممنوع",
 	"citoid-citoidtool-title": "استشهاد",
 	"citoid-citoidtool-title-othergroup": "اقتباس",
 	"citoid-desc": "يوفر نقطة وصول بين citoid وميدياويكي",
