@@ -30,11 +30,11 @@
 	"citoid-isbnscannerdialog-title": "ISBN ştrix kodunu skan edin",
 	"citoid-referencecontextitem-convert-button": "Çevir",
 	"citoid-referencecontextitem-convert-message": "Xarici keçiddən düzgün formatlandırılmış istinad yaratmaq üçün aşağıdakı \"{{int:citoid-referencecontextitem-convert-button}}\" düyməsini istifadə edə bilərsiniz.",
-	"citoid-unknown-error": "İstinad yaratmağımıza mane olan bilinməyən bir səhv baş verdi. Zəhmət olmasa bir az sonra yenidən cəhd edin.",
+	"citoid-unknown-error": "İstinad yaratmağımıza mane olan bilinməyən bir səhv baş verdi. Zəhmət olmasa, bir az sonra yenidən cəhd edin.",
 	"citoid-wb-referenceview-tabs-automatic": "Avtomatik",
 	"citoid-wb-referenceview-tabs-search": "axtar",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, və ya QID:",
 	"citoid-wb-pendingdialog-error": "İstinad yaratmaq mümkün olmadı. Manual nişandan istifadə edin və ya yenidən cəhd edin.",
-	"citoid-wb-pendingdialog-message": "Sizin üçün istinad yaradılır... zəhmət olmasa gözləyin...",
+	"citoid-wb-pendingdialog-message": "Sizin üçün istinad yaradılır... zəhmət olmasa, gözləyin...",
 	"citoid-wb-pendingdialog-title": "İstinad yaradılır"
 }
