@@ -16,7 +16,7 @@
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, цӀе йа цитата",
 	"citoid-citoiddialog-search-placeholder": "ала дешан, http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Лохуш йу, дехар до, собар де...",
-	"citoid-citoiddialog-title": "Хьост тӀе хьажорг тӀетоха",
+	"citoid-citoiddialog-title": "Хьостанна хьажорг тӀетохар",
 	"citoid-citoiddialog-title-replace": "Хийца хьост",
 	"citoid-citoiddialog-use-general-error-message": "Тхан аьтто ца баьлла шуна цитатан хьажорг генераци йан. Иза куьйга кхолла йиш йу лакхахь йолчу \"{{int:citoid-citoiddialog-mode-manual}}\" йукъайуьллург лелош.",
 	"citoid-citoidtool-title": "Хьост",
