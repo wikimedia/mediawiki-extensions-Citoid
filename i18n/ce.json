@@ -14,7 +14,7 @@
 	"citoid-citoiddialog-mode-reuse": "Йуха а",
 	"citoid-citoiddialog-search-label": "Цитатин хьажорг кхолла, хьажорг йа хьажорган код йазйе (ISBN, DOI, йа кхин)",
 	"citoid-citoiddialog-search-placeholder": "ала дешан, http://www.example.com",
-	"citoid-citoiddialog-title": "Хьост тӀе хьажорг тӀетоха",
+	"citoid-citoiddialog-title": "Хьостанна хьажорг тӀетохар",
 	"citoid-citoiddialog-title-replace": "Хийца хьост",
 	"citoid-citoiddialog-use-general-error-message": "Тхан аьтто ца баьлла шуна цитатан хьажорг генераци йан. Иза куьйга кхолла йиш йу лакхахь йолчу \"{{int:citoid-citoiddialog-mode-manual}}\" йукъайуьллург лелош.",
 	"citoid-citoiddialog-reliability-back": "Кхин хьост хьажа",
