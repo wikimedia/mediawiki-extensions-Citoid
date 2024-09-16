@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Song GK"
+		]
+	},
+	"citoid-action-replace": "Ganti sitasyen",
+	"citoid-citation-widget-insert-button": "Engkah",
+	"citoid-citoiddialog-back": "Pulai",
+	"citoid-citoiddialog-credit": "Dikuasa enggau $1",
+	"citoid-citoiddialog-lookup-button": "Gaga",
+	"citoid-citoiddialog-manual-button": "Nambah ngena chara manual",
+	"citoid-citoiddialog-mode-auto": "Automatik",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Kena baru",
+	"citoid-citoiddialog-search-label": "Masukka link tauka kod referens (ISBN, DOI tauka ke bukai) dikena ngaga sitasyen",
+	"citoid-citoiddialog-search-placeholder": "cto. http://www.example.com",
+	"citoid-citoiddialog-title": "Nambahka sitasyen",
+	"citoid-citoiddialog-title-replace": "Ganti sitasyen",
+	"citoid-citoiddialog-use-general-error-message-title": "Kami enda ulih ngaga sitasyen ke nuan.",
+	"citoid-citoiddialog-use-general-error-message-body": "Uji pun penatai bukai tauka ngaga siti ngena chara manual ngena tab \"{{int:citoid-citoidialog-mod-manual}}\" ba atas.",
+	"citoid-citoiddialog-reliability-back": "Uji bunsu baru",
+	"citoid-citoiddialog-reliability-unreliable-description": "Sumber tu dianggap enda ulih dikearapka komuniti kitai, lalu ketegal nya enda dikemendarka. Minta nuan milih sumber ti tau dikearapka ti bebida.",
+	"citoid-citoiddialog-reliability-unreliable-title": "Laman tu udah dialit",
+	"citoid-citoidtool-title": "Ambi",
+	"citoid-citoidtool-title-othergroup": "Sitasyen",
+	"citoid-desc": "Nyediaka palan akses entara servis citoid enggau MediaWiki",
+	"citoid-isbnscannerdialog-title": "Sekin kod bar ISBN",
+	"citoid-referencecontextitem-convert-button": "Nukar",
+	"citoid-referencecontextitem-convert-message": "Nuan tau ngena butang \"{{int:citoid-referencecontextitem-convert-button}}\" ba baruh tu kena ngasilka referens ti beformat enggay betul ari link luar.",
+	"citoid-unknown-error": "Penyilap ti enda ditemu udah nyadi ti nagang kami ngaga sitasyen. Tau nguji baru ila.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatik",
+	"citoid-wb-referenceview-tabs-search": "giga",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, tauka QID:",
+	"citoid-wb-pendingdialog-error": "Enda ulih ngasilka referens ari input tu. Kena tab manual, tauka nguji baru.",
+	"citoid-wb-pendingdialog-message": "Ngasilka referens ungkup nuan... anti meh...",
+	"citoid-wb-pendingdialog-title": "Ngasilka Sitasyen"
+}
