@@ -126,7 +126,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	};
 
 	// Modes
-	this.modeIndex = new OO.ui.IndexLayout( {
+	this.modeIndexLayout = new OO.ui.IndexLayout( {
 		expanded: false,
 		scrollable: false
 	} );
@@ -154,7 +154,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		} )
 	};
 
-	this.modeIndex.addTabPanels( [
+	this.modeIndexLayout.addTabPanels( [
 		this.modePanels.auto,
 		this.modePanels.manual,
 		this.modePanels.reuse
@@ -164,7 +164,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	this.defaultPanel = this.modePanels.auto.tabItem.isDisabled() ? 'manual' : 'auto';
 
 	// Auto mode
-	this.autoProcessStack = new OO.ui.StackLayout( {
+	this.autoProcessStackLayout = new OO.ui.StackLayout( {
 		expanded: false,
 		scrollable: false
 	} );
@@ -226,7 +226,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	} );
 	manualButton.on( 'click', () => {
 		ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-manual-fallback' } );
-		this.modeIndex.setTabPanel( 'manual' );
+		this.modeIndexLayout.setTabPanel( 'manual' );
 	} );
 
 	this.$customErrorLabel = $( '<p>' );
@@ -242,7 +242,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		this.errorMessage.$element
 	);
 
-	this.modePanels.auto.$element.append( this.autoProcessStack.$element );
+	this.modePanels.auto.$element.append( this.autoProcessStackLayout.$element );
 
 	// Preview fieldset
 	this.previewSelectWidget = new ve.ui.CitoidGroupWidget();
@@ -276,7 +276,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	this.modePanels.reuse.$element.append( this.reuseSearch.$element );
 
 	// Events
-	this.modeIndex.connect( this, { set: 'onModeIndexSet' } );
+	this.modeIndexLayout.connect( this, { set: 'onModeIndexLayoutSet' } );
 	this.lookupInput.connect( this, {
 		change: 'onLookupInputChange',
 		enter: 'onLookupInputEnter'
@@ -286,7 +286,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	this.sourceSelect.connect( this, { choose: 'onSourceSelectChoose' } );
 	this.reuseSearch.connect( this, { reuse: 'onReuseSearchResultsReuse' } );
 
-	this.autoProcessStack.addItems( [
+	this.autoProcessStackLayout.addItems( [
 		this.autoProcessPanels.lookup,
 		this.autoProcessPanels.result
 	] );
@@ -294,7 +294,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	// Attach
 	this.form.$element
 		.addClass( 've-ui-citoidInspector-form' )
-		.append( this.modeIndex.$element );
+		.append( this.modeIndexLayout.$element );
 };
 
 /**
@@ -303,43 +303,49 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
  * @private
  * @param {OO.ui.TabPanelLayout} tabPanel Set tab panel
  */
-ve.ui.CitoidInspector.prototype.onModeIndexSet = function ( tabPanel ) {
+ve.ui.CitoidInspector.prototype.onModeIndexLayoutSet = function ( tabPanel ) {
 	// Switching tabs by directly calling this.modeIndex.setTabPanel will
 	// double-fire this event, so filter out the second call:
 	if ( tabPanel.getName() !== this.lastModePanelName ) {
-		this.setModePanel( tabPanel.getName(), null, true );
+		this.setModePanel( tabPanel.getName(), undefined, true );
 		this.lastModePanelName = tabPanel.getName();
 	}
 };
 
 /**
- * Switch to a specific mode panel
+ * Switch to a specific mode, set the auto process panel, focus and resize if needed
  *
  * @private
  * @param {string} tabPanelName Panel name, 'auto', 'manual' or 'reuse'
- * @param {string} [processPanelName] Process panel name, 'lookup' or 'result'
- * @param {boolean} [fromSelect] Mode was changed by the select widget
+ * @param {string} [autoProcessPanelName] Process panel name in the 'auto' tab, one of 'lookup' or 'result'
+ * @param {boolean} [fromTabSelect=false] Mode was set by the tab select widget
  * @param {Object} [config] Mode-specific config
  */
-ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processPanelName, fromSelect, config ) {
-	if ( !this.modeIndex.getTabPanel( tabPanelName ) ||
-		this.modeIndex.getTabPanel( tabPanelName ).tabItem.isDisabled()
+ve.ui.CitoidInspector.prototype.setModePanel = function (
+	tabPanelName,
+	autoProcessPanelName,
+	fromTabSelect,
+	config
+) {
+	if ( !this.modeIndexLayout.getTabPanel( tabPanelName ) ||
+		this.modeIndexLayout.getTabPanel( tabPanelName ).tabItem.isDisabled()
 	) {
 		tabPanelName = this.defaultPanel;
 	} else if ( tabPanelName !== ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel ) ) {
 		ve.userConfig( 'citoid-mode', tabPanelName );
 	}
 
-	if ( !fromSelect ) {
-		this.modeIndex.setTabPanel( tabPanelName );
+	if ( !fromTabSelect ) {
+		this.modeIndexLayout.setTabPanel( tabPanelName );
 	}
+
 	let panelNameModifier;
 	let focusTarget;
 	switch ( tabPanelName ) {
 		case 'auto':
-			processPanelName = processPanelName || this.currentAutoProcessPanel || 'lookup';
-			this.autoProcessStack.setItem( this.autoProcessPanels[ processPanelName ] );
-			switch ( processPanelName ) {
+			autoProcessPanelName = autoProcessPanelName || this.currentAutoProcessPanel || 'lookup';
+			this.autoProcessStackLayout.setItem( this.autoProcessPanels[ autoProcessPanelName ] );
+			switch ( autoProcessPanelName ) {
 				case 'lookup':
 					this.lookupInput.setDisabled( false ).select();
 					break;
@@ -357,7 +363,7 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 					break;
 				}
 			}
-			this.currentAutoProcessPanel = processPanelName;
+			this.currentAutoProcessPanel = autoProcessPanelName;
 			break;
 		case 'reuse':
 			this.reuseSearch.buildIndex();
@@ -370,10 +376,10 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 	}
 	// Result tab panel goes 'fullscreen' by hiding the tab widget
 	// TODO: Do this in a less hacky way
-	this.modeIndex.toggleMenu( !( processPanelName && processPanelName === 'result' ) );
+	this.modeIndexLayout.toggleMenu( !( autoProcessPanelName && autoProcessPanelName === 'result' ) );
 	this.actions.setMode(
 		tabPanelName +
-		( processPanelName ? '-' + processPanelName : '' ) +
+		( autoProcessPanelName ? '-' + autoProcessPanelName : '' ) +
 		( panelNameModifier ? '-' + panelNameModifier : '' )
 	);
 	this.updateSize();
@@ -607,7 +613,7 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 				this.executeAction( 'lookup' );
 			}
 
-			this.modeIndex.setTabPanel( data.lookup ? this.defaultPanel : ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel ) );
+			this.modeIndexLayout.setTabPanel( data.lookup ? this.defaultPanel : ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel ) );
 		} );
 };
 
