@@ -815,6 +815,7 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 					reliabilityXhr = new mw.Api().get( {
 						action: 'editcheckreferenceurl',
 						url: url,
+						page: mw.config.get( 'wgRelevantPageName' ),
 						formatversion: 2
 					} );
 				} else {
