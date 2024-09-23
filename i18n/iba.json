@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Song GK"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Engkah",
+	"citoid-citoiddialog-back": "Pulai",
+	"citoid-citoiddialog-credit": "Dikuasa enggau $1",
+	"citoid-citoiddialog-mode-auto": "Automatik",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Kena baru",
+	"citoid-citoiddialog-search-placeholder": "cto. http://www.example.com",
+	"citoid-citoiddialog-title": "Nambahka sitasyen",
+	"citoid-citoiddialog-title-replace": "Ganti sitasyen",
+	"citoid-citoidtool-title": "Ambi",
+	"citoid-citoidtool-title-othergroup": "Sitasyen",
+	"citoid-desc": "Nyediaka palan akses entara servis citoid enggau MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Nukar",
+	"citoid-referencecontextitem-convert-message": "Nuan tau ngena butang \"{{int:citoid-referencecontextitem-convert-button}}\" ba baruh tu kena ngasilka referens ti beformat enggay betul ari link luar.",
+	"citoid-unknown-error": "Penyilap ti enda ditemu udah nyadi ti nagang kami ngaga sitasyen. Tau nguji baru ila.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatik",
+	"citoid-wb-referenceview-tabs-search": "giga",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, tauka QID:",
+	"citoid-wb-pendingdialog-error": "Enda ulih ngasilka referens ari input tu. Kena tab manual, tauka nguji baru.",
+	"citoid-wb-pendingdialog-message": "Ngasilka referens ungkup nuan... anti meh...",
+	"citoid-wb-pendingdialog-title": "Ngasilka Sitasyen"
+}
