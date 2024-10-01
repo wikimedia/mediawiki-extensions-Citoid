@@ -63,7 +63,7 @@ ve.ui.CitoidInspector.static.actions = [
 	{
 		label: OO.ui.deferMsg( 'visualeditor-dialog-action-cancel' ),
 		flags: [ 'safe', 'close' ],
-		modes: [ 'auto-lookup', 'manual', 'reuse', 'extends' ]
+		modes: [ 'auto-lookup', 'manual', 'reuse' ]
 	},
 	{
 		action: 'back',
@@ -147,13 +147,6 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 			classes: [ 'citoid-citoidDialog-panel-reuse' ],
 			expanded: false,
 			scrollable: false
-		} ),
-		extends: new OO.ui.TabPanelLayout( 'extends', {
-			// TODO extends i18n
-			label: 'Extends',
-			classes: [ 'citoid-citoidDialog-panel-extends' ],
-			expanded: false,
-			scrollable: false
 		} )
 	};
 
@@ -162,12 +155,6 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		this.modePanels.manual,
 		this.modePanels.reuse
 	] );
-
-	if ( mw.config.get( 'wgCiteBookReferencing' ) ) {
-		this.modeIndex.addTabPanels( [
-			this.modePanels.extends
-		] );
-	}
 
 	this.modeIndex.getTabPanel( 'auto' ).tabItem.setDisabled( !this.templateTypeMap );
 	this.defaultPanel = this.templateTypeMap ? 'auto' : 'manual';
@@ -277,15 +264,10 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 
 	// Re-use mode
 	this.reuseSearch = new ve.ui.MWReferenceSearchWidget( {
-		classes: [ 've-ui-citoidInspector-search' ]
+		classes: [ 've-ui-citoidInspector-search' ],
+		$overlay: this.$overlay
 	} );
 	this.modePanels.reuse.$element.append( this.reuseSearch.$element );
-
-	// Extends mode
-	this.extendsSearch = new ve.ui.MWReferenceSearchWidget( {
-		classes: [ 've-ui-citoidInspector-extends' ]
-	} );
-	this.modePanels.extends.$element.append( this.extendsSearch.$element );
 
 	// Events
 	this.modeIndex.connect( this, { set: 'onModeIndexSet' } );
@@ -296,8 +278,10 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	this.lookupButton.connect( this, { click: 'onLookupButtonClick' } );
 	this.previewSelectWidget.connect( this, { choose: 'onPreviewSelectWidgetChoose' } );
 	this.sourceSelect.connect( this, { choose: 'onSourceSelectChoose' } );
-	this.reuseSearch.getResults().connect( this, { choose: 'onReuseSearchResultsChoose' } );
-	this.extendsSearch.getResults().connect( this, { choose: 'onExtendsSearchResultsChoose' } );
+	this.reuseSearch.connect( this, {
+		reuse: 'onReuseSearchResultsReuse',
+		extends: 'onReuseSearchResultsExtends'
+	} );
 
 	this.autoProcessStack.addItems( [
 		this.autoProcessPanels.lookup,
@@ -333,7 +317,7 @@ ve.ui.CitoidInspector.prototype.onModeIndexSet = function ( tabPanel ) {
  * @param {Object} [config] Mode-specific config
  */
 ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processPanelName, fromSelect, config ) {
-	if ( [ 'auto', 'manual', 'reuse', 'extends' ].indexOf( tabPanelName ) === -1 ) {
+	if ( [ 'auto', 'manual', 'reuse' ].indexOf( tabPanelName ) === -1 ) {
 		tabPanelName = this.defaultPanel;
 	} else if ( this.modeIndex.getTabPanel( tabPanelName ).tabItem.isDisabled() ) {
 		tabPanelName = this.defaultPanel;
@@ -376,14 +360,6 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 			// covers the search results.
 			if ( !OO.ui.isMobile() ) {
 				focusTarget = this.reuseSearch.getQuery();
-			}
-			break;
-		case 'extends':
-			this.extendsSearch.buildIndex();
-			// Don't auto-focus on mobile as the keyboard
-			// covers the search results.
-			if ( !OO.ui.isMobile() ) {
-				focusTarget = this.extendsSearch.getQuery();
 			}
 			break;
 	}
@@ -437,11 +413,9 @@ ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
 /**
  * Handle reuse search results choose events.
  *
- * @param {ve.ui.MWReferenceResultWidget} item Chosen item
+ * @param {ve.dm.MWReferenceModel} ref Chosen item
  */
-ve.ui.CitoidInspector.prototype.onReuseSearchResultsChoose = function ( item ) {
-	const ref = item.getData();
-
+ve.ui.CitoidInspector.prototype.onReuseSearchResultsReuse = function ( ref ) {
 	ref.insertReferenceNode( this.getFragment() );
 	// The insertion above collapses the document selection around the placeholder.
 	// As inspector's don't auto-select when closing, we need to manually re-select here.
@@ -460,10 +434,9 @@ ve.ui.CitoidInspector.prototype.onReuseSearchResultsChoose = function ( item ) {
 /**
  * Handle extends search results choose events.
  *
- * @param {ve.ui.MWReferenceResultWidget} item Chosen item
+ * @param {ve.dm.MWReferenceModel} originalRef Chosen item
  */
-ve.ui.CitoidInspector.prototype.onExtendsSearchResultsChoose = function ( item ) {
-	const originalRef = item.getData();
+ve.ui.CitoidInspector.prototype.onReuseSearchResultsExtends = function ( originalRef ) {
 	const newRef = new ve.dm.MWReferenceModel( this.getFragment().getDocument() );
 
 	newRef.extendsRef = originalRef.getListKey();
@@ -611,12 +584,7 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 			}
 
 			this.reuseSearch.setInternalList( this.getFragment().getDocument().getInternalList() );
-			this.extendsSearch.setInternalList( this.getFragment().getDocument().getInternalList() );
 			this.modeIndex.getTabPanel( 'reuse' ).tabItem.setDisabled( this.reuseSearch.isIndexEmpty() );
-
-			if ( mw.config.get( 'wgCiteBookReferencing' ) ) {
-				this.modeIndex.getTabPanel( 'extends' ).tabItem.setDisabled( this.extendsSearch.isIndexEmpty() );
-			}
 
 			if ( this.replaceRefNode ) {
 				this.referenceModel = ve.dm.MWReferenceModel.static.newFromReferenceNode( this.replaceRefNode );
@@ -706,9 +674,6 @@ ve.ui.CitoidInspector.prototype.getTeardownProcess = function ( data ) {
 			}
 			this.lookupPromise = null;
 			this.clearResults();
-			// TODO should also use clearSearch() just need to make sure to track
-			//  a different activity.
-			this.extendsSearch.getQuery().setValue( '' );
 			this.reuseSearch.clearSearch();
 			this.referenceModel = null;
 			this.currentAutoProcessPanel = null;
