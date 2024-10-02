@@ -265,7 +265,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	// Re-use mode
 	this.reuseSearch = new ve.ui.MWReferenceSearchWidget( {
 		classes: [ 've-ui-citoidInspector-search' ],
-		$overlay: this.$overlay
+		$overlay: OO.ui.getDefaultOverlay()
 	} );
 	this.modePanels.reuse.$element.append( this.reuseSearch.$element );
 
