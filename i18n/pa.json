@@ -3,13 +3,14 @@
 		"authors": [
 			"Nachhattardhammu",
 			"Satdeep gill",
-			"Tow"
+			"Tow",
+			"Cabal"
 		]
 	},
 	"citoid-citation-widget-insert-button": "ਜੋੜੋ",
 	"citoid-citoiddialog-back": "ਪਿੱਛੇ",
 	"citoid-citoiddialog-mode-auto": "ਆਟੋਮੈਟਿਕ",
-	"citoid-citoiddialog-mode-manual": "ਮੈਨੂਅਲ",
+	"citoid-citoiddialog-mode-manual": "ਦਸਤੀ",
 	"citoid-citoiddialog-mode-reuse": "ਮੁੜ-ਵਰਤੋਂ",
 	"citoid-citoiddialog-search-placeholder": "ਉਦਾਹਰਨ http://www.example.com",
 	"citoid-citoidtool-title": "ਹਵਾਲਾ",
