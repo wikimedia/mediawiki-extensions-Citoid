@@ -6,17 +6,20 @@
 			"Fitoschido",
 			"Macofe",
 			"MadriCR",
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"Eulalio",
+			"Qwrop",
+			"Rodney Araujo"
 		]
 	},
 	"citoid-action-replace": "Cambiar tipo de referencia",
 	"citoid-citation-widget-insert-button": "Insertar",
 	"citoid-citoiddialog-back": "Atrás",
-	"citoid-citoiddialog-credit": "Propulsado por $1",
+	"citoid-citoiddialog-credit": "Funciona con $1",
 	"citoid-citoiddialog-lookup-button": "Generar",
 	"citoid-citoiddialog-mode-auto": "Automático",
 	"citoid-citoiddialog-mode-manual": "Manual",
-	"citoid-citoiddialog-mode-reuse": "Reusar",
+	"citoid-citoiddialog-mode-reuse": "Reutilizar",
 	"citoid-citoiddialog-search": "Buscar",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, ISBN, PMC/PMID, QID, título o cita",
 	"citoid-citoiddialog-search-placeholder": "por ejemplo, http://www.ejemplo.com",
