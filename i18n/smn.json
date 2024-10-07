@@ -6,7 +6,7 @@
 			"Yupik"
 		]
 	},
-	"citoid-action-replace": "Molso käldeečuijoos häämi",
+	"citoid-action-replace": "Molso käldeečuijoos",
 	"citoid-citation-widget-insert-button": "Lasseet",
 	"citoid-citoiddialog-back": "Maassâd",
 	"citoid-citoiddialog-credit": "Falâlduv taha máhđulâžžân $1",
@@ -14,7 +14,7 @@
 	"citoid-citoiddialog-mode-auto": "Automaatlâš",
 	"citoid-citoiddialog-mode-manual": "Manuaallâš",
 	"citoid-citoiddialog-mode-reuse": "Uđđâsistkevttim",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, paječaalâ, teikkâ čujottâs",
+	"citoid-citoiddialog-search-label": "Lasseet liiŋkâ teikkâ tubdâlduv (ISBN, DOI, teikkâ eres) vâi peesah rähtiđ käldeečujottâs",
 	"citoid-citoiddialog-search-placeholder": "om. http://www.example.com",
 	"citoid-citoiddialog-title": "Lasseet käldeečuijoos",
 	"citoid-citoiddialog-title-replace": "Sajanpyevti käldeečuijoos",
@@ -24,6 +24,6 @@
 	"citoid-referencecontextitem-convert-button": "Nubásmit",
 	"citoid-wb-referenceview-tabs-automatic": "Automaatlâš",
 	"citoid-wb-referenceview-tabs-search": "uusâ",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI teikkâ QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN teikkâ QID:",
 	"citoid-wb-pendingdialog-error": "Käldeečuijoos rähtim ij luhostum. Keevti koskâloostâ manuaallâš teikkâ keččâl uđđâsist."
 }
