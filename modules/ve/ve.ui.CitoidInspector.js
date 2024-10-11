@@ -437,26 +437,13 @@ ve.ui.CitoidInspector.prototype.onReuseSearchResultsReuse = function ( ref ) {
  * @param {ve.dm.MWReferenceModel} originalRef Chosen item
  */
 ve.ui.CitoidInspector.prototype.onReuseSearchResultsExtends = function ( originalRef ) {
-	const newRef = new ve.dm.MWReferenceModel( this.getFragment().getDocument() );
-
-	newRef.extendsRef = originalRef.getListKey();
-	newRef.group = originalRef.getGroup();
-
 	this.dialogs
-		.openWindow( 'setExtendsContent', {
-			originalRef: originalRef,
-			newRef: newRef,
-			internalList: this.getFragment().getDocument().getInternalList()
+		.openWindow( 'reference', {
+			fragment: this.getFragment(),
+			createSubRef: originalRef
 		} )
 		.closing.then( ( data ) => {
 			if ( data && data.action && data.action === 'insert' ) {
-				newRef.insertInternalItem( this.getFragment().getSurface() );
-				newRef.insertReferenceNode( this.getFragment() );
-
-				// The insertion above collapses the document selection around the placeholder.
-				// As inspector's don't auto-select when closing, we need to manually re-select here.
-				// TODO: This should probably be fixed upstream.
-				this.getFragment().select();
 				while ( this.staging ) {
 					this.getFragment().getSurface().applyStaging();
 					this.staging--;
