@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elefentiste"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Inserta",
+	"citoid-citoiddialog-lookup-button": "Crea",
+	"citoid-citoiddialog-mode-auto": "Automata",
+	"citoid-citoiddialog-mode-manual": "Par mano",
+	"citoid-citoiddialog-mode-reuse": "Reusa",
+	"citoid-citoiddialog-title": "Ajunta un sita",
+	"citoid-citoiddialog-title-replace": "Recambia sita",
+	"citoid-citoiddialog-reliability-back": "Atenta con un fonte nova",
+	"citoid-citoiddialog-reliability-unreliable-description": "La comunia regarda esta fonte como nonfidable, e donce lo no es permeteda. Per favore eleje un fonte diferente e fidable.",
+	"citoid-citoidtool-title": "Sita",
+	"citoid-citoidtool-title-othergroup": "Sita",
+	"citoid-wb-referenceview-tabs-automatic": "Automata",
+	"citoid-wb-referenceview-tabs-search": "xerca",
+	"citoid-wb-pendingdialog-title": "Jenerante Sita"
+}
