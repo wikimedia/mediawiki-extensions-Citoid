@@ -11,13 +11,14 @@
 			"Robin0van0der0vliet",
 			"Romaine",
 			"Siebrand",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"HanV"
 		]
 	},
 	"citoid-action-replace": "Referentietype wijzigen",
 	"citoid-citation-widget-insert-button": "Invoegen",
 	"citoid-citoiddialog-back": "Terug",
-	"citoid-citoiddialog-credit": "Aangedreven door $1",
+	"citoid-citoiddialog-credit": "Mogelijk gemaakt door $1",
 	"citoid-citoiddialog-lookup-button": "Aanmaken",
 	"citoid-citoiddialog-mode-auto": "Automatisch",
 	"citoid-citoiddialog-mode-manual": "Handmatig",
