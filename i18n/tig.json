@@ -4,6 +4,14 @@
 			"Bbeshir"
 		]
 	},
+	"citoid-citoiddialog-back": "ኣቅበሎት",
+	"citoid-citoiddialog-lookup-button": "ምኔ",
+	"citoid-citoiddialog-mode-auto": "እብ ኖሱ",
+	"citoid-citoiddialog-mode-manual": "ኣብ እደ",
 	"citoid-citoiddialog-search-placeholder": "ከምሰል http://www.example.com",
+	"citoid-citoiddialog-reliability-back": "ሓዲስ መስደር ጀርብ",
+	"citoid-referencecontextitem-convert-button": "ቀይር",
+	"citoid-wb-referenceview-tabs-automatic": "እብ ኖሱ",
+	"citoid-wb-referenceview-tabs-search": "ሕዜ",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ኣው QID:"
 }
