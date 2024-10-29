@@ -35,7 +35,7 @@ class CitoidDataModule extends RL\Module {
 	 * @param RL\Context|null $context
 	 * @return string[]
 	 */
-	public function getDependencies( RL\Context $context = null ) {
+	public function getDependencies( ?RL\Context $context = null ) {
 		return [
 			'ext.visualEditor.base',
 			'ext.visualEditor.mediawiki',
