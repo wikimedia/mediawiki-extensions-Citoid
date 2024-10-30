@@ -213,11 +213,10 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	this.errorMessage = new OO.ui.MessageWidget( {
 		classes: [ 've-ui-citoidInspector-error' ],
 		type: 'error',
-		inline: true,
-		label: ve.msg( 'citoid-citoiddialog-use-general-error-message-title' )
+		inline: true
 	} ).toggle( false );
 
-	this.errorMessage.$label.append( $( '<p>' ).text( ve.msg( 'citoid-citoiddialog-use-general-error-message-body' ) ) );
+	this.errorMessage.$element.append( $( '<p>' ).text( ve.msg( 'citoid-citoiddialog-use-general-error-message-body' ) ) );
 
 	const manualButton = new OO.ui.ButtonWidget( {
 		label: ve.msg( 'citoid-citoiddialog-manual-button' ),
@@ -228,7 +227,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		this.modeIndex.setTabPanel( 'manual' );
 	} );
 
-	this.errorMessage.$label.append( $( '<p>' ).append( manualButton.$element ) );
+	this.errorMessage.$element.append( $( '<p>' ).append( manualButton.$element ) );
 
 	this.autoProcessPanels.lookup.$element.append(
 		lookupActionFieldLayout.$element,
@@ -819,7 +818,7 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 				// Phabricator T363292
 				ve.track( 'activity.CitoidInspector', { action: 'automatic-generate-fail-network' } );
 
-				this.lookupFailed();
+				this.lookupFailed( response.xhr.status );
 				// Restore focus to the input field.
 				// Definitely don't do this on success and focusing a hidden input causes jQuery
 				// to prevent it from being focused the next time the inspector is opened (T285626)
@@ -846,9 +845,15 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 
 /**
  * Set the auto panel to the error-state
+ * @param {number} [httpStatus] Http status returned by Citoid server, or undefined
  */
-ve.ui.CitoidInspector.prototype.lookupFailed = function () {
+ve.ui.CitoidInspector.prototype.lookupFailed = function ( httpStatus ) {
 	// Enable the input and lookup button
+	if ( httpStatus === 415 ) {
+		this.errorMessage.$label.text( ve.msg( 'citoid-citoiddialog-unsupported-media-type-message' ) );
+	} else {
+		this.errorMessage.$label.text( ve.msg( 'citoid-citoiddialog-use-general-error-message-title' ) );
+	}
 	this.errorMessage.toggle( true );
 	this.lookupInput.once( 'change', () => {
 		this.errorMessage.toggle( false );
