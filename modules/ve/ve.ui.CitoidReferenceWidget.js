@@ -95,6 +95,12 @@ ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel,
 OO.inheritClass( ve.ui.CitoidReferenceWidget, OO.ui.Widget );
 OO.mixinClass( ve.ui.CitoidReferenceWidget, OO.ui.mixin.IconElement );
 
+/* Events */
+
+/*
+ * @event ve.ui.CitoidReferenceWidget#insert
+ */
+
 /* Methods */
 
 /**
@@ -108,10 +114,10 @@ ve.ui.CitoidReferenceWidget.prototype.destroy = function () {
 /**
  * Respond to insert button click event
  *
- * @fires insert
+ * @fires ve.ui.CitoidReferenceWidget#insert
  */
 ve.ui.CitoidReferenceWidget.prototype.onInsertButtonClick = function () {
-	this.emit( 'insert', this.data );
+	this.emit( 'insert' );
 };
 
 /**

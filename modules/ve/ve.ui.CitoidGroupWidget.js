@@ -12,14 +12,7 @@ ve.ui.CitoidGroupWidget = function VeUiCitoidGroupWidget( config ) {
 	OO.ui.mixin.GroupWidget.call( this, Object.assign( {}, config, { $group: this.$element } ) );
 
 	// Aggregate events
-	this.aggregate( {
-		insert: 'itemInsert',
-		update: 'itemUpdate'
-	} );
-	this.connect( this, {
-		itemInsert: 'onItemInsert',
-		itemUpdate: 'onItemUpdate'
-	} );
+	this.aggregate( { insert: 'choose' } );
 
 	this.$element.addClass( 've-ui-citoidInspector-preview' );
 };
@@ -28,27 +21,13 @@ ve.ui.CitoidGroupWidget = function VeUiCitoidGroupWidget( config ) {
 OO.inheritClass( ve.ui.CitoidGroupWidget, OO.ui.Widget );
 OO.mixinClass( ve.ui.CitoidGroupWidget, OO.ui.mixin.GroupElement );
 
+/* Events */
+
+/*
+ * @event ve.ui.CitoidGroupWidget#choose
+ */
+
 /* Methods */
-
-/**
- * Respond to item insert event
- *
- * @param {ve.ui.CitoidReferenceWidget} item Source item
- * @fires choose
- */
-ve.ui.CitoidGroupWidget.prototype.onItemInsert = function ( item ) {
-	this.emit( 'choose', item );
-};
-
-/**
- * Respond to item update event
- *
- * @param {ve.ui.CitoidReferenceWidget} item Source item
- * @fires update
- */
-ve.ui.CitoidGroupWidget.prototype.onItemUpdate = function () {
-	this.emit( 'update' );
-};
 
 /**
  * Clear all items from the group.
