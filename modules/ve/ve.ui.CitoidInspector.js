@@ -803,7 +803,7 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 							this.setModePanel( 'auto', 'result', false, { hasError: hasError } );
 						}, () => {
 							// Phabricator T363292
-							ve.track( 'activity.CitoidInspector', { action: 'automatic-generate-fail-searchResults' } );
+							ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-fail-template-build' } );
 
 							this.lookupFailed();
 							return $.Deferred().resolve();
@@ -816,7 +816,7 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 					return $.Deferred().reject();
 				}
 				// Phabricator T363292
-				ve.track( 'activity.CitoidInspector', { action: 'automatic-generate-fail-network' } );
+				ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-fail-api' } );
 
 				this.lookupFailed( response.xhr.status );
 				// Restore focus to the input field.
@@ -845,6 +845,7 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 
 /**
  * Set the auto panel to the error-state
+ *
  * @param {number} [httpStatus] Http status returned by Citoid server, or undefined
  */
 ve.ui.CitoidInspector.prototype.lookupFailed = function ( httpStatus ) {
