@@ -29,6 +29,7 @@
 	"citoid-citoiddialog-title-replace": "Korvaa viittaus",
 	"citoid-citoiddialog-use-general-error-message-title": "Viittaustasi ei voitu luoda.",
 	"citoid-citoiddialog-use-general-error-message-body": "Kokeile toista lähdettä tai luo viittaus manuaalisesti käyttämällä ylläolevaa ”{{int:citoid-citoiddialog-mode-manual}}”-välilehteä.",
+	"citoid-citoiddialog-unsupported-media-type-message": "Ei-tuettuihin mediatyyppeihin, kuten PDF:iin, kuviin ja videotiedostoihin viittaaminen ei onnistu.",
 	"citoid-citoiddialog-reliability-back": "Kokeile uutta lähdettä",
 	"citoid-citoiddialog-reliability-unreliable-description": "Yhteisömme pitää tätä lähdettä epäluotettavana, minkä takia se ei ole sallittu. Valitse toinen luotettava lähde.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Tämä sivusto on estetty",

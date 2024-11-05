@@ -24,6 +24,7 @@
 	"citoid-citoiddialog-title-replace": "Substituír unha cita",
 	"citoid-citoiddialog-use-general-error-message-title": "Non puidemos crear a túa cita.",
 	"citoid-citoiddialog-use-general-error-message-body": "Proba con outra fonte ou crea a cita manualmente usando a lapela superior \"{{int:citoid-citoiddialog-mode-manual}}\".",
+	"citoid-citoiddialog-unsupported-media-type-message": "Non se poden citar tipos de medios non compatibles, como PDF, imaxes e ficheiros de vídeo.",
 	"citoid-citoiddialog-reliability-back": "Probar unha fonte nova",
 	"citoid-citoiddialog-reliability-unreliable-description": "A nosa comunidade considera que esta fonte non é fiable e, polo tanto, non está permitida. Proba cunha fonte diferente.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Este sitio está bloqueado",
