@@ -15,7 +15,8 @@
 			"Senpremì",
 			"Stefano",
 			"Vivbod",
-			"^musaz"
+			"^musaz",
+			"ZandDev"
 		]
 	},
 	"citoid-action-replace": "Cambia tipo di riferimento",
@@ -36,6 +37,7 @@
 	"citoid-citoidtool-title": "Cita",
 	"citoid-citoidtool-title-othergroup": "Citazione",
 	"citoid-desc": "Fornisce un punto di accesso tra il servizio citoid e MediaWiki",
+	"citoid-isbnscannerdialog-title": "Scansiona codice a barre ISBN",
 	"citoid-referencecontextitem-convert-button": "Converti",
 	"citoid-referencecontextitem-convert-message": "Puoi usare il bottone \"{{int:citoid-referencecontextitem-convert-button}}\" qui sotto per generare un riferimento formattato correttamente a partire dal collegamento esterno.",
 	"citoid-unknown-error": "Si è verificato un errore sconosciuto che ha impedito la creazione di una citazione. Si prega di riprovare più tardi.",

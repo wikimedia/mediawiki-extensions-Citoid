@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"citoid-citation-widget-insert-button": "插裏",
+	"citoid-citoiddialog-back": "返回",
+	"citoid-citoiddialog-mode-auto": "自動",
+	"citoid-citoiddialog-mode-manual": "手動",
+	"citoid-citoiddialog-mode-reuse": "複用",
+	"citoid-citoiddialog-search-placeholder": "比如講 http://www.example.com",
+	"citoid-citoidtool-title": "引用",
+	"citoid-desc": "敆citoid服務共媒體维基之間提供接入點",
+	"citoid-referencecontextitem-convert-button": "轉換",
+	"citoid-referencecontextitem-convert-message": "茲萆參考文獻儷由蜀萆外部鏈接組成。汝會使使下底其「{{int:citoid-referencecontextitem-convert-button}}」按鈕來生成蜀萆正確格式其參考文獻。",
+	"citoid-unknown-error": "發生未知错误，造成無法創建引用。起動汝等仂固再試蜀試。"
+}
