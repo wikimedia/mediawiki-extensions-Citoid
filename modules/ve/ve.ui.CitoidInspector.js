@@ -216,8 +216,6 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		inline: true
 	} ).toggle( false );
 
-	this.errorMessage.$element.append( $( '<p>' ).text( ve.msg( 'citoid-citoiddialog-use-general-error-message-body' ) ) );
-
 	const manualButton = new OO.ui.ButtonWidget( {
 		label: ve.msg( 'citoid-citoiddialog-manual-button' ),
 		flags: [ 'progressive' ]
@@ -227,7 +225,12 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		this.modeIndex.setTabPanel( 'manual' );
 	} );
 
-	this.errorMessage.$element.append( $( '<p>' ).append( manualButton.$element ) );
+	this.$customErrorLabel = $( '<p>' );
+	const $manualPrompt = $( '<div>' );
+	$manualPrompt.append( this.$customErrorLabel );
+	$manualPrompt.append( $( '<p>' ).text( ve.msg( 'citoid-citoiddialog-use-general-error-message-body' ) ) );
+	$manualPrompt.append( $( '<p>' ).append( manualButton.$element ) );
+	this.errorMessage.setLabel( $manualPrompt );
 
 	this.autoProcessPanels.lookup.$element.append(
 		lookupActionFieldLayout.$element,
@@ -851,9 +854,9 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 ve.ui.CitoidInspector.prototype.lookupFailed = function ( httpStatus ) {
 	// Enable the input and lookup button
 	if ( httpStatus === 415 ) {
-		this.errorMessage.$label.text( ve.msg( 'citoid-citoiddialog-unsupported-media-type-message' ) );
+		this.$customErrorLabel.text( ve.msg( 'citoid-citoiddialog-unsupported-media-type-message' ) );
 	} else {
-		this.errorMessage.$label.text( ve.msg( 'citoid-citoiddialog-use-general-error-message-title' ) );
+		this.$customErrorLabel.text( ve.msg( 'citoid-citoiddialog-use-general-error-message-title' ) );
 	}
 	this.errorMessage.toggle( true );
 	this.lookupInput.once( 'change', () => {
