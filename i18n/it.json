@@ -15,7 +15,8 @@
 			"Senpremì",
 			"Stefano",
 			"Vivbod",
-			"^musaz"
+			"^musaz",
+			"ZandDev"
 		]
 	},
 	"citoid-action-replace": "Sostituisci citazione",
@@ -31,12 +32,15 @@
 	"citoid-citoiddialog-search-placeholder": "ad esempio http://www.example.com",
 	"citoid-citoiddialog-title": "Aggiungi una fonte",
 	"citoid-citoiddialog-title-replace": "Sostituisci citazione",
+	"citoid-citoiddialog-use-general-error-message-title": "Non siamo riusciti a creare una citazione per te.",
+	"citoid-citoiddialog-use-general-error-message-body": "Prova un'altra fonte oppure prova a crearne una manualmente utilizzando la scheda \"{{int:citoid-citoiddialog-mode-manual}}\" qui sopra.",
 	"citoid-citoiddialog-reliability-back": "Prova una nuova fonte",
 	"citoid-citoiddialog-reliability-unreliable-description": "Questa fonte è considerata inaffidabile dalla nostra comunità e pertanto non è consentita. Scegli una diversa fonte affidabile.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Questo sito è bloccato",
 	"citoid-citoidtool-title": "Cita",
 	"citoid-citoidtool-title-othergroup": "Citazione",
 	"citoid-desc": "Fornisce un punto di accesso tra il servizio citoid e MediaWiki",
+	"citoid-isbnscannerdialog-title": "Scansiona codice a barre ISBN",
 	"citoid-referencecontextitem-convert-button": "Converti",
 	"citoid-referencecontextitem-convert-message": "Puoi usare il bottone \"{{int:citoid-referencecontextitem-convert-button}}\" qui sotto per generare un riferimento formattato correttamente a partire dal collegamento esterno.",
 	"citoid-unknown-error": "Si è verificato un errore sconosciuto che ha impedito la creazione di una citazione. Si prega di riprovare più tardi.",

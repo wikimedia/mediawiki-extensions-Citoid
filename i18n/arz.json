@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"HitomiAkane"
+			"HitomiAkane",
+			"Meno25"
 		]
 	},
 	"citoid-citation-widget-insert-button": "استخدم",
 	"citoid-citoiddialog-back": "رجوع",
 	"citoid-citoiddialog-credit": "مدعوم من $1",
-	"citoid-citoiddialog-lookup-button": "توليد",
+	"citoid-citoiddialog-lookup-button": "خلق",
 	"citoid-citoiddialog-mode-auto": "آلى",
 	"citoid-citoiddialog-mode-manual": "يدوى",
 	"citoid-citoiddialog-mode-reuse": "استخدم مره تانيه",
-	"citoid-citoiddialog-search-label": "مسار او معرف الوثيقه الرقميه او رقم دولى معيارى للكتاب او معرف بوبميد او معرف ويكى بيانات او عنوان او استشهاد",
+	"citoid-citoiddialog-search-label": "إدخال رابط أو رمز مرجع (ISBN، DOI أو غيره) لإنشاء اقتباس",
 	"citoid-citoiddialog-search-placeholder": "مثال: http://www.example.com",
 	"citoid-citoiddialog-title": "اضافة استشهاد",
 	"citoid-citoiddialog-title-replace": "استبدال الاستشهاد",
@@ -23,7 +24,7 @@
 	"citoid-unknown-error": "حصل خطأ معروف منعنا من عمل استشهاد. لو سمحت جرب مره تانيه بعدين.",
 	"citoid-wb-referenceview-tabs-automatic": "آلى",
 	"citoid-wb-referenceview-tabs-search": "تدوير",
-	"citoid-wb-referenceview-tabs-search-label": "مسار او معرف الوثيقه الرقميه او الرقم الدولى المعيارى للكتاب او معرف ويكى بيانات:",
+	"citoid-wb-referenceview-tabs-search-label": "URL، DOI، ISBN، أو QID:",
 	"citoid-wb-pendingdialog-error": "ما قادرناش نعمل مرجع من الادخال داه, استخدم علامة التبويب \"يدوى\" او جرب مره تانيه.",
 	"citoid-wb-pendingdialog-message": "عمل المرجع ... برجاء الانتظار ...",
 	"citoid-wb-pendingdialog-title": "عمل الاقتباس"
