@@ -34,7 +34,7 @@
 	"citoid-citoiddialog-title-replace": "Sostituisci citazione",
 	"citoid-citoiddialog-use-general-error-message-title": "Non siamo riusciti a creare una citazione per te.",
 	"citoid-citoiddialog-use-general-error-message-body": "Prova un'altra fonte oppure prova a crearne una manualmente utilizzando la scheda \"{{int:citoid-citoiddialog-mode-manual}}\" qui sopra.",
-	"citoid-citoiddialog-unsupported-media-type-message": "Impossibile citare tipi di media non supportati, come file PDF, immagini e filmati.",
+	"citoid-citoiddialog-unsupported-media-type-message": "Impossibile citare tipi di media non supportati, come file PDF, immagini e video.",
 	"citoid-citoiddialog-reliability-back": "Prova una nuova fonte",
 	"citoid-citoiddialog-reliability-unreliable-description": "Questa fonte è considerata inaffidabile dalla nostra comunità e pertanto non è consentita. Scegli una diversa fonte affidabile.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Questo sito è bloccato",
