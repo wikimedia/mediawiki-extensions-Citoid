@@ -84,6 +84,17 @@ ve.ui.CitoidInspector.static.actions = [
 /**
  * @inheritdoc
  */
+ve.ui.CitoidInspector.prototype.getEscapeAction = function () {
+	const backOrClose = this.actions.get( { flags: [ 'back', 'close' ], visible: true } );
+	if ( backOrClose.length ) {
+		return backOrClose[ 0 ].getAction();
+	}
+	return null;
+};
+
+/**
+ * @inheritdoc
+ */
 ve.ui.CitoidInspector.prototype.initialize = function () {
 	// Parent method
 	ve.ui.CitoidInspector.super.prototype.initialize.call( this );
