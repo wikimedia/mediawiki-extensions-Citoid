@@ -1,11 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
+			"QW90",
 			"The Discoverer"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Ghal",
 	"citoid-citoiddialog-back": "Fattim",
+	"citoid-citoiddialog-lookup-button": "Roch",
+	"citoid-citoiddialog-mode-auto": "Apoap",
+	"citoid-citoiddialog-mode-manual": "Hatan kelolem",
 	"citoid-citoiddialog-mode-reuse": "Punorupeog",
-	"citoid-citoiddialog-search-placeholder": "udahoron, http://www.example.com"
+	"citoid-citoiddialog-search-placeholder": "udahoron, http://www.example.com",
+	"citoid-citoiddialog-title": "Utaro ghal",
+	"citoid-citoiddialog-reliability-unreliable-title": "Hi sayt addaila",
+	"citoid-citoidtool-title": "Utaro di",
+	"citoid-citoidtool-title-othergroup": "Utaro",
+	"citoid-wb-referenceview-tabs-automatic": "Apoap",
+	"citoid-wb-referenceview-tabs-search": "sod",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, vo QID:"
 }
