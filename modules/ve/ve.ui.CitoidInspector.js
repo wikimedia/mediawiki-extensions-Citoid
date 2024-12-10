@@ -946,12 +946,12 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 			if ( optionWidgets.length > 0 ) {
 				// Add citations to the select widget
 				this.previewSelectWidget.addItems( optionWidgets );
-				// Add credit for the first result only to the widget, currently for Zotero & WorldCat only
+				// Add credit for the first result only to the widget, currently for Zotero & Internet Archive only
 				if ( sources[ 0 ] ) {
 					if ( sources[ 0 ].indexOf( 'Zotero' ) !== -1 ) {
 						this.credit.setLabel( ve.msg( 'citoid-citoiddialog-credit', 'Zotero' ) );
-					} else if ( sources[ 0 ].indexOf( 'WorldCat' ) !== -1 ) {
-						this.credit.setLabel( ve.msg( 'citoid-citoiddialog-credit', 'WorldCat' ) );
+					} else if ( sources[ 0 ].indexOf( 'Wayback Machine' ) !== -1 ) {
+						this.credit.setLabel( ve.msg( 'citoid-citoiddialog-credit', 'Wayback Machine' ) );
 					} else {
 						this.credit.setLabel( null );
 					}
