@@ -11,10 +11,10 @@
 			"Urbalazs"
 		]
 	},
-	"citoid-action-replace": "Hivatkozás cseréje",
+	"citoid-action-replace": "Forráshivatkozás cseréje",
 	"citoid-citation-widget-insert-button": "Beillesztés",
 	"citoid-citoiddialog-back": "Vissza",
-	"citoid-citoiddialog-credit": "Készítette: $1",
+	"citoid-citoiddialog-credit": "$1 által működtetett",
 	"citoid-citoiddialog-lookup-button": "Létrehozás",
 	"citoid-citoiddialog-manual-button": "Kézi hozzáadás",
 	"citoid-citoiddialog-mode-auto": "Automatikus",
@@ -23,9 +23,10 @@
 	"citoid-citoiddialog-search-label": "Írj be egy linket vagy hivatkozáskódot (ISBN, DOI stb.) új forráshivatkozás létrehozásához",
 	"citoid-citoiddialog-search-placeholder": "pl. http://www.example.com",
 	"citoid-citoiddialog-title": "Forráshivatkozás hozzáadása",
-	"citoid-citoiddialog-title-replace": "Hivatkozás cseréje",
-	"citoid-citoiddialog-use-general-error-message-title": "Nem tudtunk hivatkozást létrehozni neked.",
+	"citoid-citoiddialog-title-replace": "Forráshivatkozás cseréje",
+	"citoid-citoiddialog-use-general-error-message-title": "Nem tudtunk forráshivatkozást létrehozni neked.",
 	"citoid-citoiddialog-use-general-error-message-body": "Próbálkozz egy másik forrással, vagy készíts egy hivatkozást kézzel a fenti „{{int:citoid-citoiddialog-mode-manual}}” fül használatával.",
+	"citoid-citoiddialog-unsupported-media-type-message": "Nem támogatott fájltípusokra forráshivatkozást létrehozni nem lehetséges, mint például PDF-ekre, kép és videó fájlokra.",
 	"citoid-citoiddialog-reliability-back": "Próbálj meg egy új forrást",
 	"citoid-citoiddialog-reliability-unreliable-description": "Ezt a forrást a közösségünk megbízhatatlannak minősítette, így nincs engedélyezve. Kérjük, válassz egy másik, megbízható forrást.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Ez a weboldal le van tiltva",
@@ -41,5 +42,5 @@
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN vagy QID:",
 	"citoid-wb-pendingdialog-error": "Nem sikerült elkészíteni a forráshivatkozást ebből a bemenetből. Használd a kézi fület, vagy próbáld újra.",
 	"citoid-wb-pendingdialog-message": "A forráshivatkozásod elkészítése folyamatban, egy kis türelmet…",
-	"citoid-wb-pendingdialog-title": "Hivatkozás készítése folyamatban"
+	"citoid-wb-pendingdialog-title": "Forráshivatkozás készítése folyamatban"
 }
