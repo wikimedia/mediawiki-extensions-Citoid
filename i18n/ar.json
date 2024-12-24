@@ -29,6 +29,7 @@
 	"citoid-citoiddialog-search-placeholder": "مثال: http://www.example.com",
 	"citoid-citoiddialog-title": "إضافة استشهاد",
 	"citoid-citoiddialog-title-replace": "استبدال الاستشهاد",
+	"citoid-citoiddialog-use-general-error-message-title": "لم نتمكن من تقديم اقتباس لك.",
 	"citoid-citoiddialog-use-general-error-message-body": "جرب مصدرًا آخر أو قم بإنشاء مصدر يدويًا باستخدام علامة التبويب \"{{int:citoid-citoiddialog-mode-manual}}\" أعلاه.",
 	"citoid-citoiddialog-reliability-back": "جرب مصدر جديد",
 	"citoid-citoiddialog-reliability-unreliable-description": "يعتبر هذا المصدر غير موثوق به، وبالتالي لا يُسمح به. يرجى اختيار مصدر موثوق آخر.",
