@@ -14,7 +14,7 @@
 	"citoid-action-replace": "Referencia-típus változtatása",
 	"citoid-citation-widget-insert-button": "Beillesztés",
 	"citoid-citoiddialog-back": "Vissza",
-	"citoid-citoiddialog-credit": "Készítette: $1",
+	"citoid-citoiddialog-credit": "Működteti a(z) $1",
 	"citoid-citoiddialog-lookup-button": "Generálás",
 	"citoid-citoiddialog-mode-auto": "Automatikus",
 	"citoid-citoiddialog-mode-manual": "Kézi",
@@ -24,7 +24,7 @@
 	"citoid-citoiddialog-search-placeholder": "pl. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "Keresés, kis türelmet…",
 	"citoid-citoiddialog-title": "Forráshivatkozás hozzáadása",
-	"citoid-citoiddialog-title-replace": "Hivatkozás cseréje",
+	"citoid-citoiddialog-title-replace": "Forráshivatkozás cseréje",
 	"citoid-citoiddialog-use-general-error-message": "Nem tudtuk elkészíteni neked a forráshivatkozást. Készíthetsz egyet manuálisan a fenti „{{int:citoid-citoiddialog-mode-manual}}” fülön.",
 	"citoid-citoidtool-title": "Forrás",
 	"citoid-citoidtool-title-othergroup": "Forráshivatkozás",
@@ -38,5 +38,5 @@
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN vagy QID:",
 	"citoid-wb-pendingdialog-error": "Nem sikerült elkészíteni a forráshivatkozást ebből a bemenetből. Használd a kézi fület, vagy próbáld újra.",
 	"citoid-wb-pendingdialog-message": "A forráshivatkozásod elkészítése folyamatban, egy kis türelmet…",
-	"citoid-wb-pendingdialog-title": "Hivatkozás készítése folyamatban"
+	"citoid-wb-pendingdialog-title": "Forráshivatkozás készítése folyamatban"
 }
