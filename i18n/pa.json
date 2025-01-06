@@ -9,10 +9,16 @@
 	},
 	"citoid-citation-widget-insert-button": "ਜੋੜੋ",
 	"citoid-citoiddialog-back": "ਪਿੱਛੇ",
+	"citoid-citoiddialog-credit": "$1 ਵੱਲੋਂ ਚਲਾਇਆ ਗਿਆ",
 	"citoid-citoiddialog-mode-auto": "ਆਟੋਮੈਟਿਕ",
 	"citoid-citoiddialog-mode-manual": "ਦਸਤੀ",
 	"citoid-citoiddialog-mode-reuse": "ਮੁੜ-ਵਰਤੋਂ",
 	"citoid-citoiddialog-search-placeholder": "ਉਦਾਹਰਨ http://www.example.com",
+	"citoid-citoiddialog-title": "ਇੱਕ ਹਵਾਲਾ ਜੋੜੋ",
+	"citoid-citoiddialog-title-replace": "ਹਵਾਲਾ ਬਦਲੋ",
 	"citoid-citoidtool-title": "ਹਵਾਲਾ",
-	"citoid-citoidtool-title-othergroup": "ਹਵਾਲਾ"
+	"citoid-citoidtool-title-othergroup": "ਹਵਾਲਾ",
+	"citoid-referencecontextitem-convert-button": "ਬਦਲੋ",
+	"citoid-wb-referenceview-tabs-search": "ਖੋਜੋ",
+	"citoid-wb-pendingdialog-title": "ਹਵਾਲਾ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 }
