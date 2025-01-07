@@ -5,11 +5,12 @@
 			"Silraks"
 		]
 	},
-	"citoid-action-replace": "Mainīt atsauces veidu",
+	"citoid-action-replace": "Aizvietot atsauci",
 	"citoid-citation-widget-insert-button": "Ievietot",
 	"citoid-citoiddialog-back": "Atpakaļ",
 	"citoid-citoiddialog-credit": "Nodrošina $1",
 	"citoid-citoiddialog-lookup-button": "Izveidot",
+	"citoid-citoiddialog-manual-button": "Pievienot manuāli",
 	"citoid-citoiddialog-mode-auto": "Automātiski",
 	"citoid-citoiddialog-mode-manual": "Manuāli",
 	"citoid-citoiddialog-mode-reuse": "Atkārtota izmantošana",
