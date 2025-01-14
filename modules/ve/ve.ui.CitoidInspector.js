@@ -124,7 +124,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		ajax: {
 			// Request content language of wiki from citoid service
 			headers: { 'accept-language': mw.config.get( 'wgContentLanguage' ) },
-			timeout: 20 * 1000, // 20 seconds
+			timeout: 30 * 1000, // 30 seconds
 			type: 'GET'
 		}
 	};
