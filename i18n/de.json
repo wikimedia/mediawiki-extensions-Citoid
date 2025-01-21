@@ -24,7 +24,7 @@
 	"citoid-citoiddialog-title": "Einen Beleg hinzufügen",
 	"citoid-citoiddialog-title-replace": "Beleg ersetzen",
 	"citoid-citoiddialog-use-general-error-message-title": "Es konnte kein Einzelnachweis erstellt werden.",
-	"citoid-citoiddialog-use-general-error-message-body": "Versuche es mit einer anderen Quelle oder erstelle manuell eine mithilfe der Registerkarte „{{int:citoid-citoiddialog-mode-manual}}“ oberhalb.",
+	"citoid-citoiddialog-use-general-error-message-body": "Versuche es mit einer anderen Quelle oder erstelle manuell einen mithilfe der Registerkarte „{{int:citoid-citoiddialog-mode-manual}}“ oberhalb.",
 	"citoid-citoiddialog-reliability-back": "Versuche es mit einem neuen Beleg",
 	"citoid-citoiddialog-reliability-unreliable-description": "Dieser Beleg wird von unserer Community als unzuverlässig angesehen und ist daher nicht zulässig. Bitte wähle einen anderen zuverlässigen Beleg.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Diese Seite ist gesperrt",
