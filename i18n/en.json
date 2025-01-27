@@ -16,7 +16,7 @@
 	"citoid-citoiddialog-title": "Add a citation",
 	"citoid-citoiddialog-title-replace": "Replace citation",
 	"citoid-citoiddialog-use-general-error-message-title": "We couldn't make a citation for you.",
-	"citoid-citoiddialog-use-general-error-message-body": "Try another source or create one manually using the \"{{int:citoid-citoiddialog-mode-manual}}\" tab above.",
+	"citoid-citoiddialog-use-general-error-message-body": "Try another source or create one manually.",
 	"citoid-citoiddialog-unsupported-media-type-message": "Unable to cite unsupported media types such as PDFs, images and video files.",
 	"citoid-citoiddialog-reliability-back": "Try a new source",
 	"citoid-citoiddialog-reliability-unreliable-description": "This source is considered unreliable by our community, and therefore is not allowed. Please choose a different reliable source.",
