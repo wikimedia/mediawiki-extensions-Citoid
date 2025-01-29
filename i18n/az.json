@@ -20,7 +20,7 @@
 	"citoid-citoiddialog-title": "İstinad əlavə et",
 	"citoid-citoiddialog-title-replace": "İstinadı dəyiş",
 	"citoid-citoiddialog-use-general-error-message-title": "Sizin üçün istinad yarada bilmədik.",
-	"citoid-citoiddialog-use-general-error-message-body": "Başqa mənbəni sınayın və ya yuxarıdakı \"{{int:citoid-citoiddialog-mode-manual}}\" bölməsindən istifadə edərək manual olaraq yaradın.",
+	"citoid-citoiddialog-use-general-error-message-body": "Başqa mənbəni sınayın və ya manual olaraq yaradın.",
 	"citoid-citoiddialog-unsupported-media-type-message": "PDF, şəkillər və video faylları kimi dəstəklənməyən media növlərinə istinad etmək mümkün deyil.",
 	"citoid-citoiddialog-reliability-back": "Yeni mənbəni sına",
 	"citoid-citoiddialog-reliability-unreliable-description": "Bu mənbə icma tərəfindən etibarsız hesab edilir və buna görə də icazə verilmir. Fərqli etibarlı mənbə seçin.",

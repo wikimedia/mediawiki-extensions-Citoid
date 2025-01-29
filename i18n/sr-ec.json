@@ -26,7 +26,7 @@
 	"citoid-citoiddialog-title": "Додавање референце",
 	"citoid-citoiddialog-title-replace": "Замена референце",
 	"citoid-citoiddialog-use-general-error-message-title": "Нисмо успели направити референцу за Вас.",
-	"citoid-citoiddialog-use-general-error-message-body": "Пробајте други извор или направите ручно коришћењем картице „{{int:citoid-citoiddialog-mode-manual}}” изнад.",
+	"citoid-citoiddialog-use-general-error-message-body": "Пробајте други извор или направите ручно.",
 	"citoid-citoiddialog-unsupported-media-type-message": "Није могуће цитирање неподржаних врста медија као што су PDF-ови, слике и видео датотеке.",
 	"citoid-citoiddialog-reliability-back": "Пробајте нови извор",
 	"citoid-citoiddialog-reliability-unreliable-description": "Наша заједница сматра овај извор непоузданим и зато није дозвољен. Молимо изаберите други поуздан извор.",

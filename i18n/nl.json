@@ -29,7 +29,7 @@
 	"citoid-citoiddialog-title": "Referentie invoegen",
 	"citoid-citoiddialog-title-replace": "Vervang referentie",
 	"citoid-citoiddialog-use-general-error-message-title": "Wij konden geen citaat voor u maken.",
-	"citoid-citoiddialog-use-general-error-message-body": "Probeer een andere bron of maak er handmatig een aan met het tabblad ”{{int:citoid-citoiddialog-mode-manual}}” hierboven.",
+	"citoid-citoiddialog-use-general-error-message-body": "Probeer een andere bron of maak er handmatig een aan.",
 	"citoid-citoiddialog-unsupported-media-type-message": "Het is niet mogelijk om aan niet-ondersteunde mediatypen te refereren, zoals PDF’s, afbeeldingen en videobestanden.",
 	"citoid-citoiddialog-reliability-back": "Een nieuwe bron proberen",
 	"citoid-citoiddialog-reliability-unreliable-description": "Deze bron wordt door onze gemeenschap als onbetrouwbaar beschouwd en is daarom niet toegestaan. Kies een andere betrouwbare bron.",
