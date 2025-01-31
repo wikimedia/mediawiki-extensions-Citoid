@@ -36,7 +36,7 @@
 	"citoid-citoiddialog-title": "Ajouter une source",
 	"citoid-citoiddialog-title-replace": "Remplacer la citation",
 	"citoid-citoiddialog-use-general-error-message-title": "Nous n'avons pas pu faire de citation pour vous.",
-	"citoid-citoiddialog-use-general-error-message-body": "Essayez une autre source ou créez-en une manuellement à l'aide de l'onglet « {{int:citoid-citoiddialog-mode-manual}} » ci-dessus.",
+	"citoid-citoiddialog-use-general-error-message-body": "Essayez une autre source ou créez-en une manuellement.",
 	"citoid-citoiddialog-unsupported-media-type-message": "Impossible d'invoquer les types de médias non pris en charge tels que les fichiers PDF, les images et les fichiers vidéo.",
 	"citoid-citoiddialog-reliability-back": "Essayer une nouvelle source",
 	"citoid-citoiddialog-reliability-unreliable-description": "Cette source est considérée comme non fiable par notre communauté et n'est donc pas autorisée. Veuillez choisir une source fiable différente.",
