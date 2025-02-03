@@ -18,7 +18,7 @@
 	"citoid-citoiddialog-title": "Adder un citation",
 	"citoid-citoiddialog-title-replace": "Reimplaciar citation",
 	"citoid-citoiddialog-use-general-error-message-title": "Nos non poteva facer un citation pro te.",
-	"citoid-citoiddialog-use-general-error-message-body": "Tenta un altere fonte o crea manualmente un citation usante le scheda “{{int:citoid-citoiddialog-mode-manual}}” hic supra.",
+	"citoid-citoiddialog-use-general-error-message-body": "Tenta un altere fonte o crea un manualmente.",
 	"citoid-citoiddialog-unsupported-media-type-message": "Non es possibile citar typos multimedial non supportate como PDF, imagines e files video.",
 	"citoid-citoiddialog-reliability-back": "Essayar un nove fonte",
 	"citoid-citoiddialog-reliability-unreliable-description": "Iste fonte es considerate como non digne de fide per nostre communitate e dunque non es permittite. Per favor elige un altere fonte digne de fide.",

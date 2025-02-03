@@ -25,7 +25,7 @@
 	"citoid-citoiddialog-title": "একটি উদ্ধৃতি যোগ করুন",
 	"citoid-citoiddialog-title-replace": "উদ্ধৃতি প্রতিস্থাপন",
 	"citoid-citoiddialog-use-general-error-message-title": "দুঃখিত, উদ্ধৃতি তৈরি করা যাচ্ছে না।",
-	"citoid-citoiddialog-use-general-error-message-body": "অন্য একটি উৎস দিয়ে চেষ্টা করুন বা উপরের \"{{int:citoid-citoiddialog-mode-manual}}\" ট্যাবের মাধ্যমে এটি তৈরি করতে চেষ্টা করুন।",
+	"citoid-citoiddialog-use-general-error-message-body": "অন্য একটি উৎস দিয়ে চেষ্টা করুন বা নিজ হাতে একটি তৈরি করুন।",
 	"citoid-citoiddialog-reliability-back": "একটি নতুন উৎস দিতে চেষ্টা করুন",
 	"citoid-citoiddialog-reliability-unreliable-title": "এই সাইটটি অবরুদ্ধ",
 	"citoid-citoidtool-title": "উদ্ধৃত করুন",
