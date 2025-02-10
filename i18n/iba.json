@@ -17,12 +17,12 @@
 	"citoid-citoidtool-title-othergroup": "Sitasyen",
 	"citoid-desc": "Nyediaka palan akses entara servis citoid enggau MediaWiki",
 	"citoid-referencecontextitem-convert-button": "Nukar",
-	"citoid-referencecontextitem-convert-message": "Nuan tau ngena butang \"{{int:citoid-referencecontextitem-convert-button}}\" ba baruh tu kena ngasilka referens ti beformat enggay betul ari link luar.",
+	"citoid-referencecontextitem-convert-message": "Nuan tau ngena butang \"{{int:citoid-referencecontextitem-convert-button}}\" ba baruh tu kena ngasilka penyanding ti beformat enggau betul ari link luar.",
 	"citoid-unknown-error": "Penyilap ti enda ditemu udah nyadi ti nagang kami ngaga sitasyen. Tau nguji baru ila.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatik",
 	"citoid-wb-referenceview-tabs-search": "giga",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, tauka QID:",
-	"citoid-wb-pendingdialog-error": "Enda ulih ngasilka referens ari input tu. Kena tab manual, tauka nguji baru.",
-	"citoid-wb-pendingdialog-message": "Ngasilka referens ungkup nuan... anti meh...",
+	"citoid-wb-pendingdialog-error": "Enda ulih ngasilka penyanding ari input tu. Kena tab manual, tauka nguji baru.",
+	"citoid-wb-pendingdialog-message": "Ngasilka penyanding ungkup nuan... anti meh...",
 	"citoid-wb-pendingdialog-title": "Ngasilka Sitasyen"
 }
