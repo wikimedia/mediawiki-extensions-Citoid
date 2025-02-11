@@ -3,6 +3,7 @@
 		"authors": [
 			"Abijeet Patro",
 			"Ankita-ks",
+			"Bunnypranav",
 			"NehalDaveND",
 			"Phoenix303",
 			"Saurmandal",
@@ -10,7 +11,7 @@
 			"संजीव कुमार"
 		]
 	},
-	"citoid-action-replace": "सन्दर्भ का प्रकार बदलें",
+	"citoid-action-replace": "सन्दर्भ बदलें",
 	"citoid-citation-widget-insert-button": "जोड़ें",
 	"citoid-citoiddialog-back": "पीछे",
 	"citoid-citoiddialog-credit": "$1 द्वारा संचालित",
