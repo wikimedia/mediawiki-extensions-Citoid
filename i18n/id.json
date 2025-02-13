@@ -10,7 +10,8 @@
 			"Rex",
 			"Veracious",
 			"William Surya Permana",
-			"MarioMS"
+			"MarioMS",
+			"Nur Azli"
 		]
 	},
 	"citoid-action-replace": "Ubah tipe referensi",
@@ -21,11 +22,14 @@
 	"citoid-citoiddialog-mode-auto": "Otomatis",
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Pakai ulang",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, judul, atau kutipan",
+	"citoid-citoiddialog-search-label": "Masukkan pranala atau kode referensi (ISBN, DOI atau lain-lain) untuk membuat kutipan",
 	"citoid-citoiddialog-search-placeholder": "misalnya http://www.example.com",
 	"citoid-citoiddialog-title": "Tambahkan kutipan",
 	"citoid-citoiddialog-title-replace": "Ganti kutipan",
 	"citoid-citoiddialog-use-general-error-message": "Kami tidak dapat membuat kutipan untuk Anda. Anda dapat membuatnya secara manual dengan tab \"{{int:citoid-citoiddialog-mode-manual}}\" di atas.",
+	"citoid-citoiddialog-reliability-back": "Coba sumber baru",
+	"citoid-citoiddialog-reliability-unreliable-description": "Sumber ini dianggap tidak dapat diandalkan oleh komunitas kami, dan oleh karena itu tidak diizinkan. Silakan pilih sumber yang berbeda yang dapat diandalkan.",
+	"citoid-citoiddialog-reliability-unreliable-title": "Situs ini diblokir",
 	"citoid-citoidtool-title": "Kutip",
 	"citoid-citoidtool-title-othergroup": "Kutipan",
 	"citoid-desc": "Menyediakan titik akses antara layanan kutipan dan MediaWiki",
