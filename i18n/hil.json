@@ -1,12 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pare Mo"
+			"Pare Mo",
+			"Exec8"
 		]
 	},
+	"citoid-citation-widget-insert-button": "Pagsal-ot",
+	"citoid-citoiddialog-back": "Balik",
+	"citoid-citoiddialog-credit": "Ginapaandar sang $1",
 	"citoid-citoiddialog-mode-auto": "Awtomatiko",
 	"citoid-citoiddialog-mode-manual": "Manwal",
+	"citoid-citoiddialog-mode-reuse": "Gamiton liwat",
 	"citoid-citoiddialog-search": "Pangitaa",
+	"citoid-citoiddialog-search-placeholder": "halimbawa http://www.example.com",
+	"citoid-citoiddialog-title": "Magdugang sang sitasyon",
+	"citoid-citoiddialog-title-replace": "Islan ang sitasyon",
 	"citoid-citoidtool-title": "Sitaron",
-	"citoid-citoidtool-title-othergroup": "Sita"
+	"citoid-citoidtool-title-othergroup": "Sita",
+	"citoid-desc": "Nagahatag sang mga access point sa tunga sang serbisyo sang citoid kag MediaWiki",
+	"citoid-isbnscannerdialog-title": "I-scan ang ISBN barcode",
+	"citoid-referencecontextitem-convert-button": "Nagsaylo",
+	"citoid-referencecontextitem-convert-message": "Mahimo mo gamiton ang \"{{int:citoid-referencecontextitem-convert-button}}\" nga buton sa idalom sa paghimo sang husto nga gin-format nga reperensya gikan sa eksternal nga link.",
+	"citoid-unknown-error": "May natabo nga wala mahibaluan nga sayop nga nagpugong sa amon sa paghimo sang isa ka sitasyon. Palihog tilawi liwat sa ulihi.",
+	"citoid-wb-referenceview-tabs-automatic": "Awtomatiko",
+	"citoid-wb-referenceview-tabs-search": "magpangita",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ukon QID:",
+	"citoid-wb-pendingdialog-error": "Indi makahimo sang reperensya gikan sa sini nga input. Gamita ang manual tab, ukon tilawi liwat.",
+	"citoid-wb-pendingdialog-message": "Nagahimo sang isa ka reperensya para sa imo... palihog hulata...",
+	"citoid-wb-pendingdialog-title": "Paghimo sang Sitasyon"
 }
