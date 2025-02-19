@@ -1,59 +1,59 @@
-( function () {
-	let map;
-	// Don't create tool unless the configuration message is present
-	try {
-		map = JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
-	} catch ( e ) {}
+let map;
+// Don't create tool unless the configuration message is present
+try {
+	map = JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
+} catch ( e ) {}
 
-	// Check map has all required keys
-	if ( map ) {
-		const requiredMappings = [
-			'artwork',
-			'audioRecording',
-			'bill',
-			'blogPost',
-			'book',
-			'bookSection',
-			'case',
-			'computerProgram',
-			'conferencePaper',
-			'dictionaryEntry',
-			'document',
-			'email',
-			'encyclopediaArticle',
-			'film',
-			'forumPost',
-			'hearing',
-			'instantMessage',
-			'interview',
-			'journalArticle',
-			'letter',
-			'magazineArticle',
-			'manuscript',
-			'map',
-			'newspaperArticle',
-			'patent',
-			'podcast',
-			'presentation',
-			'radioBroadcast',
-			'report',
-			'statute',
-			'thesis',
-			'tvBroadcast',
-			'videoRecording',
-			'webpage'
-		];
+// Check map has all required keys
+if ( map ) {
+	const requiredMappings = [
+		'artwork',
+		'audioRecording',
+		'bill',
+		'blogPost',
+		'book',
+		'bookSection',
+		'case',
+		'computerProgram',
+		'conferencePaper',
+		'dictionaryEntry',
+		'document',
+		'email',
+		'encyclopediaArticle',
+		'film',
+		'forumPost',
+		'hearing',
+		'instantMessage',
+		'interview',
+		'journalArticle',
+		'letter',
+		'magazineArticle',
+		'manuscript',
+		'map',
+		'newspaperArticle',
+		'patent',
+		'podcast',
+		'presentation',
+		'radioBroadcast',
+		'report',
+		'statute',
+		'thesis',
+		'tvBroadcast',
+		'videoRecording',
+		'webpage'
+	];
 
-		const missingMappings = requiredMappings.filter( ( key ) => !map[ key ] );
-		if ( missingMappings.length ) {
-			mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingMappings.join( ', ' ) );
-			map = undefined;
-		}
+	const missingMappings = requiredMappings.filter( ( key ) => !map[ key ] );
+	if ( missingMappings.length ) {
+		mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingMappings.join( ', ' ) );
+		map = undefined;
 	}
+}
 
-	// Expose
-	ve.ui.mwCitoidMap = map;
+// Expose
+ve.ui.mwCitoidMap = map;
 
+( function () {
 	// If there is no template map ("auto") or citation tools ("manual")
 	// don't bother registering Citoid at all.
 	if ( !( ve.ui.mwCitoidMap || ve.ui.mwCitationTools.length ) ) {
