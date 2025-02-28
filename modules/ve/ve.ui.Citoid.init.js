@@ -111,17 +111,18 @@ ve.ui.mwCitoidMap = map;
 		// looking through the object to find what we actually need
 		// to replace. This way, if toolbarGroups are changed in VE code
 		// we won't have to manually change the index here.
-		for ( let i = 0, iLen = toolGroups.length; i < iLen; i++ ) {
+		toolGroups.some( ( toolGroup, i ) => {
 			// Replace the previous cite group with the citoid tool.
 			// If there is no cite group, citoid will appear in the catch-all group
-			if ( toolGroups[ i ].name === 'cite' ) {
+			if ( toolGroup.name === 'cite' ) {
 				toolGroups[ i ] = {
 					name: 'citoid',
 					include: [ 'citoid' ]
 				};
-				break;
+				return true;
 			}
-		}
+			return false;
+		} );
 	}
 
 	for ( const fixName in ve.init.mw.targetFactory.registry ) {
