@@ -104,33 +104,45 @@ ve.ui.mwCitoidMap = map;
 		}
 	}
 
-	function fixTarget( target ) {
-		const toolbarGroups = target.static.toolbarGroups;
-		// Instead of using the rigid position of the group,
-		// downgrade this hack from horrific to somewhat less horrific by
-		// looking through the object to find what we actually need
-		// to replace. This way, if toolbarGroups are changed in VE code
-		// we won't have to manually change the index here.
-		toolbarGroups.some( ( toolbarGroup, i ) => {
-			// Replace the previous cite group with the citoid tool.
-			// If there is no cite group, citoid will appear in the catch-all group
-			if ( toolbarGroup.name === 'cite' ) {
-				toolbarGroups[ i ] = {
+	const modifiedToolbarGroups = [];
+
+	mw.hook( 've.newTarget' ).add( ( target ) => {
+		const toolbarGroups = target.constructor.static.toolbarGroups;
+		// eslint-disable-next-line es-x/no-array-prototype-includes
+		if ( modifiedToolbarGroups.includes( toolbarGroups ) ) {
+			return;
+		}
+		if ( ve.init.mw.MobileArticleTarget && target instanceof ve.init.mw.MobileArticleTarget ) {
+			// Place at the top of the insert group on mobile
+			const insertGroup = toolbarGroups.find(
+				( toolbarGroup ) => toolbarGroup.name === 'insert' ||
+				// Name used in CX.
+				// TODO: Change this to 'insert'
+				toolbarGroup.name === 'extra'
+			);
+			if ( insertGroup ) {
+				insertGroup.forceExpand = [
+					'citoid',
+					...( insertGroup.forceExpand || [] )
+				];
+				insertGroup.promote = [
+					'citoid',
+					...( insertGroup.promote || [] )
+				];
+			}
+		} else {
+			// The citoid tool replaces the cite group in the toolbar,
+			// if it exists, or it will appear in the catch-all group.
+			const index = toolbarGroups.findIndex( ( toolbarGroup ) => toolbarGroup.name === 'cite' );
+			if ( index !== -1 ) {
+				toolbarGroups[ index ] = {
 					name: 'citoid',
 					include: [ 'citoid' ]
 				};
-				return true;
 			}
-			return false;
-		} );
-	}
+		}
 
-	for ( const fixName in ve.init.mw.targetFactory.registry ) {
-		fixTarget( ve.init.mw.targetFactory.lookup( fixName ) );
-	}
-
-	ve.init.mw.targetFactory.on( 'register', ( n, target ) => {
-		fixTarget( target );
+		modifiedToolbarGroups.push( toolbarGroups );
 	} );
 
 	// Add a "Replace reference" action to reference and citation dialogs
