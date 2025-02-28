@@ -12,6 +12,12 @@ ve.ui.CitoidInspectorTool = function VeUiCitoidInspectorTool() {
 	// Parent constructor
 	ve.ui.CitoidInspectorTool.super.apply( this, arguments );
 
+	this.setTitle(
+		this.toolGroup instanceof OO.ui.BarToolGroup ?
+			ve.msg( 'citoid-citoidtool-title' ) :
+			ve.msg( 'citoid-citoidtool-title-othergroup' )
+	);
+
 	// For backwards compatibility with on-wiki gadgets (T219512)
 	this.$element.addClass( 'oo-ui-tool-name-citefromid' );
 
@@ -32,11 +38,6 @@ OO.inheritClass( ve.ui.CitoidInspectorTool, ve.ui.FragmentInspectorTool );
 /* Static properties */
 
 ve.ui.CitoidInspectorTool.static.name = 'citoid';
-ve.ui.CitoidInspectorTool.static.title = OO.ui.deferMsg(
-	mw.config.get( 'wgCiteVisualEditorOtherGroup' ) ?
-		'citoid-citoidtool-title-othergroup' :
-		'citoid-citoidtool-title'
-);
 ve.ui.CitoidInspectorTool.static.icon = 'quotes';
 ve.ui.CitoidInspectorTool.static.narrowConfig = {
 	displayBothIconAndLabel: false
