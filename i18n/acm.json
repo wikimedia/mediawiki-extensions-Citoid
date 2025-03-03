@@ -18,7 +18,7 @@
 	"citoid-citoiddialog-title": "خلي استشهاد",
 	"citoid-citoiddialog-title-replace": "بدل استشهاد",
 	"citoid-citoiddialog-use-general-error-message-title": "ما نكدر نسوي استشهاد الك.",
-	"citoid-citoiddialog-use-general-error-message-body": "جرب مصدر ثاني لو سوي واحد بيدك باستخدام \"{{int:citoid-citoiddialog-mode-manual}}\" فوك.",
+	"citoid-citoiddialog-use-general-error-message-body": "جرب مصدر ثاني لو تسوي واحد بيدك.",
 	"citoid-citoiddialog-reliability-back": "جرب مصدر جديد",
 	"citoid-citoiddialog-reliability-unreliable-description": "هاذه المصدر ما موثوق بمجتمعنه، وبعدين هاذه مو مسموح. جرب مصدر ثاني غير هاذه.",
 	"citoid-citoiddialog-reliability-unreliable-title": "هاذه الموقع محظور",
