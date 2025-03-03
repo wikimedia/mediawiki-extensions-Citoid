@@ -105,17 +105,17 @@ ve.ui.mwCitoidMap = map;
 	}
 
 	function fixTarget( target ) {
-		const toolGroups = target.static.toolbarGroups;
+		const toolbarGroups = target.static.toolbarGroups;
 		// Instead of using the rigid position of the group,
 		// downgrade this hack from horrific to somewhat less horrific by
 		// looking through the object to find what we actually need
 		// to replace. This way, if toolbarGroups are changed in VE code
 		// we won't have to manually change the index here.
-		toolGroups.some( ( toolGroup, i ) => {
+		toolbarGroups.some( ( toolbarGroup, i ) => {
 			// Replace the previous cite group with the citoid tool.
 			// If there is no cite group, citoid will appear in the catch-all group
-			if ( toolGroup.name === 'cite' ) {
-				toolGroups[ i ] = {
+			if ( toolbarGroup.name === 'cite' ) {
+				toolbarGroups[ i ] = {
 					name: 'citoid',
 					include: [ 'citoid' ]
 				};
