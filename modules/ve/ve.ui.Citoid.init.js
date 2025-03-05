@@ -129,6 +129,15 @@ ve.ui.mwCitoidMap = map;
 					'citoid',
 					...( insertGroup.promote || [] )
 				];
+			} else {
+				// TODO: Remove once mobile insert menu is deployed (T382454)
+				const index = toolbarGroups.findIndex( ( toolbarGroup ) => toolbarGroup.name === 'link' );
+				if ( index !== -1 ) {
+					toolbarGroups.splice( index, 0, {
+						name: 'citoid',
+						include: [ 'citoid' ]
+					} );
+				}
 			}
 		} else {
 			// The citoid tool replaces the cite group in the toolbar,
