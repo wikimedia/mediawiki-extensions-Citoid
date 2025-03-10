@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Nzirisci",
@@ -13,6 +14,6 @@
 	"citoid-citoiddialog-title": "Agghiunci na citazzioni",
 	"citoid-citoidtool-title-othergroup": "Citazzioni",
 	"citoid-wb-referenceview-tabs-automatic": "Automàticu",
-	"citoid-wb-referenceview-tabs-search": "arricerca",
+	"citoid-wb-referenceview-tabs-search": "cerca",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, o QID:"
 }
