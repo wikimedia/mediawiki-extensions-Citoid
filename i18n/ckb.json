@@ -25,6 +25,7 @@
 	"citoid-citoiddialog-use-general-error-message": "نەمانتوانی سەرچاوەکەت بۆ دروست بکەین. دەتوانی بە دەست لەڕێی بەکارھێنانی تابی «{{int:citoid-citoiddialog-mode-manual}}» دروستی بکەیت.",
 	"citoid-citoidtool-title": "ئاماژە",
 	"citoid-citoidtool-title-othergroup": "بەڵگەھێنانەوە",
+	"citoid-isbnscannerdialog-title": "باڕکۆدی ISBN بپشکنە",
 	"citoid-referencecontextitem-convert-button": "گۆڕین",
 	"citoid-referencecontextitem-convert-message": "بۆ دروستکردنی سەرچاوەیەکی بێکەموکوڕ لە بەستەرە دەرەکییەکەوە، دەتوانیت دوگمەی «{{int:citoid-referencecontextitem-convert-button}}» بەکاربێنیت.",
 	"citoid-unknown-error": "ھەڵەیەکی نەناسراو ڕووی دا کە ڕێگریی لە ئێمە کرد تا بەڵگەکەت بۆ بھێنینەوە. تکایە دواتر ھەوڵ بدەرەوە.",
