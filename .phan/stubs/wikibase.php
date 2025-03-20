@@ -3,7 +3,7 @@
 /**
  * Minimal set of classes necessary to fulfill needs of parts of Citoid relying on
  * the Wikibase extension.
- * phpcs:disable MediaWiki.Files.ClassMatchesFilename,Generic.Files.OneObjectStructurePerFile,MediaWiki.Commenting.FunctionComment
+ * phpcs:disable MediaWiki.Files.ClassMatchesFilename,Generic.Files.OneObjectStructurePerFile
  */
 
 namespace Wikibase\Repo {
