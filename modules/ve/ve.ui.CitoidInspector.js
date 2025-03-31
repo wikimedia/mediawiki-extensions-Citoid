@@ -330,7 +330,7 @@ ve.ui.CitoidInspector.prototype.onModeIndexSet = function ( tabPanel ) {
  * @param {Object} [config] Mode-specific config
  */
 ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processPanelName, fromSelect, config ) {
-	if ( [ 'auto', 'manual', 'reuse' ].indexOf( tabPanelName ) === -1 ) {
+	if ( ![ 'auto', 'manual', 'reuse' ].includes( tabPanelName ) ) {
 		tabPanelName = this.defaultPanel;
 	} else if ( this.modeIndex.getTabPanel( tabPanelName ).tabItem.isDisabled() ) {
 		tabPanelName = this.defaultPanel;
@@ -948,9 +948,9 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 				this.previewSelectWidget.addItems( optionWidgets );
 				// Add credit for the first result only to the widget, currently for Zotero & Internet Archive only
 				if ( sources[ 0 ] ) {
-					if ( sources[ 0 ].indexOf( 'Zotero' ) !== -1 ) {
+					if ( sources[ 0 ].includes( 'Zotero' ) ) {
 						this.credit.setLabel( ve.msg( 'citoid-citoiddialog-credit', 'Zotero' ) );
-					} else if ( sources[ 0 ].indexOf( 'Wayback Machine' ) !== -1 ) {
+					} else if ( sources[ 0 ].includes( 'Wayback Machine' ) ) {
 						this.credit.setLabel( ve.msg( 'citoid-citoiddialog-credit', 'Wayback Machine' ) );
 					} else {
 						this.credit.setLabel( null );

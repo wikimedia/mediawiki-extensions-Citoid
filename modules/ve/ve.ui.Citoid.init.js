@@ -108,7 +108,7 @@ ve.ui.mwCitoidMap = map;
 
 	mw.hook( 've.newTarget' ).add( ( target ) => {
 		const toolbarGroups = target.constructor.static.toolbarGroups;
-		// eslint-disable-next-line es-x/no-array-prototype-includes
+
 		if ( modifiedToolbarGroups.includes( toolbarGroups ) ) {
 			return;
 		}
