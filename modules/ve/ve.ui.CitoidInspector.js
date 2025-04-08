@@ -18,7 +18,6 @@ ve.ui.CitoidInspector = function VeUiCitoidInspector( config ) {
 	this.templateTypeMap = null;
 	this.lookupPromise = null;
 	this.fullRestbaseUrl = null;
-	this.service = null;
 	this.serviceConfig = null;
 	this.serviceUrl = null;
 	this.inDialog = '';
@@ -105,32 +104,30 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	this.templateTypeMap = ve.ui.mwCitoidMap;
 	this.citeTools = ve.ui.mwCitationTools;
 
-	// Restbase URL, also used as Bool to determine whether or not to use Restbase for citoid
+	// Partial URL to service, kept for backwards compatibility even though Restbase is no longer (phab:T361576)
 	this.fullRestbaseUrl = mw.config.get( 'wgCitoidConfig' ).fullRestbaseUrl;
 
-	// API config for citoid service if VE is using Restbase
+	// Full url to service
+	this.serviceUrl = mw.config.get( 'wgCitoidConfig' ).citoidServiceUrl;
+
+	// Create full URL for service running behind Api Gateway or Restbase
 	if ( this.fullRestbaseUrl ) {
 		this.serviceUrl = this.fullRestbaseUrl + 'v1/data/citation/' + ve.ui.CitoidInspector.static.citoidFormat;
-		this.serviceConfig = {
-			ajax: {
-				// Request content language of wiki from citoid service
-				headers: { 'accept-language': mw.config.get( 'wgContentLanguage' ) },
-				timeout: 20 * 1000, // 20 seconds
-				type: 'GET'
-			}
-		};
-	} else {
-		// API for citoid service if not using Restbase; uses citoidServiceURL in extension.json instead
-		this.service = new mw.Api( {
-			ajax: {
-				url: mw.config.get( 'wgCitoidConfig' ).citoidServiceUrl,
-				// Request content language of wiki from citoid service
-				headers: { 'accept-language': mw.config.get( 'wgContentLanguage' ) },
-				timeout: 20 * 1000, // 20 seconds
-				type: 'GET'
-			}
-		} );
+	} else if ( this.serviceUrl ) {
+		// Url for citoid service; requires citoid service version >= 1.2.0
+		this.serviceUrl =
+			this.serviceUrl.replace( /\/api$/g, '' ) + // Remove trailing /api for older configs
+			'/' + ve.ui.CitoidInspector.static.citoidFormat;
 	}
+
+	this.serviceConfig = {
+		ajax: {
+			// Request content language of wiki from citoid service
+			headers: { 'accept-language': mw.config.get( 'wgContentLanguage' ) },
+			timeout: 20 * 1000, // 20 seconds
+			type: 'GET'
+		}
+	};
 
 	// Modes
 	this.modeIndex = new OO.ui.IndexLayout( {
@@ -167,7 +164,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		this.modePanels.reuse
 	] );
 
-	this.modeIndex.getTabPanel( 'auto' ).tabItem.setDisabled( !this.templateTypeMap );
+	this.modeIndex.getTabPanel( 'auto' ).tabItem.setDisabled( !( this.templateTypeMap && this.serviceUrl ) );
 	this.defaultPanel = this.templateTypeMap ? 'auto' : 'manual';
 
 	// Auto mode
@@ -755,21 +752,11 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 	// a proper xhr object with "abort" method, so we can
 	// hand off this abort method to the jquery promise
 
-	let citoidXhr;
-	if ( this.fullRestbaseUrl ) {
-		// Use restbase endpoint
-		this.serviceConfig.ajax.url = this.serviceUrl + '/' + encodeURIComponent( search );
-		citoidXhr = new mw.Api( this.serviceConfig ).get();
-	} else {
-		// Use standalone citoid service
-		citoidXhr = this.service
-			.get( {
-				search: search,
-				format: ve.ui.CitoidInspector.static.citoidFormat
-			} );
-	}
+	this.serviceConfig.ajax.url = this.serviceUrl + '/' + encodeURIComponent( search );
 
+	const citoidXhr = new mw.Api( this.serviceConfig ).get();
 	let reliabilityXhr;
+
 	this.lookupPromise = citoidXhr
 		.then(
 			// Success
