@@ -43,10 +43,22 @@ if ( map ) {
 		'webpage'
 	];
 
-	const missingMappings = requiredMappings.filter( ( key ) => !map[ key ] );
+	// New Zotero types: make optional temporarily for backwards compatibility phab:T383667
+	const optionalMappings = [
+		'dataset',
+		'preprint',
+		'standard'
+	];
+
+	let missingMappings = requiredMappings.filter( ( key ) => !map[ key ] );
 	if ( missingMappings.length ) {
-		mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingMappings.join( ', ' ) );
+		mw.log.warn( 'Required mapping(s) missing from citoid-template-type-map.json, unregistering tool: ' + missingMappings.join( ', ' ) );
 		map = undefined;
+	}
+
+	missingMappings = optionalMappings.filter( ( key ) => !map[ key ] );
+	if ( optionalMappings.length ) {
+		mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingMappings.join( ', ' ) );
 	}
 }
 
