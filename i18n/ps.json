@@ -3,18 +3,38 @@
 		"authors": [
 			"Ahmed-Najib-Biabani-Ibrahimkhel",
 			"Amjad Khan",
-			"Baloch Khan"
+			"Baloch Khan",
+			"شاه زمان پټان"
 		]
 	},
+	"citoid-action-replace": "اخځ بدلول",
 	"citoid-citation-widget-insert-button": "ورټومبل",
 	"citoid-citoiddialog-back": "پر شا کېدل",
-	"citoid-citoiddialog-lookup-button": "زېږل",
-	"citoid-citoiddialog-mode-auto": "اتوماتيک",
+	"citoid-citoiddialog-credit": " $1 يې پرمخ وړي",
+	"citoid-citoiddialog-lookup-button": "پنځول",
+	"citoid-citoiddialog-manual-button": "په لاسي ډول ورگډول",
+	"citoid-citoiddialog-mode-auto": "خپلکاره",
 	"citoid-citoiddialog-mode-manual": "لارښوونيز",
 	"citoid-citoiddialog-mode-reuse": "بياکارول",
-	"citoid-citoiddialog-search-label": "URL, DOI يا PMID",
+	"citoid-citoiddialog-search-label": "اخځ جوړولو لپاره وېبتړ يا د سرچينې کوډ(ډي‌او‌آی، آی‌اېس‌بي‌اېن يا نور) دننه کړئ",
 	"citoid-citoiddialog-search-placeholder": "لکه http://www.example.com",
+	"citoid-citoiddialog-title": "اخځ ورگډول",
+	"citoid-citoiddialog-title-replace": "اخځ بدلول",
+	"citoid-citoiddialog-use-general-error-message-title": "موږ ستاسې لپاره اخځ نشو جوړولی",
+	"citoid-citoiddialog-reliability-back": "د نوې سرچينې هڅه وکړئ",
+	"citoid-citoiddialog-reliability-unreliable-description": "دا سرچينه زموږ د ټولنې له خوا باوري نه گڼل کېږي، له همدې کبله پرېښولی نه لري. مهرباني وکړئو يوه بله باوري سرچينه غوره کړئ.",
+	"citoid-citoiddialog-reliability-unreliable-title": "دا وېبځی تړل شوی دی",
 	"citoid-citoidtool-title": "اخځ",
 	"citoid-citoidtool-title-othergroup": "اخځونه",
-	"citoid-referencecontextitem-convert-button": "ور اړول"
+	"citoid-desc": "د سايټ‌ويډ او مېډياويکي ترمنځ د لاسرسي ټکی چمتو کوي.",
+	"citoid-isbnscannerdialog-title": "آی‌اېس‌بي‌اېن بارکوډ ځيرکتل",
+	"citoid-referencecontextitem-convert-button": "ور اړول",
+	"citoid-referencecontextitem-convert-message": "تاسو د لاندې \"{{int:citoid-referencecontextitem-convert-button}}\"  تڼۍ په کارولو سره، کولی شئ؛ چې د بهرني وېبتړ څخه په سمه توگه بڼل شوې سرچينه جوړه کړئ.",
+	"citoid-unknown-error": "يوه ناڅرگنده تېروتنه رامنځته شوه چې د سرچينې جوړولو مخه نيسي. مهرباني وکړئ، وروسته بيا هڅه وکړئ.",
+	"citoid-wb-referenceview-tabs-automatic": "خپلکاره",
+	"citoid-wb-referenceview-tabs-search": "پلټل",
+	"citoid-wb-referenceview-tabs-search-label": "وېب‌تړ‌نښه، بڅپ، کنکش، يا ويکي‌اومتوک پېژند:",
+	"citoid-wb-pendingdialog-error": "له دې ننوتنې نه سرچينه جوړول ناشوني دي. لارښودلړ وکاروئ يا بيا هڅه وکړئ.",
+	"citoid-wb-pendingdialog-message": "ستاسو لپاره سرچينه زېږوي...مهرباني وکړئ په تمه اوسئ...",
+	"citoid-wb-pendingdialog-title": "اخځ زېږول"
 }
