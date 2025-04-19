@@ -16,8 +16,8 @@ use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\ResourceLoader as RL;
 use MediaWiki\ResourceLoader\Hook\ResourceLoaderGetConfigVarsHook;
+use MediaWiki\Skin\Skin;
 use MediaWiki\User\User;
-use Skin;
 use Wikibase\Repo\WikibaseRepo;
 
 class Hooks implements
