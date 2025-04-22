@@ -36,7 +36,7 @@
 	"citoid-citoiddialog-title": "Добавить ссылку на источник",
 	"citoid-citoiddialog-title-replace": "Заменить ссылку на источник",
 	"citoid-citoiddialog-use-general-error-message-title": "Мы не смогли создать вам ссылку на источник.",
-	"citoid-citoiddialog-use-general-error-message-body": "Попробуйте указать другой источник или создать примечание вручную, используя вкладку «{{int:citoid-citoiddialog-mode-manual}}» в этом же окне.",
+	"citoid-citoiddialog-use-general-error-message-body": "Попробуйте указать другой источник или создать примечание вручную.",
 	"citoid-citoiddialog-unsupported-media-type-message": "Невозможно указать не поддерживаемые типы медиа, такие как PDF-файлы, фото и видеофайлы.",
 	"citoid-citoiddialog-reliability-back": "Попробуйте другой источник",
 	"citoid-citoiddialog-reliability-unreliable-description": "Этот источник считается ненадёжным в нашем сообществе и потому не допускается. Пожалуйста, выберите другой более надёжный источник.",
