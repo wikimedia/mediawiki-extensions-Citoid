@@ -50,15 +50,15 @@ if ( map ) {
 		'standard'
 	];
 
-	let missingMappings = requiredMappings.filter( ( key ) => !map[ key ] );
-	if ( missingMappings.length ) {
-		mw.log.warn( 'Required mapping(s) missing from citoid-template-type-map.json, unregistering tool: ' + missingMappings.join( ', ' ) );
+	const missingRequiredMappings = requiredMappings.filter( ( key ) => !map[ key ] );
+	if ( missingRequiredMappings.length ) {
+		mw.log.warn( 'Required mapping(s) missing from citoid-template-type-map.json, unregistering tool: ' + missingRequiredMappings.join( ', ' ) );
 		map = undefined;
 	}
 
-	missingMappings = optionalMappings.filter( ( key ) => !map[ key ] );
-	if ( optionalMappings.length ) {
-		mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingMappings.join( ', ' ) );
+	const missingOptionalMappings = optionalMappings.filter( ( key ) => !map[ key ] );
+	if ( missingOptionalMappings.length ) {
+		mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingOptionalMappings.join( ', ' ) );
 	}
 }
 
