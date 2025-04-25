@@ -14,7 +14,9 @@ ve.ui.CitoidInspectorTool = function VeUiCitoidInspectorTool() {
 
 	this.setTitle(
 		this.toolGroup instanceof OO.ui.BarToolGroup ?
+			// "Cite"
 			ve.msg( 'citoid-citoidtool-title' ) :
+			// "Insert" -> "Citation"
 			ve.msg( 'citoid-citoidtool-title-othergroup' )
 	);
 
