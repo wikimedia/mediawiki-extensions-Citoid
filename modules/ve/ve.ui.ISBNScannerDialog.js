@@ -244,13 +244,8 @@ ve.ui.ISBNScannerDialog.prototype.initCamera = function () {
 			this.torchToggle.setDisabled( !capabilities.torch );
 			if ( this.canCycleDevices && this.deviceIndex === null ) {
 				// Detect the first selected camera index
-				this.devices.some( ( device, index ) => {
-					if ( device.label === track.label ) {
-						this.deviceIndex = index;
-						return true;
-					}
-					return false;
-				} );
+				const deviceIndex = this.devices.findIndex( ( device ) => device.label === track.label );
+				this.deviceIndex = deviceIndex !== -1 ? deviceIndex : null;
 			}
 		} );
 	} );
