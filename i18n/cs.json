@@ -7,7 +7,8 @@
 			"Mormegil",
 			"Patriccck",
 			"Patrik L.",
-			"Vojtěch Dostál"
+			"Vojtěch Dostál",
+			"Martin Urbanec"
 		]
 	},
 	"citoid-action-replace": "Změnit druh reference",
@@ -28,6 +29,7 @@
 	"citoid-citoidtool-title": "Citace",
 	"citoid-citoidtool-title-othergroup": "Citace",
 	"citoid-desc": "Poskytuje přístupové body mezi službou Citoid a MediaWiki",
+	"citoid-isbnscannerdialog-title": "Naskenujte čárový kód ISBN",
 	"citoid-referencecontextitem-convert-button": "Převést",
 	"citoid-referencecontextitem-convert-message": "Pomocí tlačítka „{{int:citoid-referencecontextitem-convert-button}}“ níže můžete z externího odkazu vytvořit správně formátovanou referenci.",
 	"citoid-unknown-error": "Jelikož došlo k neznámé chybě, nejsme schopni vytvořit citaci. Zkuste to znovu později.",
