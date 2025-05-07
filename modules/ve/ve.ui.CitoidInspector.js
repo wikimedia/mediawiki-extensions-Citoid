@@ -426,7 +426,12 @@ ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
  * @param {ve.dm.MWReferenceModel} ref Chosen item
  */
 ve.ui.CitoidInspector.prototype.onReuseSearchResultsReuse = function ( ref ) {
-	ref.insertReferenceNode( this.getFragment() );
+	// Special case for sub-references: create a copy so both can be edited independently
+	if ( ref.extendsRef ) {
+		ref = ve.dm.MWReferenceModel.static.copySubReference( ref, this.getFragment().getDocument() );
+	}
+
+	ref.insertIntoFragment( this.getFragment() );
 	// The insertion above collapses the document selection around the placeholder.
 	// As inspector's don't auto-select when closing, we need to manually re-select here.
 	// TODO: This should probably be fixed upstream.
