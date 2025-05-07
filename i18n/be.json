@@ -31,7 +31,7 @@
 	"citoid-unknown-error": "Адбылася невядомая памылка, якая не дала магчымасць стварыць цытату. Калі ласка, паспрабуйце пазней.",
 	"citoid-wb-referenceview-tabs-automatic": "Аўтаматычная",
 	"citoid-wb-referenceview-tabs-search": "пошук",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI ці QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ці QID:",
 	"citoid-wb-pendingdialog-error": "Немагчыма стварыць цытаванне з гэтага ўводу. Выкарыстоўвайце ўкладку Ўручную або паспрабуйце зноў.",
 	"citoid-wb-pendingdialog-message": "Стварэнне цытавання для вас... калі ласка, пачакайце...",
 	"citoid-wb-pendingdialog-title": "Стварэнне Цытавання"
