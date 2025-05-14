@@ -15,11 +15,12 @@
 			"YuriNikolai"
 		]
 	},
-	"citoid-action-replace": "Alterar o tipo de referência",
+	"citoid-action-replace": "Substituir citação",
 	"citoid-citation-widget-insert-button": "Inserir",
 	"citoid-citoiddialog-back": "Voltar",
 	"citoid-citoiddialog-credit": "Fornecido por $1",
 	"citoid-citoiddialog-lookup-button": "Criar",
+	"citoid-citoiddialog-manual-button": "Adicionar manualmente",
 	"citoid-citoiddialog-mode-auto": "Automático",
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Reusar",
@@ -27,6 +28,8 @@
 	"citoid-citoiddialog-search-placeholder": "por exemplo, http://www.example.com",
 	"citoid-citoiddialog-title": "Adicionar uma citação",
 	"citoid-citoiddialog-title-replace": "Substituir citação",
+	"citoid-citoiddialog-reliability-back": "Tente uma nova fonte",
+	"citoid-citoiddialog-reliability-unreliable-title": "Este site está bloqueado",
 	"citoid-citoidtool-title": "Citar",
 	"citoid-citoidtool-title-othergroup": "Citação",
 	"citoid-desc": "Fornece pontos de acesso entre o serviço citoid e o MediaWiki",
