@@ -4,8 +4,9 @@ try {
 	map = JSON.parse( mw.message( 'citoid-template-type-map.json' ).plain() );
 } catch ( e ) {}
 
-// Check map has all required keys
-if ( map ) {
+// Check map has all required keys if no default template is supplied
+// eslint-disable-next-line no-underscore-dangle
+if ( map && !map._default ) {
 	const requiredMappings = [
 		'artwork',
 		'audioRecording',
