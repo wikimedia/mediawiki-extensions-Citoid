@@ -7,6 +7,19 @@ try {
 // Check map has all required keys if no default template is supplied
 // eslint-disable-next-line no-underscore-dangle
 if ( map && !map._default ) {
+
+	// New Zotero types: make optional temporarily for backwards compatibility phab:T383667
+	const optionalMappings = [
+		'dataset',
+		'preprint',
+		'standard'
+	];
+
+	const missingOptionalMappings = optionalMappings.filter( ( key ) => !map[ key ] );
+	if ( missingOptionalMappings.length ) {
+		mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingOptionalMappings.join( ', ' ) );
+	}
+
 	const requiredMappings = [
 		'artwork',
 		'audioRecording',
@@ -44,22 +57,10 @@ if ( map && !map._default ) {
 		'webpage'
 	];
 
-	// New Zotero types: make optional temporarily for backwards compatibility phab:T383667
-	const optionalMappings = [
-		'dataset',
-		'preprint',
-		'standard'
-	];
-
 	const missingRequiredMappings = requiredMappings.filter( ( key ) => !map[ key ] );
 	if ( missingRequiredMappings.length ) {
 		mw.log.warn( 'Required mapping(s) missing from citoid-template-type-map.json, unregistering tool: ' + missingRequiredMappings.join( ', ' ) );
 		map = undefined;
-	}
-
-	const missingOptionalMappings = optionalMappings.filter( ( key ) => !map[ key ] );
-	if ( missingOptionalMappings.length ) {
-		mw.log.warn( 'Mapping(s) missing from citoid-template-type-map.json: ' + missingOptionalMappings.join( ', ' ) );
 	}
 }
 
