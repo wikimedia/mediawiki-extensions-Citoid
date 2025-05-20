@@ -887,10 +887,11 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 		partPromises = [];
 
 	searchResults.forEach( ( citation ) => {
-		const templateName = this.templateTypeMap[ citation.itemType ];
+		// eslint-disable-next-line no-underscore-dangle
+		const templateName = this.templateTypeMap[ citation.itemType ] || this.templateTypeMap._default;
 
 		// if TemplateName is undefined, this means that items of this citoid
-		// type does not have a Template defined within the message.
+		// type does not have a Template defined within the message. Some configs may contain a default template.
 		if ( !templateName ) {
 			return;
 		}
