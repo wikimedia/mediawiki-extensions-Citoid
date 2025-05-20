@@ -7,7 +7,7 @@
 			"Ponor"
 		]
 	},
-	"citoid-action-replace": "Promijenite vrstu reference",
+	"citoid-action-replace": "Zamijeni referencu",
 	"citoid-citation-widget-insert-button": "Umetni",
 	"citoid-citoiddialog-back": "Natrag",
 	"citoid-citoiddialog-credit": "Omogućuje $1",
@@ -16,19 +16,25 @@
 	"citoid-citoiddialog-mode-auto": "Automatski",
 	"citoid-citoiddialog-mode-manual": "Ručno",
 	"citoid-citoiddialog-mode-reuse": "Uporaba postojećeg",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, naslov djela ili goli citat",
+	"citoid-citoiddialog-search-label": "Da biste stvorili referenciju, unesite poveznicu ili kôd referencije (ISBN, DOI ili drugi)",
 	"citoid-citoiddialog-search-placeholder": "npr. http://www.example.com",
 	"citoid-citoiddialog-title": "Dodaj izvor",
 	"citoid-citoiddialog-title-replace": "Zamijeni izvor",
+	"citoid-citoiddialog-use-general-error-message-title": "Nismo uspjeli napraviti referencu.",
+	"citoid-citoiddialog-reliability-back": "Probajte novi izvor",
+	"citoid-citoiddialog-reliability-unreliable-description": "Ovaj izvor zajednica smatra nepouzdanim, stoga nije dopušten. Molimo izaberite drugi pouzdaniji izvor.",
+	"citoid-citoiddialog-reliability-unreliable-title": "Ovo je mrežno mjesto blokirano",
 	"citoid-citoidtool-title": "Citiraj",
 	"citoid-citoidtool-title-othergroup": "Citat",
 	"citoid-desc": "Pruža pristupne točke između citoid usluge i MediaWikija",
+	"citoid-isbnscannerdialog-title": "Skeniraj crtični ISBN kôd",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
-	"citoid-referencecontextitem-convert-message": "Ovaj navod sastoji se samo od vanjske poveznice. U nastavku možete upotrijebiti dugme »{{int:citoid-referencecontextitem-convert-button}}« kako biste upotpunili referenciju.",
+	"citoid-referencecontextitem-convert-message": "Možete upotrijebiti dugme »{{int:citoid-referencecontextitem-convert-button}}« i tako dobiti pravilno oblikovanu referenciju od vanjske poveznice.",
 	"citoid-unknown-error": "Došlo je do nepoznate pogreške koja je spriječila stvaranje citata. Molimo pokušajte ponovo kasnije.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatski",
 	"citoid-wb-referenceview-tabs-search": "Pretraži",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ili QID:",
 	"citoid-wb-pendingdialog-error": "Referenciju nije moguće stvoriti iz unesenih podataka. Poslužite se karticom za ručno dodavanje izvora ili pokušajte ponovo unoseći drugačije podatke.",
-	"citoid-wb-pendingdialog-message": "Stvaramo referenciju, molimo pričekajte..."
+	"citoid-wb-pendingdialog-message": "Stvaramo referenciju, molimo pričekajte...",
+	"citoid-wb-pendingdialog-title": "Stvaranje referencije"
 }
