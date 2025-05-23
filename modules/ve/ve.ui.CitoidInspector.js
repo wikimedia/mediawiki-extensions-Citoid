@@ -930,6 +930,7 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 				const template = result.template;
 				// T92428: Ignore empty templates
 				if ( ve.isEmptyObject( template.getParameters() ) ) {
+					mw.log.warn( `Empty template ${ result.templateName } produced. Check this template has a correctly configured citoid map in the template data.` );
 					return;
 				}
 				sources.push( result.source ); // source may be undefined or Array of strings
