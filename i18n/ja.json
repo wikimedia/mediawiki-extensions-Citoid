@@ -33,6 +33,7 @@
 	"citoid-citoiddialog-use-general-error-message-title": "引用を作成できませんでした。",
 	"citoid-citoiddialog-use-general-error-message-body": "他の情報源を試すか、手動で作成してください。",
 	"citoid-citoiddialog-unsupported-media-type-message": "PDF、画像、ビデオファイルなどのサポートされていないメディアタイプを引用することはできません。",
+	"citoid-citoiddialog-reliability-back": "他の情報源を試す",
 	"citoid-citoiddialog-reliability-unreliable-description": "この情報源は、コミュニティによって信頼できないと判断されたため認められていません。別の信頼できる情報源を選択してください。",
 	"citoid-citoiddialog-reliability-unreliable-title": "このサイトはブロックされています",
 	"citoid-citoidtool-title": "引用",
