@@ -2,12 +2,33 @@
 	"@metadata": {
 		"authors": [
 			"Oby Ezeilo",
-			"Ukabia"
+			"Ukabia",
+			"King ChristLike",
+			"Victor chukwuemerie Mbah"
 		]
 	},
+	"citoid-citation-widget-insert-button": "Fanyenụ",
+	"citoid-citoiddialog-back": "Azụ",
+	"citoid-citoiddialog-credit": "Kwadoro site na $1",
+	"citoid-citoiddialog-mode-auto": "Akpaaka",
+	"citoid-citoiddialog-mode-manual": "Akwụkwọ ntuziaka",
+	"citoid-citoiddialog-mode-reuse": "Jiri ya mee ihe",
 	"citoid-citoiddialog-search": "chọọ",
+	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
 	"citoid-citoiddialog-search-progress": "ọ ka na-achọọ, biko chere",
 	"citoid-citoiddialog-title": "Mgbakwụnye ikike nkọwa onwe",
+	"citoid-citoiddialog-title-replace": "Dochie Ebenside",
 	"citoid-citoiddialog-use-general-error-message": "anyị enweghị ike ide maka gị ,kama ị nwere ike ime nke a site n'iji {int:citoiddialog-mode-manual} dị n'elu",
-	"citoid-citoidtool-title-othergroup": "Ikike nkọwa onwe"
+	"citoid-citoidtool-title": "Depụta",
+	"citoid-citoidtool-title-othergroup": "Ikike nkọwa onwe",
+	"citoid-desc": "Na-enye ohere ịnweta n'etiti ọrụ citoid na MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Tọghata",
+	"citoid-referencecontextitem-convert-message": "Ị nwere ike iji bọtịnụ \"{{int:citoid-referencecontextitem-convert-button}}\" n'okpuru iji mepụta ntụaka a haziri nke ọma site na njikọ mpụga.",
+	"citoid-unknown-error": "Njehie a na-amaghị ama emeela nke gbochiri anyị ịmepụta nkwupụta. Biko nwaa ọzọ mgbe e mesịrị.",
+	"citoid-wb-referenceview-tabs-automatic": "Akpaaka",
+	"citoid-wb-referenceview-tabs-search": "Chọọ",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ma ọ bụ QID:",
+	"citoid-wb-pendingdialog-error": "Enweghị ike ịmepụta ntụaka site na ntinye a. Jiri akwụkwọ ntuziaka ma ọ bụ nwaa ọzọ.",
+	"citoid-wb-pendingdialog-message": "Anyị na-enye ntụaka maka gị ... Biko chere...",
+	"citoid-wb-pendingdialog-title": "Na-emepụta Ebenside"
 }
