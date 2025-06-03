@@ -2,9 +2,39 @@
 	"@metadata": {
 		"authors": [
 			"Oby Ezeilo",
-			"Ukabia"
+			"Ukabia",
+			"King ChristLike",
+			"Victor chukwuemerie Mbah"
 		]
 	},
+	"citoid-action-replace": "Dochie Ebenside",
+	"citoid-citation-widget-insert-button": "Fanyenụ",
+	"citoid-citoiddialog-back": "Azụ",
+	"citoid-citoiddialog-credit": "Kwadoro site na $1",
+	"citoid-citoiddialog-lookup-button": "Mepụta",
+	"citoid-citoiddialog-manual-button": "Tinye aka",
+	"citoid-citoiddialog-mode-auto": "Akpaaka",
+	"citoid-citoiddialog-mode-manual": "Akwụkwọ ntuziaka",
+	"citoid-citoiddialog-mode-reuse": "Jiri ya mee ihe",
+	"citoid-citoiddialog-search-label": "Tinye njikọ ma ọ bụ koodu Edensibịa (ISBN, DOI ma ọ bụ ndị ọzọ) iji mepụta nkwupụta",
+	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
 	"citoid-citoiddialog-title": "Mgbakwụnye ikike nkọwa onwe",
-	"citoid-citoidtool-title-othergroup": "Ikike nkọwa onwe"
+	"citoid-citoiddialog-title-replace": "Dochie Ebenside",
+	"citoid-citoiddialog-use-general-error-message-title": "Anyị enweghị ike ịmepụta Ebenside maka gị.",
+	"citoid-citoiddialog-reliability-back": "Gbalịa isi iyi ọhụrụ",
+	"citoid-citoiddialog-reliability-unreliable-description": "A na-ewere isi mmalite a dị ka ihe a na-apụghị ịdabere na ya, ya mere a naghị anabata ya. Biko họrọ isi iyi ọzọ a pụrụ ịdabere na ya.",
+	"citoid-citoiddialog-reliability-unreliable-title": "A na-egbochi saịtị a",
+	"citoid-citoidtool-title": "Depụta",
+	"citoid-citoidtool-title-othergroup": "Ikike nkọwa onwe",
+	"citoid-desc": "Na-enye ohere ịnweta n'etiti ọrụ citoid na MediaWiki",
+	"citoid-isbnscannerdialog-title": "Nyochaa koodu mkpọchi ISBN",
+	"citoid-referencecontextitem-convert-button": "Tọghata",
+	"citoid-referencecontextitem-convert-message": "Ị nwere ike iji bọtịnụ \"{{int:citoid-referencecontextitem-convert-button}}\" n'okpuru iji mepụta ntụaka a haziri nke ọma site na njikọ mpụga.",
+	"citoid-unknown-error": "Njehie a na-amaghị ama emeela nke gbochiri anyị ịmepụta nkwupụta. Biko nwaa ọzọ mgbe e mesịrị.",
+	"citoid-wb-referenceview-tabs-automatic": "Akpaaka",
+	"citoid-wb-referenceview-tabs-search": "Chọọ",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ma ọ bụ QID:",
+	"citoid-wb-pendingdialog-error": "Enweghị ike ịmepụta ntụaka site na ntinye a. Jiri akwụkwọ ntuziaka ma ọ bụ nwaa ọzọ.",
+	"citoid-wb-pendingdialog-message": "Anyị na-enye ntụaka maka gị ... Biko chere...",
+	"citoid-wb-pendingdialog-title": "Na-emepụta Ebenside"
 }
