@@ -98,9 +98,6 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	// Parent method
 	ve.ui.CitoidInspector.super.prototype.initialize.call( this );
 
-	this.dialogs = new ve.ui.WindowManager( { factory: ve.ui.windowFactory } );
-	$( OO.ui.getTeleportTarget() ).append( this.dialogs.$element );
-
 	this.templateTypeMap = ve.ui.mwCitoidMap;
 	this.citeTools = ve.ui.mwCitationTools;
 
@@ -452,7 +449,7 @@ ve.ui.CitoidInspector.prototype.onReuseSearchResultsReuse = function ( ref ) {
  * @param {ve.dm.MWReferenceModel} originalRef Chosen item
  */
 ve.ui.CitoidInspector.prototype.onReuseSearchResultsExtends = function ( originalRef ) {
-	this.dialogs
+	this.getManager().getSurface().getDialogs()
 		.openWindow( 'reference', {
 			fragment: this.getFragment(),
 			createSubRef: originalRef
