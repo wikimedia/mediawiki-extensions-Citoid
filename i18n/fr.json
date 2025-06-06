@@ -18,6 +18,7 @@
 			"Orikrin1998",
 			"SleaY",
 			"Thibaut120094",
+			"Trizek (WMF)",
 			"Verdy p",
 			"Wladek92"
 		]
@@ -42,7 +43,7 @@
 	"citoid-citoiddialog-reliability-unreliable-description": "Cette source est considérée comme non fiable par notre communauté et n'est donc pas autorisée. Veuillez choisir une source fiable différente.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Ce site est bloqué",
 	"citoid-citoidtool-title": "Sourcer",
-	"citoid-citoidtool-title-othergroup": "Citation",
+	"citoid-citoidtool-title-othergroup": "Sourcer",
 	"citoid-desc": "Offre des points d’accès entre le service ''citoid'' et MediaWiki",
 	"citoid-isbnscannerdialog-title": "Scanner le code barre ISBN",
 	"citoid-referencecontextitem-convert-button": "Convertir",
