@@ -3,6 +3,7 @@
 		"authors": [
 			"Aftabuzzaman",
 			"Al Riaz Uddin Ripon",
+			"Asked42",
 			"Bodhisattwa",
 			"Mvolz",
 			"NahidSultan",
@@ -26,7 +27,9 @@
 	"citoid-citoiddialog-title-replace": "উদ্ধৃতি প্রতিস্থাপন",
 	"citoid-citoiddialog-use-general-error-message-title": "দুঃখিত, উদ্ধৃতি তৈরি করা যাচ্ছে না।",
 	"citoid-citoiddialog-use-general-error-message-body": "অন্য একটি উৎস দিয়ে চেষ্টা করুন বা নিজ হাতে একটি তৈরি করুন।",
+	"citoid-citoiddialog-unsupported-media-type-message": "পিডিএফ, ছবি এবং ভিডিও ফাইলের মতো অসমর্থিত মিডিয়া ধরনকে উদ্ধৃত করতে অক্ষম।",
 	"citoid-citoiddialog-reliability-back": "একটি নতুন উৎস দিতে চেষ্টা করুন",
+	"citoid-citoiddialog-reliability-unreliable-description": "এই উৎসটি আমাদের সম্প্রদায়ের দ্বারা অবিশ্বস্ত বলে বিবেচিত এবং তাই এটি অনুমোদিত নয়। অনুগ্রহ করে অন্য একটি নির্ভরযোগ্য উৎস বেছে নিন।",
 	"citoid-citoiddialog-reliability-unreliable-title": "এই সাইটটি অবরুদ্ধ",
 	"citoid-citoidtool-title": "উদ্ধৃত করুন",
 	"citoid-citoidtool-title-othergroup": "উদ্ধৃতি",
