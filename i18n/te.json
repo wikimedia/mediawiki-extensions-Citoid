@@ -4,7 +4,8 @@
 			"Chaduvari",
 			"M phani",
 			"Praveen Illa",
-			"Veeven"
+			"Veeven",
+			"Rajadvamshi"
 		]
 	},
 	"citoid-action-replace": "ఉల్లేఖన రకాన్ని మార్చు",
@@ -21,7 +22,7 @@
 	"citoid-citoiddialog-title": "ఉల్లేఖనను చేర్చండి",
 	"citoid-citoiddialog-use-general-error-message-title": "ఉల్లేఖన తయారుచెయ్యలేక పోయాం.",
 	"citoid-citoiddialog-use-general-error-message-body": "మరేదైనా మూలాన్ని తీసుకుని ఉల్లేఖన తయారు చేసేందుకు ప్రయత్నించండి. లేదా పైనున్న \"{{int:citoid-citoiddialog-mode-manual}}\" అనే ట్యాబును వాడి మానవికంగా తయారు చెయ్యండి.",
-	"citoid-citoiddialog-unsupported-media-type-message": "సపోర్టు లేని PDFలు, బొమ్మలు, వీడియో ఫైళ్ళ వంటి మీడియా రకాలను ఉల్లేఖించలేం.",
+	"citoid-citoiddialog-unsupported-media-type-message": "PDF,చిత్రాలు, చలనచిత్రాల దాఖల వంటి అనాలంబ మాధ్యమా రకాలు పేర్కొనబడుటలేదు.",
 	"citoid-citoidtool-title": "ఉల్లేఖించండి",
 	"citoid-citoidtool-title-othergroup": "ఉల్లేఖన",
 	"citoid-desc": "సైటాయిడ్, మీడియావికీల మధ్య యాక్సెస్ పాయింట్లను ఇస్తుంది",
