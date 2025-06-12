@@ -796,7 +796,7 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 				// Phabricator T363292
 				ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-fail-api' } );
 
-				this.lookupFailed( response.xhr.status );
+				this.lookupFailed( response.xhr );
 				// Restore focus to the input field.
 				// Definitely don't do this on success and focusing a hidden input causes jQuery
 				// to prevent it from being focused the next time the inspector is opened (T285626)
@@ -824,16 +824,20 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 /**
  * Set the auto panel to the error-state
  *
- * @param {number} [httpStatus] Http status returned by Citoid server, or undefined
+ * @param {number} [xhr] xhr response object returned by Citoid server, or undefined
  */
-ve.ui.CitoidInspector.prototype.lookupFailed = function ( httpStatus ) {
-	// Enable the input and lookup button
-	if ( httpStatus === 415 ) {
-		this.$customErrorLabel.text( ve.msg( 'citoid-citoiddialog-unsupported-media-type-message' ) );
+ve.ui.CitoidInspector.prototype.lookupFailed = function ( xhr ) {
+	if ( xhr && xhr.status === 415 ) {
+		if ( xhr.responseJSON.contentType === 'application/pdf' ) {
+			this.$customErrorLabel.text( ve.msg( 'citoid-citoiddialog-unsupported-media-type-pdf' ) );
+		} else {
+			this.$customErrorLabel.text( ve.msg( 'citoid-citoiddialog-unsupported-media-type-message' ) );
+		}
 	} else {
 		this.$customErrorLabel.text( ve.msg( 'citoid-citoiddialog-use-general-error-message-title' ) );
 	}
 	this.errorMessage.toggle( true );
+	// Enable the input and lookup button
 	this.lookupInput.once( 'change', () => {
 		this.errorMessage.toggle( false );
 		this.updateSize();
