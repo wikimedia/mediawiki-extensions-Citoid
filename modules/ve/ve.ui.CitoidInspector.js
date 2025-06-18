@@ -424,7 +424,8 @@ ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
  */
 ve.ui.CitoidInspector.prototype.onReuseSearchResultsReuse = function ( ref ) {
 	// Special case for sub-references: create a copy so both can be edited independently
-	if ( ref.extendsRef ) {
+	// TODO: "extendsRef" is only for backwards compatibility and should be removed soon
+	if ( ref.mainRefKey || ref.extendsRef ) {
 		ref = ve.dm.MWReferenceModel.static.copySubReference( ref, this.getFragment().getDocument() );
 	}
 
