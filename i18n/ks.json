@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"citoid-citation-widget-insert-button": "دَرٕج کٔرِو",
+	"citoid-citoiddialog-back": "واپَس",
+	"citoid-citoiddialog-credit": "دٕستِیاب تھاوَن وٲلؠ $1",
+	"citoid-citoiddialog-lookup-button": "تَخلیٖق",
+	"citoid-citoiddialog-mode-auto": "خودکار",
+	"citoid-citoiddialog-mode-manual": "دستی",
+	"citoid-citoiddialog-mode-reuse": "بیٚیِہ اِستِمال",
+	"citoid-citoiddialog-search-label": "یو آر ایل، ڈی او آے، آے ایس بی این، پی ایم سی/پی ایم آئی ڈی یا حَوالہٕ",
+	"citoid-citoiddialog-search-placeholder": "مِثال۔ http://www.example.com",
+	"citoid-citoiddialog-title": "حَوالہٕ دِیِو",
+	"citoid-citoiddialog-title-replace": "حَوالہٕ بَدلٲیو",
+	"citoid-citoidtool-title": "حَوالہٕ",
+	"citoid-citoidtool-title-othergroup": "حَوالہٕ",
+	"citoid-referencecontextitem-convert-button": "تَبدیٖل کٔرِو",
+	"citoid-wb-referenceview-tabs-automatic": "خودکار",
+	"citoid-wb-referenceview-tabs-search": "ژھانٛڈُن",
+	"citoid-wb-referenceview-tabs-search-label": "یو آر ایل، ڈی او آے، بَین الاقوٲمی کِتاب نَمبَر، یا قیو آی ڈی:",
+	"citoid-wb-pendingdialog-error": "اَمہٕ اَندراج پؠٹھ آو نہٕ حَوالہٕ پٲدٕ کَرنہٕ۔ دَستی یَختِیار کٔرِو اَستِمال یا کٔرِو بیٚاکھ کوٗشِش۔",
+	"citoid-wb-pendingdialog-message": "حَوالہٕ چھُ تَیار گَژھان.... صَبر تھٲیِو",
+	"citoid-wb-pendingdialog-title": "حَوالہٕ تَیار کَران"
+}
