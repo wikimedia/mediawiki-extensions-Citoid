@@ -111,7 +111,7 @@ ve.ui.mwCitoidMap = map;
 	for ( const name in ve.ui.toolFactory.registry ) {
 		const toolClass = ve.ui.toolFactory.lookup( name );
 		if (
-			name === 'reference' || name.indexOf( 'reference/' ) === 0 ||
+			name === 'reference' || name.startsWith( 'reference/' ) ||
 			toolClass.prototype instanceof ve.ui.MWCitationDialogTool
 		) {
 			ve.ui.toolFactory.unregister( toolClass );
