@@ -15,9 +15,7 @@
  * @constructor
  * @param {Object} [config] Configuration options
  */
-ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config ) {
-	config = config || {};
-
+ve.ui.CiteSourceSelectWidget = function VeUiCiteSourceSelectWidget( config = {} ) {
 	// Parent constructor
 	ve.ui.CiteSourceSelectWidget.super.call( this, config );
 

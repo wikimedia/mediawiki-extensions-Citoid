@@ -42,8 +42,7 @@ ve.ui.ISBNScannerButtonWidget.prototype.openScanner = function () {
 	this.dialogs.openWindow( 'isbnScanner', {
 		availableLanguages: this.availableLanguages,
 		$returnFocusTo: null
-	} ).closing.then( ( data ) => {
-		data = data || {};
+	} ).closing.then( ( data = {} ) => {
 		if ( data.action === 'apply' ) {
 			this.emit( 'detected', data.code );
 		}

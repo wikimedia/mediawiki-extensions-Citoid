@@ -11,9 +11,7 @@
  * @param {string} [config.templateName="Cite web"]
  * @param {Object[]} [config.citeTools] An array of available citation tool configuration
  */
-ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel, transclusionModel, config ) {
-	config = config || {};
-
+ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel, transclusionModel, config = {} ) {
 	this.transclusionModel = transclusionModel;
 	this.templateName = config.templateName || 'Cite web';
 	this.title = this.templateName;
