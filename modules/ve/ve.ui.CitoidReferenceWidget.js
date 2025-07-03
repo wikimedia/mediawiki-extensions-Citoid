@@ -36,7 +36,7 @@ ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel,
 			}
 		}
 	}
-	this.setIcon( icon || 'ref-cite-web' );
+	this.setIcon( icon || 'browser' );
 
 	// Add insert button
 	this.insertButton = new OO.ui.ButtonWidget( {
