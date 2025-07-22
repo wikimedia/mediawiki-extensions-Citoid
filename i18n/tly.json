@@ -4,7 +4,7 @@
 			"Гусейн"
 		]
 	},
-	"citoid-action-replace": "Ǧejdi tispiri ovaxte",
+	"citoid-action-replace": "Sitoti əvəz karde",
 	"citoid-citation-widget-insert-button": "Dəǧande",
 	"citoid-citoiddialog-back": "Bə dumo",
 	"citoid-citoiddialog-credit": "$1 doəše",
@@ -12,7 +12,7 @@
 	"citoid-citoiddialog-mode-auto": "Avtomətik",
 	"citoid-citoiddialog-mode-manual": "De dasti",
 	"citoid-citoiddialog-mode-reuse": "Ižən oko doj",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, nom ja sitot",
+	"citoid-citoiddialog-search-label": "Sitoti varde linki soxtejro linki ja (ISBN, DOI ja čo) linki kodi dəǧandən",
 	"citoid-citoiddialog-search-placeholder": "nymunə, http://www.example.com",
 	"citoid-citoiddialog-title": "Bə səvoni link varde",
 	"citoid-citoiddialog-title-replace": "Səvoni əvəz karde",
