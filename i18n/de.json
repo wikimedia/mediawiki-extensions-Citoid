@@ -7,7 +7,8 @@
 			"Metalhead64",
 			"Purodha",
 			"Tkarcher",
-			"Umherirrender"
+			"Umherirrender",
+			"Johannnes89"
 		]
 	},
 	"citoid-action-replace": "Einzelnachweis ersetzen",
@@ -19,7 +20,7 @@
 	"citoid-citoiddialog-mode-auto": "Automatisch",
 	"citoid-citoiddialog-mode-manual": "Manuell",
 	"citoid-citoiddialog-mode-reuse": "Weiterverwenden",
-	"citoid-citoiddialog-search-label": "Gib einen Link oder einen Referenzcode (ISBN, DOI oder andere) ein, um ein Zitat zu erstellen.",
+	"citoid-citoiddialog-search-label": "Gib einen Link oder einen Referenzcode (ISBN, DOI oder andere) ein, um einen Einzelnachweis zu erstellen.",
 	"citoid-citoiddialog-search-placeholder": "z.&nbsp;B. http://www.example.com",
 	"citoid-citoiddialog-title": "Einen Beleg hinzufügen",
 	"citoid-citoiddialog-title-replace": "Beleg ersetzen",
