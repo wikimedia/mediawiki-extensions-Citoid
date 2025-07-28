@@ -97,7 +97,7 @@ OO.mixinClass( ve.ui.CitoidReferenceWidget, OO.ui.mixin.IconElement );
 
 /* Events */
 
-/*
+/**
  * @event ve.ui.CitoidReferenceWidget#insert
  */
 

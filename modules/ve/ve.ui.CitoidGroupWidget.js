@@ -23,7 +23,7 @@ OO.mixinClass( ve.ui.CitoidGroupWidget, OO.ui.mixin.GroupElement );
 
 /* Events */
 
-/*
+/**
  * @event ve.ui.CitoidGroupWidget#choose
  */
 

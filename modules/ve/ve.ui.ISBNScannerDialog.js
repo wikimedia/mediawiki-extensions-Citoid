@@ -7,8 +7,6 @@
 /* global Quagga */
 
 /**
- * Dialog for searching for and selecting a language.
- *
  * @class
  * @extends OO.ui.ProcessDialog
  *
