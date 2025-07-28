@@ -285,10 +285,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	this.lookupButton.connect( this, { click: 'onLookupButtonClick' } );
 	this.previewSelectWidget.connect( this, { choose: 'onPreviewSelectWidgetChoose' } );
 	this.sourceSelect.connect( this, { choose: 'onSourceSelectChoose' } );
-	this.reuseSearch.connect( this, {
-		reuse: 'onReuseSearchResultsReuse',
-		extends: 'onReuseSearchResultsExtends'
-	} );
+	this.reuseSearch.connect( this, { reuse: 'onReuseSearchResultsReuse' } );
 
 	this.autoProcessStack.addItems( [
 		this.autoProcessPanels.lookup,
@@ -442,29 +439,6 @@ ve.ui.CitoidInspector.prototype.onReuseSearchResultsReuse = function ( ref ) {
 	ve.track( 'activity.' + this.constructor.static.name, { action: 'reuse-choose' } );
 
 	this.close( { action: 'reuse-choose' } );
-};
-
-/**
- * Handle extends search results choose events.
- *
- * @param {ve.dm.MWReferenceModel} originalRef Chosen item
- */
-ve.ui.CitoidInspector.prototype.onReuseSearchResultsExtends = function ( originalRef ) {
-	this.getManager().getSurface().getDialogs()
-		.openWindow( 'reference', {
-			fragment: this.getFragment(),
-			createSubRef: originalRef
-		} )
-		.closing.then( ( data ) => {
-			if ( data && data.action && data.action === 'insert' ) {
-				while ( this.staging ) {
-					this.getFragment().getSurface().applyStaging();
-					this.staging--;
-				}
-
-				this.close( { action: 'extends-choose' } );
-			}
-		} );
 };
 
 /**
