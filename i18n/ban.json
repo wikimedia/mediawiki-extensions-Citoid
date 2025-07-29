@@ -4,15 +4,15 @@
 			"Chinamoonroll"
 		]
 	},
-	"citoid-action-replace": "Gentos soroh référénsi",
+	"citoid-action-replace": "Gentosin anggitan",
 	"citoid-citation-widget-insert-button": "Sisipang",
 	"citoid-citoiddialog-back": "Walik",
 	"citoid-citoiddialog-credit": "Kawasa olih $1",
-	"citoid-citoiddialog-lookup-button": "Asilang",
+	"citoid-citoiddialog-lookup-button": "Kardi",
 	"citoid-citoiddialog-mode-auto": "Otomatis",
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Anggén malih",
-	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, murda, utawi anggitan",
+	"citoid-citoiddialog-search-label": "Manjingang pranala utawi kode pustaka (ISBN, DOI utawi sané tiosan) anggén ngaryanin kutipan",
 	"citoid-citoiddialog-search-placeholder": "sekadi http://www.example.com",
 	"citoid-citoiddialog-title": "Tambah anggit",
 	"citoid-citoiddialog-title-replace": "Gentos anggit",
