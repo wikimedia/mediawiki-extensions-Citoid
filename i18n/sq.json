@@ -6,7 +6,8 @@
 			"Klein Muçi",
 			"Liridon",
 			"Techlik",
-			"Vyolla"
+			"Vyolla",
+			"Xhulianoo"
 		]
 	},
 	"citoid-action-replace": "Ndryshoni llojin e citimit",
@@ -19,7 +20,7 @@
 	"citoid-citoiddialog-mode-reuse": "Ripërdoreni",
 	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, titull ose citim",
 	"citoid-citoiddialog-search-placeholder": "p.sh.: htttp://www.example.com",
-	"citoid-citoiddialog-title": "Shtoni një citim",
+	"citoid-citoiddialog-title": "Shto një citim",
 	"citoid-citoiddialog-title-replace": "Zëvendësoni citimin",
 	"citoid-citoidtool-title": "Citoni",
 	"citoid-citoidtool-title-othergroup": "Citim",
