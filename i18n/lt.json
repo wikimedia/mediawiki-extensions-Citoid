@@ -22,6 +22,8 @@
 	"citoid-citoiddialog-search-placeholder": "pvz. http://www.example.com",
 	"citoid-citoiddialog-title": "Pridėti citatą",
 	"citoid-citoiddialog-title-replace": "Pakeisti citatą",
+	"citoid-citoiddialog-reliability-back": "Išbandykite naują šaltinį",
+	"citoid-citoiddialog-reliability-unreliable-title": "Ši svetainė užblokuota",
 	"citoid-citoidtool-title": "Cituoti",
 	"citoid-citoidtool-title-othergroup": "Citata",
 	"citoid-desc": "Suteikia prieigos taškų tarp citoid paslaugos ir MediaWiki",
