@@ -14,7 +14,6 @@ ve.ui.CitoidInspector = function VeUiCitoidInspector( config ) {
 	this.staging = 0;
 	this.stagedReference = false;
 	this.results = [];
-	this.citeTools = [];
 	this.templateTypeMap = null;
 	this.lookupPromise = null;
 	this.fullRestbaseUrl = null;
@@ -38,7 +37,8 @@ ve.ui.CitoidInspector.static.title = OO.ui.deferMsg( 'citoid-citoiddialog-title'
 
 ve.ui.CitoidInspector.static.size = 'large';
 
-ve.ui.CitoidInspector.static.modelClasses = [ ve.dm.MWReferenceNode ];
+const MWReferenceNode = ve.dm.modelRegistry.lookup( 'mwReference' );
+ve.ui.CitoidInspector.static.modelClasses = [ MWReferenceNode ];
 
 /**
  * The string used in TemplateData to identify the correct Map object
@@ -99,7 +99,6 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	ve.ui.CitoidInspector.super.prototype.initialize.call( this );
 
 	this.templateTypeMap = ve.ui.mwCitoidMap;
-	this.citeTools = ve.ui.mwCitationTools;
 
 	// Partial URL to service, kept for backwards compatibility even though Restbase is no longer (phab:T361576)
 	this.fullRestbaseUrl = mw.config.get( 'wgCitoidConfig' ).fullRestbaseUrl;
@@ -900,7 +899,7 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 					{
 						data: i,
 						templateName: result.templateName,
-						citeTools: this.citeTools
+						citeTools: ve.ui.mwCitationTools
 					} );
 				const template = result.template;
 				// T92428: Ignore empty templates

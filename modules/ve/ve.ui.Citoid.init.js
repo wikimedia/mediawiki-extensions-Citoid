@@ -193,7 +193,7 @@ ve.ui.mwCitoidMap = map;
 			}
 		];
 	}
-	extendDialog( ve.ui.MWReferenceDialog );
-	extendDialog( ve.ui.MWCitationDialog );
+	extendDialog( ve.ui.windowFactory.lookup( 'reference' ) );
+	extendDialog( ve.ui.windowFactory.lookup( 'cite' ) );
 
 }() );

@@ -5,7 +5,8 @@ ve.ui.CitoidReferenceContextItem = function VeUiCitoidReferenceContextItem() {
 
 /* Inheritance */
 
-OO.inheritClass( ve.ui.CitoidReferenceContextItem, ve.ui.MWReferenceContextItem );
+const MWReferenceContextItem = ve.ui.contextItemFactory.lookup( 'reference' );
+OO.inheritClass( ve.ui.CitoidReferenceContextItem, MWReferenceContextItem );
 
 /**
  * Get the href associated with this reference if it is a plain link reference
