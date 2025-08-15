@@ -31,6 +31,7 @@ ve.ui.CitoidReferenceWidget = function VeUiCitoidReferenceWidget( documentModel,
 			if ( item.template === this.templateName ) {
 				this.title = item.title;
 				icon = item.icon;
+				break;
 			}
 		}
 	}
