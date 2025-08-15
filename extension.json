@@ -213,7 +213,7 @@
 		}
 	},
 	"ConfigRegistry": {
-		"citoid": "GlobalVarConfig::newInstance"
+		"citoid": "MediaWiki\\Config\\GlobalVarConfig::newInstance"
 	},
 	"manifest_version": 2
 }
