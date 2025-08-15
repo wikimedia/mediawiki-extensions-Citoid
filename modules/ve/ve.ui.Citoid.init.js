@@ -107,14 +107,14 @@ ve.ui.mwCitoidMap = map;
 	// HACK: Find the position of the current citation toolbar definition
 	// and manipulate it.
 
-	// Unregister regular citation tools so they don't end up in catch-all groups
+	// Remove original Cite tools from the "Insert" menu in case $wgCiteVisualEditorOtherGroup
+	// is enabled
+	ve.ui.toolFactory.unregister( 'reference' );
+	ve.ui.toolFactory.unregister( 'reference/existing' );
 	for ( const name in ve.ui.toolFactory.registry ) {
-		const toolClass = ve.ui.toolFactory.lookup( name );
-		if (
-			name === 'reference' || name.startsWith( 'reference/' ) ||
-			toolClass.prototype instanceof ve.ui.MWCitationDialogTool
-		) {
-			ve.ui.toolFactory.unregister( toolClass );
+		// Naming scheme for tools from MediaWiki:cite-tool-definition.json is "cite-…"
+		if ( name.startsWith( 'cite-' ) ) {
+			ve.ui.toolFactory.unregister( name );
 		}
 	}
 
