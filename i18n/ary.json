@@ -1,11 +1,30 @@
 {
 	"@metadata": {
 		"authors": [
-			"Reda Benkhadra"
+			"Reda Benkhadra",
+			"Ideophagous"
 		]
 	},
 	"citoid-citation-widget-insert-button": "زيد",
+	"citoid-citoiddialog-back": "رجوع",
+	"citoid-citoiddialog-credit": "مدعوم من $1",
 	"citoid-citoiddialog-mode-auto": "ؤطوماتيك",
-	"citoid-citoiddialog-mode-reuse": "عاود تخدام",
-	"citoid-citoiddialog-search-label": "ليان، محدد ستون رقمي (DOI)، رقم دولي معياري د لكتاب (ISBN)، محدد پابميد (PMC/PMID)، محدد ويكي داطا، عنوان ولا قتيباس"
+	"citoid-citoiddialog-mode-manual": "ب ليد",
+	"citoid-citoiddialog-mode-reuse": "عاود خدّم",
+	"citoid-citoiddialog-search-label": "ليان، محدد ستون رقمي (DOI)، رقم دولي معياري د لكتاب (ISBN)، محدد پابميد (PMC/PMID)، محدد ويكي داطا، عنوان ولا قتيباس",
+	"citoid-citoiddialog-search-placeholder": "بحال: http://www.example.com",
+	"citoid-citoiddialog-title": "زيد مرجع",
+	"citoid-citoiddialog-title-replace": "بدّل لمرجع",
+	"citoid-citoidtool-title": "صايب مرجع",
+	"citoid-citoidtool-title-othergroup": "قتيباس",
+	"citoid-desc": "كايوفّر نقطة د لاكصي بين السربيس د سايطويد و ميدياويكي",
+	"citoid-referencecontextitem-convert-button": "حوّل",
+	"citoid-referencecontextitem-convert-message": "تقدر تخدّم لبوطونة ديال \"{{int:citoid-referencecontextitem-convert-button}}\" التحت باش تولّد مرجع ب فورماطاج صحيح من الليان لبرّاني.",
+	"citoid-unknown-error": "واحد ليرور مامعروفاش طرات و منعات لمصاوبة ديال لمرجع. عافاك عاود جرّب من بعد.",
+	"citoid-wb-referenceview-tabs-automatic": "ؤطوماتيك",
+	"citoid-wb-referenceview-tabs-search": "قلّب",
+	"citoid-wb-referenceview-tabs-search-label": "ليان، دوي، ردمك، ولّا قيد (إضونتيف د ويكيداطا):",
+	"citoid-wb-pendingdialog-error": "ماقدرناش نولّدو مرجع من هاد المدخّلة. خدّم التبويبة ب ليد، ولّا عاود جرّب.",
+	"citoid-wb-pendingdialog-message": "راه لمرجع ديالك كايتولّد دابا... صبر شوية...",
+	"citoid-wb-pendingdialog-title": "لمرجع كايتولّد دابا"
 }
