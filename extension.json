@@ -194,11 +194,11 @@
 	"config": {
 		"CitoidServiceUrl": {
 			"value": false,
-			"description": "Full url to use the native citoid api, i.e. http://localhost:1970/api."
+			"description": "Full or relative url for the citoid api, with no trailing slash, i.e. http://localhost:1970 or /api/rest_v1/data/citation"
 		},
 		"CitoidFullRestbaseURL": {
 			"value": false,
-			"description": "Full url to use a citoid service running behind restbase, i.e. https://en.wikipedia.org/api/rest_."
+			"description": "Deprecated since 1.45. Full url to use a citoid service running behind restbase, i.e. https://en.wikipedia.org/api/rest_"
 		},
 		"CitoidIsbnScannerEnabled": {
 			"value": {

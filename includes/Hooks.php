@@ -37,6 +37,7 @@ class Hooks implements
 
 		$vars['wgCitoidConfig'] = [
 			'citoidServiceUrl' => $config->get( 'CitoidServiceUrl' ),
+			/** @deprecated since 1.45 */
 			'fullRestbaseUrl' => $config->get( 'CitoidFullRestbaseURL' ),
 			'isbnScannerEnabled' => $config->get( 'CitoidIsbnScannerEnabled' ),
 			'wbFullRestbaseUrl' => $config->get( 'WBCitoidFullRestbaseURL' ),
