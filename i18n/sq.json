@@ -32,7 +32,7 @@
 	"citoid-referencecontextitem-convert-message": "Kjo referencë përbëhet thjesht nga një lidhje e jashtme. Për të prodhuar një referencë të formatuar si duhet mund të përdorni butonin më poshtë \"{{int:citoid-referencecontextitem-convert-button}}\".",
 	"citoid-unknown-error": "Ndodhi një gabim i panjohur që na pengoi krijimin e një citimi. Ju lutemi, riprovoni më vonë.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatik",
-	"citoid-wb-referenceview-tabs-search": "kërkoni",
+	"citoid-wb-referenceview-tabs-search": "kërko",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI ose QID:",
 	"citoid-wb-pendingdialog-error": "S’arrihet të prodhohet një referencë nga sa u dha. Përdorni skedën për dorazi, ose riprovoni.",
 	"citoid-wb-pendingdialog-message": "Po prodhohet një referencë për ju… ju lutemi, prisni…",
