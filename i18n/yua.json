@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jero",
+			"Maayach'i'ibal"
+		]
+	},
+	"citoid-action-replace": "K'eex le paayt'aano",
+	"citoid-citation-widget-insert-button": "Tak'ej",
+	"citoid-citoiddialog-back": "Páchil",
+	"citoid-citoiddialog-credit": "Ku beetal yo'osal $1",
+	"citoid-citoiddialog-lookup-button": "Mak'antej",
+	"citoid-citoiddialog-manual-button": "Ts'áaj ts'íibil",
+	"citoid-citoiddialog-mode-auto": "Tu junaj ku meyaj",
+	"citoid-citoiddialog-mode-manual": "U tsoolil bixu beetal",
+	"citoid-citoiddialog-mode-reuse": "Ka'a meyaj",
+	"citoid-citoiddialog-search-label": "Ts'íibt jump'éel enlace wa código referencia (ISBN, DOI wa uláak') uti'al u beetik jump'éel cita",
+	"citoid-citoiddialog-search-placeholder": "je'ebix http://www.example.com",
+	"citoid-citoiddialog-title": "Ts'áa jump'éel cita",
+	"citoid-citoiddialog-title-replace": "K'eex le paayt'aano",
+	"citoid-citoiddialog-use-general-error-message-title": "ma' páajchaj k meentik jump'éel cita uti'al tech",
+	"citoid-citoiddialog-reliability-back": "K'aax u jump'éel túumben fuente",
+	"citoid-citoiddialog-reliability-unreliable-description": "Le fuentea' ku yila'al bey ma' confiable tumen k kaajale', le beetike' ma' tu cha'abal. Béet yéey jump'éel fuente confiable jela'an",
+	"citoid-citoiddialog-reliability-unreliable-title": "Le ts'ono'oto' ts'o'ok u k'a'alal",
+	"citoid-citoidtool-title": "ciita'",
+	"citoid-citoidtool-title-othergroup": "ciitaj",
+	"citoid-desc": "Ku ts'áaik kúuchilo'ob muuk' ichil le mayaj citoid yéetel MediaWiki",
+	"citoid-isbnscannerdialog-title": "Escanear código barras ISBN",
+	"citoid-referencecontextitem-convert-button": "Kóonbersion",
+	"citoid-referencecontextitem-convert-message": "Je'el u páajtal u utilizar le botón \"{{int:citoid-referencecontextitem-convert-button}}\" in continuación utia'al u generar jump'éel referencia ma'alob formateada tak le enlace externo",
+	"citoid-unknown-error": "Ts'o'ok u yúuchul jump'éel ba'alo' ma' k ojel ba'ax tu beetaj ma' k beetik jump'éel cita. Béet k'aax u ka'atéen chúunk'in.",
+	"citoid-wb-referenceview-tabs-automatic": "Tuj juunál ku meyaj",
+	"citoid-wb-referenceview-tabs-search": "kaaxan",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, wa QID:",
+	"citoid-wb-pendingdialog-error": "Ma' tu páajtal u beeta'al jump'éel k'a'ana'an ti' le entradaa'. Meyaj le ju'unil manual, wa intente tu ka'atéen.",
+	"citoid-wb-pendingdialog-message": "Táan in beetik jump'éel k'a'ana'an uti'al tech... Béet pa'atik...",
+	"citoid-wb-pendingdialog-title": "jóos a cita'."
+}
