@@ -9,7 +9,8 @@
 			"MadriCR",
 			"MarcoAurelio",
 			"Qwrop",
-			"Rodney Araujo"
+			"Rodney Araujo",
+			"Maayach'i'ibal"
 		]
 	},
 	"citoid-action-replace": "Reemplazar cita",
@@ -26,7 +27,7 @@
 	"citoid-citoiddialog-title": "Añadir una cita",
 	"citoid-citoiddialog-title-replace": "Reemplazar cita",
 	"citoid-citoiddialog-use-general-error-message-title": "No hemos podido generarte la cita.",
-	"citoid-citoiddialog-use-general-error-message-body": "Prueba con otra fuente o crea una a mano mediante la pestaña «{{int:citoid-citoiddialog-mode-manual}}» en la parte superior.",
+	"citoid-citoiddialog-use-general-error-message-body": "Beet yéetel yaanal ts'íibil",
 	"citoid-citoiddialog-reliability-back": "Prueba con una nueva fuente",
 	"citoid-citoiddialog-reliability-unreliable-description": "Nuestra comunidad considera que esta fuente no es fiable, por lo que no está permitida. Elige otra fuente fiable.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Este sitio está bloqueado",
