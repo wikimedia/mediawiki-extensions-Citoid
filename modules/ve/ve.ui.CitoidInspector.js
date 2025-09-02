@@ -421,8 +421,10 @@ ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
  */
 ve.ui.CitoidInspector.prototype.onReuseSearchResultsReuse = function ( ref ) {
 	// Special case for sub-references: create a copy so both can be edited independently
-	// TODO: "extendsRef" is only for backwards compatibility and should be removed soon
-	if ( ref.mainRefKey || ref.extendsRef ) {
+	if ( ref.isSubRef() ) {
+		// Phabricator T396734
+		// Should be the same as in ve.ui.MWReferenceDialog.prototype.onReuseSearchResultsReuse
+		ve.track( 'activity.subReference', { action: 'reuse-choose-subref' } );
 		ref = ve.dm.MWReferenceModel.static.copySubReference( ref, this.getFragment().getDocument() );
 	}
 
@@ -436,6 +438,7 @@ ve.ui.CitoidInspector.prototype.onReuseSearchResultsReuse = function ( ref ) {
 		this.staging--;
 	}
 
+	// Should be the same as in ve.ui.MWReferenceDialog.prototype.onReuseSearchResultsReuse
 	ve.track( 'activity.' + this.constructor.static.name, { action: 'reuse-choose' } );
 
 	this.close( { action: 'reuse-choose' } );
