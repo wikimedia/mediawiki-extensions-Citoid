@@ -181,7 +181,15 @@
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Extension\\Citoid\\Hooks"
+			"class": "MediaWiki\\Extension\\Citoid\\Hooks",
+			"services": [
+				"ConfigFactory",
+				"ExtensionRegistry"
+			],
+			"optional_services": [
+				"WikibaseRepo.EntityNamespaceLookup",
+				"MobileFrontend.Context"
+			]
 		}
 	},
 	"attributes": {

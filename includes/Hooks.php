@@ -9,7 +9,7 @@
 namespace MediaWiki\Extension\Citoid;
 
 use MediaWiki\Config\Config;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\Config\ConfigFactory;
 use MediaWiki\Output\Hook\BeforePageDisplayHook;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
@@ -18,13 +18,22 @@ use MediaWiki\ResourceLoader as RL;
 use MediaWiki\ResourceLoader\Hook\ResourceLoaderGetConfigVarsHook;
 use MediaWiki\Skin\Skin;
 use MediaWiki\User\User;
-use Wikibase\Repo\WikibaseRepo;
+use MobileContext;
+use Wikibase\Lib\Store\EntityNamespaceLookup;
 
 class Hooks implements
 	ResourceLoaderGetConfigVarsHook,
 	BeforePageDisplayHook,
 	GetPreferencesHook
 {
+
+	public function __construct(
+		private readonly ConfigFactory $configFactory,
+		private readonly ExtensionRegistry $extensionRegistry,
+		private readonly ?EntityNamespaceLookup $entityNamespaceLookup,
+		private readonly ?MobileContext $mobileContext,
+	) {
+	}
 
 	/**
 	 * Adds extra variables to the global config
@@ -33,14 +42,14 @@ class Hooks implements
 	 * @param Config $config
 	 */
 	public function onResourceLoaderGetConfigVars( array &$vars, $skin, Config $config ): void {
-		$config = MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'citoid' );
+		$citoidConfig = $this->configFactory->makeConfig( 'citoid' );
 
 		$vars['wgCitoidConfig'] = [
-			'citoidServiceUrl' => $config->get( 'CitoidServiceUrl' ),
+			'citoidServiceUrl' => $citoidConfig->get( 'CitoidServiceUrl' ),
 			/** @deprecated since 1.45 */
-			'fullRestbaseUrl' => $config->get( 'CitoidFullRestbaseURL' ),
-			'isbnScannerEnabled' => $config->get( 'CitoidIsbnScannerEnabled' ),
-			'wbFullRestbaseUrl' => $config->get( 'WBCitoidFullRestbaseURL' ),
+			'fullRestbaseUrl' => $citoidConfig->get( 'CitoidFullRestbaseURL' ),
+			'isbnScannerEnabled' => $citoidConfig->get( 'CitoidIsbnScannerEnabled' ),
+			'wbFullRestbaseUrl' => $citoidConfig->get( 'WBCitoidFullRestbaseURL' ),
 		];
 	}
 
@@ -64,14 +73,12 @@ class Hooks implements
 	 * @param Skin $skin
 	 */
 	public function onBeforePageDisplay( $out, $skin ): void {
-		if ( !ExtensionRegistry::getInstance()->isLoaded( 'WikibaseRepository' ) ) {
+		if ( !$this->extensionRegistry->isLoaded( 'WikibaseRepository' ) ) {
 			return;
 		}
-		$lookup = WikibaseRepo::getEntityNamespaceLookup();
-		if ( $lookup->isEntityNamespace( $out->getTitle()->getNamespace() ) ) {
-			$services = MediaWikiServices::getInstance();
-			$isMobileView = ExtensionRegistry::getInstance()->isLoaded( 'MobileFrontend' ) &&
-				$services->getService( 'MobileFrontend.Context' )->shouldDisplayMobileView();
+		if ( $this->entityNamespaceLookup->isEntityNamespace( $out->getTitle()->getNamespace() ) ) {
+			$isMobileView = $this->extensionRegistry->isLoaded( 'MobileFrontend' ) &&
+				$this->mobileContext->shouldDisplayMobileView();
 			if ( !$isMobileView ) {
 				$out->addModules( 'ext.citoid.wikibase.init' );
 			}
