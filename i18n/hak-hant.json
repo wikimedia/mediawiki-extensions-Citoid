@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"citoid-citation-widget-insert-button": "插入去",
+	"citoid-citoiddialog-back": "轉來",
+	"citoid-citoiddialog-mode-auto": "自動个",
+	"citoid-citoiddialog-mode-manual": "手冊",
+	"citoid-citoiddialog-mode-reuse": "重來使用",
+	"citoid-citoiddialog-search-placeholder": "像係 http://www.example.com",
+	"citoid-citoidtool-title": "引用",
+	"citoid-desc": "Citoid服務和維基媒體之間提供存取點",
+	"citoid-referencecontextitem-convert-button": "變換"
+}
