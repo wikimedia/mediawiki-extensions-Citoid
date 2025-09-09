@@ -38,7 +38,7 @@
 	"citoid-isbnscannerdialog-title": "Escanear un código de barras ISBN",
 	"citoid-referencecontextitem-convert-button": "Convertir",
 	"citoid-referencecontextitem-convert-message": "Puedes usar el botón «{{int:citoid-referencecontextitem-convert-button}}» de abajo para generar una referencia correctamente formateada del enlace externo.",
-	"citoid-unknown-error": "Ocurrió un error desconocido que nos impidió crear la cita. Inténtalo de nuevo más tarde.",
+	"citoid-unknown-error": "Se produjo un error desconocido que nos impidió crear la cita. Inténtalo de nuevo más tarde.",
 	"citoid-wb-referenceview-tabs-automatic": "Automático",
 	"citoid-wb-referenceview-tabs-search": "buscar",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN o QID:",

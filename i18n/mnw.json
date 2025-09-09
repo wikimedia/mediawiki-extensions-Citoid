@@ -1,16 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aue Nai"
+			"Aue Nai",
+			"咽頭べさ"
 		]
 	},
 	"citoid-citation-widget-insert-button": "စုတ်",
 	"citoid-citoiddialog-back": "ကလေင်",
-	"citoid-citoiddialog-lookup-button": "ကၠောန်ပ္တိတ်",
+	"citoid-citoiddialog-lookup-button": "ခၞံကၠောန်",
 	"citoid-citoiddialog-mode-auto": "အလဵုအလဵု",
 	"citoid-citoiddialog-mode-manual": "ဗွဲတဲ",
 	"citoid-citoiddialog-mode-reuse": "ကလၚ်-သုၚ်စောဲ",
-	"citoid-citoiddialog-search-label": "URL, DOI ဟွံသေၚ် PMC/PMID",
+	"citoid-citoiddialog-search-label": "ပၠောပ်လေန် ဟွံသေၚ်မ္ဂး ကုဒ်နိဿဲ (ISBN, DOI ဟွံသေၚ်မ္ဂး) အရၚ်ဂွံခၞံဗဒှ်နိဿဲ",
 	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
 	"citoid-citoidtool-title": "ကဵုနိဿဲ",
 	"citoid-citoidtool-title-othergroup": "ပွနိဿဲ",
