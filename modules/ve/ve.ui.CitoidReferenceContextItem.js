@@ -55,6 +55,8 @@ ve.ui.CitoidReferenceContextItem.prototype.renderBody = function () {
 		const convertButton = new OO.ui.ButtonWidget( {
 			label: ve.msg( 'citoid-referencecontextitem-convert-button' )
 		} ).on( 'click', () => {
+			// Phabricator T401494
+			ve.track( 'activity.citoid', { action: 'convert-link' } );
 			const action = ve.ui.actionFactory.create( 'citoid', this.context.getSurface() );
 			action.open( true, convertibleHref );
 		} );
