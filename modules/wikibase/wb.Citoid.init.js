@@ -11,7 +11,7 @@ mw.hook( 'wikibase.entityPage.entityLoaded' ).add( () => {
 		config = JSON.parse( require( './data.json' ).toolConfig );
 		enabled =
 			config.zoteroProperties &&
-			mw.config.get( 'wgCitoidConfig' ).wbFullRestbaseUrl &&
+			( mw.config.get( 'wgCitoidConfig' ).wbFullRestbaseUrl || mw.config.get( 'wgCitoidConfig' ).citoidServiceUrl ) &&
 			mw.config.get( 'wbRefTabsEnabled' ) &&
 			mw.config.get( 'wbIsEditView' );
 	} catch ( e ) {

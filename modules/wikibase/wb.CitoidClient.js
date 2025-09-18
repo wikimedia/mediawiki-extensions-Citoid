@@ -7,13 +7,21 @@
 	}
 
 	CitoidClient.prototype.search = function ( value ) {
-		const baseUrl = mw.config.get( 'wgCitoidConfig' ).wbFullRestbaseUrl,
-			version = 'v1/data/citation',
-			format = 'mediawiki-basefields',
-			url = baseUrl + version + '/' + format + '/' + encodeURIComponent( value );
+		const citoidConfig = mw.config.get( 'wgCitoidConfig' );
+		const format = 'mediawiki-basefields';
+		let baseUrl;
+
+		// phab: T361576 Deprecate wbFullRestbaseUrl as of 1.45; temporarily include both for backwards compatibility
+		if ( citoidConfig.wbFullRestbaseUrl ) {
+			baseUrl = citoidConfig.wbFullRestbaseUrl + 'v1/data/citation';
+		} else {
+			baseUrl = citoidConfig.citoidServiceUrl;
+		}
+
+		const url = baseUrl + '/' + format + '/' + encodeURIComponent( value );
 
 		return $.ajax( {
-			timeout: 3000, // TODO: increase
+			timeout: 30000,
 			method: 'GET',
 			url: url
 		} );
