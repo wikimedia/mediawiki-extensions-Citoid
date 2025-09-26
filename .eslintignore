@@ -1,5 +1,6 @@
 # Upstream code
-/lib/
+/lib/*
+!/lib/foreign-resources.*
 
 # Build
 /vendor/

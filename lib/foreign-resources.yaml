@@ -8,6 +8,6 @@ quagga2:
   integrity: sha512-UCVC6nnE0z8sjdpJqtIHJDqRdVMdK3oJdDx0O1LhBK+eKqm01upTGEEFo2lglsAaW1cVrnxWEcwHmUnNUP0ukg==
 
   dest:
-    package/dist/quagga.min.js:
-    package/LICENSE:
-    package/README.md:
+    package/dist/quagga.min.js: .
+    package/LICENSE: .
+    package/README.md: .
