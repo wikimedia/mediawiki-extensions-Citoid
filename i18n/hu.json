@@ -8,7 +8,8 @@
 			"Misibacsi",
 			"Nyuszika7H",
 			"Tacsipacsi",
-			"Urbalazs"
+			"Urbalazs",
+			"Dj"
 		]
 	},
 	"citoid-action-replace": "Forráshivatkozás cseréje",
@@ -25,7 +26,7 @@
 	"citoid-citoiddialog-title": "Forráshivatkozás hozzáadása",
 	"citoid-citoiddialog-title-replace": "Forráshivatkozás cseréje",
 	"citoid-citoiddialog-use-general-error-message-title": "Nem tudtunk forráshivatkozást létrehozni neked.",
-	"citoid-citoiddialog-use-general-error-message-body": "Próbálkozz egy másik forrással, vagy készíts egy hivatkozást kézzel a fenti „{{int:citoid-citoiddialog-mode-manual}}” fül használatával.",
+	"citoid-citoiddialog-use-general-error-message-body": "Próbálkozz egy másik forrással, vagy készíts egy hivatkozást kézzel.",
 	"citoid-citoiddialog-unsupported-media-type-message": "Nem lehet nem támogatott fájltípusokra (például PDF-ekre, kép- és videófájlokra) forráshivatkozást készíteni.",
 	"citoid-citoiddialog-reliability-back": "Próbálj meg egy új forrást",
 	"citoid-citoiddialog-reliability-unreliable-description": "Ezt a forrást a közösségünk megbízhatatlannak minősítette, így nincs engedélyezve. Kérjük, válassz egy másik, megbízható forrást.",
