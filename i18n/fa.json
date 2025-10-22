@@ -15,7 +15,8 @@
 			"Mvolz",
 			"Reza1615",
 			"الناز",
-			"درفش کاویانی"
+			"درفش کاویانی",
+			"LordProfo"
 		]
 	},
 	"citoid-action-replace": "تغییر نوع ارجاع",
@@ -25,7 +26,7 @@
 	"citoid-citoiddialog-lookup-button": "تولید",
 	"citoid-citoiddialog-mode-auto": "خودکار",
 	"citoid-citoiddialog-mode-manual": "دستی",
-	"citoid-citoiddialog-mode-reuse": "استفادهٔ مجدد",
+	"citoid-citoiddialog-mode-reuse": "استفادهٔ دوباره",
 	"citoid-citoiddialog-search-label": "URL،‏ DOI،‏ ISBN،‏ PMC/PMID،‏ QID، عنوان یا یادکرد",
 	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
 	"citoid-citoiddialog-title": "افزودن یادکرد",

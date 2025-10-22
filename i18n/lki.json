@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hosseinblue"
+			"Hosseinblue",
+			"LordProfo"
 		]
 	},
 	"citoid-citation-widget-insert-button": "قرار دائن",
@@ -9,7 +10,7 @@
 	"citoid-citoiddialog-lookup-button": "تولید",
 	"citoid-citoiddialog-mode-auto": "خودکار",
 	"citoid-citoiddialog-mode-manual": "کتابچه راهنمای",
-	"citoid-citoiddialog-mode-reuse": "استفادهٔ مجدد",
+	"citoid-citoiddialog-mode-reuse": "استفادهٔ دوباره",
 	"citoid-citoiddialog-search-label": "URL یا DOI",
 	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
 	"citoid-citoidtool-title": "Cite",
