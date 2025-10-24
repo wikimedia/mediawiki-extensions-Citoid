@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elefentiste"
+			"Elefentiste",
+			"SaldırganSincap"
 		]
 	},
 	"citoid-citation-widget-insert-button": "Inserta",
@@ -13,7 +14,7 @@
 	"citoid-citoiddialog-title": "Ajunta un sita",
 	"citoid-citoiddialog-title-replace": "Recambia sita",
 	"citoid-citoiddialog-use-general-error-message-title": "Nos no pote crea un sita per tu.",
-	"citoid-citoiddialog-use-general-error-message-body": "Atenta con un otra fonte o crea un par mano usante la oreta ''{{int:citoid-citoiddialog-mode-manual}}\" a supra.",
+	"citoid-citoiddialog-use-general-error-message-body": "Atenta con un otra fonte o crea un par mano usante la oreta ''{{int:citoid-citoiddialog-mode-manual}}'' a supra.",
 	"citoid-citoiddialog-reliability-back": "Atenta con un fonte nova",
 	"citoid-citoiddialog-reliability-unreliable-description": "La comunia regarda esta fonte como nonfidable, e donce lo no es permeteda. Per favore eleje un fonte diferente e fidable.",
 	"citoid-citoidtool-title": "Sita",
