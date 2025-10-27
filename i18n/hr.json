@@ -26,7 +26,7 @@
 	"citoid-citoidtool-title-othergroup": "Citat",
 	"citoid-desc": "Pruža pristupne točke između citoid usluge i MediaWikija",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
-	"citoid-referencecontextitem-convert-message": "Možete upotrijebiti dugme »{{int:citoid-referencecontextitem-convert-button}}« i tako dobiti pravilno oblikovanu referenciju od vanjske poveznice.",
+	"citoid-referencecontextitem-convert-message": "Možete upotrijebiti tipku »{{int:citoid-referencecontextitem-convert-button}}« kako biste od vanjske poveznice dobili pravilno oblikovanu referenciju.",
 	"citoid-unknown-error": "Došlo je do nepoznate pogreške koja je spriječila stvaranje citata. Molimo pokušajte ponovo kasnije.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatski",
 	"citoid-wb-referenceview-tabs-search": "Pretraži",
