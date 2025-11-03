@@ -419,12 +419,10 @@ ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
  * @param {ve.dm.MWReferenceModel} ref Chosen item
  */
 ve.ui.CitoidInspector.prototype.onReuseSearchResultsReuse = function ( ref ) {
-	// Special case for sub-references: create a copy so both can be edited independently
 	if ( ref.isSubRef() ) {
 		// Phabricator T396734
 		// Should be the same as in ve.ui.MWReferenceDialog.prototype.onReuseSearchResultsReuse
 		ve.track( 'activity.subReference', { action: 'reuse-choose-subref' } );
-		ref = ve.dm.MWReferenceModel.static.copySubReference( ref, this.getFragment().getDocument() );
 	}
 
 	ref.insertIntoFragment( this.getFragment() );
