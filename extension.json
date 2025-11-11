@@ -11,7 +11,7 @@
 	"license-name": "MIT",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.45"
+		"MediaWiki": ">= 1.46"
 	},
 	"MessagesDirs": {
 		"Citoid": [
@@ -206,7 +206,7 @@
 		},
 		"CitoidFullRestbaseURL": {
 			"value": false,
-			"description": "Deprecated since 1.45. Use CitoidServiceUrl instead. Full url to use a citoid service running behind restbase, i.e. https://en.wikipedia.org/api/rest_"
+			"description": "Deprecated since 1.46. Use CitoidServiceUrl instead. Full url to use a citoid service running behind restbase, i.e. https://en.wikipedia.org/api/rest_"
 		},
 		"CitoidIsbnScannerEnabled": {
 			"value": {
@@ -217,7 +217,7 @@
 		},
 		"WBCitoidFullRestbaseURL": {
 			"value": false,
-			"description": "Deprecated since 1.45. Use CitoidServiceUrl instead. Full url to use a citoid service running behind restbase, used by wikibase module/repository, i.e. https://en.wikipedia.org/api/rest_"
+			"description": "Deprecated since 1.46. Use CitoidServiceUrl instead. Full url to use a citoid service running behind restbase, used by wikibase module/repository, i.e. https://en.wikipedia.org/api/rest_"
 		}
 	},
 	"ConfigRegistry": {
