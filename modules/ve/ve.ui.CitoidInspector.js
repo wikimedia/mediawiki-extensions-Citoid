@@ -546,22 +546,22 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 			this.results = [];
 			this.lookupButton.setDisabled( true );
 			this.inDialog = data.inDialog || '';
-			this.replaceRefNode = data.replace && this.getSelectedNode();
+			const replaceRefNode = data.replace && this.getSelectedNode();
 			this.fromScan = false;
 			if ( data.inStaging ) {
 				this.staging++;
 			}
 
 			// Collapse returns a new fragment, so update this.fragment
-			if ( !data.replace ) {
+			if ( !replaceRefNode ) {
 				this.fragment = this.getFragment().collapseToEnd().select();
 			}
 
 			this.reuseSearch.setInternalList( this.getFragment().getDocument().getInternalList() );
 			this.modeIndex.getTabPanel( 'reuse' ).tabItem.setDisabled( this.reuseSearch.isIndexEmpty() );
 
-			if ( this.replaceRefNode ) {
-				this.referenceModel = ve.dm.MWReferenceModel.static.newFromReferenceNode( this.replaceRefNode );
+			if ( replaceRefNode ) {
+				this.referenceModel = ve.dm.MWReferenceModel.static.newFromReferenceNode( replaceRefNode );
 			} else {
 				// Create model
 				this.referenceModel = new ve.dm.MWReferenceModel( this.fragment.getDocument() );
