@@ -59,7 +59,7 @@ ve.ui.CitoidReferenceContextItem.prototype.renderBody = function () {
 			// Phabricator T401494
 			ve.track( 'activity.citoid', { action: 'convert-link' } );
 			const action = ve.ui.actionFactory.create( 'citoid', this.context.getSurface() );
-			action.open( true, convertibleHref );
+			action.open( { replace: true, lookup: convertibleHref } );
 		} );
 
 		this.$body.append(

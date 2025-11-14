@@ -176,7 +176,7 @@ ve.ui.mwCitoidMap = map;
 				return new OO.ui.Process( () => {
 					this.close( { action: action } ).closed.then( () => {
 						const surface = this.getManager().getSurface();
-						surface.execute( 'citoid', 'open', true );
+						surface.execute( 'citoid', 'open', { replace: true } );
 					} );
 				} );
 			}

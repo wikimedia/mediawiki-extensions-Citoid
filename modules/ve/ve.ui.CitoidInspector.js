@@ -533,6 +533,12 @@ ve.ui.CitoidInspector.prototype.onLookupButtonClick = function () {
 
 /**
  * @inheritdoc
+ * @param {Object} [data]
+ * @param {boolean} [data.replace=false] Replace the contents of the selected reference
+ * @param {string} [data.lookup] URL to look up
+ * @param {boolean} [data.inStaging=false] A staged change was made to the surface as part of
+ *  opening the inspector, e.g. used to unwrap text in Template:Citation_needed_span
+ * @param {string} [data.inDialog] e.g. when called from the "reference" dialog
  */
 ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 	return ve.ui.CitoidInspector.super.prototype.getSetupProcess.call( this, data )
