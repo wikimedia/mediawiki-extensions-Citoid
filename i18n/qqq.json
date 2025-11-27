@@ -13,7 +13,8 @@
 			"Raymond",
 			"Stjn",
 			"Umherirrender",
-			"Verdy p"
+			"Verdy p",
+			"Ильгиз"
 		]
 	},
 	"citoid-action-replace": "Label for button in reference dialog to change a reference type by replacing the contents of an existing reference using Citoid",
@@ -31,7 +32,7 @@
 	"citoid-citoiddialog-title-replace": "The title displayed on the dialog when replacing an existing reference",
 	"citoid-citoiddialog-use-general-error-message-title": "Title of message notifying the user there was a problem creating their reference, and offering to use the full citation tool.\nWas previously one message: {{msg-mw|citoid-citoiddialog-use-general-error-message}}.",
 	"citoid-citoiddialog-use-general-error-message-body": "Body of message notifying the user there was a problem creating their reference, and offering to use the full citation tool.\nWas previously one message: {{msg-mw|citoid-citoiddialog-use-general-error-message}}.",
-	"citoid-citoiddialog-unsupported-media-type-message": "Message notifying the user that the resource cannot be processed because it has an unsupported media type, e.g. PDF",
+	"citoid-citoiddialog-unsupported-media-type-message": "Бу хәбәрнамә чыганакның кулланыла алмавы турында хәбәрли. Чөнки чыганакта кулланыла алмый торган медиаконтент төре бар, мәсәлән, PDF-файл, фото яки видео.",
 	"citoid-citoiddialog-reliability-back": "Button label for going back to the search form to try to input a different source.",
 	"citoid-citoiddialog-reliability-unreliable-description": "Message explaining that a reference is considered unreliable, and can't be used.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Title shown when reference is considered unreliable.",
