@@ -10,7 +10,7 @@
 			"सरोज कुमार ढकाल"
 		]
 	},
-	"citoid-action-replace": "सन्दर्भ प्रकार परिवर्तन गर्नुहोस्",
+	"citoid-action-replace": "उद्धरण बदल्नुहोस्",
 	"citoid-citation-widget-insert-button": "थप्नुहोस्",
 	"citoid-citoiddialog-back": "पछाडि",
 	"citoid-citoiddialog-credit": "$1 द्वारा प्रवर्धित",
@@ -22,6 +22,10 @@
 	"citoid-citoiddialog-search-placeholder": "उदाहरण http://www.example.com",
 	"citoid-citoiddialog-title": "सन्दर्भ थप्नुहोस्",
 	"citoid-citoiddialog-title-replace": "सन्दर्भ बदल्नुहोस्",
+	"citoid-citoiddialog-use-general-error-message-title": "हामीले तपाईँका लागि उद्धरण बनाउन सकेनौँ।",
+	"citoid-citoiddialog-reliability-back": "नयाँ स्रोत प्रयास गर्नुहोस्",
+	"citoid-citoiddialog-reliability-unreliable-description": "यो स्रोत हाम्रो समुदायले अविश्वसनीय मान्दछ, त्यसैले यसलाई अनुमति छैन। कृपया फरक भरपर्दो स्रोत छनौट गर्नुहोस्।",
+	"citoid-citoiddialog-reliability-unreliable-title": "यो साइट अवरुद्ध छ",
 	"citoid-citoidtool-title": "सन्दर्भ थप्नुहोस्",
 	"citoid-citoidtool-title-othergroup": "सन्दर्भहरू",
 	"citoid-desc": "मेडियाविकी र साइटोइड सेवाको पहुँचत विन्दु प्रदान गर्दछ",
