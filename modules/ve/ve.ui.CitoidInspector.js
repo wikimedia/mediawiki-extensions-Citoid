@@ -510,7 +510,7 @@ ve.ui.CitoidInspector.prototype.onLookupInputChange = function ( value ) {
 		this.lookupPromise.abort();
 		this.lookupPromise = null;
 	}
-	this.lookupButton.setDisabled( value === '' );
+	this.lookupButton.setDisabled( !value.trim() );
 };
 
 /**
