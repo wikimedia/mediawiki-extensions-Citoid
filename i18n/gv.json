@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"MacTire02"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Cur stiagh",
+	"citoid-citoiddialog-back": "Er ash",
+	"citoid-citoiddialog-credit": "Treishtit lesh $1",
+	"citoid-citoiddialog-mode-auto": "Seyr-obbragh",
+	"citoid-citoiddialog-mode-manual": "Er laueyn",
+	"citoid-citoiddialog-mode-reuse": "Jean aa-ymmyd",
+	"citoid-citoiddialog-search-placeholder": "m.s. http://www.example.com",
+	"citoid-citoiddialog-title": "Cur symney rish",
+	"citoid-citoiddialog-title-replace": "Cur symney elley stiagh",
+	"citoid-citoidtool-title": "Jean symney",
+	"citoid-citoidtool-title-othergroup": "Symney",
+	"citoid-referencecontextitem-convert-button": "Çhyndaa",
+	"citoid-referencecontextitem-convert-message": "Foddee oo ymmyd y yannoo jeh’n chramman \"{{int:citoid-referencecontextitem-convert-button}}\" sheese veih shoh dys imraa formaidit dy kiart veih kiangley mooie dy chroo.",
+	"citoid-unknown-error": "Haghyr marranys gyn enney chur lhiettrimys er crooaght symney. My sailt, prow eh reesht ny s’anmey.",
+	"citoid-wb-referenceview-tabs-automatic": "Seyr-obbragh",
+	"citoid-wb-referenceview-tabs-search": "ronsee",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ny QID:",
+	"citoid-wb-pendingdialog-error": "Cha row imraa so-ghientynagh veih ny va currit stiagh. Jean ymmyd jeh'n lipaid laue, ny prow eh shen reesht.",
+	"citoid-wb-pendingdialog-message": "Gientyn imraa dhyt... fuirree, my sailt...",
+	"citoid-wb-pendingdialog-title": "Gientyn Symney"
+}
