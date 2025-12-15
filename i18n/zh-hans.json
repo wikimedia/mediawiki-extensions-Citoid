@@ -32,7 +32,7 @@
 	"citoid-citoiddialog-title-replace": "替换引用",
 	"citoid-citoiddialog-use-general-error-message-title": "我们无法为您生成引用。",
 	"citoid-citoiddialog-use-general-error-message-body": "请尝试其他来源，或者手动创建。",
-	"citoid-citoiddialog-unsupported-media-type-message": "无法引用不支持的媒体类型，例如PDF、图像和视频文件。",
+	"citoid-citoiddialog-unsupported-media-type-message": "无法引用不支持的媒体类型，例如文本、图像和视频文件。",
 	"citoid-citoiddialog-reliability-back": "尝试新来源",
 	"citoid-citoiddialog-reliability-unreliable-description": "我们的社区认为此来源不可靠，因此不允许使用。请选择其他可靠来源。",
 	"citoid-citoiddialog-reliability-unreliable-title": "该网站已被屏蔽",
