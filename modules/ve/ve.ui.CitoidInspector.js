@@ -160,8 +160,8 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 		this.modePanels.reuse
 	] );
 
-	this.modeIndex.getTabPanel( 'auto' ).tabItem.setDisabled( !( this.templateTypeMap && this.serviceUrl ) );
-	this.defaultPanel = this.templateTypeMap ? 'auto' : 'manual';
+	this.modePanels.auto.tabItem.setDisabled( !this.serviceUrl || !this.templateTypeMap );
+	this.defaultPanel = this.modePanels.auto.tabItem.isDisabled() ? 'manual' : 'auto';
 
 	// Auto mode
 	this.autoProcessStack = new OO.ui.StackLayout( {
@@ -320,9 +320,9 @@ ve.ui.CitoidInspector.prototype.onModeIndexSet = function ( tabPanel ) {
  * @param {Object} [config] Mode-specific config
  */
 ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processPanelName, fromSelect, config ) {
-	if ( ![ 'auto', 'manual', 'reuse' ].includes( tabPanelName ) ) {
-		tabPanelName = this.defaultPanel;
-	} else if ( this.modeIndex.getTabPanel( tabPanelName ).tabItem.isDisabled() ) {
+	if ( !this.modeIndex.getTabPanel( tabPanelName ) ||
+		this.modeIndex.getTabPanel( tabPanelName ).tabItem.isDisabled()
+	) {
 		tabPanelName = this.defaultPanel;
 	} else if ( tabPanelName !== ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel ) ) {
 		ve.userConfig( 'citoid-mode', tabPanelName );
@@ -564,7 +564,7 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 			}
 
 			this.reuseSearch.setInternalList( this.getFragment().getDocument().getInternalList() );
-			this.modeIndex.getTabPanel( 'reuse' ).tabItem.setDisabled( this.reuseSearch.isIndexEmpty() );
+			this.modePanels.reuse.tabItem.setDisabled( this.reuseSearch.isIndexEmpty() );
 
 			if ( replaceRefNode ) {
 				this.referenceModel = ve.dm.MWReferenceModel.static.newFromReferenceNode( replaceRefNode );
