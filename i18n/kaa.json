@@ -2,10 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Ajiniyaz Nurniyazov",
-			"Nurlan"
+			"Nurlan",
+			"Janabaevazizbek"
 		]
 	},
 	"citoid-citoiddialog-back": "Artqa",
+	"citoid-citoiddialog-mode-auto": "Avtomat",
+	"citoid-citoiddialog-mode-manual": "Qol menen",
 	"citoid-citoiddialog-mode-reuse": "Qaytadan paydalanıw",
+	"citoid-citoiddialog-title": "Derek qosıw",
+	"citoid-citoidtool-title": "Derek",
 	"citoid-wb-referenceview-tabs-search": "izlew"
 }
