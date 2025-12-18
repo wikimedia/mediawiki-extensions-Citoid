@@ -131,7 +131,7 @@
 		} );
 
 		// Add each snak to listview after promise is complete
-		$.when.apply( $, snakPromises.map(
+		$.when( ...snakPromises.map(
 			( snakPromise ) => snakPromise.then( ( snak ) => {
 				lv.addItem( snak );
 				addSnakProm = true;
