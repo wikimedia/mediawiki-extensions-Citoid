@@ -16,7 +16,8 @@
 			"Mvolz",
 			"Reza1615",
 			"الناز",
-			"درفش کاویانی"
+			"درفش کاویانی",
+			"Arasteh"
 		]
 	},
 	"citoid-action-replace": "تغییر نوع ارجاع",
@@ -24,6 +25,7 @@
 	"citoid-citoiddialog-back": "بازگشت",
 	"citoid-citoiddialog-credit": "قدرت‌گرفته از $1",
 	"citoid-citoiddialog-lookup-button": "تولید",
+	"citoid-citoiddialog-manual-button": "افزودن دستی",
 	"citoid-citoiddialog-mode-auto": "خودکار",
 	"citoid-citoiddialog-mode-manual": "دستی",
 	"citoid-citoiddialog-mode-reuse": "استفادهٔ دوباره",
@@ -31,6 +33,7 @@
 	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
 	"citoid-citoiddialog-title": "افزودن یادکرد",
 	"citoid-citoiddialog-title-replace": "جایگزینی یادکرد",
+	"citoid-citoiddialog-use-general-error-message-title": "نتوانستیم یادکردی برای شما ایجاد کنیم.",
 	"citoid-citoiddialog-use-general-error-message-body": "منبعی دیگر را بیازمایید یا به‌صورت دستی یکی ایجاد کنید.",
 	"citoid-citoiddialog-reliability-back": "یک منبع جدید را امتحان کنید",
 	"citoid-citoiddialog-reliability-unreliable-title": "این وبگاه مسدود شده است",
