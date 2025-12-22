@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dr Lotus Black",
+			"Johannnes89",
 			"Ninjastrikers"
 		]
 	},
@@ -12,6 +13,9 @@
 	"citoid-citoiddialog-mode-auto": "အလိုအလျောက်",
 	"citoid-citoiddialog-mode-manual": "လက်ဖြင့်",
 	"citoid-citoiddialog-mode-reuse": "ပြန်လည်သုံး",
+	"citoid-citoiddialog-title": "ကိုးကားချက်တခု ပေါင်းထည့်ရန်",
+	"citoid-citoidtool-title": "ကိုးကားရန်",
+	"citoid-citoidtool-title-othergroup": "ကိုးကား",
 	"citoid-referencecontextitem-convert-button": "ပြောင်းပါ",
 	"citoid-wb-referenceview-tabs-automatic": "အလိုအလျောက်",
 	"citoid-wb-referenceview-tabs-search": "ရှာဖွေရန်"
