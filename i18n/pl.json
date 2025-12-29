@@ -26,6 +26,7 @@
 	"citoid-citoiddialog-use-general-error-message-title": "Nie udało nam się przygotować przypisu dla ciebie.",
 	"citoid-citoiddialog-use-general-error-message-body": "Spróbuj wykorzystać inne źródło albo utwórz przypis ręcznie.",
 	"citoid-citoiddialog-unsupported-media-type-message": "Pliki takie jak PDF, obrazy i nagrania nie są obsługiwane.",
+	"citoid-citoiddialog-unsupported-media-type-pdf": "Nie można wygenerować cytowania z plików PDF; nieobsługiwany rodzaj mediów",
 	"citoid-citoiddialog-reliability-back": "Wypróbuj nowe źródło",
 	"citoid-citoiddialog-reliability-unreliable-description": "To źródło jest uważane przez naszą społeczność za nierzetelne i dlatego jest niedozwolone. Wybierz inne, wiarygodne, źródło.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Ta strona jest zablokowana",
