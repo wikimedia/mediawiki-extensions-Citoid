@@ -27,6 +27,7 @@
 	"citoid-citoiddialog-use-general-error-message-title": "Ми не змогли створити для вас посилання на джерело.",
 	"citoid-citoiddialog-use-general-error-message-body": "Спробуйте вказати інше джерело або створити примітку вручну.",
 	"citoid-citoiddialog-unsupported-media-type-message": "Неможливо процитувати непідтримувані типи медіа, як-от текст, зображення та відеофайли.",
+	"citoid-citoiddialog-unsupported-media-type-pdf": "Неможливо цитувати PDF-файли; непідтримуваний тип медіафайлу",
 	"citoid-citoiddialog-reliability-back": "Спробуйте нове джерело",
 	"citoid-citoiddialog-reliability-unreliable-description": "Наша спільнота вважає це джерело ненадійним, тому його заборонено цитувати. Виберіть інше надійне джерело.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Цей сайт заблоковано",
