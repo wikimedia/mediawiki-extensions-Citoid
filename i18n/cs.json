@@ -26,7 +26,7 @@
 	"citoid-citoiddialog-title-replace": "Nahradit citaci",
 	"citoid-citoiddialog-use-general-error-message-title": "Nepodařilo se nám vytvořit citaci",
 	"citoid-citoiddialog-use-general-error-message-body": "Zkuste jiný zdroj nebo citaci vytvořte ručně.",
-	"citoid-citoiddialog-unsupported-media-type-message": "Není možné automaticky vytvořit citaci pro nepodporovaný typ média (soubor typu PDF, obrázek nebo video).",
+	"citoid-citoiddialog-unsupported-media-type-message": "Není možné automaticky vytvořit citaci pro nepodporovaný typ média (např. text, obrázek nebo video).",
 	"citoid-citoiddialog-reliability-back": "Zkusit nový zdroj",
 	"citoid-citoiddialog-reliability-unreliable-description": "Tento zdroj je komunitou považován za nespolehlivý, a proto nemůže být použit. Zvolte si, prosím, jiný, spolehlivý zdroj.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Tato stránka je blokována",
