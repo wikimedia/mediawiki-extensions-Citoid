@@ -30,6 +30,7 @@
 	"citoid-citoiddialog-use-general-error-message-title": "Vi kunde inte skapa en referens åt dig.",
 	"citoid-citoiddialog-use-general-error-message-body": "Testa en annan källa eller skapa en manuellt.",
 	"citoid-citoiddialog-unsupported-media-type-message": "Det går inte att citera medietyper som inte stöds, såsom text-, bild- och videofiler.",
+	"citoid-citoiddialog-unsupported-media-type-pdf": "Det går inte att citera PDF-filer; medietyp stöds inte",
 	"citoid-citoiddialog-reliability-back": "Testa en ny källa",
 	"citoid-citoiddialog-reliability-unreliable-description": "Denna källa anses vara opålitlig av din gemenskap och är därför inte tillåten. Välj en annan pålitlig källa.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Den här webbplatsen är blockerad",
