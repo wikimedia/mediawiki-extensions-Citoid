@@ -31,6 +31,7 @@
 	"citoid-citoiddialog-use-general-error-message-title": "Wij konden geen citaat voor u maken.",
 	"citoid-citoiddialog-use-general-error-message-body": "Probeer een andere bron of maak er handmatig een aan.",
 	"citoid-citoiddialog-unsupported-media-type-message": "Het is niet mogelijk om aan niet-ondersteunde mediatypen te refereren, zoals tekst, afbeeldingen en videobestanden.",
+	"citoid-citoiddialog-unsupported-media-type-pdf": "Kan geen PDF’s citeren; bestandstype niet ondersteund",
 	"citoid-citoiddialog-reliability-back": "Een nieuwe bron proberen",
 	"citoid-citoiddialog-reliability-unreliable-description": "Deze bron wordt door onze gemeenschap als onbetrouwbaar beschouwd en is daarom niet toegestaan. Kies een andere betrouwbare bron.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Deze site is geblokkeerd",

@@ -39,7 +39,7 @@
 	"citoid-desc": "Mahdollistaa citoid-palvelun käytön MediaWikissä",
 	"citoid-isbnscannerdialog-title": "Skannaa ISBN-viivakoodi",
 	"citoid-referencecontextitem-convert-button": "Muunna",
-	"citoid-referencecontextitem-convert-message": "Voit käyttää alla olevaa ”{{int:citoid-referencecontextitem-convert-button}}”-painiketta päivittääksesi viitteen ulkoisesta linkistä muoto-ohjeiden mukaiseksi viitteeksi.",
+	"citoid-referencecontextitem-convert-message": "Voit käyttää alla olevaa ”{{int:citoid-referencecontextitem-convert-button}}”-painiketta päivittääksesi lähdeviitteen ulkoisesta linkistä muoto-ohjeiden mukaiseksi lähdeviitteeksi.",
 	"citoid-unknown-error": "Viitteen luominen epäonnistui tuntemattomasta syystä. Yritä myöhemmin uudelleen.",
 	"citoid-wb-referenceview-tabs-automatic": "Automaattinen",
 	"citoid-wb-referenceview-tabs-search": "haku",
