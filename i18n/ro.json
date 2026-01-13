@@ -5,7 +5,8 @@
 			"Minisarm",
 			"NGC 54",
 			"Paloi Sciurala",
-			"Strainu"
+			"Strainu",
+			"Dimitrie569"
 		]
 	},
 	"citoid-action-replace": "Schimbă tipul referinței",
@@ -13,6 +14,7 @@
 	"citoid-citoiddialog-back": "Înapoi",
 	"citoid-citoiddialog-credit": "Realizat de $1",
 	"citoid-citoiddialog-lookup-button": "Generează",
+	"citoid-citoiddialog-manual-button": "Adaugă manual citarea",
 	"citoid-citoiddialog-mode-auto": "Automat",
 	"citoid-citoiddialog-mode-manual": "Manual",
 	"citoid-citoiddialog-mode-reuse": "Refolosire",
@@ -20,6 +22,7 @@
 	"citoid-citoiddialog-search-placeholder": "de ex.: http://www.example.com",
 	"citoid-citoiddialog-title": "Adaugă o citare",
 	"citoid-citoiddialog-title-replace": "Înlocuiește citarea",
+	"citoid-citoiddialog-use-general-error-message-title": "Nu am putut crea o citare pentru dumneavoastră.",
 	"citoid-citoidtool-title": "Citare",
 	"citoid-citoidtool-title-othergroup": "Referință",
 	"citoid-desc": "Oferă puncte de acces între serviciul citoid și MediaWiki",
