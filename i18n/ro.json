@@ -6,7 +6,8 @@
 			"NGC 54",
 			"Paloi Sciurala",
 			"Strainu",
-			"Dimitrie569"
+			"Dimitrie569",
+			"SZ475"
 		]
 	},
 	"citoid-action-replace": "Schimbă tipul referinței",
@@ -31,7 +32,7 @@
 	"citoid-unknown-error": "A intervenit o eroare necunoscută, care ne-a împiedicat să creăm referința. Încercați din nou mai târziu.",
 	"citoid-wb-referenceview-tabs-automatic": "Automat",
 	"citoid-wb-referenceview-tabs-search": "caută",
-	"citoid-wb-referenceview-tabs-search-label": "URL, DOI sau QID:",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN sau QID:",
 	"citoid-wb-pendingdialog-error": "Imposibil de generat o referință din această intrare. Utilizați fila manuală sau încercați din nou.",
 	"citoid-wb-pendingdialog-message": "Se generează o referință pentru dvs... vă rugăm să așteptați...",
 	"citoid-wb-pendingdialog-title": "Generare citare"
