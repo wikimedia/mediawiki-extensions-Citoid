@@ -5,8 +5,16 @@
 			"Janabaevazizbek"
 		]
 	},
+	"citoid-action-replace": "Булакты алмаштыруу",
 	"citoid-citation-widget-insert-button": "Кошуу",
 	"citoid-citoiddialog-back": "Артка",
+	"citoid-citoiddialog-lookup-button": "Түзүү",
 	"citoid-citoiddialog-mode-reuse": "Кайра колдонуу",
-	"citoid-citoidtool-title": "Булак"
+	"citoid-citoiddialog-title": "Булак келтирүү",
+	"citoid-citoiddialog-title-replace": "Булакты алмаштыруу",
+	"citoid-citoiddialog-reliability-unreliable-title": "Бул сайт бөгөттөлгөн",
+	"citoid-citoidtool-title": "Булак",
+	"citoid-citoidtool-title-othergroup": "Булак",
+	"citoid-wb-referenceview-tabs-search": "издөө",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN же QID:"
 }
