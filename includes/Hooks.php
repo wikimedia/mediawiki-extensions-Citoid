@@ -46,12 +46,21 @@ class Hooks implements
 
 		$vars['wgCitoidConfig'] = [
 			'citoidServiceUrl' => $citoidConfig->get( 'CitoidServiceUrl' ),
-			/** @deprecated since 1.45 */
+			/** @deprecated since 1.46 */
 			'fullRestbaseUrl' => $citoidConfig->get( 'CitoidFullRestbaseURL' ),
 			'isbnScannerEnabled' => $citoidConfig->get( 'CitoidIsbnScannerEnabled' ),
-			/** @deprecated since 1.45 */
+			/** @deprecated since 1.46 */
 			'wbFullRestbaseUrl' => $citoidConfig->get( 'WBCitoidFullRestbaseURL' ),
 		];
+
+		// Hard deprecate
+		if ( $vars['wgCitoidConfig']['wbFullRestbaseUrl'] ) {
+			wfDeprecated( '$wgWBCitoidFullRestbaseURL', '1.46' );
+		}
+
+		if ( $vars['wgCitoidConfig']['fullRestbaseUrl'] ) {
+			wfDeprecated( '$wgCitoidFullRestbaseURL', '1.46' );
+		}
 	}
 
 	/**
