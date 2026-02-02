@@ -19,7 +19,7 @@
 	"citoid-citoiddialog-title-replace": "Viite asendamine",
 	"citoid-citoiddialog-use-general-error-message-title": "Viidet ei õnnestunud koostada.",
 	"citoid-citoiddialog-use-general-error-message-body": "Proovi teist allikat või koosta viide käsitsi.",
-	"citoid-citoiddialog-unsupported-media-type-message": "Viidet ei saa koostada toetamata tüüpi faili põhjal, näiteks teksti, pildi- ega videofaili põhjal.",
+	"citoid-citoiddialog-unsupported-media-type-message": "Viidet ei saa koostada toetamata tüüpi faili põhjal, näiteks teksti-, pildi- ega videofaili põhjal.",
 	"citoid-citoiddialog-unsupported-media-type-pdf": "Ei saa viidata PDF-ile; toetamata failitüüp",
 	"citoid-citoiddialog-reliability-back": "Proovi teist allikat",
 	"citoid-citoiddialog-reliability-unreliable-description": "Kaastöölised peavad seda allikat ebausaldusväärseks ja allikas on seetõttu keelatud. Palun vali muu usaldusväärne allikas.",
