@@ -24,7 +24,7 @@
 	"citoid-citoiddialog-mode-auto": "Automatisch",
 	"citoid-citoiddialog-mode-manual": "Handmatig",
 	"citoid-citoiddialog-mode-reuse": "Hergebruiken",
-	"citoid-citoiddialog-search-label": "Voer een link of referentiecode in (ISBN, DOI of andere) om een bronvermelding aan te maken",
+	"citoid-citoiddialog-search-label": "Voer een koppeling of referentiecode in (ISBN, DOI of andere) om een bronvermelding aan te maken",
 	"citoid-citoiddialog-search-placeholder": "bijvoorbeeld http://www.example.com",
 	"citoid-citoiddialog-title": "Referentie invoegen",
 	"citoid-citoiddialog-title-replace": "Vervang referentie",
