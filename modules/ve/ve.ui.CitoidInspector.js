@@ -575,11 +575,15 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 			}
 
 			// Collapse returns a new fragment, so update this.fragment
-			if ( !data.replace ) {
+			if ( !data.replace ||
+				// T367910: Hard-coded exception to protect reference lists from being removed
+				this.getFragment().getSelectedNode() instanceof ve.dm.MWReferencesListNode
+			) {
 				this.fragment = this.getFragment().collapseToEnd().select();
 			}
 
-			this.reuseSearch.setInternalList( this.getFragment().getDocument().getInternalList() );
+			const fragment = this.getFragment();
+			this.reuseSearch.setInternalList( fragment.getDocument().getInternalList() );
 			this.modePanels.reuse.tabItem.setDisabled( this.reuseSearch.isIndexEmpty() );
 
 			if ( this.replaceRefNode ) {
@@ -591,7 +595,6 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 				if ( this.inDialog !== 'reference' ) {
 					this.staging++;
 					this.stagedReference = true;
-					const fragment = this.getFragment();
 					// Stage an empty reference
 					fragment.getSurface().pushStaging();
 
