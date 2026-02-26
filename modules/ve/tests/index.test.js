@@ -1417,7 +1417,7 @@ function testMaps( maps, citation, expected, assert ) {
 	// Set maps for this test
 	templateData.maps = maps;
 
-	transclusion.cacheTemplateDataApiResponse( { pages: { 0: templateData } } );
+	transclusion.cacheTemplateDataApiResponse( [ templateData ] );
 
 	// Make sure template can be added to transclusion
 	return transclusion.addPart( template ).then( () => {
