@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ayaat123"
+		]
 	},
 	"citoid-action-replace": "حَوالہٕ بَدلٲوِو",
 	"citoid-citation-widget-insert-button": "دَرٕج کٔرِو",
@@ -9,7 +11,7 @@
 	"citoid-citoiddialog-lookup-button": "تَخلیٖق",
 	"citoid-citoiddialog-mode-auto": "خودکار",
 	"citoid-citoiddialog-mode-manual": "دستی",
-	"citoid-citoiddialog-mode-reuse": "بیٚیِہ اِستِمال",
+	"citoid-citoiddialog-mode-reuse": "بیٚیہِ اِستِمال",
 	"citoid-citoiddialog-search-label": "یو آر ایل، ڈی او آے، آے ایس بی این، پی ایم سی/پی ایم آئی ڈی یا حَوالہٕ",
 	"citoid-citoiddialog-search-placeholder": "مِثال۔ http://www.example.com",
 	"citoid-citoiddialog-title": "حَوالہٕ دِیِو",

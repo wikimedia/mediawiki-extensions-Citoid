@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"GrogeXaKaba"
+		]
+	},
+	"citoid-action-replace": "Subustitui sitason",
+	"citoid-citation-widget-insert-button": "Dijita",
+	"citoid-citoiddialog-back": "Bolta",
+	"citoid-citoiddialog-credit": "Dizanvolvedu pa $1",
+	"citoid-citoiddialog-lookup-button": "Kiria",
+	"citoid-citoiddialog-manual-button": "Disona manualmenti",
+	"citoid-citoiddialog-mode-auto": "Otumátiku",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Rautiliza",
+	"citoid-citoiddialog-search-label": "Dijita un linki o kódi di rafirénsa (ISBN, DOI o otu) pa kiria un sitason",
+	"citoid-citoiddialog-search-placeholder": "Pa izénplu, http://www.example.com",
+	"citoid-citoiddialog-title": "Disona un sitason",
+	"citoid-citoiddialog-title-replace": "Subustitui sitason",
+	"citoid-citoiddialog-use-general-error-message-title": "Nu ka kunsigi kiria un sitason pa bo.",
+	"citoid-citoiddialog-use-general-error-message-body": "Tenta otu fonti o kiria un manualmenti.",
+	"citoid-citoiddialog-reliability-back": "Tenta un fonti nobu",
+	"citoid-citoiddialog-reliability-unreliable-description": "Es fonti é kunsideradu non kunfiávi pa nos kumunidadi i, puris, si uzu é pruibidu. Di sumóla, skodji un fonti kunfiávi diferenti.",
+	"citoid-citoiddialog-reliability-unreliable-title": "Es sáiti sta blokiadu",
+	"citoid-citoidtool-title": "Sita",
+	"citoid-citoidtool-title-othergroup": "Sitason",
+	"citoid-desc": "Ta furnisi pontus di asésu entri sirbisu Citoid i MídiaUiki",
+	"citoid-isbnscannerdialog-title": "Dijitaliza kódi di baras ISBN",
+	"citoid-referencecontextitem-convert-button": "Konverti",
+	"citoid-referencecontextitem-convert-message": "Bu podi uza buton \"{{int:citoid-referencecontextitem-convert\n-button}}\" dibaxu pa jiria un rafirénsa kuretamenti furmatadu désdi un linki stérnu.",
+	"citoid-unknown-error": "Okori un éru diskunxedu ki npidi-nu di kiria un sitason. Di sumóla, tenta otu bes más tardi.",
+	"citoid-wb-referenceview-tabs-automatic": "Otumátiku",
+	"citoid-wb-referenceview-tabs-search": "piskiza",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN o QID:",
+	"citoid-wb-pendingdialog-error": "Ka é pusívi jiria un rafirénsa ku es antrada. Uza gia manual o tenta otu bes."
+}
