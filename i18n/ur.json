@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"BukhariSaeed",
 			"Muhammad Shuaib",
 			"Obaid Raza",
 			"امین اکبر"
@@ -18,6 +19,8 @@
 	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
 	"citoid-citoiddialog-title": "حوالہ درج کریں",
 	"citoid-citoiddialog-title-replace": "حوالہ تبدیل کریں",
+	"citoid-citoiddialog-use-general-error-message-title": "جناب! ہم آپ کے لیے حوالہ تیار نہیں کرسکے۔",
+	"citoid-citoiddialog-use-general-error-message-body": "دوسرا ماخذ استعمال کیجیے یا دستی طور پر بنا لیں۔",
 	"citoid-citoidtool-title": "حوالہ درج کریں",
 	"citoid-citoidtool-title-othergroup": "حوالہ جات",
 	"citoid-isbnscannerdialog-title": "ISBN بارکوڈ اسکین کریں",
