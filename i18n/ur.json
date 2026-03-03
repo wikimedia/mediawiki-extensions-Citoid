@@ -3,7 +3,8 @@
 		"authors": [
 			"Muhammad Shuaib",
 			"Obaid Raza",
-			"امین اکبر"
+			"امین اکبر",
+			"BukhariSaeed"
 		]
 	},
 	"citoid-action-replace": "حوالہ کی نوعیت تبدیل کریں",
@@ -18,6 +19,7 @@
 	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
 	"citoid-citoiddialog-title": "حوالہ درج کریں",
 	"citoid-citoiddialog-title-replace": "حوالہ تبدیل کریں",
+	"citoid-citoiddialog-use-general-error-message-title": "جناب! ہم آپ کے لیے حوالہ تیار نہیں کرسکے۔",
 	"citoid-citoidtool-title": "حوالہ درج کریں",
 	"citoid-citoidtool-title-othergroup": "حوالہ جات",
 	"citoid-isbnscannerdialog-title": "ISBN بارکوڈ اسکین کریں",

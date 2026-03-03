@@ -3,7 +3,8 @@
 		"authors": [
 			"Red Winged Duck",
 			"Renessaince",
-			"Vlad5250"
+			"Vlad5250",
+			"Ucukor"
 		]
 	},
 	"citoid-action-replace": "Зьмяніць цытату",
@@ -12,7 +13,7 @@
 	"citoid-citoiddialog-credit": "Пры падтрымцы $1",
 	"citoid-citoiddialog-lookup-button": "Стварыць",
 	"citoid-citoiddialog-mode-auto": "Аўтаматычна",
-	"citoid-citoiddialog-mode-manual": "Уручную",
+	"citoid-citoiddialog-mode-manual": "Уласнаруч",
 	"citoid-citoiddialog-mode-reuse": "Паўторнае ўжываньне",
 	"citoid-citoiddialog-search-label": "Для стварэньня крыніцы ўвядзіце спасылку або код крыніцы (ISBN, DOI ці іншае)",
 	"citoid-citoiddialog-search-placeholder": "напрыклад http://www.example.com",
