@@ -581,7 +581,7 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 
 					// Insert an empty reference
 					this.referenceModel.insertInternalItem( fragment.getSurface() );
-					this.referenceModel.insertReferenceNode( fragment, true );
+					this.referenceModel.insertReferenceNode( fragment, { placeholder: true } );
 					fragment.select();
 				}
 			}
