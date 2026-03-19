@@ -41,16 +41,16 @@ ve.ui.CitoidReferenceContextItem.static.getConvertibleHref = function ( itemNode
  * @inheritdoc
  */
 ve.ui.CitoidReferenceContextItem.prototype.renderBody = function () {
-	const refNode = this.getReferenceNode();
+	const itemNode = this.getInternalItemNode();
 
 	// Parent method
 	ve.ui.CitoidReferenceContextItem.super.prototype.renderBody.call( this );
 
-	if ( !refNode || this.isReadOnly() || !ve.ui.mwCitoidMap ) {
+	if ( !itemNode || this.isReadOnly() || !ve.ui.mwCitoidMap ) {
 		return;
 	}
 
-	const convertibleHref = this.constructor.static.getConvertibleHref( refNode );
+	const convertibleHref = this.constructor.static.getConvertibleHref( itemNode );
 
 	if ( convertibleHref ) {
 		const convertButton = new OO.ui.ButtonWidget( {
