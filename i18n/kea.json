@@ -35,5 +35,7 @@
 	"citoid-wb-referenceview-tabs-automatic": "Otumátiku",
 	"citoid-wb-referenceview-tabs-search": "piskiza",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN o QID:",
-	"citoid-wb-pendingdialog-error": "Ka é pusívi jera un rafirénsa ku es antrada. Uza gia manual o tenta otu bes."
+	"citoid-wb-pendingdialog-error": "Ka é pusívi jera un rafirénsa ku es antrada. Uza gia manual o tenta otu bes.",
+	"citoid-wb-pendingdialog-message": "Rafirénsa sa-ta ser jeradu pa bo... di smóla, spera...",
+	"citoid-wb-pendingdialog-title": "Sitason sa-ta jeradu"
 }
