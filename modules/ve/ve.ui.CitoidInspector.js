@@ -300,6 +300,7 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 /**
  * Handle set events from mode index layout
  *
+ * @private
  * @param {OO.ui.TabPanelLayout} tabPanel Set tab panel
  */
 ve.ui.CitoidInspector.prototype.onModeIndexSet = function ( tabPanel ) {
@@ -314,6 +315,7 @@ ve.ui.CitoidInspector.prototype.onModeIndexSet = function ( tabPanel ) {
 /**
  * Switch to a specific mode panel
  *
+ * @private
  * @param {string} tabPanelName Panel name, 'auto', 'manual' or 'reuse'
  * @param {string} [processPanelName] Process panel name, 'lookup' or 'result'
  * @param {boolean} [fromSelect] Mode was changed by the select widget
@@ -398,6 +400,7 @@ ve.ui.CitoidInspector.prototype.setModePanel = function ( tabPanelName, processP
 /**
  * Handle source select choose events
  *
+ * @private
  * @param {OO.ui.OptionWidget} item Chosen item
  */
 ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
@@ -416,6 +419,7 @@ ve.ui.CitoidInspector.prototype.onSourceSelectChoose = function ( item ) {
 /**
  * Handle reuse search results choose events.
  *
+ * @private
  * @param {ve.dm.MWReferenceModel} ref Chosen item
  */
 ve.ui.CitoidInspector.prototype.onReuseSearchResultsReuse = function ( ref ) {
@@ -444,6 +448,7 @@ ve.ui.CitoidInspector.prototype.onReuseSearchResultsReuse = function ( ref ) {
 /**
  * Respond to preview select widget choose event
  *
+ * @private
  * @param {ve.ui.MWReferenceResultWidget} item Chosen item
  */
 ve.ui.CitoidInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) {
@@ -502,6 +507,7 @@ ve.ui.CitoidInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) 
 /**
  * Respond to change value of the search input.
  *
+ * @private
  * @param {string} value Current value
  */
 ve.ui.CitoidInspector.prototype.onLookupInputChange = function ( value ) {
@@ -515,6 +521,8 @@ ve.ui.CitoidInspector.prototype.onLookupInputChange = function ( value ) {
 
 /**
  * Handle enter events from the lookup input
+ *
+ * @private
  */
 ve.ui.CitoidInspector.prototype.onLookupInputEnter = function () {
 	if ( !this.lookupButton.isDisabled() ) {
@@ -524,6 +532,8 @@ ve.ui.CitoidInspector.prototype.onLookupInputEnter = function () {
 
 /**
  * Handle click events from the lookup button, perform lookup
+ *
+ * @private
  */
 ve.ui.CitoidInspector.prototype.onLookupButtonClick = function () {
 	this.executeAction( 'lookup' );
@@ -662,6 +672,8 @@ ve.ui.CitoidInspector.prototype.getTeardownProcess = function ( data ) {
 
 /**
  * Clear the search results
+ *
+ * @private
  */
 ve.ui.CitoidInspector.prototype.clearResults = function () {
 	this.results = [];
@@ -710,6 +722,7 @@ ve.ui.CitoidInspector.prototype.getActionProcess = function ( action ) {
 /**
  * Send a request to the citoid service
  *
+ * @private
  * @return {jQuery.Promise} Lookup promise
  */
 ve.ui.CitoidInspector.prototype.performLookup = function () {
@@ -830,6 +843,7 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 /**
  * Set the auto panel to the error-state
  *
+ * @private
  * @param {number} [xhr] xhr response object returned by Citoid server, or undefined
  */
 ve.ui.CitoidInspector.prototype.lookupFailed = function ( xhr ) {
@@ -860,6 +874,7 @@ ve.ui.CitoidInspector.prototype.lookupFailed = function ( xhr ) {
 /**
  * Insert filled template based on search results from citoid service
  *
+ * @private
  * @param {Object[]} searchResults Array of citation objects from citoid service
  * @return {jQuery.Promise} Promise that is resolved when the template part is added
  *  or is rejected if there are any problems with the template name or the internal item.
@@ -944,6 +959,7 @@ ve.ui.CitoidInspector.prototype.buildTemplateResults = function ( searchResults 
 /**
  * Fills template object parameters with values from the citation object
  *
+ * @private
  * @param {ve.dm.MWTemplateModel} template A template model to fill
  * @param {Object} citation An object that contains values to insert into template
  */
