@@ -21,7 +21,7 @@
 	"citoid-citoidtool-title-othergroup": "Referenca",
 	"citoid-desc": "Pruža tačke pristupa između usluge Citoid i MediaWikija",
 	"citoid-referencecontextitem-convert-button": "Pretvori",
-	"citoid-referencecontextitem-convert-message": "Kliknite na dugme „{{int:citoid-referencecontextitem-convert-button}}” da biste generirali pravilno formatiranu referencu od vanjskog linka.",
+	"citoid-referencecontextitem-convert-message": "Kliknite na dugme \"{{int:citoid-referencecontextitem-convert-button}}\" da biste generirali pravilno formatiranu referencu od vanjskog linka.",
 	"citoid-unknown-error": "Došlo je do nepoznate greške koja je spriječila generiranje reference. Pokušajte ponovo kasnije.",
 	"citoid-wb-referenceview-tabs-automatic": "Automatski",
 	"citoid-wb-referenceview-tabs-search": "traži",
