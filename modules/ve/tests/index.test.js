@@ -3,7 +3,12 @@
  * ve.ui.CitoidInspector.populateTemplate
  */
 
-QUnit.module( 'ext.citoid' );
+QUnit.module( 'ext.citoid', {
+	beforeEach: function () {
+		// See https://gerrit.wikimedia.org/r/1239743 for since when this global cache exists
+		ve.init.platform.templateDataCache = new ve.init.mw.TemplateDataCache();
+	}
+} );
 
 /* Functions */
 
@@ -1417,7 +1422,7 @@ function testMaps( maps, citation, expected, assert ) {
 	// Set maps for this test
 	templateData.maps = maps;
 
-	transclusion.cacheTemplateDataApiResponse( [ templateData ] );
+	ve.init.platform.templateDataCache.set( { 'Template:Cite web': templateData } );
 
 	// Make sure template can be added to transclusion
 	return transclusion.addPart( template ).then( () => {
