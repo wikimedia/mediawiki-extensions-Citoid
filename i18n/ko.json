@@ -9,6 +9,7 @@
 			"Namoroka",
 			"Revi",
 			"SeoJeongHo",
+			"Tensama0415",
 			"Ykhwong",
 			"아라"
 		]
@@ -18,6 +19,7 @@
 	"citoid-citoiddialog-back": "뒤로",
 	"citoid-citoiddialog-credit": "$1에 의해 제공",
 	"citoid-citoiddialog-lookup-button": "만들기",
+	"citoid-citoiddialog-manual-button": "수동으로 추가",
 	"citoid-citoiddialog-mode-auto": "자동",
 	"citoid-citoiddialog-mode-manual": "수동",
 	"citoid-citoiddialog-mode-reuse": "재사용",
