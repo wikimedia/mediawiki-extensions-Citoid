@@ -46,17 +46,17 @@ ve.ui.CitoidAction.static.methods = [ 'open' ];
  * @param {string} [options.lookup] URL to look up
  * @param {boolean} [options.inStaging=false] A staged change was made to the surface as part of
  *  opening the inspector, e.g. used to unwrap text in Template:Citation_needed_span
- * @return {boolean} Action was executed
+ * @return {boolean|jQuery.Promise} Action was executed; if a Promise, it'll resolve once the action is finished executing
  */
 ve.ui.CitoidAction.prototype.open = function ( options ) {
 	// Only for backwards compatibility with old callers outside of Citoid
 	if ( typeof options !== 'object' ) {
 		options = { replace: arguments[ 0 ], lookup: arguments[ 1 ], inStaging: arguments[ 2 ] };
 	}
-
 	options.inDialog = this.surface.getInDialog();
-	this.surface.execute( 'window', 'open', 'citoid', options );
-	return true;
+
+	const windowAction = ve.ui.actionFactory.create( 'window', this.surface, this.source );
+	return windowAction.open( 'citoid', options );
 };
 
 /* Registration */
