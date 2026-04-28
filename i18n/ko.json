@@ -27,6 +27,7 @@
 	"citoid-citoiddialog-search-placeholder": "예 http://www.example.com",
 	"citoid-citoiddialog-title": "인용 추가",
 	"citoid-citoiddialog-title-replace": "인용 대체",
+	"citoid-citoiddialog-reliability-unreliable-title": "이 사이트는 차단되었습니다",
 	"citoid-citoidtool-title": "인용",
 	"citoid-citoidtool-title-othergroup": "인용",
 	"citoid-desc": "Citoid 서비스와 미디어위키 사이의 액세스 포인트를 제공합니다",
