@@ -857,7 +857,7 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
  */
 ve.ui.CitoidInspector.prototype.lookupFailed = function ( xhr ) {
 	if ( xhr && xhr.status === 415 ) {
-		if ( xhr.responseJSON.contentType === 'application/pdf' ) {
+		if ( xhr.responseJSON.contentType.startsWith( 'application/pdf' ) ) {
 			this.$customErrorLabel.text( ve.msg( 'citoid-citoiddialog-unsupported-media-type-pdf' ) );
 		} else {
 			this.$customErrorLabel.text( ve.msg( 'citoid-citoiddialog-unsupported-media-type-message' ) );
