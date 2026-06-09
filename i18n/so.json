@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"citoid-action-replace": "Beddel xigashada",
+	"citoid-citation-widget-insert-button": "Rog",
+	"citoid-citoiddialog-back": "Dib u noqo",
+	"citoid-citoiddialog-credit": "Waxaa ku shaqeeya $1",
+	"citoid-citoiddialog-lookup-button": "Abuur",
+	"citoid-citoiddialog-manual-button": "Ku dar gacanta",
+	"citoid-citoiddialog-mode-auto": "Otomaatig ah",
+	"citoid-citoiddialog-mode-manual": "Gacanta",
+	"citoid-citoiddialog-mode-reuse": "Dib u isticmaal",
+	"citoid-citoiddialog-search-label": "Geli xiriiriye ama kood tixraac (ISBN, DOI ama mid kale) si aad u abuurto xigasho",
+	"citoid-citoiddialog-search-placeholder": "tusaale ahaan http://www.example.com",
+	"citoid-citoiddialog-title": "Ku dar xigasho",
+	"citoid-citoiddialog-title-replace": "Beddel xigashada",
+	"citoid-citoiddialog-use-general-error-message-title": "Waan kuu abuuri kari weynay xigasho.",
+	"citoid-citoiddialog-reliability-back": "Isku day il cusub",
+	"citoid-citoiddialog-reliability-unreliable-description": "Ishaani waxaa bulshadeennu u aragtaa mid aan la isku hallayn karin, sidaas darteed lama oggola. Fadlan dooro il kale oo lagu kalsoonaan karo.",
+	"citoid-citoiddialog-reliability-unreliable-title": "Goobtan waa la xannibay",
+	"citoid-citoidtool-title": "Xigasho",
+	"citoid-citoidtool-title-othergroup": "Xigasho",
+	"citoid-desc": "Waxay bixisaa meelaha lagu xiro adeegga citoid iyo MediaWiki",
+	"citoid-isbnscannerdialog-title": "Sawir barcode-ka ISBN",
+	"citoid-referencecontextitem-convert-button": "Beddel",
+	"citoid-referencecontextitem-convert-message": "Waxaad isticmaali kartaa badhanka \"{{int:citoid-referencecontextitem-convert-button}}\" ee hoose si aad uga sameyso tixraac si sax ah loo qaabeeyey oo ka yimid xiriiriyaha dibadda.",
+	"citoid-unknown-error": "Khalad aan la aqoon ayaa dhacay oo naga hor istaagay abuurista xigasho. Fadlan mar kale isku day hadhow.",
+	"citoid-wb-referenceview-tabs-automatic": "Otomaatig ah",
+	"citoid-wb-referenceview-tabs-search": "raadi",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ama QID:",
+	"citoid-wb-pendingdialog-error": "Lama abuuri karo tixraac xogtan laga helay. Isticmaal tab-ka gacanta ama mar kale isku day.",
+	"citoid-wb-pendingdialog-message": "Waxaa laguu abuurayaa tixraac... fadlan sug...",
+	"citoid-wb-pendingdialog-title": "Abuurista xigasho"
+}
