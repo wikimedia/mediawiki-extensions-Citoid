@@ -49,6 +49,7 @@ class Hooks implements
 			/** @deprecated since 1.46 */
 			'fullRestbaseUrl' => $citoidConfig->get( 'CitoidFullRestbaseURL' ),
 			'isbnScannerEnabled' => $citoidConfig->get( 'CitoidIsbnScannerEnabled' ),
+			'citoidPDFSupport' => (bool)$citoidConfig->get( 'CitoidPDFSupport' ),
 			/** @deprecated since 1.46 */
 			'wbFullRestbaseUrl' => $citoidConfig->get( 'WBCitoidFullRestbaseURL' ),
 		];

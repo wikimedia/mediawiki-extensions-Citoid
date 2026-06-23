@@ -109,6 +109,8 @@ ve.ui.CitoidInspector.prototype.initialize = function () {
 	// Full url to service
 	this.serviceUrl = mw.config.get( 'wgCitoidConfig' ).citoidServiceUrl;
 
+	this.pdfSupport = mw.config.get( 'wgCitoidConfig' ).citoidPDFSupport;
+
 	// Create full URL for service running behind Api Gateway or Restbase
 	if ( this.fullRestbaseUrl ) {
 		this.serviceUrl = this.fullRestbaseUrl + 'v1/data/citation/' + ve.ui.CitoidInspector.static.citoidFormat;
@@ -766,8 +768,9 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 	// hand off this abort method to the jquery promise
 
 	this.serviceConfig.ajax.url = this.serviceUrl + '/' + encodeURIComponent( search );
-
-	const citoidXhr = new mw.Api( this.serviceConfig ).get();
+	const citoidXhr = new mw.Api( this.serviceConfig ).get( {
+		'pdf-support': this.pdfSupport
+	} );
 	let reliabilityXhr;
 
 	this.lookupPromise = citoidXhr

@@ -221,6 +221,10 @@
 			},
 			"description": "Enable the ISBN scanner, per platform."
 		},
+		"CitoidPDFSupport": {
+			"value": false,
+			"description": "Temporary feature flag to enable PDF support on the citoid service for testing."
+		},
 		"WBCitoidFullRestbaseURL": {
 			"value": false,
 			"description": "Deprecated since 1.46. Use CitoidServiceUrl instead. Full url to use a citoid service running behind restbase, used by wikibase module/repository, i.e. https://en.wikipedia.org/api/rest_"
