@@ -3,7 +3,8 @@
 		"authors": [
 			"NMW03",
 			"Nemoralis",
-			"Wertuose"
+			"Wertuose",
+			"Əkrəm"
 		]
 	},
 	"citoid-action-replace": "İstinadı dəyiş",
@@ -13,7 +14,7 @@
 	"citoid-citoiddialog-lookup-button": "Yarat",
 	"citoid-citoiddialog-manual-button": "Manual əlavə et",
 	"citoid-citoiddialog-mode-auto": "Avtomatik",
-	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-manual": "Əllə",
 	"citoid-citoiddialog-mode-reuse": "Təkrar istifadə",
 	"citoid-citoiddialog-search-label": "İstinad yaratmaq üçün keçid və ya istinad kodu (ISBN, DOI və ya digər) daxil edin",
 	"citoid-citoiddialog-search-placeholder": "məs. http://www.example.com",
