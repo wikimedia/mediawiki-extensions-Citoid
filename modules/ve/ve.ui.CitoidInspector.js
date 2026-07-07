@@ -778,10 +778,10 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 				} else {
 					reliabilityXhr = $.Deferred().resolve().promise();
 				}
-				return reliabilityXhr.then( ( reliablityResults ) => {
+				return reliabilityXhr.then( ( reliabilityResults ) => {
 					let hasError = false;
 
-					if ( reliablityResults && reliablityResults.editcheckreferenceurl[ url ] === 'blocked' ) {
+					if ( reliabilityResults && reliabilityResults.editcheckreferenceurl[ url ] === 'blocked' ) {
 						const backButton = new OO.ui.ButtonWidget( {
 							flags: [ 'primary', 'progressive' ],
 							label: ve.msg( 'citoid-citoiddialog-reliability-back' )
