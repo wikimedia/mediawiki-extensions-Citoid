@@ -153,8 +153,9 @@ ve.ui.ISBNScannerDialog.prototype.getSetupProcess = function ( data ) {
 			this.torchToggle.setDisabled( true );
 			this.switchCameraButton.setDisabled( true );
 
-			this.setupPromise = mw.loader.using( 'quagga2' ).then( () => {
-				Quagga.CameraAccess.enumerateVideoDevices().then( ( devices ) => {
+			this.setupPromise = mw.loader.using( 'quagga2' )
+				.then( () => Quagga.CameraAccess.enumerateVideoDevices() )
+				.then( ( devices ) => {
 					this.devices = devices;
 
 					this.initCamera();
@@ -163,9 +164,10 @@ ve.ui.ISBNScannerDialog.prototype.getSetupProcess = function ( data ) {
 					Quagga.onProcessed( this.onProcessedListener );
 
 					this.switchCameraButton.setDisabled( this.devices.length < 2 );
-
-				} );
-			} );
+				} )
+				// Without this the dialog would sit empty forever if the device
+				// list can't be read.
+				.catch( ( err ) => this.showCameraError( err ) );
 		} );
 };
 
@@ -227,9 +229,7 @@ ve.ui.ISBNScannerDialog.prototype.initCamera = function () {
 	}, ( err ) => {
 		this.started = true;
 		if ( err ) {
-			OO.ui.alert( err ).then( () => {
-				this.close();
-			} );
+			this.showCameraError( err );
 			return;
 		}
 		Quagga.start();
@@ -250,6 +250,100 @@ ve.ui.ISBNScannerDialog.prototype.initCamera = function () {
 };
 
 /**
+ * Get the browser's camera permission state
+ *
+ * @return {Promise} Resolves with 'granted', 'denied' or 'prompt', or with null
+ *  if the browser won't tell us
+ */
+ve.ui.ISBNScannerDialog.prototype.getCameraPermissionState = function () {
+	// eslint-disable-next-line compat/compat
+	const permissions = navigator.permissions;
+	if ( !permissions ) {
+		// Older but still technically supported Safari, mostly
+		return Promise.resolve( null );
+	}
+	// If the browser doesn't know about "camera" it might throw
+	try {
+		return permissions.query( { name: 'camera' } )
+			.then( ( status ) => status.state, () => null );
+	} catch ( e ) {
+		return Promise.resolve( null );
+	}
+};
+
+/**
+ * Report a camera failure to the user
+ *
+ * Shown in this dialog rather than via OO.ui.alert, which opens on the global
+ * window manager and is rejected outright if anything else is open there.
+ *
+ * @param {Error} err Error from Quagga or getUserMedia
+ * @return {Promise} Resolves once the error is shown
+ */
+ve.ui.ISBNScannerDialog.prototype.showCameraError = function ( err ) {
+	const permissionError = err &&
+		( err.name === 'NotAllowedError' || err.name === 'SecurityError' );
+
+	if ( !permissionError ) {
+		// getUserMedia rejects with a DOMException, which has no renderable
+		// message, so always map it.
+		this.showErrors( new OO.ui.Error(
+			ve.msg( 'citoid-isbnscannerdialog-error', ( err && err.message ) || String( err ) ),
+			{ recoverable: false }
+		) );
+		return Promise.resolve();
+	}
+
+	// Which advice is correct depends on whether the browser will ask again, and
+	// only the permission state distinguishes that from a refused prompt.
+	return this.getCameraPermissionState().then( ( state ) => {
+		let message;
+		let recoverable = false;
+		switch ( state ) {
+			case 'prompt':
+				// Refused this time, but the browser will still ask again.
+				message = ve.msg( 'citoid-isbnscannerdialog-error-permission-prompt' );
+				recoverable = true;
+				break;
+			case 'denied':
+				// Turned off for this site, so only a settings change will help.
+				message = ve.msg( 'citoid-isbnscannerdialog-error-permission-denied' );
+				break;
+			case 'granted':
+				// Allowed, so something outside the browser is blocking the camera.
+				message = ve.msg( 'citoid-isbnscannerdialog-error-permission-granted' );
+				break;
+			default:
+				// Unknown, so give advice that covers being asked and the settings.
+				message = ve.msg( 'citoid-isbnscannerdialog-error-permission' );
+		}
+		this.showErrors( new OO.ui.Error( message, { recoverable } ) );
+	} );
+};
+
+/**
+ * @inheritdoc
+ */
+ve.ui.ISBNScannerDialog.prototype.onDismissErrorButtonClick = function () {
+	// Parent method
+	ve.ui.ISBNScannerDialog.super.prototype.onDismissErrorButtonClick.apply( this, arguments );
+
+	// The only errors we show are a dead camera, so dismissing should leave rather
+	// than reveal an empty viewport.
+	this.close();
+};
+
+/**
+ * @inheritdoc
+ */
+ve.ui.ISBNScannerDialog.prototype.onRetryButtonClick = function () {
+	// Deliberately not the parent method: it re-runs the last dialog action, but
+	// these errors are shown outside any action, so there is nothing to re-run.
+	this.hideErrors();
+	this.initCamera();
+};
+
+/**
  * @inheritdoc
  */
 ve.ui.ISBNScannerDialog.prototype.getTeardownProcess = function ( data ) {
@@ -257,7 +351,7 @@ ve.ui.ISBNScannerDialog.prototype.getTeardownProcess = function ( data ) {
 		.next( () => {
 			this.stopCamera();
 			Quagga.offDetected( this.onDetectedListener );
-			Quagga.offDetected( this.onProcessedListener );
+			Quagga.offProcessed( this.onProcessedListener );
 		} );
 };
 
