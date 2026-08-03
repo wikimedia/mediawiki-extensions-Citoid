@@ -30,6 +30,7 @@
 	"citoid-citoidtool-title": "اخځ",
 	"citoid-citoidtool-title-othergroup": "اخځونه",
 	"citoid-desc": "د سايټ‌ويډ او مېډياويکي ترمنځ د لاسرسي ټکی چمتو کوي.",
+	"citoid-isbnscannerdialog-error": "کمره نشوه پيل کېدای: $1",
 	"citoid-isbnscannerdialog-title": "آی‌اېس‌بي‌اېن بارکوډ ځيرکتل",
 	"citoid-referencecontextitem-convert-button": "ور اړول",
 	"citoid-referencecontextitem-convert-message": "تاسو د لاندې \"{{int:citoid-referencecontextitem-convert-button}}\"  تڼۍ په کارولو سره، کولی شئ؛ چې د بهرني وېبتړ څخه په سمه توگه بڼل شوې سرچينه جوړه کړئ.",
