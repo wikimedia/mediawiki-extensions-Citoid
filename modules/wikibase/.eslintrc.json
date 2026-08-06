@@ -5,5 +5,8 @@
 	},
 	"env": {
 		"commonjs": true
+	},
+	"rules": {
+		"no-jquery/no-jquery-ui": "warn"
 	}
 }
