@@ -4,12 +4,20 @@
 			"Bachounda"
 		]
 	},
-	"citoid-citoiddialog-lookup-button": "توليد",
+	"citoid-action-replace": "استبدال المرجع",
+	"citoid-citation-widget-insert-button": "ادخل",
+	"citoid-citoiddialog-back": "رجوع",
+	"citoid-citoiddialog-credit": "مدعوم من $1",
+	"citoid-citoiddialog-lookup-button": "أصنع",
+	"citoid-citoiddialog-manual-button": "زيد يدويًا",
 	"citoid-citoiddialog-mode-auto": "آلي",
 	"citoid-citoiddialog-mode-manual": "يدوي",
 	"citoid-citoiddialog-mode-reuse": "عاود استعملها",
-	"citoid-citoiddialog-search-label": "URL أولا DOI",
+	"citoid-citoiddialog-search-label": "دخل رابط ولا رمز مرجعي (ISBN، DOI أو غيره) باش تنشئ استشهاد.",
 	"citoid-citoiddialog-search-placeholder": "مثال: http://www.example.com",
+	"citoid-citoiddialog-title": "زيد استشهاد",
+	"citoid-citoiddialog-title-replace": "استبدال المرجع",
+	"citoid-citoiddialog-use-general-error-message-title": "We couldn't make a citation for you.",
 	"citoid-citoidtool-title": "استشهد",
 	"citoid-unknown-error": "خطأ  ماشي معروف راه صرا الشي اللي خلاكم تخلقو الريفرينس\nماذابيك عاود من بعد"
 }
