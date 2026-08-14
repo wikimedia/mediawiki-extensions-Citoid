@@ -22,6 +22,9 @@ ve.ui.CitoidInspector = function VeUiCitoidInspector( config ) {
 	this.inDialog = '';
 	this.currentAutoProcessPanel = null;
 
+	// T434945 Track the success of PDF source lookups
+	this.pdfSourceLookup = false;
+
 	this.$element.addClass( 've-ui-citoidInspector' );
 };
 
@@ -501,6 +504,9 @@ ve.ui.CitoidInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) 
 		if ( this.fromScan ) {
 			ve.track( 'activity.' + ve.ui.ISBNScannerDialog.static.name, { action: 'result-inserted' } );
 		}
+		if ( this.pdfSourceLookup ) {
+			ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-pdfsource-insert' } );
+		}
 
 		// Force a context change to show the correct context item as we may
 		// have changed from a plain reference to a templated citation
@@ -753,6 +759,8 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 		this.lookupInput.getValue()
 	);
 
+	this.pdfSourceLookup = search.toLowerCase().endsWith( '.pdf' );
+
 	// We have to first set up a get response so we can have
 	// a proper xhr object with "abort" method, so we can
 	// hand off this abort method to the jquery promise
@@ -807,6 +815,11 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 					return this.buildTemplateResults( searchResults )
 						.then( () => {
 							this.setModePanel( 'auto', 'result', false, { hasError: hasError } );
+
+							ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-build-success' } );
+							if ( this.pdfSourceLookup ) {
+								ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-pdfsource-build-success' } );
+							}
 						}, () => {
 							// Phabricator T363292
 							ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-fail-template-build' } );
@@ -878,6 +891,9 @@ ve.ui.CitoidInspector.prototype.lookupFailed = function ( xhr ) {
 
 	// Phabricator T363292
 	ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-fail' } );
+	if ( this.pdfSourceLookup ) {
+		ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-pdfsource-fail' } );
+	}
 };
 
 /**
