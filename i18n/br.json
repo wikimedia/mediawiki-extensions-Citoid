@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Adriendelucca",
+			"Ar choler",
 			"Fulup",
 			"Huñvreüs",
 			"Y-M D"
@@ -30,6 +31,11 @@
 	"citoid-citoidtool-title": "Menegiñ",
 	"citoid-citoidtool-title-othergroup": "Arroud",
 	"citoid-desc": "Pourveziñ a ra poentoù enmont etre servij citoid ha MediaWiki",
+	"citoid-isbnscannerdialog-error": "Dic'hallus eo bet enaouiñ ar c'hamera : $1",
+	"citoid-isbnscannerdialog-error-permission": "Evit skanniñ kod barrennoù un ISBN, aotreit al lec'hienn-mañ da dizhout ho kamera pa c'houlenn pe en arventennoù ho merdeer. Mar ne vennit ket aotren tizhout ho kamera e c'hallit bizskrivañ hoc'h-unan an ISBN er vaezienn testenn.",
+	"citoid-isbnscannerdialog-error-permission-denied": "Nac'het eo bet tizhout ar c'hamera evit al lec'hienn-mañ. Evit skanniñ kod barrennoù un ISBN, adweredekait ar c'hamera en arventennoù ho merdeer. Mar ne vennit ket aotren tizhout ho kamera e c'hallit bizskrivañ hoc'h-unan an ISBN er vaezienn testenn.",
+	"citoid-isbnscannerdialog-error-permission-granted": "Dic'hallus eo bet enaouiñ ar c'hamera. Gwirit n'eus ket un arload all ouzh he implijout, hag ez eo aotreet e implijout en arventennoù ho ardivink.",
+	"citoid-isbnscannerdialog-error-permission-prompt": "Evit skanniñ kod barrennoù un ISBN, aotreit al lec'hienn-mañ da dizhout ho kamera pa c'houlenn ho merdeer. Mar ne vennit ket aotren tizhout ho kamera e c'hallit bizskrivañ hoc'h-unan an ISBN er vaezienn testenn.",
 	"citoid-isbnscannerdialog-title": "Skannañ ar c'hod barrennoù ISBN",
 	"citoid-referencecontextitem-convert-button": "Amdreiñ",
 	"citoid-referencecontextitem-convert-message": "Gallout a rit implijout ar bouton \"{{int:citoid-referencecontextitem-convert-button}}\" a-is evit ober ur dave furmadet mat eus al liamm diavaez.",
