@@ -7,7 +7,8 @@
 			"Rail",
 			"Railfail536",
 			"Tar Lócesilion",
-			"Woytecr"
+			"Woytecr",
+			"PanWor"
 		]
 	},
 	"citoid-action-replace": "Zastąp przypis",
@@ -23,7 +24,7 @@
 	"citoid-citoiddialog-search-placeholder": "np. http://www.przyklad.com",
 	"citoid-citoiddialog-title": "Dodaj przypis",
 	"citoid-citoiddialog-title-replace": "Zastąp przypis",
-	"citoid-citoiddialog-use-general-error-message-title": "Nie udało nam się przygotować przypisu dla ciebie.",
+	"citoid-citoiddialog-use-general-error-message-title": "Nie udało nam się przygotować przypisu dla Ciebie.",
 	"citoid-citoiddialog-use-general-error-message-body": "Spróbuj wykorzystać inne źródło albo utwórz przypis ręcznie.",
 	"citoid-citoiddialog-unsupported-media-type-message": "Pliki takie jak PDF, obrazy i nagrania nie są obsługiwane.",
 	"citoid-citoiddialog-reliability-back": "Wypróbuj nowe źródło",
