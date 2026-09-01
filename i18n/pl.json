@@ -7,7 +7,8 @@
 			"Rail",
 			"Railfail536",
 			"Tar Lócesilion",
-			"Woytecr"
+			"Woytecr",
+			"PanWor"
 		]
 	},
 	"citoid-action-replace": "Zastąp przypis",
@@ -20,13 +21,13 @@
 	"citoid-citoiddialog-mode-manual": "Ręcznie",
 	"citoid-citoiddialog-mode-reuse": "Użyj istniejącego",
 	"citoid-citoiddialog-search-label": "Wprowadź link lub identyfikator źródła (np. ISBN, DOI i in.), aby utworzyć przypis",
-	"citoid-citoiddialog-search-placeholder": "np. http://www.przyklad.com",
+	"citoid-citoiddialog-search-placeholder": "np. https://www.example.com",
 	"citoid-citoiddialog-title": "Dodaj przypis",
 	"citoid-citoiddialog-title-replace": "Zastąp przypis",
-	"citoid-citoiddialog-use-general-error-message-title": "Nie udało nam się przygotować przypisu dla ciebie.",
+	"citoid-citoiddialog-use-general-error-message-title": "Nie udało nam się przygotować przypisu dla Ciebie.",
 	"citoid-citoiddialog-use-general-error-message-body": "Spróbuj wykorzystać inne źródło albo utwórz przypis ręcznie, korzystając z zakładki „{{int:citoid-citoiddialog-mode-manual}}” powyżej.",
 	"citoid-citoiddialog-reliability-back": "Wypróbuj nowe źródło",
-	"citoid-citoiddialog-reliability-unreliable-description": "To źródło jest uważane przez naszą społeczność za nierzetelne i dlatego jest niedozwolone. Wybierz inne, wiarygodne, źródło.",
+	"citoid-citoiddialog-reliability-unreliable-description": "To źródło jest uważane przez naszą społeczność za nierzetelne i dlatego jest niedozwolone. Wybierz inne wiarygodne źródło.",
 	"citoid-citoiddialog-reliability-unreliable-title": "Ta strona jest zablokowana",
 	"citoid-citoidtool-title": "Przypis",
 	"citoid-citoidtool-title-othergroup": "Przypisy",
@@ -39,6 +40,6 @@
 	"citoid-wb-referenceview-tabs-search": "szukaj",
 	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN lub QID:",
 	"citoid-wb-pendingdialog-error": "Nie udało się wygenerować przypisu z podanych danych. Użyj trybu ręcznego lub spróbuj ponownie.",
-	"citoid-wb-pendingdialog-message": "Generowanie przypisu... proszę czekać...",
+	"citoid-wb-pendingdialog-message": "Generowanie przypisu… proszę czekać…",
 	"citoid-wb-pendingdialog-title": "Generowanie przypisu"
 }
