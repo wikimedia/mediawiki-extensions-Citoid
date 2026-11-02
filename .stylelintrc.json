@@ -4,6 +4,6 @@
 		"stylelint-config-wikimedia/mediawiki"
 	],
 	"rules": {
-		"selector-class-pattern": "^(ve|wikibase|ext|mw|oo-ui|cdx|client|skin)-"
+		"wikimedia/selector-class-prefix": [ true, { "additionalPrefixes": [ "ve", "wikibase" ] } ]
 	}
 }
