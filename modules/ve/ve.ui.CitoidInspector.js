@@ -60,6 +60,17 @@ ve.ui.CitoidInspector.static.templateDataName = 'citoid';
  * @inheritable
  */
 ve.ui.CitoidInspector.static.citoidFormat = 'mediawiki';
+/**
+ * Set by CitoidService.requestFromPDF()  when the fetched URL's
+ * content type is application/pdf, unlike 'pdfSourceLookup',
+ * a client-side guess from the input URL. Used for pdffile
+ * tracking events.
+ *
+ * @static
+ * @property {string}
+ * @inheritable
+ */
+ve.ui.CitoidInspector.static.pdfFileSource = 'pdf-mvp';
 
 ve.ui.CitoidInspector.static.actions = [
 	{
@@ -82,6 +93,16 @@ ve.ui.CitoidInspector.static.actions = [
 ];
 
 /* Methods */
+
+/**
+ * @private
+ * @param {string[]|undefined} source Source array of a citoid result
+ * @return {boolean}
+ */
+ve.ui.CitoidInspector.prototype.isPdfFileSource = function ( source ) {
+	return Array.isArray( source ) &&
+		source.includes( this.constructor.static.pdfFileSource );
+};
 
 /**
  * @inheritdoc
@@ -510,6 +531,11 @@ ve.ui.CitoidInspector.prototype.onPreviewSelectWidgetChoose = function ( item ) 
 			ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-pdfsource-insert' } );
 		}
 
+		// T442557
+		if ( this.isPdfFileSource( this.results[ index ].source ) ) {
+			ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-pdffile-insert' } );
+		}
+
 		// Force a context change to show the correct context item as we may
 		// have changed from a plain reference to a templated citation
 		surfaceModel.emitContextChange();
@@ -823,6 +849,11 @@ ve.ui.CitoidInspector.prototype.performLookup = function () {
 							if ( this.pdfSourceLookup ) {
 								ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-pdfsource-build-success' } );
 							}
+							// T442557
+							if ( this.results.some( ( result ) => this.isPdfFileSource( result.source ) ) ) {
+								ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-pdffile-build-success' } );
+							}
+
 						}, () => {
 							// Phabricator T363292
 							ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-fail-template-build' } );
@@ -875,6 +906,8 @@ ve.ui.CitoidInspector.prototype.lookupFailed = function ( xhr ) {
 	if ( xhr && xhr.status === 415 ) {
 		if ( xhr.responseJSON.contentType.startsWith( 'application/pdf' ) ) {
 			this.$customErrorLabel.text( ve.msg( 'citoid-citoiddialog-unsupported-media-type-pdf' ) );
+			// T442557
+			ve.track( 'activity.' + this.constructor.static.name, { action: 'automatic-generate-pdffile-fail' } );
 		} else {
 			this.$customErrorLabel.text( ve.msg( 'citoid-citoiddialog-unsupported-media-type-message' ) );
 		}
