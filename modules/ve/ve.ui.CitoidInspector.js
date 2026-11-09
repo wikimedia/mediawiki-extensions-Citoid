@@ -357,10 +357,7 @@ ve.ui.CitoidInspector.prototype.setModePanel = function (
 		this.modeIndexLayout.getTabPanel( tabPanelName ).tabItem.isDisabled()
 	) {
 		tabPanelName = this.defaultPanel;
-	} else if ( tabPanelName !== ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel ) ) {
-		ve.userConfig( 'citoid-mode', tabPanelName );
 	}
-
 	if ( !fromTabSelect ) {
 		this.modeIndexLayout.setTabPanel( tabPanelName );
 	}
@@ -650,7 +647,7 @@ ve.ui.CitoidInspector.prototype.getSetupProcess = function ( data ) {
 				this.executeAction( 'lookup' );
 			}
 
-			this.modeIndexLayout.setTabPanel( data.lookup ? this.defaultPanel : ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel ) );
+			this.modeIndexLayout.setTabPanel( this.defaultPanel );
 		} );
 };
 
@@ -661,7 +658,7 @@ ve.ui.CitoidInspector.prototype.getReadyProcess = function ( data ) {
 	return ve.ui.CitoidInspector.super.prototype.getReadyProcess.call( this, data )
 		.next( () => {
 			// Set the panel after ready as it focuses the input too
-			const mode = data.lookup ? this.defaultPanel : ( ve.userConfig( 'citoid-mode' ) || this.defaultPanel );
+			const mode = this.defaultPanel;
 			this.setModePanel( mode, mode === 'auto' ? 'lookup' : undefined );
 
 			this.isActive = true;
