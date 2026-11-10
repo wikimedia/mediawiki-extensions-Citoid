@@ -189,7 +189,6 @@
 		"main": {
 			"class": "MediaWiki\\Extension\\Citoid\\Hooks",
 			"services": [
-				"ConfigFactory",
 				"ExtensionRegistry"
 			],
 			"optional_services": [
@@ -229,9 +228,6 @@
 			"value": false,
 			"description": "Deprecated since 1.46. Use CitoidServiceUrl instead. Full url to use a citoid service running behind restbase, used by wikibase module/repository, i.e. https://en.wikipedia.org/api/rest_"
 		}
-	},
-	"ConfigRegistry": {
-		"citoid": "MediaWiki\\Config\\GlobalVarConfig::newInstance"
 	},
 	"manifest_version": 2
 }

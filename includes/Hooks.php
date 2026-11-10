@@ -9,7 +9,6 @@
 namespace MediaWiki\Extension\Citoid;
 
 use MediaWiki\Config\Config;
-use MediaWiki\Config\ConfigFactory;
 use MediaWiki\Output\Hook\BeforePageDisplayHook;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
@@ -28,7 +27,6 @@ class Hooks implements
 {
 
 	public function __construct(
-		private readonly ConfigFactory $configFactory,
 		private readonly ExtensionRegistry $extensionRegistry,
 		private readonly ?EntityNamespaceLookup $entityNamespaceLookup,
 		private readonly ?MobileContext $mobileContext,
@@ -42,16 +40,14 @@ class Hooks implements
 	 * @param Config $config
 	 */
 	public function onResourceLoaderGetConfigVars( array &$vars, $skin, Config $config ): void {
-		$citoidConfig = $this->configFactory->makeConfig( 'citoid' );
-
 		$vars['wgCitoidConfig'] = [
-			'citoidServiceUrl' => $citoidConfig->get( 'CitoidServiceUrl' ),
+			'citoidServiceUrl' => $config->get( 'CitoidServiceUrl' ),
 			/** @deprecated since 1.46 */
-			'fullRestbaseUrl' => $citoidConfig->get( 'CitoidFullRestbaseURL' ),
-			'isbnScannerEnabled' => $citoidConfig->get( 'CitoidIsbnScannerEnabled' ),
-			'citoidPDFSupport' => (bool)$citoidConfig->get( 'CitoidPDFSupport' ),
+			'fullRestbaseUrl' => $config->get( 'CitoidFullRestbaseURL' ),
+			'isbnScannerEnabled' => $config->get( 'CitoidIsbnScannerEnabled' ),
+			'citoidPDFSupport' => (bool)$config->get( 'CitoidPDFSupport' ),
 			/** @deprecated since 1.46 */
-			'wbFullRestbaseUrl' => $citoidConfig->get( 'WBCitoidFullRestbaseURL' ),
+			'wbFullRestbaseUrl' => $config->get( 'WBCitoidFullRestbaseURL' ),
 		];
 
 		// Hard deprecate
